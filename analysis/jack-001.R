@@ -11,4 +11,4 @@ meta_df$location %>%
 meta_df$lat <- as.numeric(locations_str_matched[,2])
 meta_df$long <- -as.numeric(locations_str_matched[,3])
 
-save.csv("../data/project-mosquito_sample-table_cleaned.csv")
+write.csv(meta_df, "../data/project-mosquito_sample-table_cleaned.csv")

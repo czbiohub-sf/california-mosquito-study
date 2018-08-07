@@ -17,4 +17,4 @@ map.points <- geom_point(data=freq_table,
                              color="red")
 initial_map <- map + map.points
 
-ggsave("../figures/initial_map.pdf", initial_map, width=5, height=5)
+ggsave("../../figures/initial_map.pdf", initial_map, width=5, height=5)

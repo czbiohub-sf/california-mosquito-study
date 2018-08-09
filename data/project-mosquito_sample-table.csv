@@ -8,7 +8,400 @@ CMS-082_RNA_A_S9,,2018-02-06 17:57:49 -0800,7514.0,COMPLETE,55151546,552446,1.00
 CMS-083_RNA_A_S10,,2018-02-06 17:57:49 -0800,13590.0,COMPLETE,56742820,907258,1.599,85.134,1.2,,RNA,Alameda,Mosquito,"Wuhan Mosquito Virus, Calbertado virus"
 CMS-086_RNA_A_S11,Kalani Ratnasiri,2018-02-06 17:54:23 -0800,16084.0,COMPLETE,50066188,1180950,2.359,80.062,1.24,,,,Mosquito,
 CMS_001_RNA_A_S1,,2018-03-25 21:38:09 -0700,8691.0,COMPLETE,26717044,942568,3.528,86.63,1.48,Insect engorged abdomen,RNA,37.556970_-122.079380,Mosquito,Culex erythrothorax_10/03/17_Coyotes Hills_HubeiMosquitoVirus4-WenzhouTombusLike11-HubeiVirgaLike2_Providencia_Trypanosome_rodent
+CMS_002_10a_Rb_S119_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,4406.0,COMPLETE,89358216,63970,0.072,65.525,4.59,whole mosquito,RNA,"32.7981529, -116.9544084",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y"
+CMS_002_13a_Rb_S120_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,4350.0,COMPLETE,76144326,125128,0.164,43.775,1.7,whole mosquito,RNA,"32.7996185, -116.9393203",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y"
+CMS_002_16a_Rb_S121_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,7488.0,COMPLETE,81220802,5696,0.007,90.124,8.32,whole mosquito,RNA,"32.7152395, -117.1148424",Mosquito,"Super clean sample surprisingly few non-host reads
+- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: N"
+CMS_002_17a_Rb_S122_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,7949.0,COMPLETE,75330508,177954,0.236,89.022,7.19,whole mosquito,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_17b_Rb_S123_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,13905.0,COMPLETE,77087486,198902,0.258,92.203,7.39,whole mosquito,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_17c_Rb_S124_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,7839.0,COMPLETE,66242378,184544,0.279,90.75,7.0,whole mosquito,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_17d_Rb_S125_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,6846.0,COMPLETE,50709076,286214,0.564,95.356,5.34,whole mosquito,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_17e_Rb_S126_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,8317.0,COMPLETE,61930896,25380,0.041,91.263,6.26,whole mosquito,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_18a_Rb_S128_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,5669.0,COMPLETE,53659794,44084,0.082,78.192,7.89,whole mosquito,RNA,"32.6952215, -117.1221922",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 2
+- Sex: females
+- Blood fed: N"
+CMS_002_18b_Rb_S129_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,13282.0,COMPLETE,89837146,253780,0.282,92.601,6.94,whole mosquito,RNA,"32.6952215, -117.1221922",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 2
+- Sex: females
+- Blood fed: N"
+CMS_002_19a_Rb_S130_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,9282.0,COMPLETE,71919820,233550,0.325,90.867,6.89,whole mosquito,RNA,"32.760258, -117.0813933",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: N"
+CMS_002_1a_Rb_S116_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,3543.0,COMPLETE,54921592,119862,0.218,52.05,2.89,whole mosquito,RNA,"32.7962659, -116.9594824",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y"
+CMS_002_20a_Rb_S131_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,5523.0,COMPLETE,66177444,915524,1.383,90.098,3.31,whole mosquito,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_20b_Rb_S132_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,6342.0,COMPLETE,119173142,365056,0.306,89.33,7.47,whole mosquito,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_20c_Rb_S133_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,7768.0,COMPLETE,126641370,452576,0.357,87.554,7.79,whole mosquito,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_20d_Rb_S134_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,3329.0,COMPLETE,31922362,259926,0.814,92.483,3.96,whole mosquito,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_20e_Rb_S135_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,5000.0,COMPLETE,74164868,554222,0.747,88.483,4.27,whole mosquito,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_21a_Rb_S136_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,14631.0,COMPLETE,94039124,1271478,1.352,86.528,3.34,whole mosquito,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: N"
+CMS_002_22a_Rb_S137_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,4233.0,COMPLETE,94157694,120854,0.128,55.497,3.3,whole mosquito,RNA,"32.552783, -117.0559469",Mosquito,"- id_method : Freeze
+- genus_species: Cx. Quing
+- Number of mosquitos: 2
+- Sex: females
+- Blood fed: N"
+CMS_002_23a_Rb_S138_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,3822.0,COMPLETE,54787968,116540,0.213,58.31,2.25,whole mosquito,RNA,"32.5928337, -117.0575668",Mosquito,"- id_method : Freeze
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: N"
+CMS_002_25a_Rb_S140_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,3223.0,COMPLETE,18885656,2640,0.014,92.381,4.26,whole mosquito,RNA,"32.5928337, -117.0575668",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N"
+CMS_002_25b_Rb_S141_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,4670.0,COMPLETE,25645770,1646,0.006,95.546,5.37,whole mosquito,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N"
+CMS_002_25c_Rb_S142_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,8382.0,COMPLETE,85740778,6354,0.007,95.406,8.35,whole mosquito,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N"
+CMS_002_25d_Rb_S143_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,5065.0,COMPLETE,35087042,2336,0.007,92.336,6.76,whole mosquito,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N"
+CMS_002_25e_Rb_S144_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,9061.0,COMPLETE,88720312,8254,0.009,90.692,8.17,whole mosquito,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N"
+CMS_002_25f_Rb_S145_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,7241.0,COMPLETE,78690306,2770,0.004,93.369,11.66,whole mosquito,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N"
+CMS_002_26a_Rb_S146_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,4256.0,COMPLETE,37269798,21730,0.058,93.704,6.27,whole mosquito,RNA,"34.155852, -117.666926",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_26b_Rb_S147_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,5169.0,COMPLETE,56506648,29168,0.052,93.42,7.09,whole mosquito,RNA,"34.150853, -117.642917",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 8
+- Blood fed: N"
+CMS_002_26c_Rb_S148_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,5774.0,COMPLETE,60679324,49700,0.082,93.939,7.27,whole mosquito,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_26d_Rb_S149_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,7584.0,COMPLETE,96884414,71742,0.074,96.631,10.47,whole mosquito,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_26e_Rb_S150_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,5492.0,COMPLETE,61840756,37974,0.061,93.738,7.82,whole mosquito,RNA,,Mosquito,""
+CMS_002_27a_Rb_S152_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,3074.0,COMPLETE,37243342,64288,0.173,56.027,3.6,whole mosquito,RNA,"34.150853, -117.642917",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 8
+- Blood fed: N"
+CMS_002_27b_Rb_S153_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,6155.0,COMPLETE,83431474,284386,0.341,86.627,4.04,whole mosquito,RNA,"34.150853, -117.642917",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 8
+- Blood fed: N"
+CMS_002_28a_Rb_S154_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,6037.0,COMPLETE,78859068,136002,0.172,81.292,3.26,whole mosquito,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_28b_Rb_S155_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,9601.0,COMPLETE,109203686,168320,0.154,57.83,2.5,whole mosquito,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_28c_Rb_S156_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,10189.0,COMPLETE,91267932,157970,0.173,52.843,2.9,whole mosquito,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_28d_Rb_S157_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,7187.0,COMPLETE,97823918,201622,0.206,38.375,2.5,whole mosquito,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_28e_Rb_S158_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,12021.0,COMPLETE,124739806,784326,0.629,54.976,2.13,whole mosquito,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_29a_Rb_S159_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,11192.0,COMPLETE,93293792,435138,0.466,78.214,3.34,whole mosquito,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_29b_Rb_S160_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6660.0,COMPLETE,85392072,207544,0.243,85.256,3.35,whole mosquito,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_29c_Rb_S161_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,9936.0,COMPLETE,93413514,265974,0.285,86.27,5.19,whole mosquito,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_29d_Rb_S162_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,7762.0,COMPLETE,78476036,433564,0.552,78.66,3.7,whole mosquito,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_29e_Rb_S164_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,3768.0,COMPLETE,25660162,197020,0.768,80.455,1.44,whole mosquito,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_31a_Rb_S165_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6163.0,COMPLETE,46150948,331158,0.718,83.11,1.95,whole mosquito,RNA,"33.516797, -116.082468",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_32a_Rb_S166_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6018.0,COMPLETE,63556578,545048,0.858,81.165,1.61,whole mosquito,RNA,"33.516797, -116.082468",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 6
+- Sex: males
+- Blood fed: N"
+CMS_002_33a_Rb_S167_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,10252.0,COMPLETE,71357226,476968,0.668,63.419,1.65,whole mosquito,RNA,"33.569223, -116.079206",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_34a_Rb_S168_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,5533.0,COMPLETE,38621804,170514,0.441,63.211,2.04,whole mosquito,RNA,"33.569223, -116.079206",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 4
+- Sex: males
+- Blood fed: N"
+CMS_002_35a_Rb_S169_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,11212.0,COMPLETE,73951030,696632,0.942,64.218,1.6,whole mosquito,RNA,"33.539988, -116.078863",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_36a_Rb_S170_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,4387.0,COMPLETE,37781352,296514,0.785,85.044,1.48,whole mosquito,RNA,"33.539988, -116.078863",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: males
+- Blood fed: N"
+CMS_002_37a_Rb_S171_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,9830.0,COMPLETE,97570774,419892,0.43,47.535,2.8,whole mosquito,RNA,"33.463593, -116.074278",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_38a_Rb_S172_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,10255.0,COMPLETE,92324952,594172,0.644,88.372,2.85,whole mosquito,RNA,"33.52908, -116.035213",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_39a_Rb_S173_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,9924.0,COMPLETE,75161228,381782,0.508,67.821,1.62,whole mosquito,RNA,"33.532468, -116.060957",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_40a_Rb_S174_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,7737.0,COMPLETE,65632852,382894,0.583,71.106,1.74,whole mosquito,RNA,"33.532468, -116.060957",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: males
+- Blood fed: N"
+CMS_002_41a_Rb_S176_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,5896.0,COMPLETE,49581704,260134,0.525,69.807,1.83,whole mosquito,RNA,"33.510767, -115.920793",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_42a_Rb_S177_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,3169.0,COMPLETE,34365364,74386,0.216,70.464,1.38,whole mosquito,RNA,"33.525475, -115.956632",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N"
+CMS_002_44a_Rb_S178_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,5983.0,COMPLETE,51576844,6542,0.013,91.528,6.93,whole mosquito,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_44b_Rb_S179_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,5648.0,COMPLETE,38526446,2720,0.007,92.912,5.5,whole mosquito,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_44c_Rb_S180_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,8831.0,COMPLETE,93622432,6160,0.007,92.407,8.74,whole mosquito,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_44d_Rb_S181_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,10852.0,COMPLETE,111230412,14636,0.013,95.861,8.46,whole mosquito,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_44e_Rb_S182_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6890.0,COMPLETE,50807004,5984,0.012,93.859,5.32,whole mosquito,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_45a_Rb_S183_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6376.0,COMPLETE,88956902,63638,0.072,89.776,9.36,whole mosquito,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N"
+CMS_002_45b_Rb_S184_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,7287.0,COMPLETE,62566848,53948,0.086,94.055,6.81,whole mosquito,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N"
+CMS_002_45c_Rb_S185_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6799.0,COMPLETE,53689962,108182,0.201,94.988,7.07,whole mosquito,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N"
+CMS_002_45d_Rb_S186_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,8419.0,COMPLETE,54817098,195656,0.357,91.558,6.61,whole mosquito,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N"
+CMS_002_45e_Rb_S188_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,1493.0,COMPLETE,44910420,246882,0.55,94.696,5.78,whole mosquito,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N"
+CMS_002_45f_Rb_S189_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,4523.0,COMPLETE,34302400,23806,0.069,95.368,6.01,whole mosquito,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N"
+CMS_002_45g_Rb_S190_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,4843.0,COMPLETE,43011038,104394,0.243,94.871,5.82,whole mosquito,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N"
+CMS_002_46a_Rb_S191_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6033.0,COMPLETE,99761686,149546,0.15,32.313,2.52,whole mosquito,RNA,"33.9725, -117.714444",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_46b_Rb_S192_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6112.0,COMPLETE,86797744,132706,0.153,34.412,1.93,whole mosquito,RNA,"33.9725, -117.714444",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_47a_Rb_S193_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,7738.0,COMPLETE,75891160,184124,0.243,54.775,2.29,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47b_Rb_S194_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,4316.0,COMPLETE,35774292,69850,0.195,65.108,1.34,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47c_Rb_S195_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,8072.0,COMPLETE,76639662,170456,0.222,65.951,2.16,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47d_Rb_S196_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,8567.0,COMPLETE,84501126,225434,0.267,59.908,1.84,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47e_Rb_S197_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,8237.0,COMPLETE,77821980,209400,0.269,87.201,2.85,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47f_Rb_S198_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,7429.0,COMPLETE,55260394,166982,0.302,56.532,2.07,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47g_Rb_S200_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,4379.0,COMPLETE,32029932,159674,0.499,47.51,1.81,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47h_Rb_S1_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,5847.0,COMPLETE,54254598,121326,0.224,53.9,1.75,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47i_Rb_S2_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6695.0,COMPLETE,54727762,137188,0.251,63.096,2.62,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_47j_Rb_S3_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6956.0,COMPLETE,66671224,165822,0.249,49.588,1.67,whole mosquito,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N"
+CMS_002_49a_Rb_S4_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,5937.0,COMPLETE,55951408,91456,0.163,65.043,2.55,whole mosquito,RNA,"38.739939, -121.305636",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 3
+- Blood fed: N"
+CMS_002_4a_Rb_S117_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,4251.0,COMPLETE,54382586,37814,0.07,87.469,5.46,whole mosquito,RNA,"32.7991943, -116.9193062",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y"
+CMS_002_50a_Rb_S5_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,3205.0,COMPLETE,40223370,12948,0.032,37.244,3.56,whole mosquito,RNA,"38.824306, -121.257067",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS_002_51a_Rb_S6_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6836.0,COMPLETE,81237864,174164,0.214,26.876,1.73,whole mosquito,RNA,"38.897572, -121.311747",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 5
+- Blood fed: N"
+CMS_002_53a_Rb_S7_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,10664.0,COMPLETE,150000000,1602476,1.068,91.182,2.09,whole mosquito,RNA,"38.836781, -121.39119",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS_002_54a_Rb_S8_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,6123.0,COMPLETE,75446550,104022,0.138,49.154,1.44,whole mosquito,RNA,"38.772222, -121.4695",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS_002_56a_Rb_S9_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,8843.0,COMPLETE,38502368,456148,1.185,82.243,1.64,whole mosquito,RNA,"38.787211, -121.372895",Mosquito,"- id_method : FREEZE
+- genus_species: Cx. Tarsalis 
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS_002_57a_Rb_S10_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,5370.0,COMPLETE,52687788,67558,0.128,75.484,3.38,whole mosquito,RNA,"38.787211, -121.372895",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS_002_7a_Rb_S118_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,9921.0,COMPLETE,91089974,877042,0.963,85.612,4.42,whole mosquito,RNA,"32.7856362, -116.9887078",Mosquito,"Tongilchon virus 1 & North Creek virus & Riverside  = unclassified rhabdoviridae  (PMID 28943405) - use all these to seed PRICE assembly
+- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y"
 CMS_002_RNA_A_S1,,2018-04-15 09:23:02 -0700,10891.0,COMPLETE,31503742,408700,1.297,59.479,1.32,Insect engorged abdomen,RNA,37.556970_-122.079380,Mosquito,Culex tarsalis_09/21/17_Coyotes Hills_
+CMS_002_Water1_Rb_S127_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,2675.0,COMPLETE,247124,4582,1.854,48.426,1.34,water,RNA,,Mosquito,""
+CMS_002_Water2_Rb_S139_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,2972.0,COMPLETE,190334,3170,1.665,36.806,1.25,water,RNA,,Mosquito,""
+CMS_002_Water3_Rb_S151_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,2973.0,COMPLETE,175490,2718,1.549,37.198,1.27,water,RNA,,Mosquito,""
+CMS_002_Water4_Rb_S163_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,2136.0,COMPLETE,168186,3322,1.975,34.293,1.27,water,RNA,,Mosquito,""
+CMS_002_Water5_Rb_S175_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,3546.0,COMPLETE,273804,6802,2.484,57.312,1.39,water,RNA,,Mosquito,""
+CMS_002_Water6_Rb_S187_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,2109.0,COMPLETE,51178,940,1.837,34.794,1.19,water,RNA,,Mosquito,""
+CMS_002_Water7_Rb_S199_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,3235.0,COMPLETE,184738,2786,1.508,35.927,1.3,water,RNA,,Mosquito,""
+CMS_002_Water8_Rb_S11_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,2935.0,COMPLETE,4534,210,4.632,61.29,1.14,water,RNA,,Mosquito,""
 CMS_003_RNA_A_S2,,2018-03-25 21:38:09 -0700,7523.0,COMPLETE,27436684,400340,1.459,90.187,2.18,Insect engorged abdomen,RNA,37.556970_-122.079380,Mosquito,Culex particepts_09/19/17_Coyotes Hills_Anphevirus-CulexMononegaLike1-CulexMononegaLike2-OtherDivergentMonegaviruses_Acinobacter-Gilliamella-Anaplasma_Trichinella:PlasmodiumOvale_FarmAnimals-Homo?
 CMS_004_RNA_A_S2,,2018-04-15 09:23:02 -0700,7209.0,COMPLETE,35584846,56994,0.16,69.895,2.26,Insect engorged abdomen,RNA,37.715200_-122.194310,Mosquito,Culex pipiens_09/12/17_San Leandro Sewer_
 CMS_005_RNA_A_S3,,2018-03-25 21:38:10 -0700,7546.0,COMPLETE,36030436,658158,1.827,90.315,2.36,Insect engorged abdomen,RNA,37.788860_-122.299030,Mosquito,Culex incidens_09/29/17_Officers Club_EnvironmentaldsRNAvirus-WuhanMosquitoVirus8-ImjinRiver_Acinobacter_Trichinella_FarmAnimals_Homo?
@@ -89,6 +482,18 @@ FREZtarsHEAD05_DNA_S8,,2017-10-02 16:12:18 -0700,65708.0,COMPLETE,101079952,2950
 FREZtarsHEAD05_RNA_S1,,2017-10-02 16:12:27 -0700,8493.0,COMPLETE,60760662,489282,0.805,43.956,1.34,Insect head,,,Mosquito,
 FREZtarsHEAD20_DNA_S10,,2017-10-02 16:12:37 -0700,70326.0,COMPLETE,59150136,18876628,31.913,70.316,1.03,Insect head,,,Mosquito,
 FREZtarsHEAD20_RNA_S6,,2017-10-02 16:12:44 -0700,11689.0,COMPLETE,81876908,1211386,1.48,46.875,1.58,Insect head,,,Mosquito,Mosquito Head
+MOS01_01_W_R_S1,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,2456.0,COMPLETE,2148868,10562,0.492,44.098,1.59,,,,Mosquito,
+MOS01_06_H_R_S2,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,2527.0,COMPLETE,6608450,16800,0.254,62.872,1.52,,,,Mosquito,
+MOS01_14_A_R_S3,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,3220.0,COMPLETE,3439462,59734,1.737,82.688,1.2,,,,Mosquito,
+MOS01_19_W_R_S4,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,1955.0,COMPLETE,1732484,8876,0.512,46.891,1.11,,,,Mosquito,
+MOS01_24_H_R_S5,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,2851.0,COMPLETE,2367392,10290,0.435,46.094,1.21,,,,Mosquito,
+MOS01_29_A_R_S6,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,3579.0,COMPLETE,2263348,209986,9.278,88.998,1.06,,,,Mosquito,
+MOS01_31_W_R_S7,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,2824.0,COMPLETE,2467528,72848,2.952,73.737,1.17,,,,Mosquito,
+MOS01_36_H_R_S8,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,3660.0,COMPLETE,3555440,79370,2.232,68.523,1.59,,,,Mosquito,
+MOS01_41_A_R_S9,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,3413.0,COMPLETE,1800354,41824,2.323,66.269,1.48,,,,Mosquito,
+MOS01_46_W_R_S10,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,3055.0,COMPLETE,1445982,30948,2.14,70.717,1.07,,,,Mosquito,
+MOS01_56_A_R_S11,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,2401.0,COMPLETE,1555766,33346,2.143,70.576,1.08,,,,Mosquito,
+MOS01_W1_R_S12,Calla.Martyn@ucsf.edu,2018-07-18 17:17:40 -0700,3948.0,COMPLETE,556432,102416,18.406,85.078,1.81,,,,Mosquito,
 TEAtarsABDO05_DNA_S12,,2017-10-02 16:12:52 -0700,73130.0,COMPLETE,55003416,15112574,27.476,66.712,1.04,,,,Mosquito,
 TEAtarsABDO05_RNA_S4,,2017-10-02 16:13:00 -0700,1601.0,COMPLETE,33181308,330538,0.996,52.682,1.31,,,,Mosquito,
 TEAtarsABDO20_RNA_S5,,2017-10-02 16:13:08 -0700,2534.0,COMPLETE,61340566,541044,0.882,42.941,1.29,,,,Mosquito,

@@ -1,4 +1,4 @@
-CMS_001_RNA_A_S1,Culex,tarsalis
+CMS_001_RNA_A_S1,Culex,erythrothorax
 CMS_002_10a_Rb_S119_L004,Culex,quinquefasciatus
 CMS_002_13a_Rb_S120_L004,Culex,quinquefasciatus
 CMS_002_16a_Rb_S121_L004,Aedes,aegypti
@@ -26,10 +26,10 @@ CMS_002_25d_Rb_S143_L004,Aedes,aegypti
 CMS_002_25e_Rb_S144_L004,Aedes,aegypti
 CMS_002_25f_Rb_S145_L004,Aedes,aegypti
 CMS_002_26a_Rb_S146_L004,Aedes,albopictus
-CMS_002_26b_Rb_S147_L004,Culex,quinquefasciatus
-CMS_002_26c_Rb_S148_L004,Culex,erythrothorax
-CMS_002_26d_Rb_S149_L004,Culex,tarsalis
-CMS_002_26e_Rb_S150_L004,Culex,tarsalis
+CMS_002_26b_Rb_S147_L004,Aedes,albopictus
+CMS_002_26c_Rb_S148_L004,Aedes,albopictus
+CMS_002_26d_Rb_S149_L004,Aedes,albopictus
+CMS_002_26e_Rb_S150_L004,Aedes,albopictus
 CMS_002_27a_Rb_S152_L004,Culex,quinquefasciatus
 CMS_002_27b_Rb_S153_L004,Culex,quinquefasciatus
 CMS_002_28a_Rb_S154_L004,Culex,erythrothorax

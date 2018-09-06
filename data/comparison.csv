@@ -1,0 +1,128 @@
+"","sample_name","idseq","predicted","median.depth","concordant","possible.match"
+"1","CMS_001_RNA_A_S1","Culex erythrothorax","Culex erythrothorax,Culex pipiens",0,TRUE,TRUE
+"2","CMS_002_10a_Rb_S119_L004","Culex quinquefasciatus","Culex pipiens",14,FALSE,FALSE
+"3","CMS_002_13a_Rb_S120_L004","Culex quinquefasciatus","Culex pipiens",10,FALSE,FALSE
+"4","CMS_002_16a_Rb_S121_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"5","CMS_002_17a_Rb_S122_L004","Aedes aegypti","Aedes aegypti",4,TRUE,TRUE
+"6","CMS_002_17b_Rb_S123_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"7","CMS_002_17c_Rb_S124_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"8","CMS_002_17d_Rb_S125_L004","Aedes aegypti","Aedes aegypti",9,TRUE,TRUE
+"9","CMS_002_17e_Rb_S126_L004","Aedes aegypti","Aedes aegypti",7,TRUE,TRUE
+"10","CMS_002_18a_Rb_S128_L004","Aedes aegypti","Aedes aegypti",4,TRUE,TRUE
+"11","CMS_002_18b_Rb_S129_L004","Aedes aegypti","Aedes aegypti",7,TRUE,TRUE
+"12","CMS_002_19a_Rb_S130_L004","Aedes aegypti","Aedes aegypti",6,TRUE,TRUE
+"13","CMS_002_1a_Rb_S116_L004","Culex quinquefasciatus","Culex pipiens",12,FALSE,FALSE
+"14","CMS_002_20a_Rb_S131_L004","Culiseta particeps","Culiseta incidens",0,FALSE,FALSE
+"15","CMS_002_20b_Rb_S132_L004","Culiseta particeps","Culiseta incidens",1,FALSE,FALSE
+"16","CMS_002_20c_Rb_S133_L004","Culiseta particeps","Culiseta incidens",0,FALSE,FALSE
+"17","CMS_002_20d_Rb_S134_L004","Culiseta particeps","Culiseta incidens",0,FALSE,FALSE
+"18","CMS_002_20e_Rb_S135_L004","Culiseta particeps","Culiseta incidens",0,FALSE,FALSE
+"19","CMS_002_21a_Rb_S136_L004","Culiseta particeps","Culiseta incidens",0,FALSE,FALSE
+"20","CMS_002_22a_Rb_S137_L004","Culex quinquefasciatus","Culex pipiens",9,FALSE,FALSE
+"21","CMS_002_23a_Rb_S138_L004","Culex quinquefasciatus","Culex pipiens",13,FALSE,FALSE
+"22","CMS_002_25a_Rb_S140_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"23","CMS_002_25b_Rb_S141_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"24","CMS_002_25c_Rb_S142_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"25","CMS_002_25d_Rb_S143_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"26","CMS_002_25e_Rb_S144_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"27","CMS_002_25f_Rb_S145_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"28","CMS_002_26a_Rb_S146_L004","Aedes albopictus","Aedes albopictus",7,TRUE,TRUE
+"29","CMS_002_26b_Rb_S147_L004","Culex quinquefasciatus","Aedes albopictus",5,FALSE,FALSE
+"30","CMS_002_26c_Rb_S148_L004","Culex erythrothorax","Aedes albopictus",5,FALSE,FALSE
+"31","CMS_002_26d_Rb_S149_L004","Culex tarsalis","Aedes albopictus",5,FALSE,FALSE
+"32","CMS_002_26e_Rb_S150_L004","","Aedes albopictus,Culex quinquefasciatus",0,FALSE,FALSE
+"33","CMS_002_27a_Rb_S152_L004","Culex quinquefasciatus","Culex pipiens",10,FALSE,FALSE
+"34","CMS_002_27b_Rb_S153_L004","Culex quinquefasciatus","Culex pipiens",27,FALSE,FALSE
+"35","CMS_002_28a_Rb_S154_L004","Culex erythrothorax","Culex erythrothorax,Culex pipiens",0,TRUE,TRUE
+"36","CMS_002_28b_Rb_S155_L004","Culex erythrothorax","Culex erythrothorax",6,TRUE,TRUE
+"37","CMS_002_28c_Rb_S156_L004","Culex erythrothorax","Culex erythrothorax,Culex quinquefasciatus",0,TRUE,TRUE
+"38","CMS_002_28d_Rb_S157_L004","Culex erythrothorax","Culex erythrothorax",4,TRUE,TRUE
+"39","CMS_002_28e_Rb_S158_L004","Culex erythrothorax","Culex erythrothorax",1,TRUE,TRUE
+"40","CMS_002_29a_Rb_S159_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"41","CMS_002_29b_Rb_S160_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"42","CMS_002_29c_Rb_S161_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"43","CMS_002_29d_Rb_S162_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"44","CMS_002_29e_Rb_S164_L004","Culex tarsalis","Culex tarsalis",0,TRUE,TRUE
+"45","CMS_002_31a_Rb_S165_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"46","CMS_002_32a_Rb_S166_L004","Culex tarsalis","Culiseta incidens",0,FALSE,FALSE
+"47","CMS_002_33a_Rb_S167_L004","Culex tarsalis","Culex pipiens,Culiseta incidens",0,FALSE,FALSE
+"48","CMS_002_34a_Rb_S168_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"49","CMS_002_35a_Rb_S169_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"50","CMS_002_36a_Rb_S170_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"51","CMS_002_37a_Rb_S171_L004","Culex tarsalis","Culex tarsalis,Culex quinquefasciatus",0,TRUE,TRUE
+"52","CMS_002_38a_Rb_S172_L004","Culex tarsalis","Culex tarsalis",0,TRUE,TRUE
+"53","CMS_002_39a_Rb_S173_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"54","CMS_002_40a_Rb_S174_L004","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"55","CMS_002_41a_Rb_S176_L004","Culex tarsalis","Culex tarsalis",0,TRUE,TRUE
+"56","CMS_002_42a_Rb_S177_L004","Culex tarsalis","Culex tarsalis",0,TRUE,TRUE
+"57","CMS_002_44a_Rb_S178_L004","Aedes aegypti","Aedes aegypti,Aedes albopictus",0,TRUE,TRUE
+"58","CMS_002_44b_Rb_S179_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"59","CMS_002_44c_Rb_S180_L004","Aedes aegypti","Aedes aegypti",16,TRUE,TRUE
+"60","CMS_002_44d_Rb_S181_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"61","CMS_002_44e_Rb_S182_L004","Aedes aegypti","Aedes aegypti,Culiseta incidens",0,TRUE,TRUE
+"62","CMS_002_45a_Rb_S183_L004","Aedes albopictus","Aedes albopictus",3,TRUE,TRUE
+"63","CMS_002_45b_Rb_S184_L004","Aedes albopictus","Aedes albopictus",13,TRUE,TRUE
+"64","CMS_002_45c_Rb_S185_L004","Aedes albopictus","Aedes albopictus",16,TRUE,TRUE
+"65","CMS_002_45d_Rb_S186_L004","Aedes albopictus","Aedes albopictus",10,TRUE,TRUE
+"66","CMS_002_45e_Rb_S188_L004","Aedes albopictus","Aedes albopictus",9,TRUE,TRUE
+"67","CMS_002_RNA_A_S1","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"68","CMS_003_RNA_A_S2","Culiseta particeps","Culiseta incidens",0,FALSE,FALSE
+"69","CMS_004_RNA_A_S2","Culex pipiens","Culex pipiens",11,TRUE,TRUE
+"70","CMS_005_RNA_A_S3","Culiseta incidens","Culiseta incidens",17,TRUE,TRUE
+"71","CMS_006_RNA_A_S1","Culex erythrothorax","Culex erythrothorax",3,TRUE,TRUE
+"72","CMS_007_RNA_A_S12","Culex erythrothorax","Culex pipiens",0,FALSE,FALSE
+"73","CMS_008_RNA_A_S3","Culiseta particeps","Culiseta incidens",3,FALSE,FALSE
+"74","CMS_009_RNA_A_S13","Culiseta particeps","Culiseta particeps",0,TRUE,TRUE
+"75","CMS_010_RNA_A_S1","Culex erythrothorax","Culex erythrothorax,Culex pipiens",0,TRUE,TRUE
+"76","CMS_011_RNA_A_S4","Culex erythrothorax","Culex erythrothorax",3,TRUE,TRUE
+"77","CMS_012_RNA_A_S4","Aedes dorsalis","Aedes dorsalis,Culex quinquefasciatus",0,TRUE,TRUE
+"78","CMS_013_RNA_A_S5","Culex erythrothorax","Culex erythrothorax,Culex quinquefasciatus",0,TRUE,TRUE
+"79","CMS_014_RNA_A_S5","Culiseta incidens","Culiseta incidens",55,TRUE,TRUE
+"80","CMS_015_RNA_A_S13","Culex erythrothorax","Culex erythrothorax",5,TRUE,TRUE
+"81","CMS_016_RNA_A_S6","Culiseta inornata","Culiseta incidens",0,FALSE,FALSE
+"82","CMS_017_RNA_A_S2","Culex erythrothorax","Culex erythrothorax,Culex pipiens",0,TRUE,TRUE
+"83","CMS_018_RNA_A_S14","Culex erythrothorax","Culex erythrothorax",2,TRUE,TRUE
+"84","CMS_019_RNA_A_S14","Culex erythrothorax","Culex erythrothorax,Culex pipiens",0,TRUE,TRUE
+"85","CMS_020_RNA_A_S15","Culex erythrothorax","Culex erythrothorax,Culex pipiens",0,TRUE,TRUE
+"86","CMS_021_RNA_A_S16","Culex erythrothorax","Culex erythrothorax,Culex pipiens",0,TRUE,TRUE
+"87","CMS_022_RNA_A_S6","Culex erythrothorax","Culex erythrothorax",3,TRUE,TRUE
+"88","CMS_023_RNA_A_S17","Culex erythrothorax","Culex erythrothorax",3,TRUE,TRUE
+"89","CMS_024_RNA_A_S15","Culex erythrothorax","Culex tarsalis",0,FALSE,FALSE
+"90","CMS_025_RNA_A_S7","Culex tarsalis","Culiseta incidens",0,FALSE,FALSE
+"91","CMS_026_RNA_A_S18","Culex tarsalis","Culiseta incidens",7,FALSE,FALSE
+"92","CMS_027_RNA_A_S16","Culex tarsalis","Culex tarsalis",0,TRUE,TRUE
+"93","CMS_028_RNA_A_S17","Culex tarsalis","Culex tarsalis",2,TRUE,TRUE
+"94","CMS_029_RNA_A_S18","Culex pipiens","Culex pipiens",0,TRUE,TRUE
+"95","CMS_030_RNA_A_S7","Culex pipiens","Culex pipiens",21,TRUE,TRUE
+"96","CMS_031_RNA_A_S19","Culex tarsalis","Culex tarsalis",19,TRUE,TRUE
+"97","CMS_032_RNA_A_S4","Culex tarsalis","Culex tarsalis",1,TRUE,TRUE
+"98","CMS_033_RNA_A_S8","Culex tarsalis","Culex tarsalis",134,TRUE,TRUE
+"99","CMS_034_RNA_A_S19","Culex tarsalis","Culex tarsalis",37.5,TRUE,TRUE
+"100","CMS_035_RNA_A_S20","Culex erythrothorax","Culex erythrothorax",2,TRUE,TRUE
+"101","CMS_036_RNA_A_S20","Culex tarsalis","Culex tarsalis",163.5,TRUE,TRUE
+"102","CMS_037_RNA_A_S21","Culex erythrothorax","Culex erythrothorax",8,TRUE,TRUE
+"103","CMS_038_RNA_A_S22","Culex tarsalis","Culex tarsalis",2,TRUE,TRUE
+"104","CMS_039_RNA_A_S9","Culex tarsalis","Culex tarsalis,Culex pipiens",0,TRUE,TRUE
+"105","CMS_040_RNA_A_S21","Culex tarsalis","Culex tarsalis",4,TRUE,TRUE
+"106","CMS_041_RNA_A_S10","Culex pipiens","Culex pipiens",15,TRUE,TRUE
+"107","CMS_042_RNA_A_S23","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"108","CMS_043_RNA_A_S24","Culex tarsalis","Culex pipiens",0,FALSE,FALSE
+"109","CMS_044_RNA_A_S25","Culex pipiens","Culex pipiens",17,TRUE,TRUE
+"110","CMS_045_RNA_A_S2","Culex tarsalis","Culex erythrothorax",13,FALSE,FALSE
+"111","CMS_046_RNA_A_S3","Culex tarsalis","Culex pipiens",1,FALSE,FALSE
+"112","CMS_047_RNA_A_S4","Culex erythrothorax","Culex erythrothorax",1,TRUE,TRUE
+"113","CMS_048_RNA_A_S5","Culex erythrothorax","Culex erythrothorax",3,TRUE,TRUE
+"114","CMS_049_RNA_A_S6","Culex erythrothorax","Culex erythrothorax",4,TRUE,TRUE
+"115","CMS_050_RNA_A_S23","Culex erythrothorax","Culex tarsalis",3,FALSE,FALSE
+"116","CMS_051_RNA_A_S8","Culex tarsalis","Culex pipiens,Culex tarsalis",0,FALSE,TRUE
+"117","CMS_052_RNA_A_S7","Culex erythrothorax","Culex erythrothorax",3,TRUE,TRUE
+"118","CMS_053_RNA_A_S8","Culex erythrothorax","Culex erythrothorax,Culex pipiens",0,TRUE,TRUE
+"119","CMS_054_RNA_A_S11","Culex pipiens","Culex pipiens",3,TRUE,TRUE
+"120","CMS_055_RNA_A_S9","Culex erythrothorax","Culex erythrothorax",18,TRUE,TRUE
+"121","CMS_056_RNA_A_S10","Culex erythrothorax","Culex erythrothorax",5,TRUE,TRUE
+"122","CMS_057_RNA_A_S11","Culex erythrothorax","Culex erythrothorax",6,TRUE,TRUE
+"123","CMS_058_RNA_A_S9","","Culex erythrothorax",2,FALSE,FALSE
+"124","CMS_059_RNA_A_S10","Culex pipiens","Culex pipiens",7,TRUE,TRUE
+"125","CMS_060_RNA_A_S12","Culiseta inornata","Culiseta incidens",2,FALSE,FALSE
+"126","CMS_water2_S24","","Culex pipiens",0,FALSE,FALSE
+"127","CMS_water3_Qiagen_S26","","Culiseta incidens",4,FALSE,FALSE

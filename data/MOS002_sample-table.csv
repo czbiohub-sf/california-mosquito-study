@@ -1,0 +1,362 @@
+sample_name,uploader,upload_date,runtime_seconds,overall_job_status,num_input_files,total_reads,nonhost_reads,nonhost_reads_percent,ercc_reads,subsampled_fraction,quality_control,compression_ratio,tissue_type,nucleotide_type,location,host_genome,notes,sample_diagnosis
+MOS002-01a-hom-R1,Amy Kistler,10/5/18 18:20,3610,COMPLETE,2,26765390,58592,0.219,4862,1,63.107,1.66,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-001",flavivirus spike-in
+MOS002-02a-hom-R1,Amy Kistler,10/6/18 7:41,2828,COMPLETE,2,30669608,32320,0.105,6994,1,62.672,1.51,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-002",flavivirus spike-in
+MOS002-03a-hom-R1,Amy Kistler,10/6/18 7:44,3008,COMPLETE,2,33723700,37872,0.112,7900,1,58.779,1.44,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-003",flavivirus spike-in
+MOS002-04a-hom-R1,Amy Kistler,10/6/18 7:46,3383,COMPLETE,2,47251396,50322,0.106,10884,1,63.561,1.69,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-003",flavivirus spike-in
+MOS002-05a-hom-R1,Amy Kistler,10/6/18 7:48,2824,COMPLETE,2,26482816,55990,0.211,8280,1,69.914,1.5,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-005",flavivirus spike-in
+MOS002-06a-W-R1,Amy Kistler,10/7/18 14:18,4123,COMPLETE,2,44870242,212768,0.474,8140,1,75.459,1.84,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot-006",
+MOS002-07a-W-R1,Amy Kistler,10/7/18 14:22,4183,COMPLETE,2,41267624,182510,0.442,7260,1,67.823,1.86,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-007",
+MOS002-08a-W-R1,Amy Kistler,10/7/18 14:23,3589,COMPLETE,2,38844270,168044,0.433,6590,1,71.497,1.71,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y",
+MOS002-09a-W-R1,Amy Kistler,10/7/18 14:24,5831,COMPLETE,2,59641536,325054,0.545,14146,1,76.373,1.97,Whole insect,RNA,lab,Mosquito,"-collaborator id: Pilot18-009 
+- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-009",
+MOS002-10a-W-R1,Amy Kistler,10/6/18 11:51,5035,COMPLETE,2,56352198,185002,0.328,9010,1,76.02,1.8,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-010",
+MOS002-11a-hom-R1,Amy Kistler,10/6/18 11:54,3014,COMPLETE,2,24665694,16548,0.067,3700,1,42.406,1.32,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot 18-011",
+MOS002-12a-W-R1,Amy Kistler,10/10/18 23:47,2845,COMPLETE,2,28520820,158290,0.555,3794,1,73.721,2.01,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot 18-012",
+MOS002-13a-hom-R1,Amy Kistler,10/6/18 11:56,4734,COMPLETE,2,32430576,78444,0.242,10100,1,91.309,5.16,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-013",flavivirus spike-in
+MOS002-14a-hom-R1,Amy Kistler,10/6/18 11:57,4781,COMPLETE,2,26107322,4590,0.018,9672,1,90.322,4.83,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-014",flavivirus spike-in
+MOS002-15a-hom-R1,Amy Kistler,10/6/18 11:57,3926,COMPLETE,2,31957356,162694,0.509,9510,1,86.367,4.07,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Psorophora columbiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B073_Pilot 18-015",
+MOS002-16a-hom-R1,Amy Kistler,10/6/18 12:14,2324,COMPLETE,2,1152650,11630,1.009,513866,1,70.664,3.54,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B580_Pilot18-016",
+MOS002-17a-hom-R1,Amy Kistler,10/6/18 12:15,3459,COMPLETE,2,52478784,10222,0.019,28602,1,40.441,3.44,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B837_Pilot18-017",
+MOS002-18a-W-R1,Amy Kistler,10/6/18 12:16,7081,COMPLETE,2,42977236,553040,1.287,31922,1,89.956,4.08,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-018",
+MOS002-19a-W-R1,Amy Kistler,10/6/18 12:17,6609,COMPLETE,2,63311098,160698,0.254,18226,1,87.654,5.17,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-019",
+MOS002-20a-hom-R1,Amy Kistler,10/6/18 12:19,3317,COMPLETE,2,48501688,47506,0.098,115374,1,47.884,2.2,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B818_Pilot18-020",
+MOS002-21a-hom-R1,Amy Kistler,10/6/18 12:20,3159,COMPLETE,2,28540022,33748,0.118,14888,1,37.526,1.67,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B852_Pilot18-021",
+MOS002-22a-hom-R1,Amy Kistler,10/6/18 12:21,6506,COMPLETE,2,150000000,81438,0.054,368538,1,74.402,6.36,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B853_Pilot18-022",
+MOS002-23a-hom-R1,Amy Kistler,10/6/18 12:22,7780,COMPLETE,2,150000000,343318,0.229,312670,1,56.233,3.47,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B808_Pilot18-023",
+MOS002-24a-hom-R1,Amy Kistler,10/6/18 12:24,5705,COMPLETE,2,111885764,304720,0.272,248166,1,65.724,3,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B883_Pilot18-024",
+MOS002-25a-hom-R1,Amy Kistler,10/6/18 12:25,3870,COMPLETE,2,31530174,171736,0.545,151540,1,63.32,2.83,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B894_Pilot18-025",
+MOS002-26a-hom-R1,Amy Kistler,10/6/18 12:26,3440,COMPLETE,2,26622702,85556,0.321,44204,1,76.17,2.97,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B885_Pilot18-026",
+MOS002-27a-hom-R1,Amy Kistler,10/6/18 12:27,3199,COMPLETE,2,59718736,28022,0.047,53034,1,46.851,3.15,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B874_Pilot18-027",
+MOS002-28a-hom-R1,Amy Kistler,10/6/18 12:28,4456,COMPLETE,2,61336790,46558,0.076,73832,1,39.626,3.24,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B873_Pilot18-028",
+MOS002-29a-hom-R1,Amy Kistler,10/6/18 12:29,15649,COMPLETE,2,103709682,5940634,5.728,1125636,0.336664,72.638,1.81,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX18 B001_Pilot18-029",
+MOS002-30a-hom-R1,Amy Kistler,10/6/18 12:29,13706,COMPLETE,2,79474368,3220700,4.053,1360350,0.620983,56.157,2.04,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX18 B002_Pilot18-030",
+MOS002-31a-hom-R1,Amy Kistler,10/6/18 12:30,11370,COMPLETE,2,129520992,547490,0.423,1453754,1,38.715,4.24,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX18 B003_Pilot18-031",
+MOS002-32a-hom-R1,Amy Kistler,10/6/18 12:32,7392,COMPLETE,2,62353362,518032,0.831,824862,1,57.405,3.9,Insect abdomen,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX18 B004_Pilot18-032",
+MOS002-33a-W-R1,Amy Kistler,10/6/18 12:32,4968,COMPLETE,2,52557154,90500,0.172,36146,1,88.43,5.12,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B145_Pilot18-033",
+MOS002-34a-W-R1,Amy Kistler,10/6/18 12:33,4026,COMPLETE,2,29549936,156928,0.531,19800,1,86.041,4.02,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Aedes vexans
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B146_Pilot18-034",
+MOS002-35a-W-R1,Amy Kistler,10/6/18 12:34,3280,COMPLETE,2,62015584,108462,0.175,25030,1,82.388,3.73,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Anopheles species
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B540_Pilot18-035",
+MOS002-36a-W-R1,Amy Kistler,10/6/18 12:35,4619,COMPLETE,2,46932272,95926,0.204,15838,1,81.034,3.85,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B290_Pilot18-036",
+MOS002-37a-W-R1,Amy Kistler,10/6/18 12:36,3890,COMPLETE,2,44359926,65910,0.149,17448,1,85.096,5.23,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B189_Pilot18-037",
+MOS002-38a-W-R1,Amy Kistler,10/6/18 12:37,3437,COMPLETE,2,39011398,138390,0.355,8116,1,81.499,3.83,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Psorophora columbiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B183_Pilot18-038",
+MOS002-39a-W-R1,Amy Kistler,10/6/18 13:09,2840,COMPLETE,2,52321454,121576,0.232,13328,1,78.259,3.74,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Psorophora columbiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B695_Pilot18-039",
+MOS002-40a-W-R1,Amy Kistler,10/6/18 13:11,4179,COMPLETE,2,40473730,338230,0.836,10582,1,78.786,3.62,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Psorophora columbiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B068_Pilot18-040",
+MOS002-41a-W-R1,Amy Kistler,10/6/18 13:14,4641,COMPLETE,2,52102310,98836,0.19,12568,1,81.427,5.8,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Aedes vexans
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B147_Pilot18-041",
+MOS002-42a-W-R1,Amy Kistler,10/6/18 17:23,4128,COMPLETE,2,33770180,173230,0.513,11596,1,85.349,3.54,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Anopheles species
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B157_Pilot18-042",
+MOS002-43a-W-R1,Amy Kistler,10/6/18 17:25,3503,COMPLETE,2,60267552,115036,0.191,14734,1,77.466,3.94,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culiseta species
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B229_Pilot18-043",
+MOS002-44a-W-R1,Amy Kistler,10/6/18 17:26,3343,COMPLETE,2,25394198,140824,0.555,6484,1,79.421,2.14,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX18 B005_Pilot18-044",
+MOS002-45a-W-R1,Amy Kistler,10/6/18 17:33,6883,COMPLETE,2,38564070,160080,0.415,14374,1,82.664,3.98,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX18 B006_Pilot18-045",
+MOS002-46a-W-R1,Amy Kistler,10/6/18 17:34,3981,COMPLETE,2,34850104,76866,0.221,20314,1,75.37,2.52,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX18 B007_Pilot18-046",
+MOS002-47a-W-R1,Amy Kistler,10/6/18 17:37,9334,COMPLETE,2,77853296,284668,0.366,39322,1,82.571,4.65,Whole insect,RNA,wild-caught,Mosquito,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX18 B008_Pilot18-047",
+MOS002-48a-hom-R1,Amy Kistler,10/6/18 17:46,3759,COMPLETE,2,39070376,22650,0.058,67306,1,42.989,1.76,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-048",blinded flavivirus spike-in
+MOS002-49a-hom-R1,Amy Kistler,10/6/18 17:44,25109,COMPLETE,2,38921360,2346214,6.028,1205550,0.852437,87.995,4.89,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-049",blinded flavivirus spike-in
+MOS002-50a-hom-R1,Amy Kistler,10/6/18 17:47,2836,COMPLETE,2,61209708,16462,0.027,47266,1,50.202,2.38,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-050",blinded flavivirus spike-in
+MOS002-51a-hom-R1,Amy Kistler,10/6/18 17:48,11638,COMPLETE,2,5794942,690126,11.909,554484,1,84.457,2.65,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-051",blinded flavivirus spike-in
+MOS002-53a-W-R1,Amy Kistler,10/6/18 17:51,2516,COMPLETE,2,8807062,2702,0.031,2214,1,44.759,1.56,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-053",
+MOS002-54a-W-R1,Amy Kistler,10/6/18 17:52,5635,COMPLETE,2,34885840,190484,0.546,18058,1,76.565,1.62,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-054",
+MOS002-55a-W-R1,Amy Kistler,10/6/18 17:53,2501,COMPLETE,2,24435966,35350,0.145,5980,1,45.72,1.53,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-055",
+MOS002-56a-W-R1,Amy Kistler,10/6/18 17:54,2641,COMPLETE,2,21482218,9306,0.043,3896,1,34.551,1.57,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-056",
+MOS002-57a-W-R1,Amy Kistler,10/6/18 17:56,2810,COMPLETE,2,40004388,9872,0.025,8598,1,35.425,1.82,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-057",
+MOS002-58a-hom-R1,Amy Kistler,10/6/18 17:58,7525,COMPLETE,2,48118356,212508,0.442,11410,1,90.137,5.37,Insect abdomen,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-058",1 flavivirus mosquito spiked-in to pool
+MOS002-59a-W-R1,Amy Kistler,10/11/18 0:32,3251,COMPLETE,2,27470920,317106,1.154,8440,1,87.174,2.98,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-059",1 flavivirus mosquito spiked-in to pool
+MOS002-60a-hom-R1,Amy Kistler,10/6/18 17:59,3284,COMPLETE,2,71663658,21450,0.03,16180,1,61.404,2.31,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-060",1 flavivirus mosquito spiked-in to pool
+MOS002-61a-W-R1,Amy Kistler,10/6/18 18:00,2899,COMPLETE,2,58508130,21608,0.037,10696,1,37.529,1.63,Whole insect,RNA,lab,Mosquito,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-061",1 flavivirus mosquito spiked-in to pool
+MOS002-62a-Water-R1,Amy Kistler,10/6/18 18:03,2933,COMPLETE,2,575084,8998,1.565,475338,1,64.791,1.43,,,,Mosquito,,

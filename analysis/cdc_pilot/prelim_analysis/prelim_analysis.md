@@ -31,11 +31,11 @@ ncbi.update_taxonomy_database()
     Linking nodes...
     Tree is loaded.
     Updating database: /Users/lucy.li/.etetoolkit/taxa.sqlite ...
-     1934000 generating entries... 
+     1934000 generating entries... 1568000 generating entries... 
     Uploading to /Users/lucy.li/.etetoolkit/taxa.sqlite
 
 
-    Inserting synonyms:      25000 
+    Inserting synonyms:      30000 
 
     
 
@@ -207,4 +207,24 @@ plot_heatmap (anopheles_gambiae_virus_df, title="Anopheles gambiae")
 
 
 ![png](output_13_0.png)
+
+
+
+```python
+wild_bloodfed_df = NT_r_family.loc[NT_r_family.sample_name.str.contains('2[0-9]a|3[0-3]a', regex=True)]
+plot_heatmap (wild_bloodfed_df, title="wild caught (blood-fed)")
+```
+
+
+![png](output_14_0.png)
+
+
+
+```python
+wild_nonbloodfed_df = NT_r_family.loc[NT_r_family.sample_name.str.contains('3[4-9]a|4[0-7]a', regex=True)]
+plot_heatmap (wild_nonbloodfed_df, title="wild caught (not blood-fed)")
+```
+
+
+![png](output_15_0.png)
 

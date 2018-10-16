@@ -11,28 +11,26 @@ Culex	tarsalis to	Culex	erythrothorax based on k51 and COI
 
 ## CMS_026_RNA_A_S18
 Culex	tarsalis to	Culex	indicens based on k51 and k31
+#20181015 AK noticed typo in genus, updated genus from Culex to Culiseta
 
 ## CMS_058_RNA_A_S9
 NaN to Culex erythrothorax based on k51 and COI
 
 ## CMS_025_RNA_A_S7
-
 Culex tarsalis to Culex particeps based on k21,31,51.
-
+#20181015 AK noticed typo in genus, updated genus from Culex to Culiseta
 
 
 A few samples appear to be ambiguous:
 
 ## CMS_044_RNA_A_S22
-
-The sample `CMS_040_RNA_A_S21` is an extreme outlier for no-abundance (unique kmers). Its nearest neighbor is an order of magnitude less close than any other sample’s nearest neighbor.
+The sample `CMS_044_RNA_A_S22` is an extreme outlier for no-abundance (unique kmers). Its nearest neighbor is an order of magnitude less close than any other sample’s nearest neighbor.
+#20181015 AK update - this is a failed sequencing run for this sample, which may explain outlier. Replaced with successfully run CMS_044_RNA_A_S25
 
 ## CMS_040_RNA_A_S21
-
 This sample sometimes clusters with erythrothorax (including for all no-abun). Perhaps inbreeding?
 
 ## Culex pipiens/quinquefasciatus
-
 These species are quite closely related genetically, and may actually
 have some interbreeding. They are distinguished completely by unique kmers. They get mixed up when using abundances, where different values of k give different
 subgroupings, and certain samples appear to be outliers

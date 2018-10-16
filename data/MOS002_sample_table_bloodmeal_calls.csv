@@ -1,0 +1,362 @@
+,sample_name,name,common_name,tax_id,location,notes,sample_diagnosis
+2,MOS002-01a-hom-R1,Anser,geese,8842,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-001",flavivirus spike-in
+898,MOS002-02a-hom-R1,Anser,geese,8842,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-002",flavivirus spike-in
+1553,MOS002-03a-hom-R1,Anser,geese,8842,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-003",flavivirus spike-in
+2190,MOS002-04a-hom-R1,Anser,geese,8842,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-003",flavivirus spike-in
+3105,MOS002-05a-hom-R1,Anser,geese,8842,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-005",flavivirus spike-in
+4012,MOS002-06a-W-R1,Non-genus-specific reads in family Anatidae,,-200008830,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot-006",
+5485,MOS002-07a-W-R1,Anser,geese,8842,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-007",
+6992,MOS002-08a-W-R1,Anser,geese,8842,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y",
+8365,MOS002-09a-W-R1,Non-genus-specific reads in family Anatidae,,-200008830,lab,"-collaborator id: Pilot18-009 
+- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-009",
+10323,MOS002-10a-W-R1,Anser,geese,8842,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-010",
+11456,MOS002-11a-hom-R1,Non-genus-specific reads in family Culicidae,,-200007157,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot 18-011",
+11957,MOS002-12a-W-R1,Culex,,7174,lab,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot 18-012",
+12594,MOS002-13a-hom-R1,Capra,,9922,lab,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-013",flavivirus spike-in
+12876,MOS002-14a-hom-R1,Ovis,,9935,lab,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot 18-014",flavivirus spike-in
+13141,MOS002-15a-hom-R1,Non-genus-specific reads in family Culicidae,,-200007157,wild-caught,"- id_method : freeze
+- genus_species: Psorophora columbiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B073_Pilot 18-015",
+13788,MOS002-16a-hom-R1,Pteropus,,9401,wild-caught,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B580_Pilot18-016",
+15316,MOS002-17a-hom-R1,Wolbachia endosymbiont of Drosophila simulans,,77038,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B837_Pilot18-017",
+15805,MOS002-18a-W-R1,Non-genus-specific reads in family Bovidae,,-200009895,lab,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-018",
+16260,MOS002-19a-W-R1,Ovis,,9935,lab,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-019",
+17153,MOS002-20a-hom-R1,Homo,,9605,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B818_Pilot18-020",
+18022,MOS002-21a-hom-R1,Manacus,,196036,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B852_Pilot18-021",
+18834,MOS002-22a-hom-R1,Non-genus-specific reads in family Hominidae,,-200009604,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B853_Pilot18-022",
+20865,MOS002-23a-hom-R1,Manacus,,196036,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B808_Pilot18-023",
+22970,MOS002-24a-hom-R1,Manacus,,196036,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B883_Pilot18-024",
+25049,MOS002-25a-hom-R1,Manacus,,196036,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B894_Pilot18-025",
+26846,MOS002-26a-hom-R1,Manacus,,196036,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B885_Pilot18-026",
+28078,MOS002-27a-hom-R1,Ficedula,,36292,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B874_Pilot18-027",
+28833,MOS002-28a-hom-R1,Manacus,,196036,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B873_Pilot18-028",
+29742,MOS002-29a-hom-R1,Gallus,,9030,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX18 B001_Pilot18-029",
+31859,MOS002-30a-hom-R1,Gallus,,9030,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX18 B002_Pilot18-030",
+35033,MOS002-31a-hom-R1,Gallus,,9030,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX18 B003_Pilot18-031",
+37830,MOS002-32a-hom-R1,Gallus,,9030,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX18 B004_Pilot18-032",
+40923,MOS002-33a-W-R1,Non-genus-specific reads in family Culicidae,,-200007157,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: TX13 B145_Pilot18-033",
+41755,MOS002-34a-W-R1,Equus,,9789,wild-caught,"- id_method : freeze
+- genus_species: Aedes vexans
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B146_Pilot18-034",
+42455,MOS002-35a-W-R1,Monodelphis,short-tailed opossums,13615,wild-caught,"- id_method : freeze
+- genus_species: Anopheles species
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B540_Pilot18-035",
+43259,MOS002-36a-W-R1,Monodelphis,short-tailed opossums,13615,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B290_Pilot18-036",
+44172,MOS002-37a-W-R1,Ochlerotatus,,190765,wild-caught,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B189_Pilot18-037",
+44728,MOS002-38a-W-R1,Non-genus-specific reads in family Culicidae,,-200007157,wild-caught,"- id_method : freeze
+- genus_species: Psorophora columbiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B183_Pilot18-038",
+45455,MOS002-39a-W-R1,Monodelphis,short-tailed opossums,13615,wild-caught,"- id_method : freeze
+- genus_species: Psorophora columbiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B695_Pilot18-039",
+46171,MOS002-40a-W-R1,Psorophora,,7182,wild-caught,"- id_method : freeze
+- genus_species: Psorophora columbiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B068_Pilot18-040",
+47145,MOS002-41a-W-R1,Quercus,,3511,wild-caught,"- id_method : freeze
+- genus_species: Aedes vexans
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B147_Pilot18-041",
+48131,MOS002-42a-W-R1,Trypanosoma,,5690,wild-caught,"- id_method : freeze
+- genus_species: Anopheles species
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B157_Pilot18-042",
+49148,MOS002-43a-W-R1,Anopheles,,7164,wild-caught,"- id_method : freeze
+- genus_species: Culiseta species
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX13 B229_Pilot18-043",
+49793,MOS002-44a-W-R1,Gallus,,9030,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX18 B005_Pilot18-044",
+50769,MOS002-45a-W-R1,Gallus,,9030,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX18 B006_Pilot18-045",
+51702,MOS002-46a-W-R1,Gallus,,9030,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX18 B007_Pilot18-046",
+52951,MOS002-47a-W-R1,Gallus,,9030,wild-caught,"- id_method : freeze
+- genus_species: Culex quinquefasciatus
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: TX18 B008_Pilot18-047",
+54102,MOS002-48a-hom-R1,Bos mutus,wild yak,72004,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-048",blinded flavivirus spike-in
+55814,MOS002-49a-hom-R1,Beauveria,,5581,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-049",blinded flavivirus spike-in
+60265,MOS002-50a-hom-R1,Non-genus-specific reads in family Hominidae,,-200009604,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-050",blinded flavivirus spike-in
+61447,MOS002-51a-hom-R1,Bos,"""oxen",9903,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: Y
+- CDC id: lab_Pilot18-051",blinded flavivirus spike-in
+64784,MOS002-53a-W-R1,Bos mutus,wild yak,72004,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-053",
+64938,MOS002-54a-W-R1,Bos,"""oxen",9903,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-054",
+65921,MOS002-55a-W-R1,Bos,"""oxen",9903,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-055",
+66340,MOS002-56a-W-R1,Bos,"""oxen",9903,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-056",
+66626,MOS002-57a-W-R1,Bos,"""oxen",9903,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 1
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-057",
+67005,MOS002-58a-hom-R1,Non-genus-specific reads in family Culicidae,,-200007157,lab,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-058",1 flavivirus mosquito spiked-in to pool
+67815,MOS002-59a-W-R1,Tsukamurella,,2060,lab,"- id_method : freeze
+- genus_species: Aedes aegypti
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-059",1 flavivirus mosquito spiked-in to pool
+68494,MOS002-60a-hom-R1,Non-genus-specific reads in family Neocallimastigaceae,,-200029007,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-060",1 flavivirus mosquito spiked-in to pool
+69251,MOS002-61a-W-R1,Non-genus-specific reads in family Neocallimastigaceae,,-200029007,lab,"- id_method : freeze
+- genus_species: Anopheles gambiae
+- Number of mosquitos: 11
+- Sex: n/a
+- Blood fed: N
+- CDC id: lab_Pilot18-061",1 flavivirus mosquito spiked-in to pool
+69930,MOS002-62a-Water-R1,Non-genus-specific reads in family Hominidae,,-200009604,,,

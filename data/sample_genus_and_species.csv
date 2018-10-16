@@ -119,8 +119,8 @@ CMS_021_RNA_A_S16,Culex,erythrothorax,Culex,erythrothorax
 CMS_022_RNA_A_S6,Culex,erythrothorax,Culex,erythrothorax
 CMS_023_RNA_A_S17,Culex,erythrothorax,Culex,erythrothorax
 CMS_024_RNA_A_S15,Culex,erythrothorax,Culex,erythrothorax
-CMS_025_RNA_A_S7,Culex,tarsalis,Culex,particeps
-CMS_026_RNA_A_S18,Culex,tarsalis,Culex,incidens
+CMS_025_RNA_A_S7,Culex,tarsalis,Culiseta,particeps
+CMS_026_RNA_A_S18,Culex,tarsalis,Culiseta,incidens
 CMS_027_RNA_A_S16,Culex,tarsalis,Culex,tarsalis
 CMS_028_RNA_A_S17,Culex,tarsalis,Culex,tarsalis
 CMS_029_RNA_A_S18,Culex,pipiens,Culex,pipiens

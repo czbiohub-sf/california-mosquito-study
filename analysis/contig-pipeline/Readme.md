@@ -20,6 +20,12 @@ Pick one of minimap2, STAR, or bowtie, maybe do some testing
 0. PRICE (contig_miner.py)
 0. Spades
 
+## Locations of references
+
+- s3://czbiohub_mosquito/references/mosquito_genomes2
+
+TODO: mito reference
+
 ## Samples to test
 
 - West Nile Virus samples

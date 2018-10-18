@@ -1,0 +1,21 @@
+scratch/CMS_040_RNA_A_S21.bowtie2.sam:
+scratch/%.bowtie2.sam:
+	bowtie2 -q -x scratch/mosquito_genomes2/mosquito_genomes2 -f --very-sensitive-local -S $@ -1 scratch/$*_R1_001.fastq.gz -2 scratch/$*_R2_002
+
+scratch/CMS_040_RNA_A_S21.minimap2_sr.sam:
+scratch/%.minimap2_sr.sam:
+	minimap2 -ax sr scratch/mosquito_genomes2/mosquito_genomes2_withContigHeaders.fa.gz scratch/$*_R1_001.fastq.gz scratch/$*_R2_001.fastq.gz > $@
+
+scratch/mosquito_genomes2/mosquito_genomes2_withContigHeaders.fa.gz.fai:
+	samtools faidx scratch/mosquito_genomes2/mosquito_genomes2_withContigHeaders.fa.gz
+
+scratch/mosquito_genomes2:
+	aws s3 sync s3://czbiohub-mosquito/references/mosquito_genomes2 $@
+
+scratch/CMS_040_RNA_A_S21_R1_001_fastqc.html:
+scratch/CMS_040_RNA_A_S21_R2_001_fastqc.html:
+%_fastqc.html: %.fastq.gz
+	fastqc $<
+
+scratch/CMS_040_RNA_A_S21_R%_001.fastq.gz:
+	aws s3 cp s3://czbiohub-mosquito/sequences/CMS001_fastq.gz/$(@F) $@

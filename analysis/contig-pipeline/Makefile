@@ -7,8 +7,17 @@ scratch/CMS_040_RNA_A_S21.minimap2_sr.bam:
 scratch/%.minimap2_sr.bam: scratch/%.sam
 	samtools view -b -t scratch/mosquito_genomes2/mosquito_genomes2_withContigHeaders.fa.gz.fai -o $@ $<
 
-scratch/CMS_040_RNA_A_S21.star.sam:
-	STAR --runThreadN 6 --genomeDir scratch/mosquito_genomes2/star_index --readFilesIn scratch/CMS_040_RNA_A_S21_R1_001.fastq.gz scratch/CMS_040_RNA_A_S21_R2_001.fastq.gz > $@
+scratch/CMS_040_RNA_A_S21.star.Aligned.out.sam: scratch/CMS_040_RNA_A_S21_R1_001.fastq.gz scratch/CMS_040_RNA_A_S21_R2_001.fastq.gz
+	STAR --runThreadN 45 \
+	 --genomeDir scratch/mosquito_genomes2/star_index \
+	 --readFilesIn $^ \
+	 --outFileNamePrefix scratch/CMS_040_RNA_A_S21.star. \
+	 --readFilesCommand zcat \
+	 --outFilterMultimapNmax 99999 \
+	 --outFilterScoreMinOverLread .5 \
+	 --outFilterMatchNminOverLread .5 \
+	 --outReadsUnmapped Fastx \
+	 --outFilterMismatchNmax 999
 
 scratch/mosquito_genomes2/star_index: scratch/mosquito_genomes2/mosquito_genomes2.fa
 	mkdir -p $@

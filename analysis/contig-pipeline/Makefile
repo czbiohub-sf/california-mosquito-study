@@ -1,3 +1,12 @@
+#scratch/CMS_040_RNA_A_S21.bowtie2.sam.picard_metrics:
+#scratch/%.sam.picard_metrics:
+#	picard CollectAlignmentSummaryMetrics R=scratch/mosquito_genomes2/mosquito_genomes2.fa.gz I=scratch/$*.sam O=$@
+
+# add headers back into minimap2 output
+scratch/CMS_040_RNA_A_S21.minimap2_sr.bam:
+scratch/%.minimap2_sr.bam: scratch/%.sam
+	samtools view -b -t scratch/mosquito_genomes2/mosquito_genomes2_withContigHeaders.fa.gz.fai -o $@ $<
+
 scratch/CMS_040_RNA_A_S21.star.sam:
 	STAR --runThreadN 6 --genomeDir scratch/mosquito_genomes2/star_index --readFilesIn scratch/CMS_040_RNA_A_S21_R1_001.fastq.gz scratch/CMS_040_RNA_A_S21_R2_001.fastq.gz > $@
 

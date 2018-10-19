@@ -1,3 +1,6 @@
+scratch/CMS_040_RNA_A_S21.star.sam:
+	STAR --runThreadN 6 --genomeDir scratch/mosquito_genomes2/star_index --readFilesIn scratch/CMS_040_RNA_A_S21_R1_001.fastq.gz scratch/CMS_040_RNA_A_S21_R2_001.fastq.gz > $@
+
 scratch/mosquito_genomes2/star_index: scratch/mosquito_genomes2/mosquito_genomes2.fa
 	mkdir -p $@
 	STAR --runThreadN 45 --runMode genomeGenerate --genomeDir $@ --genomeFastaFiles $<

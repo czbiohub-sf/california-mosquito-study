@@ -1,6 +1,6 @@
 scratch/CMS_040_RNA_A_S21.bowtie2.sam:
 scratch/%.bowtie2.sam:
-	bowtie2 -q -x scratch/mosquito_genomes2/mosquito_genomes2 -f --very-sensitive-local -S $@ -1 scratch/$*_R1_001.fastq.gz -2 scratch/$*_R2_002
+	bowtie2 -p 6 -x scratch/mosquito_genomes2/mosquito_genomes2 --very-sensitive-local -S $@ -1 scratch/$*_R1_001.fastq.gz -2 scratch/$*_R2_001.fastq.gz
 
 scratch/CMS_040_RNA_A_S21.minimap2_sr.sam:
 scratch/%.minimap2_sr.sam:

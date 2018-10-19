@@ -1,8 +1,8 @@
-scratch/star_index: scratch/mosquito_genomes2/mosquito_genomes2.fa
+scratch/mosquito_genomes2/star_index: scratch/mosquito_genomes2/mosquito_genomes2.fa
 	mkdir -p $@
-	STAR --runThreadN 6 --runMode genomeGenerate --genomeDir $@ --genomeFastaFiles $<
+	STAR --runThreadN 45 --runMode genomeGenerate --genomeDir $@ --genomeFastaFiles $<
 
-scratch/mosquito_genomes2/mosquito_genomes2.fa:
+scratch/mosquito_genomes2/mosquito_genomes2.fa: | scratch/mosquito_genomes2
 	gunzip -c $@.gz > $@
 
 scratch/CMS_040_RNA_A_S21.bowtie2.sam:

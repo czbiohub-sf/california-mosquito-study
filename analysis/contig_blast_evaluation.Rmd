@@ -1,0 +1,118 @@
+---
+title: "Evaluating Contigs"
+output: html_notebook
+---
+
+The purpose of this notebook is to read in blast and blastx results for a set of contigs, then extract LCAs of the hits passing certain thresholds. Some thresholds are absolute (eg coverage and contig length). Some are relative (bitscore of a hit must be within some fraction of the best bitscore for that contig).
+
+```{r}
+library(taxizedb)
+library(tidyverse)
+library(purrr)
+library(ggplot2)
+library(taxize)
+library(usethis)
+```
+
+```{r}
+m8_headers = c('query', 'subject', 'pid', 'alignment.length', 'mismatches', 'gap.openings', 'query.start', 'query.end', 'subject.start', 'subject.end', 'E.value', 'bit.score')
+nr_df = read_tsv('~/Downloads/rapsearch2.blast.m8', col_names = m8_headers)
+nr_df['db'] = 'nr'
+nt_df = read_tsv('~/Downloads/gsnap.blast.m8', col_names = m8_headers)
+nt_df['db'] = 'nt'
+raw_df = bind_rows(nt_df, nr_df)
+nrow(raw_df)
+```
+
+```{r}
+df = raw_df %>% separate(query, c('NODE', 'rank', 'a', 'length', 'b', 'coverage'), sep='_', remove = FALSE) %>% select(-a, -b, -NODE) %>% mutate(length = as.integer(length), coverage = as.numeric(coverage), rank = as.integer(rank))
+df = df %>% filter((length > 500 & coverage > 2))
+print(nrow(df %>% group_by(query) %>% count()))
+```
+
+```{r}
+contig_max_bit_score = df %>% group_by(query, db) %>% summarize(max.bit.score = max(bit.score), 
+                                                                max.percent.id = max(pid),
+                                                                max.alignment.length = max(alignment.length))
+head(contig_max_bit_score)
+```
+
+```{r}
+contig_max_bit_score %>% select(query, max.bit.score, db) %>% spread(key = db, value = max.bit.score) %>% drop_na() %>% ggplot(aes(x=nr, y=nt)) + geom_point()
+```
+
+```{r}
+df %>% left_join(contig_max_bit_score, on=c('query', 'db')) %>% filter(rank == 1)
+```
+
+
+```{r}
+df = df %>% left_join(contig_max_bit_score, on=c('query', 'db'))
+df = df %>% filter(bit.score > max.bit.score - 15 & pid > max.percent.id - 5)
+df
+```
+
+```{r}
+get_kingdoms <- function(taxonomies){
+  flatten_chr(map(taxonomies, function (x) {(x %>% filter(rank == 'superkingdom'))[1,'name']}))
+}
+get_species <- function(taxonomies){
+  flatten_chr(map(taxonomies, function (x) {(x %>% filter(rank == 'species'))[1,'name']}))
+}
+```
+
+```{r}
+accessions = unique(df$subject)
+print(length(accessions))
+returned_ids = genbank2uid(unique(df$subject))
+taxids = flatten_chr(map(returned_ids, function(x) x[1]))
+classifications = classification(taxids, db = 'ncbi')
+kingdoms = get_kingdoms(classifications)
+species = get_species(classifications)
+lookups = data_frame(subject = accessions, taxid = taxids, kingdoms = kingdoms, species=species)
+lookups
+```
+
+```{r}
+lca <- function(taxids, classifications){
+  classes = classifications[taxids]
+  counts = bind_rows(classes) %>% group_by(id) %>% count()
+  common_ids = counts %>% filter(n == max(counts['n'])) %>% pull(id)
+  common_ancestors = filter(classes[[1]], id %in% common_ids)
+  tail(common_ancestors, 1)
+}
+```
+
+```{r}
+df %>% left_join(lookups, on=subject)
+```
+
+
+```{r}
+all_df = df %>% left_join(lookups, on=subject) %>% arrange(rank)
+```
+
+```{r}
+queries_in_both = all_df %>% filter(bit.score == max.bit.score) %>% group_by(query, db) %>% count() %>% group_by(query) %>% count() %>% filter(nn > 1) %>% pull(query)
+queries_in_both
+
+comparison = all_df %>% filter(query %in% queries_in_both) %>% filter(bit.score == max.bit.score) %>% select(species, bit.score, query, db) %>% 
+  nest(species, bit.score, .key = 'value_col') %>%
+  spread(key = db, value = value_col) %>% 
+  unnest(nt, nr, .sep = '_') %>% mutate(same = (nr_species == nt_species))
+
+comparison %>% ggplot(aes(x = nt_bit.score, y = nr_bit.score, color = same)) + geom_point() + coord_fixed()
+```
+
+```{r}
+comparison %>% select(query, same, nt_bit.score, nr_bit.score, nt_species, nr_species)
+```
+
+```{r}
+all_df %>% filter(query == 'NODE_160_length_604_cov_2.965844') %>% select(alignment.length, mismatches, db, species, taxid)
+```
+
+```{r}
+lca(c('187106', '187111'), classifications)
+```
+

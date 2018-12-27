@@ -1,65 +1,12 @@
-bowtie2-build aaegypti_EU352212.fasta aedes
-bowtie2-build cpipiens_HQ724614.fasta culex
+for x in `ls COIref*.fasta`; do bowtie2-build $x ${x%.*}; done
 
-# bowtie2-build ../../s3/references/mosquito_mito/Culiseta_mitochondrion_genome_curated.fasta culiseta
-# bowtie2-build ../../s3/references/mosquito_mito/Anopheles_mitochondrion_genome_curated.fasta anopheles
+parallel < bowtie2_commands.txt 
 
-#for f in `cat mito_cms1_Culex.txt`
-mkdir cpipiens_HQ724614
-for fastq in `ls /mnt/data/s3/sequences/*/CMS_0*R1*`
-do
-  fn=$(basename ${fastq})
-  prefix="${fn%.*.*}"
-  prefix=${prefix/_R1_001/}
-  dir='cpipiens_HQ724614/'
-  prefix=${dir}${prefix}
-  if [ ! -f ${prefix}.sam ]; then
-    bowtie2 --threads 8 --qupto 1000000 -x culex -1 $fastq -2 ${fastq/R1/R2} -S ${prefix}.sam
-  fi
-  if [ ! -f ${prefix}.bam ]; then
-    samtools view -Sb ${prefix}.sam | samtools sort -o ${prefix}.bam
-  fi
-  if [ ! -f ${prefix}.vcf.gz ]; then
-    if [ -f ${prefix}.bam ]; then
-      bcftools mpileup -Ou -f cpipiens_HQ724614.fasta ${prefix}.bam | bcftools call -mv -Oz -o ${prefix}.vcf.gz
-      tabix ${prefix}.vcf.gz
-      cat cpipiens_HQ724614.fasta | bcftools consensus ${prefix}.vcf.gz > ${prefix}_consensus.fasta
-    fi 
-  fi
-done
+for x in `ls */*consensus.fasta`; do var='>'; y=$(basename $x); y=${y%.*}; var=$var$y; sed -i "1s/.*/$var/" $x; done
+cat */*consensus.fasta > consensus.fasta
 
-for f in `cat mito_cms2_Culex.txt`
-do
-  if [ ! -f ${f}.sam ]; then
-    bowtie2 --threads 8  --qupto 1000000 -x culex -1 /mnt/data/s3/sequences/CMS002_fastq.gz/${f}_R1_001.fastq.gz -2 /mnt/data/s3/sequences/CMS002_fastq.gz/${f}_R2_001.fastq.gz -S ${f}.sam
-  fi
-  if [ ! -f ${f}.bam ]; then
-    samtools view -Sb ${f}.sam | samtools view -F 4 | samtools sort -o ${f}.bam
-  fi
-  if [ ! -f ${f}.vcf.gz ]; then
-    if [ -f ${f}.bam ]; then
-      bcftools mpileup -Ou -f cpipiens_HQ724614.fasta ${f}.bam | bcftools call -mv -Oz -o ${f}.vcf.gz
-      tabix ${f}.vcf.gz
-      cat cpipiens_HQ724614.fasta | bcftools consensus ${f}.vcf.gz > ${f}_consensus.fasta
-    fi
-  fi
-done
+muscle -maxiters 1 -diags -in consensus.fasta -out consensus_aligned.fasta
 
+modeltest-ng -c 4 -d nt -p 2 -i consensus_aligned.fasta
 
-for f in `cat mito_cms2_Aedes.txt`
-do
-  if [ ! -f ${f}.sam ]; then
-    bowtie2 --threads 8  --qupto 1000000 -x aedes -1 /mnt/data/s3/sequences/CMS002_fastq.gz/${f}_R1_001.fastq.gz -2 /mnt/data/s3/sequences/CMS002_fastq.gz/${f}_R2_001.fastq.gz -S ${f}.sam
-  fi
-  fn=$(basename $f)
-  if [ ! -f ${f}.bam ]; then
-    samtools view -Sb ${f}.sam | samtools view -F 4 | samtools sort -o ${f}.bam
-  fi
-  if [ ! -f ${f}.vcf.gz ]; then
-    if [ -f ${f}.bam ]; then
-      bcftools mpileup -Ou -f aaegypti_EU352212.fasta ${f}.bam | bcftools call -mv -Oz -o ${f}.vcf.gz
-      tabix ${f}.vcf.gz
-      cat aaegypti_EU352212.fasta | bcftools consensus ${f}.vcf.gz > ${f}_consensus.fasta
-    fi
-  fi
-done
+raxml-ng --msa consensus_outgroup_aligned.fasta --model TPM1uf+I+G4 --outgroup MG384714_Aedes_aegypti

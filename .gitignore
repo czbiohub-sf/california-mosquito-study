@@ -1,5 +1,6 @@
-scratch/G
+scratch/
 presentations
+data/CMS_reports
 *pycache__
 .Rproj.user
 .Rhistory

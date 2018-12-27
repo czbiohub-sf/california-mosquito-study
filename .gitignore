@@ -1,7 +1,14 @@
-scratch/
+scratch/G
+presentations
+*pycache__
 .Rproj.user
 .Rhistory
 .RData
+*.RData
 .Ruserdata
 *~
-presentations
+.DS_Store
+.AppleDouble
+.LSOverride
+*.Rproj
+.ipynb_checkpoints

@@ -1,0 +1,77 @@
+---
+title: "Generate figures"
+author: "Lucy M. Li"
+date: "12/17/2018"
+output: 
+  pdf_document:
+    fig_caption: yes
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+library(sp)
+# Attention!
+# Google has recently changed its API requirements, and ggmap users are now required to provide an API key and enable billing. ggmap itself is outdated on CRAN; we hope to have the new version up on CRAN soon, but until then, here is the workaround:
+# 
+# if(!requireNamespace("devtools")) install.packages("devtools")
+# devtools::install_github("dkahle/ggmap", ref = "tidyup")
+# When you load ggmap, you can set your API key with register_google() (see ?register_google for details), but don’t forget to enable the Maps Static API in the Google Cloud interface and enable billing! See #51 for an extended discussion on details.
+# 
+# The details of the readme below will be changed shortly to reflect these changes. Thanks for your patience!
+library(devtools)
+install_github("dkahle/ggmap", ref = "tidyup")
+library(ggmap)
+register_google()
+data_dir <- "../../../data"
+```
+
+# 1. Demographics
+
+```{r load_data}
+metadata <- read.csv(file.path(data_dir, "project-mosquito_sample-table_cleaned.csv"))
+species_calls <- read.csv(file.path(data_dir, "sample_genus_and_species.csv"))
+```
+
+```{r maps}
+create_map <- function (input_data, zoom=5) {
+  freq_table <- group_by(input_data, location) %>%
+    summarise(n(), long=mean(long), lat=mean(lat)) %>%
+    rename(Number=`n()`)
+  long_range <- range(input_data$long)
+  lat_range <- range(input_data$lat)
+  cali_map <- get_map(location=bbox(SpatialPoints(input_data[, c("long", "lat")])), zoom=zoom)
+  map <- ggmap(cali_map, maptype="roadmap", color="color")
+  map.points <- geom_point(data=freq_table,
+                           aes(x=long, y=lat, size=Number),
+                           color="red", alpha=.7)
+  initial_map <- map + map.points
+}
+
+cms001_map <- create_map(filter(metadata, grepl("^CMS_[0-9][0-9][0-9]_RNA", metadata$sample_name), !is.na(lat)),
+                         zoom=10) + 
+  theme(axis.text=element_blank(), axis.ticks=element_blank(), axis.title=element_blank()) +
+  ggtitle("CMS001")
+cms002_map <- create_map(filter(metadata, grepl("^CMS_002_[0-9]", metadata$sample_name)),
+                         zoom=6) +
+  theme(axis.text=element_blank(), axis.ticks=element_blank(), axis.title=element_blank()) +
+  ggtitle("CMS002")
+
+print(cms001_map)
+print(cms002_map)
+```
+
+# 2. mNGS analysis
+
+# 3. Microbiota overview
+
+# 4. Bloodmeal
+
+# 5. Vignettes
+
+
+

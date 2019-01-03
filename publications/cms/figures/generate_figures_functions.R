@@ -46,7 +46,6 @@ split_by_location <- function (input_data) {
     setNames(., list_names)
 }
 
-create_map() + ggtitle(x)
 
 create_map <- function (input_data, zoom=NULL) {
   freq_table <- get_summary_data(input_data)

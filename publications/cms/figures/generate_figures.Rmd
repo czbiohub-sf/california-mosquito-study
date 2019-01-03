@@ -3,7 +3,7 @@ title: "Generate figures"
 author: "Lucy M. Li"
 date: "12/17/2018"
 output: 
-  pdf_document:
+  html_document:
     fig_caption: yes
 ---
 
@@ -17,6 +17,7 @@ library(ggplot2)
 library(sp)
 library(OpenStreetMap)
 library(ggmap)
+library(DiagrammeR)
 # Attention!
 # Google has recently changed its API requirements, and ggmap users are now required to provide an API key and enable billing. ggmap itself is outdated on CRAN; we hope to have the new version up on CRAN soon, but until then, here is the workaround:
 # 
@@ -97,11 +98,16 @@ lapply(cms_location_maps, function (x) {
 # 2. mNGS analysis
 
 ```{r mNGS}
-
+DiagrammeR::mermaid("
+graph LR
+raw reads --> contig
+                    ", height=200)
 ```
 
 
 # 3. Microbiota overview
+
+
 
 # 4. Bloodmeal
 

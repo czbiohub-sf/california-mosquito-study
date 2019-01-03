@@ -98,10 +98,13 @@ lapply(cms_location_maps, function (x) {
 # 2. mNGS analysis
 
 ```{r mNGS}
+# mNGS analysis pipeline
+# Placeholder diagram for now
 DiagrammeR::mermaid("
-graph LR
-raw reads --> contig
-                    ", height=200)
+graph TD
+  id1[raw reads]--filtering--> reads 
+  reads --assembly --> id2[contigs] 
+", height=200)
 ```
 
 

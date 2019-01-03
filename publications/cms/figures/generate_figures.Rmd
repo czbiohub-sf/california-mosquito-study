@@ -15,57 +15,91 @@ library(dplyr)
 library(magrittr)
 library(ggplot2)
 library(sp)
+library(OpenStreetMap)
+library(ggmap)
 # Attention!
 # Google has recently changed its API requirements, and ggmap users are now required to provide an API key and enable billing. ggmap itself is outdated on CRAN; we hope to have the new version up on CRAN soon, but until then, here is the workaround:
 # 
 # if(!requireNamespace("devtools")) install.packages("devtools")
 # devtools::install_github("dkahle/ggmap", ref = "tidyup")
-# When you load ggmap, you can set your API key with register_google() (see ?register_google for details), but don’t forget to enable the Maps Static API in the Google Cloud interface and enable billing! See #51 for an extended discussion on details.
-# 
-# The details of the readme below will be changed shortly to reflect these changes. Thanks for your patience!
-library(devtools)
-install_github("dkahle/ggmap", ref = "tidyup")
-library(ggmap)
-register_google()
+# When you load ggmap, you can set your API key with register_google() (see ?register_google for details), but don’t forget to enable the Maps Static API and geocoding API in the Google Cloud Console and enable billing. Also, go to 'Quotas' on Google Cloud and increase the 'Unsigned requests (if URL signing secret is defined) per day' limit
+# See #51 on dkhale/ggmap github page for an extended discussion on details.
+# register_google(key="AIzaSyAPP_DRq_N6XZyO7r2ad_-eQw36I_wFWio")
+# Requires inputting billing information to increase limit to more than 1 request per day
+# For now, use 'stamen' maps instead
+
+```
+
+```{r directories}
 data_dir <- "../../../data"
+```
+
+```{r scripts}
+source("generate_figures_functions.R")
 ```
 
 # 1. Demographics
 
 ```{r load_data}
-metadata <- read.csv(file.path(data_dir, "project-mosquito_sample-table_cleaned.csv"))
-species_calls <- read.csv(file.path(data_dir, "sample_genus_and_species.csv"))
+species_calls <- read.csv(file.path(data_dir, "sample_genus_and_species.csv"),
+                          stringsAsFactors = FALSE) %>%
+  rename(sample_name=X)
+metadata <- read.csv(file.path(data_dir, "project-mosquito_sample-table_cleaned.csv"),
+                     stringsAsFactors = FALSE) %>%
+  left_join(., species_calls, "sample_name")
 ```
 
-```{r maps}
-create_map <- function (input_data, zoom=5) {
-  freq_table <- group_by(input_data, location) %>%
-    summarise(n(), long=mean(long), lat=mean(lat)) %>%
-    rename(Number=`n()`)
-  long_range <- range(input_data$long)
-  lat_range <- range(input_data$lat)
-  cali_map <- get_map(location=bbox(SpatialPoints(input_data[, c("long", "lat")])), zoom=zoom)
-  map <- ggmap(cali_map, maptype="roadmap", color="color")
-  map.points <- geom_point(data=freq_table,
-                           aes(x=long, y=lat, size=Number),
-                           color="red", alpha=.7)
-  initial_map <- map + map.points
-}
+```{r maps, cache=TRUE}
+cms001_metadata <- filter(metadata, grepl("^CMS_[0-9][0-9][0-9]_RNA", sample_name), !is.na(lat))
+cms002_metadata <- filter(metadata, grepl("^CMS_002_[0-9]", sample_name), !is.na(lat))
 
-cms001_map <- create_map(filter(metadata, grepl("^CMS_[0-9][0-9][0-9]_RNA", metadata$sample_name), !is.na(lat)),
-                         zoom=10) + 
-  theme(axis.text=element_blank(), axis.ticks=element_blank(), axis.title=element_blank()) +
-  ggtitle("CMS001")
-cms002_map <- create_map(filter(metadata, grepl("^CMS_002_[0-9]", metadata$sample_name)),
-                         zoom=6) +
-  theme(axis.text=element_blank(), axis.ticks=element_blank(), axis.title=element_blank()) +
-  ggtitle("CMS002")
+locations <- data.frame(names=c("Alameda", "Sacramento", "Los Angeles", "San Diego", "Riverside"),
+                        long=c(-122.0865, -121.3544, -117.6627, -117.0832, -116.0492),
+                        lat=c(37.59137, 38.80646, 33.99345, 32.73910, 33.52882),
+                        stringsAsFactors = FALSE)
+cms_all_metadata <- rbind(cms001_metadata, cms002_metadata)
+set.seed(1000)
+cluster_results <- with(rbind(cms001_metadata, cms002_metadata), data.frame(long, lat)%>%kmeans(x=., nrow(locations), nstart=10))
+cms_all_metadata$location <- cluster_results$cluster
+cms_all_metadata$location_name <- sapply(1:nrow(locations), function (i) {
+  sapply(1:nrow(locations), function (j) {
+    calc_eucl_dist(cluster_results$centers[i, 1:2], locations[j, -1])
+  }) %>%
+    which.min() %>%
+    `[`(locations, ., "names")
+}) %>%
+  `[`(., cms_all_metadata$location)
+cms001_map <- create_map(cms001_metadata) + ggtitle("CMS001")
+cms002_map <- create_map(cms002_metadata) + ggtitle("CMS002")
+cms_summary_map <- create_summary_map(cms_all_metadata) + ggtitle("CMS") 
+cms_location_maps <- split_by_location(cms_all_metadata) %>%
+  mapply(function (plot_df, plot_title) create_map(plot_df) + ggtitle(plot_title),
+         ., names(.), SIMPLIFY=FALSE)
 
-print(cms001_map)
-print(cms002_map)
+demo_fig_dim <- list(width=5, height=5)
+ggsave("01_demographics/cms001_map.pdf", cms001_map, 
+       width=demo_fig_dim$width,
+       height=demo_fig_dim$height)
+ggsave("01_demographics/cms002_map.pdf", cms002_map, 
+       width=demo_fig_dim$width,
+       height=demo_fig_dim$height)
+ggsave("01_demographics/cms_summary_map.pdf", cms_summary_map, 
+       width=demo_fig_dim$width,
+       height=demo_fig_dim$height)
+lapply(cms_location_maps, function (x) {
+  ggsave(paste0("01_demographics/cms_", x$labels$title,"_map.pdf"), x, 
+       width=demo_fig_dim$width,
+       height=demo_fig_dim$height)
+})
+
 ```
 
 # 2. mNGS analysis
+
+```{r mNGS}
+
+```
+
 
 # 3. Microbiota overview
 

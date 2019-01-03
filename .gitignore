@@ -1,6 +1,7 @@
 scratch/
 presentations
 data/CMS_reports
+*_cache
 *pycache__
 .Rproj.user
 .Rhistory

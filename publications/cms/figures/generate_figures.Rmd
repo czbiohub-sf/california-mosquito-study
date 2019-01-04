@@ -50,17 +50,19 @@ metadata <- read.csv(file.path(data_dir, "project-mosquito_sample-table_cleaned.
   left_join(., species_calls, "sample_name")
 ```
 
-```{r maps, cache=TRUE}
-cms001_metadata <- filter(metadata, grepl("^CMS_[0-9][0-9][0-9]_RNA", sample_name), !is.na(lat))
-cms002_metadata <- filter(metadata, grepl("^CMS_002_[0-9]", sample_name), !is.na(lat))
-
+```{r create-data-frames}
+cms_all_data <- filter(metadata, !is.na(lat), grepl("^CMS", sample_name))
+cms_all_data[is.na(cms_all_data$genus), c("genus", "species", "corrected.genus", "corrected.species")] <- 
+  data.frame(genus="Culex", species=c("erythrothorax", "tarsalis"),
+             corrected.genus="Culex", corrected.species=c("erythrothorax", "tarsalis"))
+cms001_metadata <- filter(cms_all_data, grepl("^CMS_[0-9][0-9][0-9]_RNA", sample_name))
+cms002_metadata <- filter(cms_all_data, grepl("^CMS_002_[0-9]", sample_name))
 locations <- data.frame(names=c("Alameda", "Sacramento", "Los Angeles", "San Diego", "Riverside"),
                         long=c(-122.0865, -121.3544, -117.6627, -117.0832, -116.0492),
                         lat=c(37.59137, 38.80646, 33.99345, 32.73910, 33.52882),
                         stringsAsFactors = FALSE)
-cms_all_metadata <- rbind(cms001_metadata, cms002_metadata)
 set.seed(1000)
-cluster_results <- with(rbind(cms001_metadata, cms002_metadata), data.frame(long, lat)%>%kmeans(x=., nrow(locations), nstart=10))
+cluster_results <- with(cms_all_data, data.frame(long, lat)%>%kmeans(x=., nrow(locations), nstart=10))
 cms_all_metadata$location <- cluster_results$cluster
 cms_all_metadata$location_name <- sapply(1:nrow(locations), function (i) {
   sapply(1:nrow(locations), function (j) {
@@ -70,6 +72,10 @@ cms_all_metadata$location_name <- sapply(1:nrow(locations), function (i) {
     `[`(locations, ., "names")
 }) %>%
   `[`(., cms_all_metadata$location)
+```
+
+
+```{r maps, cache=TRUE}
 cms001_map <- create_map(cms001_metadata) + ggtitle("CMS001")
 cms002_map <- create_map(cms002_metadata) + ggtitle("CMS002")
 cms_summary_map <- create_summary_map(cms_all_metadata) + ggtitle("CMS") 
@@ -95,6 +101,8 @@ lapply(cms_location_maps, function (x) {
 
 ```
 
+
+
 # 2. mNGS analysis
 
 ```{r mNGS}
@@ -109,6 +117,7 @@ graph TD
 
 
 # 3. Microbiota overview
+
 
 
 

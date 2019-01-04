@@ -12,6 +12,8 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=TRUE)
 library(dplyr)
+library(tidyr)
+library(readr)
 library(magrittr)
 library(ggplot2)
 library(sp)
@@ -54,7 +56,8 @@ metadata <- read.csv(file.path(data_dir, "project-mosquito_sample-table_cleaned.
 cms_all_data <- filter(metadata, !is.na(lat), grepl("^CMS", sample_name))
 cms_all_data[is.na(cms_all_data$genus), c("genus", "species", "corrected.genus", "corrected.species")] <- 
   data.frame(genus="Culex", species=c("erythrothorax", "tarsalis"),
-             corrected.genus="Culex", corrected.species=c("erythrothorax", "tarsalis"))
+             corrected.genus="Culex", corrected.species=c("erythrothorax", "tarsalis"),
+             stringsAsFactors = FALSE)
 cms001_metadata <- filter(cms_all_data, grepl("^CMS_[0-9][0-9][0-9]_RNA", sample_name))
 cms002_metadata <- filter(cms_all_data, grepl("^CMS_002_[0-9]", sample_name))
 locations <- data.frame(names=c("Alameda", "Sacramento", "Los Angeles", "San Diego", "Riverside"),
@@ -63,23 +66,23 @@ locations <- data.frame(names=c("Alameda", "Sacramento", "Los Angeles", "San Die
                         stringsAsFactors = FALSE)
 set.seed(1000)
 cluster_results <- with(cms_all_data, data.frame(long, lat)%>%kmeans(x=., nrow(locations), nstart=10))
-cms_all_metadata$location <- cluster_results$cluster
-cms_all_metadata$location_name <- sapply(1:nrow(locations), function (i) {
+cms_all_data$location <- cluster_results$cluster
+cms_all_data$location_name <- sapply(1:nrow(locations), function (i) {
   sapply(1:nrow(locations), function (j) {
     calc_eucl_dist(cluster_results$centers[i, 1:2], locations[j, -1])
   }) %>%
     which.min() %>%
     `[`(locations, ., "names")
 }) %>%
-  `[`(., cms_all_metadata$location)
+  `[`(., cms_all_data$location)
 ```
 
 
 ```{r maps, cache=TRUE}
 cms001_map <- create_map(cms001_metadata) + ggtitle("CMS001")
 cms002_map <- create_map(cms002_metadata) + ggtitle("CMS002")
-cms_summary_map <- create_summary_map(cms_all_metadata) + ggtitle("CMS") 
-cms_location_maps <- split_by_location(cms_all_metadata) %>%
+cms_summary_map <- create_summary_map(cms_all_data) + ggtitle("CMS") 
+cms_location_maps <- split_by_location(cms_all_data) %>%
   mapply(function (plot_df, plot_title) create_map(plot_df) + ggtitle(plot_title),
          ., names(.), SIMPLIFY=FALSE)
 
@@ -101,7 +104,29 @@ lapply(cms_location_maps, function (x) {
 
 ```
 
+```{r demographics-tables}
+species_by_location <- cms_all_data %>%
+  group_by(., location_name, corrected.genus, corrected.species) %>%
+  summarize(., n=n())
+species_by_location_plot <- 
+  ggplot(species_by_location, 
+       aes(x=paste0(corrected.genus, "\n", corrected.species), 
+           y=factor(location_name, levels=c("San Diego", "Riverside", "Los Angeles", "Alameda", "Sacramento")), 
+           fill=n)) +
+  theme_light() +
+  geom_tile() +
+  facet_grid(.~corrected.genus, scales="free_x") +
+  xlab("Species") +
+  ylab("Location") +
+  scale_fill_continuous("Number of\nSamples")
+ggsave("01_demographics/species_by_location.pdf", species_by_location_plot, width=12, height=4)
 
+species_by_location %>%
+  mutate(species_name=paste(corrected.genus, corrected.species)) %>%
+  spread(., key=species_name, value=n, fill=0) %>%
+  `[`(., , -2:-3) %>%
+  write_csv(., "01_demographics/demographics.csv")
+```
 
 # 2. mNGS analysis
 

@@ -188,6 +188,45 @@ ggsave("03_microbiota_overview/number_species_by_location.pdf", kingdom_numbers_
 
 # 4. Bloodmeal
 
+```{r}
+bloodmeal_summary <- lapply(kingdom_summary, `[[`, "chordata") %>%
+  lapply(names) %>%
+  lapply(esummary, db="taxonomy") %>%
+  lapply(content, "parsed")
+bloodmeal_summary_df <- bloodmeal_summary %>%
+  `[`(!sapply(., is.null)) %>%
+  `[`(sapply(., length)>0) %>%
+  mapply(data.frame, sample=names(.), ., SIMPLIFY=FALSE) %>%
+  do.call(what=rbind, .) %>%
+  mutate(., species_name=paste(Genus, Species))
+bloodmeal_species <- bloodmeal_summary_df %>%
+  filter(., !duplicated(species_name)) %>%
+  select(Division, CommonName, species_name, Genus, Species) %>%
+  mutate(CommonName=gsub("NA", NA, CommonName)) %>%
+  mutate(CommonName=coalesce(CommonName, species_name))
+bloodmeal_species_melt <- bloodmeal_summary_df %>%
+  split(., .$sample) %>%
+  lapply(., function (x) {
+    bloodmeal_species$species_name %in% x$species_name
+  }) %>%
+  do.call(what=cbind, .) %>%
+  data.frame(bloodmeal_species, .) %>% 
+  reshape2::melt(., id.vars=names(bloodmeal_species), variable.name="sample", value.name="present") %>%
+  left_join(., select(kingdom_numbers, sample, location_name), "sample")
+```
+
+```{r}
+bloodmeal_species_plot <- ggplot(bloodmeal_species_melt) + theme_bw() +
+  geom_tile(aes(x=gsub(" ", "\n", CommonName), y=sample, fill=present)) +
+  facet_grid(location_name~gsub(" ", "\n", Division), scales="free", space="free") +
+  xlab("Species") + ylab("Sample") +
+  scale_fill_manual("Present", values=c("white", "steelblue4")) +
+  theme(strip.text.y=element_text(angle=0),
+        axis.text.x=element_text(angle=0))
+ggsave("04_bloodmeal/bloodmeal_species.pdf", bloodmeal_species_plot,
+       width=24, height=16)
+```
+
 # 5. Vignettes
 
 

@@ -17,7 +17,12 @@ library(tidyr)
 library(readr)
 library(magrittr)
 library(ggplot2)
+library(grid)
+library(gridExtra)
+library(broom)
 library(sp)
+library(rgdal)
+library(maptools)
 library(OpenStreetMap)
 library(ggmap)
 library(DiagrammeR)
@@ -56,14 +61,110 @@ metadata <- read.csv(file.path(data_dir, "project-mosquito_sample-table_cleaned.
 merged_metadata <- read.csv(file.path(data_dir, "CMS001_CMS002_MergedAnnotations_181218.csv"))
 ```
 
-```{r create-data-frames}
+```{r get-shapefiles}
+list_of_counties <- c("Alameda", "Placer", "San Diego", "Coachella Valley", "West Valley")
+westvalley_names <- c("Chino", "Chino Hills", "Montclair", "Ontario", "Rancho Cucamonga", "Upland")
+# https://data.ca.gov/dataset/ca-geographic-boundaries
+ca_shp <- file.path(data_dir, "shapefiles", paste0("CA_", c("State", "Counties", "Places"))) %>%
+  lapply(., readOGR, stringsAsFactors=FALSE) %>%
+  lapply(., spTransform, CRS("+proj=longlat +datum=WGS84")) %>%
+  setNames(., sapply(., function (x) grep("NS$", names(x), value=TRUE) %>% gsub("NS", "", .) %>% capitalize_first()))
+coachellavalley_names <- ca_places_shp@data %>% select(INTPTLON, INTPTLAT) %>%
+  apply(1, as.numeric) %>% 
+  apply(2, calc_eucl_dist, c(-116.0825, 33.51680)) %>%
+  order(.) %>% 
+  slice(ca_places_shp@data, .) %>%
+  slice(., 1:(which(NAME=="Coachella")-1)) %>%
+  `[[`("NAME")
+
+
+ca_shp$Areas <- ca_shp$County %>%
+  `[`(., .$NAME %in% c("Alameda", "Placer", "San Diego"), )
+ca_shp$Areas@plotOrder <- 1:5
+ca_shp$Areas@data %<>% rbind(., .[1:2, ])
+places_data <- slice(ca_shp$Place@data, match(c("Ontario", "Coachella"), NAME)) %>%
+  mutate(NAME=c("West Valley", "Coachella Valley"))
+common_columns <- names(ca_shp$Areas@data) %>% `[`(., . %in% names(places_data))
+ca_shp$Areas@data[4:5, common_columns] <- places_data[, common_columns]
+ca_shp$Areas@data[4:5, c("COUNTYFP", "COUNTYNS")] <- places_data[, c("PLACEFP", "PLACENS")]
+ca_shp$Areas@data %<>% 
+  mutate(colours=c("#6b2500", "#de2d6a", "#565fd5", "#ff6f53", "#22b14e"),
+         order=c(5, 2, 1, 3, 4))
+gpclibPermit() # https://stackoverflow.com/questions/30790036/error-istruegpclibpermitstatus-is-not-true
+ca_shp$Areas@polygons %<>% 
+  c(lapply(list(westvalley_names, coachellavalley_names), function (x) {
+    unionSpatialPolygons(ca_shp$Place[ca_shp$Place$NAME %in% x, ], rep(1, length(x))) %>%
+      spTransform(., CRS("+proj=longlat +datum=WGS84")) %>%
+      `@`(., "polygons") %>% 
+      `[[`(1)
+    }))
+for (i in 1:length(slot(ca_shp$Areas, "polygons"))){
+  slot(slot(ca_shp$Areas, "polygons")[[i]], "ID") <- as.character(i)
+}
+ca_shp$Areas@data %<>% mutate(., id=sapply(ca_shp$Areas@polygons, function (x) x@ID))
+zoom_options <- get_zoom_options (long=ca_shp$State@bbox[1, ], lat=ca_shp$State@bbox[2, ])
+map <- openmap(c(zoom_options$lat_range[2], zoom_options$lon_range[1]),
+               c(zoom_options$lat_range[1], zoom_options$lon_range[2]), 
+               zoom = zoom_options$zoom, type = "osm", mergeTiles = TRUE) %>%
+  openproj(CRS("+proj=longlat +datum=WGS84"))
+base_cali_map <- autoplot(map) +
+  geom_polygon(data=ca_shp$State, aes(x=long, y=lat, group=group), colour = "black", fill = NA) +
+  geom_polygon(data=ca_shp$Areas, aes(x=long, y=lat, group=group, fill=factor(id, levels=with(ca_shp$Areas@data, id[order(order)]))), colour = "black", alpha=.75) +
+  scale_fill_manual("Collection site", labels=with(ca_shp$Areas@data, NAME[order(order)]), values=with(ca_shp$Areas@data, colours[order(order)])) +
+  theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(),
+        legend.position="top", legend.direction="vertical",
+        plot.margin = unit(c(1,1,1,1), "mm"))
+
+
 cms_all_data <- filter(metadata, !is.na(lat), grepl("^CMS", sample_name))
 cms_all_data[is.na(cms_all_data$genus), c("genus", "species", "corrected.genus", "corrected.species")] <- 
   data.frame(genus="Culex", species=c("erythrothorax", "tarsalis"),
              corrected.genus="Culex", corrected.species=c("erythrothorax", "tarsalis"),
              stringsAsFactors = FALSE)
+cms_all_data$location_name <- apply(cms_all_data[, c("long", "lat")], 1, function (x) {
+  lapply(ca_shp$Areas@data[, c("INTPTLON", "INTPTLAT")], as.numeric) %>% 
+    data.frame() %>%
+    apply(., 1, calc_eucl_dist, x) %>%
+    which.min() %>%
+    `[`(ca_shp$Areas@data$NAME, .)
+})
+
+polygon_plots <- lapply(with(ca_shp$Areas@data, id[order(order)]), function (x) {
+  plot_data <- filter(tidy(ca_shp$Areas), id==x)
+  width_height <- plot_data[, c("long", "lat")]%>%lapply(range)%>%sapply(diff)
+  place_name <- filter(ca_shp$Areas@data, id==x)$NAME
+  sites <- filter(cms_all_data, location_name==place_name) %>% mutate(lat_lon=paste0(lat, "_", long)) %>% `[[`("lat_lon") %>% table()
+  n <- sum(sites)
+  create_map(filter(cms_all_data, location_name==place_name), polygon=plot_data, polygon_col=filter(ca_shp$Areas@data, id==x)$colours) +
+    ggtitle(paste0(filter(ca_shp$Areas@data, id==x)$NAME, ":\nNumber of sites: ", length(sites), "\nn: ", n)) +
+    theme(plot.title=element_text(hjust=0.5))
+})
+# polygon_meta <- sapply(polygons, function (x) {
+#     x$data[, c("long", "lat")] %>% lapply(range) %>% sapply(diff)
+# }) %>%
+#   t() %>%
+#   data.frame() %>%
+#   mutate(group=c(1, 1, 2, 2, 2)) %>%
+#   data.frame(slice(ca_shp$Areas@data, order(order)), .) %>%
+#   rename(long_range=long, lat_range=lat)
+grouped_polygons <- split(polygon_plots, c(1, 1, 2, 2, 2)) %>%
+  mapply(function (x, y) {
+    arrangeGrob(grobs=x, nrow=1)
+  }, ., split(seq(polygons), c(1, 1, 2, 2, 2)), SIMPLIFY=FALSE) %>%
+  arrangeGrob(grobs=., ncol=1)
+
+full_demo_map <- arrangeGrob(grobs=list(base_cali_map, grouped_polygons), ncol=2, widths=c(3, 5))
+ggsave("01_demographics/demographic_map.pdf", full_demo_map, width=18, height=8)
+```
+
+```{r create-data-frames}
+ + 
+  geom_polygon(polygons[[1]]$data, aes(x=long, y=lat, group=group), fill=filter(ca_shp$Areas@data, id==x)$colours)
+
 cms001_metadata <- filter(cms_all_data, grepl("^CMS_[0-9][0-9][0-9]_RNA", sample_name))
 cms002_metadata <- filter(cms_all_data, grepl("^CMS_002_[0-9]", sample_name))
+
+
 locations <- data.frame(names=c("Alameda", "Sacramento", "Los Angeles", "San Diego", "Riverside"),
                         long=c(-122.0865, -121.3544, -117.6627, -117.0832, -116.0492),
                         lat=c(37.59137, 38.80646, 33.99345, 32.73910, 33.52882),

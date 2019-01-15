@@ -60,9 +60,7 @@ create_map <- function (input_data, zoom=NULL, polygon=NULL, polygon_col=NULL) {
                                     c(input_data$lat, polygon$lat))
   map <- openmap(c(zoom_options$lat_range[2], zoom_options$lon_range[1]),
                  c(zoom_options$lat_range[1], zoom_options$lon_range[2]), 
-                 zoom = zoom_options$zoom,
-                 type = "osm",
-                 mergeTiles = TRUE) %>%
+                 zoom = zoom_options$zoom, type = "osm", mergeTiles = TRUE) %>%
     openproj(CRS("+proj=longlat +datum=WGS84"))
   map.points <- geom_point(data=freq_table,
                            aes(x=long, y=lat, size=Number),

@@ -1,8 +1,14 @@
 calc_eucl_dist <- function (v1, v2) {
-  sqrt(sum(v2-v1)^2)
+  sqrt(sum((v2-v1)^2))
 }
 
-get_zoom_options <- function (zoom, long, lat, multiplier=0.1) {
+capitalize_first <- function (x) {
+  A <- toupper(substr(x, 1, 1))
+  B <- tolower(substr(x, 2, nchar(x)))
+  paste0(A, B)
+}
+
+get_zoom_options <- function (zoom=NULL, long, lat, multiplier=0.1) {
   require(ggmap)
   output <- list(zoom=zoom)
   if (is.null(zoom)) {
@@ -47,23 +53,28 @@ split_by_location <- function (input_data) {
 }
 
 
-create_map <- function (input_data, zoom=NULL) {
+create_map <- function (input_data, zoom=NULL, polygon=NULL, polygon_col=NULL) {
   freq_table <- get_summary_data(input_data)
-  zoom_options <- get_zoom_options (zoom, input_data$long, input_data$lat)
+  zoom_options <- get_zoom_options (zoom,
+                                    c(input_data$long, polygon$long), 
+                                    c(input_data$lat, polygon$lat))
   map <- openmap(c(zoom_options$lat_range[2], zoom_options$lon_range[1]),
                  c(zoom_options$lat_range[1], zoom_options$lon_range[2]), 
                  zoom = zoom_options$zoom,
                  type = "osm",
-                 mergeTiles = TRUE)
-  map.latlon <- openproj(map, projection = "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs")
+                 mergeTiles = TRUE) %>%
+    openproj(CRS("+proj=longlat +datum=WGS84"))
   map.points <- geom_point(data=freq_table,
                            aes(x=long, y=lat, size=Number),
                            alpha=.8)
-  autoplot(map.latlon) + 
-    map.points +
+  map_plot <- autoplot(map) + 
     theme(axis.text=element_blank(), 
           axis.ticks=element_blank(), 
           axis.title=element_blank())
+  if (!is.null(polygon)) {
+    map_plot %<>% `+`(geom_polygon(data=polygon, aes(x=long, y=lat, group=group), fill=polygon_col, alpha=.5))
+  }
+  map_plot + map.points
 }
 
 create_summary_map <- function (input_data, zoom=NULL) {

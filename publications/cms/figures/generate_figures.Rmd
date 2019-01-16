@@ -156,7 +156,7 @@ species_by_location <- cms_all_data %>%
 species_by_location_plot <- 
   ggplot(species_by_location, 
        aes(x=paste0(corrected.genus, "\n", corrected.species), 
-           y=factor(location_name, levels=c("San Diego", "Riverside", "Los Angeles", "Alameda", "Sacramento")), 
+           y=factor(location_name, levels=with(ca_shp$Areas@data, NAME[order(order, decreasing = TRUE)])), 
            fill=n)) +
   theme_light() +
   geom_tile() +

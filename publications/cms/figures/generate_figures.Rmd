@@ -135,17 +135,9 @@ polygon_plots <- lapply(with(ca_shp$Areas@data, id[order(order)]), function (x) 
   sites <- filter(cms_all_data, location_name==place_name) %>% mutate(lat_lon=paste0(lat, "_", long)) %>% `[[`("lat_lon") %>% table()
   n <- sum(sites)
   create_map(filter(cms_all_data, location_name==place_name), polygon=plot_data, polygon_col=filter(ca_shp$Areas@data, id==x)$colours) +
-    ggtitle(paste0(filter(ca_shp$Areas@data, id==x)$NAME, ":\nNumber of sites: ", length(sites), "\nn: ", n)) +
+    ggtitle(paste0(filter(ca_shp$Areas@data, id==x)$NAME, "\nNumber of sites: ", length(sites), "     n: ", n)) +
     theme(plot.title=element_text(hjust=0.5))
 })
-# polygon_meta <- sapply(polygons, function (x) {
-#     x$data[, c("long", "lat")] %>% lapply(range) %>% sapply(diff)
-# }) %>%
-#   t() %>%
-#   data.frame() %>%
-#   mutate(group=c(1, 1, 2, 2, 2)) %>%
-#   data.frame(slice(ca_shp$Areas@data, order(order)), .) %>%
-#   rename(long_range=long, lat_range=lat)
 grouped_polygons <- split(polygon_plots, c(1, 1, 2, 2, 2)) %>%
   mapply(function (x, y) {
     arrangeGrob(grobs=x, nrow=1)
@@ -157,8 +149,6 @@ ggsave("01_demographics/demographic_map.pdf", full_demo_map, width=18, height=8)
 ```
 
 ```{r create-data-frames}
- + 
-  geom_polygon(polygons[[1]]$data, aes(x=long, y=lat, group=group), fill=filter(ca_shp$Areas@data, id==x)$colours)
 
 cms001_metadata <- filter(cms_all_data, grepl("^CMS_[0-9][0-9][0-9]_RNA", sample_name))
 cms002_metadata <- filter(cms_all_data, grepl("^CMS_002_[0-9]", sample_name))

@@ -63,26 +63,25 @@ merged_metadata <- read.csv(file.path(data_dir, "CMS001_CMS002_MergedAnnotations
 
 ```{r get-shapefiles}
 list_of_counties <- c("Alameda", "Placer", "San Diego", "Coachella Valley", "West Valley")
-westvalley_names <- c("Chino", "Chino Hills", "Montclair", "Ontario", "Rancho Cucamonga", "Upland")
 # https://data.ca.gov/dataset/ca-geographic-boundaries
-ca_shp <- file.path(data_dir, "shapefiles", paste0("CA_", c("State", "Counties", "Places"))) %>%
+shapefile_names <- c(paste0("CA_", c("State", "Counties", "Places")), "WestValley")
+ca_shp <- file.path(data_dir, "shapefiles", shapefile_names) %>%
   lapply(., readOGR, stringsAsFactors=FALSE) %>%
   lapply(., spTransform, CRS("+proj=longlat +datum=WGS84")) %>%
-  setNames(., sapply(., function (x) grep("NS$", names(x), value=TRUE) %>% gsub("NS", "", .) %>% capitalize_first()))
-coachellavalley_names <- ca_places_shp@data %>% select(INTPTLON, INTPTLAT) %>%
+  setNames(., gsub("CA_", "", shapefile_names))
+coachellavalley_names <- ca_places_shp@data %>% 
+  select(INTPTLON, INTPTLAT) %>%
   apply(1, as.numeric) %>% 
   apply(2, calc_eucl_dist, c(-116.0825, 33.51680)) %>%
   order(.) %>% 
   slice(ca_places_shp@data, .) %>%
   slice(., 1:(which(NAME=="Coachella")-1)) %>%
   `[[`("NAME")
-
-
-ca_shp$Areas <- ca_shp$County %>%
+ca_shp$Areas <- ca_shp$Counties %>%
   `[`(., .$NAME %in% c("Alameda", "Placer", "San Diego"), )
 ca_shp$Areas@plotOrder <- 1:5
 ca_shp$Areas@data %<>% rbind(., .[1:2, ])
-places_data <- slice(ca_shp$Place@data, match(c("Ontario", "Coachella"), NAME)) %>%
+places_data <- slice(ca_shp$Places@data, match(c("Ontario", "Coachella"), NAME)) %>%
   mutate(NAME=c("West Valley", "Coachella Valley"))
 common_columns <- names(ca_shp$Areas@data) %>% `[`(., . %in% names(places_data))
 ca_shp$Areas@data[4:5, common_columns] <- places_data[, common_columns]
@@ -92,13 +91,13 @@ ca_shp$Areas@data %<>%
          order=c(5, 2, 1, 3, 4))
 gpclibPermit() # https://stackoverflow.com/questions/30790036/error-istruegpclibpermitstatus-is-not-true
 ca_shp$Areas@polygons %<>% 
-  c(lapply(list(westvalley_names, coachellavalley_names), function (x) {
-    unionSpatialPolygons(ca_shp$Place[ca_shp$Place$NAME %in% x, ], rep(1, length(x))) %>%
-      spTransform(., CRS("+proj=longlat +datum=WGS84")) %>%
-      `@`(., "polygons") %>% 
-      `[[`(1)
-    }))
-for (i in 1:length(slot(ca_shp$Areas, "polygons"))){
+  c(list(unionSpatialPolygons(ca_shp$WestValley, IDs=rep(1, length(ca_shp$WestValley@polygons))),
+         unionSpatialPolygons(ca_shp$Places[ca_shp$Places$NAME %in% coachellavalley_names, ], rep(1, length(coachellavalley_names)))) %>%
+      lapply(., spTransform, CRS("+proj=longlat +datum=WGS84")) %>%
+      lapply(., slot, "polygons") %>% 
+      lapply(., `[[`, 1)
+    )
+for (i in seq(ca_shp$Areas@polygons)) {
   slot(slot(ca_shp$Areas, "polygons")[[i]], "ID") <- as.character(i)
 }
 ca_shp$Areas@data %<>% mutate(., id=sapply(ca_shp$Areas@polygons, function (x) x@ID))

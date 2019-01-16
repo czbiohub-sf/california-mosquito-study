@@ -68,7 +68,8 @@ create_map <- function (input_data, zoom=NULL, polygon=NULL, polygon_col=NULL) {
   map_plot <- autoplot(map) + 
     theme(axis.text=element_blank(), 
           axis.ticks=element_blank(), 
-          axis.title=element_blank())
+          axis.title=element_blank()) +
+    scale_size_continuous(breaks = function(x) unique(floor(pretty(seq(0, (max(x) + 1) * 1.1)))))
   if (!is.null(polygon)) {
     map_plot %<>% `+`(geom_polygon(data=polygon, aes(x=long, y=lat, group=group), fill=polygon_col, alpha=.5))
   }

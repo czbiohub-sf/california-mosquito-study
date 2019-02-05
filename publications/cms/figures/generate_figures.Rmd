@@ -303,7 +303,7 @@ ggsave("03_microbiota_overview/taxa_by_location.pdf", presence_by_kingdom_plot, 
 ```
 
 ```{r viruses}
-bloodmeal_plot <-
+virus_plot <-
   ggplot(filter(presence_df, kingdom=="Viruses") %>%
            mutate(., sample=factor(sample, unique(sample[order(sample_mosquito_species)]))), aes(x=taxa, y=sample, alpha=present, fill=sample_mosquito_species)) +
   theme_bw() +

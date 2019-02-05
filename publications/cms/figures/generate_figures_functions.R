@@ -53,8 +53,13 @@ split_by_location <- function (input_data) {
 }
 
 
-create_map <- function (input_data, zoom=NULL, polygon=NULL, polygon_col=NULL) {
+create_map <- function (input_data, zoom=NULL, polygon=NULL, polygon_col=NULL, use_species=FALSE) {
   freq_table <- get_summary_data(input_data)
+  if (use_species) {
+    freq_table_species <- split(input_data, with(input_data, paste(corrected.genus, corrected.species))) %>%
+      lapply(get_summary_data) %>%
+      do.call(what=rbind, .)
+  }
   zoom_options <- get_zoom_options (zoom,
                                     c(input_data$long, polygon$long), 
                                     c(input_data$lat, polygon$lat))
@@ -62,9 +67,15 @@ create_map <- function (input_data, zoom=NULL, polygon=NULL, polygon_col=NULL) {
                  c(zoom_options$lat_range[1], zoom_options$lon_range[2]), 
                  zoom = zoom_options$zoom, type = "osm", mergeTiles = TRUE) %>%
     openproj(CRS("+proj=longlat +datum=WGS84"))
-  map.points <- geom_point(data=freq_table,
-                           aes(x=long, y=lat, size=Number),
-                           alpha=.8)
+  if (use_species) {
+    map.points <- geom_point(data=freq_table_species, 
+                             aes(x=long, y=lat, size=Number, 
+                                 color=paste(corrected.genus, corrected.species)))
+  } else {
+    map.points <- geom_point(data=freq_table,
+                             aes(x=long, y=lat, size=Number),
+                             alpha=.8)
+  }
   map_plot <- autoplot(map) + 
     theme(axis.text=element_blank(), 
           axis.ticks=element_blank(), 
@@ -103,4 +114,12 @@ create_summary_map <- function (input_data, zoom=NULL) {
     theme(axis.text=element_blank(), 
           axis.ticks=element_blank(), 
           axis.title=element_blank())
+}
+
+group_polygons <- function (input_plots) {
+  split(input_plots, c(1, 1, 2, 2, 2)) %>%
+    mapply(function (x, y) {
+      arrangeGrob(grobs=x, nrow=1)
+    }, ., split(seq(polygons), c(1, 1, 2, 2, 2)), SIMPLIFY=FALSE) %>%
+    arrangeGrob(grobs=., ncol=1)
 }

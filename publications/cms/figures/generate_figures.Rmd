@@ -61,20 +61,20 @@ metadata <- read.csv(file.path(data_dir, "project-mosquito_sample-table_cleaned.
 merged_metadata <- read.csv(file.path(data_dir, "CMS001_CMS002_MergedAnnotations_181218.csv"))
 ```
 
-```{r get-shapefiles}
-list_of_counties <- c("Alameda", "Placer", "San Diego", "Coachella Valley", "West Valley")
+```{r get-shapefiles, cache=TRUE}
+list_of_counties <- c("Alameda", "Placer", "West Valley", "Coachella Valley", "San Diego")
 # https://data.ca.gov/dataset/ca-geographic-boundaries
 shapefile_names <- c(paste0("CA_", c("State", "Counties", "Places")), "WestValley")
 ca_shp <- file.path(data_dir, "shapefiles", shapefile_names) %>%
   lapply(., readOGR, stringsAsFactors=FALSE) %>%
   lapply(., spTransform, CRS("+proj=longlat +datum=WGS84")) %>%
   setNames(., gsub("CA_", "", shapefile_names))
-coachellavalley_names <- ca_places_shp@data %>% 
+coachellavalley_names <- ca_shp$Places@data %>% 
   select(INTPTLON, INTPTLAT) %>%
   apply(1, as.numeric) %>% 
   apply(2, calc_eucl_dist, c(-116.0825, 33.51680)) %>%
   order(.) %>% 
-  slice(ca_places_shp@data, .) %>%
+  slice(ca_shp$Places@data, .) %>%
   slice(., 1:(which(NAME=="Coachella")-1)) %>%
   `[[`("NAME")
 ca_shp$Areas <- ca_shp$Counties %>%
@@ -88,7 +88,7 @@ ca_shp$Areas@data[4:5, common_columns] <- places_data[, common_columns]
 ca_shp$Areas@data[4:5, c("COUNTYFP", "COUNTYNS")] <- places_data[, c("PLACEFP", "PLACENS")]
 ca_shp$Areas@data %<>% 
   mutate(colours=c("#6b2500", "#de2d6a", "#565fd5", "#ff6f53", "#22b14e"),
-         order=c(5, 2, 1, 3, 4))
+         order=match(NAME, list_of_counties))
 gpclibPermit() # https://stackoverflow.com/questions/30790036/error-istruegpclibpermitstatus-is-not-true
 ca_shp$Areas@polygons %<>% 
   c(list(unionSpatialPolygons(ca_shp$WestValley, IDs=rep(1, length(ca_shp$WestValley@polygons))),
@@ -113,9 +113,13 @@ base_cali_map <- autoplot(map) +
   theme(axis.title=element_blank(), axis.text=element_blank(), axis.ticks=element_blank(),
         legend.position="top", legend.direction="vertical",
         plot.margin = unit(c(1,1,1,1), "mm"))
+```
 
-
-cms_all_data <- filter(metadata, !is.na(lat), grepl("^CMS", sample_name))
+```{r cms_all_data, cache=TRUE}
+cms_all_data <- filter(metadata, !is.na(lat), grepl("^CMS", sample_name)) %>%
+  rename(., OldIDseqName=sample_name) %>%
+  left_join(., select(merged_metadata, contains("IDseqName")), by="OldIDseqName") %>%
+  rename(sample=NewIDseqName)
 cms_all_data[is.na(cms_all_data$genus), c("genus", "species", "corrected.genus", "corrected.species")] <- 
   data.frame(genus="Culex", species=c("erythrothorax", "tarsalis"),
              corrected.genus="Culex", corrected.species=c("erythrothorax", "tarsalis"),
@@ -128,6 +132,9 @@ cms_all_data$location_name <- apply(cms_all_data[, c("long", "lat")], 1, functio
     `[`(ca_shp$Areas@data$NAME, .)
 })
 
+```
+
+```{r plot-shapefiles, cache=TRUE}
 polygon_plots <- lapply(with(ca_shp$Areas@data, id[order(order)]), function (x) {
   plot_data <- filter(tidy(ca_shp$Areas), id==x)
   width_height <- plot_data[, c("long", "lat")]%>%lapply(range)%>%sapply(diff)
@@ -138,18 +145,38 @@ polygon_plots <- lapply(with(ca_shp$Areas@data, id[order(order)]), function (x) 
     ggtitle(paste0(filter(ca_shp$Areas@data, id==x)$NAME, "\nNumber of sites: ", length(sites), "     n: ", n)) +
     theme(plot.title=element_text(hjust=0.5))
 })
-grouped_polygons <- split(polygon_plots, c(1, 1, 2, 2, 2)) %>%
-  mapply(function (x, y) {
-    arrangeGrob(grobs=x, nrow=1)
-  }, ., split(seq(polygons), c(1, 1, 2, 2, 2)), SIMPLIFY=FALSE) %>%
-  arrangeGrob(grobs=., ncol=1)
+grouped_polygons <- group_polygons(polygon_plots)
 
 full_demo_map <- arrangeGrob(grobs=list(base_cali_map, grouped_polygons), ncol=2, widths=c(3, 5))
 ggsave("01_demographics/demographic_map.pdf", full_demo_map, width=18, height=8)
+
+polygon_plots_species <-  lapply(with(ca_shp$Areas@data, id[order(order)]), function (x) {
+  plot_data <- filter(tidy(ca_shp$Areas), id==x)
+  width_height <- plot_data[, c("long", "lat")]%>%lapply(range)%>%sapply(diff)
+  place_name <- filter(ca_shp$Areas@data, id==x)$NAME
+  sites <- filter(cms_all_data, location_name==place_name) %>% mutate(lat_lon=paste0(lat, "_", long)) %>% `[[`("lat_lon") %>% table()
+  n <- sum(sites)
+  title_text <- paste0(filter(ca_shp$Areas@data, id==x)$NAME, "\nNumber of sites: ", length(sites), "     n: ", n)
+  filter(cms_all_data, location_name==place_name) %>%
+    split(., paste(.$corrected.genus, .$corrected.species)) %>%
+    lapply(function (input_data) {
+      create_map(filter(cms_all_data, location_name==place_name),
+                 polygon=plot_data, 
+                 polygon_col=filter(ca_shp$Areas@data, id==x)$colours,
+                 use_species=TRUE) + 
+        ggtitle(paste(input_data$corrected.genus, input_data$corrected.species)[1])
+    }) %>%
+    arrangeGrob(grobs=., nrow=1, top=title_text)
+})
+
+grouped_polygons_species <- group_polygons(polygon_plots_species)
+full_demo_map_species <- arrangeGrob(grobs=list(base_cali_map, grouped_polygons_species), ncol=2, widths=c(3, 5))
+ggsave("01_demographics/demographic_map_species.pdf", full_demo_map_species, width=18, height=8)
+
 ```
 
 
-```{r demographics-tables}
+```{r demographics-tables, cache=TRUE}
 species_by_location <- cms_all_data %>%
   group_by(., location_name, corrected.genus, corrected.species) %>%
   summarize(., n=n())
@@ -188,85 +215,130 @@ graph TD
 
 # 3. Microbiota overview
 
-```{r}
-contig_hits <- read.csv(paste0(data_dir, "/blast_topresults_df_sub.csv"))
-acc_to_lineage <- rjson::fromJSON(file=paste0(data_dir, "/acc_to_lineage.json"))
+```{bash}
+/Users/lucy.li/anaconda3/bin/aws s3 cp s3://czbiohub-mosquito/contig_quality/contig_quality_df.tsv ../../../data/
 ```
+
+
+```{r, message=FALSE, warning=FALSE}
+contig_hits <- read_tsv(file.path(data_dir, "contig_quality_df.tsv"))
+```
+
+```{r}
+table(contig_hits$kingdom)
+```
+
 
 ```{r contig_hits_summary}
-contig_hits$lineage <- acc_to_lineage[contig_hits$sseqid]
-taxcat <- list(bacteria=2,
-               viruses=10239,
-               fungi=4751,
-               plants=33090,
-               chordata=7711)
-kingdom_summary <- contig_hits %>%
-  split(., .$sample) %>%
-  lapply(., function (x) {
-    lapply(taxcat, function (id) {
-      filtered_x <- filter(x, mapply(`%in%`, id, lineage))
-      if (nrow(filtered_x)==0) return (NA)
-      filtered_x$lineage %>% sapply(tail, 1) %>% table() %>% sort()
-    })
-  })
-kingdom_numbers <- lapply(kingdom_summary, function (x) {
-  lapply(x, is.na) %>% lapply(`!`) %>% sapply(sum) %>% t() %>% as.data.frame()
+presence_df <- lapply(na.omit(unique(contig_hits$kingdom)), function (x) {
+  tab <- filter(contig_hits, kingdom==x, !((qlength<500) & (pmatch_rapsearch<0.1) & (pmatch_gsnap<0.1)))
+  tab$CommonName <- coalesce(!!!select(tab, CommonName, scientific_name)) %>%
+    gsub("[", "", ., fixed=TRUE) %>% gsub("]", "", ., fixed=TRUE)
+  all_species <- levels(factor(tab$CommonName))
+  all_samples <- levels(factor(contig_hits$sample))
+  lapply(all_species, function (species_x) {
+    subdata <- filter(tab, CommonName==species_x)
+    division <- subdata %>% select("Division") %>% `[`(1, 1) %>% unlist() %>% unname()
+    data.frame(sample=all_samples, 
+               present=all_samples%in%subdata$sample,
+               taxa=species_x, 
+               division=division,
+               rank=subdata$rank[1])
+  }) %>%
+    do.call(what=rbind, .) %>%
+    data.frame(., kingdom=x)
 }) %>%
-  do.call(what=rbind, .) %>%
-  mutate(., sample=rownames(.)) %>%
-  mutate(sample_name=slice(merged_metadata, match(kingdom_numbers$sample, NewIDseqName))$OldIDseqName) %>%
-  left_join(., cms_all_data, by="sample_name") %>%
-  select(-sample_name) %>%
-  reshape2::melt(measure.vars=names(taxcat), variable.name="groups", value.name="nspecies")
+  do.call(what=rbind) %>%
+  left_join(., cms_all_data %>% mutate(sample_mosquito_species=paste(corrected.genus, corrected.species)) %>% select(sample, location_name, sample_mosquito_species), by="sample")
+write_tsv(presence_df, file.path(data_dir, "taxa_presence_table.tsv"), col_names=TRUE, quote_escape=FALSE)
+
 ```
 
-```{r kingdom_numbers_plot}
-kingdom_numbers_plot <- ggplot(kingdom_numbers %>% filter(!is.na(location_name))) + theme_bw() +
-  geom_boxplot(aes(x=location_name, y=nspecies)) + 
-  facet_wrap(~groups, ncol=1, scales="free_y")
-ggsave("03_microbiota_overview/number_species_by_location.pdf", kingdom_numbers_plot, width=4.5, height=7)
+
+
+```{r}
+taxa_rank <- c("superkingdom", "kingdom", "subkingdom", "infrakingdom", "superphylum", "phylum", "phylum", "subphylum", "infraphylum", "microphylum", "superclass", "no rank", "class", "subclass", "infraclass", "parvclass", "cohort", "superorder", "order", "suborder", "infraorder", "parvorder", "superfamily", "family", "subfamily", "tribe", "subtribe", "infratribe", "genus", "subgenus", "section", "series", "species group", "species subgroup", "species", "subspecies", "varietas", "forma")
+presence_by_kingdom <- lapply(levels(presence_df$kingdom), function (kingdom_x) {
+  if (kingdom_x=="Metazoa") {
+    kingdom_x <- c(kingdom_x, "Chordata", "Arthropoda")
+  } else if (kingdom_x=="Eukaryota") {
+    kingdom_x <- c(kingdom_x, "Fungi", "Viridiplantae", "Chordata", "Metazoa", "Arthropoda")
+  }
+  filter(presence_df, kingdom%in%kingdom_x) %>% 
+    group_by(sample, division) %>% 
+    summarize(ntaxa=sum(present), location_name=location_name[1], rank=rank[1], sample_mosquito_species=sample_mosquito_species)
+}) %>%
+  lapply(function (x) {
+    division_order <- x %>%
+      group_by(division) %>% 
+      summarize(num_samples=sum(ntaxa>0), rank=rank[1]) %>% 
+      arrange(match(rank, taxa_rank), num_samples) %>%
+      slice(rev(seq(nrow(.))))
+    x %<>% mutate(division=factor(division, levels=division_order$division))
+    x
+  }) %>%
+  mapply(data.frame, ., kingdom=as.list(levels(presence_df$kingdom)), SIMPLIFY = FALSE) %>%
+  do.call(what=rbind, .) %>%
+  mutate(., sample=factor(sample, unique(sample[order(sample_mosquito_species)])))
+write.table(presence_by_kingdom, file=file.path(data_dir, "presence_of_contigs_by_kingdoms.tsv"),
+            sep="\t", row.names=TRUE, quote=FALSE)
+
 ```
+
+
+
+```{r kingdom_numbers_plot, fig.width=10, fig.height=15}
+presence_by_kingdom_plot <- 
+  ggplot(presence_by_kingdom, aes(x=division, y=sample, alpha=ntaxa>0, fill=sample_mosquito_species)) +
+      theme_bw() +
+      geom_tile() +
+      facet_grid(location_name~kingdom, scales="free", space="free") +
+      scale_alpha_manual("", values=c(0, 1)) +
+  guides(alpha="none") +
+      theme(axis.text.x=element_text(angle=45, hjust=1),
+            strip.text.y=element_text(angle=0, hjust=0))
+
+
+ggsave("03_microbiota_overview/taxa_by_location.pdf", presence_by_kingdom_plot, width=15, height=15)
+```
+
+```{r viruses}
+bloodmeal_plot <-
+  ggplot(filter(presence_df, kingdom=="Viruses") %>%
+           mutate(., sample=factor(sample, unique(sample[order(sample_mosquito_species)]))), aes(x=taxa, y=sample, alpha=present, fill=sample_mosquito_species)) +
+  theme_bw() +
+  geom_tile() +
+  facet_grid(location_name~taxa, scales="free", space="free") +
+    scale_alpha_manual("", values=c(0, 1)) +
+  guides(alpha="none") +
+    theme(axis.text.x=element_text(angle=45, hjust=1),
+          strip.text.y=element_text(angle=0, hjust=0),
+          strip.text.x=element_text(angle=90, hjust=0))
+
+ggsave("03_microbiota_overview/viruses.pdf", width=15, height=15)
+```
+
 
 # 4. Bloodmeal
 
 ```{r}
-bloodmeal_summary <- lapply(kingdom_summary, `[[`, "chordata") %>%
-  lapply(names) %>%
-  lapply(esummary, db="taxonomy") %>%
-  lapply(content, "parsed")
-bloodmeal_summary_df <- bloodmeal_summary %>%
-  `[`(!sapply(., is.null)) %>%
-  `[`(sapply(., length)>0) %>%
-  mapply(data.frame, sample=names(.), ., SIMPLIFY=FALSE) %>%
-  do.call(what=rbind, .) %>%
-  mutate(., species_name=paste(Genus, Species))
-bloodmeal_species <- bloodmeal_summary_df %>%
-  filter(., !duplicated(species_name)) %>%
-  select(Division, CommonName, species_name, Genus, Species) %>%
-  mutate(CommonName=gsub("NA", NA, CommonName)) %>%
-  mutate(CommonName=coalesce(CommonName, species_name))
-bloodmeal_species_melt <- bloodmeal_summary_df %>%
-  split(., .$sample) %>%
-  lapply(., function (x) {
-    bloodmeal_species$species_name %in% x$species_name
-  }) %>%
-  do.call(what=cbind, .) %>%
-  data.frame(bloodmeal_species, .) %>% 
-  reshape2::melt(., id.vars=names(bloodmeal_species), variable.name="sample", value.name="present") %>%
-  left_join(., select(kingdom_numbers, sample, location_name), "sample")
+bloodmeal_plot <-
+  ggplot(filter(presence_df, kingdom=="Chordata") %>%
+           mutate(., sample=factor(sample, unique(sample[order(sample_mosquito_species)]))), aes(x=taxa, y=sample, alpha=present, fill=sample_mosquito_species)) +
+  theme_bw() +
+  geom_tile() +
+  facet_grid(location_name~division, scales="free", space="free") +
+    scale_alpha_manual("", values=c(0, 1)) +
+  guides(alpha="none") +
+    theme(axis.text.x=element_text(angle=45, hjust=1),
+          strip.text.y=element_text(angle=0, hjust=0),
+          strip.text.x=element_text(angle=90, hjust=0))
+
+ggsave("04_bloodmeal/bloodmeal_species.pdf", width=35, height=30)
 ```
 
-```{r}
-bloodmeal_species_plot <- ggplot(bloodmeal_species_melt) + theme_bw() +
-  geom_tile(aes(x=gsub(" ", "\n", CommonName), y=sample, fill=present)) +
-  facet_grid(location_name~gsub(" ", "\n", Division), scales="free", space="free") +
-  xlab("Species") + ylab("Sample") +
-  scale_fill_manual("Present", values=c("white", "steelblue4")) +
-  theme(strip.text.y=element_text(angle=0),
-        axis.text.x=element_text(angle=0))
-ggsave("04_bloodmeal/bloodmeal_species.pdf", bloodmeal_species_plot,
-       width=24, height=16)
-```
+
+
 
 # 5. Vignettes
 

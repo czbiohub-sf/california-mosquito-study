@@ -1,6 +1,8 @@
 scratch/
 presentations
 data/CMS_reports
+data/contig_quality_df.tsv
+data/taxa_presence_table.tsv
 publications/cms/figures/generate_figures.html
 *_cache
 *pycache__

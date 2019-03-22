@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  position: relative;
+  width: 1200px;
+}
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.node {
+  border: solid 1px white;
+  /* opacity: 0.7; */
+  font: 12px sans-serif;
+  font-weight: 100;
+  /* -webkit-text-stroke: 0.4px black; */
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+  /* -webkit-text-stroke: 1px black; */
+}
+/* :hover {
+  border: solid 1px white;
+  font-weight: 100; */
+  /* -webkit-text-stroke: 0.2px black;
+  -webkit-text-stroke: 0.5px white; */
+/* } */
+
+
+</style>
+<!-- <form>
+  <label><input type="radio" name="mode" value="score" checked> Size</label>
+  <label><input type="radio" name="mode" value="count"> Count</label>
+</form> -->
+
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script>
+'use strict';
+
+const margin = {top: 0, right: 0, bottom: 0, left: 0},
+      width = 1200 - margin.left - margin.right,
+      height = 550 - margin.top - margin.bottom,
+      color = d3.scaleOrdinal().range(d3.schemeCategory20c);
+
+const treemap = d3.treemap()
+    .size([width, height])
+    .paddingTop(20) // padding
+    .paddingLeft(3)
+    .paddingRight(3)
+    .paddingBottom(3);
+
+treemap.tile(d3.treemapSquarify.ratio(3)) // aspect ratio of boxes
+
+const div = d3.select("body").append("div") // add div elements
+    .style("position", "relative")
+    .style("width", (width + margin.left + margin.right) + "px")
+    .style("height", (height + margin.top + margin.bottom) + "px")
+    .style("left", margin.left + "px")
+    .style("top", margin.top + "px");
+
+    var fname = "skeeters.json"
+    d3.json(fname, function(error, data) {
+      if (error) throw error;
+      // console.log(data)
+
+      var score = function(d) {
+          // console.log('scoring',d.attrs)
+          if (d.attrs != undefined){
+            // console.log(d.taxonomy,d.attrs.contig_count)
+            return d.attrs.contig_count;
+          } else {
+            // console.log(d,"error")
+            return 0.0;
+          }
+        }
+      // data["children"][1]["children"][1]["children"][1] // Eukaryotes
+      // data["children"][1]["children"][1]["children"][0] // Bacteria
+      // data["children"][1]["children"][0] // Viruses
+      // data["children"][1] // all life (excludes no-hit branch)
+      const root = d3.hierarchy(data["children"][1], (d) => d.children);
+      // console.log(root)
+      root.sum(function(d) {
+        // console.log(d.taxonomy,score(d))
+        return score(d);
+      });
+
+      // console.log(root)
+      const tree = treemap(root);
+      // console.log(tree)
+      var filteredList = tree.descendants().filter(function(d) {
+        // console.log(d.data.taxonomy,d.parent)
+        return d.parent != undefined;
+      });
+      // console.log(filteredList)
+      var colour = function(d) {
+        return "slategrey";
+      };
+
+      var taxid = function(d) {
+        // console.log(d)
+        return d.data.taxid;
+      };
+      // console.log(d3.select("body").append("div"))
+      // console.log(d3.select("body").selectAll("div"))
+      const node = d3.select("body").selectAll("div")
+          // .data(tree.leaves())
+          .data(filteredList)
+        .enter().append("div")
+        .on("mouseover", function(d) { // selects json entry, allows access to tree and descendants
+                const taxids = d.descendants().map( x => x.data.taxid ); // get taxids of descendants
+                // console.log(d.data.taxid,taxids)
+                // console.log(d.descendants().filter( c => c.data.taxid < 5 ))
+                d3.selectAll("div.node").filter(
+                  x => taxids.includes(x.data.taxid) // keep div.node that are descendants of node
+                )
+                .transition()
+                  .duration(200)
+                  .style("border-color","black")
+                  .style("background","white")
+                  .style("z-order",9999)
+                })
+          .on("mouseout", function(d) {
+                const taxids = d.descendants().map( x => x.data.taxid);
+                d3.selectAll("div.node").filter( x => taxids.includes(x.data.taxid)
+              )
+              .transition()
+                .duration(500)
+                .style("border-color","white")
+                .style("background","slategrey")
+                .style("z-order",0)
+                })
+          .attr("class", "node")
+          .attr("count", (d) => d.data.attrs.contig_count)
+          .attr("taxid", (d) => d.data.taxid)
+          .style("left", (d) => d.x0 + "px")
+          .style("top", (d) => d.y0 + "px")
+          .style("width", (d) => Math.max(0, d.x1 - d.x0 - 1) + "px")
+          .style("height", (d) => Math.max(0, d.y1 - d.y0  - 1) + "px")
+          .style("background", (d) => "slategrey")
+          .style("opacity",0.7)
+          .text((d) => d.data.taxonomy)
+          // .text((d) => d.data.attr.count>10.0 ? d.data.taxonomy : "")
+          // isMember ? "$2.00" : "$10.00"
+          .attr("value", ((d) => score(d)))
+          // console.log()
+          ;
+      // console.log(div.datum(root).selectAll(".node"))
+      // d3.selectAll("input").on("change", function change() {
+      //   const value = this.value === "count"
+      //       ? (d) => { return d.score ? 1 : 0;}
+      //       : (d) => { return d.score; };
+      //
+      //   const newRoot = d3.hierarchy(data, (d) => d.children)
+      //     .sum(value);
+      //
+      //   node.data(treemap(newRoot).leaves())
+      //     .transition()
+      //       .duration(1500)
+      //       .style("left", (d) => d.x0 + "px")
+      //       .style("top", (d) => d.y0 + "px")
+      //       .style("width", (d) => Math.max(0, d.x1 - d.x0 - 1) + "px")
+      //       .style("height", (d) => Math.max(0, d.y1 - d.y0  - 1) + "px")
+      // });
+    });
+    // }
+</script>

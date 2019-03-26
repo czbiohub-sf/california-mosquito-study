@@ -24,19 +24,21 @@ form {
   text-indent: 2px;
   /* -webkit-text-stroke: 1px black; */
 }
-/* :hover {
-  border: solid 1px white;
-  font-weight: 100; */
-  /* -webkit-text-stroke: 0.2px black;
-  -webkit-text-stroke: 0.5px white; */
-/* } */
-
 
 </style>
-<!-- <form>
-  <label><input type="radio" name="mode" value="score" checked> Size</label>
-  <label><input type="radio" name="mode" value="count"> Count</label>
-</form> -->
+
+  <div>
+  <input type="radio" name="area" id="reads" value="read_count">
+  <label for="reads">
+    Number of reads
+  </label>
+</div>
+<div>
+  <input type="radio" name="area" id="contigs" value="contig_count" checked>
+  <label for="contigs">
+    Number of contigs
+  </label>
+</div>
 
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script>
@@ -66,37 +68,24 @@ const div = d3.select("body").append("div") // add div elements
     var fname = "skeeters.json"
     d3.json(fname, function(error, data) {
       if (error) throw error;
-      // console.log(data)
+      console.log(data)
 
       var score = function(d) {
-          // console.log('scoring',d.attrs)
-          if (d.attrs != undefined){
-            // console.log(d.taxonomy,d.attrs.contig_count)
-            return d.attrs.contig_count;
-          } else {
-            // console.log(d,"error")
-            return 0.0;
-          }
-        }
-      // data["children"][1]["children"][1]["children"][1] // Eukaryotes
-      // data["children"][1]["children"][1]["children"][0] // Bacteria
-      // data["children"][1]["children"][0] // Viruses
-      // data["children"][1] // all life (excludes no-hit branch)
-      const root = d3.hierarchy(data["children"][1], (d) => d.children);
-      // console.log(root)
+        return d.attrs!=undefined ? d.attrs.contig_count : 0.01;
+      }
+
+      const root = d3.hierarchy(data, (d) => d.children);
       root.sum(function(d) {
-        // console.log(d.taxonomy,score(d))
+        console.log(d.taxonomy,score(d))
         return score(d);
       });
 
-      // console.log(root)
       const tree = treemap(root);
-      // console.log(tree)
+
       var filteredList = tree.descendants().filter(function(d) {
-        // console.log(d.data.taxonomy,d.parent)
-        return d.parent != undefined;
+        return d;
       });
-      // console.log(filteredList)
+      console.log(filteredList)
       var colour = function(d) {
         return "slategrey";
       };
@@ -105,18 +94,14 @@ const div = d3.select("body").append("div") // add div elements
         // console.log(d)
         return d.data.taxid;
       };
-      // console.log(d3.select("body").append("div"))
-      // console.log(d3.select("body").selectAll("div"))
+
       const node = d3.select("body").selectAll("div")
-          // .data(tree.leaves())
           .data(filteredList)
         .enter().append("div")
         .on("mouseover", function(d) { // selects json entry, allows access to tree and descendants
                 const taxids = d.descendants().map( x => x.data.taxid ); // get taxids of descendants
-                // console.log(d.data.taxid,taxids)
-                // console.log(d.descendants().filter( c => c.data.taxid < 5 ))
                 d3.selectAll("div.node").filter(
-                  x => taxids.includes(x.data.taxid) // keep div.node that are descendants of node
+                  x => taxids.includes(x.data.taxid) // keep divs that are descendants of node
                 )
                 .transition()
                   .duration(200)
@@ -135,7 +120,8 @@ const div = d3.select("body").append("div") // add div elements
                 .style("z-order",0)
                 })
           .attr("class", "node")
-          .attr("count", (d) => d.data.attrs.contig_count)
+          .attr("contig_count", (d) => d.data.attrs.contig_count)
+          .attr("read_count", (d) => d.data.attrs.read_count)
           .attr("taxid", (d) => d.data.taxid)
           .style("left", (d) => d.x0 + "px")
           .style("top", (d) => d.y0 + "px")
@@ -144,28 +130,26 @@ const div = d3.select("body").append("div") // add div elements
           .style("background", (d) => "slategrey")
           .style("opacity",0.7)
           .text((d) => d.data.taxonomy)
-          // .text((d) => d.data.attr.count>10.0 ? d.data.taxonomy : "")
-          // isMember ? "$2.00" : "$10.00"
-          .attr("value", ((d) => score(d)))
-          // console.log()
+          // .attr("value", ((d) => score(d)))
           ;
-      // console.log(div.datum(root).selectAll(".node"))
-      // d3.selectAll("input").on("change", function change() {
-      //   const value = this.value === "count"
-      //       ? (d) => { return d.score ? 1 : 0;}
-      //       : (d) => { return d.score; };
+
+      d3.selectAll("input").on("change", function change() {
+        const value = this.value;
+        const newRoot = d3.hierarchy(data, (d) => d.children)
+          .sum(function(d) {
+            return d.attrs != undefined ? d.attrs[value] : 0.0;
+          });
+        console.log(newRoot)
       //
-      //   const newRoot = d3.hierarchy(data, (d) => d.children)
-      //     .sum(value);
-      //
-      //   node.data(treemap(newRoot).leaves())
-      //     .transition()
-      //       .duration(1500)
-      //       .style("left", (d) => d.x0 + "px")
-      //       .style("top", (d) => d.y0 + "px")
-      //       .style("width", (d) => Math.max(0, d.x1 - d.x0 - 1) + "px")
-      //       .style("height", (d) => Math.max(0, d.y1 - d.y0  - 1) + "px")
-      // });
+        const newTree=treemap(newRoot)
+        node.data(newTree.descendants())
+          .transition()
+            .duration(1500)
+            .style("left", (d) => d.x0 + "px")
+            .style("top", (d) => d.y0 + "px")
+            .style("width", (d) => Math.max(0, d.x1 - d.x0 - 1) + "px")
+            .style("height", (d) => Math.max(0, d.y1 - d.y0  - 1) + "px")
+      });
     });
     // }
 </script>

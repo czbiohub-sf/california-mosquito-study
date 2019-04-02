@@ -14,7 +14,6 @@ library(taxize)
 library(usethis)
 ```
 
-
 ```{r}
 setwd('~/src/skeeters') 
 ```
@@ -263,20 +262,6 @@ report %>% filter(category_name == 'Eukaryota' & NT_r > 10, tax_level == 2) %>%
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```{r}
 report %>% pull(category_name) %>% unique()
 ```
@@ -336,4 +321,13 @@ contig_df %>% filter(kingdom == "Chordata") %>% group_by(sample, Division) %>%
   filter(pmatch_gsnap > 0.9) %>% summarize(total_length = sum(qlength))
 ```
 
-We would like to know if co-occurance 
+# Report formatting
+
+Confirm that genus counts in report is rollup of species counts.
+
+```{r}
+species_rolled_up = report %>% filter(tax_level == 1) %>% group_by(genus_taxid) %>% summarize(n = sum(NT_r))
+genus_rolled_up = report %>% filter(tax_level == 2) %>% group_by(genus_taxid) %>% summarize(n1 = sum(NT_r))
+
+species_rolled_up %>% left_join(genus_rolled_up) %>% filter(n != n1)
+```

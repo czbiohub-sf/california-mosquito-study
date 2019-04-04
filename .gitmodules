@@ -1,0 +1,3 @@
+[submodule "analysis/contamarkov/contamarkov"]
+	path = analysis/contamarkov/contamarkov
+	url = git@github.com:czbiohub/contamarkov.git

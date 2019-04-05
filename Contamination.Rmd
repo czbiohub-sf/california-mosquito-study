@@ -36,45 +36,140 @@ report = read_csv('data/mosquito_reports.csv')
 
 ```{r}
 sample_table = read_csv('data/project-mosquito_sample-table.csv')
+sample_table = sample_table %>% mutate(water = str_detect(sample_name, 'ater'))
+```
+
+```{r}
+report
+sample_table %>% filter(sample_name in re)
+```
+
+
+```{r}
+lab_table = read_csv('data/CMS001_CMS002_MergedAnnotations_190325.csv')
+lab_table
+```
+
+```{r}
+#intersect(lab_table %>% pull(NewIDseqName), sample_table %>% pull(sample_name))
+
+sample_table %>% left_join(lab_table %>% mutate(sample_name = NewIDseqName), on=sample_name)
+```
+
+```{r}
+metadata = lab_table %>% mutate(sample_name = NewIDseqName) %>% select(sample_name, collection_date, collection_lat, collection_long, 
+                                                            Habitat, collected_by, sex, compute_genus, compute_species, 
+                                                            rna_dna_input_ng, extraction_batch) %>% 
+                                                            left_join(sample_table, by="sample_name") 
+metadata = metadata %>% mutate(percent_ercc = total_ercc_reads/total_reads) %>% 
+                    mutate(ercc_mass = (total_reads - total_ercc_reads)/total_ercc_reads)
+```
+
+```{r}
+metadata %>%
+  filter(!is.na(percent_ercc)) %>% filter(!water) %>%
+  ggplot(aes(x = ercc_mass, y = rna_dna_input_ng, color=extraction_batch)) + geom_point() + scale_y_log10() + scale_x_log10() +
+  ggtitle("ERCC-Mass relationships")
+```
+
+```{r}
+no_contig_samples = list('CMS002_016a_Rb_S121_L004', 'CMS002_025d_Rb_S143_L004', 'CMS002_025f_Rb_S145_L004', 'CMS001_water1_S11', 'CMS001_water5_RNA_A_S12', 'CMS002_Water8_Rb_S11_L004')
+metadata %>% filter(sample_name %in% no_contig_samples) %>% select(sample_name, percent_ercc, rna_dna_input_ng)
+```
+
+
+```{r}
+metadata %>% mutate(no_contigs = sample_name %in% no_contig_samples) %>%
+  filter(!is.na(percent_ercc)) %>% filter(!water) %>%
+  ggplot(aes(x = ercc_mass, y = rna_dna_input_ng, color=no_contigs)) + geom_point() + scale_y_log10() + scale_x_log10() +
+  ggtitle("ERCC-Mass relationships")
+```
+
+```{r}
+metadata %>% mutate(no_contigs = sample_name %in% no_contig_samples) %>%
+  filter(!is.na(percent_ercc)) %>% filter(!water) %>%
+  ggplot(aes(x = total_reads, y = nonhost_reads, color=no_contigs)) + geom_point() + scale_y_log10() + scale_x_log10() +
+  ggtitle("Diversity in nonhost/total ratio")
+```
+
+
+```{r}
+metadata %>% filter(is.na(rna_dna_input_ng) & !water) %>% select(sample_name, total_reads, total_ercc_reads, nonhost_reads, rna_dna_input_ng)
+```
+
+
+```{r}
+
 report %>% left_join(sample_table %>% select(sample_name, total_reads, nonhost_reads, total_ercc_reads) %>%
   mutate(percent_ercc = total_ercc_reads/total_reads), on = sample_name)
 ```
 
 
+
 ```{r}
 plot_genus = function(taxid) {
-  name = report %>% filter(tax_level == 2, genus_taxid == taxid) %>% pull(name) %>% first()
+  name = report %>% filter(sample_name != "CMS001_water3_Qiagen_S26") %>% filter(tax_level == 2, genus_taxid == taxid) %>% pull(name) %>% first()
   report %>% filter(tax_level == 1, genus_taxid == taxid, NT_percentidentity > 85) %>% group_by(sample_name) %>% 
     summarize(reads = sum(NT_r), water = first(water)) %>% 
-    left_join(sample_table %>% select(sample_name, total_reads, total_ercc_reads) , by='sample_name') %>%
-    mutate(rpm = reads/total_reads*1e6, percent_ercc = total_ercc_reads/total_reads) %>% 
-    mutate(mass = 1/percent_ercc - 1) %>% drop_na(percent_ercc) %>%
+    left_join(metadata %>% select(sample_name, ercc_mass, rna_dna_input_ng, total_reads) , by='sample_name') %>%
+    mutate(rpm = reads/total_reads*1e6) %>% drop_na(ercc_mass) %>% 
   
-    ggplot(aes(x = mass, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
+    ggplot(aes(x = ercc_mass, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
 }
 
 plot_species = function(taxid) {
-  name = report %>% filter(tax_level == 1, species_taxid == taxid) %>% pull(name) %>% first()
+  name = report %>% filter(sample_name != "CMS001_water3_Qiagen_S26") %>% filter(tax_level == 1, species_taxid == taxid) %>% pull(name) %>% first()
   report %>% filter(species_taxid == taxid, NT_percentidentity > 85) %>% group_by(sample_name) %>% 
     summarize(reads = sum(NT_r), water = first(water)) %>% 
-    left_join(sample_table %>% select(sample_name, total_reads, total_ercc_reads) , by='sample_name') %>%
-    mutate(rpm = reads/total_reads*1e6, percent_ercc = total_ercc_reads/total_reads) %>% 
-    mutate(mass = 1/percent_ercc - 1) %>% drop_na(percent_ercc) %>%
+    left_join(metadata %>% select(sample_name, ercc_mass, rna_dna_input_ng, total_reads) , by='sample_name') %>%
+    mutate(rpm = reads/total_reads*1e6) %>% drop_na(ercc_mass) %>% 
   
-    ggplot(aes(x = mass, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
+    ggplot(aes(x = ercc_mass, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
+}
+
+plot_species_ng = function(taxid) {
+  name = report %>% filter(sample_name != "CMS001_water3_Qiagen_S26") %>% filter(tax_level == 1, species_taxid == taxid) %>% pull(name) %>% first()
+  dat = report %>% filter(species_taxid == taxid, NT_percentidentity > 85) %>% group_by(sample_name) %>% 
+    summarize(reads = sum(NT_r), water = first(water)) %>% 
+    left_join(metadata %>% select(sample_name, ercc_mass, rna_dna_input_ng, total_reads) , by='sample_name') %>%
+    mutate(rpm = reads/total_reads*1e6) %>% drop_na(ercc_mass) 
+  
+          dat %>% ggplot(aes(x = rna_dna_input_ng, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
+    dat %>% drop_na(rna_dna_input_ng) %>% ggplot(aes(x = ercc_mass, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
+
 }
 
 plot_family = function(taxid) {
-  name = report %>% filter(family_taxid == taxid) %>% pull(name) %>% first()
+  name = report %>% filter(sample_name != "CMS001_water3_Qiagen_S26") %>% filter(family_taxid == taxid) %>% pull(name) %>% first()
   report %>% filter(family_taxid == taxid, NT_percentidentity > 85) %>% group_by(sample_name) %>% 
     summarize(reads = sum(NT_r), water = first(water)) %>% 
-    left_join(sample_table %>% select(sample_name, total_reads, total_ercc_reads) , by='sample_name') %>%
-    mutate(rpm = reads/total_reads*1e6, percent_ercc = total_ercc_reads/total_reads) %>% 
-    mutate(mass = 1/percent_ercc - 1) %>% drop_na(percent_ercc) %>%
+   left_join(metadata %>% select(sample_name, ercc_mass, rna_dna_input_ng, total_reads) , by='sample_name') %>%
+    mutate(rpm = reads/total_reads*1e6) %>% drop_na(ercc_mass) %>% 
   
-    ggplot(aes(x = mass, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
+    ggplot(aes(x = ercc_mass, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
 }
 ```
+
+Both are predictors, though the downward slope is actually more pronounced for ERCCs than ng input RNA.
+
+```{r}
+plot_species_ng(10090) + geom_smooth()
+```
+
+
+```{r}
+plot_species_ng(10090) + geom_smooth()
+```
+
+
+```{r}
+plot_species(9606)
+plot_species_ng(9606)
+
+plot_species(10090)
+plot_species_ng(10090)
+```
+
 
 ```{r}
 plot_genus(5658)
@@ -88,6 +183,84 @@ plot_species(1628188)
 plot_species(2230910)
 plot_species(2079148)
 ```
+
+```{r}
+sample_table %>% mutate(water = str_detect(sample_name, 'ater')) %>% select(sample_name, total_reads, nonhost_reads, total_ercc_reads, water) %>%
+  mutate(host_reads = total_reads - nonhost_reads - total_ercc_reads) %>% 
+  mutate(host_mass = host_reads/total_ercc_reads, nonhost_mass = nonhost_reads/total_ercc_reads, mass = (total_reads - total_ercc_reads)/total_ercc_reads) %>% filter(sample_name == "CMS001_water3_Qiagen_S26")
+```
+
+
+```{r}
+df = sample_table %>% mutate(water = str_detect(sample_name, 'ater')) %>% select(sample_name, total_reads, nonhost_reads, total_ercc_reads, water) %>%
+  mutate(host_reads = total_reads - nonhost_reads - total_ercc_reads) %>% 
+  mutate(host_mass = host_reads/total_ercc_reads, nonhost_mass = nonhost_reads/total_ercc_reads, mass = (total_reads - total_ercc_reads)/total_ercc_reads) %>%
+  filter(sample_name != "CMS001_water3_Qiagen_S26")
+
+df %>% ggplot(aes(host_mass)) + geom_histogram()
+
+df %>% ggplot(aes(host_mass/nonhost_mass)) + geom_histogram()
+```
+
+```{r}
+sample_table %>% mutate(water = str_detect(sample_name, 'ater')) %>% select(sample_name, total_reads, nonhost_reads, total_ercc_reads, water) %>%
+  mutate(host_reads = total_reads - nonhost_reads - total_ercc_reads) %>% 
+  mutate(host_mass = host_reads/total_ercc_reads, nonhost_mass = nonhost_reads/total_ercc_reads, mass = (total_reads - total_ercc_reads)/total_ercc_reads) %>%
+  filter(sample_name != "CMS001_water3_Qiagen_S26") %>% 
+  ggplot(aes(x = mass, y = host_mass/nonhost_mass, col = water)) + geom_point() + scale_x_log10() + scale_y_log10() + geom_smooth(aes(group=1))
+```
+
+
+## Spillome Model
+
+Most of the reads in water are mosquito, indicating that they came from the spillome not the labome.
+
+If we use the distribution of host in the waters to learn the volume of the spillome, then the 
+batch averages can be used to make a markov inequality.
+
+Mean of host/ercc in water is spillome mean.
+Mean of nonhost(g)/host in samples is genus ratio. (can be all reads, or weighted by mass)
+For sample s, ercc_s x spillome mean x genus ratio gives expected spill.
+
+Markov inequality is expected spill/n_reads(g).
+
+Problems: ercc can be a poor proxy for mass.
+
+```{r}
+sample_table %>% filter(sample_name %in% (report %>% pull(sample_name) %>% unique()))
+sample_masses = sample_table %>% mutate(water = str_detect(sample_name, 'ater')) %>% select(sample_name, total_reads, nonhost_reads, total_ercc_reads, water) %>%
+  mutate(host_reads = ifelse(is.na(total_ercc_reads), total_reads - nonhost_reads, total_reads - nonhost_reads - total_ercc_reads)) %>% 
+  mutate(host_mass = host_reads/total_ercc_reads, nonhost_mass = nonhost_reads/total_ercc_reads, mass = (total_reads - total_ercc_reads)/total_ercc_reads)
+```
+
+```{r}
+sample_masses %>% filter(sample_name %in% (report %>% pull(sample_name) %>% unique()))
+%>% summarize(s = sum(host_reads))
+
+taxid = 1608131
+report %>% filter(tax_level == 1, NT_percentidentity > 85) %>% group_by(sample_name, species_taxid) %>% 
+    summarize(reads = sum(NT_r)) %>% 
+    left_join(sample_masses, by='sample_name') %>% filter(!water) %>%
+    group_by(species_taxid) %>% summarize(reads = sum(reads), total_reads = sum(total_reads))
+  
+  
+  
+  drop_na(total_ercc_reads) %>%
+    
+  mutate(total_reads = sum(reads), total_host = sum(host_reads)) 
+
+    mutate(rpm = reads/total_reads*1e6, percent_ercc = total_ercc_reads/total_reads) %>% 
+    mutate(mass = 1/percent_ercc - 1) %>% drop_na(percent_ercc) %>%
+  
+    ggplot(aes(x = mass, y = rpm, color = water)) + scale_x_log10() + scale_y_log10() + geom_point() + ggtitle(name)
+
+sample_masses
+```
+
+```{r}
+install.packages("decontam")
+```
+
 
 ```{r}
 plot_family(5654)
@@ -108,6 +281,12 @@ Wolbachia, since we are going to talk about it, we should do a close analysis.
 5. Color this plot by number or total length or coverage of contigs
 
 Trypanosome example 
+
+```{r}
+sample_table 
+%>% ggplot(aes(nonhost_reads_percent, color = water)) + geom_histogram()
+```
+
 
 ## Are there some common bad samples?
 

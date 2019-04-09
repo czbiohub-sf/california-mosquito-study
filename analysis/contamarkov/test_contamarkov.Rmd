@@ -1,4 +1,3 @@
-
 ```{r}
 source("contamarkov/contamarkov.R")
 
@@ -17,4 +16,9 @@ contamarkov_list <- contamarkov(sample_table, reports)
 plot_contamarkov(
   contamarkov_list,
   subset_taxa=c(5658, 953, 9606, 10090, 547, 768, 1608131, 1628188, 2230910, 2079148))
+```
+
+```{r}
+reports_decontam = contamarkov_list$reports %>% dplyr::filter(padj < 0.05)
+readr::write_csv(reports_decontam, '~/src/skeeters/data/mosquito_reports_decontam.csv')
 ```

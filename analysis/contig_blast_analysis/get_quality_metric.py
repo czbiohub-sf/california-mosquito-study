@@ -13,7 +13,7 @@ def get_pmatch_per_contig (df):
     for row_i in range(len(df.index)):
         start_end = df.iloc[row_i, :][["qend", "qstart"]].sort_values()
         covered_bases += list(range(start_end[0], start_end[1]))
-    return(float(len(set(covered_bases))/df.head(1)["qlength"]))
+    return(float((len(set(covered_bases))-sum(df.mismatch))/df.head(1)["qlength"]))
 
 
 def get_taxid (acc, dir_name):

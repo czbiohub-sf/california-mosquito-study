@@ -1,17 +1,32 @@
 ---
 title: "Evaluating Contigs"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 The purpose of this notebook is to read in blast and blastx results for a set of contigs, then extract LCAs of the hits passing certain thresholds. Some thresholds are absolute (eg coverage and contig length). Some are relative (bitscore of a hit must be within some fraction of the best bitscore for that contig).
 
 ```{r}
-library(taxizedb)
-library(tidyverse)
+library(tidyr)
+library(readr)
 library(purrr)
 library(ggplot2)
-library(taxize)
 library(usethis)
+library(magrittr)
+library(dplyr)
+```
+
+
+```{r, fig.width=5, fig.height=10}
+contig_summary <- 
+  read.table("../data/summary_contigs_with_blast.txt", sep="\t") %>%
+  rename(sample=V1, contigs_without_blast_match=V2)
+ggplot(contig_summary) +
+  theme_bw() +
+  geom_bar(aes(x=sample, y=contigs_without_blast_match), stat="identity") +
+  scale_y_continuous(labels = scales::percent) +
+  coord_flip()
 ```
 
 ```{r}

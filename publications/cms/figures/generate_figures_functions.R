@@ -56,7 +56,7 @@ split_by_location <- function (input_data) {
 create_map <- function (input_data, zoom=NULL, polygon=NULL, polygon_col=NULL, use_species=FALSE) {
   freq_table <- get_summary_data(input_data)
   if (use_species) {
-    freq_table_species <- split(input_data, with(input_data, paste(corrected.genus, corrected.species))) %>%
+    freq_table_species <- split(input_data, with(input_data, paste(compute_genus, compute_species))) %>%
       lapply(get_summary_data) %>%
       do.call(what=rbind, .)
   }

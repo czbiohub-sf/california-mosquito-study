@@ -1,0 +1,24 @@
+```{r}
+source("contamarkov/contamarkov.R")
+
+readr::read_csv("../../data/reduced_sample_table.csv") %>%
+  dplyr::rename(is_water=water) %>%
+  dplyr::mutate(ercc_concentration=25) ->
+  sample_table
+reports <- readr::read_csv("../../data/mosquito_reports.csv")
+```
+
+```{r}
+contamarkov_list <- contamarkov(sample_table, reports)
+```
+
+```{r}
+plot_contamarkov(
+  contamarkov_list,
+  subset_taxa=c(5658, 953, 9606, 10090, 547, 768, 1608131, 1628188, 2230910, 2079148))
+```
+
+```{r}
+reports_decontam = contamarkov_list$reports %>% dplyr::filter(padj < 0.05)
+readr::write_csv(reports_decontam, '~/src/skeeters/data/mosquito_reports_decontam.csv')
+```

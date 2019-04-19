@@ -4,12 +4,18 @@
 
 import pandas as pd
 from ete3 import NCBITaxa
+import boto3
+import tempfile
+import os
+
 
 # load ncbi taxonomy database
 ncbi = NCBITaxa()
 update_tax_database = False
 if update_tax_database:
     ncbi.update_taxonomy_database()
+
+
 
 ##
 ## Find the lowest common ancestor (LCA) for a given set of taxonomic groups
@@ -70,4 +76,33 @@ def parse_blast_file (fpath, sep="\t", comment=None, blast_type="nt", col_names=
     return (df)
 
 
+##
+## Split an s3://bucket/path string into the bucket name and the path
+##
+def split_s3_path (s3_path):
+    s3_split = os.path.normpath(s3_path).split(os.sep)
+    bucket_name = s3_split[1]
+    s3_path = '/'.join(s3_split[2:])
+    return bucket_name, s3_path
 
+##
+## Upload pandas dataframe to S3
+##
+def df_to_s3 (obj, s3path):
+    s3 = boto3.resource('s3')
+    client = boto3.client('s3')
+    out_file = tempfile.NamedTemporaryFile()
+    obj.to_csv(out_file.name, sep="\t", index=False)
+    data = open(out_file.name, "rb")
+    s3_bucket_name, s3_path = split_s3_path(s3path)
+    s3.Bucket(s3_bucket_name).put_object(Key=s3_path, Body=data)
+
+##
+## Download file from S3 and return the local path to this file
+##
+def download_s3_file (s3path):
+    s3 = boto3.resource('s3')
+    client = boto3.client('s3')
+    s3_bucket_name, s3_path = split_s3_path(s3path)
+    fpath = client.get_object(Bucket=s3_bucket_name, Key=s3_path)['Body']
+    return fpath

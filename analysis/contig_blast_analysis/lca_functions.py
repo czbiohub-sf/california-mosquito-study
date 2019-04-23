@@ -7,7 +7,13 @@ from ete3 import NCBITaxa
 import boto3
 import tempfile
 import os
+import io
+import re
+import time
 
+# NCBI Entrez functions
+from Bio import Entrez
+Entrez.email = "lucy.li@czbiohub.org"
 
 # load ncbi taxonomy database
 ncbi = NCBITaxa()
@@ -15,6 +21,30 @@ update_tax_database = False
 if update_tax_database:
     ncbi.update_taxonomy_database()
 
+##
+## For a given accession number, find the corresponding TaxID from NCBI's Taxonomy Database
+##
+def get_taxid (acc, db):
+    result = int(Entrez.read(Entrez.esummary(id=str(acc), db=db))[0]["TaxId"])
+    time.sleep(1)
+    return (result)
+
+##
+## For a given accession number, return the genbank record
+##
+def get_gb (acc, db):
+    result = list(Entrez.efetch(id=str(acc), db=db, rettype="gb", retmode="text"))
+    time.sleep(1)
+    return (result)
+
+##
+## If an accession number is not associated with a TaxId, try to find that information elsewhere, such
+##   as in a related NCBI record
+##
+def find_missing_taxid (acc, db):
+    # Strategy 1: check if the record replaced an older record that did contain the TaxId Information
+    match_1 = [get_taxid(re.search("gi:(.*).", x).group(1), db) for x in get_gb(acc, db) if "replace" in x][0]
+    return (int(match_1))
 
 
 ##
@@ -38,24 +68,6 @@ def get_lca (taxids, tax_col="taxid", query_col="query"):
 
 
 ##
-## Select taxonomic IDs to perfrom LCA analysis on based on BLAST results
-##
-def select_taxids_for_lca (df, return_taxid_only=True, ident_cutoff=0, align_len_cutoff=0, bitscore_cutoff=0):
-    # df should be a pandas dataframe
-    # remove blast hits where identity < ident_cutoff*max(identity) AND
-    # align_length < align_len_cutoff*max(align_length) AND
-    # bitscore < bitscore_cutoff*max(bitscore)
-    if (len(df.index)>1):
-        df = df[df["identity"]>=(ident_cutoff*df["identity"].max())]
-        df = df[df["align_length"]>=(align_len_cutoff*df["align_length"].max())]
-        df = df[df["bitscore"]>=(bitscore_cutoff*df["bitscore"].max())]
-    if (return_taxid_only):
-        return (list(set(df["taxid"])))
-    else:
-        return (df)
-
-
-##
 ## Read in BLAST results stored in tab-delimited files as a pandas data frame
 ##
 def parse_blast_file (fpath, sep="\t", comment=None, blast_type="nt", col_names="auto"):
@@ -75,6 +87,26 @@ def parse_blast_file (fpath, sep="\t", comment=None, blast_type="nt", col_names=
     df = df.assign(blast_type=blast_type)
     return (df)
 
+##
+## Select taxonomic IDs to perfrom LCA analysis on based on BLAST results
+##
+def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cutoff=0, align_len_cutoff=0, bitscore_cutoff=0):
+    # df should be a pandas dataframe
+    # remove blast hits where identity < ident_cutoff*max(identity) AND
+    # align_length < align_len_cutoff*max(align_length) AND
+    # bitscore < bitscore_cutoff*max(bitscore)
+    if (len(df.index)>1):
+        df = df[df["identity"]>=(ident_cutoff*df["identity"].max())]
+        df = df[df["align_length"]>=(align_len_cutoff*df["align_length"].max())]
+        df = df[df["bitscore"]>=(bitscore_cutoff*df["bitscore"].max())]
+    if (df["taxid"].isnull().any()):
+        df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
+    df["taxid"] = pd.to_numeric(df["taxid"], downcast='integer')
+    print (df["taxid"].head(10))
+    if (return_taxid_only):
+        return (list(set(df["taxid"])))
+    else:
+        return (df)
 
 ##
 ## Split an s3://bucket/path string into the bucket name and the path
@@ -106,3 +138,7 @@ def download_s3_file (s3path):
     s3_bucket_name, s3_path = split_s3_path(s3path)
     fpath = client.get_object(Bucket=s3_bucket_name, Key=s3_path)['Body']
     return fpath
+
+
+
+

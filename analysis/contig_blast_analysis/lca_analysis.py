@@ -17,6 +17,11 @@ args = parser.parse_args()
 exec(open("lca_functions.py").read())
 
 
+if args.blast_type =="nt":
+    db = "nucleotide"
+elif args.blast_type=="nr":
+    db = "protein"
+
 # Set up aws s3 access
 blast_file = args.fpath
 if (args.fpath.startswith("s3://")):
@@ -26,7 +31,8 @@ if (args.fpath.startswith("s3://")):
 blast_results = parse_blast_file(blast_file, sep="\t", comment="#", blast_type=args.blast_type, col_names="auto")
 
 # lca analysis
-filtered_blast_results = blast_results.groupby(["query"], as_index=False).apply(select_taxids_for_lca, 
+filtered_blast_results = blast_results.groupby(["query"], as_index=False).apply(select_taxids_for_lca,
+                                                                                db=db,
                                                                                 return_taxid_only=False,
                                                                                 ident_cutoff=float(args.ident_cutoff),
                                                                                 align_len_cutoff=float(args.align_len_cutoff),

@@ -102,7 +102,6 @@ def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cu
     if (df["taxid"].isnull().any()):
         df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
     df["taxid"] = pd.to_numeric(df["taxid"], downcast='integer')
-    print (df["taxid"].head(10))
     if (return_taxid_only):
         return (list(set(df["taxid"])))
     else:

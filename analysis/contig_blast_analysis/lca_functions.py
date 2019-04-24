@@ -43,8 +43,11 @@ def get_gb (acc, db):
 ##
 def find_missing_taxid (acc, db):
     # Strategy 1: check if the record replaced an older record that did contain the TaxId Information
-    match_1 = [get_taxid(re.search("gi:(.*).", x).group(1), db) for x in get_gb(acc, db) if "replace" in x][0]
-    return (int(match_1))
+    match_1 = [get_taxid(re.search("gi:(.*).", x).group(1), db) for x in get_gb(acc, db) if "replace" in x]
+    if (len(match_1)==1):
+        return (int(match_1[0]))
+    else:
+        return (None)
 
 
 ##
@@ -101,7 +104,8 @@ def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cu
         df = df[df["bitscore"]>=(bitscore_cutoff*df["bitscore"].max())]
     if (df["taxid"].isnull().any()):
         df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
-    df["taxid"] = pd.to_numeric(df["taxid"], downcast='integer')
+        df = df.dropna()
+    df["taxid"] = df["taxid"].astype('int64')
     if (return_taxid_only):
         return (list(set(df["taxid"])))
     else:

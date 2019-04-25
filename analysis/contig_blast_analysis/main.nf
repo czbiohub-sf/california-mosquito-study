@@ -82,13 +82,11 @@ if (params.help){
  samples_ch = Channel.empty()
  
  // Provided a samples.csv file
- samples_ch = Channel
-  .fromPath(params.samples) // INVESTIGATE
-  // .println()
-  // .map{ row -> tuple(row.sample_id, tuple(file(row.read1), file(row.read2)))}
-
-
- samples_ch.set{ tsv_ch }
+ Channel
+  .fromPath("s3://czbiohub-mosquito/contigs/*", type:"dir")
+  .map{ f -> tuple(f.name, file(f))}
+  //.println()
+  .set{ samples_ch }
 
 // AWSBatch sanity checking
 if(workflow.profile == 'awsbatch'){
@@ -97,30 +95,29 @@ if(workflow.profile == 'awsbatch'){
 }
 
 process lca_analysis {
-    tag "${sample_id}_${sketch_id}"
-    publishDir "${params.outdir}/sketches", mode: 'copy'
-    container 'czbiohub/nf-kmer-similarity'
+    tag "${sample_id}"
+    publishDir "${params.outdir}/${sample_id}", mode: 'copy'
+    container 'lucymli/lca_analysis'
 
     // If job fails, try again with more memory
     // memory { 8.GB * task.attempt }
     errorStrategy 'retry'
-  maxRetries 3
+    maxRetries 3
 
     input:
-    set sample_id, file(tsv) from tsv_ch
-
-    output:
-  set file("${sample_id}") into lca_ch
+    set sample_id, file(sample_dir) from samples_ch
 
     script: // ADD PYTHON FILE TO /usr/local/bin IN DOCKER FILE
-    // filtered_tsv = tsv.replaceAll(/contigs/, "contig_quality_test").replaceAll(/.m9/, "_filtered.m9")
-    // lca_tsv = tsv.replaceAll(/contigs/, "contig_quality_test").replaceAll(/blast/, "lca")
+    tsv = sample_dir
+    tsv_name = sample_id
+    filtered_tsv = tsv.getSimpleName()+"_filtered.m9"
+    lca_tsv = tsv.getName().replaceAll("blast", "lca")
     """
     python lca_analysis.py \
     --blast_type nt \
-    --fpath $tsv \
-    --filtered_blast_path s3://lucymli/test/A \
-    --outpath s3://lucymli/test/B \
+    --fpath ${tsv_name}/blast_nt.m9 \
+    --filtered_blast_path $filtered_tsv \
+    --outpath $lca_tsv \
     --ident_cutoff 0.5 \
     --align_len_cutoff 0.5
     """

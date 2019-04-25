@@ -1,0 +1,80 @@
+Apr-25 10:19:30.252 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --samples 's3://czbiohub-mosquito/contigs/*/*.m9'
+Apr-25 10:19:30.365 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.03.0-edge
+Apr-25 10:19:30.379 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [zen_laplace] - revision: 6e4a9289f2
+Apr-25 10:19:30.394 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/nextflow.config
+Apr-25 10:19:30.395 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/nextflow.config
+Apr-25 10:19:30.435 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-25 10:19:30.906 [main] DEBUG nextflow.Session - Session uuid: 71db42cc-cec1-4997-b267-2a3c1fa6d4cc
+Apr-25 10:19:30.907 [main] DEBUG nextflow.Session - Run name: zen_laplace
+Apr-25 10:19:30.907 [main] DEBUG nextflow.Session - Executor pool size: 8
+Apr-25 10:19:30.956 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 19.03.0-edge build 5061
+  Modified: 14-03-2019 17:26 UTC (10:26 PDT)
+  System: Mac OS X 10.14.4
+  Runtime: Groovy 2.5.6 on Java HotSpot(TM) 64-Bit Server VM 11.0.1+13-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 19622@li-mbp.local [10.122.111.66]
+  CPUs: 8 - Mem: 16 GB (2.5 GB) - Swap: 2 GB (984.5 MB)
+Apr-25 10:19:30.979 [main] DEBUG nextflow.Session - Work-dir: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/work [Mac OS X]
+Apr-25 10:19:30.980 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/bin
+Apr-25 10:19:31.112 [main] DEBUG nextflow.Session - Session start invoked
+Apr-25 10:19:31.115 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Apr-25 10:19:31.116 [main] DEBUG nextflow.trace.TraceFileObserver - Flow starting -- trace file: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/trace.txt
+Apr-25 10:19:31.128 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Apr-25 10:19:31.272 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Apr-25 10:19:31.273 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `help` -- Initialise it to a default value eg. `params.help = some_value`
+Apr-25 10:19:31.361 [PathVisitor-1] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Apr-25 10:19:31.375 [PathVisitor-1] DEBUG nextflow.Global - Using AWS credential defined in `default` section in file: /Users/lucy.li/.aws/credentials
+Apr-25 10:19:31.383 [PathVisitor-1] DEBUG nextflow.file.FileHelper - AWS S3 config details: {secret_key=DtpfPY.., max_connections=20, upload_storage_class=INTELLIGENT_TIERING, storage_encryption=AES256, access_key=AKIAJQ.., region=us-west-2, connection_timeout=10000}
+Apr-25 10:19:31.462 [main] DEBUG nextflow.processor.ProcessFactory - << taskConfig executor: null
+Apr-25 10:19:31.462 [main] DEBUG nextflow.processor.ProcessFactory - >> processorType: 'local'
+Apr-25 10:19:31.472 [main] DEBUG nextflow.executor.Executor - Initializing executor: local
+Apr-25 10:19:31.474 [main] INFO  nextflow.executor.Executor - [warm up] executor > local
+Apr-25 10:19:31.479 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=16 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+Apr-25 10:19:31.485 [main] DEBUG nextflow.processor.TaskDispatcher - Starting monitor: LocalPollingMonitor
+Apr-25 10:19:31.486 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Apr-25 10:19:31.489 [main] DEBUG nextflow.executor.Executor - Invoke register for executor: local
+Apr-25 10:19:31.524 [main] WARN  nextflow.processor.TaskProcessor - Output `set` must define at least two component -- Check process `lca_analysis`
+Apr-25 10:19:31.536 [main] DEBUG nextflow.Session - >>> barrier register (process: lca_analysis)
+Apr-25 10:19:31.540 [main] DEBUG nextflow.processor.TaskProcessor - Creating operator > lca_analysis -- maxForks: 8
+Apr-25 10:19:31.581 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Apr-25 10:19:31.582 [main] DEBUG nextflow.Session - Session await
+Apr-25 10:19:31.869 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /czbiohub-mosquito/contigs/; pattern: */*.m9; options: [:]
+Apr-25 10:19:31.875 [PathVisitor-1] DEBUG nextflow.file.FileHelper - Path matcher not defined by 'S3FileSystem' file system -- using default default strategy
+Apr-25 10:19:33.605 [Actor Thread 3] WARN  nextflow.processor.TaskProcessor - Input tuple does not match input set cardinality declared by process `lca_analysis` -- offending value: /czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_nt.m9
+Apr-25 10:19:33.662 [Actor Thread 3] ERROR nextflow.processor.TaskProcessor - Error executing process > 'lca_analysis (/czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_nt.m9_null)'
+
+Caused by:
+  No such property: replaceAll for class: nextflow.processor.TaskPath
+
+Source block:
+  """
+  python lca_analysis.py \
+  --blast_type nt \
+  --fpath $tsv \
+  --filtered_blast_path $tsv.replaceAll(/contigs/, "contig_quality_test").replaceAll(/.m9/, "_filtered.m9") \
+  --outpath $tsv.replaceAll(/contigs/, "contig_quality_test").replaceAll(/blast/, "lca") \
+  --ident_cutoff 0.5 \
+  --align_len_cutoff 0.5
+  """
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+Apr-25 10:19:33.665 [Actor Thread 3] DEBUG nextflow.Session - Session aborted -- Cause: Process `null` script contains error(s)
+Apr-25 10:19:33.691 [Actor Thread 3] DEBUG nextflow.Session - The following nodes are still active:
+[process] lca_analysis
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: -
+  port 1: (cntrl) -     ; channel: $
+
+Apr-25 10:19:33.696 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local)
+Apr-25 10:19:33.696 [main] DEBUG nextflow.Session - Session await > all process finished
+Apr-25 10:19:33.696 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Apr-25 10:19:33.702 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=0; failedCount=0; ignoredCount=0; cachedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms]
+Apr-25 10:19:33.702 [main] DEBUG nextflow.trace.TraceFileObserver - Flow completing -- flushing trace file
+Apr-25 10:19:33.706 [main] DEBUG nextflow.trace.ReportObserver - Flow completing -- rendering html report
+Apr-25 10:19:33.710 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  {}
+Apr-25 10:19:34.888 [main] DEBUG nextflow.trace.TimelineObserver - Flow completing -- rendering html timeline
+Apr-25 10:19:34.990 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Apr-25 10:19:34.995 [main] DEBUG nextflow.Session - AWS S3 uploader shutdown
+Apr-25 10:19:35.013 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

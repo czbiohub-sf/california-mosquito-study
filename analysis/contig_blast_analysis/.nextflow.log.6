@@ -1,0 +1,43 @@
+Apr-25 10:01:30.399 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --samples 's3://czbiohub-mosquito/contigs/*/*.m9'
+Apr-25 10:01:30.529 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 19.03.0-edge
+Apr-25 10:01:30.545 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [high_ritchie] - revision: ef423b5ea5
+Apr-25 10:01:30.560 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/nextflow.config
+Apr-25 10:01:30.561 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/nextflow.config
+Apr-25 10:01:30.600 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-25 10:01:31.087 [main] DEBUG nextflow.Session - Session uuid: 32c8001f-bc40-48e5-8e20-c7d0549ae804
+Apr-25 10:01:31.087 [main] DEBUG nextflow.Session - Run name: high_ritchie
+Apr-25 10:01:31.087 [main] DEBUG nextflow.Session - Executor pool size: 8
+Apr-25 10:01:31.140 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 19.03.0-edge build 5061
+  Modified: 14-03-2019 17:26 UTC (10:26 PDT)
+  System: Mac OS X 10.14.4
+  Runtime: Groovy 2.5.6 on Java HotSpot(TM) 64-Bit Server VM 11.0.1+13-LTS
+  Encoding: UTF-8 (UTF-8)
+  Process: 19455@li-mbp.local [10.122.111.66]
+  CPUs: 8 - Mem: 16 GB (2.5 GB) - Swap: 2 GB (984.5 MB)
+Apr-25 10:01:31.162 [main] DEBUG nextflow.Session - Work-dir: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/work [Mac OS X]
+Apr-25 10:01:31.163 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/bin
+Apr-25 10:01:31.291 [main] DEBUG nextflow.Session - Session start invoked
+Apr-25 10:01:31.295 [main] DEBUG nextflow.processor.TaskDispatcher - Dispatcher > start
+Apr-25 10:01:31.295 [main] DEBUG nextflow.trace.TraceFileObserver - Flow starting -- trace file: /Users/lucy.li/Documents/projects/skeeters/analysis/contig_blast_analysis/trace.txt
+Apr-25 10:01:31.305 [main] DEBUG nextflow.script.ScriptRunner - > Script parsing
+Apr-25 10:01:31.381 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Apr-25 10:01:31.382 [main] WARN  nextflow.script.ScriptBinding - Access to undefined parameter `help` -- Initialise it to a default value eg. `params.help = some_value`
+Apr-25 10:01:31.491 [PathVisitor-1] DEBUG nextflow.file.FileHelper - Creating a file system instance for provider: S3FileSystemProvider
+Apr-25 10:01:31.510 [PathVisitor-1] DEBUG nextflow.Global - Using AWS credential defined in `default` section in file: /Users/lucy.li/.aws/credentials
+Apr-25 10:01:31.514 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Apr-25 10:01:31.514 [main] DEBUG nextflow.Session - Session await
+Apr-25 10:01:31.514 [main] DEBUG nextflow.Session - Session await > all process finished
+Apr-25 10:01:31.514 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Apr-25 10:01:31.517 [PathVisitor-1] DEBUG nextflow.file.FileHelper - AWS S3 config details: {secret_key=DtpfPY.., max_connections=20, upload_storage_class=INTELLIGENT_TIERING, storage_encryption=AES256, access_key=AKIAJQ.., region=us-west-2, connection_timeout=10000}
+Apr-25 10:01:32.039 [PathVisitor-1] DEBUG nextflow.file.PathVisitor - files for syntax: glob; folder: /czbiohub-mosquito/contigs/; pattern: */*.m9; options: [:]
+Apr-25 10:01:32.048 [PathVisitor-1] DEBUG nextflow.file.FileHelper - Path matcher not defined by 'S3FileSystem' file system -- using default default strategy
+Apr-25 10:02:06.305 [main] DEBUG nextflow.trace.StatsObserver - Workflow completed > WorkflowStats[succeedCount=0; failedCount=0; ignoredCount=0; cachedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms]
+Apr-25 10:02:06.306 [main] DEBUG nextflow.trace.TraceFileObserver - Flow completing -- flushing trace file
+Apr-25 10:02:06.307 [main] DEBUG nextflow.trace.ReportObserver - Flow completing -- rendering html report
+Apr-25 10:02:06.310 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  {}
+Apr-25 10:02:07.370 [main] DEBUG nextflow.trace.TimelineObserver - Flow completing -- rendering html timeline
+Apr-25 10:02:07.469 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Apr-25 10:02:07.473 [main] DEBUG nextflow.Session - AWS S3 uploader shutdown
+Apr-25 10:02:07.481 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

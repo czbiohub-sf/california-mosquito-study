@@ -1,0 +1,14 @@
+digraph "dag" {
+p0 [shape=point,label="",fixedsize=true,width=0.1,xlabel="Channel.empty"];
+p1 [shape=point];
+p0 -> p1;
+
+p2 [shape=point,label="",fixedsize=true,width=0.1,xlabel="Channel.fromPath"];
+p3 [label="lca_analysis"];
+p2 -> p3 [label="samples_ch"];
+
+p3 [label="lca_analysis"];
+p4 [shape=point];
+p3 -> p4 [label="lca_ch"];
+
+}

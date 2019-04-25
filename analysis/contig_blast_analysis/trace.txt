@@ -1,0 +1,22 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	29/8aa10f	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+4	9b/5e2dec	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_002_Ra_S1/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+2	05/e2bc9b	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+3	4b/ed13a3	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_002_Ra_S1/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+5	dd/5a4d32	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_003_Ra_S2/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+6	83/1b02dd	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_003_Ra_S2/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+7	64/43f499	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+8	11/e5e513	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_002_Ra_S1/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+11	da/08b9f6	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+12	83/95b707	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_002_Ra_S1/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+13	fc/9a4c45	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_003_Ra_S2/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+14	57/a3ebf7	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_003_Ra_S2/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+15	eb/d9cd75	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+16	5b/8e92df	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_002_Ra_S1/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+17	51/75267a	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+18	fa/758427	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_002_Ra_S1/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+19	98/41dfef	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_003_Ra_S2/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+10	6e/2613e6	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_004_Ra_S2/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+9	f6/8add96	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_004_Ra_S2/blast_nt.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+20	ee/b9d62f	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_003_Ra_S2/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-
+21	cd/ca1fa8	-	lca_analysis (/czbiohub-mosquito/contigs/CMS001_001_Ra_S1/blast_subset_nr.m9_null)	FAILED	-	-	-	-	-	-	-	-	-

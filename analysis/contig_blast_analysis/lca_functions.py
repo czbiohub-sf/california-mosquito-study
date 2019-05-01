@@ -10,6 +10,7 @@ import os
 import io
 import re
 import time
+import itertools
 
 # NCBI Entrez functions
 from Bio import Entrez
@@ -143,5 +144,11 @@ def download_s3_file (s3path):
     return fpath
 
 
-
+##
+## Produce a dataframe from every combination of values
+## From: https://pandas.pydata.org/pandas-docs/stable/user_guide/cookbook.html
+##
+def expand_grid(data_dict):
+    rows = itertools.product(*data_dict.values())
+    return pd.DataFrame.from_records(rows, columns=data_dict.keys())
 

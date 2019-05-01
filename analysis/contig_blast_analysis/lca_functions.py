@@ -10,7 +10,6 @@ import os
 import io
 import re
 import time
-import itertools
 
 # NCBI Entrez functions
 from Bio import Entrez

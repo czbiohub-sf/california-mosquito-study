@@ -11,6 +11,8 @@ import io
 import re
 import time
 
+import pdb, traceback, sys
+
 # NCBI Entrez functions
 from Bio import Entrez
 Entrez.email = "lucy.li@czbiohub.org"
@@ -20,6 +22,11 @@ ncbi = NCBITaxa()
 update_tax_database = False
 if update_tax_database:
     ncbi.update_taxonomy_database()
+
+
+default_blast_headings = ["query", "subject", "identity", "align_length", "mismatches", 
+        "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
+        "sci_name", "common_name", "subject_title"]
 
 ##
 ## For a given accession number, find the corresponding TaxID from NCBI's Taxonomy Database
@@ -33,6 +40,8 @@ def get_taxid (acc, db):
 ## For a given accession number, return the genbank record
 ##
 def get_gb (acc, db):
+    if ("|" in acc):
+        acc = acc.split('|')[1]
     result = list(Entrez.efetch(id=str(acc), db=db, rettype="gb", retmode="text"))
     time.sleep(1)
     return (result)
@@ -43,11 +52,15 @@ def get_gb (acc, db):
 ##
 def find_missing_taxid (acc, db):
     # Strategy 1: check if the record replaced an older record that did contain the TaxId Information
-    match_1 = [get_taxid(re.search("gi:(.*).", x).group(1), db) for x in get_gb(acc, db) if "replace" in x]
-    if (len(match_1)==1):
-        return (int(match_1[0]))
-    else:
+    try:
+        match_1 = [get_taxid(re.search("gi:(.*).", x).group(1), db) for x in get_gb(acc, db) if ("replace" in x)]
+        if (len(match_1)==1):
+            return (int(match_1[0]))
+        else:
+            return (None)
+    except:
         return (None)
+    
 
 
 ##
@@ -123,11 +136,11 @@ def split_s3_path (s3_path):
 ##
 ## Upload pandas dataframe to S3
 ##
-def df_to_s3 (obj, s3path):
+def df_to_s3 (obj, s3path, header=True):
     s3 = boto3.resource('s3')
     client = boto3.client('s3')
     out_file = tempfile.NamedTemporaryFile()
-    obj.to_csv(out_file.name, sep="\t", index=False)
+    obj.to_csv(out_file.name, sep="\t", index=False, header=header)
     data = open(out_file.name, "rb")
     s3_bucket_name, s3_path = split_s3_path(s3path)
     s3.Bucket(s3_bucket_name).put_object(Key=s3_path, Body=data)

@@ -25,7 +25,6 @@ library(rgdal)
 library(maptools)
 library(OpenStreetMap)
 library(ggmap)
-library(DiagrammeR)
 library(reutils)
 library(XML)
 library(xtable)
@@ -37,6 +36,7 @@ library(ggtree)
 library(grid)
 library(gridExtra)
 library(kmer)
+library(rjson)
 # Attention!
 # Google has recently changed its API requirements, and ggmap users are now required to provide an API key and enable billing. ggmap itself is outdated on CRAN; we hope to have the new version up on CRAN soon, but until then, here is the workaround:
 # 
@@ -66,8 +66,15 @@ source("generate_figures_functions.R")
 metadata <- read.csv(list.files(data_dir, "CMS001_CMS002_Merged", full.names = TRUE), stringsAsFactors = FALSE) %>%
   mutate(collected_by=gsub(" ", "", collected_by)) %>%
   mutate(collection_long=mapply(ifelse, collection_long < -1e3, collection_long/1e7, collection_long)) %>%
+  mutate(collection_date=as.Date(collection_date)) %>%
   mutate(compute_genus_species=paste(compute_genus, compute_species)) %>% 
   left_join(., read.csv(file.path(data_dir, "project-mosquito_sample-table.csv")) %>% rename(NewIDseqName=sample_name) %>% select(NewIDseqName, total_reads, nonhost_reads, subsampled_fraction, total_ercc_reads, nucleotide_type))
+
+total_mosquito_nonhost_reads <- metadata %>%
+  filter(., !grepl("ater", compute_genus_species)) %>%
+  group_by(, compute_genus_species, collected_by) %>%
+  summarize(total_mosquitos=n(), total_nonhost=sum(nonhost_reads))
+
 summary_metadata <- metadata %>%
   filter(!is.na(collected_by)) %>%
   group_by(collected_by, compute_genus_species) %>%
@@ -100,316 +107,85 @@ cal_map_plot
 # 3. Microbiota overview
 
 ```{r microbiome, cache=TRUE, warning=FALSE, message=FALSE}
-virus_taxid <- esearch("Viruses", db="taxonomy") %>% content("parsed") %>% as.numeric()
-contig_summary_head <- file.path(list.files(file.path(data_dir, "contigs"), full.names = TRUE)[1], "contigs_summary.csv") %>% readLines(1) %>% strsplit(",") %>% unlist()
-blast_results <- lapply(metadata$NewIDseqName, function (x) {
-  fn <- file.path(data_dir, "blast_lca_results", paste0(x, ".tsv"))
-  if (!file.exists(fn)) return (NULL)
-  read_tsv(fn)
-}) %>%
-  do.call(what=rbind, .)
+blast_results <- read_tsv(file.path(data_dir, "full_lca_results.txt"))
 ```
 
-```{r microbiota_summary}
-kingdom_lengths <- list(eukaryota=2759, bacteria=2, viruses=10239) %>%
-  sapply(., function (taxon_id) {
-    blast_results$lca_lineage %>%
-      lapply(rjson::fromJSON) %>%
-      sapply(function (x) {
-        if (6656 %in% x) return (FALSE)
-        taxon_id %in% x
-      }) %>%
-      filter(blast_results, ., !duplicated(qseqid)) %>%
-      with(sum(qlength))
+
+```{r viral_reads, message=FALSE, warning=FALSE, cache=TRUE, fig.width=15, fig.height=30}
+viral_contigs <- read_tsv(file.path(data_dir, "viral_contigs.txt")) %>%
+  left_join(., metadata, by=c("sample"="NewIDseqName"), suffix=c("", ".y")) %>%
+  select(-ends_with(".y"))
+close_viral_hits <- viral_contigs %>%
+  filter(., align_prop > 0.8/3, identity > 80)
+close_viral_hits_per_mosquito <- close_viral_hits %>%
+  filter(., !grepl("ater", sample)) %>%
+  group_by(., sample, sci_name) %>% summarize(taxid=head(taxid, 1), compute_genus_species=head(compute_genus_species, 1), collected_by=head(collected_by, 1), read_count=sum(read_count), nonhost_read_count=head(nonhost_reads, 1))
+close_viral_hits_prevalence <- close_viral_hits %>%
+  filter(., !grepl("ater", sample)) %>%
+  group_by(., sci_name, compute_genus_species, collected_by) %>%
+  summarize(., taxid=head(taxid, 1), total_reads=sum(read_count), infected_mosquitos=length(unique(sample))) %>%
+  left_join(., total_mosquito_nonhost_reads, by=c("compute_genus_species", "collected_by")) %>%
+  ungroup() %>%
+  left_join(close_viral_hits_per_mosquito, ., by=c("compute_genus_species", "collected_by", "taxid"), suffix=c("", ".y")) %>%
+  select(., -ends_with(".y")) %>%
+  mutate(sci_name=factor(sci_name, levels=group_by(., sci_name) %>% summarise_at("infected_mosquitos", sum) %>% with(., sci_name[order(infected_mosquitos, decreasing = TRUE)])))
+
+close_viral_hits_prevalence_plot <- 
+  close_viral_hits_prevalence %>%
+  group_by(., sci_name, compute_genus_species, collected_by) %>%
+  do(., head(., 1)) %>%
+  split(., .$sci_name) %>%
+  lapply(function (x) {
+    ggplot(x) + theme_bw() +
+      geom_bar(aes(x=compute_genus_species, y=total_reads/total_nonhost), stat="identity") +
+      facet_wrap(~collected_by, nrow=1) +
+      scale_y_continuous(labels = scales::percent) +
+      ggtitle(x$sci_name[1])
   })
-
-```
-
-```{r microbiome_functions}
-get_total_qlength <- function (x) {
-  output <- select(x, sample, lca)[1, ]
-  #if (virus_taxid %in% x$lca) browser()
-  output$qlength <- filter(x, !duplicated(qseqid)) %>%
-    with(sum(qlength))
-  output
-}
-get_ntnr_consensus <- function (x) {
-  any_viruses <- any(x$lca %in% virus_taxid)
-  close_match <- max(x$pmatch)>0.8
-  longest_lineage <- x$lineage %>% lapply(rjson::fromJSON) %>% unlist(recursive=FALSE) %>% `[[`(., sapply(., length) %>% which.max())
-  if ((nrow(x)==1) & (!any_viruses)) return (x)
-  if ((nrow(x)==1) & any_viruses) {
-     selected_taxon <- ((x$pident %>% rjson::fromJSON()) * (x$length %>% rjson::fromJSON())) %>% which.max()
-     x$lca <- x$taxid %>% rjson::fromJSON() %>% `[`(., selected_taxon)
-     x$lineage <- x$lineage %>% rjson::fromJSON() %>% `[`(., selected_taxon) %>% rjson::toJSON() %>% gsub('"', "", .)
-     return (x)
-  }
-  if (any_viruses) {
-    formatted_longest_lineage <- longest_lineage %>% rjson::toJSON() %>% gsub('"', "", .)
-    output <- filter(x, grepl(formatted_longest_lineage, lineage))[1, ]
-    output$lca <- tail(longest_lineage, 1)
-    output$lineage <- formatted_longest_lineage
-    return (output)
-    browser()
-  } else {
-    if (x$lca[1]==x$lca[2]) return (x)
-    if ((close_match) | (abs(diff(x$pmatch))>0.2)) return (x[which.max(x$pmatch), ])
-    browser()
-  }
-}
-
-add_missing_samples <- function (df, metadata) {
-  missing_samples <- filter(metadata, !grepl("ater", NewIDseqName))$NewIDseqName %>% `[`(., !(.%in%df$sample))
-  if ("rpm_group" %in% names(df)) rpm_group_levels <- levels(df$rpm_group)
-  lapply(missing_samples, function (x) {
-    output <- df[1, ]
-    output$sample <- x
-    output$read_count <- 0
-    output$sample_name_short <- gsub("^([^_]*_[^_]*)_.*$", "\\1", output$sample)
-    output$total_reads <- 0
-    output$nonhost_reads <- 0
-    output$compute_genus_species <- filter(metadata, NewIDseqName==x)$compute_genus_species
-    output$rpm <- 0
-    if ("rpm_group" %in% names(df)) output$rpm_group <- rpm_group_levels[1]
-    output
-  }) %>% 
-    do.call(what=rbind) %>%
-    rbind(df, .)
-}
-```
-
-```{r viral_reads, message=FALSE, warning=FALSE, cache=TRUE}
-close_viral_hits <- filter(blast_results, qseqid %in% filter(blast_results, grepl(paste0(",", virus_taxid), lca_lineage), pmatch > 0.8)$qseqid) %>%
-  group_by(., sample, qseqid) %>%
-  do(get_ntnr_consensus(.))
-close_viral_hits_lca <- close_viral_hits %>%
-  group_by(sample, lca) %>%
-  do(get_total_qlength(.)) %>%
-  filter(qlength > 500) %>%
-  left_join(., .$lca %>% unique() %>% esummary(., db="taxonomy") %>% content("parsed") %>% mutate(lca=as.numeric(TaxId)) %>% select(Rank, Division, ScientificName, lca))
-close_viral_hits_read_count <- mclapply(1:nrow(close_viral_hits_lca), function (i) {
-  sample_name <- close_viral_hits_lca$sample[i]
-  lca_id <- close_viral_hits_lca$lca[i]
-  output <- filter(close_viral_hits, sample==sample_name, lca==lca_id)$qseqid %>% 
-    unique() %>%
-    paste("grep ", ., file.path(data_dir, "contigs", sample_name, "contigs_summary.csv")) %>%
-    lapply(system, intern=TRUE) %>%
-    unlist()
-  if (length(output)==0) {
-    return (NULL)
-  }
-  output %>%
-    strsplit(., ",") %>%
-    do.call(what=rbind.data.frame, .) %>%
-    setNames(., contig_summary_head) %>%
-    select(contig_name, read_count) %>%
-    mutate(read_count=as.numeric(as.character(read_count)), sample=sample_name, lca=lca_id,
-           Rank=close_viral_hits_lca$Rank[i], Division=close_viral_hits_lca$Division[i], 
-           ScientificName=close_viral_hits_lca$ScientificName[i])
-}, mc.cores=8) %>%
-  do.call(what=rbind, .) %>%
-  mutate(sample=factor(sample, levels=metadata$NewIDseqName))
-write.csv(close_viral_hits_read_count, file.path(data_dir, "confident_viral_hits.csv"), quote=FALSE, row.names=FALSE)
-close_viral_hits_read_count_grouped <- close_viral_hits_read_count %>%
-  group_by(sample, lca) %>% 
-  summarize(read_count=sum(read_count)) %>%
-  left_join(., close_viral_hits_read_count %>% select(., -contig_name, -read_count), by=c("lca", "sample")) %>%
-  distinct() %>%
-  mutate(sample_name_short=gsub("^([^_]*_[^_]*)_.*$", "\\1", sample)) %>%
-  mutate(sample_name_short=factor(sample_name_short, levels=grep("ater", metadata$NewIDseqName, invert=TRUE, value=TRUE)%>%gsub("^([^_]*_[^_]*)_.*$", "\\1", .))) %>%
-  left_join(., metadata%>%select(NewIDseqName, total_reads, nonhost_reads, compute_genus_species)%>%rename(sample=NewIDseqName), "sample") %>%
-  mutate(rpm=read_count/nonhost_reads*1e6) %>%
-  mutate(pc_nonhost=rpm/1e6)
-close_viral_hits_read_count_cuts <- quantile(close_viral_hits_read_count_grouped$rpm %>% `[`(., .>0), seq(0.25, 0.75, 0.25)) %>%
-  c(0, ., max(close_viral_hits_read_count_grouped$rpm)+1000) %>% `/`(1000) %>% round() %>% `*`(1000) %>% c(-1, .)
-close_viral_hits_read_count_grouped$rpm_group <- cut(close_viral_hits_read_count_grouped$rpm, close_viral_hits_read_count_cuts)
-close_viral_hits_prev <- close_viral_hits_read_count_grouped %>% group_by(ScientificName) %>% summarize(n=sum(rpm>0))
-close_viral_hits_read_count_grouped %<>% 
-  mutate(ScientificName=factor(ScientificName, levels=with(close_viral_hits_prev, ScientificName[order(n)]))) %>%
-  add_missing_samples(., metadata)
-
-```
-
-```{r viral_hits}
-close_viral_hits_plot <- ggplot(close_viral_hits_read_count_grouped%>%filter(!grepl("ater", sample))) + theme_classic() +
-  geom_tile(aes(y=ScientificName, x=sample_name_short, fill=rpm_group)) +
-  facet_grid(.~compute_genus_species, scales="free_x", space="free_x") +
-  scale_fill_manual("Reads per million (rpm)", 
-                    values=c("white", RColorBrewer::brewer.pal(length(close_viral_hits_read_count_cuts)-2, "YlOrRd")),
-                    labels=c("", paste(close_viral_hits_read_count_cuts[2:5], close_viral_hits_read_count_cuts[3:6], sep="-"))) +
-  scale_x_discrete(position="top") +
-  xlab("Individual mosquitos") + ylab("Viruses") +
-  theme(axis.text.x=element_text(angle=90, hjust=0, vjust=0.5), legend.position="bottom", text=element_text(size=14))
-lapply(c("pdf", "png"), function (x) ggsave(paste0("03_microbiota_overview/virome.", x), close_viral_hits_plot, width=20, height=8))
-```
-
-```{r virus_data_contig_quality}
-write.table(viral_hits, file.path(data_dir, "confident_viral_hits.tsv"), quote=FALSE, sep="\t", row.names=FALSE)
-```
-
-```{r, warning=FALSE, message=FALSE}
-same_by_blast <- group_by(viral_hits, qseqid, sample) %>%
-  summarize_at(., vars(lca), all)
-any(!same_by_blast$lca)
-```
-
-```{r new_viruses, warning=FALSE, message=FALSE, echo=FALSE, fig.width=12, fig.height=12}
-distant_viral_hits <- filter(blast_results, grepl(paste0(",", virus_taxid), lca_lineage), (pident %>% lapply(., rjson::fromJSON) %>% lapply(as.numeric) %>% sapply(max)) <= 80, qlength>2000)
-distant_viral_hits <- distant_viral_hits$lca %>% esummary(db="taxonomy") %>% content("parsed") %>% select(Rank, Division, ScientificName, CommonName, Genus, Species, Subsp, GenBankDivision) %>% cbind(distant_viral_hits, .)
-write.csv(distant_viral_hits, file.path(data_dir, "distant_viral_hits.csv"), quote=FALSE, row.names=FALSE)
-```
-
-```{r download_new_viruses, warning=FALSE, message=FALSE, echo=FALSE, fig.width=12, fig.height=12}
-download_contig <- function (contig_name_table) {
-  sample_names <- unique(contig_name_table$sample)
-  filenames <- paste0(tempfile(), seq(sample_names))
-  paste0("/Users/lucy.li/anaconda3/bin/aws s3 cp s3://czbiohub-mosquito/contigs/", sample_names,"/contigs.fasta ", filenames) %>% 
-    mclapply(system, mc.cores=min(length(.), detectCores()*2))
-  seqs <- lapply(filenames, read.dna, "fasta")
-  names(seqs) <- sample_names
-  apply(contig_name_table, 1, function (x) {
-    output <- seqs[[x[2]]][x[1]]
-    names(output) <- paste(x[1], x[2])
-    output
-  })
-}
-distant_viral_hits <- filter(blast_results, grepl(paste0(",", virus_taxid), lca_lineage), (pident %>% lapply(., rjson::fromJSON) %>% lapply(as.numeric) %>% sapply(max)) <= 80, qlength>2000)
-distant_viral_hits <- distant_viral_hits$lca %>% esummary(db="taxonomy") %>% content("parsed") %>% select(Rank, Division, ScientificName, CommonName, Genus, Species, Subsp, GenBankDivision) %>% cbind(distant_viral_hits, .)
-## Cluster analysis
-get_cluster_id <- function (query, cluster_list) {
-  if (length(cluster_list)==0) return (cluster_list)
-  which(sapply(cluster_list, function (x) query %in% x))
-}
-distant_viral_seqs <- download_contig(select(distant_viral_hits, qseqid, sample)) %>% do.call(what=c)
-distant_viral_kmer_matrix <- distant_viral_seqs %>% kdistance() %>% as.matrix()
-distant_viral_clusters <- list()
-for (i in 1:sum(lower.tri(distant_viral_kmer_matrix))) {
-  indices <- lower.tri(distant_viral_kmer_matrix) %>% which(arr.ind=TRUE) %>% `[`(., i, )
-  indices_names <- c(rownames(distant_viral_kmer_matrix)[indices[1]], colnames(distant_viral_kmer_matrix)[indices[2]])
-  if (length(get_cluster_id(indices_names[1], distant_viral_clusters))==0) {
-    distant_viral_clusters[[indices_names[1]]] <- indices_names[1]
-  }
-  incluster <- distant_viral_kmer_matrix[indices[1], indices[2]] < 0.05
-  if (incluster) {
-      distant_viral_clusters[[indices_names[1]]] %<>% c(., indices_names[2])
-  } else if (length(get_cluster_id(indices_names[2], distant_viral_clusters))==0) {
-    distant_viral_clusters[[indices_names[2]]] <- indices_names[2]
-  }
-}
-length(distant_viral_clusters)
-write.csv(distant_viral_hits, file.path(data_dir, "distant_viral_hits.csv"), quote=FALSE, row.names=FALSE)
+ggsave("03_microbiota_overview/viral_abundance_prevalence_geo_species.pdf",
+       arrangeGrob(grobs=close_viral_hits_prevalence_plot, ncol=3),
+       width=10, height=30)
 ```
 
 
-```{r new_viruses_trees, warning=FALSE, message=FALSE, echo=FALSE}
-align_contigs <- function (input_table) {
-    input_table %>% 
-      split(., 1:nrow(.)) %>% 
-      mclapply(., function (row_x) {
-        x <- row_x %>% select(qseqid, sample) %>% unlist()
-        filex <- paste0(tempfile(), x[2])
-        paste0("/Users/lucy.li/anaconda3/bin/aws s3 cp s3://czbiohub-mosquito/contigs/", x[2],"/contigs.fasta ", filex) %>% system()
-        output_seq <- ape::read.dna(filex, "fasta")[x[1]]
-        file.remove(filex)
-        names(output_seq) %<>% str_split(., "_", simplify=TRUE) %>% `[`(1:2) %>% paste(collapse="_") %>%
-          paste0("_", str_split(x[2], "_", simplify=TRUE)[1:2] %>% paste(collapse="_"))
-        output_seq
-      }, mc.cores=min(16, length(.))) %>%
-      do.call(what=c) -> seqs
-  browser()
-    aln <- ape::muscle(seqs)
-    if (nrow(aln) <= 3) {
-      tree <- ape::njs(dist.dna(aln))
-    } else {
-      filex <- tempfile()
-      ape::write.dna(aln, file=filex, format="fasta")
-      raxml_command <- system(paste("modeltest-ng --force -p 16 -T raxml -i", filex), intern=TRUE) %>%
-        grep("raxml-ng", ., value=TRUE) %>% head(1) %>% str_split(., "> ", simplify=TRUE) %>% `[`(2) %>%
-        gsub("--model", "--threads 1 --redo --model", .)
-      tree <- system(raxml_command, intern=TRUE) %>% grep("bestTree", ., value=TRUE) %>% 
-        str_split(., " ", simplify = TRUE) %>% 
-        `[`(., length(.)) %>%
-        read.tree()
-    }
-    return (list(seqs=seqs, aln=aln, tree=tree, dist=dist.dna(aln, "N")))
-  }
-distant_viral_contigs <- table(filter(distant_viral_hits, lca!=virus_taxid)$lca) %>% 
-  sort() %>%
-  `[`(., .>2) %>% 
-  names() %>%
-  as.numeric() %>% 
-  split(distant_viral_hits, .) %>%
-  lapply(., align_contigs)
-distant_viral_contigs2 <- filter(distant_viral_hits, lca==virus_taxid) %>% 
-  split(., .$taxid) %>%
-  `[`(., sapply(., nrow)>2) %>%
-  lapply(., align_contigs)
-saveRDS(c(distant_viral_contigs, distant_viral_contigs2), "03_microbiota_overview/distant_viral_contigs.rds")
+
+```{r viral_hits, fig.width=7, fig.height=15}
+close_viral_hits_prev_abundance_plot <- close_viral_hits_prevalence %>%
+  split(., .$sci_name) %>%
+  lapply(function (df_x) {
+    geom_text_df <- group_by(df_x, collected_by, compute_genus_species)%>%do(., .[which.max(.$read_count/.$nonhost_read_count), ])
+    ggplot(df_x, aes(x=collected_by)) + theme_bw() +
+      geom_bar(aes(y=total_reads/total_nonhost), stat="identity", position="dodge") +
+      geom_point(aes(y=read_count/nonhost_read_count), position = position_dodge(width = 1)) +
+      geom_text(data=geom_text_df, aes(label = paste(infected_mosquitos, total_mosquitos, sep="/"), y = max(read_count/nonhost_read_count)*1.05), position = position_dodge(0.9), vjust = 0) +
+      xlab("Collection Sites") + ylab("Percentage of nonhost reads") +
+      facet_wrap(~compute_genus_species, nrow=1, scales="free_x") +
+      scale_y_continuous(labels=scales::percent) +
+      scale_color_manual(values=rep("black", length(unique(close_viral_hits_prevalence$collected_by)))) +
+      ggtitle(df_x$sci_name[1])
+  }) %>%
+  arrangeGrob(grobs=., ncol=3)
+ggsave("03_microbiota_overview/close_viral_hits_prev_abundance_plot.pdf",
+       close_viral_hits_prev_abundance_plot,
+       width=35, height=49)
 ```
 
-```{r new_viruses_trees_plot, warning=FALSE, message=FALSE, echo=FALSE, fig.width=14, fig.height=24}
-lapply(distant_viral_contigs, `[[`, "tree") %>% 
-  lapply(ggtree, layout="circular") %>% 
-  lapply(`+`, list(geom_tiplab2(hjust=-0.05), xlim(0, 1.6))) %>% 
-  grid.arrange(grobs=., ncol=2)
-```
 
-```{r new_viruses_clusters, warning=FALSE, message=FALSE, echo=FALSE, fig.width=14, fig.height=24}
-lapply(distant_viral_contigs, `[[`, "dist") %>% lapply(., function (x) {
-  matrix_x <- as.matrix(x)
-  which(matrix_x<300, arr.ind=TRUE) %>% `[`(., .[, 1]!=.[, 2], ) %>% c() %>% unique() %>% `[`(rownames(matrix_x), .) %>% sort()
-})
+```{r virome-heatmap, fig.width=10, fig.height=5}
+ggplot(close_viral_hits_prevalence) + theme_bw() +
+  geom_tile(aes(x=sample, y=sci_name, fill=read_count/nonhost_read_count*100)) +
+  scale_fill_gradient2("% nonhost reads", low="#FFFFCC", mid="#FFD700", high="#f03b20")
 ```
-
 
 
 # 4. Bloodmeal
 
 ```{r}
-chordate_taxid <- esearch("Chordata", db="taxonomy") %>% esummary(db="taxonomy") %>% content("parsed") %>% `[[`("TaxId")
-chordate_hits <- blast_results %>% 
-  filter(., grepl(paste0(",", chordate_taxid), lca_lineage), blast_type=="gsnap", qlength>1000, pmatch>0.9) %>%
-  left_join(., .$lca %>% unique() %>% esummary(., db="taxonomy") %>% content("parsed") %>% mutate(lca=as.numeric(TaxId)) %>% select(Rank, Division, ScientificName, lca, CommonName))
-chordate_hits_read_count <- lapply(1:nrow(chordate_hits), function (i) {
-  sample_name <- chordate_hits$sample[i]
-  lca_id <- chordate_hits$lca[i]
-  output <- filter(chordate_hits, sample==sample_name, lca==lca_id)$qseqid %>% 
-    unique() %>%
-    paste("grep ", ., file.path(data_dir, "contigs", sample_name, "contigs_summary.csv")) %>%
-    lapply(system, intern=TRUE) %>%
-    unlist()
-  if (length(output)==0) {
-    return (NULL)
-  }
-  output <- output %>%
-    strsplit(., ",") %>%
-    do.call(what=rbind.data.frame, .)
-  if (ncol(output)<length(contig_summary_head)) output <- data.frame(output, "")
-  output %>%
-    setNames(., contig_summary_head) %>%
-    select(contig_name, read_count) %>%
-    mutate(read_count=as.numeric(as.character(read_count)), sample=sample_name, lca=lca_id,
-           Rank=chordate_hits$Rank[i], Division=chordate_hits$Division[i], 
-           ScientificName=chordate_hits$ScientificName[i],
-           CommonName=chordate_hits$CommonName[i])
-}) %>%
-  do.call(what=rbind) %>%
-  left_join(., metadata%>%select(NewIDseqName, compute_genus_species)%>%rename(sample=NewIDseqName))
-chordate_hits_read_count[with(chordate_hits_read_count, grep("NA", CommonName)), "CommonName"] <- with(chordate_hits_read_count, ScientificName[grep("NA", CommonName)])
-write.csv(chordate_hits_read_count, file.path(data_dir, "chordate_hits.csv"), quote=FALSE, row.names=FALSE)
+
 ```
 
 ```{r chordate_hits}
-chordate_hits_plot <- ggplot(chordate_hits_read_count%>%filter(!grepl("ater", sample), !(ScientificName %in% c("Homo sapiens", "Mus musculus")))) + theme_classic() +
-  geom_tile(aes(y=CommonName, x=sample, fill=read_count>0)) +
-  facet_grid(Division~compute_genus_species, scales="free", space="free", switch="y") +
-  scale_x_discrete(position="top") +
-  xlab("Individual mosquitos") + ylab("Animals") +
-  theme(axis.text.x=element_text(angle=90, hjust=0, vjust=0.5), 
-        legend.position="none", 
-        text=element_text(size=14),
-        strip.text.y=element_text(angle=180))
-lapply(c("pdf", "png"), function (x) ggsave(paste0("04_bloodmeal/bloodmeal_analysis_updated.", x), chordate_hits_plot, width=10, height=6))
+
 ```
 
 

@@ -154,6 +154,13 @@ def download_s3_file (s3path):
     s3_bucket_name, s3_path = split_s3_path(s3path)
     fpath = client.get_object(Bucket=s3_bucket_name, Key=s3_path)['Body']
     return fpath
-
-
+##
+## 
+##
+def filter_by_lineage (df, taxid_col, lineage_id):
+    ncbi = NCBITaxa()
+    if (isinstance(lineage_id, str)):
+        lineage_id = ncbi.get_name_translator([lineage_id])[lineage_id][0]
+    descendants = ncbi.get_descendant_taxa(lineage_id)
+    return (df[df[taxid_col].isin(descendants)])
 

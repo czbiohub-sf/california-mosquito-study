@@ -103,6 +103,24 @@ def parse_blast_file (fpath, sep="\t", comment=None, blast_type="nt", col_names=
     df = df.assign(blast_type=blast_type)
     return (df)
 
+
+##
+## Filter contigs or blast hits for contigs based on matches to a taxonomic id
+##
+def filter_by_taxid (df, db, taxid):
+    check_isin = df["taxid"].isin(ncbi.get_descendant_taxa(taxid))
+    if (not check_isin.any()):
+        return (df)
+    qlength = float(df["query"][0].split("_")[3])
+    align_prop = df["align_length"]/qlength
+    if (db=="protein"):
+        align_prop = align_prop*3
+    if (align_prop[check_isin].max() >= 0.8):
+        return (None)
+    else:
+        return (df)
+
+
 ##
 ## Select taxonomic IDs to perfrom LCA analysis on based on BLAST results
 ##
@@ -119,6 +137,9 @@ def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cu
         df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
         df = df.dropna()
     df["taxid"] = df["taxid"].astype('int64')
+    df = filter_by_taxid(df, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
+    if (df is None):
+        return (None)
     if (return_taxid_only):
         return (list(set(df["taxid"])))
     else:

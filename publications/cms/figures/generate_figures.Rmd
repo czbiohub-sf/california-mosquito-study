@@ -11,6 +11,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo=TRUE)
+# !diagnostics off
 library(parallel)
 library(dplyr)
 library(tidyr)
@@ -73,7 +74,7 @@ metadata <- read.csv(list.files(data_dir, "CMS001_CMS002_Merged", full.names = T
 total_mosquito_nonhost_reads <- metadata %>%
   filter(., !grepl("ater", compute_genus_species)) %>%
   group_by(, compute_genus_species, collected_by) %>%
-  summarize(total_mosquitos=n(), total_nonhost=sum(nonhost_reads))
+  summarize(total_mosquitos=n(), total_nonhost=sum(nonhost_reads), mean_nonhost=mean(nonhost_reads))
 
 summary_metadata <- metadata %>%
   filter(!is.na(collected_by)) %>%
@@ -106,45 +107,101 @@ cal_map_plot
 
 # 3. Microbiota overview
 
+```{r taxonomy}
+groups_taxid <- sapply(c("viruses", "eubacteria", "culicidae", "eukaryota", "fungi", "chordata", "nematoda", "apicomplexa"), function (x) {
+  esearch(x, db="taxonomy") %>%
+    content(., "parsed") %>%
+    as.character(.) %>%
+    as.numeric(.)
+})
+```
+
 ```{r microbiome, cache=TRUE, warning=FALSE, message=FALSE}
-blast_results <- read_tsv(file.path(data_dir, "full_lca_results.txt"))
+blast_results <- read_tsv(file.path(data_dir, "full_lca_results.txt")) %>% 
+  mutate(align_prop=align_length*sapply(blast_type=="nr", ifelse, 3, 1)/as.numeric(str_split(query, "_", simplify=TRUE)[, 4])) %>%
+  left_join(., metadata, by=c("sample"="NewIDseqName"), suffix=c("", ".y")) %>%
+  select(-ends_with(".y"))  %>%
+  left_join(., total_mosquito_nonhost_reads, by=c("compute_genus_species", "collected_by")) 
+blast_results_summary <- blast_results %>%
+  group_by(taxid, sample, compute_genus_species, collected_by, blast_type) %>%
+  summarize(read_count=sum(read_count), nonhost_reads=first(nonhost_reads),
+            total_mosquitos=first(total_mosquitos), sci_name=first(sci_name),
+            lineage=first(lineage)) %>%
+  ungroup() %>%
+  mutate(prop_nonhost=read_count/nonhost_reads)
+```
+
+```{r}
+blast_results_summary %>%
+  filter(grepl(groups_taxid["eukaryota"] %>% paste0(", ", ., ", "), lineage), blast_type=="nt") %>%
+  group_by(sample) %>%
+  summarize(n=n_distinct(sci_name), collected_by=first(collected_by), prop_nonhost=sum(prop_nonhost), read_count=sum(read_count)) %>%
+  ggplot(., aes(x=collected_by, y=prop_nonhost)) %>%
+  `+`(list(theme_bw(), geom_boxplot(), geom_point()))
 ```
 
 
-```{r viral_reads, message=FALSE, warning=FALSE, cache=TRUE, fig.width=15, fig.height=30}
-viral_contigs <- read_tsv(file.path(data_dir, "viral_contigs.txt")) %>%
-  left_join(., metadata, by=c("sample"="NewIDseqName"), suffix=c("", ".y")) %>%
-  select(-ends_with(".y"))
+```{r viral_reads, message=FALSE, warning=FALSE, cache=TRUE}
+viral_contigs <- blast_results %>%
+  filter(grepl(groups_taxid["viruses"] %>% paste0(", ", ., ", "), lineage))
 close_viral_hits <- viral_contigs %>%
   filter(., align_prop > 0.8/3, identity > 80)
-close_viral_hits_per_mosquito <- close_viral_hits %>%
-  filter(., !grepl("ater", sample)) %>%
-  group_by(., sample, sci_name) %>% summarize(taxid=head(taxid, 1), compute_genus_species=head(compute_genus_species, 1), collected_by=head(collected_by, 1), read_count=sum(read_count), nonhost_read_count=head(nonhost_reads, 1))
-close_viral_hits_prevalence <- close_viral_hits %>%
-  filter(., !grepl("ater", sample)) %>%
-  group_by(., sci_name, compute_genus_species, collected_by) %>%
-  summarize(., taxid=head(taxid, 1), total_reads=sum(read_count), infected_mosquitos=length(unique(sample))) %>%
-  left_join(., total_mosquito_nonhost_reads, by=c("compute_genus_species", "collected_by")) %>%
-  ungroup() %>%
-  left_join(close_viral_hits_per_mosquito, ., by=c("compute_genus_species", "collected_by", "taxid"), suffix=c("", ".y")) %>%
-  select(., -ends_with(".y")) %>%
-  mutate(sci_name=factor(sci_name, levels=group_by(., sci_name) %>% summarise_at("infected_mosquitos", sum) %>% with(., sci_name[order(infected_mosquitos, decreasing = TRUE)])))
+write.table(close_viral_hits, file.path(data_dir, "close_viral_hits.txt"), sep="\t", row.names=FALSE, quote=FALSE)
 
-close_viral_hits_prevalence_plot <- 
-  close_viral_hits_prevalence %>%
-  group_by(., sci_name, compute_genus_species, collected_by) %>%
-  do(., head(., 1)) %>%
-  split(., .$sci_name) %>%
+close_viral_prev <- filter(blast_results_summary, taxid %in% close_viral_hits$taxid, !grepl("ater", sample)) %>%
+  split(., .[, c("collected_by", "compute_genus_species", "taxid")] %>% apply(., 1, paste, collapse="")) %>%
   lapply(function (x) {
-    ggplot(x) + theme_bw() +
-      geom_bar(aes(x=compute_genus_species, y=total_reads/total_nonhost), stat="identity") +
-      facet_wrap(~collected_by, nrow=1) +
-      scale_y_continuous(labels = scales::percent) +
-      ggtitle(x$sci_name[1])
-  })
-ggsave("03_microbiota_overview/viral_abundance_prevalence_geo_species.pdf",
-       arrangeGrob(grobs=close_viral_hits_prevalence_plot, ncol=3),
-       width=10, height=30)
+    total_mosquitos <- x$total_mosquitos[1]
+    infected_mosquitos <- length(unique(x$sample))
+    if (total_mosquitos>infected_mosquitos) {
+      x <- x[rep(1, total_mosquitos-infected_mosquitos), ] %>%
+        mutate(read_count=0, prop_nonhost=0) %>%
+        rbind(x, .)
+    }
+    return (x)
+  }) %>%
+  do.call(what=rbind, .)
+
+close_viral_prev_abundance <- group_by(close_viral_prev, collected_by, compute_genus_species, taxid) %>% 
+  summarize(prevalence=n_distinct(sample)/total_mosquitos[1], abundance=mean(prop_nonhost), total_mosquitos=total_mosquitos[1], sci_name=sci_name[1])
+close_viral_prev_abundance_lm <- lm(prevalence~log10(abundance), data=filter(close_viral_prev_abundance, total_mosquitos>10))
+close_viral_prev_abund_plot <-
+  ggplot(filter(close_viral_prev_abundance, total_mosquitos>10), aes(y=prevalence, x=abundance)) +
+  list(theme_bw(), geom_point(aes(color=collected_by)), stat_smooth(method = "lm", color="black")) +
+  ggtitle(paste("Adj R2 = ",signif(summary(close_viral_prev_abundance_lm)$adj.r.squared, 5),
+                     "\nIntercept =",signif(close_viral_prev_abundance_lm$coef[[1]], 5),
+                     "\nSlope =",signif(close_viral_prev_abundance_lm$coef[[2]], 5),
+                     "\nP =",signif(summary(close_viral_prev_abundance_lm)$coef[2,4], 5))) +
+  theme(plot.title=element_text(size=10)) +
+  scale_x_log10(labels=scales::percent) +
+  scale_y_continuous(labels=scales::percent) +
+  xlab("Abundance (% of nonhost reads)") +
+  ylab("Prevalence (% of mosquitos)")
+ggsave("03_microbiota_overview/viral_prev_abundance.pdf", close_viral_prev_abund_plot,
+       width=5, height=4)
+
+close_viral_prev_abund_vignettes <- list(high_abundance_low_prev = filter(close_viral_prev_abundance, abundance>0.1, prevalence<0.25)$taxid[1],
+     low_abundance_high_prev = filter(close_viral_prev_abundance, abundance<0.1, prevalence>0.9)$taxid[1],
+     high_abundance_high_prev = filter(close_viral_prev_abundance, abundance>0.3, prevalence>0.5, prevalence<0.75)$taxid[1],
+     low_abundance_low_prev = filter(close_viral_prev_abundance, abundance<1e-5) %>% with(taxid[order(prevalence)][2]))
+close_viral_prev_abund_vignettes_plots <-
+  lapply(seq(close_viral_prev_abund_vignettes), function (i) {
+    taxid_x <- close_viral_prev_abund_vignettes[[i]]
+  plot_data <- filter(close_viral_prev, taxid==taxid_x)
+  ggplot(plot_data, aes(x=collected_by, y=prop_nonhost)) +
+    theme_bw() +
+    geom_count() +
+    stat_summary(fun.y="mean", colour="red", size=15, geom="point", shape="_") +
+    facet_wrap(~compute_genus_species, nrow=1, scales="free_x") +
+    ylab("Abundance") +
+    xlab("Collection Agency") +
+    scale_size_continuous("Number of\nmosquitos", breaks=seq(1, by=10, length.out=6)) +
+    ggtitle(paste0(names(close_viral_prev_abund_vignettes)[i], ": ", plot_data$sci_name[1])) +
+    scale_y_continuous(labels=scales::percent)
+}) %>%
+  arrangeGrob(grobs=., ncol=1)
+ggsave("03_microbiota_overview/close_viral_prev_abund_vignettes_plots.pdf", close_viral_prev_abund_vignettes_plots,
+       width=15, height=15)
 ```
 
 
@@ -153,9 +210,10 @@ ggsave("03_microbiota_overview/viral_abundance_prevalence_geo_species.pdf",
 close_viral_hits_prev_abundance_plot <- close_viral_hits_prevalence %>%
   split(., .$sci_name) %>%
   lapply(function (df_x) {
-    geom_text_df <- group_by(df_x, collected_by, compute_genus_species)%>%do(., .[which.max(.$read_count/.$nonhost_read_count), ])
+    geom_text_df <- group_by(df_x, collected_by, compute_genus_species) %>% 
+      do(., .[which.max(.$read_count/.$nonhost_read_count), ])
     ggplot(df_x, aes(x=collected_by)) + theme_bw() +
-      geom_bar(aes(y=total_reads/total_nonhost), stat="identity", position="dodge") +
+      geom_crossbar(aes(y=bulk_read_prop, ymin=bulk_read_prop, ymax=bulk_read_prop), stat="identity", position="dodge") +
       geom_point(aes(y=read_count/nonhost_read_count), position = position_dodge(width = 1)) +
       geom_text(data=geom_text_df, aes(label = paste(infected_mosquitos, total_mosquitos, sep="/"), y = max(read_count/nonhost_read_count)*1.05), position = position_dodge(0.9), vjust = 0) +
       xlab("Collection Sites") + ylab("Percentage of nonhost reads") +
@@ -171,21 +229,45 @@ ggsave("03_microbiota_overview/close_viral_hits_prev_abundance_plot.pdf",
 ```
 
 
+```{r agency_diff}
+ggplot(close_viral_hits_prevalence) + theme_bw() +
+  geom_boxplot(aes(x=collected_by, y=total_reads))
+```
+
+
 ```{r virome-heatmap, fig.width=10, fig.height=5}
 ggplot(close_viral_hits_prevalence) + theme_bw() +
   geom_tile(aes(x=sample, y=sci_name, fill=read_count/nonhost_read_count*100)) +
   scale_fill_gradient2("% nonhost reads", low="#FFFFCC", mid="#FFD700", high="#f03b20")
 ```
-
+```{r}
+close_viral_hits_prevalence
+```
 
 # 4. Bloodmeal
 
 ```{r}
+bloodmeal_contigs <- filter(blast_results, grepl(", 7711,", lineage)) %>%
+  left_join(., metadata, by=c("sample"="NewIDseqName"), suffix=c("", ".y")) %>%
+  select(-ends_with(".y")) %>%
+  filter(., identity > 90, align_length > 1000, strsplit(query, "_") %>% sapply(`[`, 4) %>% sapply(as.numeric))
 
 ```
 
 ```{r chordate_hits}
+bloodmeal_presence <- bloodmeal_contigs %>%
+  select(sample, sci_name) %>%
+  table() %>%
+  as.data.frame.matrix() %>%
+  rownames_to_column("sample") %>%
+  left_join(., metadata %>% select(NewIDseqName, blood_fed, sex, collected_by, Habitat, compute_genus_species), by=c("sample"="NewIDseqName"))
+```
 
+
+```{r chordate_plot}
+ggplot(bloodmeal_contigs) + theme_bw() +
+  geom_tile(aes(x=common_name, y=sample, fill=)) +
+  theme(axis.text.x=element_text(angle=90))
 ```
 
 

@@ -108,15 +108,17 @@ def parse_blast_file (fpath, sep="\t", comment=None, blast_type="nt", col_names=
 ## Filter contigs or blast hits for contigs based on matches to a taxonomic id
 ##
 def filter_by_taxid (df, db, taxid):
-    check_isin = df["taxid"].isin(ncbi.get_descendant_taxa(taxid))
+    check_isin = df["taxid"].apply(lambda x, taxid=taxid: taxid in ncbi.get_lineage(x))
     if (not check_isin.any()):
         return (df)
-    qlength = float(df["query"][0].split("_")[3])
+    if (check_isin.all()):
+        return (df[:0])
+    qlength = float(df["query"].iloc[0].split("_")[3])
     align_prop = df["align_length"]/qlength
     if (db=="protein"):
         align_prop = align_prop*3
     if (align_prop[check_isin].max() >= 0.8):
-        return (None)
+        return (df[:0])
     else:
         return (df)
 
@@ -124,11 +126,12 @@ def filter_by_taxid (df, db, taxid):
 ##
 ## Select taxonomic IDs to perfrom LCA analysis on based on BLAST results
 ##
-def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cutoff=0, align_len_cutoff=0, bitscore_cutoff=0):
+def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cutoff=0, align_len_cutoff=0, bitscore_cutoff=0, read_counts=None):
     # df should be a pandas dataframe
     # remove blast hits where identity < ident_cutoff*max(identity) AND
     # align_length < align_len_cutoff*max(align_length) AND
     # bitscore < bitscore_cutoff*max(bitscore)
+    df = df[df["query"].isin(read_counts["query"])]
     if (len(df.index)>1):
         df = df[df["identity"]>=(ident_cutoff*df["identity"].max())]
         df = df[df["align_length"]>=(align_len_cutoff*df["align_length"].max())]
@@ -137,9 +140,10 @@ def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cu
         df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
         df = df.dropna()
     df["taxid"] = df["taxid"].astype('int64')
-    df = filter_by_taxid(df, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
-    if (df is None):
-        return (None)
+    try:
+        df = filter_by_taxid(df, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
+    except:
+        pdb.set_trace()
     if (return_taxid_only):
         return (list(set(df["taxid"])))
     else:

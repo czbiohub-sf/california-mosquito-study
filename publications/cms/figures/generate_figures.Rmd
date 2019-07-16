@@ -180,24 +180,24 @@ close_viral_prev_abund_plot <-
 ggsave("03_microbiota_overview/viral_prev_abundance.pdf", close_viral_prev_abund_plot,
        width=5, height=4)
 
-close_viral_prev_abund_vignettes <- list(high_abundance_low_prev = filter(close_viral_prev_abundance, abundance>0.1, prevalence<0.25)$taxid[1],
-     low_abundance_high_prev = filter(close_viral_prev_abundance, abundance<0.1, prevalence>0.9)$taxid[1],
-     high_abundance_high_prev = filter(close_viral_prev_abundance, abundance>0.3, prevalence>0.5, prevalence<0.75)$taxid[1],
-     low_abundance_low_prev = filter(close_viral_prev_abundance, abundance<1e-5) %>% with(taxid[order(prevalence)][2]))
+close_viral_prev_abund_vignettes <- list(high_abundance_low_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance>0.1, prevalence<0.25)$taxid[1],
+     low_abundance_high_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance<0.1, prevalence>0.5)$taxid[1],
+     high_abundance_high_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance>0.1, prevalence>0.9)$taxid[1],
+     low_abundance_low_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance<1e-5) %>% with(taxid[order(prevalence)][2]))
 close_viral_prev_abund_vignettes_plots <-
   lapply(seq(close_viral_prev_abund_vignettes), function (i) {
     taxid_x <- close_viral_prev_abund_vignettes[[i]]
-  plot_data <- filter(close_viral_prev, taxid==taxid_x)
-  ggplot(plot_data, aes(x=collected_by, y=prop_nonhost)) +
-    theme_bw() +
-    geom_count() +
-    stat_summary(fun.y="mean", colour="red", size=15, geom="point", shape="_") +
-    facet_wrap(~compute_genus_species, nrow=1, scales="free_x") +
-    ylab("Abundance") +
-    xlab("Collection Agency") +
-    scale_size_continuous("Number of\nmosquitos", breaks=seq(1, by=10, length.out=6)) +
-    ggtitle(paste0(names(close_viral_prev_abund_vignettes)[i], ": ", plot_data$sci_name[1])) +
-    scale_y_continuous(labels=scales::percent)
+    plot_data <- filter(close_viral_prev, taxid==taxid_x)
+    ggplot(plot_data, aes(x=collected_by, y=prop_nonhost)) +
+      theme_bw() +
+      geom_count() +
+      stat_summary(fun.y="mean", colour="red", size=15, geom="point", shape="_") +
+      facet_wrap(~compute_genus_species, nrow=1, scales="free_x") +
+      ylab("Abundance") +
+      xlab("Collection Agency") +
+      scale_size_continuous("Number of\nmosquitos", breaks=seq(1, by=10, length.out=6)) +
+      ggtitle(paste0(names(close_viral_prev_abund_vignettes)[i], ": ", plot_data$sci_name[1])) +
+      scale_y_continuous(labels=scales::percent)
 }) %>%
   arrangeGrob(grobs=., ncol=1)
 ggsave("03_microbiota_overview/close_viral_prev_abund_vignettes_plots.pdf", close_viral_prev_abund_vignettes_plots,

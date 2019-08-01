@@ -148,12 +148,12 @@ blast_results_summary %>%
 
 ```{r viral_reads, message=FALSE, warning=FALSE, cache=TRUE}
 viral_contigs <- blast_results %>%
-  filter(grepl(groups_taxid["viruses"] %>% paste0(", ", ., ", "), lineage))
+  filter(grepl(groups_taxid["viruses"] %>% paste0(", ", ., ", "), lineage), blast_type=="nr")
 close_viral_hits <- viral_contigs %>%
   filter(., align_prop > 0.8/3, identity > 80)
 write.table(close_viral_hits, file.path(data_dir, "close_viral_hits.txt"), sep="\t", row.names=FALSE, quote=FALSE)
 
-close_viral_prev <- filter(blast_results_summary, taxid %in% close_viral_hits$taxid, !grepl("ater", sample)) %>%
+close_viral_prev <- filter(blast_results_summary, taxid %in% close_viral_hits$taxid, !grepl("ater", sample), blast_type=="nr") %>%
   split(., .[, c("collected_by", "compute_genus_species", "taxid")] %>% apply(., 1, paste, collapse="")) %>%
   lapply(function (x) {
     total_mosquitos <- x$total_mosquitos[1]
@@ -172,11 +172,15 @@ close_viral_prev_abundance <- group_by(close_viral_prev, collected_by, compute_g
 close_viral_prev_abundance_lm <- lm(prevalence~log10(abundance), data=filter(close_viral_prev_abundance, total_mosquitos>10))
 close_viral_prev_abund_plot <-
   ggplot(filter(close_viral_prev_abundance, total_mosquitos>10), aes(y=prevalence, x=abundance)) +
-  list(theme_bw(), geom_point(aes(color=collected_by)), stat_smooth(method = "lm", color="black")) +
-  ggtitle(paste("Adj R2 = ",signif(summary(close_viral_prev_abundance_lm)$adj.r.squared, 5),
-                     "\nIntercept =",signif(close_viral_prev_abundance_lm$coef[[1]], 5),
-                     "\nSlope =",signif(close_viral_prev_abundance_lm$coef[[2]], 5),
-                     "\nP =",signif(summary(close_viral_prev_abundance_lm)$coef[2,4], 5))) +
+  list(theme_bw(), 
+       geom_point()#,
+       #geom_point(aes(color=collected_by)),
+       #stat_smooth(method = "lm", color="black")
+       ) +
+  # ggtitle(paste("Adj R2 = ",signif(summary(close_viral_prev_abundance_lm)$adj.r.squared, 5),
+  #                    "\nIntercept =",signif(close_viral_prev_abundance_lm$coef[[1]], 5),
+  #                    "\nSlope =",signif(close_viral_prev_abundance_lm$coef[[2]], 5),
+  #                    "\nP =",signif(summary(close_viral_prev_abundance_lm)$coef[2,4], 5))) +
   theme(plot.title=element_text(size=10)) +
   scale_x_log10(labels=scales::percent) +
   scale_y_continuous(labels=scales::percent) +
@@ -185,30 +189,40 @@ close_viral_prev_abund_plot <-
 ggsave("03_microbiota_overview/viral_prev_abundance.pdf", close_viral_prev_abund_plot,
        width=5, height=4)
 
-close_viral_prev_abund_vignettes <- list(high_abundance_low_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance>0.1, prevalence<0.1),
-     low_abundance_high_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance<0.1, prevalence>0.5),
-     high_abundance_high_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance>0.1, prevalence>0.5),
-     low_abundance_low_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance<1e-5, prevalence<0.1))
-close_viral_prev_abund_vignettes_selection <- c(1, 10, 3, 2)
-mapply(slice, close_viral_prev_abund_vignettes, as.list(close_viral_prev_abund_vignettes_selection), SIMPLIFY=FALSE)
-close_viral_prev_abund_vignettes_plots <-
+close_viral_prev_abund_vignettes_selection <- c(6, 1)#c(6, 1, 1)#c(13, 1, 1, 1)
+close_viral_prev_abund_vignettes <- list(
+  low_abundance_high_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance<0.06, prevalence>0.5),
+  #high_abundance_high_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance>0.06, prevalence>0.5),
+  #low_abundance_low_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance<1e-5, prevalence<0.1),
+  high_abundance_low_prev = filter(close_viral_prev_abundance, total_mosquitos>10, abundance>0.06, prevalence<0.1)) %>%
+  mapply(function (x, y) x[y, ], ., as.list(close_viral_prev_abund_vignettes_selection), SIMPLIFY=FALSE)
+close_viral_prev_abund_vignettes_plot_data <-
   lapply(seq(close_viral_prev_abund_vignettes), function (i) {
     taxid_x <- close_viral_prev_abund_vignettes[[i]]
-    plot_data <- filter(close_viral_prev, taxid==taxid_x)
-    ggplot(plot_data, aes(x=collected_by, y=prop_nonhost)) +
-      theme_bw() +
-      geom_count() +
-      stat_summary(fun.y="mean", colour="red", size=15, geom="point", shape="_") +
-      facet_wrap(~compute_genus_species, nrow=1, scales="free_x") +
-      ylab("Abundance") +
-      xlab("Collection Agency") +
-      scale_size_continuous("Number of\nmosquitos", breaks=seq(1, by=10, length.out=6)) +
-      ggtitle(paste0(names(close_viral_prev_abund_vignettes)[i], ": ", plot_data$sci_name[1])) +
-      scale_y_continuous(labels=scales::percent)
+    plot_data <- filter(close_viral_prev, taxid==taxid_x$taxid, collected_by==taxid_x$collected_by,
+                        compute_genus_species==taxid_x$compute_genus_species) %>%
+      slice(., order(prop_nonhost)) %>%
+      mutate(., id=factor(1:nrow(.)), 
+             label=paste0(#names(close_viral_prev_abund_vignettes)[i], ":\n", 
+               sci_name[1], " in ", compute_genus_species[1], " in ", collected_by[1]))
 }) %>%
-  arrangeGrob(grobs=., ncol=1)
+  do.call(what=rbind, .)
+close_viral_mean_abundance_vignette <- close_viral_prev_abund_vignettes_plot_data %>%
+  group_by(., label) %>%
+  summarize(prop_nonhost=mean(prop_nonhost))
+close_viral_prev_abund_vignettes_plots <- ggplot(close_viral_prev_abund_vignettes_plot_data, aes(x=id, y=prop_nonhost)) +
+      theme_bw() +
+      geom_bar(stat="identity") +
+      geom_hline(data=close_viral_mean_abundance_vignette, 
+                 aes(yintercept=prop_nonhost, colour=label), size=1.5) +
+  facet_grid(.~label) +
+      ylab("Abundance") +
+      xlab("Mosquito ID") +
+      scale_y_continuous(labels=scales::percent) +
+  theme(legend.position="none")
+  
 ggsave("03_microbiota_overview/close_viral_prev_abund_vignettes_plots.pdf", close_viral_prev_abund_vignettes_plots,
-       width=15, height=15)
+       width=7, height=2)
 ```
 
 

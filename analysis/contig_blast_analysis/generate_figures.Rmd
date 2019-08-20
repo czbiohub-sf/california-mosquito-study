@@ -1,11 +1,14 @@
 ---
 title: "Generate figures"
 author: "Lucy M. Li"
-date: "12/17/2018"
+date: "`r format(Sys.Date(), '%b %d, %Y')`"
 output: 
   html_document:
     fig_caption: yes
 ---
+
+
+
 
 
 
@@ -20,45 +23,31 @@ library(magrittr)
 library(ggplot2)
 library(grid)
 library(gridExtra)
-library(broom)
-library(sp)
-library(rgdal)
-library(maptools)
-library(OpenStreetMap)
-library(ggmap)
-library(reutils)
-library(XML)
-library(xtable)
-library(tibble)
 library(stringr)
-library(ape)
-library(seqinr)
-library(ggtree)
-library(grid)
-library(gridExtra)
-library(kmer)
-library(rjson)
-# Attention!
-# Google has recently changed its API requirements, and ggmap users are now required to provide an API key and enable billing. ggmap itself is outdated on CRAN; we hope to have the new version up on CRAN soon, but until then, here is the workaround:
-# 
-# if(!requireNamespace("devtools")) install.packages("devtools")
-# devtools::install_github("dkahle/ggmap", ref = "tidyup")
-# When you load ggmap, you can set your API key with register_google() (see ?register_google for details), but don’t forget to enable the Maps Static API and geocoding API in the Google Cloud Console and enable billing. Also, go to 'Quotas' on Google Cloud and increase the 'Unsigned requests (if URL signing secret is defined) per day' limit
-# See #51 on dkhale/ggmap github page for an extended discussion on details.
-# register_google(key="AIzaSyAPP_DRq_N6XZyO7r2ad_-eQw36I_wFWio")
-# Requires inputting billing information to increase limit to more than 1 request per day
-# For now, use 'stamen' maps instead
-
+# library(broom)
+# library(sp)
+# library(rgdal)
+# library(maptools)
+# library(OpenStreetMap)
+# library(ggmap)
+# library(reutils)
+# library(XML)
+# library(xtable)
+# library(tibble)
+# library(ape)
+# library(seqinr)
+# library(ggtree)
+# library(kmer)
+# library(rjson)
 ```
 
 ```{r directories}
-data_dir <- "../../../data"
-blast_headers <- c("qseqid", "sseqid", "pident", "length", "mismatch", "gapopen", 
-"qstart", "qend", "sstart", "send", "evalue", "bitscore")
+data_dir <- "../../data"
 ```
 
+
 ```{r scripts}
-source("generate_figures_functions.R")
+#source("generate_figures_functions.R")
 ```
 
 # 1. Demographics

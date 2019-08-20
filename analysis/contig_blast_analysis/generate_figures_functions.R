@@ -1,3 +1,7 @@
+
+
+
+
 calc_eucl_dist <- function (v1, v2) {
   sqrt(sum((v2-v1)^2))
 }

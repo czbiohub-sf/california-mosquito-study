@@ -26,6 +26,7 @@ library(gridExtra)
 library(stringr)
 library(reutils)
 library(rjson)
+library(knitr)
 # library(broom)
 # library(sp)
 # library(rgdal)
@@ -149,20 +150,44 @@ write.table(close_viral_hits, file.path(data_dir, "close_viral_hits.txt"), sep="
 
 ## Per mosquito viral composition
 
-```{r per_mosquito_virus_composition, fig.width=15, fig.height=4}
+```{r per_mosquito_virus_composition, fig.width=15, fig.height=6}
 per_mosquito_virus_df <- close_viral_hits %>%
   filter(., (read_count/nonhost_reads)>median(read_count/nonhost_reads)) %>%
+  mutate(sample=factor(sample, levels=grep("ater", metadata$NewIDseqName, value=TRUE, invert=TRUE))) %>%
   mutate(sample=as.character(sample) %>% gsub("CMS", "", .) %>% str_split(., "_") %>% sapply(function (x) paste(x[1:2], collapse="_")))
-per_mosquito_virus_plot <- 
+per_mosquito_virus_plot <- list()
+per_mosquito_virus_plot$by_location_species <-
   ggplot(per_mosquito_virus_df) +
   theme_bw() +
   geom_bar(aes(x=sample, y=read_count/nonhost_reads, fill=sci_name), stat="identity") +
   facet_grid(~collected_by+compute_genus_species, space="free_x", scale="free_x") +
-  guides(fill=guide_legend(title="Virus species", nrow=3, label.theme=element_text(size=20), keywidth=1, keyheight=1)) +
+  guides(fill=guide_legend(title="Virus species", nrow=5, label.theme=element_text(size=12), keywidth=1, keyheight=1)) +
   scale_y_continuous(labels=scales::percent) +
   theme(axis.text.x=element_text(angle=45, hjust=1), legend.position="top") +
   xlab("Sample") + ylab("Nonhost reads")
 
+per_mosquito_virus_plot$plain <- 
+  per_mosquito_virus_df %>%
+  split(., paste(.$compute_genus_species, .$collected_by)) %>%
+  lapply(function (x) {
+    all_samples <- metadata %>%
+      filter(., collected_by==x$collected_by[1], compute_genus_species==x$compute_genus_species[1]) %>%
+      `[[`("NewIDseqName")
+    ordered_samples <- group_by(x, sample) %>%
+      summarise(sum=sum(read_count)) %>%
+      with(sample[order(sum)]) %>%
+      match(., x$sample) %>%
+      slice(x, .)
+  }) %>%
+  do.call(what=rbind) %>%
+  ggplot() %>%
+  `+`(list(theme_bw(),
+    geom_bar(aes(x=sample, y=read_count/nonhost_reads, fill=sci_name), stat="identity"),
+    guides(fill=guide_legend(title="Virus species", nrow=5, label.theme=element_text(size=12), keywidth=1, keyheight=1)),
+    scale_y_continuous(labels=scales::percent),
+    theme(axis.text.x=element_text(angle=45, hjust=1), legend.position="top"),
+    xlab("Sample"), ylab("Nonhost reads")))
+    
 
 # 
 # 
@@ -192,9 +217,12 @@ per_mosquito_virus_plot <-
 #            ylab("Nonhost reads")
 #           )
 #      )
-ggsave(file.path(fig_dir, "per_mosquito_virus.pdf"), per_mosquito_virus_plot,
-       width=15, height=4)
-per_mosquito_virus_plot
+ggsave(file.path(fig_dir, "per_mosquito_virus.pdf"), per_mosquito_virus_plot$plain,
+       width=15, height=6)
+ggsave(file.path(fig_dir, "per_mosquito_virus_by_loc_spp.pdf"), per_mosquito_virus_plot$by_location_species,
+       width=15, height=6)
+
+per_mosquito_virus_plot$plain
 ```
 
 ## Viral prevalence vs. abundance

@@ -160,10 +160,11 @@ per_mosquito_virus_plot$by_location_species <-
   ggplot(per_mosquito_virus_df) +
   theme_bw() +
   geom_bar(aes(x=sample, y=read_count/nonhost_reads, fill=sci_name), stat="identity") +
-  facet_grid(~collected_by+compute_genus_species, space="free_x", scale="free_x") +
+  facet_grid(~compute_genus_species+collected_by, space="free_x", scale="free_x") +
   guides(fill=guide_legend(title="Virus species", nrow=5, label.theme=element_text(size=12), keywidth=1, keyheight=1)) +
   scale_y_continuous(labels=scales::percent) +
-  theme(axis.text.x=element_text(angle=45, hjust=1), legend.position="top") +
+  theme(axis.text.x=element_text(angle=45, hjust=1), legend.position="top",
+        strip.text=element_text(angle=90)) +
   xlab("Sample") + ylab("Nonhost reads")
 
 per_mosquito_virus_plot$plain <- 
@@ -220,7 +221,7 @@ per_mosquito_virus_plot$plain <-
 ggsave(file.path(fig_dir, "per_mosquito_virus.pdf"), per_mosquito_virus_plot$plain,
        width=15, height=6)
 ggsave(file.path(fig_dir, "per_mosquito_virus_by_loc_spp.pdf"), per_mosquito_virus_plot$by_location_species,
-       width=15, height=6)
+       width=18, height=6)
 
 per_mosquito_virus_plot$plain
 ```

@@ -1,4 +1,6 @@
 scratch/
+data/s3/
+data/mosquito_reports
 presentations
 data/CMS_reports
 data/contig_quality_df.tsv

@@ -18,6 +18,12 @@ library(usethis)
 setwd('~/src/skeeters') 
 ```
 
+
+
+```{r}
+report = read_csv('data/mosquito_reports.csv')
+```
+
 ```{r}
 contig_df = read_tsv('~/src/skeeters/data/contig_quality_df.tsv')
 ```
@@ -109,7 +115,6 @@ This is a hypergeometric test. If there are m white balls (ungulates) and n blac
 ```{r}
 phyper(14 - 1, 18, 42 - 18, 14, lower.tail = FALSE)
 ```
-
 
 We will use reads, since they are more sensitive (if perhaps less specific).
 
@@ -309,11 +314,6 @@ binom.test(, n = n, p = 0.5, alternative = "greater")
 bloodfed_df %>% filter()
 ```
 
-
-```{r}
-report = read_csv('data/mosquito_reports.csv')
-report
-```
 
 
 ```{r}

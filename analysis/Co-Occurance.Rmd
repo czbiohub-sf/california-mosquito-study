@@ -1,0 +1,139 @@
+---
+title: "Association Testing"
+output: html_notebook
+---
+
+# Association Testing
+
+We seek to find associations between taxa, a permutation test for species A being enriched in samples containg species B. In particular, we want to find microbiota associated with bloodmeals.
+
+The correct test is hypergeometric. If there are m white balls (ungulates) and n black balls (non-ungulates) and we draw k samples (anaplasma) what are the chances we draw at least q white balls (ungulates with anaplasma)?
+
+```{r}
+library(taxizedb)
+library(tidyverse)
+library(purrr)
+library(ggplot2)
+library(taxize)
+```
+
+```{r}
+data_dir <- "../data"
+```
+
+```{r, message = FALSE}
+metadata = read_csv(file.path(data_dir, 'CMS001_CMS002_MergedAnnotations_190325.csv'))
+metadata = metadata %>% transmute(sample = NewIDseqName, species = compute_species, collection=collected_by)
+
+report = read_csv(file.path(data_dir, 'mosquito_reports.csv'))
+
+df = read_csv(file.path(data_dir, 'rank_counts.csv'))
+```
+
+```{r}
+all_samples = unique(df %>% filter(!str_detect(tolower(sample), 'water')) %>% pull(sample))
+cms001_samples = unique(df %>% filter(str_detect(sample, 'CMS001')) %>% pull(sample))
+```
+
+
+## Anaplasma
+
+Anaplasma is a simple bacterium to study, one that we found to be associated with even-toed ungulates in a preliminary anaysis. Note that reads are more sensitive than contigs: every sample with contigs had reads. There is,
+approximately, a sublinear relationship. (It may also be the case that, by excluding short contigs, we are missing out on some contigs with fewer reads.)
+
+```{r}
+anaplasma_from_contigs = df %>% filter(taxon == 'Anaplasma') %>% select(sample, reads, contigs)
+anaplasma_from_reads = report %>% filter(name == 'Anaplasma') %>% select(sample_name, NT_r) %>% 
+  transmute(sample = sample_name, report_reads = NT_r)
+
+reads_vs_contigs = anaplasma_from_reads %>% full_join(anaplasma_from_contigs, by='sample') %>% replace(is.na(.), 0)
+reads_vs_contigs %>% ggplot(aes(x = report_reads, y = reads)) + geom_point()
+```
+
+Which of these demonstrates better concordance with Ruminants?
+
+```{r}
+ruminantia_from_contigs = df %>% filter(taxon == 'Ruminantia') %>% select(sample, reads, contigs)
+ruminants_anaplasma = ruminantia_from_contigs %>% rename(rum_reads = reads, rum_contigs = contigs)  %>% full_join(reads_vs_contigs, by="sample")  %>% replace(is.na(.), 0)
+ruminants_anaplasma
+ruminants_anaplasma %>% gather(quantification, count, report_reads:contigs) %>% 
+  ggplot(aes(x = rum_reads, y=count)) + geom_point() + facet_wrap(~quantification, scales = "free_y")
+```
+
+If we filter ruminants to > 100 reads or > 1 contig, then we get 25 ruminant samples with either 19 or 11 anaplasma samples, depending on if we take reads or contigs. 
+
+```{r}
+ruminants_anaplasma %>% filter(str_detect(sample, "CMS001")) %>% filter(!str_detect(sample, "water")) %>%
+  filter(rum_reads > 20 | rum_contigs > 1) %>% summarize(ruminants = sum(rum_reads > 100 | rum_contigs > 1),
+                                                         ana_reads = sum(report_reads > 0),
+                                                         ana_reads_overlap = sum(rum_reads > 10 & rum_contigs > 1 & report_reads > 0),
+                                                         ana_contig = sum(reads > 0),
+                                                         ana_contig_overlap = sum(rum_reads > 10 & rum_contigs > 1 & reads > 0))
+```
+
+The appropriate statistical test for getting 11 white balls from 11 draws in an urn of 25 white and 60 - 25 black balls is hypergeometric. Note the much stronger p-value from reads.
+
+```{r}
+phyper(11 - 1, 25, 60 - 25, 11, lower.tail = FALSE)
+phyper(18, 25, 60 - 25, 19, lower.tail = FALSE)
+```
+
+We look for all associations for ruminants within the CMS001 samples. Only Anaplasma and Cow make it through with significance.
+
+```{r}
+has_ruminant = ruminantia_from_contigs %>% filter(str_detect(sample, 'CMS001')) %>% filter(reads > 100 | contigs > 2) %>% pull(sample)
+
+n_ruminant = length(has_ruminant)
+
+p_values = df %>% mutate(ruminant = sample %in% has_ruminant) %>% filter(str_detect(sample, 'CMS001')) %>%
+  filter(rank == 'genus') %>% filter(reads > 1 | contigs > 1) %>% 
+  group_by(taxon) %>% summarize(n_genus = n(), n_intersect = sum(ruminant)) %>%
+  mutate(p = phyper(n_intersect - 1, n_ruminant, 60 - n_ruminant, n_genus, lower.tail=FALSE)) %>%  arrange(p)
+p_values %>% mutate(p_adj = p*nrow(p_values)) %>% filter(p_adj < 0.05)
+```
+
+## General Association Testing
+
+```{r}
+association <- function(query_taxon, query_read_filter = 10, target_read_filter = 0, sample_subset = all_samples, p_filter=0.05){
+  has_query = df %>% filter(taxon == query_taxon) %>% filter(sample %in% sample_subset) %>% select(sample, reads, contigs) %>% 
+  filter(reads > query_read_filter | contigs > 1) %>% pull(sample)
+
+  n_query = length(has_query)
+  n_samples = length(sample_subset)
+
+  p_values = df %>% filter(sample %in% sample_subset) %>% mutate(query = sample %in% has_query) %>% 
+    filter(reads > target_read_filter | contigs > 1) %>% filter(rank %in% c('species', 'genus', 'family')) %>%
+    group_by(taxon, rank) %>% summarize(n_taxon = n(), n_intersect = sum(query)) %>%
+    mutate(p = phyper(n_intersect - 1, n_query, n_samples - n_query, n_taxon, lower.tail=FALSE)) %>%  arrange(p)
+  p_values %>% mutate(p_adj = p*nrow(p_values)) %>% filter(p_adj < p_filter)
+}
+```
+
+```{r}
+association('Ruminantia', query_read_filter=100, sample_subset=cms001_samples)
+```
+
+```{r}
+for (query_taxon in c('Wolbachia',  'Amblyospora', 'Apicomplexa', 'Narnaviridae', 'Microsporidia', 'Trypanosomatidae'))
+{
+  print(query_taxon)
+  print(association(query_taxon, query_read_filter=10))
+}
+```
+
+```{r}
+for (query_taxon in c('Ruminantia',  'Aves', 'Procyon', 'Oryctolagus'))
+{
+  print(query_taxon)
+#  print(association(query_taxon, query_read_filter=100, sample_subset=cms001_samples, p_filter=0.05))
+  print(association(query_taxon, query_read_filter=100, p_filter=0.05))
+
+}
+```
+
+Many of the results for Aves appear to be trashy, or at least likely contamination. Mice, etc.
+
+```{r}
+print(association('Aves', query_read_filter=50, target_read_filter = 10))
+```

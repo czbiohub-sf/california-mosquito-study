@@ -1,0 +1,161 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+knitr::opts_chunk$set(root.dir='~/src/skeeters')
+library(taxizedb)
+library(tidyverse)
+library(purrr)
+library(ggplot2)
+library(decontam)
+```
+
+```{r}
+data_dir = '../data'
+```
+
+```{r}
+df = read_csv(file.path(data_dir, 'rank_counts.csv'))
+```
+
+```{r}
+report = read_csv(file.path(data_dir, 'mosquito_reports.csv'))
+report = report %>% rename(taxon = name, sample=sample_name) %>% select(-water)
+```
+
+```{r}
+sequence_counts = read_tsv(file.path(data_dir, 'sequences/sequence_counts.csv'))
+sequence_counts = sequence_counts %>% select(sample_name, compression_factor) %>% rename(sample = sample_name)
+```
+
+```{r}
+sample_table = read_csv(file.path(data_dir, 'project-mosquito_sample-table.csv'))
+sample_table = sample_table %>% mutate(water = str_detect(sample_name, 'ater'))
+sample_table = sample_table %>% rename(sample = sample_name) %>%
+  select(sample, total_reads, nonhost_reads, total_ercc_reads, compression_ratio, water) %>%
+  mutate(input_conc = (total_reads - total_ercc_reads)/total_ercc_reads) %>% left_join(sequence_counts)
+```
+
+```{r}
+sample_table %>% ggplot(aes(compression_ratio, 1/compression_factor, color = water)) + geom_point()
+```
+
+```{r}
+df %>% filter(str_detect(taxon, "Renna"))
+```
+
+```{r}
+df %>% filter(rank == 'family') %>% group_by(taxon) %>% count() %>% arrange(desc(n))
+```
+
+
+```{r}
+target = 'Homo'
+target = 'Mus'
+target = 'Brassicaceae'
+#target  = 'Acinetobacter'
+#target  = 'Wuhan Mosquito Virus 6'
+
+df %>% left_join(sample_table) %>% filter(taxon == target) %>% 
+  mutate(log_conc = log(input_conc), log_rpm = log(reads/total_reads*compression_ratio)) %>%
+  ggplot(aes(x = log_conc, y = log_rpm, col = water)) + geom_point()
+df %>% left_join(sample_table) %>% filter(taxon == target) %>% 
+  mutate(log_conc = log(input_conc), log_rpm = log(reads/total_reads/compression_factor)) %>%
+  ggplot(aes(x = log_conc, y = log_rpm, col = water)) + geom_point()
+```
+
+```{r}
+report
+```
+
+```{r}
+df %>% filter(sample == 'CMS001_001_Ra_S1' & rank == 'genus') %>% arrange(desc(reads))
+```
+
+
+```{r}
+report %>% filter(tax_level == 1) %>% left_join(df, on = c('sample','taxon')) %>%  
+  select(sample, taxon, reads, NT_r, NR_r) %>% replace(is.na(.), 0) 
+sample_table) %>% filter(taxon == target) %>% 
+  mutate(log_conc = log(input_conc), log_rpm = log(reads/total_reads*compression_ratio)) %>%
+  ggplot(aes(x = log_conc, y = log_rpm, col = water)) + geom_point()
+```
+
+```{r}
+df %>% filter(sample)
+```
+
+
+
+```{r}
+target = 'Homo'
+target = 'Mus'
+#target  = 'Acinetobacter'
+report %>% left_join(sample_table) %>% filter(taxon == target) %>% 
+  mutate(log_conc = log(input_conc), log_rpm = log(reads/total_reads*compression_ratio)) %>%
+  ggplot(aes(x = log_conc, y = log_rpm, col = water)) + geom_point()
+```
+
+
+
+```{r}
+report %>% filter(taxon == 'Homo')
+```
+
+NT_rpm_corrected
+input_conc
+ercc_adjusted
+log_conc, log_NT_rpm, log_NT_rpm_corrected
+Additional variables for this report
+NT_rpm * compression_ratio
+(total_reads - total_ercc_reads) / total_ercc_reads total_ercc_reads * subsampled_fraction / compression_ratio
+Logarithm of input_conc, NT_rpm and
+NT_rpm_corrected, respectively
+
+
+
+```{r}
+df
+
+```
+
+
+```{r}
+sample_table %>% mutate()
+```
+
+
+```{r}
+lab_table = read_csv('data/CMS001_CMS002_MergedAnnotations_190325.csv')
+lab_table
+```
+
+```{r}
+#intersect(lab_table %>% pull(NewIDseqName), sample_table %>% pull(sample_name))
+
+sample_table %>% left_join(lab_table %>% mutate(sample_name = NewIDseqName), on=sample_name)
+```
+
+```{r}
+metadata = lab_table %>% mutate(sample_name = NewIDseqName) %>% select(sample_name, collection_date, collection_lat, collection_long, 
+                                                            Habitat, collected_by, sex, compute_genus, compute_species, 
+                                                            rna_dna_input_ng, extraction_batch) %>% 
+                                                            left_join(sample_table, by="sample_name") 
+metadata = metadata %>% mutate(percent_ercc = total_ercc_reads/total_reads) %>% 
+                    mutate(ercc_mass = (total_reads - total_ercc_reads)/total_ercc_reads)
+```
+
+```{r}
+metadata %>%
+  filter(!is.na(percent_ercc)) %>% filter(!water) %>%
+  ggplot(aes(x = ercc_mass, y = rna_dna_input_ng, color=extraction_batch)) + geom_point() + scale_y_log10() + scale_x_log10() +
+  ggtitle("ERCC-Mass relationships")
+```
+
+
+```{r}
+metadata
+```
+

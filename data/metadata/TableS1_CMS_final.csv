@@ -1,0 +1,149 @@
+Specimen ID curated,Specimen ID,Genus,Species,Sex,Status,Site,Collection Date,Latitude,Longitude,Habitat
+CMS002_035a,CMS002_035a,Culex,tarsalis,female,unfed,COAV,2017-11-07,33.539988,-116.078863,Agriculture
+CMS002_036a,CMS002_036a,Culex,tarsalis,male,unfed,COAV,2017-11-07,33.539988,-116.078863,Agriculture
+CMS002_037a,CMS002_037a,Culex,tarsalis,female,unfed,COAV,2017-11-07,33.463593,-116.074278,Agriculture
+CMS002_038a,CMS002_038a,Culex,tarsalis,female,unfed,COAV,2017-11-07,33.52908,-116.035213,Agriculture
+CMS002_042a,CMS002_042a,Culex,tarsalis,female,unfed,COAV,2017-11-07,33.525475,-115.956632,Agriculture
+CMS002_053a,CMS002_053a,Culex,pipiens,N.D.,unfed,PLCR,2017-11-21,38.836781,-121.39119,Agriculture
+CMS002_054a,CMS002_054a,Culex,pipiens,N.D.,unfed,PLCR,2017-11-21,38.772222,-121.4695,Agriculture
+CMS001_004,CMS001_004,Culiseta,incidens,female,blood fed,ALCO,2017-09-12,37.7152,-122.19431,Industrial
+CMS001_028,CMS001_028,Culex,pipiens,female,blood fed,ALCO,2017-09-12,37.7152,-122.19431,Industrial
+CMS001_029,CMS001_029,Culex,pipiens,female,blood fed,ALCO,2017-09-13,37.68473,-121.91341,Industrial
+CMS001_030,CMS001_030,Culex,tarsalis,female,blood fed,ALCO,2017-09-10,37.7152,-122.19431,Industrial
+CMS001_059,CMS001_059,Culex,pipiens,female,blood fed,ALCO,2017-10-24,37.6683,-122.15915,Industrial
+CMS002_010a,CMS002_010a,Culex,quinquefasciatus,female,blood fed,SAND,2017-11-15,32.7981529,-116.9544084,Industrial
+CMS002_016a,CMS002_016a,Aedes,aegypti,female,unfed,SAND,2017-11-15,32.7152395,-117.1148424,Industrial
+CMS002_018a,CMS002_018a,Aedes,aegypti,female,unfed,SAND,2018-11-28,32.6952215,-117.1221922,Industrial
+CMS002_018b,CMS002_018b,Aedes,aegypti,female,unfed,SAND,2018-11-28,32.6952215,-117.1221922,Industrial
+CMS002_023a,CMS002_023a,Culex,quinquefasciatus,female,unfed,SAND,2017-12-27,32.5928337,-117.0575668,Industrial
+CMS002_049a,CMS002_049a,Culex,pipiens,N.D.,unfed,PLCR,2017-11-21,38.739939,-121.305636,Industrial
+CMS002_051a,CMS002_051a,Culex,pipiens,N.D.,unfed,PLCR,2017-11-21,38.897572,-121.311747,Industrial
+CMS001_001,CMS001_001,Culex,erythrothorax,female,blood fed,ALCO,2017-10-03,37.55697,-122.07938,Marsh/Wetland
+CMS001_002,CMS001_002,Culiseta,particeps,female,blood fed,ALCO,2017-09-21,37.55697,-122.07938,Marsh/Wetland
+CMS001_003,CMS001_003,Culex,pipiens,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_006,CMS001_006,Culex,erythrothorax,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_007,CMS001_007,Culiseta,particeps,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_008,CMS001_008,Culiseta,particeps,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_009,CMS001_009,Culex,erythrothorax,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_010,CMS001_010,Culex,erythrothorax,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_011,CMS001_011,Aedes,dorsalis,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_012,CMS001_012,Culex,erythrothorax,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_013,CMS001_013,Culiseta,incidens,female,blood fed,ALCO,2017-09-19,37.55697,-122.07938,Marsh/Wetland
+CMS001_014,CMS001_014,Culex,erythrothorax,female,blood fed,ALCO,2017-10-06,37.58191,-122.04838,Marsh/Wetland
+CMS001_015,CMS001_015,Culiseta,inornata,female,blood fed,ALCO,2017-09-27,37.55697,-122.07938,Marsh/Wetland
+CMS001_016,CMS001_016,Culex,erythrothorax,female,blood fed,ALCO,2017-10-06,37.58191,-122.04846,Marsh/Wetland
+CMS001_017,CMS001_017,Culex,erythrothorax,female,blood fed,ALCO,2017-10-06,37.58191,-122.04838,Marsh/Wetland
+CMS001_018,CMS001_018,Culex,erythrothorax,female,blood fed,ALCO,2017-09-27,37.55697,-122.07938,Marsh/Wetland
+CMS001_019,CMS001_019,Culex,erythrothorax,female,blood fed,ALCO,2017-10-04,37.55697,-122.07938,Marsh/Wetland
+CMS001_020,CMS001_020,Culex,erythrothorax,female,blood fed,ALCO,2017-10-06,37.58191,-122.04846,Marsh/Wetland
+CMS001_021,CMS001_021,Culex,erythrothorax,female,blood fed,ALCO,2017-10-06,37.58191,-122.04838,Marsh/Wetland
+CMS001_022,CMS001_022,Culex,erythrothorax,female,blood fed,ALCO,2017-09-27,37.55697,-122.07938,Marsh/Wetland
+CMS001_023,CMS001_023,Culex,erythrothorax,female,blood fed,ALCO,2017-10-06,37.58191,-122.04838,Marsh/Wetland
+CMS001_024,CMS001_024,Culiseta,particeps,female,blood fed,ALCO,2017-10-06,37.58191,-122.04838,Marsh/Wetland
+CMS001_025,CMS001_025,Culiseta,incidens,female,blood fed,ALCO,2017-09-21,37.55697,-122.07938,Marsh/Wetland
+CMS001_033,CMS001_033,Culex,tarsalis,female,blood fed,ALCO,2017-09-11,37.55697,-122.07938,Marsh/Wetland
+CMS001_034,CMS001_034,Culex,erythrothorax,female,blood fed,ALCO,2017-09-11,37.55697,-122.07938,Marsh/Wetland
+CMS001_035,CMS001_035,Culex,tarsalis,female,blood fed,ALCO,2017-09-11,37.55697,-122.07938,Marsh/Wetland
+CMS001_036,CMS001_036,Culex,erythrothorax,female,blood fed,ALCO,2017-09-11,37.55697,-122.07938,Marsh/Wetland
+CMS001_038,CMS001_038,Culex,tarsalis,female,blood fed,ALCO,2017-08-24,37.58391,-122.09238,Marsh/Wetland
+CMS001_039,CMS001_039,Culex,tarsalis,female,blood fed,ALCO,2017-08-24,37.58391,-122.09238,Marsh/Wetland
+CMS001_045,CMS001_045,Culex,erythrothorax,female,blood fed,ALCO,2017-08-03,37.55697,-122.07938,Marsh/Wetland
+CMS001_046,CMS001_046,Culex,tarsalis,female,blood fed,ALCO,2017-08-03,37.55697,-122.07938,Marsh/Wetland
+CMS001_047,CMS001_047,Culex,erythrothorax,female,blood fed,ALCO,2017-08-03,37.55697,-122.07938,Marsh/Wetland
+CMS001_048,CMS001_048,Culex,erythrothorax,female,blood fed,ALCO,2017-08-03,37.55697,-122.07938,Marsh/Wetland
+CMS001_049,CMS001_049,Culex,erythrothorax,female,blood fed,ALCO,2017-08-03,37.55697,-122.07938,Marsh/Wetland
+CMS001_050,CMS001_050,Culex,erythrothorax,female,blood fed,ALCO,2017-10-17,37.50608,-121.99857,Marsh/Wetland
+CMS001_051,CMS001_051,Culex,tarsalis,female,blood fed,ALCO,2017-10-17,37.50608,-121.99857,Marsh/Wetland
+CMS001_052,CMS001_052,Culex,erythrothorax,female,blood fed,ALCO,2017-09-21,37.55697,-122.07938,Marsh/Wetland
+CMS001_053,CMS001_053,Culex,erythrothorax,female,blood fed,ALCO,2017-10-07,37.55697,-122.07938,Marsh/Wetland
+CMS001_054,CMS001_054,Culex,pipiens,female,blood fed,ALCO,2016-02-10,37.63083,-122.14267,Marsh/Wetland
+CMS001_055,CMS001_055,Culex,erythrothorax,female,blood fed,ALCO,2017-09-21,37.55697,-122.07938,Marsh/Wetland
+CMS001_056,CMS001_056,Culex,erythrothorax,female,blood fed,ALCO,2017-09-21,37.55697,-122.07938,Marsh/Wetland
+CMS001_057,CMS001_057,Culex,erythrothorax,female,blood fed,ALCO,2017-09-21,37.55697,-122.07938,Marsh/Wetland
+CMS001_060,CMS001_060,Culiseta,inornata,female,blood fed,ALCO,2017-10-23,37.55697,-122.07938,Marsh/Wetland
+CMS002_028a,CMS002_028a,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-15,33.935,-117.655833,Marsh/Wetland
+CMS002_028b,CMS002_028b,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-15,33.935,-117.655833,Marsh/Wetland
+CMS002_028c,CMS002_028c,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-15,33.935,-117.655833,Marsh/Wetland
+CMS002_028d,CMS002_028d,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-15,33.935,-117.655833,Marsh/Wetland
+CMS002_028e,CMS002_028e,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-15,33.935,-117.655833,Marsh/Wetland
+CMS002_031a,CMS002_031a,Culex,tarsalis,female,unfed,COAV,2017-11-07,33.516797,-116.082468,Marsh/Wetland
+CMS002_032a,CMS002_032a,Culex,tarsalis,male,unfed,COAV,2017-11-07,33.516797,-116.082468,Marsh/Wetland
+CMS002_039a,CMS002_039a,Culex,tarsalis,female,unfed,COAV,2017-11-07,33.532468,-116.060957,Marsh/Wetland
+CMS002_040a,CMS002_040a,Culex,tarsalis,male,unfed,COAV,2017-11-07,33.532468,-116.060957,Marsh/Wetland
+CMS002_041a,CMS002_041a,Culex,tarsalis,female,unfed,COAV,2017-11-07,33.510767,-115.920793,Marsh/Wetland
+CMS002_047a,CMS002_047a,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047b,CMS002_047b,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047c,CMS002_047c,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047d,CMS002_047d,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047e,CMS002_047e,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047f,CMS002_047f,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047g,CMS002_047g,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047h,CMS002_047h,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047i,CMS002_047i,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_047j,CMS002_047j,Culex,erythrothorax,N.D.,unfed,WVAL ,2017-11-29,33.93778,-117.633056,Marsh/Wetland
+CMS002_050a,CMS002_050a,Culex,pipiens,N.D.,unfed,PLCR,2017-11-21,38.824306,-121.257067,Marsh/Wetland
+CMS001_037,CMS001_037,Culex,tarsalis,female,blood fed,ALCO,2017-08-18,,,N.D.
+CMS001_058,CMS001_058,Culex,erythrothorax,female,blood fed,ALCO,N.D.,N.D.,N.D.,N.D.
+CMS001_026,CMS001_026,Culex,tarsalis,female,blood fed,ALCO,2017-09-19,37.50953,-121.93113,Park
+CMS001_027,CMS001_027,Culex,tarsalis,female,blood fed,ALCO,2017-09-12,37.8665,-122.31051,Park
+CMS001_031,CMS001_031,Culex,tarsalis,female,blood fed,ALCO,2017-09-13,37.8063,-122.2573,Park
+CMS001_032,CMS001_032,Culex,tarsalis,female,blood fed,ALCO,N.D.,37.66126,-122.13335,Park
+CMS001_042,CMS001_042,Culex,tarsalis,female,blood fed,ALCO,2017-08-25,37.66126,-122.13335,Park
+CMS001_043,CMS001_043,Culex,pipiens,female,blood fed,ALCO,2017-08-25,37.66126,-122.13335,Park
+CMS001_044,CMS001_044,Culex,pipiens,female,blood fed,ALCO,2017-08-25,37.66126,-122.13335,Park
+CMS002_001a,CMS002_001a,Culex,quinquefasciatus,female,blood fed,SAND,2017-11-15,32.7962659,-116.9594824,Park
+CMS002_004a,CMS002_004a,Culex,quinquefasciatus,female,blood fed,SAND,2017-11-15,32.7991943,-116.9193062,Park
+CMS002_007a,CMS002_007a,Culex,quinquefasciatus,female,blood fed,SAND,2017-11-15,32.7856362,-116.9887078,Park
+CMS001_005,CMS001_005,Culex,erythrothorax,female,blood fed,ALCO,2017-09-29,37.78886,-122.29903,Residential
+CMS002_013a,CMS002_013a,Culex,quinquefasciatus,female,blood fed,SAND,2017-11-15,32.7996185,-116.9393203,Residential
+CMS002_017a,CMS002_017a,Aedes,aegypti,female,unfed,SAND,2017-11-28,32.5542907,-117.04828,Residential
+CMS002_017b,CMS002_017b,Aedes,aegypti,female,unfed,SAND,2017-11-28,32.5542907,-117.04828,Residential
+CMS002_017c,CMS002_017c,Aedes,aegypti,female,unfed,SAND,2017-11-28,32.5542907,-117.04828,Residential
+CMS002_017d,CMS002_017d,Aedes,aegypti,female,unfed,SAND,2017-11-28,32.5542907,-117.04828,Residential
+CMS002_017e,CMS002_017e,Aedes,aegypti,female,unfed,SAND,2017-11-28,32.5542907,-117.04828,Residential
+CMS002_019a,CMS002_019a,Aedes,aegypti,female,unfed,SAND,2017-11-29,32.760258,-117.0813933,Residential
+CMS002_025a,CMS002_025a,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954615,-117.693828,Residential
+CMS002_025b,CMS002_025b,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954615,-117.693828,Residential
+CMS002_025c,CMS002_025c,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954615,-117.693828,Residential
+CMS002_025d,CMS002_025d,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954615,-117.693828,Residential
+CMS002_025e,CMS002_025e,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954615,-117.693828,Residential
+CMS002_025f,CMS002_025f,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954615,-117.693828,Residential
+CMS002_026a,CMS002_026a,Aedes,albopictus,N.D.,unfed,WVAL ,2017-08-29,34.155852,-117.666926,Residential
+CMS002_026b,CMS002_026b,Aedes,albopictus,N.D.,unfed,WVAL ,2017-08-29,34.155852,-117.666926,Residential
+CMS002_026c,CMS002_026c,Aedes,albopictus,N.D.,unfed,WVAL ,2017-08-29,34.155852,-117.666926,Residential
+CMS002_026d,CMS002_026d,Aedes,albopictus,N.D.,unfed,WVAL ,2017-08-29,34.155852,-117.666926,Residential
+CMS002_026e,CMS002_026e,Aedes,albopictus,N.D.,unfed,WVAL ,2017-08-29,34.155852,-117.666926,Residential
+CMS002_027a,CMS002_027a,Culex,quinquefasciatus,N.D.,unfed,WVAL ,2017-11-15,34.150853,-117.642917,Residential
+CMS002_027b,CMS002_027b,Culex,quinquefasciatus,N.D.,unfed,WVAL ,2017-11-15,34.150853,-117.642917,Residential
+CMS002_029a,CMS002_029a,Culex,tarsalis,N.D.,unfed,WVAL ,2017-11-15,33.925833,-117.659722,Residential
+CMS002_029b,CMS002_029b,Culex,tarsalis,N.D.,unfed,WVAL ,2017-11-15,33.925833,-117.659722,Residential
+CMS002_029c,CMS002_029c,Culex,tarsalis,N.D.,unfed,WVAL ,2017-11-15,33.925833,-117.659722,Residential
+CMS002_029d,CMS002_029d,Culex,tarsalis,N.D.,unfed,WVAL ,2017-11-15,33.925833,-117.659722,Residential
+CMS002_029e,CMS002_029e,Culex,tarsalis,female,unfed,WVAL ,2017-11-15,33.925833,-117.659722,Residential
+CMS002_033a,CMS002_033a,Culex,tarsalis,female,unfed,COAV,2017-11-07,33.569223,-116.079206,Residential
+CMS002_034a,CMS002_034a,Culex,tarsalis,male,unfed,COAV,2017-11-07,33.569223,-116.079206,Residential
+CMS002_044a,CMS002_044a,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954531,-117.692953,Residential
+CMS002_044b,CMS002_044b,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954531,-117.692953,Residential
+CMS002_044c,CMS002_044c,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954531,-117.692953,Residential
+CMS002_044d,CMS002_044d,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954531,-117.692953,Residential
+CMS002_044e,CMS002_044e,Aedes,aegypti,N.D.,unfed,WVAL ,2017-08-23,33.954531,-117.692953,Residential
+CMS002_045a,CMS002_045a,Aedes,albopictus,N.D.,unfed,WVAL ,2017-10-24,34.151881,-117.66295,Residential
+CMS002_045b,CMS002_045b,Aedes,albopictus,N.D.,unfed,WVAL ,2017-10-24,34.151881,-117.66295,Residential
+CMS002_045c,CMS002_045c,Aedes,albopictus,N.D.,unfed,WVAL ,2017-10-24,34.151881,-117.66295,Residential
+CMS002_045d,CMS002_045d,Aedes,albopictus,N.D.,unfed,WVAL ,2017-10-24,34.151881,-117.66295,Residential
+CMS002_045e,CMS002_045e,Aedes,albopictus,N.D.,unfed,WVAL ,2017-10-24,34.151881,-117.66295,Residential
+CMS002_045f,CMS002_045f,Aedes,albopictus,N.D.,unfed,WVAL ,2017-10-24,34.151881,-117.66295,Residential
+CMS002_045g,CMS002_045g,Aedes,albopictus,N.D.,unfed,WVAL ,2017-10-24,34.151881,-117.66295,Residential
+CMS002_046a,CMS002_046a,Culex,quinquefasciatus,N.D.,unfed,WVAL ,2017-11-29,33.9725,-117.714444,Residential
+CMS002_046b,CMS002_046b,Culex,quinquefasciatus,N.D.,unfed,WVAL ,2017-11-29,33.9725,-117.714444,Residential
+CMS002_056a,CMS002_056a,Culex,tarsalis,N.D.,unfed,PLCR,2017-11-28,38.787211,-121.372895,Residential
+CMS002_057a,CMS002_057a,Culex,pipiens,N.D.,unfed,PLCR,2017-11-28,38.787211,-121.372895,Residential
+CMS001_040,CMS001_040,Culex,pipiens,female,blood fed,ALCO,2017-08-31,37.49949,-121.93378,Undeveloped
+CMS001_041,CMS001_041,Culex,tarsalis,female,blood fed,ALCO,2017-08-31,37.49949,-121.93378,Undeveloped
+CMS002_020a,CMS002_020a,Culiseta,particeps,female,unfed,SAND,2017-12-01,32.9407491,-117.2165239,Undeveloped
+CMS002_020b,CMS002_020b,Culiseta,particeps,female,unfed,SAND,2017-12-01,32.9407491,-117.2165239,Undeveloped
+CMS002_020c,CMS002_020c,Culiseta,particeps,female,unfed,SAND,2017-12-01,32.9407491,-117.2165239,Undeveloped
+CMS002_020d,CMS002_020d,Culiseta,particeps,female,unfed,SAND,2017-12-01,32.9407491,-117.2165239,Undeveloped
+CMS002_020e,CMS002_020e,Culiseta,particeps,female,unfed,SAND,2017-12-01,32.9407491,-117.2165239,Undeveloped
+CMS002_021a,CMS002_021a,Culiseta,particeps,female,unfed,SAND,2017-12-27,32.9407491,-117.2165239,Undeveloped
+CMS002_022a,CMS002_022a,Culex,quinquefasciatus,female,unfed,SAND,2017-12-27,32.552783,-117.0559469,Undeveloped

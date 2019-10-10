@@ -141,13 +141,15 @@ def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cu
         df = df.dropna()
     df["taxid"] = df["taxid"].astype('int64')
     try:
+        original_contigs = read_counts[read_counts["query"] in df["query"]]
         df = filter_by_taxid(df, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
+        exclude_contigs = original_contigs[original_contigs["query"] not in df["query"]].assign(reason="hexapoda")
     except:
         pdb.set_trace()
     if (return_taxid_only):
         return (list(set(df["taxid"])))
     else:
-        return (df)
+        return (df, excluded contigs)
 
 ##
 ## Split an s3://bucket/path string into the bucket name and the path

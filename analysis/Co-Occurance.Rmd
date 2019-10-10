@@ -122,8 +122,23 @@ for (query_taxon in c('Wolbachia',  'Amblyospora', 'Apicomplexa', 'Narnaviridae'
 }
 ```
 
+For bloodmeal categorization, we will use the curated list of taxonomic levels:
+
+Aves
+Bovidae (cows, sheep, goats, etc)
+Cervidae (deer)
+Leporidae (hare-like)
+Procyon (Raccoon)
+
+Association testing scale? Fix by geography.
+
+Caveat: there is no external validation (eg, collecting mosquito off of animals).
+
+Check if there are contigs going to Ruminantia and not something lower.
+
+
 ```{r}
-for (query_taxon in c('Ruminantia',  'Aves', 'Procyon', 'Oryctolagus'))
+for (query_taxon in c('Ruminantia',  'Aves', 'Procyon', 'Leporidae', 'Bovidae', 'Cervidae'))
 {
   print(query_taxon)
 #  print(association(query_taxon, query_read_filter=100, sample_subset=cms001_samples, p_filter=0.05))

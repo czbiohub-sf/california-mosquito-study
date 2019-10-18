@@ -16,12 +16,15 @@ import pdb, traceback, sys
 # NCBI Entrez functions
 from Bio import Entrez
 Entrez.email = "lucy.li@czbiohub.org"
+api_key = "1a6a75bc7f8a5a3088510eb4f1b35eefa009"
 
 # load ncbi taxonomy database
 ncbi = NCBITaxa()
 update_tax_database = False
 if update_tax_database:
     ncbi.update_taxonomy_database()
+
+
 
 
 default_blast_headings = ["query", "subject", "identity", "align_length", "mismatches", 
@@ -32,8 +35,8 @@ default_blast_headings = ["query", "subject", "identity", "align_length", "misma
 ## For a given accession number, find the corresponding TaxID from NCBI's Taxonomy Database
 ##
 def get_taxid (acc, db):
-    result = int(Entrez.read(Entrez.esummary(id=str(acc), db=db))[0]["TaxId"])
-    time.sleep(1)
+    result = int(Entrez.read(Entrez.esummary(id=str(acc), db=db, api_key=api_key))[0]["TaxId"])
+    time.sleep(0.1)
     return (result)
 
 ##
@@ -42,8 +45,8 @@ def get_taxid (acc, db):
 def get_gb (acc, db):
     if ("|" in acc):
         acc = acc.split('|')[1]
-    result = list(Entrez.efetch(id=str(acc), db=db, rettype="gb", retmode="text"))
-    time.sleep(1)
+    result = list(Entrez.efetch(id=str(acc), db=db, rettype="gb", retmode="text", api_key=api_key))
+    time.sleep(0.1)
     return (result)
 
 ##
@@ -131,25 +134,28 @@ def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cu
     # remove blast hits where identity < ident_cutoff*max(identity) AND
     # align_length < align_len_cutoff*max(align_length) AND
     # bitscore < bitscore_cutoff*max(bitscore)
-    df = df[df["query"].isin(read_counts["query"])]
     if (len(df.index)>1):
         df = df[df["identity"]>=(ident_cutoff*df["identity"].max())]
         df = df[df["align_length"]>=(align_len_cutoff*df["align_length"].max())]
         df = df[df["bitscore"]>=(bitscore_cutoff*df["bitscore"].max())]
-    if (df["taxid"].isnull().any()):
-        df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
-        df = df.dropna()
+#     if (df["taxid"].isnull().any()):
+#         df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
+#         df = df.dropna()
     df["taxid"] = df["taxid"].astype('int64')
-    try:
-        original_contigs = read_counts[read_counts["query"] in df["query"]]
-        df = filter_by_taxid(df, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
-        exclude_contigs = original_contigs[original_contigs["query"] not in df["query"]].assign(reason="hexapoda")
-    except:
-        pdb.set_trace()
     if (return_taxid_only):
         return (list(set(df["taxid"])))
     else:
-        return (df, excluded contigs)
+        return (df)
+#     try:
+#         original_contigs = read_counts[read_counts["query"].isin(df["query"])]
+#         filtered_df = filter_by_taxid(df, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
+#         if (len(filtered_df.index)==0):
+#             excluded_contigs = original_contigs[~original_contigs["query"].isin(filtered_df["query"])].assign(reason="hexapoda")
+#         else:
+#             excluded_contigs = pd.DataFrame(columns=list(original_contigs.columns)+["reason"])
+#     except:
+#         pdb.set_trace()
+
 
 ##
 ## Split an s3://bucket/path string into the bucket name and the path
@@ -190,4 +196,8 @@ def filter_by_lineage (df, taxid_col, lineage_id):
         lineage_id = ncbi.get_name_translator([lineage_id])[lineage_id][0]
     descendants = ncbi.get_descendant_taxa(lineage_id)
     return (df[df[taxid_col].isin(descendants)])
+
+
+
+
 

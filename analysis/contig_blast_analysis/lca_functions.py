@@ -3,13 +3,16 @@
 ##########
 
 import pandas as pd
+import numpy as np
 from ete3 import NCBITaxa
 import boto3
 import tempfile
+import subprocess
 import os
 import io
 import re
 import time
+import json
 
 import pdb, traceback, sys
 
@@ -85,6 +88,20 @@ def get_lca (taxids, tax_col="taxid", query_col="query"):
             lca = tree.get_tree_root().taxid
     return (lca)
 
+##
+## Load json from s3 or local
+##
+def load_json (fpath):
+    if (fpath.startswith("s3://")):
+        s3 = boto3.resource('s3')
+        s3_bucket_name, s3_path = split_s3_path(fpath)
+        data_in_bytes = s3.Object(s3_bucket_name, s3_path).get()["Body"].read().decode('utf-8')
+        json_data = list(map(json.loads, io.StringIO(data_in_bytes).readlines()))[0]
+    else:
+        json_data = json.loads(fpath)
+    df = pd.DataFrame(pd.Series(json_data), columns=["read_count"]).reset_index(level=0).rename(columns={"index":"query"})
+    return (df)
+
 
 ##
 ## Read in BLAST results stored in tab-delimited files as a pandas data frame
@@ -124,6 +141,23 @@ def filter_by_taxid (df, db, taxid):
         return (df[:0])
     else:
         return (df)
+
+##
+## Get HSP for each query-subject pairing
+##
+def get_single_hsp (df_file, col_names):
+    temp = tempfile.NamedTemporaryFile(delete=False)
+    print (temp.name+" tempfile")
+    if (df_file.startswith("s3://")):
+        download_s3_file(df_file, temp.name)
+    process = subprocess.Popen(["python", "parse.py", temp.name], stdout=subprocess.PIPE)
+    csv = io.StringIO()
+    for line in process.stdout:
+        csv.write(line.decode().strip('"\n') + '\n')
+    csv.seek(0)
+    outdf = parse_blast_file(csv, sep="\t", comment="#", blast_type=args.blast_type, col_names=col_names)
+    os.unlink(temp.name)
+    return (outdf)
 
 
 ##
@@ -181,14 +215,18 @@ def df_to_s3 (obj, s3path, header=True):
 ##
 ## Download file from S3 and return the local path to this file
 ##
-def download_s3_file (s3path):
+def download_s3_file (s3path, local_path=None):
     s3 = boto3.resource('s3')
     client = boto3.client('s3')
     s3_bucket_name, s3_path = split_s3_path(s3path)
-    fpath = client.get_object(Bucket=s3_bucket_name, Key=s3_path)['Body']
-    return fpath
+    if (local_path is not None):
+        fpath = client.download_file(s3_bucket_name, s3_path, local_path)
+    else:
+        fpath = client.get_object(Bucket=s3_bucket_name, Key=s3_path)['Body']
+        return fpath
+
 ##
-## 
+## Filter blast records belonging to a particular taxid
 ##
 def filter_by_lineage (df, taxid_col, lineage_id):
     ncbi = NCBITaxa()
@@ -197,7 +235,29 @@ def filter_by_lineage (df, taxid_col, lineage_id):
     descendants = ncbi.get_descendant_taxa(lineage_id)
     return (df[df[taxid_col].isin(descendants)])
 
+##
+## Print message to STDOUT
+##
+def print_to_stdout(message, start_time, verbose):
+    if verbose:
+        elapsed_time = round(time.time() - start_time, 2)
+        print (message+"| elapsed time: "+str(elapsed_time)+" seconds")
 
-
-
-
+##
+## Combine blast results with LCA analysis
+## 
+def combine_blast_lca (lca_file_name, blast_file_name, outfile, sample_name, blast_type, output_file_name=None):
+    lca_data = pd.read_csv(lca_file_name, sep="\t", header=0)
+    blast_data = pd.read_csv(blast_file_name, sep="\t", header=0)
+    # Below lines have been replaced by pyblastc analysis
+#     blast_data_grouped = blast_data.groupby(["query"], as_index=False).\
+#     apply(lambda x: x[x["bitscore"]==max(x["bitscore"])].head(n=1))
+#     blast_data_grouped = blast_data_grouped[['query', 'identity', 'align_length', 'mismatches', 'gaps',
+#                                              'qstart', 'qend', 'sstart', 'send', 'bitscore']]
+#    blast_data_grouped.columns = blast_data_grouped.columns.get_level_values(0)
+#    grouped_df = pd.merge(blast_data_grouped, lca_data, how="left", on="query")
+#     grouped_df.insert(1, "blast_type", value=blast_type)
+#     grouped_df.insert(2, "sample", value=sample_name)
+    grouped_df = pd.merge(blast_data, lca_data, how="left", on="query")
+    df_to_s3(grouped_df, outfile)
+    return (outfile)

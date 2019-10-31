@@ -91,7 +91,7 @@ def get_lca (taxids, tax_col="taxid", query_col="query"):
 ##
 ## Load json from s3 or local
 ##
-def load_json (fpath):
+def load_json (fpath, colnames):
     if (fpath.startswith("s3://")):
         s3 = boto3.resource('s3')
         s3_bucket_name, s3_path = split_s3_path(fpath)
@@ -99,7 +99,7 @@ def load_json (fpath):
         json_data = list(map(json.loads, io.StringIO(data_in_bytes).readlines()))[0]
     else:
         json_data = json.loads(fpath)
-    df = pd.DataFrame(pd.Series(json_data), columns=["read_count"]).reset_index(level=0).rename(columns={"index":"query"})
+    df = pd.DataFrame(pd.Series(json_data), columns=[colnames[1]]).reset_index(level=0).rename(columns={"index":colnames[0]})
     return (df)
 
 

@@ -1,0 +1,241 @@
+Query	Hit type	PSSM-ID	From	To	E-Value	Bitscore	Accession	Short name	Incomplete	Superfamily
+Q#1 - >LIHLNHBE_00001 hypothetical protein	superfamily	356817	8	223	2.3771e-17	82.134	cl29941	Viral_coat superfamily	C	 - 
+Q#2 - >LIHLNHBE_00002 hypothetical protein	superfamily	334340	80	458	1.18776e-49	176.265	cl24119	RdRP_3 superfamily	 - 	 - 
+Q#3 - >LIHLNHBE_00003 hypothetical protein	superfamily	236090	112	318	5.1557e-06	49.2141	cl35613	PRK07764 superfamily	N	 - 
+Q#4 - >LIHLNHBE_00004 hypothetical protein	specific	338070	602	680	0.0051581	39.6647	pfam11705	RNA_pol_3_Rpc31	C	cl13200
+Q#6 - >LIHLNHBE_00006 hypothetical protein	superfamily	310384	1	40	6.83341e-08	45.4136	cl05345	Tenui_N superfamily	NC	 - 
+Q#15 - >LIHLNHBE_00015 hypothetical protein	specific	238843	2736	3060	4.85719e-45	165.534	cd01699	RNA_dep_RNAP	 - 	cl02808
+Q#15 - >LIHLNHBE_00015 hypothetical protein	specific	119412	703	897	5.14181e-18	83.9848	cd00205	rhv_like	 - 	cl13999
+Q#15 - >LIHLNHBE_00015 hypothetical protein	specific	279280	1665	1775	4.24478e-11	61.8681	pfam00910	RNA_helicase	 - 	cl21455
+Q#20 - >LIHLNHBE_00020 hypothetical protein	superfamily	293113	22	147	0.000165751	39.2084	cl24916	SP24 superfamily	 - 	 - 
+Q#21 - >LIHLNHBE_00021 hypothetical protein	superfamily	295487	1	107	3.83578e-16	80.1971	cl02808	RT_like superfamily	N	 - 
+Q#33 - >LIHLNHBE_00033 hypothetical protein	superfamily	313790	515	618	0.002666	39.4916	cl20090	Cytochrome-c551 superfamily	C	 - 
+Q#34 - >LIHLNHBE_00034 hypothetical protein	superfamily	307203	337	1005	1.59755e-60	227.588	cl15638	Mononeg_RNA_pol superfamily	N	 - 
+Q#34 - >LIHLNHBE_00034 hypothetical protein	superfamily	316808	1047	1245	6.27597e-15	76.2643	cl16796	Mononeg_mRNAcap superfamily	 - 	 - 
+Q#34 - >LIHLNHBE_00034 hypothetical protein	superfamily	332632	1181	1846	6.56928e-09	60.9706	cl27811	G-7-MTase superfamily	 - 	 - 
+Q#46 - >LIHLNHBE_00046 hypothetical protein	specific	250270	2803	3225	4.65865e-101	333.073	pfam00978	RdRP_2	 - 	cl03049
+Q#46 - >LIHLNHBE_00046 hypothetical protein	specific	307550	2384	2646	1.59417e-30	121.714	pfam01443	Viral_helicase1	 - 	cl26263
+Q#46 - >LIHLNHBE_00046 hypothetical protein	superfamily	307679	185	461	5.94577e-21	96.2033	cl03298	Vmethyltransf superfamily	 - 	 - 
+Q#46 - >LIHLNHBE_00046 hypothetical protein	specific	334653	984	1136	6.83988e-11	63.3702	pfam01728	FtsJ	 - 	cl17173
+Q#46 - >LIHLNHBE_00046 hypothetical protein	superfamily	223021	1209	1378	6.49378e-08	58.7965	cl33720	PHA03247 superfamily	N	 - 
+Q#47 - >LIHLNHBE_00047 hypothetical protein	superfamily	307047	57	190	9.12355e-07	46.8525	cl20208	TMV_coat superfamily	 - 	 - 
+Q#48 - >LIHLNHBE_00048 hypothetical protein	superfamily	283451	50	821	2.18683e-37	153.328	cl12314	Orbi_VP1 superfamily	C	 - 
+Q#49 - >LIHLNHBE_00049 hypothetical protein	superfamily	283451	5	1297	0	1199.53	cl12314	Orbi_VP1 superfamily	 - 	 - 
+Q#50 - >LIHLNHBE_00050 hypothetical protein	superfamily	282383	14	182	5.59657e-18	84.4067	cl04557	BTV_NS2 superfamily	C	 - 
+Q#51 - >LIHLNHBE_00051 Core protein VP7	superfamily	279268	1	327	6.03396e-24	100.594	cl03009	Orbi_VP7 superfamily	 - 	 - 
+Q#52 - >LIHLNHBE_00052 hypothetical protein	superfamily	279812	6	320	1.29841e-11	64.4042	cl03242	Orbi_VP6 superfamily	 - 	 - 
+Q#53 - >LIHLNHBE_00053 hypothetical protein	superfamily	279892	47	206	3.33158e-15	71.375	cl03281	Orbi_NS3 superfamily	 - 	 - 
+Q#54 - >LIHLNHBE_00054 hypothetical protein	superfamily	282102	768	1427	2.14576e-61	225.814	cl20265	Bunya_RdRp superfamily	 - 	 - 
+Q#58 - >LIHLNHBE_00058 Nucleoprotein	superfamily	279313	25	176	5.45321e-27	105.012	cl20153	Rhabdo_ncap superfamily	NC	 - 
+Q#63 - >LIHLNHBE_00063 hypothetical protein	superfamily	310384	35	112	5.45994e-09	51.5768	cl05345	Tenui_N superfamily	C	 - 
+Q#66 - >LIHLNHBE_00066 hypothetical protein	specific	250270	2731	3153	4.54257e-101	333.073	pfam00978	RdRP_2	 - 	cl03049
+Q#66 - >LIHLNHBE_00066 hypothetical protein	specific	307550	2312	2574	1.94209e-30	121.328	pfam01443	Viral_helicase1	 - 	cl26263
+Q#66 - >LIHLNHBE_00066 hypothetical protein	superfamily	307679	156	432	5.60776e-20	93.1217	cl03298	Vmethyltransf superfamily	 - 	 - 
+Q#66 - >LIHLNHBE_00066 hypothetical protein	specific	334653	955	1107	6.68275e-11	63.3702	pfam01728	FtsJ	 - 	cl17173
+Q#66 - >LIHLNHBE_00066 hypothetical protein	superfamily	177464	1180	1336	3.08318e-09	60.6452	cl31817	PHA02682 superfamily	C	 - 
+Q#67 - >LIHLNHBE_00067 hypothetical protein	superfamily	307047	57	190	9.12355e-07	46.8525	cl20208	TMV_coat superfamily	 - 	 - 
+Q#69 - >LIHLNHBE_00069 hypothetical protein	superfamily	310384	11	227	3.07683e-21	88.556	cl05345	Tenui_N superfamily	 - 	 - 
+Q#70 - >LIHLNHBE_00070 hypothetical protein	specific	250270	2880	3302	4.78279e-101	333.073	pfam00978	RdRP_2	 - 	cl03049
+Q#70 - >LIHLNHBE_00070 hypothetical protein	specific	307550	2461	2723	1.58751e-30	121.714	pfam01443	Viral_helicase1	 - 	cl26263
+Q#70 - >LIHLNHBE_00070 hypothetical protein	superfamily	307679	203	479	5.26461e-20	93.5069	cl03298	Vmethyltransf superfamily	 - 	 - 
+Q#70 - >LIHLNHBE_00070 hypothetical protein	superfamily	223021	1214	1477	7.03167e-15	81.9084	cl33720	PHA03247 superfamily	N	 - 
+Q#70 - >LIHLNHBE_00070 hypothetical protein	specific	334653	1002	1154	7.00793e-11	63.3702	pfam01728	FtsJ	 - 	cl17173
+Q#71 - >LIHLNHBE_00071 hypothetical protein	superfamily	307047	57	190	9.12355e-07	46.8525	cl20208	TMV_coat superfamily	 - 	 - 
+Q#92 - >LIHLNHBE_00092 hypothetical protein	superfamily	310384	1	113	1.80563e-05	41.5616	cl05345	Tenui_N superfamily	N	 - 
+Q#97 - >LIHLNHBE_00097 hypothetical protein	superfamily	332842	84	366	1.9303e-30	120.328	cl28021	Phage_mat-A superfamily	N	 - 
+Q#98 - >LIHLNHBE_00098 hypothetical protein	superfamily	332936	34	137	0.000106333	39.3283	cl28115	Levi_coat superfamily	N	 - 
+Q#99 - >LIHLNHBE_00099 hypothetical protein	superfamily	278997	41	771	2.65869e-67	237.078	cl15495	Flu_PB1 superfamily	 - 	 - 
+Q#100 - >LIHLNHBE_00100 hypothetical protein	superfamily	278999	27	231	4.24226e-07	53.3754	cl20020	Flu_PB2 superfamily	C	 - 
+Q#101 - >LIHLNHBE_00101 hypothetical protein	superfamily	278998	120	697	2.83765e-17	85.7658	cl02905	Flu_PA superfamily	 - 	 - 
+Q#102 - >LIHLNHBE_00102 Genome polyprotein	superfamily	279336	2757	3395	0	581.689	cl03045	Flavi_NS5 superfamily	 - 	 - 
+Q#102 - >LIHLNHBE_00102 Genome polyprotein	superfamily	354812	1675	1806	2.55587e-41	149.793	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#102 - >LIHLNHBE_00102 Genome polyprotein	superfamily	279316	748	1103	1.32972e-37	146.724	cl03032	Flavi_NS1 superfamily	 - 	 - 
+Q#102 - >LIHLNHBE_00102 Genome polyprotein	superfamily	365791	1817	1945	6.18254e-21	91.554	cl38915	DEAD-like_helicase_C superfamily	 - 	 - 
+Q#102 - >LIHLNHBE_00102 Genome polyprotein	specific	334653	2552	2722	2.47995e-18	84.9414	pfam01728	FtsJ	 - 	cl17173
+Q#102 - >LIHLNHBE_00102 Genome polyprotein	superfamily	356743	1512	1644	3.01428e-13	69.0058	cl29867	Peptidase_S7 superfamily	 - 	 - 
+Q#102 - >LIHLNHBE_00102 Genome polyprotein	superfamily	334293	311	463	0.000344862	45.4371	cl02995	Flavi_glycoprot superfamily	C	 - 
+Q#103 - >LIHLNHBE_00103 hypothetical protein	superfamily	180526	10	65	0.00197077	35.6517	cl32137	PRK06315 superfamily	N	 - 
+Q#107 - >LIHLNHBE_00107 hypothetical protein	superfamily	307203	195	1058	1.60628e-103	358.171	cl15638	Mononeg_RNA_pol superfamily	 - 	 - 
+Q#107 - >LIHLNHBE_00107 hypothetical protein	superfamily	316808	1105	1330	1.37006e-27	113.244	cl16796	Mononeg_mRNAcap superfamily	 - 	 - 
+Q#107 - >LIHLNHBE_00107 hypothetical protein	superfamily	332632	1200	1961	1.53118e-11	69.8302	cl27811	G-7-MTase superfamily	 - 	 - 
+Q#109 - >LIHLNHBE_00109 Genome polyprotein	superfamily	279336	2736	3369	0	602.875	cl03045	Flavi_NS5 superfamily	 - 	 - 
+Q#109 - >LIHLNHBE_00109 Genome polyprotein	superfamily	354812	1677	1815	6.82101e-44	157.111	cl21455	P-loop_NTPase superfamily	 - 	 - 
+Q#109 - >LIHLNHBE_00109 Genome polyprotein	superfamily	279316	863	1037	4.43083e-30	124.768	cl03032	Flavi_NS1 superfamily	N	 - 
+Q#109 - >LIHLNHBE_00109 Genome polyprotein	specific	334653	2531	2704	3.35156e-18	84.5562	pfam01728	FtsJ	 - 	cl17173
+Q#109 - >LIHLNHBE_00109 Genome polyprotein	superfamily	365791	1805	1929	3.10206e-10	60.738	cl38915	DEAD-like_helicase_C superfamily	C	 - 
+Q#112 - >LIHLNHBE_00112 hypothetical protein	superfamily	295487	22	261	1.71831e-11	65.085	cl02808	RT_like superfamily	NC	 - 
+Q#113 - >LIHLNHBE_00113 hypothetical protein	superfamily	314071	465	527	0.00164467	38.5743	cl25768	DAZAP2 superfamily	C	 - 
+Q#113 - >LIHLNHBE_00113 hypothetical protein	superfamily	223021	421	573	0.00587233	39.9217	cl33720	PHA03247 superfamily	N	 - 
+Q#116 - >LIHLNHBE_00116 RNA-directed RNA polymerase L	superfamily	316808	350	550	4.25332e-17	80.8867	cl16796	Mononeg_mRNAcap superfamily	 - 	 - 
+Q#116 - >LIHLNHBE_00116 RNA-directed RNA polymerase L	superfamily	307203	1	305	2.04046e-14	76.9754	cl15638	Mononeg_RNA_pol superfamily	N	 - 
+Q#117 - >LIHLNHBE_00117 hypothetical protein	superfamily	295487	441	578	4.10782e-08	56.3147	cl02808	RT_like superfamily	N	 - 
+Q#122 - >LIHLNHBE_00122 hypothetical protein	specific	214692	3064	3208	2.95779e-11	65.9762	smart00487	DEXDc	 - 	cl28899
+Q#122 - >LIHLNHBE_00122 hypothetical protein	superfamily	295487	5262	5446	2.02803e-08	58.834	cl02808	RT_like superfamily	N	 - 
+Q#122 - >LIHLNHBE_00122 hypothetical protein	specific	333970	3275	3390	1.03344e-07	52.9787	pfam00271	Helicase_C	 - 	cl28899
+Q#122 - >LIHLNHBE_00122 hypothetical protein	specific	338701	2875	3007	7.61502e-05	45.4392	pfam13365	Trypsin_2	 - 	cl21584
+Q#124 - >LIHLNHBE_00124 hypothetical protein	superfamily	182809	116	238	0.00432172	38.4807	cl32601	PRK10884 superfamily	N	 - 
+Q#128 - >LIHLNHBE_00128 hypothetical protein	superfamily	307203	234	1070	2.56364e-120	407.862	cl15638	Mononeg_RNA_pol superfamily	 - 	 - 
+Q#128 - >LIHLNHBE_00128 hypothetical protein	superfamily	332632	1244	2023	8.79854e-36	148.411	cl27811	G-7-MTase superfamily	 - 	 - 
+Q#129 - >LIHLNHBE_00129 hypothetical protein	superfamily	282102	599	1379	2.83218e-163	522.033	cl20265	Bunya_RdRp superfamily	 - 	 - 
+Q#129 - >LIHLNHBE_00129 hypothetical protein	superfamily	317864	33	111	2.68237e-11	61.5663	cl20011	L_protein_N superfamily	N	 - 
+Q#130 - >LIHLNHBE_00130 hypothetical protein	superfamily	281546	822	1369	2.50457e-113	378.592	cl04155	Bunya_G1 superfamily	N	 - 
+Q#130 - >LIHLNHBE_00130 hypothetical protein	superfamily	281551	36	299	3.54005e-48	173.615	cl04159	Bunya_G2 superfamily	 - 	 - 
+Q#130 - >LIHLNHBE_00130 hypothetical protein	superfamily	211933	306	471	5.04274e-07	51.1704	cl16972	bunya_NSm superfamily	 - 	 - 
+Q#132 - >LIHLNHBE_00132 Nucleoprotein	superfamily	279319	33	237	6.89809e-13	66.152	cl03035	Bunya_nucleocap superfamily	 - 	 - 
+Q#150 - >LIHLNHBE_00150 hypothetical protein	superfamily	282484	1	115	8.7919e-08	49.8206	cl10633	PIF2 superfamily	N	 - 
+Q#152 - >LIHLNHBE_00152 Maturation protein A2	superfamily	332842	117	426	7.0394e-51	176.567	cl28021	Phage_mat-A superfamily	N	 - 
+Q#153 - >LIHLNHBE_00153 Capsid protein	superfamily	332936	15	130	5.92939e-37	122.531	cl28115	Levi_coat superfamily	 - 	 - 
+Q#155 - >LIHLNHBE_00155 RNA-directed RNA polymerase subunit beta	superfamily	332097	26	508	0	555.989	cl27276	RNA_replicase_B superfamily	 - 	 - 
+Q#157 - >LIHLNHBE_00157 hypothetical protein	specific	250270	2832	3254	4.7054e-101	333.073	pfam00978	RdRP_2	 - 	cl03049
+Q#157 - >LIHLNHBE_00157 hypothetical protein	specific	307550	2413	2675	1.67221e-30	121.714	pfam01443	Viral_helicase1	 - 	cl26263
+Q#157 - >LIHLNHBE_00157 hypothetical protein	superfamily	307679	185	461	1.10437e-20	95.4329	cl03298	Vmethyltransf superfamily	 - 	 - 
+Q#157 - >LIHLNHBE_00157 hypothetical protein	superfamily	223021	1196	1429	9.18292e-13	74.9748	cl33720	PHA03247 superfamily	N	 - 
+Q#157 - >LIHLNHBE_00157 hypothetical protein	specific	334653	984	1136	1.05088e-10	62.985	pfam01728	FtsJ	 - 	cl17173
+Q#158 - >LIHLNHBE_00158 hypothetical protein	superfamily	307047	57	190	9.12355e-07	46.8525	cl20208	TMV_coat superfamily	 - 	 - 
+Q#160 - >LIHLNHBE_00160 hypothetical protein	specific	238843	2592	2878	2.11601e-62	215.225	cd01699	RNA_dep_RNAP	 - 	cl02808
+Q#160 - >LIHLNHBE_00160 hypothetical protein	specific	279280	1672	1778	2.43922e-18	82.2837	pfam00910	RNA_helicase	 - 	cl21455
+Q#160 - >LIHLNHBE_00160 hypothetical protein	specific	119412	703	873	1.34579e-16	79.7476	cd00205	rhv_like	 - 	cl13999
+Q#160 - >LIHLNHBE_00160 hypothetical protein	superfamily	353801	438	592	3.04777e-08	55.8652	cl13999	rhv_like superfamily	 - 	 - 
+Q#160 - >LIHLNHBE_00160 hypothetical protein	superfamily	353801	1155	1297	3.28845e-08	55.48	cl13999	rhv_like superfamily	 - 	 - 
+Q#161 - >LIHLNHBE_00161 hypothetical protein	superfamily	295487	341	666	1.01406e-32	132.969	cl02808	RT_like superfamily	N	 - 
+Q#163 - >LIHLNHBE_00163 hypothetical protein	superfamily	295487	384	842	1.33274e-30	126.806	cl02808	RT_like superfamily	 - 	 - 
+Q#167 - >LIHLNHBE_00167 hypothetical protein	superfamily	295487	210	666	5.06105e-35	139.903	cl02808	RT_like superfamily	 - 	 - 
+Q#175 - >LIHLNHBE_00175 hypothetical protein	specific	238843	2630	2917	1.40383e-56	198.661	cd01699	RNA_dep_RNAP	 - 	cl02808
+Q#175 - >LIHLNHBE_00175 hypothetical protein	specific	119412	654	799	7.26049e-16	77.8216	cd00205	rhv_like	 - 	cl13999
+Q#175 - >LIHLNHBE_00175 hypothetical protein	specific	279280	1577	1684	5.92147e-14	69.9573	pfam00910	RNA_helicase	 - 	cl21455
+Q#175 - >LIHLNHBE_00175 hypothetical protein	superfamily	353801	344	517	2.43663e-09	58.9468	cl13999	rhv_like superfamily	 - 	 - 
+Q#175 - >LIHLNHBE_00175 hypothetical protein	superfamily	255023	1027	1234	0.000270187	44.4641	cl07393	CRPV_capsid superfamily	 - 	 - 
+Q#176 - >LIHLNHBE_00176 Protein P1	specific	111059	213	416	8.94099e-79	248.062	pfam02122	Peptidase_S39	 - 	cl09540
+Q#177 - >LIHLNHBE_00177 Replicase polyprotein P2AB	specific	280316	1	350	1.19668e-70	229.269	pfam02123	RdRP_4	 - 	cl02808
+Q#178 - >LIHLNHBE_00178 hypothetical protein	superfamily	279266	64	201	6.4793e-59	181.291	cl03007	Luteo_coat superfamily	 - 	 - 
+Q#179 - >LIHLNHBE_00179 Minor capsid protein P3-RTD	superfamily	279954	5	333	1.32123e-24	104.22	cl12253	PLRV_ORF5 superfamily	N	 - 
+Q#182 - >LIHLNHBE_00182 hypothetical protein	superfamily	279313	1	100	3.2828e-05	41.0691	cl20153	Rhabdo_ncap superfamily	C	 - 
+Q#183 - >LIHLNHBE_00183 hypothetical protein	superfamily	279313	1	68	8.99308e-10	52.2399	cl20153	Rhabdo_ncap superfamily	N	 - 
+Q#186 - >LIHLNHBE_00186 hypothetical protein	superfamily	279313	1	47	1.57419e-09	50.6991	cl20153	Rhabdo_ncap superfamily	NC	 - 
+Q#201 - >LIHLNHBE_00201 hypothetical protein	superfamily	295487	509	635	8.69703e-07	52.4627	cl02808	RT_like superfamily	N	 - 
+Q#209 - >LIHLNHBE_00209 hypothetical protein	superfamily	307203	234	1046	4.02516e-72	263.412	cl15638	Mononeg_RNA_pol superfamily	 - 	 - 
+Q#209 - >LIHLNHBE_00209 hypothetical protein	superfamily	316808	1051	1249	5.04452e-14	73.568	cl16796	Mononeg_mRNAcap superfamily	 - 	 - 
+Q#209 - >LIHLNHBE_00209 hypothetical protein	superfamily	332632	1198	1652	0.0020526	42.8662	cl27811	G-7-MTase superfamily	C	 - 
+Q#211 - >LIHLNHBE_00211 RNA-directed RNA polymerase catalytic subunit	superfamily	278997	34	735	2.37766e-59	214.351	cl15495	Flu_PB1 superfamily	 - 	 - 
+Q#213 - >LIHLNHBE_00213 hypothetical protein	superfamily	356817	47	219	3.19841e-10	57.0833	cl29941	Viral_coat superfamily	 - 	 - 
+Q#218 - >LIHLNHBE_00218 Genome polyprotein	specific	284962	192	333	1.45892e-70	230.299	pfam07652	Flavi_DEAD	 - 	cl21455
+Q#218 - >LIHLNHBE_00218 Genome polyprotein	superfamily	365791	360	469	3.82639e-17	78.8424	cl38915	DEAD-like_helicase_C superfamily	 - 	 - 
+Q#218 - >LIHLNHBE_00218 Genome polyprotein	superfamily	356743	36	164	2.76376e-09	55.909	cl29867	Peptidase_S7 superfamily	 - 	 - 
+Q#219 - >LIHLNHBE_00219 Genome polyprotein	superfamily	279336	2	449	3.74493e-160	466.899	cl03045	Flavi_NS5 superfamily	N	 - 
+Q#221 - >LIHLNHBE_00221 hypothetical protein	superfamily	278998	121	706	2.39669e-13	73.4394	cl02905	Flu_PA superfamily	 - 	 - 
+Q#223 - >LIHLNHBE_00223 hypothetical protein	superfamily	295487	58	145	2.30879e-07	51.13	cl02808	RT_like superfamily	C	 - 
+Q#225 - >LIHLNHBE_00225 hypothetical protein	superfamily	356817	47	219	1.59567e-09	55.1573	cl29941	Viral_coat superfamily	 - 	 - 
+Q#227 - >LIHLNHBE_00227 hypothetical protein	superfamily	295487	88	410	6.6003e-19	89.3525	cl02808	RT_like superfamily	C	 - 
+Q#229 - >LIHLNHBE_00229 hypothetical protein	superfamily	295487	39	289	8.98096e-08	53.2331	cl02808	RT_like superfamily	N	 - 
+Q#230 - >LIHLNHBE_00230 hypothetical protein	specific	338701	173	286	0.000472804	40.4316	pfam13365	Trypsin_2	 - 	cl21584
+Q#231 - >LIHLNHBE_00231 hypothetical protein	superfamily	356817	45	219	9.84844e-07	47.4533	cl29941	Viral_coat superfamily	 - 	 - 
+Q#238 - >LIHLNHBE_00238 hypothetical protein	superfamily	307203	342	1005	2.51193e-61	229.9	cl15638	Mononeg_RNA_pol superfamily	N	 - 
+Q#238 - >LIHLNHBE_00238 hypothetical protein	superfamily	316808	1047	1245	2.2619e-14	74.7236	cl16796	Mononeg_mRNAcap superfamily	 - 	 - 
+Q#238 - >LIHLNHBE_00238 hypothetical protein	superfamily	332632	1181	1846	3.54256e-08	58.6594	cl27811	G-7-MTase superfamily	 - 	 - 
+Q#239 - >LIHLNHBE_00239 hypothetical protein	specific	238843	2600	2887	2.11858e-55	195.195	cd01699	RNA_dep_RNAP	 - 	cl02808
+Q#239 - >LIHLNHBE_00239 hypothetical protein	specific	119412	627	772	3.03376e-15	75.8956	cd00205	rhv_like	 - 	cl13999
+Q#239 - >LIHLNHBE_00239 hypothetical protein	specific	279280	1547	1654	1.94434e-12	65.7201	pfam00910	RNA_helicase	 - 	cl21455
+Q#239 - >LIHLNHBE_00239 hypothetical protein	superfamily	152699	306	466	2.19214e-07	53.807	cl19643	Waikav_capsid_1 superfamily	 - 	 - 
+Q#239 - >LIHLNHBE_00239 hypothetical protein	superfamily	255023	1000	1207	0.000134653	45.2345	cl07393	CRPV_capsid superfamily	 - 	 - 
+Q#241 - >LIHLNHBE_00241 Nucleoprotein	superfamily	279313	1	110	8.71101e-30	109.635	cl20153	Rhabdo_ncap superfamily	NC	 - 
+Q#252 - >LIHLNHBE_00252 hypothetical protein	superfamily	295487	88	410	3.90004e-18	87.0413	cl02808	RT_like superfamily	C	 - 
+Q#254 - >LIHLNHBE_00254 hypothetical protein	superfamily	310384	1	51	2.40442e-07	47.7248	cl05345	Tenui_N superfamily	NC	 - 
+Q#257 - >LIHLNHBE_00257 hypothetical protein	superfamily	353243	68	123	0.00805267	35.5772	cl11399	HP superfamily	N	 - 
+Q#258 - >LIHLNHBE_00258 hypothetical protein	superfamily	279313	15	112	2.44963e-10	55.7067	cl20153	Rhabdo_ncap superfamily	C	 - 
+Q#259 - >LIHLNHBE_00259 Nucleoprotein	superfamily	279313	1	97	2.02267e-21	86.1374	cl20153	Rhabdo_ncap superfamily	NC	 - 
+Q#262 - >LIHLNHBE_00262 hypothetical protein	superfamily	350965	9	63	0.000603322	36.5087	cl00226	nuc_hydro superfamily	NC	 - 
+Q#267 - >LIHLNHBE_00267 hypothetical protein	specific	307679	37	315	1.52268e-63	219.467	pfam01660	Vmethyltransf	 - 	cl03298
+Q#267 - >LIHLNHBE_00267 hypothetical protein	specific	307550	1322	1552	8.01573e-36	136.351	pfam01443	Viral_helicase1	 - 	cl26263
+Q#267 - >LIHLNHBE_00267 hypothetical protein	specific	334653	786	967	2.22923e-17	81.8598	pfam01728	FtsJ	 - 	cl17173
+Q#267 - >LIHLNHBE_00267 hypothetical protein	superfamily	283124	1135	1217	1.21302e-11	63.2037	cl05113	Peptidase_C21 superfamily	 - 	 - 
+Q#267 - >LIHLNHBE_00267 hypothetical protein	superfamily	250270	1886	2128	6.15074e-11	66.8997	cl03049	RdRP_2 superfamily	N	 - 
+Q#267 - >LIHLNHBE_00267 hypothetical protein	superfamily	282904	523	698	1.21695e-06	53.7668	cl37540	Herpes_BLLF1 superfamily	NC	 - 
+Q#268 - >LIHLNHBE_00268 hypothetical protein	superfamily	295487	431	840	3.46239e-30	125.265	cl02808	RT_like superfamily	 - 	 - 
+Q#272 - >LIHLNHBE_00272 RNA-directed RNA polymerase catalytic subunit	superfamily	278997	36	726	1.3155e-67	237.848	cl15495	Flu_PB1 superfamily	 - 	 - 
+Q#273 - >LIHLNHBE_00273 hypothetical protein	superfamily	278998	124	705	9.91894e-15	77.6766	cl02905	Flu_PA superfamily	 - 	 - 
+Q#274 - >LIHLNHBE_00274 hypothetical protein	superfamily	295487	227	450	7.70548e-27	110.066	cl02808	RT_like superfamily	 - 	 - 
+Q#281 - >LIHLNHBE_00281 hypothetical protein	superfamily	310384	1	150	3.35815e-10	56.5844	cl05345	Tenui_N superfamily	N	 - 
+Q#283 - >LIHLNHBE_00283 hypothetical protein	superfamily	310384	11	136	5.72201e-16	71.222	cl05345	Tenui_N superfamily	C	 - 
+Q#286 - >LIHLNHBE_00286 hypothetical protein	superfamily	282102	951	1233	5.95651e-10	64.4158	cl20265	Bunya_RdRp superfamily	N	 - 
+Q#290 - >LIHLNHBE_00290 hypothetical protein	superfamily	339027	2	44	0.00646724	34.1652	cl16506	zf-RVT superfamily	N	 - 
+Q#293 - >LIHLNHBE_00293 hypothetical protein	superfamily	310384	130	277	6.38349e-05	43.8728	cl05345	Tenui_N superfamily	C	 - 
+Q#295 - >LIHLNHBE_00295 hypothetical protein	superfamily	295487	265	666	2.68488e-44	167.252	cl02808	RT_like superfamily	 - 	 - 
+Q#296 - >LIHLNHBE_00296 RNA-directed RNA polymerase catalytic subunit	superfamily	278997	41	762	5.09922e-67	236.308	cl15495	Flu_PB1 superfamily	 - 	 - 
+Q#298 - >LIHLNHBE_00298 hypothetical protein	superfamily	307047	57	190	1.12221e-06	46.4673	cl20208	TMV_coat superfamily	 - 	 - 
+Q#299 - >LIHLNHBE_00299 hypothetical protein	specific	250270	2512	2934	4.5681e-101	333.073	pfam00978	RdRP_2	 - 	cl03049
+Q#299 - >LIHLNHBE_00299 hypothetical protein	specific	307550	2093	2355	8.92979e-31	122.484	pfam01443	Viral_helicase1	 - 	cl26263
+Q#299 - >LIHLNHBE_00299 hypothetical protein	superfamily	223039	833	1113	1.43811e-14	80.6004	cl33723	PHA03307 superfamily	C	 - 
+Q#299 - >LIHLNHBE_00299 hypothetical protein	specific	334653	621	773	1.49385e-11	65.2962	pfam01728	FtsJ	 - 	cl17173
+Q#301 - >LIHLNHBE_00301 hypothetical protein	superfamily	295487	341	666	8.50653e-33	132.969	cl02808	RT_like superfamily	N	 - 
+Q#303 - >LIHLNHBE_00303 hypothetical protein	superfamily	281290	106	260	4.89256e-08	55.1595	cl09300	Baculo_gp64 superfamily	C	 - 
+Q#305 - >LIHLNHBE_00305 hypothetical protein	superfamily	274008	153	236	0.00122476	41.5807	cl37069	SMC_prok_B superfamily	NC	 - 
+Q#309 - >LIHLNHBE_00309 hypothetical protein	superfamily	307203	234	1070	3.17518e-118	401.699	cl15638	Mononeg_RNA_pol superfamily	 - 	 - 
+Q#309 - >LIHLNHBE_00309 hypothetical protein	superfamily	332632	1244	2041	3.20892e-37	153.033	cl27811	G-7-MTase superfamily	 - 	 - 
+Q#311 - >LIHLNHBE_00311 hypothetical protein	superfamily	295487	2564	3093	5.36525e-46	174.482	cl02808	RT_like superfamily	 - 	 - 
+Q#311 - >LIHLNHBE_00311 hypothetical protein	specific	119412	703	897	6.11389e-18	83.9848	cd00205	rhv_like	 - 	cl13999
+Q#311 - >LIHLNHBE_00311 hypothetical protein	specific	279280	1665	1775	4.24478e-11	61.8681	pfam00910	RNA_helicase	 - 	cl21455
+Q#312 - >LIHLNHBE_00312 RNA-directed RNA polymerase L	superfamily	307203	51	1076	0	704.08	cl15638	Mononeg_RNA_pol superfamily	 - 	 - 
+Q#312 - >LIHLNHBE_00312 RNA-directed RNA polymerase L	superfamily	316804	1355	2023	2.29998e-107	359.93	cl16792	Methyltrans_Mon superfamily	 - 	 - 
+Q#312 - >LIHLNHBE_00312 RNA-directed RNA polymerase L	superfamily	316808	1091	1320	2.04497e-51	181.809	cl16796	Mononeg_mRNAcap superfamily	 - 	 - 
+Q#313 - >LIHLNHBE_00313 hypothetical protein	superfamily	279337	26	399	2.96172e-28	117.372	cl03047	Rhabdo_glycop superfamily	C	 - 
+Q#316 - >LIHLNHBE_00316 Nucleoprotein	superfamily	279313	65	385	5.81906e-47	167.415	cl20153	Rhabdo_ncap superfamily	 - 	 - 
+Q#317 - >LIHLNHBE_00317 hypothetical protein	superfamily	282102	667	1345	6.31319e-41	163.797	cl20265	Bunya_RdRp superfamily	 - 	 - 
+Q#318 - >LIHLNHBE_00318 hypothetical protein	superfamily	307203	195	1058	3.68007e-104	360.097	cl15638	Mononeg_RNA_pol superfamily	 - 	 - 
+Q#318 - >LIHLNHBE_00318 hypothetical protein	superfamily	316808	1105	1330	1.14218e-27	113.629	cl16796	Mononeg_mRNAcap superfamily	 - 	 - 
+Q#318 - >LIHLNHBE_00318 hypothetical protein	superfamily	332632	1200	1961	6.7089e-13	74.0674	cl27811	G-7-MTase superfamily	 - 	 - 
+Q#321 - >LIHLNHBE_00321 hypothetical protein	specific	238843	2589	2878	6.65635e-63	216.766	cd01699	RNA_dep_RNAP	 - 	cl02808
+Q#321 - >LIHLNHBE_00321 hypothetical protein	specific	279280	1672	1778	2.99168e-18	82.2837	pfam00910	RNA_helicase	 - 	cl21455
+Q#321 - >LIHLNHBE_00321 hypothetical protein	specific	119412	703	873	2.93102e-16	78.9772	cd00205	rhv_like	 - 	cl13999
+Q#321 - >LIHLNHBE_00321 hypothetical protein	superfamily	353801	1155	1297	3.82828e-08	55.48	cl13999	rhv_like superfamily	 - 	 - 
+Q#321 - >LIHLNHBE_00321 hypothetical protein	superfamily	353801	438	592	4.13053e-08	55.48	cl13999	rhv_like superfamily	 - 	 - 
+Q#322 - >LIHLNHBE_00322 Replicase polyprotein P2AB	superfamily	295487	69	289	5.39891e-11	62.3008	cl02808	RT_like superfamily	 - 	 - 
+Q#323 - >LIHLNHBE_00323 hypothetical protein	superfamily	223039	325	490	0.00380046	39.7693	cl33723	PHA03307 superfamily	C	 - 
+Q#325 - >LIHLNHBE_00325 hypothetical protein	superfamily	295487	147	566	1.81239e-42	161.474	cl02808	RT_like superfamily	 - 	 - 
+Q#327 - >LIHLNHBE_00327 hypothetical protein	superfamily	356817	39	222	1.98863e-16	74.4173	cl29941	Viral_coat superfamily	 - 	 - 
+Q#328 - >LIHLNHBE_00328 hypothetical protein	specific	238843	1330	1645	4.37914e-76	253.745	cd01699	RNA_dep_RNAP	 - 	cl02808
+Q#328 - >LIHLNHBE_00328 hypothetical protein	specific	279280	286	398	9.38192e-31	117.337	pfam00910	RNA_helicase	 - 	cl21455
+Q#328 - >LIHLNHBE_00328 hypothetical protein	superfamily	278947	929	1126	6.37388e-07	50.909	cl02893	Peptidase_C3 superfamily	 - 	 - 
+Q#329 - >LIHLNHBE_00329 Structural polyprotein	specific	255023	93	292	1.4693e-60	190.84	pfam08762	CRPV_capsid	 - 	cl07393
+Q#334 - >LIHLNHBE_00334 hypothetical protein	superfamily	282102	922	1270	1.84517e-09	62.875	cl20265	Bunya_RdRp superfamily	N	 - 
+Q#337 - >LIHLNHBE_00337 hypothetical protein	superfamily	111059	182	307	8.8073e-07	49.6844	cl09540	Peptidase_S39 superfamily	N	 - 
+Q#337 - >LIHLNHBE_00337 hypothetical protein	superfamily	351712	14	61	0.0016673	40.8058	cl02259	YibE_F superfamily	NC	 - 
+Q#338 - >LIHLNHBE_00338 hypothetical protein	superfamily	295487	37	289	1.68857e-09	58.6259	cl02808	RT_like superfamily	N	 - 
+Q#340 - >LIHLNHBE_00340 hypothetical protein	superfamily	356817	82	219	2.21613e-05	43.6014	cl29941	Viral_coat superfamily	N	 - 
+Q#345 - >LIHLNHBE_00345 hypothetical protein	specific	312240	4	76	1.62672e-05	45.1592	pfam08648	DUF1777	C	cl37785
+Q#346 - >LIHLNHBE_00346 hypothetical protein	superfamily	180526	10	65	0.00179106	34.8813	cl32137	PRK06315 superfamily	N	 - 
+Q#352 - >LIHLNHBE_00352 hypothetical protein	superfamily	307627	233	315	0.00423669	39.7738	cl37647	Myosin_tail_1 superfamily	NC	 - 
+Q#356 - >LIHLNHBE_00356 hypothetical protein	superfamily	334070	2	59	0.00359291	35.7365	cl28744	VP4_haemagglut superfamily	N	 - 
+Q#359 - >LIHLNHBE_00359 hypothetical protein	superfamily	310384	1	50	7.1056e-09	51.962	cl05345	Tenui_N superfamily	NC	 - 
+Q#360 - >LIHLNHBE_00360 hypothetical protein	superfamily	307047	57	190	9.12355e-07	46.8525	cl20208	TMV_coat superfamily	 - 	 - 
+Q#361 - >LIHLNHBE_00361 hypothetical protein	specific	250270	2879	3301	4.78117e-101	333.073	pfam00978	RdRP_2	 - 	cl03049
+Q#361 - >LIHLNHBE_00361 hypothetical protein	specific	307550	2460	2722	1.52716e-30	121.714	pfam01443	Viral_helicase1	 - 	cl26263
+Q#361 - >LIHLNHBE_00361 hypothetical protein	superfamily	307679	189	465	7.21639e-21	95.8181	cl03298	Vmethyltransf superfamily	 - 	 - 
+Q#361 - >LIHLNHBE_00361 hypothetical protein	superfamily	223039	1200	1480	3.90545e-14	79.0597	cl33723	PHA03307 superfamily	C	 - 
+Q#361 - >LIHLNHBE_00361 hypothetical protein	specific	334653	988	1140	7.00575e-11	63.3702	pfam01728	FtsJ	 - 	cl17173
+Q#363 - >LIHLNHBE_00363 hypothetical protein	specific	250270	2073	2509	3.58817e-104	341.932	pfam00978	RdRP_2	 - 	cl03049
+Q#363 - >LIHLNHBE_00363 hypothetical protein	specific	307550	1673	1912	8.23011e-35	133.655	pfam01443	Viral_helicase1	 - 	cl26263
+Q#363 - >LIHLNHBE_00363 hypothetical protein	superfamily	307679	50	310	1.62546e-23	103.522	cl03298	Vmethyltransf superfamily	C	 - 
+Q#363 - >LIHLNHBE_00363 hypothetical protein	specific	334653	1174	1355	9.52309e-16	77.2374	pfam01728	FtsJ	 - 	cl17173
+Q#374 - >LIHLNHBE_00374 hypothetical protein	superfamily	307203	217	1074	4.2596e-119	404.395	cl15638	Mononeg_RNA_pol superfamily	 - 	 - 
+Q#374 - >LIHLNHBE_00374 hypothetical protein	superfamily	332632	1248	2013	2.41174e-38	156.885	cl27811	G-7-MTase superfamily	C	 - 
+Q#378 - >LIHLNHBE_00378 hypothetical protein	superfamily	274008	134	253	0.000910418	41.9659	cl37069	SMC_prok_B superfamily	NC	 - 
+Q#381 - >LIHLNHBE_00381 hypothetical protein	superfamily	295487	210	666	7.16465e-38	148.377	cl02808	RT_like superfamily	 - 	 - 
+Q#383 - >LIHLNHBE_00383 hypothetical protein	superfamily	295487	302	666	2.37277e-39	152.615	cl02808	RT_like superfamily	N	 - 
+Q#384 - >LIHLNHBE_00384 RNA-directed RNA polymerase	specific	340216	897	990	5.40352e-36	131.308	pfam17501	Viral_RdRp_C	 - 	cl38772
+Q#384 - >LIHLNHBE_00384 RNA-directed RNA polymerase	superfamily	295487	583	734	0.00233702	40.7296	cl02808	RT_like superfamily	N	 - 
+Q#385 - >LIHLNHBE_00385 hypothetical protein	superfamily	148700	745	1234	2.33652e-30	126.877	cl09431	Phlebovirus_G2 superfamily	 - 	 - 
+Q#385 - >LIHLNHBE_00385 hypothetical protein	superfamily	311284	474	685	0.00710895	40.2032	cl06326	Phlebovirus_G1 superfamily	N	 - 
+Q#388 - >LIHLNHBE_00388 hypothetical protein	superfamily	351939	1	31	0.00131107	37.9766	cl03075	GrpE superfamily	C	 - 
+Q#397 - >LIHLNHBE_00397 hypothetical protein	specific	240668	86	123	0.00895098	33.8177	cd00590	RRM_SF	C	cl17169
+Q#401 - >LIHLNHBE_00401 hypothetical protein	superfamily	310384	11	236	2.01325e-19	83.9336	cl05345	Tenui_N superfamily	 - 	 - 
+Q#403 - >LIHLNHBE_00403 hypothetical protein	superfamily	253459	173	387	3.57277e-05	46.6109	cl05469	Mitovir_RNA_pol superfamily	C	 - 
+Q#404 - >LIHLNHBE_00404 hypothetical protein	superfamily	310384	11	207	4.32237e-18	80.0816	cl05345	Tenui_N superfamily	 - 	 - 
+Q#417 - >LIHLNHBE_00417 hypothetical protein	superfamily	310384	11	227	3.14109e-21	88.556	cl05345	Tenui_N superfamily	 - 	 - 
+Q#420 - >LIHLNHBE_00420 Capsid protein alpha	superfamily	307786	47	356	7.53525e-42	149.154	cl03372	Peptidase_A6 superfamily	 - 	 - 
+Q#425 - >LIHLNHBE_00425 hypothetical protein	superfamily	307203	263	1008	3.81928e-62	232.596	cl15638	Mononeg_RNA_pol superfamily	N	 - 
+Q#428 - >LIHLNHBE_00428 hypothetical protein	superfamily	356817	62	220	8.8083e-10	55.9277	cl29941	Viral_coat superfamily	 - 	 - 
+Q#429 - >LIHLNHBE_00429 hypothetical protein	superfamily	356817	62	220	8.8083e-10	55.9277	cl29941	Viral_coat superfamily	 - 	 - 
+Q#431 - >LIHLNHBE_00431 hypothetical protein	superfamily	295487	35	289	5.80982e-10	60.1667	cl02808	RT_like superfamily	N	 - 
+Q#432 - >LIHLNHBE_00432 hypothetical protein	superfamily	223021	418	639	1.98891e-07	54.5593	cl33720	PHA03247 superfamily	N	 - 
+Q#432 - >LIHLNHBE_00432 hypothetical protein	superfamily	354881	176	289	0.00943036	36.5796	cl21584	Tryp_SPc superfamily	 - 	 - 
+Q#433 - >LIHLNHBE_00433 hypothetical protein	superfamily	295487	22	261	1.70296e-11	65.085	cl02808	RT_like superfamily	NC	 - 

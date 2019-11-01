@@ -145,17 +145,14 @@ def filter_by_taxid (df, db, taxid):
 ##
 ## Get HSP for each query-subject pairing
 ##
-def get_single_hsp (df_file, col_names):
+def get_single_hsp (df_file, blast_type, col_names, coltypes):
     temp = tempfile.NamedTemporaryFile(delete=False)
     print (temp.name+" tempfile")
     if (df_file.startswith("s3://")):
         download_s3_file(df_file, temp.name)
     process = subprocess.Popen(["python", "parse.py", temp.name], stdout=subprocess.PIPE)
-    csv = io.StringIO()
-    for line in process.stdout:
-        csv.write(line.decode().strip('"\n') + '\n')
-    csv.seek(0)
-    outdf = parse_blast_file(csv, sep="\t", comment="#", blast_type=args.blast_type, col_names=col_names)
+    csv = [line.decode().strip('"\n').split('\t') for line in process.stdout]
+    outdf = pd.DataFrame(csv, columns=col_names).assign(blast_type=blast_type).astype(coltypes)
     os.unlink(temp.name)
     return (outdf)
 

@@ -38,20 +38,28 @@ if args.blast_type =="nt":
     col_names = ["query", "subject", "identity", "align_length", "mismatches", 
         "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
         "sci_name", "common_name", "subject_title", "qcov", "hsp_count"]
+    col_types = {"query":str, "subject":str,
+                 "identity":float, "align_length":float,
+                 "mismatches":float, "gaps":float,
+                 "qstart":int, "qend":int, "sstart":int, "send":int, 
+                 "evalue":float, "bitscore":float, "taxid":float, 
+                 "sci_name":str, "common_name":str, "subject_title":str,
+                 "qcov":float, "hsp_count":int}
 elif args.blast_type=="nr":
     db = "protein"
     col_names = ["query", "subject", "identity", "align_length", "mismatches", 
         "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
         "sci_name", "common_name", "subject_title", "qcov", "hsp_count"]
-
-# # Set up aws s3 access
-# blast_file = args.fpath
-        
-# # read in objects
-# blast_results = parse_blast_file(blast_file, sep="\t", comment="#", blast_type=args.blast_type, col_names="auto")
+    col_types = {"query":str, "subject":str,
+             "identity":float, "align_length":float,
+             "mismatches":float, "gaps":float,
+             "qstart":int, "qend":int, "sstart":int, "send":int, 
+             "evalue":float, "bitscore":float, "taxid":float, 
+             "sci_name":str, "common_name":str, "subject_title":str,
+             "qcov":float, "hsp_count":int}
     
 # obtain a single HSP for each query-subject pairing and read in blast results as a pandas data frame
-blast_results = get_single_hsp(args.fpath, col_names) 
+blast_results = get_single_hsp(args.fpath, args.blast_type, col_names, col_types) 
 print_to_stdout("Loaded blast file: "+args.fpath, start_time, verbose)
 
 

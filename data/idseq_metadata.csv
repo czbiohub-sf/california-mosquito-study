@@ -1,0 +1,763 @@
+sample_name,uploader,upload_date,overall_job_status,runtime_seconds,total_reads,nonhost_reads,nonhost_reads_percent,total_ercc_reads,subsampled_fraction,quality_control,compression_ratio,sample_type,nucleotide_type,collection_location,host_genome,notes
+CMS_005_A1_S1,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,4102,10512616,65832,0.626,39898,1,69.209,2.81,NA,NA,NA,Mosquito,NA
+CMS_005_A2_S9,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,7480,53765830,501784,0.933,3434,1,61.15,3,NA,NA,NA,Mosquito,NA
+CMS_005_A3_S17,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,2775,1698100,4824,0.284,1527840,1,22.624,2.87,NA,NA,NA,Mosquito,NA
+CMS_005_B1_S2,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3085,4163758,11530,0.277,443484,1,62.055,5.1,NA,NA,NA,Mosquito,NA
+CMS_005_B2_S10,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3666,9755810,72458,0.743,672,1,63.779,2.35,NA,NA,NA,Mosquito,NA
+CMS_005_B3_S18,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,4985,14363270,536826,3.737,12678,1,69.171,1.46,NA,NA,NA,Mosquito,NA
+CMS_005_C1_S3,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,2774,1141254,6818,0.597,270830,1,53.698,1.45,NA,NA,NA,Mosquito,NA
+CMS_005_C2_S11,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3855,21298190,109886,0.516,3030,1,57.563,3.14,NA,NA,NA,Mosquito,NA
+CMS_005_C3_S19,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3493,8465718,145680,1.721,15704,1,69.343,1.86,NA,NA,NA,Mosquito,NA
+CMS_005_D1_S4,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,4982,19898570,88390,0.444,2103688,1,63.221,3.68,NA,NA,NA,Mosquito,NA
+CMS_005_D2_S12,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3576,5193736,22848,0.44,220,1,62.321,2.54,NA,NA,NA,Mosquito,NA
+CMS_005_D3_S20,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3880,10676062,121934,1.142,49560,1,57.078,1.91,NA,NA,NA,Mosquito,NA
+CMS_005_E1_S5,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3497,531470,2778,0.523,3710,1,58.536,1.31,NA,NA,NA,Mosquito,NA
+CMS_005_E2_S13,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3875,9556298,54516,0.57,20092,1,66.913,2.41,NA,NA,NA,Mosquito,NA
+CMS_005_E3_S21,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,5003,19636026,457658,2.331,8218,1,63.409,1.49,NA,NA,NA,Mosquito,NA
+CMS_005_F1_S6,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,5902,37779104,81526,0.216,5377048,1,67.005,5.98,NA,NA,NA,Mosquito,NA
+CMS_005_F2_S14,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,4196,6405062,45590,0.712,231004,1,63.097,1.97,NA,NA,NA,Mosquito,NA
+CMS_005_F3_S22,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3554,13646950,87310,0.64,1842,1,67.757,3.08,NA,NA,NA,Mosquito,NA
+CMS_005_G1_S7,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,4969,20160828,54612,0.271,3999236,1,61.026,4.3,NA,NA,NA,Mosquito,NA
+CMS_005_G2_S15,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,5063,7053948,53840,0.763,1266098,1,67.542,2.37,NA,NA,NA,Mosquito,NA
+CMS_005_G3_S23,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,3605,6498936,61570,0.947,636,1,71.988,2.37,NA,NA,NA,Mosquito,NA
+CMS_005_H1_S8,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,4630,11505628,51560,0.448,2377886,1,63.046,3.41,NA,NA,NA,Mosquito,NA
+CMS_005_H2_S16,Kalani Ratnasiri,2018-11-22 14:01:43 -0800,COMPLETE,5109,23291248,127864,0.549,2283832,1,64.926,3.54,NA,NA,NA,Mosquito,NA
+CMS_006_RNA_A_S1,NA,2018-02-06 17:57:49 -0800,COMPLETE,11395,58468534,614932,1.052,0,1,79.189,1.46,Insect engorged abdomen,RNA,37.556970_-122.079380,Mosquito,Culex erythrothorax_09/19/17_Coyotes Hills_
+CMS_017_RNA_A_S2,NA,2018-02-06 17:57:49 -0800,COMPLETE,11624,73926974,565962,0.766,0,1,79.755,1.39,Insect engorged abdomen,RNA,37.581910_-122.04838,Mosquito,Culex erythrothorax_10/06/17_Bobwhite Pond (Fremont)_
+CMS_032_RNA_A_S4,NA,2018-02-06 17:57:49 -0800,COMPLETE,2443,48593918,288418,0.594,0,1,57.745,1.42,Insect engorged abdomen,RNA,37.661260_-122.133350,Mosquito,Culex tarsalis_NA_Skywest Golf_
+CMS_070_RNA_A_S3,NA,2018-02-06 17:57:49 -0800,COMPLETE,19801,63094794,511918,0.811,0,1,82.817,1.43,Insect abdomen,RNA,37.556970_-122.079380,Mosquito,Culex tarsalis_09/19/17_Coyotes Hills
+CMS_088a_MagMax_RNA_A_S5,NA,2018-05-29 15:18:01 -0700,COMPLETE,1694,26335784,147028,0.558,37246,1,24.481,1.09,NA,NA,NA,Mosquito,NA
+CMS_088b_Dynabeads_RNA_A_S6,NA,2018-05-29 15:18:01 -0700,COMPLETE,2319,57530186,463460,0.806,14038,1,19.942,1.1,NA,NA,NA,Mosquito,NA
+CMS_089a_MagBeads_RNA_A_S7,NA,2018-05-29 15:18:01 -0700,COMPLETE,2397,41716132,229406,0.55,5150,1,26.904,1.18,NA,NA,NA,Mosquito,NA
+CMS_089b_ZymoZRDuet_RNA_A_S8,NA,2018-05-29 15:18:01 -0700,COMPLETE,2397,67299454,408028,0.606,2706,1,26.35,1.1,NA,NA,NA,Mosquito,NA
+CMS_100_RNA_A_S3,NA,2018-05-29 15:18:01 -0700,COMPLETE,1826,11035288,15990,0.145,906,1,21.476,1.19,NA,NA,NA,Mosquito,NA
+CMS_70_RNA_A_S4,NA,2018-05-29 15:18:01 -0700,COMPLETE,1779,8547182,15722,0.184,874,1,30.202,1.2,NA,NA,NA,Mosquito,NA
+CMS_D_RNA_A_S1,NA,2018-05-29 15:18:01 -0700,COMPLETE,588,19285368,152842,0.793,3810,1,33.01,1.56,NA,NA,NA,Mosquito,NA
+CMS_RL_RNA_A_S2,NA,2018-05-29 15:18:01 -0700,COMPLETE,1719,7752368,22772,0.294,514,1,26.018,1.15,NA,NA,NA,Mosquito,NA
+CMS-076_RNA_A_S12,NA,2018-02-06 17:57:49 -0800,COMPLETE,14366,60230548,956812,1.589,0,1,78.112,2.05,NA,NA,NA,Mosquito,NA
+CMS-078_RNA_A_S5,NA,2018-02-06 17:57:49 -0800,COMPLETE,6261,41550322,515760,1.241,0,1,77.625,1.49,NA,NA,NA,Mosquito,NA
+CMS-079_RNA_A_S6,NA,2018-02-06 17:57:49 -0800,COMPLETE,11465,53378586,649290,1.216,0,1,82.476,1.49,NA,NA,NA,Mosquito,NA
+CMS-080_RNA_A_S7,NA,2018-02-06 17:57:49 -0800,COMPLETE,10926,53978484,812388,1.505,0,1,84.003,1.28,NA,NA,NA,Mosquito,NA
+CMS-081_RNA_A_S8,NA,2018-02-06 17:57:49 -0800,COMPLETE,13178,68383652,743076,1.087,0,1,80.059,1.28,NA,NA,NA,Mosquito,NA
+CMS-082_RNA_A_S9,NA,2018-02-06 17:57:49 -0800,COMPLETE,7514,55151546,552446,1.002,0,1,82.407,1.14,NA,NA,NA,Mosquito,NA
+CMS-083_RNA_A_S10,NA,2018-02-06 17:57:49 -0800,COMPLETE,13590,56742820,907258,1.599,0,1,85.134,1.2,NA,RNA,Alameda,Mosquito,"Wuhan Mosquito Virus, Calbertado virus"
+CMS-086_RNA_A_S11,Kalani Ratnasiri,2018-02-06 17:54:23 -0800,COMPLETE,16084,50066188,1180950,2.359,0,1,80.062,1.24,NA,NA,NA,Mosquito,NA
+CMS001_001_Ra_S1,NA,2018-03-25 21:38:09 -0700,COMPLETE,47392,26717044,687714,2.574,6104,1,45.554,1.31,whole,RNA,37.556970_-122.079380,Mosquito,Culex erythrothorax_10/03/17_Coyotes Hills_HubeiMosquitoVirus4-WenzhouTombusLike11-HubeiVirgaLike2_Providencia_Trypanosome_rodent
+CMS001_002_Ra_S1,NA,2018-04-15 09:23:02 -0700,COMPLETE,40464,31503742,369628,1.173,3080,1,48.006,1.25,whole,RNA,37.556970_-122.079380,Mosquito,Culex tarsalis_09/21/17_Coyotes Hills_
+CMS001_003_Ra_S2,NA,2018-03-25 21:38:09 -0700,COMPLETE,39916,27436684,279064,1.017,2214,1,50.479,2.06,whole,RNA,37.556970_-122.079380,Mosquito,Culex particepts_09/19/17_Coyotes Hills_Anphevirus-CulexMononegaLike1-CulexMononegaLike2-OtherDivergentMonegaviruses_Acinobacter-Gilliamella-Anaplasma_Trichinella:PlasmodiumOvale_FarmAnimals-Homo?
+CMS001_004_Ra_S2,NA,2018-04-15 09:23:02 -0700,COMPLETE,34194,35584846,46660,0.131,2586,1,15.904,1.18,whole,RNA,37.715200_-122.194310,Mosquito,Culex pipiens_09/12/17_San Leandro Sewer_
+CMS001_005_Ra_S3,NA,2018-03-25 21:38:10 -0700,COMPLETE,41964,36030436,414060,1.149,2862,1,37.776,2.07,whole,RNA,37.788860_-122.299030,Mosquito,Culex incidens_09/29/17_Officers Club_EnvironmentaldsRNAvirus-WuhanMosquitoVirus8-ImjinRiver_Acinobacter_Trichinella_FarmAnimals_Homo?
+CMS001_006_Ra_S5,Kalani Ratnasiri,2018-08-21 14:26:32 -0700,COMPLETE,38510,31771554,114312,0.36,6042,1,56.666,1.39,whole,RNA,37.55697: -122.07938,Mosquito,NA
+CMS001_007_Ra_S12,NA,2018-03-25 21:38:10 -0700,COMPLETE,32446,20334238,55328,0.272,1314,1,66.02,1.08,whole,RNA,37.556970_-122.079380,Mosquito,Culex erythrothorax_09/19/17_Coyotes Hills_Trypanosome_Homo?
+CMS001_008_Ra_S3,NA,2018-04-15 09:23:02 -0700,COMPLETE,39756,39977532,242172,0.606,1790,1,49.979,3.11,whole,RNA,37.556970_-122.079380,Mosquito,Culex particepts_09/19/17_Coyotes Hills_
+CMS001_009_Ra_S13,NA,2018-03-26 17:39:09 -0700,COMPLETE,60904,62306790,813290,1.305,2678,1,84.341,2.28,whole,RNA,37.556970_-122.079380,Mosquito,Culex particepts_09/19/17_Coyotes Hills
+CMS001_010_Ra_S1,NA,2018-04-19 14:22:25 -0700,COMPLETE,34459,10956312,31874,0.291,5356,1,33.875,1.03,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_9/19/17_Coyotes Hills_
+CMS001_011_Ra_S4,NA,2018-04-15 09:23:02 -0700,COMPLETE,38907,46367004,169722,0.366,3804,1,20.617,1.15,whole,RNA,37.556970_-122.079380,Mosquito,Culex erythrothorax_09/19/17_Coyotes Hills_
+CMS001_012_Ra_S4,NA,2018-03-25 21:38:10 -0700,COMPLETE,8343,29359278,183896,0.626,2540,1,36.686,1.48,whole,RNA,37.556970_-122.079380,Mosquito,Culex dorsalis_09/19/17_Coyotes Hills_Orbivirus
+CMS001_013_Ra_S5,NA,2018-04-15 09:23:02 -0700,COMPLETE,36837,46803120,109460,0.234,10046,1,30.854,1.06,whole,RNA,37.556970_-122.079380,Mosquito,Culex erythrothorax_09/19/17_Coyotes Hills_
+CMS001_014_Ra_S5,NA,2018-03-25 21:38:10 -0700,COMPLETE,38737,30285576,189340,0.625,1926,1,46.136,2.39,whole,RNA,37.581910_-122.048380,Mosquito,Culex incidens_10/06/17_Bobwhite Pond (Fremont)_dsRNA virus environmental sample
+CMS001_015_Ra_S13,NA,2018-04-15 09:23:02 -0700,COMPLETE,32440,31961998,53908,0.169,2148,1,13.028,1.09,whole,RNA,37.556970_-122.079380,Mosquito,Culex erythrothorax_09/27/17_Coyotes Hills_
+CMS001_016_Ra_S6,NA,2018-03-25 21:38:10 -0700,COMPLETE,39711,26878040,314946,1.172,1760,1,50.78,1.95,whole,RNA,37.581910_-122.04846,Mosquito,Culex inornata_09/19/17_Union City (near Bobwhite)_
+CMS001_017_Ra_S6,Kalani Ratnasiri,2018-08-21 14:26:31 -0700,COMPLETE,38054,35183096,111950,0.318,3056,1,63.155,1.39,whole,RNA,"37.58191,	-122.04838",Mosquito,NA
+CMS001_018_Ra_S14,NA,2018-03-25 21:38:10 -0700,COMPLETE,31444,18795122,65880,0.351,1206,1,39.662,1.07,whole,RNA,37.556970_-122.07938,Mosquito,Culex erythrothorax_09/27/17_Coyotes Hills_Spirochetes_Trypanosomes
+CMS001_019_Ra_S14,NA,2018-04-15 09:23:02 -0700,COMPLETE,35746,31633394,77522,0.245,1892,1,23.974,1.13,whole,RNA,37.556970_-122.07938,Mosquito,Culex erythrothorax_10/04/17_Coyotes Hills_
+CMS001_020_Ra_S15,NA,2018-04-15 09:23:02 -0700,COMPLETE,39087,31195308,396026,1.27,4426,1,55.868,1.14,whole,RNA,37.581910_-122.04846,Mosquito,Culex erythrothorax_10/06/17_Union City Sanitary District_
+CMS001_021_Ra_S16,NA,2018-04-15 09:23:03 -0700,COMPLETE,38693,30799178,259392,0.842,4756,1,43.264,1.04,whole,RNA,37.581910_-122.04838,Mosquito,Culex erythrothorax_10/06/17_Bobwhite Pond (Fremont)_
+CMS001_022_Ra_S6,NA,2018-04-15 09:23:03 -0700,COMPLETE,37263,46009226,177872,0.387,9752,1,27.47,1.27,whole,RNA,37.556970_-122.07938,Mosquito,Culex erythrothorax_09/27/17_Coyotes Hills_
+CMS001_023_Ra_S17,NA,2018-04-15 09:23:03 -0700,COMPLETE,35144,29556020,67972,0.23,1872,1,19.476,1.09,whole,RNA,37.581910_-122.04838,Mosquito,Culex erythrothorax_10/06/17_Bobwhite Pond (Fremont)_
+CMS001_024_Ra_S15,NA,2018-03-26 10:09:24 -0700,COMPLETE,35685,21483528,85546,0.398,2110,1,69.843,1.1,whole,RNA,37.581910_-122.04838,Mosquito,Culex erythrothorax_10/06/17_Bobwhite Pond (Fremont)_
+CMS001_025_Ra_S7,NA,2018-04-15 09:23:03 -0700,COMPLETE,40808,38525702,272530,0.707,1794,1,54.337,3.27,whole,RNA,37.556970_-122.07938,Mosquito,Culex tarsalis_09/21/17_Coyote Hills
+CMS001_026_Ra_S18,NA,2018-04-15 09:23:03 -0700,COMPLETE,38268,44577072,326078,0.731,2666,1,50.461,3.17,whole,RNA,37.509530_-121.93113,Mosquito,Culex tarsalis_09/19/17_Park Meadow Pond (Fremont)_
+CMS001_027_Ra_S16,NA,2018-03-26 10:09:24 -0700,COMPLETE,32425,29422908,80376,0.273,452,1,65.928,1.22,whole,RNA,37.866500_-122.310510,Mosquito,Culex tarsalis_09/12/17_McLaughlin Park (Berkeley)_
+CMS001_028_Ra_S17,NA,2018-03-26 10:09:24 -0700,COMPLETE,35141,13579216,97818,0.72,1384,1,66.26,1.05,whole,RNA,37.715200_-122.194310,Mosquito,Culex tarsalis_09/12/17_San Leandro Sewer_
+CMS001_029_Ra_S18,NA,2018-03-26 10:09:24 -0700,COMPLETE,35683,18413176,89566,0.486,304,1,38.835,1.32,whole,RNA,37.684730_-121.913410,Mosquito,Culex pipiens_09/13/17_Val Vista Comm Park (Livermore)_
+CMS001_030_Ra_S7,NA,2018-03-26 10:09:24 -0700,COMPLETE,35169,32798496,69840,0.213,2094,1,15.171,1.22,whole,RNA,37.715200_-122.194310,Mosquito,Culex pipiens_09/10/17_San Leandro Sewer_
+CMS001_031_Ra_S19,NA,2018-03-26 10:09:24 -0700,COMPLETE,37207,13525892,109616,0.81,2016,1,76.688,1.09,whole,RNA,37.806300_-122.257300,Mosquito,Culex tarsalis_09/13/17_Bonsai Garden (Oakland)_
+CMS001_032_Ra_S7,Kalani Ratnasiri,2018-08-21 14:26:31 -0700,COMPLETE,36945,36829212,93508,0.254,2468,1,57.199,1.7,whole,RNA,"37.66126, -122.13335",Mosquito,NA
+CMS001_033_Ra_S8,NA,2018-04-15 09:23:03 -0700,COMPLETE,37442,31711470,185802,0.586,7106,1,30.678,1.09,whole,RNA,37.556970_-122.079380,Mosquito,Culex tarsalis_09/11/17_Coyotes Hills_
+CMS001_034_Ra_S19,NA,2018-04-15 09:23:03 -0700,COMPLETE,36653,25525650,114330,0.448,1250,1,20.315,1.08,whole,RNA,37.556970_-122.079380,Mosquito,Culex tarsalis_09/11/17_Coyotes Hills_
+CMS001_035_Ra_S20,NA,2018-03-26 10:09:24 -0700,COMPLETE,44679,13364956,373770,2.797,1540,1,82.918,1.37,whole,RNA,37.556970_-122.079380,Mosquito,Culex erythrothorax_09/11/17_Coyotes Hills_
+CMS001_036_Ra_S20,NA,2018-04-15 09:23:03 -0700,COMPLETE,43299,28785710,275388,0.957,10062,1,42.621,1.1,whole,RNA,37.556970_-122.079380,Mosquito,Culex tarsalis_09/11/17_Coyotes Hills_
+CMS001_037_Ra_S21,NA,2018-04-15 09:23:03 -0700,COMPLETE,34211,47742618,112490,0.236,4170,1,28.593,1.15,whole,RNA,NA,Mosquito,Culex erythrothorax_08/18/17_NA_
+CMS001_038_Ra_S22,NA,2018-04-15 09:23:03 -0700,COMPLETE,37154,36067908,132206,0.367,3244,1,32.488,1.12,whole,RNA,37.583910_-122.092380,Mosquito,Culex tarsalis_08/24/17_South Marsh Pond (Union City)_
+CMS001_039_Ra_S9,NA,2018-04-15 09:23:03 -0700,COMPLETE,36643,34687168,112376,0.324,2012,1,30.224,1.14,whole,RNA,37.583910_-122.092380,Mosquito,Culex tarsalis_08/24/17_South Marsh Pond (Union City)_
+CMS001_040_Ra_S21,NA,2018-03-26 10:09:24 -0700,COMPLETE,30339,15491978,70502,0.455,2790,1,66.103,1.07,whole,RNA,37.499490_-121.933780,Mosquito,Culex tarsalis_08/31/17_Reliance Way Lot
+CMS001_041_Ra_S10,NA,2018-04-15 09:23:03 -0700,COMPLETE,34740,35752378,102676,0.287,4474,1,35.292,1.3,whole,RNA,37.499490_-121.933780,Mosquito,Culex pipiens_08/31/17_Reliance Way Lot_
+CMS001_042_Ra_S23,NA,2018-04-15 09:23:03 -0700,COMPLETE,31726,36384680,138728,0.381,2058,1,29.381,1.11,whole,RNA,37.661260_-122.133350,Mosquito,Culex tarsalis_08/25/17_Skywest Golf_
+CMS001_043_Ra_S24,NA,2018-04-15 09:23:03 -0700,COMPLETE,36958,20543860,84360,0.411,1502,1,36.997,1.13,whole,RNA,37.661260_-122.133350,Mosquito,Culex tarsalis_08/25/17_Skywest Golf_
+CMS001_044_Ra_S25,NA,2018-04-15 09:23:03 -0700,COMPLETE,32398,11465786,65128,0.568,836,1,50.932,1.1,whole,RNA,37.661260_-122.133350,Mosquito,Culex pipiens_8/25/17_Skywest Golf_
+CMS001_045_Ra_S2,NA,2018-04-19 14:22:25 -0700,COMPLETE,36647,10869462,135680,1.248,14114,1,50.477,1.11,whole,RNA,37.55697_-122.079380,Mosquito,Culex_tarsalis_8/3/17_Coyotes Hills_
+CMS001_046_Ra_S3,NA,2018-04-19 14:22:25 -0700,COMPLETE,41239,15574872,384232,2.467,3376,1,49.789,1.33,whole,RNA,37.55697_-122.07938,Mosquito,Culex_tarsalis__8/3/17_Coyotes Hills_
+CMS001_047_Ra_S4,NA,2018-04-19 14:22:25 -0700,COMPLETE,35606,11122662,104044,0.935,1142,1,37.299,1.13,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_8/3/2017_Coyotes Hills_
+CMS001_048_Ra_S5,NA,2018-04-19 14:22:25 -0700,COMPLETE,31615,11602996,46294,0.399,2754,1,31.742,1.05,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_8/3/2017_Coyotes Hills_
+CMS001_049_Ra_S6,NA,2018-04-19 14:22:25 -0700,COMPLETE,38079,13208840,67518,0.511,1360,1,21.588,1.07,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_8/3/2017_Coyotes Hills_
+CMS001_050_Ra_S23,NA,2018-03-26 10:09:24 -0700,COMPLETE,36750,24841430,112662,0.454,1008,1,59.948,1.1,whole,RNA,37.506080_-121.998570,Mosquito,Culex erythrothorax_10/17/17_Stevenson Pond (Newark)_Providencia_HubeiVirgaLike2
+CMS001_051_Ra_S8,NA,2018-03-26 10:09:24 -0700,COMPLETE,39085,30339330,207714,0.685,1574,1,27.557,1.14,whole,RNA,37.506080_-121.998570,Mosquito,Culex tarsalis_10/17/17_Stevenson Pond (Newark)_HubeiMosquitoVirus2-EnvironmentalBunyaviridae-Narnaviridae-WenzhouSobemoLike4
+CMS001_052_Ra_S7,NA,2018-04-19 14:22:25 -0700,COMPLETE,32385,15587242,46936,0.301,1066,1,18.317,1.08,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_9/21/2017_Coyotes Hills_
+CMS001_053_Ra_S8,NA,2018-04-19 14:22:25 -0700,COMPLETE,32416,18426770,47824,0.26,946,1,16.766,1.08,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_10/7/2017_Coyotes Hills_
+CMS001_054_Ra_S11,NA,2018-04-15 09:23:03 -0700,COMPLETE,36394,34981460,40758,0.117,3636,1,21.507,1.29,whole,RNA,37.630830_-122.142670,Mosquito,Culex pipiens_02/10/16_Dutra Duck Ponds_
+CMS001_055_Ra_S9,NA,2018-04-19 14:22:25 -0700,COMPLETE,31613,15309036,29778,0.195,2454,1,19.935,1.03,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_9/21/2017_Coyotes Hills_
+CMS001_056_Ra_S10,NA,2018-04-19 14:22:25 -0700,COMPLETE,35070,16171702,40488,0.25,2180,1,25.512,1.06,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_9/21/2017_Coyotes Hills_
+CMS001_057_Ra_S11,NA,2018-04-19 14:22:25 -0700,COMPLETE,37431,16068996,181904,1.132,3442,1,47.419,1.22,whole,RNA,37.55697_-122.07938,Mosquito,Culex_erythrothorax_9/21/2017_Coyotes Hills_
+CMS001_058_Ra_S9,NA,2018-03-26 10:09:24 -0700,COMPLETE,37031,23464710,116416,0.496,2310,1,23.392,1.1,whole,RNA,NA_NA,Mosquito,Culex_erythrothorax_NA_NA_NA_mammalianBloodmeal-spirochete-HubeiVirgaLike2-Narnaviridae-WenzhouTombuLike11-HubeiMosquitoVirus4
+CMS001_059_Ra_S10,NA,2018-03-26 10:09:24 -0700,COMPLETE,36694,28157612,99862,0.355,4634,1,15.634,1.19,whole,RNA,37.668300_-122.159150,Mosquito,Culex pipiens_10/24/17_Ora Loma Sanitary District_Wolbachia-divergentHaemophilus_Trypanosomes
+CMS001_060_Ra_S12,NA,2018-04-15 09:23:03 -0700,COMPLETE,45221,41239958,504880,1.224,2998,1,61.184,2.36,whole,RNA,37.556970_-122.07938,Mosquito,Culex inornata_10/23/17_Coyote Hills_Was this Aedes?
+CMS001_water1_S11,NA,2018-03-26 10:09:24 -0700,COMPLETE,30436,9186,6,0.065,214,1,0.386,1.31,water,RNA,NA,Mosquito,NA
+CMS001_water2_S24,NA,2018-03-26 10:09:24 -0700,COMPLETE,31257,464240,3994,0.86,431350,1,30.096,1.03,water,RNA,NA,Mosquito,NA
+CMS001_water3_Qiagen_S26,NA,2018-04-15 09:23:03 -0700,COMPLETE,36806,8462350,78068,0.923,204484,1,48.175,1.48,water,RNA,NA,Mosquito,NA
+CMS001_water4_Zymo_S27,NA,2018-04-15 09:23:03 -0700,COMPLETE,32342,1069066,9400,0.879,873754,1,13.307,1.26,water,RNA,NA,Mosquito,NA
+CMS001_water5_RNA_A_S12,NA,2018-04-19 14:22:25 -0700,COMPLETE,32368,31114,184,0.591,13204,1,2.567,1.03,water,RNA,NA,Mosquito,NA
+CMS002_001a_Rb_S116_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,22402,54921592,82762,0.151,7932,1,14.819,1.89,whole,RNA,"32.7962659, -116.9594824",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y
+id_method: HLC then added to rna shield"
+CMS002_004a_Rb_S117_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,19873,54382586,13812,0.025,7214,1,5.727,2.16,whole,RNA,"32.7991943, -116.9193062",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y
+id_method: HLC then added to rna shield"
+CMS002_007a_Rb_S118_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,47804,91089974,717738,0.788,21520,1,59.22,3.42,whole,RNA,"32.7856362, -116.9887078",Mosquito,"Tongilchon virus 1 & North Creek virus & Riverside  = unclassified rhabdoviridae  (PMID 28943405) - use all these to seed PRICE assembly
+- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y
+id_method: HLC then added to rna shield"
+CMS002_010a_Rb_S119_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,20521,89358216,33756,0.038,5540,1,11.687,2.36,whole,RNA,"32.7981529, -116.9544084",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y
+id_method: HLC then added to rna shield"
+CMS002_013a_Rb_S120_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,19585,76144326,68442,0.09,45442,1,30.708,1.8,whole,RNA,"32.7996185, -116.9393203",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: Y
+id_method: HLC then added to rna shield"
+CMS002_016a_Rb_S121_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,21805,81220802,1342,0.002,12820,1,2.402,1.33,whole,RNA,"32.7152395, -117.1148424",Mosquito,"Super clean sample surprisingly few non-host reads
+- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: N
+id_method: HLC then added to rna shield"
+CMS002_017a_Rb_S122_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,26753,75330508,151912,0.202,24734,1,12.505,1.49,whole,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_017b_Rb_S123_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,28965,77087486,172502,0.224,27258,1,24.459,1.51,whole,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_017c_Rb_S124_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,23024,66242378,162094,0.245,59528,1,25.903,1.52,whole,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_017d_Rb_S125_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,29647,50709076,263722,0.52,16458,1,44.079,1.37,whole,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_017e_Rb_S126_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,21519,61930896,13054,0.021,21374,1,4.469,1.33,whole,RNA,"32.5542907, -117.0482800",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_018a_Rb_S128_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,25655,53659794,32974,0.061,2396,1,2.425,1.36,whole,RNA,"32.6952215, -117.1221922",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 2
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 2 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_018b_Rb_S129_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,24061,89837146,219176,0.244,80804,1,26.811,1.72,whole,RNA,"32.6952215, -117.1221922",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 2
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 2 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_019a_Rb_S130_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,27698,71919820,210562,0.293,50604,1,30.583,1.78,whole,RNA,"32.760258, -117.0813933",Mosquito,"- id_method : Freeze
+- genus_species: Ae. Egypti
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: N
+id_method: HLC then added to rna shield"
+CMS002_020a_Rb_S131_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,44852,66177444,744862,1.126,13426,1,48.613,2.11,whole,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_020b_Rb_S132_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,35783,119173142,264600,0.222,12138,1,38.181,4.9,whole,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_020c_Rb_S133_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,42929,126641370,322644,0.255,26980,1,30.755,5.1,whole,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: HLC then added to rna shield"
+CMS002_020d_Rb_S134_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,25082,31922362,158114,0.495,2984,1,35.689,2.74,whole,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap then added to rna shield"
+CMS002_020e_Rb_S135_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,36021,74164868,436078,0.588,22170,1,55.879,3.35,whole,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap then added to rna shield"
+CMS002_021a_Rb_S136_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,50191,94039124,1100040,1.17,8050,1,60.991,2.49,whole,RNA,"32.9407491, -1172165239",Mosquito,"- id_method : Freeze
+- genus_species: Cs. Particeps
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: N
+id_method: Light trap then added to rna shield"
+CMS002_022a_Rb_S137_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,27615,94157694,91574,0.097,15692,1,12.904,2.05,whole,RNA,"32.552783, -117.0559469",Mosquito,"- id_method : Freeze
+- genus_species: Cx. Quing
+- Number of mosquitos: 2
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 2 mosquitoes
+id_method: Light trap then added to rna shield"
+CMS002_023a_Rb_S138_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,21432,54787968,103350,0.189,21486,1,22.605,1.61,whole,RNA,"32.5928337, -117.0575668",Mosquito,"- id_method : Freeze
+- genus_species: Cx. Quing
+- Number of mosquitos: 1
+- Sex: female
+- Blood fed: N
+id_method: Light trap then added to rna shield"
+CMS002_025a_Rb_S140_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,17145,18885656,2188,0.012,80464,1,37.414,1.31,whole,RNA,"32.5928337, -117.0575668",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N
+Mosquito selected from a pool of 6 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_025b_Rb_S141_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,16515,25645770,1006,0.004,130776,1,28.382,1.28,whole,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N
+Mosquito selected from a pool of 6 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_025c_Rb_S142_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,19908,85740778,1930,0.002,94,1,7.288,1.4,whole,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N
+Mosquito selected from a pool of 6 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_025d_Rb_S143_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,16379,35087042,858,0.002,44038,1,7.214,1.34,whole,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N
+Mosquito selected from a pool of 6 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_025e_Rb_S144_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,21277,88720312,4848,0.005,96904,1,5.736,1.4,whole,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N
+Mosquito selected from a pool of 6 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_025f_Rb_S145_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,19667,78690306,618,0.001,5366,1,5.879,1.46,whole,RNA,"33.954615, -117.693828",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 6
+- Blood fed: N
+Mosquito selected from a pool of 6 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_026a_Rb_S146_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,17444,37269798,11688,0.031,29134,1,40.461,2.63,whole,RNA,"34.155852, -117.666926",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_026b_Rb_S147_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,19047,56506648,18398,0.033,43114,1,33.194,2.94,whole,RNA,"34.150853, -117.642917",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 8
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_026c_Rb_S148_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,18501,60679324,25302,0.042,80830,1,36.633,2.7,whole,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_026d_Rb_S149_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,23734,96884414,44056,0.045,16830,1,25.12,3.12,whole,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_026e_Rb_S150_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,19120,61840756,19820,0.032,99524,1,29.626,2.79,whole,RNA,NA,Mosquito,"Mosquito selected from a pool of 5 mosquitoes; tube contained beads and broken up parts
+id_method: Light trap then added to rna shield"
+CMS002_027a_Rb_S152_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,21345,37243342,33744,0.091,2060,1,6.28,1.85,whole,RNA,"34.150853, -117.642917",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 8
+- Blood fed: N
+Mosquito selected from a pool of 8 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_027b_Rb_S153_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,26794,83431474,183742,0.22,8096,1,22.141,2.09,whole,RNA,"34.150853, -117.642917",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 8
+- Blood fed: N
+Mosquito selected from a pool of 8 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_028a_Rb_S154_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,33427,78859068,115070,0.146,16582,1,29.676,2.26,whole,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_028b_Rb_S155_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,32288,109203686,137308,0.126,24236,1,37.633,2.92,whole,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_028c_Rb_S156_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,29999,91267932,125498,0.138,25946,1,21.624,2.39,whole,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_028d_Rb_S157_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,32918,97823918,167862,0.172,24772,1,21.387,2.29,whole,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_028e_Rb_S158_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,44860,124739806,676476,0.542,36290,1,39.917,2.24,whole,RNA,"33.935, -117.655833",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_029a_Rb_S159_L004,Kalani Ratnasiri,2018-07-16 16:20:53 -0700,COMPLETE,38325,93293792,309430,0.332,12848,1,22.224,1.75,whole,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_029b_Rb_S160_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,31536,85392072,182846,0.214,8450,1,31.565,2.04,whole,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_029c_Rb_S161_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,39920,93413514,194790,0.209,4918,1,15.273,2.26,whole,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_029d_Rb_S162_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,37694,78476036,300516,0.383,6896,1,18.516,1.84,whole,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_029e_Rb_S164_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,18842,25660162,193732,0.755,14406,1,69.626,1.5,whole,RNA,"33.925833, -117.659722",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_031a_Rb_S165_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,29689,46150948,286630,0.621,61106,1,44.548,1.63,whole,RNA,"33.516797, -116.082468",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_032a_Rb_S166_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,32522,63556578,495598,0.78,78602,1,59.192,1.51,whole,RNA,"33.516797, -116.082468",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 6
+- Sex: males
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_033a_Rb_S167_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,38839,71357226,422242,0.592,31584,1,48.835,1.71,whole,RNA,"33.569223, -116.079206",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_034a_Rb_S168_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,21327,38621804,148282,0.384,24106,1,29.452,1.69,whole,RNA,"33.569223, -116.079206",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 4
+- Sex: males
+- Blood fed: N
+Mosquito selected from a pool of 4 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_035a_Rb_S169_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,40182,73951030,626816,0.848,66950,1,52.661,1.63,whole,RNA,"33.539988, -116.078863",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_036a_Rb_S170_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,29348,37781352,280752,0.743,86656,1,73.63,1.54,whole,RNA,"33.539988, -116.078863",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: males
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_037a_Rb_S171_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,36226,97570774,303764,0.311,17294,1,17.809,2.07,whole,RNA,"33.463593, -116.074278",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_038a_Rb_S172_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,36761,92324952,478196,0.518,43950,1,32.871,1.79,whole,RNA,"33.52908, -116.035213",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_039a_Rb_S173_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,32538,75161228,336788,0.448,47320,1,50.075,1.67,whole,RNA,"33.532468, -116.060957",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_040a_Rb_S174_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,27293,65632852,348576,0.531,68298,1,52.595,1.72,whole,RNA,"33.532468, -116.060957",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: males
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_041a_Rb_S176_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,28185,49581704,200106,0.404,48380,1,45.773,1.71,whole,RNA,"33.510767, -115.920793",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_042a_Rb_S177_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,17957,34365364,72474,0.211,13178,1,70.572,1.68,whole,RNA,"33.525475, -115.956632",Mosquito,"- id_method : TEA
+- genus_species: Cx. Tarsalis
+- Number of mosquitos: 5
+- Sex: females
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_044a_Rb_S178_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,18328,51576844,3738,0.007,24708,1,10.654,1.35,whole,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_044b_Rb_S179_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,18008,38526446,1582,0.004,56828,1,27.965,1.3,whole,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_044c_Rb_S180_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,20405,93622432,2034,0.002,24652,1,4.618,1.38,whole,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_044d_Rb_S181_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,21335,111230412,6034,0.005,66578,1,5.271,1.6,whole,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_044e_Rb_S182_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,17755,50807004,4226,0.008,165276,1,38.675,1.7,whole,RNA,"33.954531, -117.692953",Mosquito,"- id_method : TEA
+- genus_species: Ae. Aegypti
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_045a_Rb_S183_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,26014,88956902,35756,0.04,21398,1,11.562,3.17,whole,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N
+Mosquito selected from a pool of 7 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_045b_Rb_S184_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,21762,62566848,45804,0.073,92990,1,42.232,2.76,whole,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N
+Mosquito selected from a pool of 7 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_045c_Rb_S185_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,19494,53689962,105124,0.196,346240,1,84.062,3.29,whole,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N
+Mosquito selected from a pool of 7 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_045d_Rb_S186_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,21867,54817098,181534,0.331,49364,1,42.701,2.23,whole,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N
+Mosquito selected from a pool of 7 mosquitoes
+id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_045e_Rb_S188_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,25573,44910420,242958,0.541,83058,1,84.425,2.62,whole,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N
+Mosquito selected from a pool of 7 mosquitoes"
+CMS002_045f_Rb_S189_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,18008,34302400,21838,0.064,83472,1,79.355,3.19,whole,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N
+Mosquito selected from a pool of 7 mosquitoes"
+CMS002_045g_Rb_S190_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,18740,43011038,98364,0.229,59586,1,80.59,2.78,whole,RNA,"34.151881, -117.66295",Mosquito,"- id_method : TEA
+- genus_species: Ae. Albopictus 
+- Number of mosquitos: 7
+- Blood fed: N
+Mosquito selected from a pool of 7 mosquitoes"
+CMS002_046a_Rb_S191_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,30491,99761686,89374,0.09,15644,1,10.715,2,whole,RNA,"33.9725, -117.714444",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes; tube contained beads and broken up parts"
+CMS002_046b_Rb_S192_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,21934,86797744,99992,0.115,15900,1,22.053,1.9,whole,RNA,"33.9725, -117.714444",Mosquito,"- id_method : TEA
+- genus_species: Cx. Quinquefasciatus
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes; tube contained beads and broken up parts"
+CMS002_047a_Rb_S193_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,28350,75891160,145250,0.191,15406,1,28.666,2.09,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes; tube contained beads and broken up parts"
+CMS002_047b_Rb_S194_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,18458,35774292,66854,0.187,58352,1,66.488,1.78,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_047c_Rb_S195_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,28159,76639662,150590,0.196,30186,1,33.812,1.86,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_047d_Rb_S196_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,29071,84501126,202738,0.24,31214,1,47.059,2.09,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_047e_Rb_S197_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,25776,77821980,185822,0.239,8952,1,39.716,2.14,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_047f_Rb_S198_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,23660,55260394,137186,0.248,26166,1,29.126,1.85,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_047g_Rb_S200_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,22377,32029932,134566,0.42,9966,1,34.351,1.92,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_047h_Rb_S1_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,22452,54254598,103446,0.191,17440,1,38.002,2.08,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_047i_Rb_S2_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,23224,54727762,107640,0.197,8140,1,26.013,1.99,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_047j_Rb_S3_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,22869,66671224,149082,0.224,31550,1,40.379,1.94,whole,RNA,"33.93778, -117.633056",Mosquito,"- id_method : TEA
+- genus_species: CX. Erythrothorax
+- Number of mosquitos: 10
+- Blood fed: N
+Mosquito selected from a pool of 10 mosquitoes; tube contained beads and broken up parts"
+CMS002_049a_Rb_S4_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,19541,55951408,83096,0.149,27144,1,22.586,1.61,whole,RNA,"38.739939, -121.305636",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 3
+- Blood fed: N
+Mosquito selected from a pool of 3 mosquitoes"
+CMS002_050a_Rb_S5_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,17534,40223370,4052,0.01,1608,1,11.521,2.98,whole,RNA,"38.824306, -121.257067",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS002_051a_Rb_S6_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,22351,81237864,139988,0.172,5968,1,25.487,2.52,whole,RNA,"38.897572, -121.311747",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 5
+- Blood fed: N
+Mosquito selected from a pool of 5 mosquitoes"
+CMS002_053a_Rb_S7_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,5718,150000000,1233696,0.822,48218,1,45.143,1.8,whole,RNA,"38.836781, -121.39119",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS002_054a_Rb_S8_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,19025,75446550,85110,0.113,7692,1,49.713,1.57,whole,RNA,"38.772222, -121.4695",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS002_056a_Rb_S9_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,28069,38502368,417130,1.083,69908,1,63.449,1.61,whole,RNA,"38.787211, -121.372895",Mosquito,"- id_method : FREEZE
+- genus_species: Cx. Tarsalis 
+- Number of mosquitos: 1
+- Blood fed: N
+head + 1 leg only"
+CMS002_057a_Rb_S10_L004,Kalani Ratnasiri,2018-07-16 16:20:54 -0700,COMPLETE,20314,52687788,53942,0.102,18342,1,20.815,2.49,whole,RNA,"38.787211, -121.372895",Mosquito,"- id_method : FREEZE
+- genus_species: Cx.Pipiens
+- Number of mosquitos: 1
+- Blood fed: N"
+CMS002_0Water1_Rb_S127_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,16225,247124,1400,0.567,175282,1,9.645,1.33,water,RNA,NA,Mosquito,id_method: HLC then added to rna shield
+CMS002_0Water2_Rb_S139_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,16168,190334,1274,0.669,141826,1,10.077,1.25,water,RNA,NA,Mosquito,id_method: Light trap then added to rna shield
+CMS002_0Water3_Rb_S151_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,16418,175490,1400,0.798,137646,1,11.99,1.22,water,RNA,NA,Mosquito,id_method: Light trap then added to rna shield
+CMS002_0Water4_Rb_S163_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,16246,168186,1734,1.031,124906,1,14.394,1.27,water,RNA,NA,Mosquito,"id_method: Light trap- dessicated, stored at RT then added to rna shield"
+CMS002_0Water5_Rb_S175_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,16224,273804,1842,0.673,192392,1,10.186,1.35,water,RNA,NA,Mosquito,"id_method: Light trap- dessicated, stored at -20 then added to rna shield"
+CMS002_0Water6_Rb_S187_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,17626,51178,552,1.079,37232,1,14.342,1.2,water,RNA,NA,Mosquito,NA
+CMS002_0Water7_Rb_S199_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,16207,184738,1340,0.725,137964,1,9.939,1.24,water,RNA,NA,Mosquito,NA
+CMS002_0Water8_Rb_S11_L004,Kalani Ratnasiri,2018-07-16 16:20:55 -0700,COMPLETE,16180,4534,64,1.412,2992,1,12.791,1.08,water,RNA,NA,Mosquito,NA
+Exp_12F_A01_S1,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,3184,11529450,131410,1.14,36006,1,87.386,2.12,NA,NA,NA,Mosquito,NA
+Exp_12F_A02_S2,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,2238,28224,298,1.056,21546,1,34.333,1.05,NA,NA,NA,Mosquito,NA
+Exp_12F_A03_S3,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,3948,14839988,97722,0.659,24490,1,78.393,1.14,NA,NA,NA,Mosquito,NA
+Exp_12F_A04_S4,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,2007,34296,622,1.814,25648,1,54.964,1.11,NA,NA,NA,Mosquito,NA
+Exp_12F_A05_S5,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,4067,17043142,228234,1.339,5464,1,82.617,1.06,NA,NA,NA,Mosquito,NA
+Exp_12F_A06_S6,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,2307,41116,726,1.766,30022,1,55.347,1.23,NA,NA,NA,Mosquito,NA
+Exp_12F_A07_S7,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,3646,17550992,126788,0.722,122042,1,81.041,1.31,NA,NA,NA,Mosquito,NA
+Exp_12F_A08_S8,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,9976,1612394,109856,6.813,81044,1,91.312,10.22,NA,NA,NA,Mosquito,NA
+Exp_12F_B01_S9,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,2161,79734,1428,1.791,56340,1,78.015,1.12,NA,NA,NA,Mosquito,NA
+Exp_12F_B02_S10,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,3416,13451706,157050,1.168,18988,1,85.493,1.07,NA,NA,NA,Mosquito,NA
+Exp_12F_B03_S11,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,1687,24490,314,1.282,20934,1,70.755,1.08,NA,NA,NA,Mosquito,NA
+Exp_12F_B04_S12,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,3905,16048688,275508,1.717,9728,1,91.011,2.2,NA,NA,NA,Mosquito,NA
+Exp_12F_B05_S13,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,1959,114796,2394,2.085,90374,1,81.156,1.22,NA,NA,NA,Mosquito,NA
+Exp_12F_B06_S14,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,2647,14621648,125092,0.856,12798,1,83.303,1.16,NA,NA,NA,Mosquito,NA
+Exp_12F_B07_S15,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,2230,2934,52,1.772,2352,1,70.221,1.02,NA,NA,NA,Mosquito,NA
+Exp_12F_B08_S16,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,4009,18449418,139122,0.754,24472,1,82.556,1.11,NA,NA,NA,Mosquito,NA
+Exp_12F_C01_S17,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,4151,16822842,155932,0.927,26818,1,77.171,1.3,NA,NA,NA,Mosquito,NA
+Exp_12F_C02_S18,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,6916,95990,10440,10.876,42428,1,88.624,3.07,NA,NA,NA,Mosquito,NA
+Exp_12F_C03_S19,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,3772,12077170,119492,0.989,26094,1,80.814,1.23,NA,NA,NA,Mosquito,NA
+Exp_12F_C04_S20,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,2120,26934,480,1.782,23470,1,61.283,1.05,NA,NA,NA,Mosquito,NA
+Exp_12F_C05_S21,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,4215,17969654,217914,1.213,0,1,71.103,1.11,NA,NA,NA,Mosquito,NA
+Exp_12F_C06_S22,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,2255,408,102,25,0,1,34.872,1.01,NA,NA,NA,Mosquito,NA
+Exp_12F_C07_S23,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,4420,14037770,327420,2.332,24854,1,71.865,1.57,NA,NA,NA,Mosquito,NA
+Exp_12F_C08_S24,Kalani Ratnasiri,2018-10-23 15:25:15 -0700,COMPLETE,1920,3062,20,0.653,2832,1,26.852,1.26,NA,NA,NA,Mosquito,NA
+Exp12b_5-13_S1_L001,Kalani Ratnasiri,2018-08-21 14:26:31 -0700,COMPLETE,3691,2408750,34674,1.44,1564552,1,43.197,2.04,NA,NA,NA,Mosquito,Water
+Exp12b_5-4_S2_L001,Kalani Ratnasiri,2018-08-21 14:26:31 -0700,COMPLETE,3198,708606,12344,1.742,346072,1,34.994,1.49,NA,NA,NA,Mosquito,Water
+Exp12b_5-6_S3_L001,Kalani Ratnasiri,2018-08-21 14:26:31 -0700,COMPLETE,3014,11151958,75606,0.678,6714,1,75.681,1.48,NA,NA,NA,Mosquito,NA
+Exp12b_5-7_S4_L001,Kalani Ratnasiri,2018-08-21 14:26:31 -0700,COMPLETE,2695,766070,10922,1.426,494372,1,26.996,1.75,NA,NA,NA,Mosquito,Water
+FREZtarsABDO05_DNA_S9,NA,2017-10-02 16:10:11 -0700,COMPLETE,25363,57683728,18907812,32.778,0,0.105776,70.134,1.04,NA,NA,NA,Mosquito,NA
+FREZtarsABDO05_RNA_S2,NA,2017-10-02 16:10:33 -0700,COMPLETE,6073,52928538,398342,0.753,0,1,48.26,1.4,NA,NA,NA,Mosquito,NA
+FREZtarsABDO20_RNA_S3,NA,2017-10-02 16:12:10 -0700,COMPLETE,8097,58384418,398696,0.683,0,1,48.096,1.34,NA,NA,NA,Mosquito,NA
+FREZtarsHEAD05_DNA_S8,NA,2017-10-02 16:12:18 -0700,COMPLETE,65708,101079952,29507684,29.192,0,0.067779,68.485,1.05,Insect head,NA,NA,Mosquito,NA
+FREZtarsHEAD05_RNA_S1,NA,2017-10-02 16:12:27 -0700,COMPLETE,8493,60760662,489282,0.805,0,1,43.956,1.34,Insect head,NA,NA,Mosquito,NA
+FREZtarsHEAD20_DNA_S10,NA,2017-10-02 16:12:37 -0700,COMPLETE,70326,59150136,18876628,31.913,0,0.105951,70.316,1.03,Insect head,NA,NA,Mosquito,NA
+FREZtarsHEAD20_RNA_S6,NA,2017-10-02 16:12:44 -0700,COMPLETE,11689,81876908,1211386,1.48,0,1,46.875,1.58,Insect head,NA,NA,Mosquito,Mosquito Head
+MOS001_001_W_R_S11_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,3883,20683000,32380,0.157,190908,1,37.7,4.45,whole,RNA,NA,Mosquito,NA
+MOS001_002_W_R_S12_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,7876,110770656,354050,0.32,107840,1,77.527,2,whole,RNA,NA,Mosquito,NA
+MOS001_003_W_R_S13_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,7550,86921784,348064,0.4,160862,1,81.112,2.24,whole,RNA,NA,Mosquito,NA
+MOS001_004_W_R_S14_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4678,94560312,86038,0.091,112336,1,79.839,2.22,whole,RNA,NA,Mosquito,NA
+MOS001_005_W_R_S15_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,6912,68487202,398416,0.582,344422,1,85.429,1.91,whole,RNA,NA,Mosquito,NA
+MOS001_006_H_R_S16_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4193,70522768,52080,0.074,303476,1,38.051,3.45,head,RNA,NA,Mosquito,NA
+MOS001_006_H_R_S2,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,2527,6608450,16800,0.254,27010,1,62.872,1.52,head,RNA,NA,Mosquito,NA
+MOS001_007_H_R_S17_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,2882,78816038,932,0.001,138468,1,46.686,4.63,head,RNA,NA,Mosquito,NA
+MOS001_008_H_R_S18_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,3524,107991816,158450,0.147,48206,1,69.924,1.8,head,RNA,NA,Mosquito,NA
+MOS001_009_H_R_S19_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4314,81457278,306978,0.377,41332,1,81.394,2.1,head,RNA,NA,Mosquito,NA
+MOS001_01_W_R_S1,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,2456,2148868,10562,0.492,19080,1,44.098,1.59,whole,RNA,NA,Mosquito,NA
+MOS001_010_H_R_S20_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,7321,99708036,597702,0.599,93574,1,71.112,2.84,head,RNA,NA,Mosquito,NA
+MOS001_011_A_R_S21_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,3990,90215302,12860,0.014,183732,1,32.219,3.36,abdomen,RNA,NA,Mosquito,NA
+MOS001_012_A_R_S22_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4187,94894894,8192,0.009,112218,1,60.867,3.08,abdomen,RNA,NA,Mosquito,NA
+MOS001_013_A_R_S23_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,5080,117653824,115992,0.099,346832,1,46.31,1.76,abdomen,RNA,NA,Mosquito,NA
+MOS001_014_A_R_S24_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,5543,35893992,203408,0.567,547300,1,69.992,3.25,abdomen,RNA,NA,Mosquito,NA
+MOS001_014_A_R_S3,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,3220,3439462,59734,1.737,52422,1,82.688,1.2,abdomen,RNA,NA,Mosquito,NA
+MOS001_015_A_R_S25_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,5659,85465600,104314,0.122,168462,1,58.151,2.15,abdomen,RNA,NA,Mosquito,NA
+MOS001_016_W_R_S26_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,6166,107059752,248334,0.232,185418,1,57.386,1.86,whole,RNA,NA,Mosquito,NA
+MOS001_017_W_R_S27_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4650,96023468,66148,0.069,155932,1,68.382,2.62,whole,RNA,NA,Mosquito,NA
+MOS001_018_W_R_S28_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4163,83077050,191872,0.231,38320,1,75.148,1.96,whole,RNA,NA,Mosquito,NA
+MOS001_019_W_R_S29_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,3393,21915248,47180,0.215,130370,1,31.352,2.48,whole,RNA,NA,Mosquito,NA
+MOS001_019_W_R_S4,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,1955,1732484,8876,0.512,9762,1,46.891,1.11,whole,RNA,NA,Mosquito,NA
+MOS001_020_W_R_S30_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4297,103826670,28050,0.027,213606,1,50.803,2.48,whole,RNA,NA,Mosquito,NA
+MOS001_021_H_R_S31_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,3148,80818594,4796,0.006,58124,1,35.582,1.94,head,RNA,NA,Mosquito,NA
+MOS001_022_A_R_S32_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,3094,83177208,9248,0.011,113688,1,38.589,2.34,abdomen,RNA,NA,Mosquito,NA
+MOS001_023_H_R_S33_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4299,102063238,23094,0.023,361188,1,67.814,3.34,head,RNA,NA,Mosquito,NA
+MOS001_024_H_R_S34_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,3643,26203856,46666,0.178,182604,1,31.48,2.51,head,RNA,NA,Mosquito,NA
+MOS001_024_H_R_S5,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,2851,2367392,10290,0.435,15176,1,46.094,1.21,head,RNA,NA,Mosquito,NA
+MOS001_025_H_R_S35_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4524,96760462,42614,0.044,127970,1,74.404,3.1,head,RNA,NA,Mosquito,NA
+MOS001_026_H_R_S36_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,3414,69676486,4236,0.006,58284,1,53.991,2.94,abdomen,RNA,NA,Mosquito,NA
+MOS001_027_H_R_S37_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4716,130389860,10558,0.008,181312,1,56.137,2.92,head,RNA,NA,Mosquito,NA
+MOS001_028_A_R_S38_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,4718,88060618,39350,0.045,82440,1,53.926,2.48,abdomen,RNA,NA,Mosquito,NA
+MOS001_029_A_R_S39_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,8411,26807852,1233404,4.601,152782,1,82.717,2.1,abdomen,RNA,NA,Mosquito,NA
+MOS001_029_A_R_S6,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,3579,2263348,209986,9.278,12850,1,88.998,1.06,abdomen,RNA,NA,Mosquito,NA
+MOS001_030_A_R_S215_L004,Amy Kistler,2018-11-09 16:53:11 -0800,COMPLETE,1979,45103984,163560,0.363,206902,1,44.738,1.68,abdomen,RNA,NA,Mosquito,NA
+MOS001_031_W_R_S40_L001,Calla Martyn,2018-08-15 09:18:45 -0700,COMPLETE,6188,34044718,251580,0.739,360202,1,50.911,3.94,whole,RNA,NA,Mosquito,NA
+MOS001_031_W_R_S7,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,2824,2467528,72848,2.952,28296,1,73.737,1.17,whole,RNA,NA,Mosquito,NA
+MOS001_032_W_R_S41_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,10388,103179322,589998,0.572,340566,1,84.44,2.37,whole,RNA,NA,Mosquito,NA
+MOS001_033_W_R_S42_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,8025,94003158,422048,0.449,222506,1,89.311,2.34,whole,RNA,NA,Mosquito,NA
+MOS001_034_W_R_S43_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,10451,126340524,629316,0.498,237454,1,81.869,2.1,whole,RNA,NA,Mosquito,NA
+MOS001_035_W_R_S44_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,7628,84732476,395392,0.467,345492,1,79.595,2.12,whole,RNA,NA,Mosquito,NA
+MOS001_036_H_R_S45_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,6168,44797252,227692,0.508,1900250,1,61.42,6.05,head,RNA,NA,Mosquito,NA
+MOS001_036_H_R_S8,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,3660,3555440,79370,2.232,143014,1,68.523,1.59,head,RNA,NA,Mosquito,NA
+MOS001_037_H_R_S46_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,7438,117382312,158226,0.135,933128,1,77.391,2.27,head,RNA,NA,Mosquito,NA
+MOS001_038_H_R_S47_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,8597,150000000,209606,0.14,1536892,1,74.91,2.48,head,RNA,NA,Mosquito,NA
+MOS001_039_H_R_S48_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,4119,68384428,64252,0.094,127722,1,64.464,1.7,head,RNA,NA,Mosquito,NA
+MOS001_041_A_R_S49_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,4655,19418692,125800,0.648,1821734,1,62.893,4.91,head,RNA,NA,Mosquito,NA
+MOS001_041_A_R_S9,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,3413,1800354,41824,2.323,157846,1,66.269,1.48,abdomen,RNA,NA,Mosquito,NA
+MOS001_042_A_R_S50_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,2332,11596,22,0.19,34,1,49.24,1.28,abdomen,RNA,NA,Mosquito,NA
+MOS001_043_A_R_S51_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,6580,94664382,184772,0.195,287748,1,75.293,2.64,abdomen,RNA,NA,Mosquito,NA
+MOS001_044_A_R_S52_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,5036,79049586,181438,0.23,469166,1,72.823,3.43,abdomen,RNA,NA,Mosquito,NA
+MOS001_045_A_R_S53_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,4879,74403568,94332,0.127,282318,1,56.102,2.34,abdomen,RNA,NA,Mosquito,NA
+MOS001_046_W_R_S10,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,3055,1445982,30948,2.14,14712,1,70.717,1.07,abdomen,RNA,NA,Mosquito,NA
+MOS001_046_W_R_S54_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,4712,24204084,164000,0.678,212768,1,53.82,3.44,whole,RNA,NA,Mosquito,NA
+MOS001_047_W_R_S55_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,6572,107708168,238148,0.221,108334,1,65.971,2.4,whole,RNA,NA,Mosquito,NA
+MOS001_048_W_R_S56_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,8322,101231556,461762,0.456,1143652,1,86.271,2.87,whole,RNA,NA,Mosquito,NA
+MOS001_049_W_R_S57_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,6900,100041402,90618,0.091,186924,1,70.506,2.59,whole,RNA,NA,Mosquito,NA
+MOS001_050_W_R_S58_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,8720,89691062,212314,0.237,345756,1,74.58,2.75,whole,RNA,NA,Mosquito,NA
+MOS001_051_H_R1_S205_L004,Amy Kistler,2018-10-05 18:16:55 -0700,COMPLETE,4236,30507224,107892,0.354,163606,1,71.252,1.79,whole,RNA,NA,Mosquito,NA
+MOS001_052_H_R_S59_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,6544,87235490,127312,0.146,605162,1,66.179,2.78,head,RNA,NA,Mosquito,NA
+MOS001_053_H_R_S60_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,6586,85265416,128464,0.151,286580,1,68.317,1.88,head,RNA,NA,Mosquito,NA
+MOS001_054_H_R_S61_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,6149,109086284,109370,0.1,431956,1,80.234,2.31,head,RNA,NA,Mosquito,NA
+MOS001_055_H_R_S62_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,7293,92982600,177148,0.191,268486,1,76.17,2.18,head,RNA,NA,Mosquito,NA
+MOS001_056_A_R_S11,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,2401,1555766,33346,2.143,8918,1,70.576,1.08,head,RNA,NA,Mosquito,NA
+MOS001_056_A_R_S63_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,4779,16338544,180274,1.103,102268,1,49.702,2.08,abdomen,RNA,NA,Mosquito,NA
+MOS001_057_A_R_S64_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,7239,107299518,168486,0.157,269390,1,67.402,2.19,abdomen,RNA,NA,Mosquito,NA
+MOS001_058_A_R_S65_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,9485,110879496,690152,0.622,479038,1,88.854,3.35,abdomen,RNA,NA,Mosquito,NA
+MOS001_059_A_R_S66_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,5016,72380706,46844,0.065,456450,1,68.6,1.93,abdomen,RNA,NA,Mosquito,NA
+MOS001_060_A_R_S67_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,6924,106833474,203504,0.19,2721596,1,64.033,3.61,abdomen,RNA,NA,Mosquito,NA
+MOS001_Water_1_S12,Calla Martyn,2018-07-18 17:17:40 -0700,COMPLETE,3948,556432,102416,18.406,264386,1,85.078,1.81,abdomen,NA,NA,Mosquito,NA
+MOS001_Water_1_S68_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,5371,3834310,191564,4.996,1877070,1,88.331,6.56,NA,NA,NA,Mosquito,NA
+MOS001_Water_2_S69_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,3518,679816,3586,0.527,169474,1,11.415,1.66,NA,NA,NA,Mosquito,NA
+MOS001_Water_3_S70_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,3405,2028350,29278,1.443,1578020,1,50.568,1.99,NA,NA,NA,Mosquito,NA
+MOS001_Water_4_S71_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,3746,1651896,32570,1.972,1229242,1,51.562,1.9,NA,NA,NA,Mosquito,NA
+MOS001_Water_5_S72_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,3403,1454374,30564,2.102,1058594,1,46.487,1.92,NA,NA,NA,Mosquito,NA
+MOS001_Water_6_S73_L001,Calla Martyn,2018-08-15 09:18:46 -0700,COMPLETE,4067,1542618,24576,1.593,1048078,1,44.672,2.06,NA,NA,NA,Mosquito,NA
+MOS001_Water_NT1_S8_L001,Calla Martyn,2018-08-15 14:35:02 -0700,COMPLETE,2808,2615226,54228,2.074,860132,1,24.195,2.39,NA,NA,NA,Mosquito,NA
+MOS001_Water_NT2_S9_L001,Calla Martyn,2018-08-15 14:35:48 -0700,COMPLETE,1909,1352506,9200,0.68,436394,1,12.906,2.07,NA,NA,NA,Mosquito,NA
+MOST01_NT3_S10_L001,Calla Martyn,2018-08-15 14:36:12 -0700,COMPLETE,2658,1424982,19568,1.373,1059864,1,48.29,2.03,NA,NA,NA,Mosquito,NA
+TEAtarsABDO05_DNA_S12,NA,2017-10-02 16:12:52 -0700,COMPLETE,73130,55003416,15112574,27.476,0,0.13234,66.712,1.04,NA,NA,NA,Mosquito,NA
+TEAtarsABDO05_RNA_S4,NA,2017-10-02 16:13:00 -0700,COMPLETE,1601,33181308,330538,0.996,0,1,52.682,1.31,NA,NA,NA,Mosquito,NA
+TEAtarsABDO20_RNA_S5,NA,2017-10-02 16:13:08 -0700,COMPLETE,2534,61340566,541044,0.882,0,1,42.941,1.29,NA,NA,NA,Mosquito,NA
+TEAtarsHEAD05_DNA_S11,NA,2017-10-02 16:13:17 -0700,COMPLETE,19514,51114196,14173302,27.729,0,0.14111,65.325,1.03,Insect head,NA,NA,Mosquito,NA
+TEAtarsHEAD05_RNA_S7,NA,2017-10-02 16:13:25 -0700,COMPLETE,9410,82770328,906146,1.095,0,1,45.441,1.81,Insect head,NA,NA,Mosquito,NA
+TEAtarsHEAD20_DNA_S13,NA,2017-10-02 16:13:34 -0700,FAILED,17258,52397738,NA,NA,0,NA,69.567,1.02,Insect head,NA,NA,Mosquito,NA

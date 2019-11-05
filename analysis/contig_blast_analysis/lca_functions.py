@@ -246,15 +246,13 @@ def print_to_stdout(message, start_time, verbose):
 def combine_blast_lca (lca_file_name, blast_file_name, outfile, sample_name, blast_type, output_file_name=None):
     lca_data = pd.read_csv(lca_file_name, sep="\t", header=0)
     blast_data = pd.read_csv(blast_file_name, sep="\t", header=0)
-    # Below lines have been replaced by pyblastc analysis
-#     blast_data_grouped = blast_data.groupby(["query"], as_index=False).\
-#     apply(lambda x: x[x["bitscore"]==max(x["bitscore"])].head(n=1))
-#     blast_data_grouped = blast_data_grouped[['query', 'identity', 'align_length', 'mismatches', 'gaps',
-#                                              'qstart', 'qend', 'sstart', 'send', 'bitscore']]
-#    blast_data_grouped.columns = blast_data_grouped.columns.get_level_values(0)
-#    grouped_df = pd.merge(blast_data_grouped, lca_data, how="left", on="query")
-#     grouped_df.insert(1, "blast_type", value=blast_type)
-#     grouped_df.insert(2, "sample", value=sample_name)
-    grouped_df = pd.merge(blast_data, lca_data, how="left", on="query")
+    blast_data_grouped = blast_data.groupby(["query"], as_index=False).\
+    apply(lambda x: x[x["bitscore"]==max(x["bitscore"])].head(n=1))
+    blast_data_grouped = blast_data_grouped[['query', 'identity', 'align_length', 'mismatches', 'gaps',
+                                             'qstart', 'qend', 'sstart', 'send', 'bitscore']]
+    blast_data_grouped.columns = blast_data_grouped.columns.get_level_values(0)
+    grouped_df = pd.merge(blast_data_grouped, lca_data, how="left", on="query")
+    grouped_df.insert(1, "blast_type", value=blast_type)
+    grouped_df.insert(2, "sample", value=sample_name)
     df_to_s3(grouped_df, outfile)
     return (outfile)

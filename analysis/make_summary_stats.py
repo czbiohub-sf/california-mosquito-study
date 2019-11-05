@@ -11,6 +11,10 @@ import io
 import time
 import json
 import sys
+from ete3 import NCBITaxa
+
+ncbi = NCBITaxa()
+
 
 
 
@@ -61,6 +65,15 @@ def return_blast_results (row_x, blast_nt, blast_nr, blast_columns):
     return(blast[blast["query"]==row_x["contig_name"]][blast_columns].head(n=1))
 
 
+def get_tax_group (taxid):
+    taxon_groups = ["Viruses", "Bacteria", "Archaea", "Metazoa", "Eukaryota"]
+    taxon_groups_id = [ncbi.get_name_translator([x])[x][0] for x in taxon_groups]
+    lineage = ncbi.get_lineage(taxid)
+    for i, tax in enumerate(taxon_groups_id):
+        if (tax in lineage):
+            return (taxon_groups[i])
+    return ("Ambiguous")
+
 s3 = boto3.resource('s3')
 bucket_name = "czbiohub-mosquito"
 
@@ -76,9 +89,10 @@ lca_contig_fn = "contig_stats_lca.tsv"
 contig_stats_json = load_json_from_s3(s3, bucket_name, os.path.join(contig_folder_name, "contig_stats.json"))
 if ("*" in contig_stats_json):
     contig_stats_json.pop("*")
+
 contig_stats_df = pd.Series(contig_stats_json).reset_index(name="read_count").rename(columns={"index":"contig_name"})
 contig_stats_df = contig_stats_df.assign(sample=sample_name)
-contig_stats_df = contig_stats_df.assign(contig_length=contig_stats_df["contig_name"].str.split("_").apply(lambda x: x[3]))
+contig_stats_df = contig_stats_df.assign(contig_length=contig_stats_df["contig_name"].str.split("_").apply(lambda x: int(x[3])))
 contig_stats_df = contig_stats_df[["sample", "contig_name", "contig_length", "read_count"]]
 
 if ((contig_stats_df["read_count"]>2).sum()==0):
@@ -102,15 +116,25 @@ contig_stats_lca_df = contig_stats_df[contig_stats_df["read_count"]>2]
 nt_contigs = contig_quality_dfs["exclude_contigs_nt.txt"][contig_quality_dfs["exclude_contigs_nt.txt"]["taxid_na"] | contig_quality_dfs["exclude_contigs_nt.txt"]["hexapoda"]]["query"].tolist()
 if (contig_quality_dfs["blast_lca_nt_filtered.m9"] is not None):
     nt_contigs += contig_quality_dfs["blast_lca_nt_filtered.m9"]["query"].unique().tolist()
+
+    
 nr_contigs = contig_quality_dfs["exclude_contigs_nr.txt"][contig_quality_dfs["exclude_contigs_nr.txt"]["taxid_na"] | contig_quality_dfs["exclude_contigs_nr.txt"]["hexapoda"]]["query"].tolist()
+
+    
 if (contig_quality_dfs["blast_lca_nr_filtered.m9"] is not None):
     nr_contigs += contig_quality_dfs["blast_lca_nr_filtered.m9"]["query"].unique().tolist()
+
+    
 contig_stats_lca_df = contig_stats_lca_df.assign(nt=contig_stats_lca_df["contig_name"].isin(nt_contigs))
 contig_stats_lca_df = contig_stats_lca_df.assign(nr=contig_stats_lca_df["contig_name"].isin(nr_contigs))
 contig_stats_lca_df = contig_stats_lca_df[contig_stats_lca_df["nt"] | contig_stats_lca_df["nr"]]
 contig_stats_lca_df = pd.merge(contig_stats_lca_df, contig_quality_dfs["exclude_contigs_nt.txt"][["query", "hexapoda"]], how="left", left_on="contig_name", right_on="query").drop(columns=["query"], axis=1)
 contig_stats_lca_df = pd.merge(contig_stats_lca_df, contig_quality_dfs["exclude_contigs_nr.txt"][["query", "hexapoda"]], how="left", left_on="contig_name", right_on="query", suffixes=["_nt", "_nr"]).drop(columns=["query"], axis=1)
 hexapoda_discordance = contig_stats_lca_df.apply(lambda x: ((x["hexapoda_nt"]==True)&(x["hexapoda_nr"]==False))|((x["hexapoda_nr"]==True)&(x["hexapoda_nt"]==False)), axis=1)
+
+
+
+
 if (hexapoda_discordance.any()):
     print (contig_stats_lca_df[hexapoda_discordance]["query"])
     exit()
@@ -130,7 +154,8 @@ nt_nr_blast_results = contig_stats_lca_df[~contig_stats_lca_df["nt_or_nr"].isnul
 
 contig_stats_lca_df.loc[~contig_stats_lca_df["nt_or_nr"].isnull(), blast_col_names] = pd.concat(nt_nr_blast_results.tolist(), ignore_index=True)
 
-
+contig_stats_lca_df = contig_stats_lca_df.assign(tax_group=np.nan)
+contig_stats_lca_df.loc[~contig_stats_lca_df["taxid"].isnull(), "taxon_group"] = contig_stats_lca_df["taxid"][~contig_stats_lca_df["taxid"].isnull()].apply(get_tax_group)
 
 df_to_s3(s3, contig_stats_lca_df, bucket_name, os.path.join(contig_quality_folder_name, lca_contig_fn), header=True)
 

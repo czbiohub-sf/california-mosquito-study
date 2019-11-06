@@ -1,0 +1,51 @@
+
+```{r}
+knitr::opts_chunk$set(root.dir='~/src/skeeters')
+library(taxizedb)
+library(tidyverse)
+library(purrr)
+library(ggplot2)
+library(decontam)
+library(forcats)
+```
+
+```{r}
+data_dir = '../data'
+```
+
+```{r}
+sample_table = read_csv(file.path(data_dir, 'idseq_metadata.csv'))
+```
+
+```{r}
+sample_table
+```
+
+```{r}
+sample_table = sample_table %>% mutate(water = str_detect(sample, 'ater')) %>%
+  select(sample, total_reads, nonhost_reads, total_ercc_reads, compression_ratio, water) %>%
+  mutate(input_conc = (total_reads - total_ercc_reads)/total_ercc_reads)
+```
+
+Total Reads
+
+```{r}
+sample_table %>% filter(!water) %>% ggplot(aes(x=sample, y=total_reads)) + geom_bar(stat='identity')
+```
+
+Nonhost Reads
+```{r}
+sample_table %>% filter(!water) %>% ggplot(aes(x=sample, y=nonhost_reads)) + geom_bar(stat='identity')
+```
+
+
+```{r}
+sample_table %>% filter(!water) %>% mutate(nonhost_frac = nonhost_reads*compression_ratio/total_reads) %>%
+  ggplot(aes(x=reorder(sample, nonhost_frac), y=nonhost_frac)) + geom_bar(stat='identity')
+```
+
+```{r}
+sample_table %>% arrange(total_reads) %>% filter(!water) %>% 
+  ggplot(aes(x=fct_inorder(sample), y=nonhost_reads)) + geom_bar(stat='identity')
+```
+

@@ -1,0 +1,158 @@
+Sequence ID,Specimen ID,Genus*,Species*,Sex**,Collection date,Trap type†,County††,Trap Latitude,Trap Longitude,Habitat Type‡,Population Type‡,Blood fed status**  ,"RNA concentration, ng/uL"
+CMS001_001_Ra_S1,CMS001_001,Culex,erythrothorax,female,10/3/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,27.3
+CMS001_002_Ra_S1,CMS001_002,Culex,tarsalis,female,9/21/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,59.8
+CMS001_003_Ra_S2,CMS001_003,Culiseta,particeps,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,88.9
+CMS001_004_Ra_S2,CMS001_004,Culex,pipiens,female,9/12/17,CO2,ALCO,37.7152,-122.1943, Industrial (waste water treatment plant),Urban,blood fed,88.4
+CMS001_005_Ra_S3,CMS001_005,Culiseta,incidens,female,9/29/17,CO2,ALCO,37.7889,-122.2990,Residential,Suburban,blood fed,240.7
+CMS001_006_Ra_S5,CMS001_006,Culex,erythrothorax,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,32.5
+CMS001_007_Ra_S12,CMS001_007,Culex,erythrothorax,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,62
+CMS001_008_Ra_S3,CMS001_008,Culiseta,particeps,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,150
+CMS001_009_Ra_S13,CMS001_009,Culiseta,particeps,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,93
+CMS001_010_Ra_S1,CMS001_010,Culex,erythrothorax,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,14.7
+CMS001_011_Ra_S4,CMS001_011,Culex,erythrothorax,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,55
+CMS001_012_Ra_S4,CMS001_012,Aedes,dorsalis,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,86.1
+CMS001_013_Ra_S5,CMS001_013,Culex,erythrothorax,female,9/19/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,37.2
+CMS001_014_Ra_S5,CMS001_014,Culiseta,particeps,female,10/6/17,CO2,ALCO,37.5819,-122.0484,Marsh,Suburban,blood fed,65
+CMS001_015_Ra_S13,CMS001_015,Culex,erythrothorax,female,9/27/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,63.2
+CMS001_016_Ra_S6,CMS001_016,Culiseta,inornata,female,10/6/17,CO2,ALCO,37.5819,-122.0485,Marsh,Suburban,blood fed,153.4
+CMS001_017_Ra_S6,CMS001_017,Culex,erythrothorax,female,10/6/17,CO2,ALCO,37.5819,-122.0484,Marsh,Suburban,blood fed,73.9
+CMS001_018_Ra_S14,CMS001_018,Culex,erythrothorax,female,9/27/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,46.4
+CMS001_019_Ra_S14,CMS001_019,Culex,erythrothorax,female,10/4/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,59.4
+CMS001_020_Ra_S15,CMS001_020,Culex,erythrothorax,female,10/6/17,CO2,ALCO,37.5819,-122.0485,Marsh,Suburban,blood fed,33.6
+CMS001_021_Ra_S16,CMS001_021,Culex,erythrothorax,female,10/6/17,CO2,ALCO,37.5819,-122.0484,Marsh,Suburban,blood fed,32.2
+CMS001_022_Ra_S6,CMS001_022,Culex,erythrothorax,female,9/27/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,27.4
+CMS001_023_Ra_S17,CMS001_023,Culex,erythrothorax,female,10/6/17,CO2,ALCO,37.5819,-122.0484,Marsh,Suburban,blood fed,98.8
+CMS001_024_Ra_S15,CMS001_024,Culex,erythrothorax,female,10/6/17,CO2,ALCO,37.5819,-122.0484,Marsh,Suburban,blood fed,3.1
+CMS001_025_Ra_S7,CMS001_025,Culiseta,particeps,female,9/21/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,120
+CMS001_026_Ra_S18,CMS001_026,Culiseta,incidens,female,9/19/17,CO2,ALCO,37.5095,-121.9311,Park,Suburban,blood fed,60.6
+CMS001_027_Ra_S16,CMS001_027,Culex,tarsalis,female,9/12/17,CO2,ALCO,37.8665,-122.3105,Park / Undeveloped,Urban,blood fed,49.1
+CMS001_028_Ra_S17,CMS001_028,Culex,tarsalis,female,9/12/17,CO2,ALCO,37.7152,-122.1943, Industrial (waste water treatment plant),Urban,blood fed,96
+CMS001_029_Ra_S18,CMS001_029,Culex,pipiens,female,9/13/17,CO2,ALCO,37.6847,-121.9134,Park / adjacent to  Industrial (waste water treatment plant),Suburban,blood fed,82
+CMS001_030_Ra_S7,CMS001_030,Culex,pipiens,female,9/10/17,CO2,ALCO,37.7152,-122.1943, Industrial (waste water treatment plant),Urban,blood fed,273
+CMS001_031_Ra_S19,CMS001_031,Culex,tarsalis,female,9/13/17,CO2,ALCO,37.8063,-122.2573,Park,Urban,blood fed,28.2
+CMS001_032_Ra_S7,CMS001_032,Culex,tarsalis,female,NA,CO2,ALCO,37.6613,-122.1334,Golf Course,Suburban,blood fed,124.3
+CMS001_033_Ra_S8,CMS001_033,Culex,tarsalis,female,9/11/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,32.4
+CMS001_034_Ra_S19,CMS001_034,Culex,tarsalis,female,9/11/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,56.6
+CMS001_035_Ra_S20,CMS001_035,Culex,erythrothorax,female,9/11/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,28.8
+CMS001_036_Ra_S20,CMS001_036,Culex,tarsalis,female,9/11/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,36.2
+CMS001_037_Ra_S21,CMS001_037,Culex,erythrothorax,female,8/18/17,CO2,ALCO,NA,NA,NA,NA,blood fed,42.4
+CMS001_038_Ra_S22,CMS001_038,Culex,tarsalis,female,8/24/17,CO2,ALCO,37.5839,-122.0924,Marsh,Suburban,blood fed,74.2
+CMS001_039_Ra_S9,CMS001_039,Culex,tarsalis,female,8/24/17,CO2,ALCO,37.5839,-122.0924,Marsh,Suburban,blood fed,104
+CMS001_040_Ra_S21,CMS001_040,Culex,pipiens,female,8/31/17,CO2,ALCO,37.4995,-121.9338,Undeveloped,Urban,blood fed,27
+CMS001_041_Ra_S10,CMS001_041,Culex,pipiens,female,8/31/17,CO2,ALCO,37.4995,-121.9338,Undeveloped,Urban,blood fed,48
+CMS001_042_Ra_S23,CMS001_042,Culex,tarsalis,female,8/25/17,CO2,ALCO,37.6613,-122.1334,Golf Course,Suburban,blood fed,96
+CMS001_043_Ra_S24,CMS001_043,Culex,tarsalis,female,8/25/17,CO2,ALCO,37.6613,-122.1334,Golf Course,Suburban,blood fed,134
+CMS001_044_Ra_S25,CMS001_044,Culex,pipiens,female,8/25/17,CO2,ALCO,37.6613,-122.1334,Golf Course,Suburban,blood fed,62
+CMS001_045_Ra_S2,CMS001_045,Culex,erythrothorax,female,8/3/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,6.1
+CMS001_046_Ra_S3,CMS001_046,Culex,tarsalis,female,8/3/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,29.4
+CMS001_047_Ra_S4,CMS001_047,Culex,erythrothorax,female,8/3/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,48.4
+CMS001_048_Ra_S5,CMS001_048,Culex,erythrothorax,female,8/3/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,29.4
+CMS001_049_Ra_S6,CMS001_049,Culex,erythrothorax,female,8/3/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,54.4
+CMS001_050_Ra_S23,CMS001_050,Culex,erythrothorax,female,10/17/17,CO2,ALCO,37.5061,-121.9986,Marsh,Urban,blood fed,57
+CMS001_051_Ra_S8,CMS001_051,Culex,tarsalis,female,10/17/17,CO2,ALCO,37.5061,-121.9986,Marsh,Urban,blood fed,94.3
+CMS001_052_Ra_S7,CMS001_052,Culex,erythrothorax,female,9/21/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,63.4
+CMS001_053_Ra_S8,CMS001_053,Culex,erythrothorax,female,10/7/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,75.6
+CMS001_054_Ra_S11,CMS001_054,Culex,pipiens,female,2/10/16,CO2,ALCO,37.6308,-122.1427,Marsh / Wildlife Refuge / Park,Suburban,blood fed,69.6
+CMS001_055_Ra_S9,CMS001_055,Culex,erythrothorax,female,9/21/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,34.8
+CMS001_056_Ra_S10,CMS001_056,Culex,erythrothorax,female,9/21/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,33.6
+CMS001_057_Ra_S11,CMS001_057,Culex,erythrothorax,female,9/21/17,CO2,ALCO,37.5570,-122.0794,Marsh / Wildlife Refuge / Park,Suburban,blood fed,26.6
+CMS001_058_Ra_S9,CMS001_058,Culex,erythrothorax,female,NA,CO2,ALCO,NA,NA,NA,NA,blood fed,82.5
+CMS001_059_Ra_S10,CMS001_059,Culex,pipiens,female,10/24/17,CO2,ALCO,37.6683,-122.1592, Industrial (waste water treatment plant),Urban,blood fed,201
+CMS001_060_Ra_S12,CMS001_060,,,female,10/23/17,CO2,ALCO,37.5570,-122.0794,NA,,blood fed,66
+CMS002_001a_Rb_S116_L004,CMS002_001a,Culex,quinquefasciatus,female,11/15/17,Gravid,SAND,32.7963,-116.9595,Park/cemetary/golf course,urban,blood fed,78.4
+CMS002_004a_Rb_S117_L004,CMS002_004a,Culex,quinquefasciatus,female,11/15/17,Gravid,SAND,32.7992,-116.9193,Park/cemetary/golf course,suburban,blood fed,101.6
+CMS002_007a_Rb_S118_L004,CMS002_007a,Culiseta,incidens,female,11/15/17,Gravid,SAND,32.7856,-116.9887,Park/cemetary/golf course,suburban,blood fed,103.2
+CMS002_010a_Rb_S119_L004,CMS002_010a,Culex,quinquefasciatus,female,11/15/17,Gravid,SAND,32.7982,-116.9544,Commerical/Industrial/Transportation,urban,blood fed,264
+CMS002_013a_Rb_S120_L004,CMS002_013a,Culex,quinquefasciatus,female,11/15/17,Gravid,SAND,32.7996,-116.9393,Residential,suburban,blood fed,30.6
+CMS002_016a_Rb_S121_L004,CMS002_016a,Aedes,aegypti,female,11/15/17,BG,SAND,32.7152,-117.1148,Commerical/Industrial/Transportation,suburban,unfed,81.6
+CMS002_017a_Rb_S122_L004,CMS002_017a,Aedes,aegypti,female,11/28/17,AGO,SAND,32.5543,-117.0483,Residential,suburban,unfed,62.4
+CMS002_017b_Rb_S123_L004,CMS002_017b,Aedes,aegypti,female,11/28/17,AGO,SAND,32.5543,-117.0483,Residential,suburban,unfed,54.4
+CMS002_017c_Rb_S124_L004,CMS002_017c,Aedes,aegypti,female,11/28/17,AGO,SAND,32.5543,-117.0483,Residential,suburban,unfed,34.8
+CMS002_017d_Rb_S125_L004,CMS002_017d,Aedes,aegypti,female,11/28/17,AGO,SAND,32.5543,-117.0483,Residential,suburban,unfed,40.8
+CMS002_017e_Rb_S126_L004,CMS002_017e,Aedes,aegypti,female,11/28/17,AGO,SAND,32.5543,-117.0483,Residential,suburban,unfed,45.2
+CMS002_018a_Rb_S128_L004,CMS002_018a,Aedes,aegypti,female,11/28/18,AGO,SAND,32.6952,-117.1222,Commerical/Industrial/Transportation,urban,unfed,138.4
+CMS002_018b_Rb_S129_L004,CMS002_018b,Aedes,aegypti,female,11/28/18,AGO,SAND,32.6952,-117.1222,Commerical/Industrial/Transportation,urban,unfed,32.4
+CMS002_019a_Rb_S130_L004,CMS002_019a,Aedes,aegypti,female,11/29/17,AGO,SAND,32.7603,-117.0814,Residential,suburban,unfed,38.7
+CMS002_020a_Rb_S131_L004,CMS002_020a,Culiseta,particeps,female,12/1/17,EVS,SAND,32.9407,-117.2165,Undeveloped,Rural,unfed,135.2
+CMS002_020b_Rb_S132_L004,CMS002_020b,Culiseta,particeps,female,12/1/17,EVS,SAND,32.9407,-117.2165,Undeveloped,Rural,unfed,260.8
+CMS002_020c_Rb_S133_L004,CMS002_020c,Culiseta,particeps,female,12/1/17,EVS,SAND,32.9407,-117.2165,Undeveloped,Rural,unfed,148
+CMS002_020d_Rb_S134_L004,CMS002_020d,Culiseta,particeps,female,12/1/17,EVS,SAND,32.9407,-117.2165,Undeveloped,Rural,unfed,242.4
+CMS002_020e_Rb_S135_L004,CMS002_020e,Culiseta,particeps,female,12/1/17,EVS,SAND,32.9407,-117.2165,Undeveloped,Rural,unfed,145.6
+CMS002_021a_Rb_S136_L004,CMS002_021a,Culiseta,particeps,female,12/27/17,EVS,SAND,32.9407,-117.2165,Undeveloped,Rural,unfed,235.2
+CMS002_022a_Rb_S137_L004,CMS002_022a,Culex,quinquefasciatus,female,12/27/17,EVS,SAND,32.5528,-117.0559,Undeveloped,suburban,unfed,96
+CMS002_023a_Rb_S138_L004,CMS002_023a,Culex,quinquefasciatus,female,12/27/17,EVS,SAND,32.5928,-117.0576,Commerical/Industrial/Transportation,urban,unfed,61.6
+CMS002_025a_Rb_S140_L004,CMS002_025a,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9546,-117.6938,Residential,Suburban,unfed,ND
+CMS002_025b_Rb_S141_L004,CMS002_025b,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9546,-117.6938,Residential,Suburban,unfed,ND
+CMS002_025c_Rb_S142_L004,CMS002_025c,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9546,-117.6938,Residential,Suburban,unfed,40.8
+CMS002_025d_Rb_S143_L004,CMS002_025d,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9546,-117.6938,Residential,Suburban,unfed,50.8
+CMS002_025e_Rb_S144_L004,CMS002_025e,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9546,-117.6938,Residential,Suburban,unfed,36.64
+CMS002_025f_Rb_S145_L004,CMS002_025f,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9546,-117.6938,Residential,Suburban,unfed,296
+CMS002_026a_Rb_S146_L004,CMS002_026a,Aedes,albopictus,NA,8/29/17,EVS,WVAL ,34.1559,-117.6669,Residential,Suburban,unfed,29.12
+CMS002_026b_Rb_S147_L004,CMS002_026b,Aedes,albopictus,NA,8/29/17,EVS,WVAL ,34.1559,-117.6669,Residential,Suburban,unfed,26.96
+CMS002_026c_Rb_S148_L004,CMS002_026c,Aedes,albopictus,NA,8/29/17,EVS,WVAL ,34.1559,-117.6669,Residential,Suburban,unfed,18.4
+CMS002_026d_Rb_S149_L004,CMS002_026d,Aedes,albopictus,NA,8/29/17,EVS,WVAL ,34.1559,-117.6669,Residential,Suburban,unfed,119.2
+CMS002_026e_Rb_S150_L004,CMS002_026e,Aedes,albopictus,NA,8/29/17,EVS,WVAL ,34.1559,-117.6669,Residential,Suburban,unfed,27.44
+CMS002_027a_Rb_S152_L004,CMS002_027a,Culex,quinquefasciatus,NA,11/15/17,OVI,WVAL ,34.1509,-117.6429,Residential,Suburban,unfed,189.6
+CMS002_027b_Rb_S153_L004,CMS002_027b,Culex,quinquefasciatus,NA,11/15/17,OVI,WVAL ,34.1509,-117.6429,Residential,Suburban,unfed,191.2
+CMS002_028a_Rb_S154_L004,CMS002_028a,Culex,erythrothorax,NA,11/15/17,EVS,WVAL ,33.9350,-117.6558,Marsh/Swamp,Rural,unfed,82.4
+CMS002_028b_Rb_S155_L004,CMS002_028b,Culex,erythrothorax,NA,11/15/17,EVS,WVAL ,33.9350,-117.6558,Marsh/Swamp,Rural,unfed,104.8
+CMS002_028c_Rb_S156_L004,CMS002_028c,Culex,erythrothorax,NA,11/15/17,EVS,WVAL ,33.9350,-117.6558,Marsh/Swamp,Rural,unfed,48.4
+CMS002_028d_Rb_S157_L004,CMS002_028d,Culex,erythrothorax,NA,11/15/17,EVS,WVAL ,33.9350,-117.6558,Marsh/Swamp,Rural,unfed,57.2
+CMS002_028e_Rb_S158_L004,CMS002_028e,Culex,erythrothorax,NA,11/15/17,EVS,WVAL ,33.9350,-117.6558,Marsh/Swamp,Rural,unfed,79.6
+CMS002_029a_Rb_S159_L004,CMS002_029a,Culex,tarsalis,NA,11/15/17,EVS,WVAL ,33.9258,-117.6597,Residential,Suburban,unfed,121.6
+CMS002_029b_Rb_S160_L004,CMS002_029b,Culex,tarsalis,NA,11/15/17,EVS,WVAL ,33.9258,-117.6597,Residential,Suburban,unfed,179.2
+CMS002_029c_Rb_S161_L004,CMS002_029c,Culex,tarsalis,NA,11/15/17,EVS,WVAL ,33.9258,-117.6597,Residential,Suburban,unfed,179.2
+CMS002_029d_Rb_S162_L004,CMS002_029d,Culex,tarsalis,NA,11/15/17,EVS,WVAL ,33.9258,-117.6597,Residential,Suburban,unfed,116.8
+CMS002_029e_Rb_S164_L004,CMS002_029e,Culex,tarsalis,female,11/15/17,EVS,WVAL ,33.9258,-117.6597,Residential,Suburban,unfed,47.2
+CMS002_031a_Rb_S165_L004,CMS002_031a,Culex,tarsalis,female,11/7/17,CO2,COAV,33.5168,-116.0825,Marsh; Undeveloped,Rural,unfed,27.68
+CMS002_032a_Rb_S166_L004,CMS002_032a,Culex,tarsalis,male,11/7/17,CO2,COAV,33.5168,-116.0825,Marsh; Undeveloped,Rural,unfed,20
+CMS002_033a_Rb_S167_L004,CMS002_033a,Culex,tarsalis,female,11/7/17,CO2,COAV,33.5692,-116.0792,Residential; Undeveloped,Suburban,unfed,58
+CMS002_034a_Rb_S168_L004,CMS002_034a,Culex,tarsalis,male,11/7/17,CO2,COAV,33.5692,-116.0792,Residential; Undeveloped,Suburban,unfed,39.84
+CMS002_035a_Rb_S169_L004,CMS002_035a,Culex,tarsalis,female,11/7/17,CO2,COAV,33.5400,-116.0789,Agriculture; Marsh; Undeveloped,Rural,unfed,30.32
+CMS002_036a_Rb_S170_L004,CMS002_036a,Culex,tarsalis,male,11/7/17,CO2,COAV,33.5400,-116.0789,Agriculture; Marsh; Undeveloped,Rural,unfed,N.D.
+CMS002_037a_Rb_S171_L004,CMS002_037a,Culex,tarsalis,female,11/7/17,CO2,COAV,33.4636,-116.0743,Agriculture; Marsh; Undeveloped,Rural,unfed,73.2
+CMS002_038a_Rb_S172_L004,CMS002_038a,Culex,tarsalis,female,11/7/17,CO2,COAV,33.5291,-116.0352,Agriculture; Marsh; Undeveloped,Rural,unfed,31.12
+CMS002_039a_Rb_S173_L004,CMS002_039a,Culex,tarsalis,female,11/7/17,CO2,COAV,33.5325,-116.0610,Marsh; Undeveloped,Rural,unfed,28.72
+CMS002_040a_Rb_S174_L004,CMS002_040a,Culex,tarsalis,male,11/7/17,CO2,COAV,33.5325,-116.0610,Marsh; Undeveloped,Rural,unfed,31.12
+CMS002_041a_Rb_S176_L004,CMS002_041a,Culex,tarsalis,female,11/7/17,CO2,COAV,33.5108,-115.9208,Marsh; Undeveloped,Rural,unfed,20.72
+CMS002_042a_Rb_S177_L004,CMS002_042a,Culex,tarsalis,female,11/7/17,CO2,COAV,33.5255,-115.9566,Agriculture; Marsh; Undeveloped,Rural,unfed,54.4
+CMS002_044a_Rb_S178_L004,CMS002_044a,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9545,-117.6930,Residential,Suburban,unfed,41.6
+CMS002_044b_Rb_S179_L004,CMS002_044b,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9545,-117.6930,Residential,Suburban,unfed,16
+CMS002_044c_Rb_S180_L004,CMS002_044c,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9545,-117.6930,Residential,Suburban,unfed,74.8
+CMS002_044d_Rb_S181_L004,CMS002_044d,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9545,-117.6930,Residential,Suburban,unfed,31.04
+CMS002_044e_Rb_S182_L004,CMS002_044e,Aedes,aegypti,NA,8/23/17,EVS,WVAL ,33.9545,-117.6930,Residential,Suburban,unfed,N.D.
+CMS002_045a_Rb_S183_L004,CMS002_045a,Aedes,albopictus,NA,10/24/17,EVS,WVAL ,34.1519,-117.6630,Residential,Suburban,unfed,69.2
+CMS002_045b_Rb_S184_L004,CMS002_045b,Aedes,albopictus,NA,10/24/17,EVS,WVAL ,34.1519,-117.6630,Residential,Suburban,unfed,16.8
+CMS002_045c_Rb_S185_L004,CMS002_045c,Aedes,albopictus,NA,10/24/17,EVS,WVAL ,34.1519,-117.6630,Residential,Suburban,unfed,ND
+CMS002_045d_Rb_S186_L004,CMS002_045d,Aedes,albopictus,NA,10/24/17,EVS,WVAL ,34.1519,-117.6630,Residential,Suburban,unfed,26.96
+CMS002_045e_Rb_S188_L004,CMS002_045e,Aedes,albopictus,NA,10/24/17,EVS,WVAL ,34.1519,-117.6630,Residential,Suburban,unfed,ND
+CMS002_045f_Rb_S189_L004,CMS002_045f,Aedes,albopictus,NA,10/24/17,EVS,WVAL ,34.1519,-117.6630,Residential,Suburban,unfed,ND
+CMS002_045g_Rb_S190_L004,CMS002_045g,Aedes,albopictus,NA,10/24/17,EVS,WVAL ,34.1519,-117.6630,Residential,Suburban,unfed,21.6
+CMS002_046a_Rb_S191_L004,CMS002_046a,Culex,quinquefasciatus,NA,11/29/17,OVI,WVAL ,33.9725,-117.7144,Residential,Suburban,unfed,88.8
+CMS002_046b_Rb_S192_L004,CMS002_046b,Culex,quinquefasciatus,NA,11/29/17,OVI,WVAL ,33.9725,-117.7144,Residential,Suburban,unfed,88.8
+CMS002_047a_Rb_S193_L004,CMS002_047a,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,70.8
+CMS002_047b_Rb_S194_L004,CMS002_047b,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,ND
+CMS002_047c_Rb_S195_L004,CMS002_047c,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,37.04
+CMS002_047d_Rb_S196_L004,CMS002_047d,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,53.6
+CMS002_047e_Rb_S197_L004,CMS002_047e,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,78.4
+CMS002_047f_Rb_S198_L004,CMS002_047f,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,39.52
+CMS002_047g_Rb_S200_L004,CMS002_047g,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,40
+CMS002_047h_Rb_S1_L004,CMS002_047h,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,65.2
+CMS002_047i_Rb_S2_L004,CMS002_047i,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,94.4
+CMS002_047j_Rb_S3_L004,CMS002_047j,Culex,erythrothorax,NA,11/29/17,EVS,WVAL ,33.9378,-117.6331,Marsh/Swamp,Rural,unfed,48.4
+CMS002_049a_Rb_S4_L004,CMS002_049a,Culex,pipiens,NA,11/21/17,FAY,PLCR,38.7399,-121.3056,Commercial/Industrial/Transportation,Suburban,unfed,78.8
+CMS002_050a_Rb_S5_L004,CMS002_050a,Culex,pipiens,NA,11/21/17,FAY,PLCR,38.8243,-121.2571,Wetland Preserve,Suburban,unfed,326.4
+CMS002_051a_Rb_S6_L004,CMS002_051a,Culex,pipiens,NA,11/21/17,FAY,PLCR,38.8976,-121.3117,Commercial/Industrial/Transportation,Suburban,unfed,199.2
+CMS002_053a_Rb_S7_L004,CMS002_053a,Culex,pipiens,NA,11/21/2017,FAY,PLCR,38.8368,-121.3912,Agriculture & Residential,Rural,unfed,19.9
+CMS002_054a_Rb_S8_L004,CMS002_054a,Culex,pipiens,NA,11/21/17,FAY,PLCR,38.7722,-121.4695,Agriculture,Rural,unfed,168.8
+CMS002_056a_Rb_S9_L004,CMS002_056a,Culex,tarsalis,NA,11/28/17,FAY,PLCR,38.7872,-121.3729,Residential ,Rural,unfed,ND
+CMS002_057a_Rb_S10_L004,CMS002_057a,Culex,pipiens,NA,11/28/17,EVS,PLCR,38.7872,-121.3729,Residential ,Rural,unfed,47.2
+,,,,,,,,,,,,,
+Table S1 abbreviations and footnotes,,,,,,,,,,,,,
+NA = not available,,,,,,,,,,,,,
+ND = not detectable ,,,,,,,,,,,,,
+*genus and species based on whole transcriptome analyses and visual calls from collection agency,,,,,,,,,,,,,
+ **sex based on visual call from collection agency,,,,,,,,,,,,,
+†Trap type abbreviations: AGO=CDC autocidal gravid ovitrap; BG=BG sentinel; CO2=carbon dioxide; EVS=encephalitis virus surveillance; FAY=Fay-Prince carbon dioxide baited; Gravid =CDC gravid trap; OVI=ovitrap,,,,,,,,,,,,,
+"††County abbreviations: ALCO=Alameda, SAND=San Diego, WVAL=West Valley,COAV=Coachella Valley, PLCR=Placer",,,,,,,,,,,,,
+‡Habitat type and Population info pulled from California Vectorborne Disease Surveillance System (CalSurv) data for each trap site,,,,,,,,,,,,,

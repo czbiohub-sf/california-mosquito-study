@@ -10,6 +10,7 @@ library(tidyverse)
 library(purrr)
 library(ggplot2)
 library(decontam)
+library(forcats)
 ```
 
 ```{r}
@@ -17,145 +18,95 @@ data_dir = '../data'
 ```
 
 ```{r}
-df = read_csv(file.path(data_dir, 'rank_counts.csv'))
+sample_table = read_csv(file.path(data_dir, 'idseq_metadata.csv'))
+head(sample_table)
+```
+
+Approximate input concentration (up to a constant factor) by ratio of reads to ERCCs.
+
+```{r}
+sample_table = sample_table %>% mutate(water = str_detect(sample, 'ater')) %>%
+  select(sample, total_reads, nonhost_reads, total_ercc_reads, compression_ratio, water) %>%
+  mutate(input_conc = (total_reads - total_ercc_reads)/total_ercc_reads, nonhost_frac = nonhost_reads*compression_ratio/total_reads)
+```
+
+Load reads-mapping-to-contigs, together with contig LCAs.
+
+```{r}
+contig_reads = read_tsv(file.path(data_dir, 's3/contig_quality_concat/contig_stats_lca.tsv'))
+read_counts = contig_reads %>% group_by(taxid, sample) %>% summarize(reads = sum(read_count))
+```
+
+Hubei MV 2: 1922926
+Wuhan 6: 1608131
+Wuhan 9: 1608134
+narna: 1628188
+culex iflavi-like virus 4: 2304480
+mouse: 10090
+
+Plot relationship of relative abundance (RPM) to input RNA concentration. For contaminants, this should be approx linear.
+
+```{r}
+read_counts %>% left_join(sample_table, by='sample') %>% mutate(rpm = reads/total_reads*1e6) %>%
+  select(sample, taxid, input_conc, rpm, water, total_ercc_reads, reads) %>%
+    filter((taxid == '10090')) %>% 
+ggplot(aes(x = log10(input_conc), y=log10(rpm), color=water)) + geom_point()
+```
+
+Markov correction for background. We compute the average concentration of each taxon in the water. Markov's inequality says that for any nonnegative random variable X, the probability that X is greater k is less than EX/k. Thus for any false-discovery rate r, the probability that X > EX/r is less than EX/(EX/r) = r. If we treat concentrations of contaminating taxa in each well as a random variable, we can estimate the mean from the water, and use that estimate to bound (using Markov's inequality), the amount of that taxon contained in another sample can be explained by contamination.
+
+```{r}
+fdr = 0.01
+n_water = length(sample_table %>% filter(water))
+
+background_levels = read_counts %>% left_join(sample_table, by='sample') %>% filter(water) %>%
+  mutate(r_per_ercc = reads*compression_ratio/total_ercc_reads) %>%
+  group_by(taxid) %>% summarize(background_rate = sum(r_per_ercc)/n_water)
+
+df = read_counts %>% left_join(sample_table, by='sample') %>% filter(!water) %>%
+  left_join(background_levels, by='taxid') %>% mutate(background_reads=total_ercc_reads*background_rate/compression_ratio)
+  
+decontam_read_counts = df %>% filter(reads > background_reads/fdr) %>% select(sample, taxid, reads)
+
+contamination = df %>% filter(reads < background_reads/fdr) %>% select(sample, taxid)
 ```
 
 ```{r}
-report = read_csv(file.path(data_dir, 'mosquito_reports.csv'))
+decontam_read_counts %>% filter(taxid == '1608131')
+```
+
+What was removed as contamination?
+
+```{r}
+contamination %>% group_by(taxid) %>% summarize(n_samples = n(), n_reads = sum(reads)) %>% arrange(desc(n_samples))
+```
+
+```{r}
+contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/sample_contamination.tsv'))
+decontam_read_counts %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/decontam_sample_read_counts.tsv'))
+```
+
+
+# Scratch
+
+Repeat the same analysis with reads.
+
+```{r}
+report = read_csv(file.path(data_dir, 'idseq_reports/idseq_reports.csv'))
 report = report %>% rename(taxon = name, sample=sample_name) %>% select(-water)
 ```
 
 ```{r}
-sequence_counts = read_tsv(file.path(data_dir, 'sequences/sequence_counts.csv'))
-sequence_counts = sequence_counts %>% select(sample_name, compression_factor) %>% rename(sample = sample_name)
-```
-
-```{r}
-sample_table = read_csv(file.path(data_dir, 'project-mosquito_sample-table.csv'))
-sample_table = sample_table %>% mutate(water = str_detect(sample_name, 'ater'))
-sample_table = sample_table %>% rename(sample = sample_name) %>%
-  select(sample, total_reads, nonhost_reads, total_ercc_reads, compression_ratio, water) %>%
-  mutate(input_conc = (total_reads - total_ercc_reads)/total_ercc_reads) %>% left_join(sequence_counts)
-```
-
-```{r}
-sample_table %>% ggplot(aes(compression_ratio, 1/compression_factor, color = water)) + geom_point()
-```
-
-```{r}
-df %>% filter(str_detect(taxon, "Renna"))
-```
-
-```{r}
-df %>% filter(rank == 'family') %>% group_by(taxon) %>% count() %>% arrange(desc(n))
+report %>% left_join(sample_table, by='sample') %>% mutate(density = NT_r/input_conc) %>%
+  select(sample, taxon, input_conc, density, water, total_ercc_reads, NT_r) %>%
+  #filter(str_detect(taxon, 'Wuhan Mosquito Virus 6')) %>% 
+  filter(str_detect(taxon, 'Mus')) %>% 
+ggplot(aes(x = log10(input_conc), y=log10(density), color=water)) + geom_point() + facet_wrap(~taxon)
 ```
 
 
 ```{r}
-target = 'Homo'
-target = 'Mus'
-target = 'Brassicaceae'
-#target  = 'Acinetobacter'
-#target  = 'Wuhan Mosquito Virus 6'
-
-df %>% left_join(sample_table) %>% filter(taxon == target) %>% 
-  mutate(log_conc = log(input_conc), log_rpm = log(reads/total_reads*compression_ratio)) %>%
-  ggplot(aes(x = log_conc, y = log_rpm, col = water)) + geom_point()
-df %>% left_join(sample_table) %>% filter(taxon == target) %>% 
-  mutate(log_conc = log(input_conc), log_rpm = log(reads/total_reads/compression_factor)) %>%
-  ggplot(aes(x = log_conc, y = log_rpm, col = water)) + geom_point()
-```
-
-```{r}
-report
-```
-
-```{r}
-df %>% filter(sample == 'CMS001_001_Ra_S1' & rank == 'genus') %>% arrange(desc(reads))
-```
-
-
-```{r}
-report %>% filter(tax_level == 1) %>% left_join(df, on = c('sample','taxon')) %>%  
-  select(sample, taxon, reads, NT_r, NR_r) %>% replace(is.na(.), 0) 
-sample_table) %>% filter(taxon == target) %>% 
-  mutate(log_conc = log(input_conc), log_rpm = log(reads/total_reads*compression_ratio)) %>%
-  ggplot(aes(x = log_conc, y = log_rpm, col = water)) + geom_point()
-```
-
-```{r}
-df %>% filter(sample)
-```
-
-
-
-```{r}
-target = 'Homo'
-target = 'Mus'
-#target  = 'Acinetobacter'
-report %>% left_join(sample_table) %>% filter(taxon == target) %>% 
-  mutate(log_conc = log(input_conc), log_rpm = log(reads/total_reads*compression_ratio)) %>%
-  ggplot(aes(x = log_conc, y = log_rpm, col = water)) + geom_point()
-```
-
-
-
-```{r}
-report %>% filter(taxon == 'Homo')
-```
-
-NT_rpm_corrected
-input_conc
-ercc_adjusted
-log_conc, log_NT_rpm, log_NT_rpm_corrected
-Additional variables for this report
-NT_rpm * compression_ratio
-(total_reads - total_ercc_reads) / total_ercc_reads total_ercc_reads * subsampled_fraction / compression_ratio
-Logarithm of input_conc, NT_rpm and
-NT_rpm_corrected, respectively
-
-
-
-```{r}
-df
-
-```
-
-
-```{r}
-sample_table %>% mutate()
-```
-
-
-```{r}
-lab_table = read_csv('data/CMS001_CMS002_MergedAnnotations_190325.csv')
-lab_table
-```
-
-```{r}
-#intersect(lab_table %>% pull(NewIDseqName), sample_table %>% pull(sample_name))
-
-sample_table %>% left_join(lab_table %>% mutate(sample_name = NewIDseqName), on=sample_name)
-```
-
-```{r}
-metadata = lab_table %>% mutate(sample_name = NewIDseqName) %>% select(sample_name, collection_date, collection_lat, collection_long, 
-                                                            Habitat, collected_by, sex, compute_genus, compute_species, 
-                                                            rna_dna_input_ng, extraction_batch) %>% 
-                                                            left_join(sample_table, by="sample_name") 
-metadata = metadata %>% mutate(percent_ercc = total_ercc_reads/total_reads) %>% 
-                    mutate(ercc_mass = (total_reads - total_ercc_reads)/total_ercc_reads)
-```
-
-```{r}
-metadata %>%
-  filter(!is.na(percent_ercc)) %>% filter(!water) %>%
-  ggplot(aes(x = ercc_mass, y = rna_dna_input_ng, color=extraction_batch)) + geom_point() + scale_y_log10() + scale_x_log10() +
-  ggtitle("ERCC-Mass relationships")
-```
-
-
-```{r}
+metadata = read_csv(file.path(data_dir, 'metadata/CMS001_CMS002_MergedAnnotations.csv')) %>% mutate(sample=NewIDseqName)
 metadata
 ```
 

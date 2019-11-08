@@ -13,7 +13,13 @@
           "CMS001_039_Ra_S9|NODE_1_length_18277_cov_48.170824"
         ]
       }
-    }
+    },
+    "family": "Flaviviridae",
+    "samples": [
+      "CMS002_056a_Rb_S9_L004",
+      "CMS001_039_Ra_S9",
+      "CMS001_002_Ra_S1"
+    ]
   },
   "2": {
     "name": "TBD",
@@ -29,7 +35,13 @@
           "CMS001_039_Ra_S9|NODE_2_length_13816_cov_21.969794"
         ]
       }
-    }
+    },
+    "family": "Rhabdoviridae",
+    "samples": [
+      "CMS001_039_Ra_S9",
+      "CMS002_032a_Rb_S166_L004",
+      "CMS002_042a_Rb_S177_L004"
+    ]
   },
   "4": {
     "name": "TBD",
@@ -44,7 +56,14 @@
           "CMS002_053a_Rb_S7_L004|NODE_1_length_13637_cov_31.429499"
         ]
       }
-    }
+    },
+    "family": "Rhabdoviridae",
+    "samples": [
+      "CMS001_015_Ra_S13",
+      "CMS002_053a_Rb_S7_L004",
+      "CMS001_048_Ra_S5",
+      "CMS002_047a_Rb_S193_L004"
+    ]
   },
   "5": {
     "name": "Aedes anphevirus",
@@ -59,7 +78,12 @@
           "CMS002_018a_Rb_S128_L004|NODE_1_length_12510_cov_18.049787"
         ]
       }
-    }
+    },
+    "family": "Xinmoviridae",
+    "samples": [
+      "CMS002_018a_Rb_S128_L004",
+      "CMS002_017c_Rb_S124_L004"
+    ]
   },
   "6": {
     "name": "TBD",
@@ -81,7 +105,19 @@
           "CMS002_020c_Rb_S133_L004|NODE_1_length_12368_cov_173.470507"
         ]
       }
-    }
+    },
+    "family": "Xinmoviridae",
+    "samples": [
+      "CMS001_008_Ra_S3",
+      "CMS002_020b_Rb_S132_L004",
+      "CMS001_003_Ra_S2",
+      "CMS002_020e_Rb_S135_L004",
+      "CMS001_025_Ra_S7",
+      "CMS002_020a_Rb_S131_L004",
+      "CMS002_020c_Rb_S133_L004",
+      "CMS002_020d_Rb_S134_L004",
+      "CMS002_021a_Rb_S136_L004"
+    ]
   },
   "8": {
     "name": "Merida virus",
@@ -99,7 +135,19 @@
           "CMS002_040a_Rb_S174_L004|NODE_1_length_11781_cov_100.529563"
         ]
       }
-    }
+    },
+    "family": "Rhabdoviridae",
+    "samples": [
+      "CMS002_044b_Rb_S179_L004",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_044a_Rb_S178_L004",
+      "CMS002_040a_Rb_S174_L004",
+      "CMS002_044e_Rb_S182_L004",
+      "CMS002_031a_Rb_S165_L004",
+      "CMS002_035a_Rb_S169_L004",
+      "CMS002_041a_Rb_S176_L004",
+      "CMS002_044d_Rb_S181_L004"
+    ]
   },
   "9": {
     "name": "Hubei virga-like virus 2",
@@ -151,7 +199,46 @@
           "CMS001_018_Ra_S14|NODE_1_length_10371_cov_9.071595"
         ]
       }
-    }
+    },
+    "family": "Viruses",
+    "samples": [
+      "CMS002_029e_Rb_S164_L004",
+      "CMS002_047e_Rb_S197_L004",
+      "CMS002_029d_Rb_S162_L004",
+      "CMS001_037_Ra_S21",
+      "CMS001_045_Ra_S2",
+      "CMS001_035_Ra_S20",
+      "CMS001_034_Ra_S19",
+      "CMS001_002_Ra_S1",
+      "CMS002_047g_Rb_S200_L004",
+      "CMS001_052_Ra_S7",
+      "CMS002_047f_Rb_S198_L004",
+      "CMS002_028a_Rb_S154_L004",
+      "CMS001_049_Ra_S6",
+      "CMS002_053a_Rb_S7_L004",
+      "CMS002_047i_Rb_S2_L004",
+      "CMS001_017_Ra_S6",
+      "CMS001_024_Ra_S15",
+      "CMS001_015_Ra_S13",
+      "CMS001_057_Ra_S11",
+      "CMS001_018_Ra_S14",
+      "CMS002_047b_Rb_S194_L004",
+      "CMS002_047d_Rb_S196_L004",
+      "CMS001_053_Ra_S8",
+      "CMS001_010_Ra_S1",
+      "CMS001_006_Ra_S5",
+      "CMS001_048_Ra_S5",
+      "CMS002_028c_Rb_S156_L004",
+      "CMS001_001_Ra_S1",
+      "CMS001_056_Ra_S10",
+      "CMS001_019_Ra_S14",
+      "CMS001_058_Ra_S9",
+      "CMS001_021_Ra_S16",
+      "CMS001_020_Ra_S15",
+      "CMS001_023_Ra_S17",
+      "CMS001_050_Ra_S23",
+      "CMS001_022_Ra_S6"
+    ]
   },
   "12": {
     "name": "Culex flavivirus",
@@ -167,7 +254,13 @@
           "CMS002_049a_Rb_S4_L004|NODE_1_length_10796_cov_115.201698"
         ]
       }
-    }
+    },
+    "family": "Flaviviridae",
+    "samples": [
+      "CMS001_044_Ra_S25",
+      "CMS001_029_Ra_S18",
+      "CMS002_049a_Rb_S4_L004"
+    ]
   },
   "13": {
     "name": "Culex pipiens-associated Tunisia virus",
@@ -193,7 +286,23 @@
           "CMS002_028b_Rb_S155_L004|NODE_1_length_10898_cov_129.990666"
         ]
       }
-    }
+    },
+    "family": "Viruses",
+    "samples": [
+      "CMS002_047e_Rb_S197_L004",
+      "CMS002_047f_Rb_S198_L004",
+      "CMS002_047j_Rb_S3_L004",
+      "CMS002_028e_Rb_S158_L004",
+      "CMS002_047d_Rb_S196_L004",
+      "CMS002_047g_Rb_S200_L004",
+      "CMS002_028b_Rb_S155_L004",
+      "CMS002_047h_Rb_S1_L004",
+      "CMS002_047a_Rb_S193_L004",
+      "CMS002_028d_Rb_S157_L004",
+      "CMS002_047b_Rb_S194_L004",
+      "CMS002_028c_Rb_S156_L004",
+      "CMS002_047c_Rb_S195_L004"
+    ]
   },
   "16": {
     "name": "Calbertado virus",
@@ -207,7 +316,11 @@
           "CMS001_032_Ra_S7|NODE_1_length_10763_cov_35.536028"
         ]
       }
-    }
+    },
+    "family": "Flaviviridae",
+    "samples": [
+      "CMS001_032_Ra_S7"
+    ]
   },
   "23": {
     "name": "Culex iflavi-like virus 4",
@@ -225,7 +338,16 @@
           "CMS002_034a_Rb_S168_L004|NODE_1_length_9781_cov_13.772156"
         ]
       }
-    }
+    },
+    "family": "Iflaviridae",
+    "samples": [
+      "CMS002_045c_Rb_S185_L004",
+      "CMS001_002_Ra_S1",
+      "CMS001_046_Ra_S3",
+      "CMS002_045g_Rb_S190_L004",
+      "CMS002_039a_Rb_S173_L004",
+      "CMS002_034a_Rb_S168_L004"
+    ]
   },
   "24": {
     "name": "TBD",
@@ -239,7 +361,11 @@
           "CMS001_060_Ra_S12|NODE_1_length_9916_cov_285.959955"
         ]
       }
-    }
+    },
+    "family": "Iflaviridae",
+    "samples": [
+      "CMS001_060_Ra_S12"
+    ]
   },
   "25": {
     "name": "TBD",
@@ -254,7 +380,13 @@
           "CMS002_020c_Rb_S133_L004|NODE_2_length_9884_cov_284.199042"
         ]
       }
-    }
+    },
+    "family": "Iflaviridae",
+    "samples": [
+      "CMS002_020a_Rb_S131_L004",
+      "CMS002_020b_Rb_S132_L004",
+      "CMS002_020c_Rb_S133_L004"
+    ]
   },
   "27": {
     "name": "Culex iflavi-like virus 3",
@@ -270,7 +402,12 @@
           "CMS001_051_Ra_S8|NODE_1_length_9777_cov_11.106392"
         ]
       }
-    }
+    },
+    "family": "Iflaviridae",
+    "samples": [
+      "CMS002_038a_Rb_S172_L004",
+      "CMS001_051_Ra_S8"
+    ]
   },
   "30": {
     "name": "TBD",
@@ -286,7 +423,12 @@
           "CMS001_031_Ra_S19|NODE_1_length_9312_cov_34.616892"
         ]
       }
-    }
+    },
+    "family": "Rhabdoviridae",
+    "samples": [
+      "CMS002_037a_Rb_S171_L004",
+      "CMS001_031_Ra_S19"
+    ]
   },
   "39": {
     "name": "TBD",
@@ -301,7 +443,14 @@
           "CMS001_051_Ra_S8|NODE_2_length_7775_cov_34.360223"
         ]
       }
-    }
+    },
+    "family": "Totiviridae",
+    "samples": [
+      "CMS001_027_Ra_S16",
+      "CMS001_032_Ra_S7",
+      "CMS001_051_Ra_S8",
+      "CMS001_043_Ra_S24"
+    ]
   },
   "42": {
     "name": "TBD",
@@ -321,7 +470,37 @@
           "CMS001_015_Ra_S13|NODE_2_length_7398_cov_4.753312"
         ]
       }
-    }
+    },
+    "family": "Totiviridae",
+    "samples": [
+      "CMS002_047j_Rb_S3_L004",
+      "CMS001_037_Ra_S21",
+      "CMS001_045_Ra_S2",
+      "CMS001_035_Ra_S20",
+      "CMS002_047d_Rb_S196_L004",
+      "CMS001_015_Ra_S13",
+      "CMS001_053_Ra_S8",
+      "CMS001_010_Ra_S1",
+      "CMS001_048_Ra_S5",
+      "CMS001_050_Ra_S23",
+      "CMS002_047g_Rb_S200_L004",
+      "CMS001_001_Ra_S1",
+      "CMS001_011_Ra_S4",
+      "CMS001_052_Ra_S7",
+      "CMS001_019_Ra_S14",
+      "CMS001_007_Ra_S12",
+      "CMS001_049_Ra_S6",
+      "CMS001_058_Ra_S9",
+      "CMS002_053a_Rb_S7_L004",
+      "CMS001_013_Ra_S5",
+      "CMS001_021_Ra_S16",
+      "CMS001_017_Ra_S6",
+      "CMS001_024_Ra_S15",
+      "CMS001_020_Ra_S15",
+      "CMS001_018_Ra_S14",
+      "CMS001_057_Ra_S11",
+      "CMS001_022_Ra_S6"
+    ]
   },
   "44": {
     "name": "Culex bunya-like virus",
@@ -401,7 +580,44 @@
           "CMS002_046b_Rb_S192_L004|NODE_23_length_1527_cov_3.406897"
         ]
       }
-    }
+    },
+    "family": "Viruses",
+    "samples": [
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_029e_Rb_S164_L004",
+      "CMS001_042_Ra_S23",
+      "CMS002_029b_Rb_S160_L004",
+      "CMS001_034_Ra_S19",
+      "CMS001_002_Ra_S1",
+      "CMS002_013a_Rb_S120_L004",
+      "CMS001_028_Ra_S17",
+      "CMS001_038_Ra_S22",
+      "CMS002_029a_Rb_S159_L004",
+      "CMS001_032_Ra_S7",
+      "CMS001_059_Ra_S10",
+      "CMS001_046_Ra_S3",
+      "CMS002_035a_Rb_S169_L004",
+      "CMS002_046b_Rb_S192_L004",
+      "CMS001_051_Ra_S8",
+      "CMS001_043_Ra_S24",
+      "CMS001_044_Ra_S25",
+      "CMS002_049a_Rb_S4_L004",
+      "CMS002_046a_Rb_S191_L004",
+      "CMS002_051a_Rb_S6_L004",
+      "CMS002_040a_Rb_S174_L004",
+      "CMS001_041_Ra_S10",
+      "CMS001_039_Ra_S9",
+      "CMS002_023a_Rb_S138_L004",
+      "CMS001_033_Ra_S8",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS001_036_Ra_S20",
+      "CMS002_022a_Rb_S137_L004",
+      "CMS002_057a_Rb_S10_L004",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_010a_Rb_S119_L004",
+      "CMS002_027b_Rb_S153_L004",
+      "CMS001_030_Ra_S7"
+    ]
   },
   "45": {
     "name": "Culex mosquito virus 4",
@@ -431,7 +647,16 @@
           "CMS001_059_Ra_S10|NODE_3_length_5312_cov_65.660554"
         ]
       }
-    }
+    },
+    "family": "Nodaviridae",
+    "samples": [
+      "CMS001_044_Ra_S25",
+      "CMS002_056a_Rb_S9_L004",
+      "CMS001_059_Ra_S10",
+      "CMS002_057a_Rb_S10_L004",
+      "CMS002_051a_Rb_S6_L004",
+      "CMS002_054a_Rb_S8_L004"
+    ]
   },
   "49": {
     "name": "TBD",
@@ -445,7 +670,12 @@
           "CMS002_029d_Rb_S162_L004|NODE_3_length_7380_cov_3.942352"
         ]
       }
-    }
+    },
+    "family": "Totiviridae",
+    "samples": [
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_031a_Rb_S165_L004"
+    ]
   },
   "50": {
     "name": "Guadeloupe Culex tymo-like virus",
@@ -459,7 +689,11 @@
           "CMS002_022a_Rb_S137_L004|NODE_2_length_7363_cov_8.020725"
         ]
       }
-    }
+    },
+    "family": "Viruses",
+    "samples": [
+      "CMS002_022a_Rb_S137_L004"
+    ]
   },
   "55": {
     "name": "TBD",
@@ -475,7 +709,29 @@
           "CMS001_006_Ra_S5|NODE_2_length_6837_cov_2.930769"
         ]
       }
-    }
+    },
+    "family": "Totiviridae",
+    "samples": [
+      "CMS002_047e_Rb_S197_L004",
+      "CMS001_037_Ra_S21",
+      "CMS001_035_Ra_S20",
+      "CMS002_028b_Rb_S155_L004",
+      "CMS001_053_Ra_S8",
+      "CMS001_010_Ra_S1",
+      "CMS001_006_Ra_S5",
+      "CMS001_050_Ra_S23",
+      "CMS001_052_Ra_S7",
+      "CMS001_019_Ra_S14",
+      "CMS001_007_Ra_S12",
+      "CMS001_049_Ra_S6",
+      "CMS001_058_Ra_S9",
+      "CMS002_053a_Rb_S7_L004",
+      "CMS001_013_Ra_S5",
+      "CMS001_021_Ra_S16",
+      "CMS001_020_Ra_S15",
+      "CMS001_018_Ra_S14",
+      "CMS001_057_Ra_S11"
+    ]
   },
   "56": {
     "name": "TBD",
@@ -489,7 +745,20 @@
           "CMS002_029c_Rb_S161_L004|NODE_2_length_7155_cov_5.347415"
         ]
       }
-    }
+    },
+    "family": "Totiviridae",
+    "samples": [
+      "CMS002_029e_Rb_S164_L004",
+      "CMS001_032_Ra_S7",
+      "CMS001_036_Ra_S20",
+      "CMS002_029b_Rb_S160_L004",
+      "CMS002_029a_Rb_S159_L004",
+      "CMS001_027_Ra_S16",
+      "CMS001_034_Ra_S19",
+      "CMS001_028_Ra_S17",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS001_038_Ra_S22"
+    ]
   },
   "57": {
     "name": "TBD",
@@ -503,7 +772,14 @@
           "CMS002_040a_Rb_S174_L004|NODE_2_length_7146_cov_3.261423"
         ]
       }
-    }
+    },
+    "family": "Totiviridae",
+    "samples": [
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_031a_Rb_S165_L004",
+      "CMS002_040a_Rb_S174_L004",
+      "CMS001_031_Ra_S19"
+    ]
   },
   "60": {
     "name": "Wuhan insect virus 33",
@@ -517,7 +793,13 @@
           "CMS002_044b_Rb_S179_L004|NODE_1_length_7060_cov_2.221681"
         ]
       }
-    }
+    },
+    "family": "Viruses",
+    "samples": [
+      "CMS002_044b_Rb_S179_L004",
+      "CMS002_044c_Rb_S180_L004",
+      "CMS002_044a_Rb_S178_L004"
+    ]
   },
   "61": {
     "name": "TBD",
@@ -531,7 +813,11 @@
           "CMS001_040_Ra_S21|NODE_1_length_7059_cov_13.082641"
         ]
       }
-    }
+    },
+    "family": "Peribunyaviridae",
+    "samples": [
+      "CMS001_040_Ra_S21"
+    ]
   },
   "63": {
     "name": "TBD",
@@ -580,7 +866,18 @@
           "CMS001_048_Ra_S5|NODE_21_length_1417_cov_35.092537"
         ]
       }
-    }
+    },
+    "family": "Phenuiviridae",
+    "samples": [
+      "CMS001_011_Ra_S4",
+      "CMS001_056_Ra_S10",
+      "CMS001_019_Ra_S14",
+      "CMS001_049_Ra_S6",
+      "CMS002_053a_Rb_S7_L004",
+      "CMS001_013_Ra_S5",
+      "CMS001_021_Ra_S16",
+      "CMS001_048_Ra_S5"
+    ]
   },
   "70": {
     "name": "TBD",
@@ -649,7 +946,26 @@
           "CMS002_045g_Rb_S190_L004|NODE_5_length_2301_cov_72.350270"
         ]
       }
-    }
+    },
+    "family": "Phasmaviridae",
+    "samples": [
+      "CMS002_026e_Rb_S150_L004",
+      "CMS002_045f_Rb_S189_L004",
+      "CMS002_026b_Rb_S147_L004",
+      "CMS002_044e_Rb_S182_L004",
+      "CMS002_026a_Rb_S146_L004",
+      "CMS002_026d_Rb_S149_L004",
+      "CMS002_045c_Rb_S185_L004",
+      "CMS002_045b_Rb_S184_L004",
+      "CMS002_045a_Rb_S183_L004",
+      "CMS002_044a_Rb_S178_L004",
+      "CMS002_045d_Rb_S186_L004",
+      "CMS002_044c_Rb_S180_L004",
+      "CMS002_045e_Rb_S188_L004",
+      "CMS002_026c_Rb_S148_L004",
+      "CMS002_045g_Rb_S190_L004",
+      "CMS002_044d_Rb_S181_L004"
+    ]
   },
   "76": {
     "name": "TBD",
@@ -719,7 +1035,26 @@
           "CMS002_053a_Rb_S7_L004|NODE_167_length_2145_cov_1150.466151"
         ]
       }
-    }
+    },
+    "family": "Phasmaviridae",
+    "samples": [
+      "CMS001_037_Ra_S21",
+      "CMS002_047j_Rb_S3_L004",
+      "CMS001_035_Ra_S20",
+      "CMS002_028e_Rb_S158_L004",
+      "CMS002_028b_Rb_S155_L004",
+      "CMS001_001_Ra_S1",
+      "CMS001_011_Ra_S4",
+      "CMS002_047f_Rb_S198_L004",
+      "CMS001_019_Ra_S14",
+      "CMS002_047h_Rb_S1_L004",
+      "CMS002_028d_Rb_S157_L004",
+      "CMS002_053a_Rb_S7_L004",
+      "CMS002_047i_Rb_S2_L004",
+      "CMS001_017_Ra_S6",
+      "CMS001_018_Ra_S14",
+      "CMS001_057_Ra_S11"
+    ]
   },
   "78": {
     "name": "TBD",
@@ -733,7 +1068,11 @@
           "CMS001_038_Ra_S22|NODE_2_length_6269_cov_19.304587"
         ]
       }
-    }
+    },
+    "family": "Totiviridae",
+    "samples": [
+      "CMS001_038_Ra_S22"
+    ]
   },
   "81": {
     "name": "Aedes aegypti totivirus",
@@ -762,7 +1101,15 @@
           "CMS002_017c_Rb_S124_L004|NODE_9_length_1973_cov_254.317511"
         ]
       }
-    }
+    },
+    "family": "Totiviridae",
+    "samples": [
+      "CMS002_017a_Rb_S122_L004",
+      "CMS002_017c_Rb_S124_L004",
+      "CMS002_017b_Rb_S123_L004",
+      "CMS002_017d_Rb_S125_L004",
+      "CMS002_017e_Rb_S126_L004"
+    ]
   },
   "98": {
     "name": "TBD",
@@ -776,7 +1123,11 @@
           "CMS001_060_Ra_S12|NODE_4_length_5737_cov_11.181979"
         ]
       }
-    }
+    },
+    "family": "Luteoviridae",
+    "samples": [
+      "CMS001_060_Ra_S12"
+    ]
   },
   "128": {
     "name": "TBD",
@@ -802,7 +1153,28 @@
           "CMS001_045_Ra_S2|NODE_2_length_4931_cov_1086.634940"
         ]
       }
-    }
+    },
+    "family": "Tombusviridae",
+    "samples": [
+      "CMS001_045_Ra_S2",
+      "CMS001_035_Ra_S20",
+      "CMS002_028e_Rb_S158_L004",
+      "CMS001_015_Ra_S13",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS002_047g_Rb_S200_L004",
+      "CMS002_047c_Rb_S195_L004",
+      "CMS001_001_Ra_S1",
+      "CMS001_019_Ra_S14",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_028a_Rb_S154_L004",
+      "CMS001_049_Ra_S6",
+      "CMS001_058_Ra_S9",
+      "CMS002_047a_Rb_S193_L004",
+      "CMS001_020_Ra_S15",
+      "CMS001_047_Ra_S4",
+      "CMS001_018_Ra_S14",
+      "CMS001_057_Ra_S11"
+    ]
   },
   "226": {
     "name": "TBD",
@@ -816,6 +1188,10 @@
           "CMS001_047_Ra_S4|NODE_2_length_4094_cov_7.237491"
         ]
       }
-    }
+    },
+    "family": "Leviviridae",
+    "samples": [
+      "CMS001_047_Ra_S4"
+    ]
   }
 }

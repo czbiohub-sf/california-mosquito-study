@@ -15,11 +15,11 @@ BLAST
 
 PLAST
 ```
-!/home/ubuntu/plastbinary_linux_20160121/plast -p plastx \
+/home/ubuntu/plastbinary_linux_20160121/plast -p plastx \
     -i /mnt/data/contigs/all.fasta \
     -d /mnt/data/blast/nr.pal \
     -o /mnt/data/plast_output.tab \
     -e 1e-2 -a 48 -max-hit-per-query 30 -outfmt 1 \
     -bargraph -verbose \
     -max-database-size 200000000
-    ```
+```

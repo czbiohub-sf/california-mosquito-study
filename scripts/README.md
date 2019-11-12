@@ -24,3 +24,5 @@ PLAST
     -bargraph -verbose \
     -max-database-size 200000000
 ```
+
+The databases were downloaded on March 27, 2019.

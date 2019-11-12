@@ -10,13 +10,16 @@ BLAST
 ```BLASTDB=/mnt/data/blast blastn -task dc-megablast -db nt -evalue 1e-2 -num_threads 48 \
     -query /mnt/data/contigs/admissable_contigs.fasta \
     -outfmt "7 std staxid ssciname scomname stitle"
-    -out /mnt/data/admissable_contigs_dc_megablast.m9```
+    -out /mnt/data/admissable_contigs_dc_megablast.m9
+```
 
 PLAST
-```!/home/ubuntu/plastbinary_linux_20160121/plast -p plastx \
+```
+!/home/ubuntu/plastbinary_linux_20160121/plast -p plastx \
     -i /mnt/data/contigs/all.fasta \
     -d /mnt/data/blast/nr.pal \
     -o /mnt/data/plast_output.tab \
     -e 1e-2 -a 48 -max-hit-per-query 30 -outfmt 1 \
     -bargraph -verbose \
-    -max-database-size 200000000```
+    -max-database-size 200000000
+    ```

@@ -27,7 +27,7 @@ update_tax_database = False
 if update_tax_database:
     ncbi.update_taxonomy_database()
 
-
+old_ncbi_taxa = [NCBITaxa(dbfile=x) for x in os.listdir() if x.endswith(".sqlite") and x.startswith("taxdump")]
 
 
 default_blast_headings = ["query", "subject", "identity", "align_length", "mismatches", 
@@ -68,6 +68,8 @@ def find_missing_taxid (acc, db):
         return (None)
     
 
+    
+
 
 ##
 ## Find the lowest common ancestor (LCA) for a given set of taxonomic groups
@@ -84,7 +86,7 @@ def get_lca (taxids, tax_col="taxid", query_col="query"):
         if (len(set(taxids)) <= 1):
             lca = taxids[0]
         else:
-            tree = ncbi.get_topology(taxids)
+            tree = ncbi_older_db(taxids, "get_topology")
             lca = tree.get_tree_root().taxid
     return (lca)
 
@@ -123,12 +125,22 @@ def parse_blast_file (fpath, sep="\t", comment=None, blast_type="nt", col_names=
     df = df.assign(blast_type=blast_type)
     return (df)
 
+def ncbi_older_db (taxid, method, current_taxdb=ncbi, older_taxdb=old_ncbi_taxa):
+    try:
+        return (eval("current_taxdb."+method+"(taxid)"))
+    except:
+        for i, x in enumerate(older_taxdb):
+            try:
+                return (eval("x."+method+"(taxid)"))
+            except:
+                continue
+
 
 ##
 ## Filter contigs or blast hits for contigs based on matches to a taxonomic id
 ##
 def filter_by_taxid (df, db, taxid):
-    check_isin = df["taxid"].apply(lambda x, taxid=taxid: taxid in ncbi.get_lineage(x))
+    check_isin = df["taxid"].apply(lambda x, taxid=taxid: taxid in ncbi_older_db(x, "get_lineage"))
     if (not check_isin.any()):
         return (df)
     if (check_isin.all()):
@@ -228,8 +240,8 @@ def download_s3_file (s3path, local_path=None):
 def filter_by_lineage (df, taxid_col, lineage_id):
     ncbi = NCBITaxa()
     if (isinstance(lineage_id, str)):
-        lineage_id = ncbi.get_name_translator([lineage_id])[lineage_id][0]
-    descendants = ncbi.get_descendant_taxa(lineage_id)
+        lineage_id = ncbi_older_db([lineage_id], "get_name_translator")[lineage_id][0]
+    descendants = ncbi_older_db(lineage_id, "get_descendant_taxa")
     return (df[df[taxid_col].isin(descendants)])
 
 ##

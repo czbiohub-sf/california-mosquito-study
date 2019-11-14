@@ -24,7 +24,11 @@ exec(open("lca_functions.py").read())
 start_time = time.time()
 
 # if contigs have 2 or fewer reads, then exclude them from LCA analysis
-read_counts = load_json(args.read_count_path, colnames=["query", "read_count"])
+if (args.read_count_path.endswith(".json")):
+    read_counts = load_json(args.read_count_path, colnames=["query", "read_count"])
+else:
+    read_counts = pd.read_csv(args.read_count_path, sep="\t", header=0).rename(columns={"contig_name":"query"})
+
 filtered_contigs_by_read_count = read_counts[read_counts["read_count"]>2]
 
 print_to_stdout("Read counts have been loaded: "+args.read_count_path, start_time, verbose)

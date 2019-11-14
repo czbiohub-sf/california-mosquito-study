@@ -145,8 +145,7 @@ def filter_by_taxid (df, db, taxid):
         return (df)
     if (check_isin.all()):
         return (df[:0])
-    qlength = float(df["query"].iloc[0].split("_")[3])
-    align_prop = df["align_length"]/qlength
+    align_prop = df["qcov"]
     if (db=="protein"):
         align_prop = align_prop*3
     if (align_prop[check_isin].max() >= 0.8):

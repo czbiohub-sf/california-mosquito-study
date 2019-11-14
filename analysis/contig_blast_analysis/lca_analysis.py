@@ -105,11 +105,7 @@ print_to_stdout (str(len(blast_results["query"].unique())) + " out of " + str(le
 # lca analysis
 filtered_blast_results = blast_results.groupby(["query"], as_index=False).apply(
     select_taxids_for_lca, db=db,
-    return_taxid_only=False,
-    ident_cutoff=float(args.ident_cutoff),
-    align_len_cutoff=float(args.align_len_cutoff),
-    bitscore_cutoff=float(args.bitscore_cutoff),
-    read_counts=filtered_contigs_by_read_count
+    return_taxid_only=False
 )
 
 print_to_stdout("BLAST results have been filtered: "+args.filtered_blast_path, start_time, verbose)

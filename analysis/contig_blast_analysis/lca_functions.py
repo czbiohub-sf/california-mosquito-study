@@ -163,10 +163,15 @@ def get_single_hsp (df_file, blast_type, col_names):
         temp = tempfile.NamedTemporaryFile(delete=False)
         print (temp.name+" tempfile")
         download_s3_file(df_file, temp.name)
-    process = subprocess.Popen(["python", "parse.py", temp.name], stdout=subprocess.PIPE)
-    csv = [line.decode().strip('"\n').split('\t') for line in process.stdout]
-    outdf = pd.DataFrame(csv, columns=col_names).assign(blast_type=blast_type).astype(coltypes)
-    os.unlink(temp.name)
+        fn = temp.name
+    else:
+        fn = df_file
+    output_file = tempfile.NamedTemporaryFile(delete=False)
+    os.system("python parse.py "+fn+" > "+output_file.name)
+    outdf = pd.read_csv(output_file.name, sep="\t", header=None, comment="#", names=col_names).assign(blast_type=blast_type)
+    if (df_file.startswith("s3://")):
+        os.unlink(temp.name)
+    os.unlink(output_file.name)
     return (outdf)
 
 

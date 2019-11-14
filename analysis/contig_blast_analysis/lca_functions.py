@@ -199,15 +199,6 @@ def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True):
         return (list(set(df["taxid"])))
     else:
         return (df)
-#     try:
-#         original_contigs = read_counts[read_counts["query"].isin(df["query"])]
-#         filtered_df = filter_by_taxid(df, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
-#         if (len(filtered_df.index)==0):
-#             excluded_contigs = original_contigs[~original_contigs["query"].isin(filtered_df["query"])].assign(reason="hexapoda")
-#         else:
-#             excluded_contigs = pd.DataFrame(columns=list(original_contigs.columns)+["reason"])
-#     except:
-#         pdb.set_trace()
 
 
 ##

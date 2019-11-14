@@ -110,23 +110,30 @@ filtered_blast_results = blast_results.groupby(["query"], as_index=False).apply(
 
 print_to_stdout("BLAST results have been filtered: "+args.filtered_blast_path, start_time, verbose)
 
-if (args.filtered_blast_path is not None):
-    df_to_s3(filtered_blast_results, args.filtered_blast_path)
-    print_to_stdout("BLAST results have been uploaded to : "+args.filtered_blast_path, start_time, verbose)
-
-
 lca_results = filtered_blast_results.groupby(["query"]).apply(get_lca)
-
-print_to_stdout("LCA analysis complete: "+args.outpath, start_time, verbose)
+additional_hexa_contigs = lca_results["query"][lca_results["taxid"].apply(lambda x: ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0] in ncbi_older_db(x, "get_lineage"))]
+excluded_contigs.loc[excluded_contigs["query"].isin(additional_hexa_contigs), "hexapoda"] = True
+filtered_blast_results = filtered_blast_results[~filtered_blast_results["query"].isin(additional_hexa_contigs)]
+lca_results = lca_results[~lca_results["query"].isin(additional_hexa_contigs)]
 
 # write results to file
+
+if (args.filtered_blast_path is not None):
+    if (args.filtered_blast_path.startswith("s3://")):
+        df_to_s3(filtered_blast_results, args.filtered_blast_path)
+    else:
+        filtered_blast_results.to_csv(args.filtered_blast_path, sep="\t", index=False, header=True)
+    print_to_stdout("BLAST results have been saved to : "+args.filtered_blast_path, start_time, verbose)
+
 if (args.outpath.startswith("s3://")):
     df_to_s3(lca_results, args.outpath)
-    df_to_s3(excluded_contigs, args.excluded_contigs_path)
 else:
     lca_results.to_csv(args.outpath, sep="\t", index=False)
-    excluded_contigs.to_csv(args.excluded_contigs_path, sep="\t", index=False)
 
+if (args.excluded_contigs_path.startswith("s3://")):
+    df_to_s3(excluded_contigs, args.excluded_contigs_path)
+else:
+    excluded_contigs.to_csv(args.excluded_contigs_path, sep="\t", index=False)
     
     
 print_to_stdout("LCA analysis saved to file: "+args.outpath, start_time, verbose)

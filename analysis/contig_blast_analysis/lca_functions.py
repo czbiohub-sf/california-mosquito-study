@@ -178,18 +178,22 @@ def get_single_hsp (df_file, blast_type, col_names):
 ##
 ## Select taxonomic IDs to perfrom LCA analysis on based on BLAST results
 ##
-def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cutoff=0, align_len_cutoff=0, bitscore_cutoff=0, read_counts=None):
+def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True):
     # df should be a pandas dataframe
     # remove blast hits where identity < ident_cutoff*max(identity) AND
     # align_length < align_len_cutoff*max(align_length) AND
     # bitscore < bitscore_cutoff*max(bitscore)
     if (len(df.index)>1):
-        df = df[df["identity"]>=(ident_cutoff*df["identity"].max())]
-        df = df[df["align_length"]>=(align_len_cutoff*df["align_length"].max())]
-        df = df[df["bitscore"]>=(bitscore_cutoff*df["bitscore"].max())]
-#     if (df["taxid"].isnull().any()):
-#         df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
-#         df = df.dropna()
+        m = (1-df["gaps"]/df["align_length"])*df["qcov"]*df["identity"]/100
+        if (df["blast_type"].iloc[0]=="nr"):
+            m = m*3
+        best_row = df[m==m.max()]
+        best_qcov = (1-best_row["gaps"].iloc[0]/best_row["align_length"].iloc[0])*best_row["qcov"].iloc[0]
+        best_ident = best_row["identity"].iloc[0]/100
+        threshold = best_qcov*(best_ident-(1-best_ident))
+        if (df["blast_type"].iloc[0]=="nr"):
+            threshold = threshold * 3
+        df = df[m >= threshold]
     df["taxid"] = df["taxid"].astype('int64')
     if (return_taxid_only):
         return (list(set(df["taxid"])))

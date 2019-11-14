@@ -47,15 +47,30 @@ elif args.blast_type=="nr":
     db = "protein"
     
 # obtain a single HSP for each query-subject pairing and read in blast results as a pandas data frame
-blast_results = get_single_hsp(args.fpath, args.blast_type, col_names, col_types) 
+blast_results = get_single_hsp(args.fpath, args.blast_type, col_names) 
+if "qlen" not in blast_results:
+    if ("~" in blast_results["query"].iloc[0]):
+        blast_results = blast_results.assign(qlen=blast_results["query"].str.split("~").apply(lambda x: int(x[1].split("_")[3])))
+    else:
+        blast_results = blast_results.assign(qlen=blast_results["query"].str.split("_").apply(lambda x: int(x[3])))
 print_to_stdout("Loaded blast file: "+args.fpath, start_time, verbose)
 
 
 # data frame: whether or not each contig was included or excluded from blast analysis, and reason for exclusion
-excluded_contigs = pd.DataFrame({"query":blast_results["query"].unique()})
-excluded_contigs = excluded_contigs.assign(contig_length=excluded_contigs["query"].str.split("_").apply(lambda x: int(x[3])))
-excluded_contigs = pd.merge(excluded_contigs, read_counts, how="left", on="query").fillna(0)
-excluded_contigs = excluded_contigs.assign(low_read_count=~excluded_contigs["query"].isin(filtered_contigs_by_read_count["query"]))
+excluded_contigs = blast_results.groupby(["query"]).first().reset_index()[["query", "qlen"]].rename(columns={"qlen":"contig_length"})
+if ("~" in excluded_contigs["query"].iloc[0]):
+    excluded_contigs = excluded_contigs.assign(sample=excluded_contigs["query"].str.split("~").apply(lambda x: x[0]))
+    excluded_contigs["query"] = excluded_contigs["query"].str.split("~").apply(lambda x: x[1])
+    excluded_contigs = pd.merge(excluded_contigs, read_counts[["sample", "query", "read_count"]], how="left", on=["sample", "query"]).fillna(0)
+    excluded_contigs["query"] = excluded_contigs[["sample", "query"]].apply(lambda x: x[0]+"~"+x[1], axis=1)
+    queries = filtered_contigs_by_read_count.apply(lambda x: x["sample"]+"~"+x["query"], axis=1)
+    excluded_contigs = excluded_contigs.assign(low_read_count=~excluded_contigs["query"].isin(queries))
+else:
+    excluded_contigs = excluded_contigs.assign(contig_length=excluded_contigs["query"].str.split("_").apply(lambda x: int(x[3])))
+    excluded_contigs = pd.merge(excluded_contigs, read_counts, how="left", on="query").fillna(0)
+    excluded_contigs = excluded_contigs.assign(low_read_count=~excluded_contigs["query"].isin(filtered_contigs_by_read_count["query"]))
+
+
 
 # find missing taxids
 blast_results["taxid"] = blast_results["taxid"].replace(to_replace=0, value=np.nan) # some synthetic constructs have taxid 0
@@ -67,6 +82,7 @@ if (blast_results["taxid"].isnull().any()):
     blast_results.loc[blast_results["taxid"].isnull(), ["taxid"]] = blast_results[blast_results["taxid"].isnull()]["subject"].apply(lambda x: subjects_taxid_dict[x])
     blast_results = blast_results[~blast_results["taxid"].isnull()]
 
+    
 excluded_contigs = excluded_contigs.assign(taxid_na=~excluded_contigs["query"].isin(blast_results["query"]))
 print_to_stdout(str(excluded_contigs["taxid_na"].sum())+" contigs were excluded because none of the subject taxids could be found.", start_time, verbose)        
 

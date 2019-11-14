@@ -25,7 +25,7 @@ blast_outfmt6_schema = {
     "send": int,
     "evalue": float,
     "bitscore": float,
-    "taxid": float,
+    "taxid": str,
     "sci_name": str,
     "common_name": str,
     "subject_title": str

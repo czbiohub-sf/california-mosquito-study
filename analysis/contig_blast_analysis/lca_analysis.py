@@ -37,30 +37,14 @@ if (len(filtered_contigs_by_read_count.index)==0):
     print_to_stdout(args.fpath+": no contig had more than 2 reads.", start_time, verbose)
     exit()
 
+col_names = ["query", "subject", "identity", "align_length", "mismatches", 
+        "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
+        "sci_name", "common_name", "subject_title", "qcov", "hsp_count"]
+
 if args.blast_type =="nt":
     db = "nucleotide"
-    col_names = ["query", "subject", "identity", "align_length", "mismatches", 
-        "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
-        "sci_name", "common_name", "subject_title", "qcov", "hsp_count"]
-    col_types = {"query":str, "subject":str,
-                 "identity":float, "align_length":float,
-                 "mismatches":float, "gaps":float,
-                 "qstart":int, "qend":int, "sstart":int, "send":int, 
-                 "evalue":float, "bitscore":float, "taxid":float, 
-                 "sci_name":str, "common_name":str, "subject_title":str,
-                 "qcov":float, "hsp_count":int}
 elif args.blast_type=="nr":
     db = "protein"
-    col_names = ["query", "subject", "identity", "align_length", "mismatches", 
-        "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
-        "sci_name", "common_name", "subject_title", "qcov", "hsp_count"]
-    col_types = {"query":str, "subject":str,
-             "identity":float, "align_length":float,
-             "mismatches":float, "gaps":float,
-             "qstart":int, "qend":int, "sstart":int, "send":int, 
-             "evalue":float, "bitscore":float, "taxid":float, 
-             "sci_name":str, "common_name":str, "subject_title":str,
-             "qcov":float, "hsp_count":int}
     
 # obtain a single HSP for each query-subject pairing and read in blast results as a pandas data frame
 blast_results = get_single_hsp(args.fpath, args.blast_type, col_names, col_types) 

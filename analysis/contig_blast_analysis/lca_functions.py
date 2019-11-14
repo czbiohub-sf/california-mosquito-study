@@ -150,6 +150,8 @@ def filter_by_taxid (df, db, taxid):
         align_prop = align_prop*3
     if (align_prop[check_isin].max() >= 0.8):
         return (df[:0])
+    elif(check_isin.iloc[0]):
+        return (df[:0])
     else:
         return (df)
 

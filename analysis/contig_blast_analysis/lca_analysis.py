@@ -61,7 +61,11 @@ excluded_contigs = blast_results.groupby(["query"]).first().reset_index()[["quer
 if ("~" in excluded_contigs["query"].iloc[0]):
     excluded_contigs = excluded_contigs.assign(sample=excluded_contigs["query"].str.split("~").apply(lambda x: x[0]))
     excluded_contigs["query"] = excluded_contigs["query"].str.split("~").apply(lambda x: x[1])
-    excluded_contigs = pd.merge(excluded_contigs, read_counts[["sample", "query", "read_count"]], how="left", on=["sample", "query"]).fillna(0)
+    if "sample" in read_counts:
+        selected_cols = ["sample", "query", "read_count"]
+    else:
+        selected_cols = ["query", "read_count"]
+    excluded_contigs = pd.merge(excluded_contigs, read_counts[selected_cols], how="left").fillna(0)
     excluded_contigs["query"] = excluded_contigs[["sample", "query"]].apply(lambda x: x[0]+"~"+x[1], axis=1)
     queries = filtered_contigs_by_read_count.apply(lambda x: x["sample"]+"~"+x["query"], axis=1)
     excluded_contigs = excluded_contigs.assign(low_read_count=~excluded_contigs["query"].isin(queries))
@@ -86,16 +90,29 @@ if (blast_results["taxid"].isnull().any()):
 excluded_contigs = excluded_contigs.assign(taxid_na=~excluded_contigs["query"].isin(blast_results["query"]))
 print_to_stdout(str(excluded_contigs["taxid_na"].sum())+" contigs were excluded because none of the subject taxids could be found.", start_time, verbose)        
 
+if len(blast_results)==0:
+    if (args.excluded_contigs_path.startswith("s3://")):
+        df_to_s3(excluded_contigs, args.excluded_contigs_path)
+    else:
+        excluded_contigs.to_csv(args.excluded_contigs_path, sep="\t", index=False)
+    exit()
+
 # exclude contigs with hits to mosquito
-all_hits_queries = blast_results["query"].unique()
-blast_results = blast_results.groupby(["query"], as_index=False).apply(
-        filter_by_taxid, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0]
-)
-hexa_contigs = blast_results["query"][~blast_results["query"].isin(all_hits_queries)]
+all_hits_queries = list(blast_results["query"].unique())
+print_to_stdout("remove contigs if they are likely hexapoda ", start_time, verbose)
+blast_results = blast_results.groupby(["query"], as_index=False).apply(filter_by_taxid, db=db, taxid=ncbi_older_db(["Hexapoda"], "get_name_translator")["Hexapoda"][0])
+hexa_contigs = [x for x in all_hits_queries if x not in blast_results["query"].tolist()]
 excluded_contigs = excluded_contigs.assign(hexapoda=excluded_contigs["query"].isin(hexa_contigs))
 
-if (len(hexa_contigs.index)>0):
-    print_to_stdout(str(len(hexa_contigs.index))+" contigs were likely hexapoda.", start_time, verbose)
+if (len(blast_results)==0):
+    if (args.excluded_contigs_path.startswith("s3://")):
+        df_to_s3(excluded_contigs, args.excluded_contigs_path)
+    else:
+        excluded_contigs.to_csv(args.excluded_contigs_path, sep="\t", index=False)
+    exit()
+
+if (len(hexa_contigs)>0):
+    print_to_stdout(str(len(hexa_contigs))+" contigs were likely hexapoda.", start_time, verbose)
 
 # remove contigs with too few reads from blast_results
 blast_results = blast_results[~blast_results["query"].isin(excluded_contigs["query"][excluded_contigs["low_read_count"]])]
@@ -115,6 +132,7 @@ additional_hexa_contigs = lca_results["query"][lca_results["taxid"].apply(lambda
 excluded_contigs.loc[excluded_contigs["query"].isin(additional_hexa_contigs), "hexapoda"] = True
 filtered_blast_results = filtered_blast_results[~filtered_blast_results["query"].isin(additional_hexa_contigs)]
 lca_results = lca_results[~lca_results["query"].isin(additional_hexa_contigs)]
+
 
 # write results to file
 

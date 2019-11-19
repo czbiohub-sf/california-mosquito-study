@@ -49,8 +49,14 @@ def in_nt_nr (in_nt, in_nr, hexapoda):
 
 
 def choose_nt_nr (contig_name, nt_blast, nr_blast):
-    nt_bitscore = nt_blast[nt_blast["query"]==contig_name]["bitscore"].iloc[0]
-    nr_bitscore = nr_blast[nr_blast["query"]==contig_name]["bitscore"].iloc[0]
+    selected_nt = nt_blast[nt_blast["query"]==contig_name]
+    if (len(selected_nt)==0):
+        return ("nr")
+    nt_bitscore = selected_nt["bitscore"].iloc[0]
+    selected_nr = nr_blast[nr_blast["query"]==contig_name]
+    if (len(selected_nr)==0):
+        return ("nt")
+    nr_bitscore = selected_nr["bitscore"].iloc[0]
     if (nr_bitscore > nt_bitscore):
         return ("nr")
     else:
@@ -58,7 +64,13 @@ def choose_nt_nr (contig_name, nt_blast, nr_blast):
     
 
 def return_blast_results (row_x, blast_nt, blast_nr, blast_columns):
-    if (row_x["nt_or_nr"]=="nt"):
+    if (blast_nt is None) & (blast_nr is None):
+        exit()
+    elif (blast_nt is None):
+        blast = blast_nr
+    elif (blast_nr is None):
+        blast = blast_nt
+    elif (row_x["nt_or_nr"]=="nt"):
         blast = blast_nt
     else:
         blast = blast_nr
@@ -114,6 +126,7 @@ contig_quality_dfs = dict(zip(contig_quality_files, [get_remote_file(os.path.joi
 
 contig_stats_lca_df = contig_stats_df[contig_stats_df["read_count"]>2]
 nt_contigs = contig_quality_dfs["exclude_contigs_nt.txt"][contig_quality_dfs["exclude_contigs_nt.txt"]["taxid_na"] | contig_quality_dfs["exclude_contigs_nt.txt"]["hexapoda"]]["query"].tolist()
+
 if (contig_quality_dfs["blast_lca_nt_filtered.m9"] is not None):
     nt_contigs += contig_quality_dfs["blast_lca_nt_filtered.m9"]["query"].unique().tolist()
 
@@ -133,14 +146,8 @@ contig_stats_lca_df = pd.merge(contig_stats_lca_df, contig_quality_dfs["exclude_
 hexapoda_discordance = contig_stats_lca_df.apply(lambda x: ((x["hexapoda_nt"]==True)&(x["hexapoda_nr"]==False))|((x["hexapoda_nr"]==True)&(x["hexapoda_nt"]==False)), axis=1)
 
 
-
-
-if (hexapoda_discordance.any()):
-    print (contig_stats_lca_df[hexapoda_discordance]["query"])
-    exit()
-else:
-    contig_stats_lca_df = contig_stats_lca_df.assign(hexapoda=(contig_stats_lca_df["hexapoda_nt"]==True) | (contig_stats_lca_df["hexapoda_nr"]==True))
-    contig_stats_lca_df = contig_stats_lca_df.drop(columns=["hexapoda_nt", "hexapoda_nr"])
+contig_stats_lca_df = contig_stats_lca_df.assign(hexapoda=(contig_stats_lca_df["hexapoda_nt"]==True) & (contig_stats_lca_df["hexapoda_nr"]==True))
+contig_stats_lca_df = contig_stats_lca_df.drop(columns=["hexapoda_nt", "hexapoda_nr"])
 
 
 

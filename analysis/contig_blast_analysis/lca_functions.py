@@ -140,7 +140,26 @@ def ncbi_older_db (taxid, method, current_taxdb=ncbi, older_taxdb=old_ncbi_taxa)
 ## Filter contigs or blast hits for contigs based on matches to a taxonomic id
 ##
 def filter_by_taxid (df, db, taxid):
-    check_isin = df["taxid"].apply(lambda x, taxid=taxid: taxid in ncbi_older_db(x, "get_lineage"))
+    if (len(df)==0):
+        return (df)
+    unique_taxids = list(df["taxid"].unique())
+    try:
+        lin = [x.get_descendant_taxa(taxid) for x in old_ncbi_taxa]
+    except:
+        pdb.set_trace()
+    try:
+        lin = [item for sublist in lin for item in sublist] + ncbi.get_descendant_taxa(taxid)
+    except:
+        pdb.set_trace()
+    lin = set(lin)
+    try:
+        check_isin_dict = dict(zip(unique_taxids, [x in lin for x in unique_taxids]))
+    except:
+        pdb.set_trace()
+    try:
+        check_isin = df["taxid"].apply(lambda x: check_isin_dict[x])
+    except:
+        pdb.set_trace()
     if (not check_isin.any()):
         return (df)
     if (check_isin.all()):
@@ -161,7 +180,7 @@ def filter_by_taxid (df, db, taxid):
 def get_single_hsp (df_file, blast_type, col_names):
     if (df_file.startswith("s3://")):
         temp = tempfile.NamedTemporaryFile(delete=False)
-        print (temp.name+" tempfile")
+        print (temp.name+" blast file downloaded to this tempfile")
         download_s3_file(df_file, temp.name)
         fn = temp.name
     else:
@@ -259,8 +278,7 @@ def print_to_stdout(message, start_time, verbose):
 def combine_blast_lca (lca_file_name, blast_file_name, outfile, sample_name, blast_type, output_file_name=None):
     lca_data = pd.read_csv(lca_file_name, sep="\t", header=0)
     blast_data = pd.read_csv(blast_file_name, sep="\t", header=0)
-    groupby_columns = ['query', 'identity', 'align_length', 'mismatches', 'gaps',
-                                             'qstart', 'qend', 'sstart', 'send', 'bitscore']
+    groupby_columns = ['query', 'identity', 'align_length', 'mismatches', 'gaps', 'qstart', 'qend', 'sstart', 'send', 'bitscore']
     groupby_selection = ["query"]
     if 'sample' in blast_data:
         groupby_columns = ['sample'] + groupby_columns

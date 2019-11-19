@@ -146,7 +146,7 @@ contig_stats_lca_df = pd.merge(contig_stats_lca_df, contig_quality_dfs["exclude_
 hexapoda_discordance = contig_stats_lca_df.apply(lambda x: ((x["hexapoda_nt"]==True)&(x["hexapoda_nr"]==False))|((x["hexapoda_nr"]==True)&(x["hexapoda_nt"]==False)), axis=1)
 
 
-contig_stats_lca_df = contig_stats_lca_df.assign(hexapoda=(contig_stats_lca_df["hexapoda_nt"]==True) & (contig_stats_lca_df["hexapoda_nr"]==True))
+contig_stats_lca_df = contig_stats_lca_df.assign(hexapoda=(contig_stats_lca_df["hexapoda_nt"]==True) | (contig_stats_lca_df["hexapoda_nr"]==True))
 contig_stats_lca_df = contig_stats_lca_df.drop(columns=["hexapoda_nt", "hexapoda_nr"])
 
 
@@ -157,14 +157,15 @@ nt_nr_contigs = contig_stats_lca_df[(contig_stats_lca_df["nt_or_nr"]=="ntnr")]["
 if (len(nt_nr_contigs)>0):
     contig_stats_lca_df.loc[(contig_stats_lca_df["nt_or_nr"]=="ntnr"), "nt_or_nr"] = nt_nr_contigs.apply(lambda x: choose_nt_nr(x, nt_blast=contig_quality_dfs["blast_lca_nt_filtered.m9"], nr_blast=contig_quality_dfs["blast_lca_nr_filtered.m9"])).tolist()
 
-nt_nr_blast_results = contig_stats_lca_df[~contig_stats_lca_df["nt_or_nr"].isnull()].apply(return_blast_results, blast_nt=contig_quality_dfs["blast_lca_nt_filtered.m9"], blast_nr=contig_quality_dfs["blast_lca_nr_filtered.m9"], blast_columns=blast_col_names, axis=1)
+for i in range(len(contig_stats_lca_df)):
+    if not pd.isnull(contig_stats_lca_df.loc[i:i, "nt_or_nr"]).any():
+        row_replacement = return_blast_results(contig_stats_lca_df.iloc[i], blast_nt=contig_quality_dfs["blast_lca_nt_filtered.m9"], blast_nr=contig_quality_dfs["blast_lca_nr_filtered.m9"], blast_columns=blast_col_names)
+        contig_stats_lca_df.loc[i:i, blast_col_names] = row_replacement.values
 
-contig_stats_lca_df.loc[~contig_stats_lca_df["nt_or_nr"].isnull(), blast_col_names] = pd.concat(nt_nr_blast_results.tolist(), ignore_index=True)
 
 contig_stats_lca_df = contig_stats_lca_df.assign(taxon_group=np.nan)
 contig_stats_lca_df.loc[~contig_stats_lca_df["taxid"].isnull(), "taxon_group"] = contig_stats_lca_df["taxid"][~contig_stats_lca_df["taxid"].isnull()].apply(get_tax_group)
 
-contig_stats_lca_df = contig_stats_lca_df[~contig_stats_lca_df["hexapoda"]]
 
 df_to_s3(s3, contig_stats_lca_df, bucket_name, os.path.join(contig_quality_folder_name, lca_contig_fn), header=True)
 

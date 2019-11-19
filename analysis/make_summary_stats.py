@@ -161,8 +161,10 @@ nt_nr_blast_results = contig_stats_lca_df[~contig_stats_lca_df["nt_or_nr"].isnul
 
 contig_stats_lca_df.loc[~contig_stats_lca_df["nt_or_nr"].isnull(), blast_col_names] = pd.concat(nt_nr_blast_results.tolist(), ignore_index=True)
 
-contig_stats_lca_df = contig_stats_lca_df.assign(tax_group=np.nan)
+contig_stats_lca_df = contig_stats_lca_df.assign(taxon_group=np.nan)
 contig_stats_lca_df.loc[~contig_stats_lca_df["taxid"].isnull(), "taxon_group"] = contig_stats_lca_df["taxid"][~contig_stats_lca_df["taxid"].isnull()].apply(get_tax_group)
+
+contig_stats_lca_df = contig_stats_lca_df[~contig_stats_lca_df["hexapoda"]]
 
 df_to_s3(s3, contig_stats_lca_df, bucket_name, os.path.join(contig_quality_folder_name, lca_contig_fn), header=True)
 

@@ -64,7 +64,10 @@ class Optimizer:
         r["bitscore"] = sum(hsp["bitscore"] for hsp in self.optimal_set)
         # these are new
         if "qlen" not in r:
-            r["qlen"] = int(r["qseqid"].split("_")[3])
+            if '~' in r["qseqid"]:
+                r["qlen"] = int(r["qseqid"].split("~")[1].split("_")[3])
+            else:
+                r["qlen"] = int(r["qseqid"].split("_")[3])
         r["qcov"] = r["hsplen"] / r["qlen"]
         r["hsp_count"] = len(self.optimal_set)
         return r

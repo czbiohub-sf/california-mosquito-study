@@ -27,7 +27,7 @@ update_tax_database = False
 if update_tax_database:
     ncbi.update_taxonomy_database()
 
-
+old_ncbi_taxa = [NCBITaxa(dbfile=x) for x in os.listdir() if x.endswith(".sqlite") and x.startswith("taxdump")]
 
 
 default_blast_headings = ["query", "subject", "identity", "align_length", "mismatches", 
@@ -68,6 +68,8 @@ def find_missing_taxid (acc, db):
         return (None)
     
 
+    
+
 
 ##
 ## Find the lowest common ancestor (LCA) for a given set of taxonomic groups
@@ -84,7 +86,7 @@ def get_lca (taxids, tax_col="taxid", query_col="query"):
         if (len(set(taxids)) <= 1):
             lca = taxids[0]
         else:
-            tree = ncbi.get_topology(taxids)
+            tree = ncbi_older_db(taxids, "get_topology")
             lca = tree.get_tree_root().taxid
     return (lca)
 
@@ -123,21 +125,51 @@ def parse_blast_file (fpath, sep="\t", comment=None, blast_type="nt", col_names=
     df = df.assign(blast_type=blast_type)
     return (df)
 
+def ncbi_older_db (taxid, method, current_taxdb=ncbi, older_taxdb=old_ncbi_taxa):
+    try:
+        return (eval("current_taxdb."+method+"(taxid)"))
+    except:
+        for i, x in enumerate(older_taxdb):
+            try:
+                return (eval("x."+method+"(taxid)"))
+            except:
+                continue
+
 
 ##
 ## Filter contigs or blast hits for contigs based on matches to a taxonomic id
 ##
 def filter_by_taxid (df, db, taxid):
-    check_isin = df["taxid"].apply(lambda x, taxid=taxid: taxid in ncbi.get_lineage(x))
+    if (len(df)==0):
+        return (df)
+    unique_taxids = list(df["taxid"].unique())
+    try:
+        lin = [x.get_descendant_taxa(taxid) for x in old_ncbi_taxa]
+    except:
+        pdb.set_trace()
+    try:
+        lin = [item for sublist in lin for item in sublist] + ncbi.get_descendant_taxa(taxid)
+    except:
+        pdb.set_trace()
+    lin = set(lin)
+    try:
+        check_isin_dict = dict(zip(unique_taxids, [x in lin for x in unique_taxids]))
+    except:
+        pdb.set_trace()
+    try:
+        check_isin = df["taxid"].apply(lambda x: check_isin_dict[x])
+    except:
+        pdb.set_trace()
     if (not check_isin.any()):
         return (df)
     if (check_isin.all()):
         return (df[:0])
-    qlength = float(df["query"].iloc[0].split("_")[3])
-    align_prop = df["align_length"]/qlength
+    align_prop = df["qcov"]
     if (db=="protein"):
         align_prop = align_prop*3
     if (align_prop[check_isin].max() >= 0.8):
+        return (df[:0])
+    elif(check_isin.iloc[0]):
         return (df[:0])
     else:
         return (df)
@@ -145,47 +177,47 @@ def filter_by_taxid (df, db, taxid):
 ##
 ## Get HSP for each query-subject pairing
 ##
-def get_single_hsp (df_file, blast_type, col_names, coltypes):
-    temp = tempfile.NamedTemporaryFile(delete=False)
-    print (temp.name+" tempfile")
+def get_single_hsp (df_file, blast_type, col_names):
     if (df_file.startswith("s3://")):
+        temp = tempfile.NamedTemporaryFile(delete=False)
+        print (temp.name+" blast file downloaded to this tempfile")
         download_s3_file(df_file, temp.name)
-    process = subprocess.Popen(["python", "parse.py", temp.name], stdout=subprocess.PIPE)
-    csv = [line.decode().strip('"\n').split('\t') for line in process.stdout]
-    outdf = pd.DataFrame(csv, columns=col_names).assign(blast_type=blast_type).astype(coltypes)
-    os.unlink(temp.name)
+        fn = temp.name
+    else:
+        fn = df_file
+    output_file = tempfile.NamedTemporaryFile(delete=False)
+    os.system("python parse.py "+fn+" > "+output_file.name)
+    outdf = pd.read_csv(output_file.name, sep="\t", header=None, comment="#", names=col_names).assign(blast_type=blast_type)
+    if (df_file.startswith("s3://")):
+        os.unlink(temp.name)
+    os.unlink(output_file.name)
     return (outdf)
 
 
 ##
 ## Select taxonomic IDs to perfrom LCA analysis on based on BLAST results
 ##
-def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, ident_cutoff=0, align_len_cutoff=0, bitscore_cutoff=0, read_counts=None):
+def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True):
     # df should be a pandas dataframe
     # remove blast hits where identity < ident_cutoff*max(identity) AND
     # align_length < align_len_cutoff*max(align_length) AND
     # bitscore < bitscore_cutoff*max(bitscore)
     if (len(df.index)>1):
-        df = df[df["identity"]>=(ident_cutoff*df["identity"].max())]
-        df = df[df["align_length"]>=(align_len_cutoff*df["align_length"].max())]
-        df = df[df["bitscore"]>=(bitscore_cutoff*df["bitscore"].max())]
-#     if (df["taxid"].isnull().any()):
-#         df.loc[df["taxid"].isnull(), ["taxid"]] = df[df["taxid"].isnull()]["subject"].apply(find_missing_taxid, db=db)
-#         df = df.dropna()
+        m = (1-df["gaps"]/df["align_length"])*df["qcov"]*df["identity"]/100
+        if (df["blast_type"].iloc[0]=="nr"):
+            m = m*3
+        best_row = df[m==m.max()]
+        best_qcov = (1-best_row["gaps"].iloc[0]/best_row["align_length"].iloc[0])*best_row["qcov"].iloc[0]
+        best_ident = best_row["identity"].iloc[0]/100
+        threshold = best_qcov*(best_ident-(1-best_ident))
+        if (df["blast_type"].iloc[0]=="nr"):
+            threshold = threshold * 3
+        df = df[m >= threshold]
     df["taxid"] = df["taxid"].astype('int64')
     if (return_taxid_only):
         return (list(set(df["taxid"])))
     else:
         return (df)
-#     try:
-#         original_contigs = read_counts[read_counts["query"].isin(df["query"])]
-#         filtered_df = filter_by_taxid(df, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
-#         if (len(filtered_df.index)==0):
-#             excluded_contigs = original_contigs[~original_contigs["query"].isin(filtered_df["query"])].assign(reason="hexapoda")
-#         else:
-#             excluded_contigs = pd.DataFrame(columns=list(original_contigs.columns)+["reason"])
-#     except:
-#         pdb.set_trace()
 
 
 ##
@@ -228,8 +260,8 @@ def download_s3_file (s3path, local_path=None):
 def filter_by_lineage (df, taxid_col, lineage_id):
     ncbi = NCBITaxa()
     if (isinstance(lineage_id, str)):
-        lineage_id = ncbi.get_name_translator([lineage_id])[lineage_id][0]
-    descendants = ncbi.get_descendant_taxa(lineage_id)
+        lineage_id = ncbi_older_db([lineage_id], "get_name_translator")[lineage_id][0]
+    descendants = ncbi_older_db(lineage_id, "get_descendant_taxa")
     return (df[df[taxid_col].isin(descendants)])
 
 ##
@@ -246,13 +278,22 @@ def print_to_stdout(message, start_time, verbose):
 def combine_blast_lca (lca_file_name, blast_file_name, outfile, sample_name, blast_type, output_file_name=None):
     lca_data = pd.read_csv(lca_file_name, sep="\t", header=0)
     blast_data = pd.read_csv(blast_file_name, sep="\t", header=0)
-    blast_data_grouped = blast_data.groupby(["query"], as_index=False).\
+    groupby_columns = ['query', 'identity', 'align_length', 'mismatches', 'gaps', 'qstart', 'qend', 'sstart', 'send', 'bitscore']
+    groupby_selection = ["query"]
+    if 'sample' in blast_data:
+        groupby_columns = ['sample'] + groupby_columns
+        groupby_selection = ["sample"] + groupby_selection
+    if 'blast_type' in blast_data:
+        groupby_columns = groupby_columns + ['blast_type']
+        groupby_selection =  groupby_selection + ["blast_type"]
+    blast_data_grouped = blast_data.groupby(groupby_selection, as_index=False).\
     apply(lambda x: x[x["bitscore"]==max(x["bitscore"])].head(n=1))
-    blast_data_grouped = blast_data_grouped[['query', 'identity', 'align_length', 'mismatches', 'gaps',
-                                             'qstart', 'qend', 'sstart', 'send', 'bitscore']]
+    blast_data_grouped = blast_data_grouped[groupby_columns]
     blast_data_grouped.columns = blast_data_grouped.columns.get_level_values(0)
-    grouped_df = pd.merge(blast_data_grouped, lca_data, how="left", on="query")
-    grouped_df.insert(1, "blast_type", value=blast_type)
-    grouped_df.insert(2, "sample", value=sample_name)
+    grouped_df = pd.merge(blast_data_grouped, lca_data, how="left")
+    if "blast_type" not in grouped_df:
+        grouped_df.insert(1, "blast_type", value=blast_type)
+    if "sample" not in grouped_df:
+        grouped_df.insert(2, "sample", value=sample_name)
     df_to_s3(grouped_df, outfile)
     return (outfile)

@@ -10,9 +10,11 @@ output:
 
 # Notebook setup
 
+Run this notebook after running the generate_figures.ipynb jupyter notebook.
+
 ```{r setup, include=FALSE}
 # List of packages to load
-pkgs <- c("parallel", "dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "reutils", "rjson", "knitr", "taxize", "aws.s3")
+pkgs <- c("parallel", "dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "reutils", "rjson", "knitr", "taxize", "aws.s3", "RColorBrewer")
 # Install any packages not yet installed
 if (any(!(pkgs %in% rownames(installed.packages())))) {
   invisible(sapply(pkgs[!(pkgs %in% rownames(installed.packages()))], install.packages))
@@ -24,8 +26,8 @@ knitr::opts_chunk$set(echo=TRUE)
 ```
 
 ```{r directories}
-data_dir <- "../../data"
-fig_dir <- "../../figures/fig2"
+data_dir <- "../../data/metadata"
+fig_dir <- "../../figures/fig3"
 if (!dir.exists(data_dir)) dir.create(data_dir)
 if (!dir.exists(fig_dir)) dir.create(fig_dir)
 ```
@@ -42,146 +44,90 @@ metadata_file_path <- list.files(data_dir, "CMS001_CMS002_Merged", full.names = 
 metadata <- read.csv(metadata_file_path, stringsAsFactors = FALSE) %>%
   mutate(collected_by=gsub(" ", "", collected_by)) %>%
   mutate(collection_date=as.Date(collection_date)) %>%
-  mutate(compute_genus_species=paste(compute_genus, compute_species)) %>% 
-  left_join(., read.csv(file.path(data_dir, "project-mosquito_sample-table.csv")) %>% 
-              rename(NewIDseqName=sample_name) %>% 
-              select(NewIDseqName, total_reads, nonhost_reads, subsampled_fraction, total_ercc_reads, nucleotide_type)
-            )
+  mutate(ska_genus_species=paste(ska_genus, ska_species))
+# %>% 
+#   left_join(., read.csv(file.path(data_dir, "project-mosquito_sample-table.csv")) %>% 
+#               rename(NewIDseqName=sample_name) %>% 
+#               select(NewIDseqName, total_reads, nonhost_reads, subsampled_fraction, total_ercc_reads, nucleotide_type)
+#             )
 ```
 
 
 # Read in data
 
-For each group, get the taxid of each taxonomic group.
 
-```{r taxonomy, message=FALSE}
-groups_taxid <- get_ids(c("viruses", "eubacteria", "culicidae", "eukaryota", "fungi", "chordata", "nematoda", "apicomplexa"), db="ncbi")$ncbi %>% sapply(as.numeric)
-groups_taxid
+
+```{r read_in_data, message=FALSE}
+curated_contigs <- read_tsv(file.path(fig_dir, "all_contigs_df.tsv")) %>%
+  mutate(collected_by=factor(collected_by, levels=c("PLCR", "ALCO",  "WVAL", "COAV", "SAND")),
+         group=factor(group, levels=c("Virus", "Wolbachia", "Metazoa", "Other Eukaryotes"))) %>%
+  arrange(group, ska_genus, ska_species, desc(collected_by), desc(read_prop)) %>%
+  mutate(sample_short=str_split(as.character(sample), "_", simplify=FALSE) %>% lapply(head, 2) %>% sapply(paste, collapse="_") %>% gsub("CMS00", "", .)) %>%
+  mutate(sample_short=factor(sample_short, levels=unique(sample_short)))
 ```
 
 
-Read in blast results.
+# Plot results
 
-```{r blast_results_raw, cache=TRUE, warning=FALSE, message=FALSE}
-blast_results_raw <- paste0("s3://czbiohub-mosquito/contig_quality_concat/blast_lca_", c("nr", "nt"), "_filtered.m9") %>%
-  lapply(function (x) aws.s3::s3read_using(read_tsv, object = x)) %>%
-  do.call(what=rbind, .) %>% 
-  # Calculate the proportion of contig covered by each blast hit
-  mutate(align_prop=align_length*sapply(blast_type=="nr", ifelse, 3, 1)/as.numeric(str_split(query, "_", simplify=TRUE)[, 4])) %>%
-  left_join(., metadata, by=c("sample"="NewIDseqName"), suffix=c("", ".y")) %>%
-  select(-ends_with(".y"))
-```
-
-```{r total_nonhost_reads}
-nonhost_reads <- blast_results_raw %>%
-  split(., .$blast_type) %>%
-  lapply(group_by, sample) %>%
-  lapply(summarize, total_nonhost=sum(read_count), blast_type=first(blast_type)) %>%
-  do.call(what=rbind)
-```
-
-```{r blast_results_taxonomy}
-# A list of all LCA taxids and taxids of their ancestors
-all_taxids <- unique(blast_results_raw$lineage) %>% lapply(rjson::fromJSON) %>% unlist() %>% unique()
-all_taxids_summary <- taxize::ncbi_get_taxon_summary(all_taxids)
-```
-
-```{r}
-# Add total_nonhost reads for each sample to the blast_results
-blast_results <- blast_results_raw %>% 
-  left_join(., nonhost_reads, by=c("sample", "blast_type")) %>%
-  mutate(taxid_rank=all_taxids_summary[match(taxid, all_taxids_summary$uid), "rank"]) %>%
-  cbind(., mclapply(.$lineage, fromJSON, mc.cores=detectCores()) %>% 
-          mclapply(match, all_taxids_summary$uid, mc.cores=detectCores()) %>% 
-          mclapply(function (x) all_taxids_summary[x, c("name", "rank")] %>% lapply(toJSON) %>% data.frame(stringsAsFactors=FALSE), mc.cores=detectCores()) %>% 
-          do.call(what=rbind) %>%
-          rename(lineage_sci_name=name, lineage_rank=rank))
-head(blast_results)
-```
-
-# Viruses
-
-```{r viral_reads, message=FALSE, warning=FALSE}
-viral_contigs <- blast_results %>%
-  filter(grepl(groups_taxid["viruses"] %>% paste0(", ", ., ", "), lineage), blast_type=="nr")
+```{r plot_color_palette, message=FALSE}
+color_palette <- split(curated_contigs$sci_name, curated_contigs$group) %>% 
+  lapply(unique) %>%
+  lapply(function (x) {
+    if (length(x)==1) {
+      colors <- c("gray20")
+    } else {
+      colors <- brewer.pal(length(x), name="Paired")
+    }
+    names(colors) <- x
+    colors
+  }) %>%
+  do.call(what=c)
+renamed_color_palette <- unname(color_palette)
+names(renamed_color_palette) <- strsplit(names(color_palette), ".", fixed=TRUE) %>% sapply(tail, 1)
+legend_labels <- names(renamed_color_palette)
+legend_labels[match(c("Viruses", "Wolbachieae", "Eukaryota", "Metazoa"), legend_labels)] <- c("Other viruses", "Wolbachia", "Other eukaryotes", "Other metazoa")
 ```
 
 
-```{r close_viral_hits}
-viral_thresholds <- c(align_prop=0.8, identity=0.8)
-close_viral_hits <- viral_contigs %>%
-  filter(., align_prop > viral_thresholds[["align_prop"]]/3, identity > (viral_thresholds[["identity"]]*100)) %>%
-  mutate(sample=factor(sample, levels=grep("ater", metadata$NewIDseqName, invert=TRUE, value=TRUE)))
-write.table(close_viral_hits, file.path(data_dir, "close_viral_hits.txt"), sep="\t", row.names=FALSE, quote=FALSE)
-```
 
-Contigs are assigned to known viruses if they are at least `r scales::percent(viral_thresholds[["identity"]], accuracy=1)` identical across at least `r scales::percent(viral_thresholds[["align_prop"]], accuracy=1)` of the bases to a known virus.
 
-## Per mosquito viral composition
-
-```{r per_mosquito_virus_composition, fig.width=15, fig.height=6}
-per_mosquito_virus_df <- close_viral_hits %>%
-  mutate(sample=as.character(sample) %>% gsub("CMS", "", .) %>% str_split(., "_") %>% sapply(function (x) paste(x[1:2], collapse="_"))) %>%
-  group_by(., taxid, sample) %>%
-  summarize(abundance=sum(read_count/total_nonhost),
-            compute_genus_species=first(compute_genus_species),
-            collected_by=first(collected_by), 
-            sci_name=first(sci_name),
-            lineage=first(lineage),
-            taxid_rank=first(taxid_rank),
-            lineage_rank=first(lineage_rank),
-            lineage_sci_name=first(lineage_sci_name)) %>%
-  mutate(sample=factor(sample, levels=group_by(., sample) %>% summarize(abundance=sum(abundance)) %>% ungroup() %>% with(sample[order(abundance)]))) %>%
-  mutate(collected_by=factor(collected_by, c("PLCR", "ALCO", "WVAL", "COAV", "SAND")))
-
-per_mosquito_virus_plot <- list()
-
-per_mosquito_virus_plot$family <-
-  ggplot(per_mosquito_virus_df %>% get_ancestor(., taxonomic_rank="family")) +
-  theme_bw() +
-  geom_bar(aes(x=sample, y=abundance, fill=sci_name), stat="identity") +
-  facet_grid(~compute_genus_species+collected_by, space="free_x", scale="free_x") +
-  guides(fill=guide_legend(title="Virus group", nrow=5, label.theme=element_text(size=12), keywidth=1, keyheight=1)) +
-  ### AMY: edit this to change the colors
-  # scale_fill_manual("Viral taxonomic groups", values=c(`Culex mosquito 1`="#FF1100", `Culex mosquito 2`="pink")) +
+```{r plot_data, message=FALSE}
+plot <- 
+  ggplot(curated_contigs, aes(x=sample_short, y=read_prop, fill=sci_name)) +
+  theme_bw() + 
+  geom_bar(stat="identity", position="stack") +
+  facet_grid(group~ska_genus+ska_species+collected_by, scales='free', space="free_x") +
   scale_y_continuous(labels=scales::percent) +
-  theme(axis.text.x=element_text(angle=45, hjust=1), legend.position="top",
-        strip.text=element_text(angle=90)) +
-  xlab("Sample") + ylab("Nonhost reads")
-
-ggsave(file.path(fig_dir, "per_mosquito_virus_family_by_spp_loc.pdf"), 
-       per_mosquito_virus_plot$family,
-       width=18, height=10)
-
-per_mosquito_virus_plot$family
+  ylab("% of nonhost reads") +
+  xlab("sample ID") +
+  theme(axis.text.x=element_text(angle=90, hjust=1), 
+        legend.position="none",
+        strip.text.y=element_text(angle=0),
+        axis.title.y=element_text(angle=0, vjust=0.5),
+        text=element_text(size=16))
 ```
 
-## Viral prevalence vs. abundance
-
-For each virus taxid, I calculated the prevalence of that virus within a single mosquito species at a collection site.
-
-```{r viral_prevalence}
-close_viral_prev <- close_viral_hits %>%
-  group_by(collected_by, compute_genus_species, taxid) %>%
-  summarise(num_mosquitos=n_distinct(sample), read_prop=mean(read_count/total_nonhost)) %>%
-  left_join(., close_viral_hits[, c("collected_by", "compute_genus_species", "taxid", "sci_name")], by=c("collected_by", "compute_genus_species", "taxid")) %>%
-  left_join(., group_by(metadata, collected_by, compute_genus_species) %>% summarize(total_mosquitos=n_distinct(NewIDseqName)), by=c("collected_by", "compute_genus_species"))
+```{r plot_legends}
+legends <- split(curated_contigs, curated_contigs$group) %>%
+  lapply(function (dataframe) {
+    selected_colours <- names(renamed_color_palette) %in% as.character(dataframe$sci_name)
+    subpalette <- renamed_color_palette[selected_colours]
+    sublabels <- legend_labels[selected_colours]
+    temp_plot <- ggplot(dataframe, aes(x=sample_short, y=read_prop, fill=sci_name)) +
+      theme_bw() +
+      geom_bar(stat="identity", position="stack") +
+      scale_fill_manual("", labels=sublabels, values=subpalette) +
+      theme(text=element_text(size=16))
+    plot_gtable <- ggplot_gtable(ggplot_build(temp_plot))
+    leg <- which(sapply(plot_gtable$grobs, function(x) x$name) == "guide-box") 
+    plot_gtable$grobs[[leg]]
+  })
 ```
 
-For sites where at least 10 mosquitos of a given species were collected, the proportion of mosquitos containing a particular virus was compared to the mean abundance of that virus across that species of mosquito at that site.
-
-```{r prev_abundance, fig.width=4, fig.height=3}
-viral_prev_abundance_plot <- ggplot(filter(close_viral_prev, total_mosquitos>=10), aes(x=read_prop, y=num_mosquitos/total_mosquitos)) + 
-  theme_bw() +
-  geom_point() +
-  scale_x_log10(labels=scales::percent) +
-  scale_y_continuous(labels=scales::percent) +
-  xlab("Bulk abundance\n(proportion of nonhost reads)") +
-  ylab("Prevalence\n(proportion of mosquito)")
-ggsave(file.path(fig_dir, "viral_prev_abundance.pdf"), width=4, height=3)
-viral_prev_abundance_plot
+```{r save_plot}
+full_plot <- arrangeGrob(plot, arrangeGrob(grobs=legends, ncol=1), nrow=1, widths=c(9, 1))
+ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=20, height=20)
 ```
-
 
 ## Save output
 

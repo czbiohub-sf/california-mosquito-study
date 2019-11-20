@@ -1,7 +1,13 @@
 {
   "1": {
+    "family": "Flaviviridae",
     "name": "TBD",
-    "taxid": 38144,
+    "provisional_name": "1|Flavi-like",
+    "samples": [
+      "CMS001_002_Ra_S1",
+      "CMS001_039_Ra_S9",
+      "CMS002_056a_Rb_S9_L004"
+    ],
     "segments": {
       "genome": {
         "clusters": [
@@ -14,16 +20,908 @@
         ]
       }
     },
-    "family": "Flaviviridae",
+    "submission_taxid": 38144,
+    "taxid": 38144
+  },
+  "1160": {
+    "family": "Orthomyxoviridae",
+    "name": "TBD",
+    "provisional_name": "\u016asinis virus",
     "samples": [
-      "CMS002_056a_Rb_S9_L004",
+      "CMS001_027_Ra_S16",
+      "CMS001_046_Ra_S3"
+    ],
+    "segments": {
+      "NP": {
+        "clusters": [
+          3153
+        ],
+        "contigs": [
+          "CMS001_027_Ra_S16|NODE_16_length_1779_cov_20.285546",
+          "CMS001_046_Ra_S3|NODE_9_length_1765_cov_4.627370"
+        ]
+      },
+      "PA": {
+        "clusters": [
+          1610
+        ],
+        "contigs": [
+          "CMS001_027_Ra_S16|NODE_6_length_2203_cov_26.203669",
+          "CMS001_046_Ra_S3|NODE_6_length_2196_cov_5.627183"
+        ]
+      },
+      "PB2": {
+        "clusters": [
+          1204
+        ],
+        "contigs": [
+          "CMS001_027_Ra_S16|NODE_4_length_2420_cov_26.034571",
+          "CMS001_046_Ra_S3|NODE_5_length_2418_cov_6.362238"
+        ]
+      },
+      "RdRp_PB1": {
+        "clusters": [
+          1160
+        ],
+        "contigs": [
+          "CMS001_046_Ra_S3|NODE_4_length_2447_cov_5.256962",
+          "CMS001_027_Ra_S16|NODE_3_length_2447_cov_21.006751"
+        ]
+      },
+      "gp64": {
+        "clusters": [
+          5942
+        ],
+        "contigs": [
+          "CMS001_027_Ra_S16|NODE_26_length_1443_cov_3.281113",
+          "CMS001_046_Ra_S3|NODE_15_length_1449_cov_6.100583"
+        ]
+      },
+      "hypothetical": {
+        "clusters": [
+          27844
+        ],
+        "contigs": [
+          "CMS001_046_Ra_S3|NODE_46_length_813_cov_29.523098",
+          "CMS001_027_Ra_S16|NODE_119_length_803_cov_15.000000"
+        ]
+      },
+      "hypothetical2": {
+        "clusters": [
+          43509
+        ],
+        "contigs": [
+          "CMS001_046_Ra_S3|NODE_70_length_667_cov_20.176271",
+          "CMS001_027_Ra_S16|NODE_179_length_670_cov_18.050590"
+        ]
+      },
+      "hypothetical3": {
+        "clusters": [
+          56582
+        ],
+        "contigs": [
+          "CMS001_027_Ra_S16|NODE_281_length_591_cov_20.025292",
+          "CMS001_046_Ra_S3|NODE_98_length_595_cov_35.749035"
+        ]
+      }
+    },
+    "submission_taxid": 1566308,
+    "taxid": 1566308
+  },
+  "1168": {
+    "family": "Orthomyxoviridae",
+    "name": "TBD",
+    "provisional_name": "1168|Orthomyxo-like",
+    "samples": [
+      "CMS002_026a_Rb_S146_L004",
+      "CMS002_026b_Rb_S147_L004",
+      "CMS002_026c_Rb_S148_L004",
+      "CMS002_026d_Rb_S149_L004",
+      "CMS002_026e_Rb_S150_L004",
+      "CMS002_044a_Rb_S178_L004",
+      "CMS002_044d_Rb_S181_L004",
+      "CMS002_044e_Rb_S182_L004",
+      "CMS002_045a_Rb_S183_L004",
+      "CMS002_045b_Rb_S184_L004",
+      "CMS002_045c_Rb_S185_L004",
+      "CMS002_045d_Rb_S186_L004",
+      "CMS002_045e_Rb_S188_L004",
+      "CMS002_045f_Rb_S189_L004",
+      "CMS002_045g_Rb_S190_L004"
+    ],
+    "segments": {
+      "NP": {
+        "clusters": [
+          2828
+        ],
+        "contigs": [
+          "CMS002_045f_Rb_S189_L004|NODE_8_length_1841_cov_16.570862",
+          "CMS002_026d_Rb_S149_L004|NODE_7_length_1839_cov_40.468785",
+          "CMS002_045e_Rb_S188_L004|NODE_7_length_1842_cov_33.126346",
+          "CMS002_026a_Rb_S146_L004|NODE_7_length_1838_cov_11.944918",
+          "CMS002_045d_Rb_S186_L004|NODE_8_length_1838_cov_42.448609",
+          "CMS002_045c_Rb_S185_L004|NODE_8_length_1835_cov_37.878271",
+          "CMS002_045b_Rb_S184_L004|NODE_8_length_1832_cov_128.581197",
+          "CMS002_045g_Rb_S190_L004|NODE_8_length_1827_cov_23.238857",
+          "CMS002_026e_Rb_S150_L004|NODE_7_length_1830_cov_14.320023",
+          "CMS002_045a_Rb_S183_L004|NODE_8_length_1817_cov_35.929885",
+          "CMS002_026c_Rb_S148_L004|NODE_7_length_1815_cov_21.530495",
+          "CMS002_026b_Rb_S147_L004|NODE_7_length_1823_cov_28.464490",
+          "CMS002_044d_Rb_S181_L004|NODE_7_length_1819_cov_8.668197",
+          "CMS002_044e_Rb_S182_L004|NODE_6_length_1804_cov_3.515924"
+        ]
+      },
+      "PA": {
+        "clusters": [
+          1513
+        ],
+        "contigs": [
+          "CMS002_045f_Rb_S189_L004|NODE_5_length_2230_cov_12.748258",
+          "CMS002_044d_Rb_S181_L004|NODE_4_length_2185_cov_4.129981",
+          "CMS002_026d_Rb_S149_L004|NODE_4_length_2239_cov_31.246068",
+          "CMS002_026a_Rb_S146_L004|NODE_4_length_2235_cov_10.352641",
+          "CMS002_045a_Rb_S183_L004|NODE_5_length_2234_cov_29.245248",
+          "CMS002_045g_Rb_S190_L004|NODE_6_length_2236_cov_19.555813",
+          "CMS002_026e_Rb_S150_L004|NODE_4_length_2229_cov_11.731413",
+          "CMS002_045e_Rb_S188_L004|NODE_4_length_2229_cov_16.253253",
+          "CMS002_045d_Rb_S186_L004|NODE_5_length_2237_cov_20.323148",
+          "CMS002_045c_Rb_S185_L004|NODE_5_length_2243_cov_25.589104",
+          "CMS002_026b_Rb_S147_L004|NODE_4_length_2232_cov_19.982367",
+          "CMS002_045b_Rb_S184_L004|NODE_5_length_2245_cov_128.602399",
+          "CMS002_026c_Rb_S148_L004|NODE_4_length_2245_cov_17.264299"
+        ]
+      },
+      "PB2": {
+        "clusters": [
+          1158
+        ],
+        "contigs": [
+          "CMS002_044d_Rb_S181_L004|NODE_2_length_2366_cov_3.128440",
+          "CMS002_045d_Rb_S186_L004|NODE_3_length_2437_cov_14.601695",
+          "CMS002_045f_Rb_S189_L004|NODE_3_length_2437_cov_10.219492",
+          "CMS002_026c_Rb_S148_L004|NODE_2_length_2437_cov_11.411441",
+          "CMS002_026b_Rb_S147_L004|NODE_2_length_2437_cov_14.657627",
+          "CMS002_045c_Rb_S185_L004|NODE_3_length_2449_cov_17.910624",
+          "CMS002_026d_Rb_S149_L004|NODE_2_length_2441_cov_25.388748",
+          "CMS002_045b_Rb_S184_L004|NODE_3_length_2446_cov_108.708316",
+          "CMS002_045e_Rb_S188_L004|NODE_2_length_2442_cov_13.775053",
+          "CMS002_026a_Rb_S146_L004|NODE_3_length_2440_cov_6.950063",
+          "CMS002_045g_Rb_S190_L004|NODE_3_length_2443_cov_9.605241",
+          "CMS002_045a_Rb_S183_L004|NODE_3_length_2446_cov_25.138877",
+          "CMS002_026e_Rb_S150_L004|NODE_2_length_2445_cov_7.241132"
+        ]
+      },
+      "RdRp_PB1": {
+        "clusters": [
+          1168
+        ],
+        "contigs": [
+          "CMS002_026e_Rb_S150_L004|NODE_3_length_2421_cov_5.596843",
+          "CMS002_026a_Rb_S146_L004|NODE_2_length_2442_cov_5.123890",
+          "CMS002_045c_Rb_S185_L004|NODE_4_length_2416_cov_15.575460",
+          "CMS002_045f_Rb_S189_L004|NODE_4_length_2425_cov_7.017888",
+          "CMS002_026d_Rb_S149_L004|NODE_3_length_2417_cov_14.070085",
+          "CMS002_045g_Rb_S190_L004|NODE_4_length_2424_cov_7.857691",
+          "CMS002_026b_Rb_S147_L004|NODE_3_length_2434_cov_10.639796",
+          "CMS002_026c_Rb_S148_L004|NODE_3_length_2431_cov_7.963042",
+          "CMS002_045e_Rb_S188_L004|NODE_3_length_2431_cov_8.352591",
+          "CMS002_045a_Rb_S183_L004|NODE_4_length_2436_cov_21.253921",
+          "CMS002_045d_Rb_S186_L004|NODE_4_length_2435_cov_10.370653",
+          "CMS002_045b_Rb_S184_L004|NODE_4_length_2440_cov_83.041050"
+        ]
+      },
+      "gp64": {
+        "clusters": [
+          4999
+        ],
+        "contigs": [
+          "CMS002_044d_Rb_S181_L004|NODE_9_length_1476_cov_3.952823",
+          "CMS002_026a_Rb_S146_L004|NODE_10_length_1494_cov_10.328864",
+          "CMS002_045e_Rb_S188_L004|NODE_8_length_1511_cov_21.092050",
+          "CMS002_045g_Rb_S190_L004|NODE_12_length_1513_cov_21.747214",
+          "CMS002_026d_Rb_S149_L004|NODE_10_length_1507_cov_32.534266",
+          "CMS002_045f_Rb_S189_L004|NODE_10_length_1534_cov_13.974605",
+          "CMS002_045d_Rb_S186_L004|NODE_10_length_1515_cov_43.365786",
+          "CMS002_045c_Rb_S185_L004|NODE_10_length_1510_cov_35.868109",
+          "CMS002_026b_Rb_S147_L004|NODE_10_length_1505_cov_19.626050",
+          "CMS002_045a_Rb_S183_L004|NODE_12_length_1505_cov_20.628151",
+          "CMS002_045b_Rb_S184_L004|NODE_10_length_1510_cov_81.706909",
+          "CMS002_026c_Rb_S148_L004|NODE_12_length_1514_cov_17.044537",
+          "CMS002_026e_Rb_S150_L004|NODE_10_length_1496_cov_14.228330"
+        ]
+      },
+      "hypothetical": {
+        "clusters": [
+          23854
+        ],
+        "contigs": [
+          "CMS002_045c_Rb_S185_L004|NODE_14_length_869_cov_33.226010",
+          "CMS002_026e_Rb_S150_L004|NODE_14_length_860_cov_32.821201",
+          "CMS002_045b_Rb_S184_L004|NODE_16_length_863_cov_112.131043",
+          "CMS002_045g_Rb_S190_L004|NODE_17_length_857_cov_21.212821",
+          "CMS002_045e_Rb_S188_L004|NODE_16_length_856_cov_24.838254",
+          "CMS002_026c_Rb_S148_L004|NODE_23_length_857_cov_27.614103",
+          "CMS002_045a_Rb_S183_L004|NODE_18_length_857_cov_23.443590",
+          "CMS002_026d_Rb_S149_L004|NODE_16_length_853_cov_51.842784",
+          "CMS002_044d_Rb_S181_L004|NODE_14_length_857_cov_6.503846",
+          "CMS002_045d_Rb_S186_L004|NODE_14_length_856_cov_44.889602",
+          "CMS002_045f_Rb_S189_L004|NODE_15_length_861_cov_16.709184",
+          "CMS002_026a_Rb_S146_L004|NODE_13_length_857_cov_19.302564",
+          "CMS002_026b_Rb_S147_L004|NODE_16_length_857_cov_45.578205"
+        ]
+      },
+      "hypothetical2": {
+        "clusters": [
+          39518,
+          40848
+        ],
+        "contigs": [
+          "CMS002_045d_Rb_S186_L004|NODE_16_length_685_cov_90.995066",
+          "CMS002_045e_Rb_S188_L004|NODE_19_length_689_cov_61.892157",
+          "CMS002_045c_Rb_S185_L004|NODE_16_length_650_cov_56.849913",
+          "CMS002_026d_Rb_S149_L004|NODE_33_length_650_cov_70.235602",
+          "CMS002_045a_Rb_S183_L004|NODE_22_length_647_cov_29.273684",
+          "CMS002_026c_Rb_S148_L004|NODE_41_length_648_cov_39.882662",
+          "CMS002_026b_Rb_S147_L004|NODE_20_length_650_cov_78.458988",
+          "CMS002_026a_Rb_S146_L004|NODE_16_length_649_cov_29.590909",
+          "CMS002_045f_Rb_S189_L004|NODE_18_length_699_cov_23.221865",
+          "CMS002_044d_Rb_S181_L004|NODE_19_length_645_cov_20.573944",
+          "CMS002_026e_Rb_S150_L004|NODE_20_length_662_cov_38.211966",
+          "CMS002_045b_Rb_S184_L004|NODE_24_length_647_cov_99.228070",
+          "CMS002_045g_Rb_S190_L004|NODE_22_length_641_cov_41.957447",
+          "CMS002_044a_Rb_S178_L004|NODE_23_length_636_cov_4.445438",
+          "CMS002_044e_Rb_S182_L004|NODE_17_length_640_cov_10.486679"
+        ]
+      },
+      "hypothetical3": {
+        "clusters": [
+          54690
+        ],
+        "contigs": [
+          "CMS002_044d_Rb_S181_L004|NODE_24_length_544_cov_16.141328",
+          "CMS002_044a_Rb_S178_L004|NODE_26_length_539_cov_3.790043",
+          "CMS002_044e_Rb_S182_L004|NODE_22_length_568_cov_10.773931",
+          "CMS002_045f_Rb_S189_L004|NODE_21_length_576_cov_25.691383",
+          "CMS002_026e_Rb_S150_L004|NODE_23_length_576_cov_85.304609",
+          "CMS002_045d_Rb_S186_L004|NODE_17_length_583_cov_29.944664",
+          "CMS002_026c_Rb_S148_L004|NODE_54_length_579_cov_73.336653",
+          "CMS002_026a_Rb_S146_L004|NODE_18_length_605_cov_51.958333",
+          "CMS002_026b_Rb_S147_L004|NODE_24_length_579_cov_96.912351",
+          "CMS002_045c_Rb_S185_L004|NODE_18_length_579_cov_25.021912",
+          "CMS002_045e_Rb_S188_L004|NODE_22_length_579_cov_40.533865",
+          "CMS002_026d_Rb_S149_L004|NODE_42_length_582_cov_112.033663",
+          "CMS002_045g_Rb_S190_L004|NODE_25_length_582_cov_19.045545",
+          "CMS002_045b_Rb_S184_L004|NODE_27_length_583_cov_160.486166",
+          "CMS002_045a_Rb_S183_L004|NODE_25_length_585_cov_32.946850"
+        ]
+      }
+    },
+    "submission_taxid": 1566308,
+    "taxid": 1566308
+  },
+  "1170": {
+    "family": "Orthomyxoviridae",
+    "name": "Wuhan mosquito virus 6",
+    "samples": [
+      "CMS001_002_Ra_S1",
+      "CMS001_028_Ra_S17",
+      "CMS001_032_Ra_S7",
+      "CMS001_034_Ra_S19",
+      "CMS001_036_Ra_S20",
+      "CMS001_038_Ra_S22",
       "CMS001_039_Ra_S9",
-      "CMS001_002_Ra_S1"
-    ]
+      "CMS001_042_Ra_S23",
+      "CMS001_043_Ra_S24",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_029e_Rb_S164_L004",
+      "CMS002_056a_Rb_S9_L004"
+    ],
+    "segments": {
+      "NP": {
+        "clusters": [
+          2693
+        ],
+        "contigs": [
+          "CMS002_029e_Rb_S164_L004|NODE_17_length_1868_cov_94.758794",
+          "CMS001_028_Ra_S17|NODE_16_length_1867_cov_91.096089",
+          "CMS001_038_Ra_S22|NODE_19_length_1858_cov_111.848961",
+          "CMS002_056a_Rb_S9_L004|NODE_23_length_1871_cov_203.951505",
+          "CMS002_029d_Rb_S162_L004|NODE_20_length_1860_cov_144.229950",
+          "CMS001_042_Ra_S23|NODE_15_length_1855_cov_99.279528",
+          "CMS001_036_Ra_S20|NODE_33_length_1859_cov_63.709315",
+          "CMS001_002_Ra_S1|NODE_19_length_1860_cov_43.326977",
+          "CMS002_029c_Rb_S161_L004|NODE_19_length_1865_cov_76.263982",
+          "CMS001_039_Ra_S9|NODE_13_length_1856_cov_73.280495",
+          "CMS001_032_Ra_S7|NODE_11_length_1865_cov_50.745526",
+          "CMS001_043_Ra_S24|NODE_15_length_1845_cov_50.750000",
+          "CMS001_034_Ra_S19|NODE_12_length_1850_cov_49.509306"
+        ]
+      },
+      "PA": {
+        "clusters": [
+          1525
+        ],
+        "contigs": [
+          "CMS001_036_Ra_S20|NODE_22_length_2238_cov_30.958815",
+          "CMS002_029d_Rb_S162_L004|NODE_15_length_2234_cov_54.436254",
+          "CMS001_042_Ra_S23|NODE_12_length_2238_cov_65.551134",
+          "CMS002_056a_Rb_S9_L004|NODE_12_length_2235_cov_92.557924",
+          "CMS002_029e_Rb_S164_L004|NODE_13_length_2239_cov_35.559667",
+          "CMS001_028_Ra_S17|NODE_12_length_2228_cov_45.921897",
+          "CMS001_043_Ra_S24|NODE_9_length_2228_cov_26.785681",
+          "CMS002_029c_Rb_S161_L004|NODE_14_length_2228_cov_48.212459",
+          "CMS001_032_Ra_S7|NODE_8_length_2227_cov_33.414884",
+          "CMS001_002_Ra_S1|NODE_11_length_2225_cov_14.049814",
+          "CMS001_038_Ra_S22|NODE_13_length_2223_cov_60.818733",
+          "CMS001_039_Ra_S9|NODE_8_length_2222_cov_47.465268",
+          "CMS001_034_Ra_S19|NODE_8_length_2221_cov_33.642257"
+        ]
+      },
+      "PB2": {
+        "clusters": [
+          1163
+        ],
+        "contigs": [
+          "CMS001_038_Ra_S22|NODE_10_length_2439_cov_46.339966",
+          "CMS001_043_Ra_S24|NODE_7_length_2431_cov_16.937978",
+          "CMS001_032_Ra_S7|NODE_4_length_2440_cov_23.889547",
+          "CMS001_042_Ra_S23|NODE_10_length_2444_cov_49.183354",
+          "CMS001_039_Ra_S9|NODE_6_length_2437_cov_25.881356",
+          "CMS001_034_Ra_S19|NODE_6_length_2437_cov_26.558051",
+          "CMS002_029d_Rb_S162_L004|NODE_12_length_2441_cov_38.431049",
+          "CMS002_056a_Rb_S9_L004|NODE_10_length_2441_cov_75.656091",
+          "CMS001_028_Ra_S17|NODE_6_length_2443_cov_34.986052",
+          "CMS002_029e_Rb_S164_L004|NODE_11_length_2436_cov_17.411191",
+          "CMS001_036_Ra_S20|NODE_12_length_2438_cov_27.791190",
+          "CMS002_029c_Rb_S161_L004|NODE_10_length_2437_cov_26.661864",
+          "CMS001_002_Ra_S1|NODE_9_length_2417_cov_5.849573"
+        ]
+      },
+      "RdRp_PB1": {
+        "clusters": [
+          1170
+        ],
+        "contigs": [
+          "CMS001_002_Ra_S1|NODE_8_length_2431_cov_13.993628",
+          "CMS002_029e_Rb_S164_L004|NODE_12_length_2433_cov_28.686333",
+          "CMS001_042_Ra_S23|NODE_11_length_2437_cov_68.228814",
+          "CMS001_032_Ra_S7|NODE_5_length_2434_cov_37.800594",
+          "CMS002_029d_Rb_S162_L004|NODE_13_length_2438_cov_53.443033",
+          "CMS001_034_Ra_S19|NODE_7_length_2434_cov_32.129826",
+          "CMS001_043_Ra_S24|NODE_6_length_2438_cov_23.586616",
+          "CMS001_038_Ra_S22|NODE_11_length_2437_cov_66.346186",
+          "CMS001_028_Ra_S17|NODE_7_length_2437_cov_40.795339",
+          "CMS001_039_Ra_S9|NODE_7_length_2436_cov_41.756677",
+          "CMS001_036_Ra_S20|NODE_13_length_2436_cov_30.139042",
+          "CMS002_056a_Rb_S9_L004|NODE_9_length_2441_cov_115.001269",
+          "CMS002_029c_Rb_S161_L004|NODE_9_length_2441_cov_36.508037"
+        ]
+      },
+      "gp64": {
+        "clusters": [
+          5024
+        ],
+        "contigs": [
+          "CMS001_032_Ra_S7|NODE_19_length_1515_cov_20.728790",
+          "CMS002_029d_Rb_S162_L004|NODE_36_length_1504_cov_49.895585",
+          "CMS001_043_Ra_S24|NODE_22_length_1497_cov_20.787324",
+          "CMS001_034_Ra_S19|NODE_19_length_1496_cov_20.833686",
+          "CMS001_002_Ra_S1|NODE_22_length_1491_cov_11.842999",
+          "CMS001_039_Ra_S9|NODE_19_length_1496_cov_35.842142",
+          "CMS001_038_Ra_S22|NODE_29_length_1495_cov_47.037377",
+          "CMS001_028_Ra_S17|NODE_27_length_1500_cov_26.318342",
+          "CMS002_029c_Rb_S161_L004|NODE_33_length_1496_cov_38.195208",
+          "CMS002_056a_Rb_S9_L004|NODE_45_length_1500_cov_59.556571",
+          "CMS001_036_Ra_S20|NODE_64_length_1501_cov_21.025281",
+          "CMS002_029e_Rb_S164_L004|NODE_27_length_1532_cov_20.452921",
+          "CMS001_042_Ra_S23|NODE_28_length_1501_cov_37.367978"
+        ]
+      },
+      "hypothetical": {
+        "clusters": [
+          24013
+        ],
+        "contigs": [
+          "CMS001_042_Ra_S23|NODE_131_length_861_cov_90.163265",
+          "CMS001_032_Ra_S7|NODE_34_length_863_cov_37.701018",
+          "CMS001_034_Ra_S19|NODE_59_length_861_cov_61.609694",
+          "CMS002_029c_Rb_S161_L004|NODE_111_length_861_cov_51.704082",
+          "CMS002_029d_Rb_S162_L004|NODE_156_length_862_cov_82.308280",
+          "CMS001_038_Ra_S22|NODE_80_length_866_cov_105.239544",
+          "CMS001_028_Ra_S17|NODE_81_length_862_cov_86.515924",
+          "CMS002_056a_Rb_S9_L004|NODE_213_length_858_cov_224.443022",
+          "CMS001_039_Ra_S9|NODE_93_length_857_cov_97.796154",
+          "CMS001_043_Ra_S24|NODE_94_length_851_cov_34.830749",
+          "CMS002_029e_Rb_S164_L004|NODE_104_length_853_cov_29.935567",
+          "CMS001_002_Ra_S1|NODE_111_length_852_cov_18.163871",
+          "CMS001_036_Ra_S20|NODE_382_length_854_cov_78.613900"
+        ]
+      },
+      "hypothetical2": {
+        "clusters": [
+          45912,
+          40420
+        ],
+        "contigs": [
+          "CMS002_029c_Rb_S161_L004|NODE_200_length_692_cov_49.809756",
+          "CMS001_028_Ra_S17|NODE_175_length_654_cov_25.036395",
+          "CMS001_042_Ra_S23|NODE_273_length_651_cov_15.531359",
+          "CMS002_029d_Rb_S162_L004|NODE_324_length_653_cov_48.888889",
+          "CMS001_039_Ra_S9|NODE_178_length_652_cov_28.526957",
+          "CMS001_036_Ra_S20|NODE_773_length_651_cov_38.283972",
+          "CMS002_056a_Rb_S9_L004|NODE_437_length_648_cov_35.684764",
+          "CMS002_029e_Rb_S164_L004|NODE_203_length_647_cov_16.312281",
+          "CMS001_043_Ra_S24|NODE_206_length_643_cov_7.874558",
+          "CMS001_038_Ra_S22|NODE_156_length_645_cov_25.804577",
+          "CMS001_032_Ra_S7|NODE_73_length_635_cov_9.408602",
+          "CMS001_002_Ra_S1|NODE_242_length_634_cov_8.296230",
+          "CMS001_034_Ra_S19|NODE_145_length_629_cov_8.277174"
+        ]
+      },
+      "hypothetical3": {
+        "clusters": [
+          41133,
+          44440
+        ],
+        "contigs": [
+          "CMS002_029d_Rb_S162_L004|NODE_309_length_664_cov_86.739353",
+          "CMS001_036_Ra_S20|NODE_848_length_627_cov_64.930909",
+          "CMS002_029c_Rb_S161_L004|NODE_267_length_628_cov_84.972777",
+          "CMS001_042_Ra_S23|NODE_311_length_627_cov_66.952727",
+          "CMS001_028_Ra_S17|NODE_208_length_629_cov_110.364130",
+          "CMS001_032_Ra_S7|NODE_76_length_623_cov_32.087912",
+          "CMS001_043_Ra_S24|NODE_222_length_621_cov_23.238971",
+          "CMS001_002_Ra_S1|NODE_260_length_616_cov_22.007421",
+          "CMS002_056a_Rb_S9_L004|NODE_479_length_621_cov_146.672794",
+          "CMS001_034_Ra_S19|NODE_154_length_621_cov_40.792279",
+          "CMS001_039_Ra_S9|NODE_193_length_625_cov_68.656934",
+          "CMS002_029e_Rb_S164_L004|NODE_182_length_687_cov_47.013115",
+          "CMS001_038_Ra_S22|NODE_170_length_625_cov_88.266423"
+        ]
+      }
+    },
+    "submission_taxid": 1608131,
+    "taxid": 1608131
+  },
+  "1181": {
+    "family": "Orthomyxoviridae",
+    "name": "Guadeloupe mosquito quaranja-like virus 1",
+    "samples": [
+      "CMS002_017a_Rb_S122_L004",
+      "CMS002_017b_Rb_S123_L004",
+      "CMS002_017c_Rb_S124_L004",
+      "CMS002_017e_Rb_S126_L004",
+      "CMS002_018b_Rb_S129_L004"
+    ],
+    "segments": {
+      "NP": {
+        "clusters": [
+          3670
+        ],
+        "contigs": [
+          "CMS002_017c_Rb_S124_L004|NODE_11_length_1697_cov_16.645679"
+        ]
+      },
+      "PA": {
+        "clusters": [
+          1613
+        ],
+        "contigs": [
+          "CMS002_017c_Rb_S124_L004|NODE_7_length_2195_cov_8.803588",
+          "CMS002_017e_Rb_S126_L004|NODE_5_length_2195_cov_10.406043",
+          "CMS002_017a_Rb_S122_L004|NODE_6_length_2195_cov_5.166667",
+          "CMS002_017b_Rb_S123_L004|NODE_6_length_2200_cov_7.188884",
+          "CMS002_018b_Rb_S129_L004|NODE_4_length_2203_cov_29.747883"
+        ]
+      },
+      "PB2": {
+        "clusters": [
+          1220
+        ],
+        "contigs": [
+          "CMS002_017a_Rb_S122_L004|NODE_5_length_2385_cov_7.912478",
+          "CMS002_017b_Rb_S123_L004|NODE_5_length_2411_cov_8.142245",
+          "CMS002_017e_Rb_S126_L004|NODE_4_length_2406_cov_14.800343",
+          "CMS002_018b_Rb_S129_L004|NODE_3_length_2410_cov_33.456065",
+          "CMS002_017c_Rb_S124_L004|NODE_6_length_2406_cov_14.721340"
+        ]
+      },
+      "RdRp_PB1": {
+        "clusters": [
+          1181
+        ],
+        "contigs": [
+          "CMS002_017a_Rb_S122_L004|NODE_4_length_2431_cov_10.546729",
+          "CMS002_017e_Rb_S126_L004|NODE_3_length_2433_cov_20.038200",
+          "CMS002_017b_Rb_S123_L004|NODE_4_length_2426_cov_10.821201",
+          "CMS002_018b_Rb_S129_L004|NODE_2_length_2430_cov_26.274968",
+          "CMS002_017c_Rb_S124_L004|NODE_5_length_2434_cov_22.260501"
+        ]
+      },
+      "gp64": {
+        "clusters": [
+          6182
+        ],
+        "contigs": [
+          "CMS002_017c_Rb_S124_L004|NODE_14_length_1429_cov_49.619083",
+          "CMS002_017a_Rb_S122_L004|NODE_9_length_1402_cov_21.230943",
+          "CMS002_017b_Rb_S123_L004|NODE_9_length_1425_cov_24.724777",
+          "CMS002_018b_Rb_S129_L004|NODE_6_length_1423_cov_97.725111",
+          "CMS002_017e_Rb_S126_L004|NODE_8_length_1415_cov_26.409567"
+        ]
+      },
+      "hypothetical": {
+        "clusters": [
+          27998
+        ],
+        "contigs": [
+          "CMS002_017b_Rb_S123_L004|NODE_15_length_804_cov_39.255846",
+          "CMS002_017e_Rb_S126_L004|NODE_13_length_803_cov_22.840220",
+          "CMS002_017a_Rb_S122_L004|NODE_16_length_803_cov_28.468320",
+          "CMS002_018b_Rb_S129_L004|NODE_11_length_810_cov_181.909959",
+          "CMS002_017c_Rb_S124_L004|NODE_21_length_811_cov_33.262943"
+        ]
+      },
+      "hypothetical2": {
+        "clusters": [
+          32157
+        ],
+        "contigs": [
+          "CMS002_017a_Rb_S122_L004|NODE_20_length_721_cov_110.006211",
+          "CMS002_017b_Rb_S123_L004|NODE_18_length_712_cov_134.814173",
+          "CMS002_017e_Rb_S126_L004|NODE_14_length_764_cov_82.858806",
+          "CMS002_017c_Rb_S124_L004|NODE_22_length_749_cov_108.767857",
+          "CMS002_018b_Rb_S129_L004|NODE_13_length_740_cov_237.193062"
+        ]
+      },
+      "hypothetical3": {
+        "clusters": [
+          53671
+        ],
+        "contigs": [
+          "CMS002_017a_Rb_S122_L004|NODE_21_length_602_cov_39.982857",
+          "CMS002_017e_Rb_S126_L004|NODE_18_length_604_cov_23.998102",
+          "CMS002_017b_Rb_S123_L004|NODE_19_length_604_cov_49.464896",
+          "CMS002_017c_Rb_S124_L004|NODE_24_length_610_cov_70.268293",
+          "CMS002_018b_Rb_S129_L004|NODE_15_length_609_cov_105.240602"
+        ]
+      }
+    },
+    "submission_taxid": 2607737,
+    "taxid": 2607737
+  },
+  "12": {
+    "family": "Flaviviridae",
+    "name": "Culex flavivirus",
+    "samples": [
+      "CMS001_029_Ra_S18",
+      "CMS001_044_Ra_S25",
+      "CMS002_049a_Rb_S4_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          12
+        ],
+        "contigs": [
+          "CMS001_029_Ra_S18|NODE_1_length_10946_cov_79.583034",
+          "CMS001_044_Ra_S25|NODE_1_length_10824_cov_43.717130",
+          "CMS002_049a_Rb_S4_L004|NODE_1_length_10796_cov_115.201698"
+        ]
+      }
+    },
+    "submission_taxid": 390844,
+    "taxid": 390844
+  },
+  "12259": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "12259|Toti-like",
+    "samples": [
+      "CMS001_009_Ra_S13"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          12259
+        ],
+        "contigs": [
+          "CMS001_009_Ra_S13|NODE_835_length_1125_cov_1.704198"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "1249": {
+    "family": "Narnaviridae",
+    "name": "TBD",
+    "provisional_name": "1249|Narna-like",
+    "samples": [
+      "CMS001_009_Ra_S13"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          1249
+        ],
+        "contigs": [
+          "CMS001_009_Ra_S13|NODE_70_length_2389_cov_1.563149"
+        ]
+      }
+    },
+    "submission_taxid": 908833,
+    "taxid": 908833
+  },
+  "128": {
+    "family": "Tombusviridae",
+    "name": "TBD",
+    "provisional_name": "128|Tombus-like",
+    "samples": [
+      "CMS001_001_Ra_S1",
+      "CMS001_015_Ra_S13",
+      "CMS001_018_Ra_S14",
+      "CMS001_019_Ra_S14",
+      "CMS001_020_Ra_S15",
+      "CMS001_035_Ra_S20",
+      "CMS001_045_Ra_S2",
+      "CMS001_047_Ra_S4",
+      "CMS001_049_Ra_S6",
+      "CMS001_057_Ra_S11",
+      "CMS001_058_Ra_S9",
+      "CMS002_028a_Rb_S154_L004",
+      "CMS002_028e_Rb_S158_L004",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_047a_Rb_S193_L004",
+      "CMS002_047c_Rb_S195_L004",
+      "CMS002_047g_Rb_S200_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          128
+        ],
+        "contigs": [
+          "CMS001_001_Ra_S1|NODE_5_length_5116_cov_2209.828736",
+          "CMS002_028a_Rb_S154_L004|NODE_3_length_4954_cov_302.392864",
+          "CMS001_020_Ra_S15|NODE_5_length_4956_cov_1434.930314",
+          "CMS001_047_Ra_S4|NODE_1_length_4954_cov_281.056592",
+          "CMS002_028e_Rb_S158_L004|NODE_8_length_4993_cov_5868.479251",
+          "CMS002_038a_Rb_S172_L004|NODE_5_length_4960_cov_515.543314",
+          "CMS001_019_Ra_S14|NODE_4_length_4949_cov_48.673440",
+          "CMS001_058_Ra_S9|NODE_4_length_4922_cov_20.618163",
+          "CMS001_049_Ra_S6|NODE_2_length_4953_cov_60.591468",
+          "CMS001_057_Ra_S11|NODE_5_length_4952_cov_90.586667",
+          "CMS002_029c_Rb_S161_L004|NODE_4_length_4950_cov_32.751077",
+          "CMS001_018_Ra_S14|NODE_4_length_4948_cov_4.042702",
+          "CMS001_045_Ra_S2|NODE_2_length_4931_cov_1086.634940"
+        ]
+      }
+    },
+    "submission_taxid": 137555,
+    "taxid": 137555
+  },
+  "13": {
+    "family": "Virgaviridae",
+    "name": "Culex pipiens-associated Tunisia virus",
+    "samples": [
+      "CMS002_028b_Rb_S155_L004",
+      "CMS002_028c_Rb_S156_L004",
+      "CMS002_028d_Rb_S157_L004",
+      "CMS002_028e_Rb_S158_L004",
+      "CMS002_047a_Rb_S193_L004",
+      "CMS002_047b_Rb_S194_L004",
+      "CMS002_047c_Rb_S195_L004",
+      "CMS002_047d_Rb_S196_L004",
+      "CMS002_047e_Rb_S197_L004",
+      "CMS002_047f_Rb_S198_L004",
+      "CMS002_047g_Rb_S200_L004",
+      "CMS002_047h_Rb_S1_L004",
+      "CMS002_047j_Rb_S3_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          13
+        ],
+        "contigs": [
+          "CMS002_028d_Rb_S157_L004|NODE_1_length_10901_cov_68.016814",
+          "CMS002_047a_Rb_S193_L004|NODE_2_length_10899_cov_76.790612",
+          "CMS002_028c_Rb_S156_L004|NODE_2_length_10899_cov_98.022639",
+          "CMS002_047h_Rb_S1_L004|NODE_1_length_10922_cov_58.303550",
+          "CMS002_047f_Rb_S198_L004|NODE_1_length_10890_cov_83.488486",
+          "CMS002_047e_Rb_S197_L004|NODE_1_length_10901_cov_55.458056",
+          "CMS002_047d_Rb_S196_L004|NODE_1_length_10890_cov_70.468418",
+          "CMS002_047c_Rb_S195_L004|NODE_1_length_10902_cov_152.673072",
+          "CMS002_047b_Rb_S194_L004|NODE_1_length_10911_cov_134.634484",
+          "CMS002_047j_Rb_S3_L004|NODE_1_length_10870_cov_36.731215",
+          "CMS002_028e_Rb_S158_L004|NODE_1_length_10892_cov_40.683865",
+          "CMS002_047g_Rb_S200_L004|NODE_2_length_10890_cov_73.266346",
+          "CMS002_028b_Rb_S155_L004|NODE_1_length_10898_cov_129.990666"
+        ]
+      }
+    },
+    "submission_taxid": 2079148,
+    "taxid": 1527522
+  },
+  "1399": {
+    "family": "Botourmiaviridae",
+    "name": "TBD",
+    "provisional_name": "1399|Botourmia-like",
+    "samples": [
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          1399
+        ],
+        "contigs": [
+          "CMS002_053a_Rb_S7_L004|NODE_134_length_2299_cov_1.260126"
+        ]
+      }
+    },
+    "submission_taxid": 2587553,
+    "taxid": 2587553
+  },
+  "1438": {
+    "family": "Botourmiaviridae",
+    "name": "TBD",
+    "provisional_name": "1438|Botourmia-like",
+    "samples": [
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          1438
+        ],
+        "contigs": [
+          "CMS002_053a_Rb_S7_L004|NODE_136_length_2278_cov_2.307133"
+        ]
+      }
+    },
+    "submission_taxid": 2587553,
+    "taxid": 2587553
+  },
+  "1479": {
+    "family": "Botourmiaviridae",
+    "name": "TBD",
+    "provisional_name": "1479|Botourmia-like",
+    "samples": [
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          1479
+        ],
+        "contigs": [
+          "CMS002_053a_Rb_S7_L004|NODE_141_length_2261_cov_4.574176"
+        ]
+      }
+    },
+    "submission_taxid": 1629669,
+    "taxid": 1629669
+  },
+  "16": {
+    "family": "Flaviviridae",
+    "name": "Calbertado virus",
+    "samples": [
+      "CMS001_032_Ra_S7"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          16
+        ],
+        "contigs": [
+          "CMS001_032_Ra_S7|NODE_1_length_10763_cov_35.536028"
+        ]
+      }
+    },
+    "submission_taxid": 537023,
+    "taxid": 537023
+  },
+  "1636": {
+    "family": "Partitiviridae",
+    "name": "TBD",
+    "provisional_name": "1636|Partiti-like",
+    "samples": [
+      "CMS001_008_Ra_S3",
+      "CMS001_025_Ra_S7",
+      "CMS002_020a_Rb_S131_L004",
+      "CMS002_020b_Rb_S132_L004",
+      "CMS002_020c_Rb_S133_L004",
+      "CMS002_020d_Rb_S134_L004",
+      "CMS002_020e_Rb_S135_L004",
+      "CMS002_021a_Rb_S136_L004",
+      "CMS002_022a_Rb_S137_L004",
+      "CMS002_029a_Rb_S159_L004"
+    ],
+    "segments": {
+      "Chaq_RNA3": {
+        "clusters": [
+          5384
+        ],
+        "contigs": [
+          "CMS002_020e_Rb_S135_L004|NODE_98_length_1494_cov_2605.351447",
+          "CMS002_020c_Rb_S133_L004|NODE_37_length_1496_cov_2257.473573",
+          "CMS002_020d_Rb_S134_L004|NODE_48_length_1475_cov_380.864092",
+          "CMS002_020b_Rb_S132_L004|NODE_32_length_1478_cov_2378.580300",
+          "CMS002_020a_Rb_S131_L004|NODE_297_length_1479_cov_1489.340228",
+          "CMS002_022a_Rb_S137_L004|NODE_22_length_1405_cov_2.296687",
+          "CMS001_008_Ra_S3|NODE_114_length_1474_cov_135.664281",
+          "CMS001_025_Ra_S7|NODE_119_length_1478_cov_164.015703",
+          "CMS002_021a_Rb_S136_L004|NODE_1003_length_1487_cov_1485.531915"
+        ]
+      },
+      "RNA2": {
+        "clusters": [
+          2007
+        ],
+        "contigs": [
+          "CMS002_022a_Rb_S137_L004|NODE_17_length_1595_cov_5.274704",
+          "CMS001_008_Ra_S3|NODE_81_length_1629_cov_129.690077",
+          "CMS001_025_Ra_S7|NODE_88_length_1635_cov_82.808729",
+          "CMS002_020a_Rb_S131_L004|NODE_232_length_1660_cov_1199.797220",
+          "CMS002_021a_Rb_S136_L004|NODE_648_length_1713_cov_1398.679095",
+          "CMS002_020d_Rb_S134_L004|NODE_34_length_1657_cov_843.448101",
+          "CMS002_020c_Rb_S133_L004|NODE_23_length_1658_cov_2205.261860",
+          "CMS002_020b_Rb_S132_L004|NODE_28_length_1662_cov_2123.779180",
+          "CMS002_020e_Rb_S135_L004|NODE_36_length_2052_cov_2708.866835"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          1636
+        ],
+        "contigs": [
+          "CMS002_020b_Rb_S132_L004|NODE_21_length_1820_cov_926.479633",
+          "CMS002_020e_Rb_S135_L004|NODE_55_length_1774_cov_1898.793164",
+          "CMS002_021a_Rb_S136_L004|NODE_301_length_2191_cov_563.679754",
+          "CMS002_020d_Rb_S134_L004|NODE_28_length_1760_cov_329.128936",
+          "CMS002_020c_Rb_S133_L004|NODE_19_length_1763_cov_1135.268683",
+          "CMS002_020a_Rb_S131_L004|NODE_321_length_1442_cov_620.871795",
+          "CMS001_008_Ra_S3|NODE_60_length_1756_cov_74.303157",
+          "CMS001_025_Ra_S7|NODE_72_length_1750_cov_73.687986"
+        ]
+      }
+    },
+    "submission_taxid": 37960,
+    "taxid": 37960
+  },
+  "19890": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "19890|Toti-like",
+    "samples": [
+      "CMS001_016_Ra_S6"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          19890
+        ],
+        "contigs": [
+          "CMS001_016_Ra_S6|NODE_503_length_936_cov_1.477299"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
   },
   "2": {
+    "family": "Rhabdoviridae",
     "name": "TBD",
-    "taxid": 35303,
+    "provisional_name": "2|Rhabdo-like",
+    "samples": [
+      "CMS001_039_Ra_S9",
+      "CMS002_032a_Rb_S166_L004",
+      "CMS002_042a_Rb_S177_L004"
+    ],
     "segments": {
       "genome": {
         "clusters": [
@@ -36,16 +934,552 @@
         ]
       }
     },
-    "family": "Rhabdoviridae",
+    "submission_taxid": 35303,
+    "taxid": 35303
+  },
+  "226": {
+    "family": "Leviviridae",
+    "name": "TBD",
+    "provisional_name": "226|Levi-like",
     "samples": [
-      "CMS001_039_Ra_S9",
-      "CMS002_032a_Rb_S166_L004",
-      "CMS002_042a_Rb_S177_L004"
-    ]
+      "CMS001_047_Ra_S4"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          226
+        ],
+        "contigs": [
+          "CMS001_047_Ra_S4|NODE_2_length_4094_cov_7.237491"
+        ]
+      }
+    },
+    "submission_taxid": 12008,
+    "taxid": 12008
+  },
+  "22872": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "22872|Toti-like",
+    "samples": [
+      "CMS002_020d_Rb_S134_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          22872
+        ],
+        "contigs": [
+          "CMS002_020d_Rb_S134_L004|NODE_164_length_884_cov_1.019827"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "23": {
+    "family": "Iflaviridae",
+    "name": "Culex iflavi-like virus 4",
+    "samples": [
+      "CMS001_002_Ra_S1",
+      "CMS001_046_Ra_S3",
+      "CMS002_034a_Rb_S168_L004",
+      "CMS002_039a_Rb_S173_L004",
+      "CMS002_045c_Rb_S185_L004",
+      "CMS002_045g_Rb_S190_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          23,
+          28
+        ],
+        "contigs": [
+          "CMS001_002_Ra_S1|NODE_3_length_9996_cov_1810.573546",
+          "CMS002_039a_Rb_S173_L004|NODE_1_length_9780_cov_8.398433",
+          "CMS001_046_Ra_S3|NODE_1_length_9875_cov_2370.818432",
+          "CMS002_034a_Rb_S168_L004|NODE_1_length_9781_cov_13.772156"
+        ]
+      }
+    },
+    "submission_taxid": 2304480,
+    "taxid": 2304480
+  },
+  "24": {
+    "family": "Iflaviridae",
+    "name": "TBD",
+    "provisional_name": "24|Ifla-like",
+    "samples": [
+      "CMS001_060_Ra_S12"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          24
+        ],
+        "contigs": [
+          "CMS001_060_Ra_S12|NODE_1_length_9916_cov_285.959955"
+        ]
+      }
+    },
+    "submission_taxid": 1111709,
+    "taxid": 1111709
+  },
+  "246": {
+    "family": "Reoviridae",
+    "name": "TBD",
+    "provisional_name": "246|Reo-like",
+    "samples": [
+      "CMS001_012_Ra_S4"
+    ],
+    "segments": {
+      "RdRP_VP1": {
+        "clusters": [
+          246
+        ],
+        "contigs": [
+          "CMS001_012_Ra_S4|NODE_4_length_4019_cov_14.444698"
+        ]
+      }
+    },
+    "submission_taxid": 40068,
+    "taxid": 40068
+  },
+  "25": {
+    "family": "Iflaviridae",
+    "name": "TBD",
+    "provisional_name": "25|Ifla-like",
+    "samples": [
+      "CMS002_020a_Rb_S131_L004",
+      "CMS002_020b_Rb_S132_L004",
+      "CMS002_020c_Rb_S133_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          25
+        ],
+        "contigs": [
+          "CMS002_020a_Rb_S131_L004|NODE_2_length_9883_cov_83.545176",
+          "CMS002_020c_Rb_S133_L004|NODE_2_length_9884_cov_284.199042"
+        ]
+      }
+    },
+    "submission_taxid": 1111709,
+    "taxid": 1111709
+  },
+  "253": {
+    "family": "Reoviridae",
+    "name": "TBD",
+    "provisional_name": "253|Reo-like",
+    "samples": [
+      "CMS001_012_Ra_S4"
+    ],
+    "segments": {
+      "RdRp_VP1": {
+        "clusters": [
+          253
+        ],
+        "contigs": [
+          "CMS001_012_Ra_S4|NODE_5_length_3972_cov_22.541463"
+        ]
+      }
+    },
+    "submission_taxid": 40068,
+    "taxid": 40068
+  },
+  "27": {
+    "family": "Iflaviridae",
+    "name": "Culex iflavi-like virus 3",
+    "samples": [
+      "CMS001_051_Ra_S8",
+      "CMS002_038a_Rb_S172_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          27,
+          29
+        ],
+        "contigs": [
+          "CMS002_038a_Rb_S172_L004|NODE_2_length_9783_cov_30.124253",
+          "CMS001_051_Ra_S8|NODE_1_length_9777_cov_11.106392"
+        ]
+      }
+    },
+    "submission_taxid": 2304479,
+    "taxid": 2304479
+  },
+  "2923": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "2923|Toti-like",
+    "samples": [
+      "CMS001_005_Ra_S3"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          2923
+        ],
+        "contigs": [
+          "CMS001_005_Ra_S3|NODE_94_length_1823_cov_2.475945"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "296": {
+    "family": "Reoviridae",
+    "name": "TBD",
+    "provisional_name": "296|Reo-like",
+    "samples": [
+      "CMS001_001_Ra_S1",
+      "CMS001_020_Ra_S15",
+      "CMS001_035_Ra_S20",
+      "CMS001_049_Ra_S6",
+      "CMS001_056_Ra_S10",
+      "CMS002_047g_Rb_S200_L004"
+    ],
+    "segments": {
+      "RdRp_VP2": {
+        "clusters": [
+          296
+        ],
+        "contigs": [
+          "CMS001_020_Ra_S15|NODE_10_length_3711_cov_431.323060",
+          "CMS001_001_Ra_S1|NODE_9_length_3713_cov_129.105611",
+          "CMS001_035_Ra_S20|NODE_4_length_3696_cov_4.489914",
+          "CMS001_049_Ra_S6|NODE_5_length_3696_cov_18.070738"
+        ]
+      },
+      "VP1": {
+        "clusters": [
+          313
+        ],
+        "contigs": [
+          "CMS001_020_Ra_S15|NODE_12_length_3663_cov_602.187953",
+          "CMS001_001_Ra_S1|NODE_10_length_3655_cov_133.189212",
+          "CMS002_047g_Rb_S200_L004|NODE_6_length_3625_cov_4.808625",
+          "CMS001_049_Ra_S6|NODE_7_length_3610_cov_18.624115"
+        ]
+      },
+      "VP3": {
+        "clusters": [
+          282
+        ],
+        "contigs": [
+          "CMS002_047g_Rb_S200_L004|NODE_5_length_3663_cov_3.398494",
+          "CMS001_035_Ra_S20|NODE_5_length_3680_cov_5.105468",
+          "CMS001_049_Ra_S6|NODE_6_length_3685_cov_14.764690",
+          "CMS001_020_Ra_S15|NODE_11_length_3700_cov_481.736406",
+          "CMS001_001_Ra_S1|NODE_7_length_3782_cov_120.096086"
+        ]
+      },
+      "VP4": {
+        "clusters": [
+          283
+        ],
+        "contigs": [
+          "CMS001_035_Ra_S20|NODE_3_length_3714_cov_6.313720",
+          "CMS001_049_Ra_S6|NODE_4_length_3716_cov_9.564990",
+          "CMS001_001_Ra_S1|NODE_8_length_3731_cov_137.932129",
+          "CMS001_020_Ra_S15|NODE_7_length_3782_cov_335.125236"
+        ]
+      },
+      "VP5": {
+        "clusters": [
+          469
+        ],
+        "contigs": [
+          "CMS001_035_Ra_S20|NODE_9_length_3219_cov_5.589752",
+          "CMS001_049_Ra_S6|NODE_8_length_3224_cov_20.945027",
+          "CMS001_020_Ra_S15|NODE_17_length_3226_cov_621.998412"
+        ]
+      },
+      "VP6": {
+        "clusters": [
+          3105
+        ],
+        "contigs": [
+          "CMS001_020_Ra_S15|NODE_50_length_1787_cov_322.730409",
+          "CMS001_001_Ra_S1|NODE_35_length_1786_cov_114.869514",
+          "CMS001_049_Ra_S6|NODE_14_length_1778_cov_11.385068"
+        ]
+      },
+      "VP7": {
+        "clusters": [
+          5504
+        ],
+        "contigs": [
+          "CMS001_020_Ra_S15|NODE_78_length_1486_cov_370.973031"
+        ]
+      },
+      "VP8": {
+        "clusters": [
+          11832
+        ],
+        "contigs": [
+          "CMS001_001_Ra_S1|NODE_137_length_1141_cov_48.013158",
+          "CMS001_020_Ra_S15|NODE_150_length_1124_cov_159.506208"
+        ]
+      }
+    },
+    "submission_taxid": 1567403,
+    "taxid": 1567403
+  },
+  "30": {
+    "family": "Rhabdoviridae",
+    "name": "TBD",
+    "provisional_name": "30|Rhabdo-like",
+    "samples": [
+      "CMS001_031_Ra_S19",
+      "CMS002_037a_Rb_S171_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          30,
+          32
+        ],
+        "contigs": [
+          "CMS002_037a_Rb_S171_L004|NODE_1_length_9379_cov_122.411954",
+          "CMS001_031_Ra_S19|NODE_1_length_9312_cov_34.616892"
+        ]
+      }
+    },
+    "submission_taxid": 35303,
+    "taxid": 35303
+  },
+  "3061": {
+    "family": "Botourmiaviridae",
+    "name": "TBD",
+    "provisional_name": "3061|Botourmia-like",
+    "samples": [
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          3061
+        ],
+        "contigs": [
+          "CMS002_053a_Rb_S7_L004|NODE_257_length_1795_cov_3.930733"
+        ]
+      }
+    },
+    "submission_taxid": 2587553,
+    "taxid": 2587553
+  },
+  "3110": {
+    "family": "Partitiviridae",
+    "name": "TBD",
+    "provisional_name": "3110|Partiti-like",
+    "samples": [
+      "CMS002_026a_Rb_S146_L004",
+      "CMS002_026b_Rb_S147_L004",
+      "CMS002_026c_Rb_S148_L004",
+      "CMS002_026d_Rb_S149_L004",
+      "CMS002_026e_Rb_S150_L004",
+      "CMS002_045a_Rb_S183_L004",
+      "CMS002_045b_Rb_S184_L004",
+      "CMS002_045d_Rb_S186_L004",
+      "CMS002_045e_Rb_S188_L004",
+      "CMS002_045f_Rb_S189_L004",
+      "CMS002_045g_Rb_S190_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          3101
+        ],
+        "contigs": [
+          "CMS002_026a_Rb_S146_L004|NODE_8_length_1726_cov_6.101273",
+          "CMS002_026e_Rb_S150_L004|NODE_8_length_1733_cov_9.527778",
+          "CMS002_026b_Rb_S147_L004|NODE_8_length_1725_cov_4.561286",
+          "CMS002_045a_Rb_S183_L004|NODE_9_length_1732_cov_24.264653",
+          "CMS002_045g_Rb_S190_L004|NODE_9_length_1788_cov_6.144944",
+          "CMS002_026d_Rb_S149_L004|NODE_9_length_1744_cov_21.379724"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          3110
+        ],
+        "contigs": [
+          "CMS002_045d_Rb_S186_L004|NODE_11_length_1401_cov_1.682779",
+          "CMS002_045e_Rb_S188_L004|NODE_10_length_1444_cov_2.470373",
+          "CMS002_026c_Rb_S148_L004|NODE_13_length_1443_cov_4.345534",
+          "CMS002_045f_Rb_S189_L004|NODE_11_length_1480_cov_3.186030",
+          "CMS002_026a_Rb_S146_L004|NODE_9_length_1499_cov_5.362166",
+          "CMS002_026b_Rb_S147_L004|NODE_9_length_1603_cov_3.652687",
+          "CMS002_045b_Rb_S184_L004|NODE_11_length_1481_cov_2.597578",
+          "CMS002_045g_Rb_S190_L004|NODE_13_length_1503_cov_13.761571",
+          "CMS002_045a_Rb_S183_L004|NODE_10_length_1697_cov_52.273457",
+          "CMS002_026e_Rb_S150_L004|NODE_9_length_1539_cov_5.166895",
+          "CMS002_026d_Rb_S149_L004|NODE_8_length_1787_cov_26.230409"
+        ]
+      }
+    },
+    "submission_taxid": 37960,
+    "taxid": 37960
+  },
+  "312": {
+    "family": "Tombusviridae",
+    "name": "TBD",
+    "provisional_name": "312|Tombus-like",
+    "samples": [
+      "CMS001_006_Ra_S5",
+      "CMS001_025_Ra_S7"
+    ],
+    "segments": {
+      "RdRp_RNA1": {
+        "clusters": [
+          312
+        ],
+        "contigs": [
+          "CMS001_006_Ra_S5|NODE_4_length_3618_cov_2.713075",
+          "CMS001_025_Ra_S7|NODE_8_length_3666_cov_8.406520"
+        ]
+      }
+    },
+    "submission_taxid": 137555,
+    "taxid": 137555
+  },
+  "3256": {
+    "family": "Partitiviridae",
+    "name": "TBD",
+    "provisional_name": "3256|Partiti-like",
+    "samples": [
+      "CMS001_003_Ra_S2",
+      "CMS002_020a_Rb_S131_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          4054
+        ],
+        "contigs": [
+          "CMS001_003_Ra_S2|NODE_79_length_1635_cov_20.161104",
+          "CMS002_020a_Rb_S131_L004|NODE_239_length_1647_cov_207.022293"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          3256
+        ],
+        "contigs": [
+          "CMS002_020a_Rb_S131_L004|NODE_200_length_1765_cov_198.981043",
+          "CMS001_003_Ra_S2|NODE_67_length_1724_cov_9.762599"
+        ]
+      }
+    },
+    "submission_taxid": 37960,
+    "taxid": 37960
+  },
+  "326": {
+    "family": "Chrysoviridae",
+    "name": "Hubei chryso-like virus 1",
+    "samples": [
+      "CMS002_022a_Rb_S137_L004",
+      "CMS002_023a_Rb_S138_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          523
+        ],
+        "contigs": [
+          "CMS002_022a_Rb_S137_L004|NODE_6_length_3137_cov_100.636928",
+          "CMS002_023a_Rb_S138_L004|NODE_8_length_3124_cov_26.633410"
+        ]
+      },
+      "RNA3": {
+        "clusters": [
+          494
+        ],
+        "contigs": [
+          "CMS002_023a_Rb_S138_L004|NODE_6_length_3153_cov_28.421326",
+          "CMS002_022a_Rb_S137_L004|NODE_4_length_3183_cov_103.560528"
+        ]
+      },
+      "RNA4": {
+        "clusters": [
+          515
+        ],
+        "contigs": [
+          "CMS002_022a_Rb_S137_L004|NODE_7_length_2965_cov_29.667590",
+          "CMS002_023a_Rb_S138_L004|NODE_7_length_3149_cov_14.286458"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          326
+        ],
+        "contigs": [
+          "CMS002_023a_Rb_S138_L004|NODE_2_length_3574_cov_75.576494",
+          "CMS002_022a_Rb_S137_L004|NODE_3_length_3619_cov_89.634670"
+        ]
+      }
+    },
+    "submission_taxid": 1922855,
+    "taxid": 2587491
+  },
+  "354": {
+    "family": "Chrysoviridae",
+    "name": "TBD",
+    "provisional_name": "354|Chryso-like",
+    "samples": [
+      "CMS001_053_Ra_S8"
+    ],
+    "segments": {
+      "RdRp_RNA1": {
+        "clusters": [
+          354
+        ],
+        "contigs": [
+          "CMS001_053_Ra_S8|NODE_2_length_3531_cov_10.029820"
+        ]
+      }
+    },
+    "submission_taxid": 2587491,
+    "taxid": 2587491
+  },
+  "39": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "39|Toti-like",
+    "samples": [
+      "CMS001_027_Ra_S16",
+      "CMS001_032_Ra_S7",
+      "CMS001_043_Ra_S24",
+      "CMS001_051_Ra_S8"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          39
+        ],
+        "contigs": [
+          "CMS001_043_Ra_S24|NODE_2_length_7455_cov_5.727433",
+          "CMS001_051_Ra_S8|NODE_2_length_7775_cov_34.360223"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
   },
   "4": {
+    "family": "Rhabdoviridae",
     "name": "TBD",
-    "taxid": 35303,
+    "provisional_name": "4|Rhabdo-like",
+    "samples": [
+      "CMS001_015_Ra_S13",
+      "CMS001_048_Ra_S5",
+      "CMS002_047a_Rb_S193_L004",
+      "CMS002_053a_Rb_S7_L004"
+    ],
     "segments": {
       "genome": {
         "clusters": [
@@ -57,17 +1491,671 @@
         ]
       }
     },
-    "family": "Rhabdoviridae",
+    "submission_taxid": 35303,
+    "taxid": 35303
+  },
+  "416": {
+    "family": "Leviviridae",
+    "name": "TBD",
+    "provisional_name": "416|Levi-like",
     "samples": [
+      "CMS001_026_Ra_S18"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          416
+        ],
+        "contigs": [
+          "CMS001_026_Ra_S18|NODE_13_length_3331_cov_4.147203"
+        ]
+      }
+    },
+    "submission_taxid": 39683,
+    "taxid": 39683
+  },
+  "42": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "42|Toti-like",
+    "samples": [
+      "CMS001_001_Ra_S1",
+      "CMS001_007_Ra_S12",
+      "CMS001_010_Ra_S1",
+      "CMS001_011_Ra_S4",
+      "CMS001_013_Ra_S5",
       "CMS001_015_Ra_S13",
-      "CMS002_053a_Rb_S7_L004",
+      "CMS001_017_Ra_S6",
+      "CMS001_018_Ra_S14",
+      "CMS001_019_Ra_S14",
+      "CMS001_020_Ra_S15",
+      "CMS001_021_Ra_S16",
+      "CMS001_022_Ra_S6",
+      "CMS001_024_Ra_S15",
+      "CMS001_035_Ra_S20",
+      "CMS001_037_Ra_S21",
+      "CMS001_045_Ra_S2",
       "CMS001_048_Ra_S5",
-      "CMS002_047a_Rb_S193_L004"
-    ]
+      "CMS001_049_Ra_S6",
+      "CMS001_050_Ra_S23",
+      "CMS001_052_Ra_S7",
+      "CMS001_053_Ra_S8",
+      "CMS001_057_Ra_S11",
+      "CMS001_058_Ra_S9",
+      "CMS002_047d_Rb_S196_L004",
+      "CMS002_047g_Rb_S200_L004",
+      "CMS002_047j_Rb_S3_L004",
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          42,
+          43
+        ],
+        "contigs": [
+          "CMS001_057_Ra_S11|NODE_2_length_7695_cov_18.576267",
+          "CMS001_058_Ra_S9|NODE_2_length_7689_cov_8.491592",
+          "CMS001_050_Ra_S23|NODE_2_length_7350_cov_11.928640",
+          "CMS002_053a_Rb_S7_L004|NODE_4_length_7692_cov_11.659619",
+          "CMS001_011_Ra_S4|NODE_1_length_7687_cov_12.856373",
+          "CMS001_015_Ra_S13|NODE_2_length_7398_cov_4.753312"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "4269": {
+    "family": "Botourmiaviridae",
+    "name": "TBD",
+    "provisional_name": "4269|Botourmia-like",
+    "samples": [
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          4269
+        ],
+        "contigs": [
+          "CMS002_053a_Rb_S7_L004|NODE_311_length_1619_cov_2.165370"
+        ]
+      }
+    },
+    "submission_taxid": 1629669,
+    "taxid": 1629669
+  },
+  "44": {
+    "family": "Peribunyaviridae",
+    "name": "Culex bunya-like virus",
+    "samples": [
+      "CMS001_002_Ra_S1",
+      "CMS001_028_Ra_S17",
+      "CMS001_030_Ra_S7",
+      "CMS001_032_Ra_S7",
+      "CMS001_033_Ra_S8",
+      "CMS001_034_Ra_S19",
+      "CMS001_036_Ra_S20",
+      "CMS001_038_Ra_S22",
+      "CMS001_039_Ra_S9",
+      "CMS001_041_Ra_S10",
+      "CMS001_042_Ra_S23",
+      "CMS001_043_Ra_S24",
+      "CMS001_044_Ra_S25",
+      "CMS001_046_Ra_S3",
+      "CMS001_051_Ra_S8",
+      "CMS001_059_Ra_S10",
+      "CMS002_010a_Rb_S119_L004",
+      "CMS002_013a_Rb_S120_L004",
+      "CMS002_022a_Rb_S137_L004",
+      "CMS002_023a_Rb_S138_L004",
+      "CMS002_027b_Rb_S153_L004",
+      "CMS002_029a_Rb_S159_L004",
+      "CMS002_029b_Rb_S160_L004",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_029e_Rb_S164_L004",
+      "CMS002_035a_Rb_S169_L004",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_040a_Rb_S174_L004",
+      "CMS002_046a_Rb_S191_L004",
+      "CMS002_046b_Rb_S192_L004",
+      "CMS002_049a_Rb_S4_L004",
+      "CMS002_051a_Rb_S6_L004",
+      "CMS002_057a_Rb_S10_L004"
+    ],
+    "segments": {
+      "NP": {
+        "clusters": [
+          4751
+        ],
+        "contigs": [
+          "CMS001_032_Ra_S7|NODE_17_length_1556_cov_289.465179",
+          "CMS002_035a_Rb_S169_L004|NODE_93_length_1552_cov_1253.313220",
+          "CMS001_051_Ra_S8|NODE_30_length_1550_cov_346.778683",
+          "CMS002_029e_Rb_S164_L004|NODE_25_length_1550_cov_460.069925",
+          "CMS001_036_Ra_S20|NODE_57_length_1545_cov_164.673706",
+          "CMS002_029d_Rb_S162_L004|NODE_32_length_1555_cov_538.361976",
+          "CMS002_029c_Rb_S161_L004|NODE_31_length_1545_cov_417.388283",
+          "CMS001_034_Ra_S19|NODE_16_length_1548_cov_220.879674",
+          "CMS002_029b_Rb_S160_L004|NODE_24_length_1560_cov_616.744437",
+          "CMS002_029a_Rb_S159_L004|NODE_68_length_1552_cov_654.076610",
+          "CMS001_059_Ra_S10|NODE_12_length_1558_cov_299.632005",
+          "CMS001_033_Ra_S8|NODE_23_length_1541_cov_711.521175",
+          "CMS002_051a_Rb_S6_L004|NODE_10_length_1547_cov_761.377551",
+          "CMS001_039_Ra_S9|NODE_17_length_1540_cov_209.249487",
+          "CMS001_002_Ra_S1|NODE_21_length_1539_cov_169.224350",
+          "CMS001_043_Ra_S24|NODE_20_length_1552_cov_146.437288",
+          "CMS001_038_Ra_S22|NODE_26_length_1556_cov_240.903989",
+          "CMS002_057a_Rb_S10_L004|NODE_7_length_1540_cov_594.630212",
+          "CMS001_046_Ra_S3|NODE_13_length_1538_cov_8.502396",
+          "CMS001_042_Ra_S23|NODE_26_length_1538_cov_269.199863",
+          "CMS002_040a_Rb_S174_L004|NODE_34_length_1536_cov_14.169979",
+          "CMS001_041_Ra_S10|NODE_11_length_1550_cov_276.064494",
+          "CMS002_022a_Rb_S137_L004|NODE_18_length_1548_cov_469.408566",
+          "CMS002_023a_Rb_S138_L004|NODE_13_length_1547_cov_1012.835374",
+          "CMS002_013a_Rb_S120_L004|NODE_15_length_1545_cov_647.803815",
+          "CMS002_010a_Rb_S119_L004|NODE_9_length_1550_cov_265.044807",
+          "CMS002_049a_Rb_S4_L004|NODE_7_length_1540_cov_854.950103",
+          "CMS001_044_Ra_S25|NODE_10_length_1540_cov_191.730007",
+          "CMS001_028_Ra_S17|NODE_25_length_1538_cov_161.370294",
+          "CMS001_030_Ra_S7|NODE_6_length_1539_cov_403.448700",
+          "CMS002_046b_Rb_S192_L004|NODE_23_length_1527_cov_3.406897"
+        ]
+      },
+      "RdRp_L": {
+        "clusters": [
+          44
+        ],
+        "contigs": [
+          "CMS001_028_Ra_S17|NODE_1_length_7457_cov_29.147154",
+          "CMS001_032_Ra_S7|NODE_2_length_7460_cov_27.721793",
+          "CMS001_059_Ra_S10|NODE_1_length_7460_cov_36.748205",
+          "CMS001_030_Ra_S7|NODE_1_length_7462_cov_59.300609",
+          "CMS001_043_Ra_S24|NODE_1_length_7460_cov_24.919139",
+          "CMS001_039_Ra_S9|NODE_3_length_7460_cov_51.901666",
+          "CMS001_002_Ra_S1|NODE_4_length_7461_cov_43.625135",
+          "CMS001_044_Ra_S25|NODE_2_length_7461_cov_39.496885",
+          "CMS001_051_Ra_S8|NODE_3_length_7461_cov_62.964789",
+          "CMS001_034_Ra_S19|NODE_2_length_7461_cov_37.127438",
+          "CMS002_051a_Rb_S6_L004|NODE_2_length_7462_cov_156.563304",
+          "CMS002_057a_Rb_S10_L004|NODE_2_length_7462_cov_64.491266",
+          "CMS001_033_Ra_S8|NODE_1_length_7462_cov_99.933378",
+          "CMS002_049a_Rb_S4_L004|NODE_2_length_7463_cov_198.088817",
+          "CMS001_042_Ra_S23|NODE_1_length_7464_cov_55.517666",
+          "CMS001_036_Ra_S20|NODE_1_length_7463_cov_25.568237",
+          "CMS002_029e_Rb_S164_L004|NODE_2_length_7464_cov_77.534994",
+          "CMS002_029c_Rb_S161_L004|NODE_1_length_7463_cov_99.720688",
+          "CMS002_029b_Rb_S160_L004|NODE_1_length_7463_cov_122.739101",
+          "CMS001_038_Ra_S22|NODE_1_length_7463_cov_64.676415",
+          "CMS002_027b_Rb_S153_L004|NODE_1_length_7468_cov_110.827493",
+          "CMS002_010a_Rb_S119_L004|NODE_1_length_7476_cov_47.962698",
+          "CMS002_029d_Rb_S162_L004|NODE_2_length_7467_cov_145.020568",
+          "CMS002_029a_Rb_S159_L004|NODE_1_length_7477_cov_160.521622",
+          "CMS002_013a_Rb_S120_L004|NODE_1_length_7477_cov_113.020000",
+          "CMS001_041_Ra_S10|NODE_1_length_7473_cov_68.448891",
+          "CMS002_035a_Rb_S169_L004|NODE_2_length_7663_cov_235.389929",
+          "CMS002_023a_Rb_S138_L004|NODE_1_length_7483_cov_181.562382",
+          "CMS002_022a_Rb_S137_L004|NODE_1_length_7544_cov_57.967591"
+        ]
+      }
+    },
+    "submission_taxid": 2304497,
+    "taxid": 39718
+  },
+  "45": {
+    "family": "Nodaviridae",
+    "name": "Culex mosquito virus 4",
+    "samples": [
+      "CMS001_044_Ra_S25",
+      "CMS001_059_Ra_S10",
+      "CMS002_051a_Rb_S6_L004",
+      "CMS002_054a_Rb_S8_L004",
+      "CMS002_056a_Rb_S9_L004",
+      "CMS002_057a_Rb_S10_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          117
+        ],
+        "contigs": [
+          "CMS002_057a_Rb_S10_L004|NODE_3_length_5313_cov_56.443659",
+          "CMS002_051a_Rb_S6_L004|NODE_3_length_5315_cov_174.869416",
+          "CMS001_044_Ra_S25|NODE_4_length_5310_cov_57.076629",
+          "CMS002_054a_Rb_S8_L004|NODE_2_length_5313_cov_255.968869",
+          "CMS001_059_Ra_S10|NODE_3_length_5312_cov_65.660554"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          45
+        ],
+        "contigs": [
+          "CMS002_051a_Rb_S6_L004|NODE_1_length_7468_cov_473.533893",
+          "CMS002_057a_Rb_S10_L004|NODE_1_length_7468_cov_172.478826",
+          "CMS002_054a_Rb_S8_L004|NODE_1_length_7470_cov_515.249290",
+          "CMS001_044_Ra_S25|NODE_3_length_7453_cov_83.423807",
+          "CMS001_059_Ra_S10|NODE_2_length_7458_cov_138.620512"
+        ]
+      }
+    },
+    "submission_taxid": 2304484,
+    "taxid": 2304484
+  },
+  "458": {
+    "family": "Solemoviridae",
+    "name": "TBD",
+    "provisional_name": "458|Solemo-like",
+    "samples": [
+      "CMS001_002_Ra_S1",
+      "CMS001_015_Ra_S13",
+      "CMS001_021_Ra_S16",
+      "CMS001_024_Ra_S15",
+      "CMS001_027_Ra_S16",
+      "CMS001_028_Ra_S17",
+      "CMS001_031_Ra_S19",
+      "CMS001_032_Ra_S7",
+      "CMS001_033_Ra_S8",
+      "CMS001_034_Ra_S19",
+      "CMS001_036_Ra_S20",
+      "CMS001_038_Ra_S22",
+      "CMS001_039_Ra_S9",
+      "CMS001_040_Ra_S21",
+      "CMS001_042_Ra_S23",
+      "CMS001_043_Ra_S24",
+      "CMS001_044_Ra_S25",
+      "CMS001_046_Ra_S3",
+      "CMS001_049_Ra_S6",
+      "CMS001_051_Ra_S8",
+      "CMS001_053_Ra_S8",
+      "CMS002_029a_Rb_S159_L004",
+      "CMS002_029b_Rb_S160_L004",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_029e_Rb_S164_L004",
+      "CMS002_031a_Rb_S165_L004",
+      "CMS002_032a_Rb_S166_L004",
+      "CMS002_033a_Rb_S167_L004",
+      "CMS002_034a_Rb_S168_L004",
+      "CMS002_035a_Rb_S169_L004",
+      "CMS002_036a_Rb_S170_L004",
+      "CMS002_037a_Rb_S171_L004",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_039a_Rb_S173_L004",
+      "CMS002_040a_Rb_S174_L004",
+      "CMS002_041a_Rb_S176_L004",
+      "CMS002_042a_Rb_S177_L004",
+      "CMS002_044a_Rb_S178_L004",
+      "CMS002_044b_Rb_S179_L004",
+      "CMS002_044d_Rb_S181_L004",
+      "CMS002_044e_Rb_S182_L004",
+      "CMS002_045g_Rb_S190_L004",
+      "CMS002_051a_Rb_S6_L004",
+      "CMS002_056a_Rb_S9_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          437
+        ],
+        "contigs": [
+          "CMS002_038a_Rb_S172_L004|NODE_44_length_1783_cov_1506.487691",
+          "CMS001_021_Ra_S16|NODE_51_length_1777_cov_480.708824",
+          "CMS001_051_Ra_S8|NODE_21_length_1697_cov_502.946914",
+          "CMS002_036a_Rb_S170_L004|NODE_28_length_1668_cov_1978.707102",
+          "CMS001_038_Ra_S22|NODE_22_length_1678_cov_339.635853",
+          "CMS002_037a_Rb_S171_L004|NODE_29_length_1674_cov_1784.078272",
+          "CMS002_031a_Rb_S165_L004|NODE_32_length_1671_cov_1758.829987",
+          "CMS002_033a_Rb_S167_L004|NODE_67_length_1664_cov_2599.378702",
+          "CMS002_039a_Rb_S173_L004|NODE_52_length_1665_cov_1701.556675",
+          "CMS002_040a_Rb_S174_L004|NODE_27_length_1666_cov_2134.390183",
+          "CMS002_029e_Rb_S164_L004|NODE_21_length_1666_cov_1029.960352",
+          "CMS002_041a_Rb_S176_L004|NODE_41_length_1663_cov_844.025221",
+          "CMS001_033_Ra_S8|NODE_16_length_1658_cov_748.252372",
+          "CMS002_029d_Rb_S162_L004|NODE_27_length_1653_cov_294.322970",
+          "CMS002_029c_Rb_S161_L004|NODE_26_length_1653_cov_470.128173",
+          "CMS002_029b_Rb_S160_L004|NODE_20_length_1647_cov_564.790446",
+          "CMS001_044_Ra_S25|NODE_9_length_1653_cov_219.612944",
+          "CMS002_034a_Rb_S168_L004|NODE_10_length_1652_cov_1169.071746",
+          "CMS001_027_Ra_S16|NODE_17_length_1643_cov_59.989144",
+          "CMS002_029a_Rb_S159_L004|NODE_53_length_1655_cov_658.442332",
+          "CMS002_051a_Rb_S6_L004|NODE_9_length_1650_cov_172.553083",
+          "CMS001_043_Ra_S24|NODE_18_length_1642_cov_117.982109",
+          "CMS001_028_Ra_S17|NODE_20_length_1659_cov_139.489886",
+          "CMS001_034_Ra_S19|NODE_15_length_1654_cov_256.188966",
+          "CMS001_032_Ra_S7|NODE_14_length_1660_cov_260.490208",
+          "CMS001_036_Ra_S20|NODE_50_length_1649_cov_363.264631",
+          "CMS001_039_Ra_S9|NODE_16_length_1646_cov_246.205226",
+          "CMS001_042_Ra_S23|NODE_19_length_1660_cov_235.842704",
+          "CMS001_046_Ra_S3|NODE_11_length_1649_cov_91.968193",
+          "CMS001_031_Ra_S19|NODE_17_length_1649_cov_204.532443",
+          "CMS001_040_Ra_S21|NODE_9_length_1643_cov_88.852490",
+          "CMS001_053_Ra_S8|NODE_10_length_1649_cov_135.713740",
+          "CMS001_024_Ra_S15|NODE_21_length_1647_cov_106.032484",
+          "CMS001_002_Ra_S1|NODE_20_length_1649_cov_160.810433",
+          "CMS001_015_Ra_S13|NODE_14_length_1664_cov_200.272842",
+          "CMS001_049_Ra_S6|NODE_17_length_1662_cov_129.401893",
+          "CMS002_042a_Rb_S177_L004|NODE_18_length_1641_cov_15.686701",
+          "CMS002_045g_Rb_S190_L004|NODE_11_length_1589_cov_1.796958",
+          "CMS002_044e_Rb_S182_L004|NODE_7_length_1596_cov_1.707044",
+          "CMS002_032a_Rb_S166_L004|NODE_90_length_1612_cov_2471.139414"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          458
+        ],
+        "contigs": [
+          "CMS002_036a_Rb_S170_L004|NODE_3_length_3199_cov_2738.267136",
+          "CMS001_038_Ra_S22|NODE_6_length_3186_cov_418.682535",
+          "CMS001_051_Ra_S8|NODE_5_length_3203_cov_542.757198",
+          "CMS002_056a_Rb_S9_L004|NODE_4_length_3249_cov_3490.915826",
+          "CMS002_029e_Rb_S164_L004|NODE_8_length_3202_cov_1579.726400",
+          "CMS002_037a_Rb_S171_L004|NODE_6_length_3200_cov_2406.796029",
+          "CMS002_032a_Rb_S166_L004|NODE_7_length_3167_cov_2905.718123",
+          "CMS002_039a_Rb_S173_L004|NODE_8_length_3162_cov_2369.326418",
+          "CMS002_031a_Rb_S165_L004|NODE_3_length_3233_cov_2295.667300",
+          "CMS002_040a_Rb_S174_L004|NODE_3_length_3183_cov_2765.027366",
+          "CMS002_034a_Rb_S168_L004|NODE_3_length_3176_cov_1539.600516",
+          "CMS002_038a_Rb_S172_L004|NODE_7_length_3154_cov_2211.364316",
+          "CMS002_035a_Rb_S169_L004|NODE_8_length_2960_cov_3386.012834",
+          "CMS002_029a_Rb_S159_L004|NODE_5_length_3171_cov_1405.836458",
+          "CMS001_015_Ra_S13|NODE_5_length_3157_cov_218.890909",
+          "CMS001_032_Ra_S7|NODE_3_length_3181_cov_354.380477",
+          "CMS002_033a_Rb_S167_L004|NODE_9_length_3209_cov_3131.693167",
+          "CMS001_021_Ra_S16|NODE_14_length_3159_cov_652.378650",
+          "CMS001_044_Ra_S25|NODE_6_length_3155_cov_316.456465",
+          "CMS001_042_Ra_S23|NODE_3_length_3172_cov_300.933764",
+          "CMS002_029d_Rb_S162_L004|NODE_6_length_3192_cov_629.895666",
+          "CMS002_029b_Rb_S160_L004|NODE_5_length_3161_cov_1155.000973",
+          "CMS002_029c_Rb_S161_L004|NODE_6_length_3176_cov_879.222007",
+          "CMS001_049_Ra_S6|NODE_10_length_3168_cov_146.170819",
+          "CMS002_041a_Rb_S176_L004|NODE_11_length_3166_cov_1076.209453",
+          "CMS001_031_Ra_S19|NODE_6_length_3157_cov_308.490909",
+          "CMS002_042a_Rb_S177_L004|NODE_5_length_3152_cov_21.227317",
+          "CMS002_051a_Rb_S6_L004|NODE_4_length_3152_cov_203.391220",
+          "CMS001_053_Ra_S8|NODE_4_length_3156_cov_165.715492",
+          "CMS001_028_Ra_S17|NODE_2_length_3167_cov_208.191262",
+          "CMS001_002_Ra_S1|NODE_6_length_3171_cov_180.672269",
+          "CMS001_034_Ra_S19|NODE_3_length_3166_cov_304.275494",
+          "CMS001_039_Ra_S9|NODE_4_length_3163_cov_312.356124",
+          "CMS001_046_Ra_S3|NODE_3_length_3152_cov_109.008130",
+          "CMS001_033_Ra_S8|NODE_4_length_3174_cov_884.836293",
+          "CMS001_036_Ra_S20|NODE_4_length_3152_cov_426.553821",
+          "CMS001_040_Ra_S21|NODE_4_length_3150_cov_144.031565",
+          "CMS001_027_Ra_S16|NODE_2_length_3227_cov_97.069841",
+          "CMS001_024_Ra_S15|NODE_8_length_3168_cov_232.978324",
+          "CMS002_044e_Rb_S182_L004|NODE_3_length_2943_cov_2.534543",
+          "CMS001_043_Ra_S24|NODE_4_length_3147_cov_140.443322",
+          "CMS002_044a_Rb_S178_L004|NODE_2_length_3141_cov_3.059073"
+        ]
+      }
+    },
+    "submission_taxid": 502177,
+    "taxid": 502177
+  },
+  "484": {
+    "family": "Nodaviridae",
+    "name": "Culex mosquito virus 6",
+    "samples": [
+      "CMS001_006_Ra_S5",
+      "CMS001_017_Ra_S6",
+      "CMS001_018_Ra_S14",
+      "CMS001_020_Ra_S15",
+      "CMS001_021_Ra_S16",
+      "CMS001_024_Ra_S15",
+      "CMS001_035_Ra_S20",
+      "CMS001_048_Ra_S5",
+      "CMS001_049_Ra_S6",
+      "CMS001_056_Ra_S10",
+      "CMS001_057_Ra_S11",
+      "CMS002_047a_Rb_S193_L004",
+      "CMS002_047i_Rb_S2_L004",
+      "CMS002_047j_Rb_S3_L004",
+      "CMS002_056a_Rb_S9_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          4559
+        ],
+        "contigs": [
+          "CMS001_056_Ra_S10|NODE_12_length_1539_cov_12.593707",
+          "CMS001_035_Ra_S20|NODE_61_length_1539_cov_68.901505",
+          "CMS001_057_Ra_S11|NODE_33_length_1578_cov_26.617588",
+          "CMS001_049_Ra_S6|NODE_19_length_1541_cov_13.020492",
+          "CMS001_020_Ra_S15|NODE_68_length_1564_cov_88.983860",
+          "CMS002_047i_Rb_S2_L004|NODE_33_length_1577_cov_151.680667",
+          "CMS001_017_Ra_S6|NODE_51_length_1551_cov_62.048168",
+          "CMS001_006_Ra_S5|NODE_54_length_1579_cov_72.454061",
+          "CMS001_024_Ra_S15|NODE_22_length_1548_cov_82.197825",
+          "CMS001_021_Ra_S16|NODE_82_length_1566_cov_106.010745",
+          "CMS001_018_Ra_S14|NODE_26_length_1543_cov_8.057981",
+          "CMS001_048_Ra_S5|NODE_16_length_1567_cov_20.620805",
+          "CMS002_047a_Rb_S193_L004|NODE_35_length_1583_cov_278.194555"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          484,
+          499
+        ],
+        "contigs": [
+          "CMS001_018_Ra_S14|NODE_7_length_3172_cov_6.000969",
+          "CMS001_049_Ra_S6|NODE_9_length_3177_cov_13.662581",
+          "CMS001_056_Ra_S10|NODE_5_length_3177_cov_10.404194",
+          "CMS001_057_Ra_S11|NODE_6_length_3181_cov_30.712629",
+          "CMS001_048_Ra_S5|NODE_6_length_3174_cov_15.969002",
+          "CMS001_021_Ra_S16|NODE_13_length_3177_cov_90.370645",
+          "CMS001_020_Ra_S15|NODE_18_length_3177_cov_78.878065",
+          "CMS001_017_Ra_S6|NODE_10_length_3177_cov_56.883548",
+          "CMS001_006_Ra_S5|NODE_8_length_3182_cov_91.537198",
+          "CMS001_024_Ra_S15|NODE_7_length_3179_cov_36.089297",
+          "CMS002_047a_Rb_S193_L004|NODE_12_length_3197_cov_239.349679",
+          "CMS001_035_Ra_S20|NODE_10_length_3200_cov_65.512648",
+          "CMS002_047i_Rb_S2_L004|NODE_3_length_3197_cov_127.864103",
+          "CMS002_056a_Rb_S9_L004|NODE_5_length_3180_cov_494.778601"
+        ]
+      }
+    },
+    "submission_taxid": 2304486,
+    "taxid": 2304486
+  },
+  "49": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "49|Toti-like",
+    "samples": [
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_031a_Rb_S165_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          49
+        ],
+        "contigs": [
+          "CMS002_029d_Rb_S162_L004|NODE_3_length_7380_cov_3.942352"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "493": {
+    "family": "Narnaviridae",
+    "name": "Culex narnavirus 1",
+    "samples": [
+      "CMS001_002_Ra_S1",
+      "CMS001_004_Ra_S2",
+      "CMS001_011_Ra_S4",
+      "CMS001_018_Ra_S14",
+      "CMS001_019_Ra_S14",
+      "CMS001_022_Ra_S6",
+      "CMS001_023_Ra_S17",
+      "CMS001_028_Ra_S17",
+      "CMS001_029_Ra_S18",
+      "CMS001_030_Ra_S7",
+      "CMS001_034_Ra_S19",
+      "CMS001_035_Ra_S20",
+      "CMS001_036_Ra_S20",
+      "CMS001_037_Ra_S21",
+      "CMS001_038_Ra_S22",
+      "CMS001_040_Ra_S21",
+      "CMS001_041_Ra_S10",
+      "CMS001_042_Ra_S23",
+      "CMS001_044_Ra_S25",
+      "CMS001_045_Ra_S2",
+      "CMS001_047_Ra_S4",
+      "CMS001_048_Ra_S5",
+      "CMS001_051_Ra_S8",
+      "CMS001_052_Ra_S7",
+      "CMS001_054_Ra_S11",
+      "CMS001_058_Ra_S9",
+      "CMS001_059_Ra_S10",
+      "CMS002_001a_Rb_S116_L004",
+      "CMS002_022a_Rb_S137_L004",
+      "CMS002_023a_Rb_S138_L004",
+      "CMS002_027a_Rb_S152_L004",
+      "CMS002_027b_Rb_S153_L004",
+      "CMS002_028a_Rb_S154_L004",
+      "CMS002_028d_Rb_S157_L004",
+      "CMS002_028e_Rb_S158_L004",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_031a_Rb_S165_L004",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_046a_Rb_S191_L004",
+      "CMS002_046b_Rb_S192_L004",
+      "CMS002_047a_Rb_S193_L004",
+      "CMS002_047f_Rb_S198_L004",
+      "CMS002_047j_Rb_S3_L004",
+      "CMS002_051a_Rb_S6_L004",
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          6465,
+          18824,
+          20071,
+          20247,
+          20274,
+          24617,
+          25004
+        ],
+        "contigs": [
+          "CMS001_002_Ra_S1|NODE_113_length_849_cov_354.167098",
+          "CMS001_004_Ra_S2|NODE_17_length_847_cov_664.774026",
+          "CMS001_011_Ra_S4|NODE_110_length_856_cov_927.621309",
+          "CMS001_018_Ra_S14|NODE_89_length_867_cov_73.853165",
+          "CMS001_019_Ra_S14|NODE_57_length_857_cov_981.561538",
+          "CMS001_022_Ra_S6|NODE_89_length_850_cov_343.213454",
+          "CMS001_023_Ra_S17|NODE_47_length_850_cov_873.333765",
+          "CMS001_028_Ra_S17|NODE_84_length_844_cov_110.650587",
+          "CMS001_029_Ra_S18|NODE_17_length_929_cov_1383.575117",
+          "CMS001_030_Ra_S7|NODE_21_length_850_cov_581.238034",
+          "CMS001_034_Ra_S19|NODE_63_length_848_cov_857.382620",
+          "CMS001_035_Ra_S20|NODE_231_length_852_cov_414.313548",
+          "CMS001_036_Ra_S20|NODE_396_length_844_cov_209.842243",
+          "CMS001_037_Ra_S21|NODE_169_length_843_cov_300.668407",
+          "CMS001_038_Ra_S22|NODE_84_length_841_cov_53.701571",
+          "CMS001_040_Ra_S21|NODE_63_length_851_cov_411.014212",
+          "CMS001_041_Ra_S10|NODE_35_length_857_cov_296.325641",
+          "CMS001_042_Ra_S23|NODE_140_length_845_cov_333.809896",
+          "CMS001_044_Ra_S25|NODE_26_length_846_cov_71.460338",
+          "CMS001_045_Ra_S2|NODE_99_length_933_cov_99.811916",
+          "CMS001_047_Ra_S4|NODE_51_length_853_cov_311.988402",
+          "CMS001_048_Ra_S5|NODE_62_length_840_cov_152.897772",
+          "CMS001_051_Ra_S8|NODE_158_length_854_cov_462.212355",
+          "CMS001_052_Ra_S7|NODE_57_length_849_cov_315.133420",
+          "CMS001_054_Ra_S11|NODE_8_length_844_cov_88.254237",
+          "CMS001_058_Ra_S9|NODE_169_length_847_cov_63.862338",
+          "CMS001_059_Ra_S10|NODE_29_length_844_cov_271.877445",
+          "CMS002_001a_Rb_S116_L004|NODE_29_length_845_cov_1740.710938",
+          "CMS002_022a_Rb_S137_L004|NODE_54_length_853_cov_389.385309",
+          "CMS002_023a_Rb_S138_L004|NODE_21_length_930_cov_1606.478312",
+          "CMS002_027a_Rb_S152_L004|NODE_10_length_844_cov_580.211213",
+          "CMS002_027b_Rb_S153_L004|NODE_72_length_867_cov_3470.868354",
+          "CMS002_028a_Rb_S154_L004|NODE_391_length_618_cov_3.253235",
+          "CMS002_028e_Rb_S158_L004|NODE_243_length_957_cov_2547.032955",
+          "CMS002_029c_Rb_S161_L004|NODE_112_length_860_cov_501.581098",
+          "CMS002_029d_Rb_S162_L004|NODE_152_length_873_cov_2483.567839",
+          "CMS002_031a_Rb_S165_L004|NODE_272_length_843_cov_10.262402",
+          "CMS002_046a_Rb_S191_L004|NODE_45_length_858_cov_1681.380282",
+          "CMS002_046b_Rb_S192_L004|NODE_82_length_866_cov_1949.740177",
+          "CMS002_047a_Rb_S193_L004|NODE_191_length_864_cov_437.842440",
+          "CMS002_047f_Rb_S198_L004|NODE_182_length_874_cov_562.268507",
+          "CMS002_047j_Rb_S3_L004|NODE_187_length_899_cov_2069.181265",
+          "CMS002_053a_Rb_S7_L004|NODE_1433_length_860_cov_793.026820"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          493,
+          509,
+          516,
+          10146
+        ],
+        "contigs": [
+          "CMS001_002_Ra_S1|NODE_7_length_3150_cov_193.138301",
+          "CMS001_004_Ra_S2|NODE_1_length_3148_cov_123.031911",
+          "CMS001_011_Ra_S4|NODE_6_length_3151_cov_188.837671",
+          "CMS001_018_Ra_S14|NODE_8_length_3147_cov_31.853094",
+          "CMS001_019_Ra_S14|NODE_8_length_3132_cov_162.359411",
+          "CMS001_022_Ra_S6|NODE_5_length_3123_cov_37.561392",
+          "CMS001_023_Ra_S17|NODE_4_length_3140_cov_197.935684",
+          "CMS001_028_Ra_S17|NODE_3_length_3130_cov_28.188012",
+          "CMS001_029_Ra_S18|NODE_2_length_3151_cov_424.830514",
+          "CMS001_030_Ra_S7|NODE_2_length_3154_cov_116.249919",
+          "CMS001_034_Ra_S19|NODE_4_length_3150_cov_270.617963",
+          "CMS001_035_Ra_S20|NODE_13_length_3154_cov_92.627234",
+          "CMS001_036_Ra_S20|NODE_5_length_3134_cov_66.032712",
+          "CMS001_037_Ra_S21|NODE_3_length_3152_cov_73.860813",
+          "CMS001_038_Ra_S22|NODE_7_length_3138_cov_60.482849",
+          "CMS001_040_Ra_S21|NODE_5_length_3145_cov_135.722295",
+          "CMS001_041_Ra_S10|NODE_3_length_3137_cov_114.780719",
+          "CMS001_042_Ra_S23|NODE_4_length_3148_cov_206.454575",
+          "CMS001_044_Ra_S25|NODE_5_length_3184_cov_44.723206",
+          "CMS001_045_Ra_S2|NODE_3_length_3144_cov_29.941311",
+          "CMS001_047_Ra_S4|NODE_3_length_3151_cov_50.828887",
+          "CMS001_048_Ra_S5|NODE_7_length_3112_cov_21.716310",
+          "CMS001_051_Ra_S8|NODE_6_length_3158_cov_114.154820",
+          "CMS001_052_Ra_S7|NODE_2_length_3143_cov_64.833986",
+          "CMS001_054_Ra_S11|NODE_1_length_3107_cov_26.888119",
+          "CMS001_058_Ra_S9|NODE_5_length_3140_cov_71.370878",
+          "CMS001_059_Ra_S10|NODE_4_length_3154_cov_48.444264",
+          "CMS002_001a_Rb_S116_L004|NODE_1_length_3148_cov_328.765549",
+          "CMS002_022a_Rb_S137_L004|NODE_5_length_3164_cov_273.961451",
+          "CMS002_023a_Rb_S138_L004|NODE_5_length_3164_cov_582.525105",
+          "CMS002_027a_Rb_S152_L004|NODE_1_length_3148_cov_255.684142",
+          "CMS002_027b_Rb_S153_L004|NODE_2_length_3161_cov_1200.155966",
+          "CMS002_028d_Rb_S157_L004|NODE_7_length_3160_cov_703.749270",
+          "CMS002_028e_Rb_S158_L004|NODE_15_length_3158_cov_1037.473872",
+          "CMS002_029c_Rb_S161_L004|NODE_7_length_3148_cov_190.115272",
+          "CMS002_029d_Rb_S162_L004|NODE_7_length_3160_cov_829.042167",
+          "CMS002_046a_Rb_S191_L004|NODE_2_length_3148_cov_495.439596",
+          "CMS002_046b_Rb_S192_L004|NODE_1_length_3152_cov_757.424065",
+          "CMS002_047a_Rb_S193_L004|NODE_14_length_3154_cov_138.320442",
+          "CMS002_047f_Rb_S198_L004|NODE_7_length_3159_cov_111.901363",
+          "CMS002_047j_Rb_S3_L004|NODE_5_length_3164_cov_625.481697",
+          "CMS002_051a_Rb_S6_L004|NODE_5_length_3137_cov_140.784641",
+          "CMS002_053a_Rb_S7_L004|NODE_52_length_3158_cov_354.941577"
+        ]
+      }
+    },
+    "submission_taxid": 2562539,
+    "taxid": 2562539
   },
   "5": {
+    "family": "Xinmoviridae",
     "name": "Aedes anphevirus",
-    "taxid": 2230910,
+    "samples": [
+      "CMS002_017c_Rb_S124_L004",
+      "CMS002_018a_Rb_S128_L004"
+    ],
     "segments": {
       "genome": {
         "clusters": [
@@ -79,15 +2167,262 @@
         ]
       }
     },
-    "family": "Xinmoviridae",
+    "submission_taxid": 2230910,
+    "taxid": 2230910
+  },
+  "50": {
+    "family": "Tymoviridae",
+    "name": "Guadeloupe Culex tymo-like virus",
     "samples": [
+      "CMS002_022a_Rb_S137_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          50
+        ],
+        "contigs": [
+          "CMS002_022a_Rb_S137_L004|NODE_2_length_7363_cov_8.020725"
+        ]
+      }
+    },
+    "submission_taxid": 2607736,
+    "taxid": 330383
+  },
+  "506": {
+    "family": "Viruses",
+    "name": "Guadeloupe mosquito virus",
+    "samples": [
+      "CMS002_017a_Rb_S122_L004",
+      "CMS002_017b_Rb_S123_L004",
+      "CMS002_017c_Rb_S124_L004",
+      "CMS002_017d_Rb_S125_L004",
+      "CMS002_017e_Rb_S126_L004",
       "CMS002_018a_Rb_S128_L004",
-      "CMS002_017c_Rb_S124_L004"
-    ]
+      "CMS002_018b_Rb_S129_L004",
+      "CMS002_019a_Rb_S130_L004"
+    ],
+    "segments": {
+      "RdRp_RNA1": {
+        "clusters": [
+          506
+        ],
+        "contigs": [
+          "CMS002_019a_Rb_S130_L004|NODE_1_length_3167_cov_3289.574434",
+          "CMS002_017e_Rb_S126_L004|NODE_2_length_3166_cov_63.097119",
+          "CMS002_017b_Rb_S123_L004|NODE_3_length_3138_cov_1950.576282",
+          "CMS002_018b_Rb_S129_L004|NODE_1_length_3137_cov_3167.233333",
+          "CMS002_018a_Rb_S128_L004|NODE_2_length_3114_cov_476.722423",
+          "CMS002_017a_Rb_S122_L004|NODE_3_length_3110_cov_1827.854599",
+          "CMS002_017d_Rb_S125_L004|NODE_5_length_3110_cov_2059.633366"
+        ]
+      }
+    },
+    "submission_taxid": 2607735,
+    "taxid": 2607735
+  },
+  "5308": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "5308|Toti-like",
+    "samples": [
+      "CMS001_009_Ra_S13"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          5308
+        ],
+        "contigs": [
+          "CMS001_009_Ra_S13|NODE_344_length_1503_cov_2.269285"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "531": {
+    "family": "Solemoviridae",
+    "name": "TBD",
+    "provisional_name": "Goras virus",
+    "samples": [
+      "CMS002_020a_Rb_S131_L004",
+      "CMS002_020b_Rb_S132_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          3541
+        ],
+        "contigs": [
+          "CMS002_020b_Rb_S132_L004|NODE_26_length_1718_cov_956.214503",
+          "CMS002_020a_Rb_S131_L004|NODE_227_length_1670_cov_39.722536"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          531
+        ],
+        "contigs": [
+          "CMS002_020a_Rb_S131_L004|NODE_31_length_3115_cov_41.586899",
+          "CMS002_020b_Rb_S132_L004|NODE_4_length_3121_cov_1052.131406"
+        ]
+      }
+    },
+    "submission_taxid": 502177,
+    "taxid": 502177
+  },
+  "55": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "55|Toti-like",
+    "samples": [
+      "CMS001_006_Ra_S5",
+      "CMS001_007_Ra_S12",
+      "CMS001_010_Ra_S1",
+      "CMS001_013_Ra_S5",
+      "CMS001_018_Ra_S14",
+      "CMS001_019_Ra_S14",
+      "CMS001_020_Ra_S15",
+      "CMS001_021_Ra_S16",
+      "CMS001_035_Ra_S20",
+      "CMS001_037_Ra_S21",
+      "CMS001_049_Ra_S6",
+      "CMS001_050_Ra_S23",
+      "CMS001_052_Ra_S7",
+      "CMS001_053_Ra_S8",
+      "CMS001_057_Ra_S11",
+      "CMS001_058_Ra_S9",
+      "CMS002_028b_Rb_S155_L004",
+      "CMS002_047e_Rb_S197_L004",
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          55
+        ],
+        "contigs": [
+          "CMS002_053a_Rb_S7_L004|NODE_5_length_7168_cov_39.954872",
+          "CMS001_050_Ra_S23|NODE_3_length_6772_cov_6.594324",
+          "CMS001_006_Ra_S5|NODE_2_length_6837_cov_2.930769"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "56": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "56|Toti-like",
+    "samples": [
+      "CMS001_027_Ra_S16",
+      "CMS001_028_Ra_S17",
+      "CMS001_032_Ra_S7",
+      "CMS001_034_Ra_S19",
+      "CMS001_036_Ra_S20",
+      "CMS001_038_Ra_S22",
+      "CMS002_029a_Rb_S159_L004",
+      "CMS002_029b_Rb_S160_L004",
+      "CMS002_029c_Rb_S161_L004",
+      "CMS002_029e_Rb_S164_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          56
+        ],
+        "contigs": [
+          "CMS002_029c_Rb_S161_L004|NODE_2_length_7155_cov_5.347415"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "561": {
+    "family": "Solemoviridae",
+    "name": "Wenzhou sobemo-like virus 4",
+    "samples": [
+      "CMS002_045a_Rb_S183_L004",
+      "CMS002_045b_Rb_S184_L004",
+      "CMS002_045c_Rb_S185_L004",
+      "CMS002_045d_Rb_S186_L004",
+      "CMS002_045e_Rb_S188_L004",
+      "CMS002_045f_Rb_S189_L004",
+      "CMS002_045g_Rb_S190_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          3803
+        ],
+        "contigs": [
+          "CMS002_045c_Rb_S185_L004|NODE_9_length_1610_cov_1056.497717",
+          "CMS002_045b_Rb_S184_L004|NODE_9_length_1652_cov_38.812063",
+          "CMS002_045f_Rb_S189_L004|NODE_9_length_1655_cov_169.538657",
+          "CMS002_045a_Rb_S183_L004|NODE_11_length_1656_cov_209.046865",
+          "CMS002_045g_Rb_S190_L004|NODE_10_length_1667_cov_1032.354088",
+          "CMS002_045d_Rb_S186_L004|NODE_9_length_1679_cov_2003.770911"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          561
+        ],
+        "contigs": [
+          "CMS002_045d_Rb_S186_L004|NODE_2_length_3060_cov_2583.644653",
+          "CMS002_045e_Rb_S188_L004|NODE_11_length_1425_cov_3854.548961",
+          "CMS002_045a_Rb_S183_L004|NODE_2_length_2975_cov_254.553485",
+          "CMS002_045c_Rb_S185_L004|NODE_2_length_3051_cov_1390.640215",
+          "CMS002_045g_Rb_S190_L004|NODE_2_length_2977_cov_1448.610000",
+          "CMS002_045f_Rb_S189_L004|NODE_2_length_2972_cov_226.122280",
+          "CMS002_045b_Rb_S184_L004|NODE_2_length_2973_cov_50.519337"
+        ]
+      }
+    },
+    "submission_taxid": 1923660,
+    "taxid": 502177
+  },
+  "57": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "57|Toti-like",
+    "samples": [
+      "CMS001_031_Ra_S19",
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_031a_Rb_S165_L004",
+      "CMS002_040a_Rb_S174_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          57
+        ],
+        "contigs": [
+          "CMS002_040a_Rb_S174_L004|NODE_2_length_7146_cov_3.261423"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
   },
   "6": {
+    "family": "Xinmoviridae",
     "name": "TBD",
-    "taxid": 2059674,
+    "provisional_name": "Gordis virus",
+    "samples": [
+      "CMS001_003_Ra_S2",
+      "CMS001_008_Ra_S3",
+      "CMS001_025_Ra_S7",
+      "CMS002_020a_Rb_S131_L004",
+      "CMS002_020b_Rb_S132_L004",
+      "CMS002_020c_Rb_S133_L004",
+      "CMS002_020d_Rb_S134_L004",
+      "CMS002_020e_Rb_S135_L004",
+      "CMS002_021a_Rb_S136_L004"
+    ],
     "segments": {
       "genome": {
         "clusters": [
@@ -106,22 +2441,417 @@
         ]
       }
     },
-    "family": "Xinmoviridae",
+    "submission_taxid": 2059674,
+    "taxid": 2059674
+  },
+  "60": {
+    "family": "Dicistroviridae",
+    "name": "Wuhan insect virus 33",
     "samples": [
-      "CMS001_008_Ra_S3",
+      "CMS002_044a_Rb_S178_L004",
+      "CMS002_044b_Rb_S179_L004",
+      "CMS002_044c_Rb_S180_L004"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          60
+        ],
+        "contigs": [
+          "CMS002_044b_Rb_S179_L004|NODE_1_length_7060_cov_2.221681"
+        ]
+      }
+    },
+    "submission_taxid": 1923736,
+    "taxid": 336635
+  },
+  "61": {
+    "family": "Peribunyaviridae",
+    "name": "TBD",
+    "provisional_name": "61|Peribunya-like",
+    "samples": [
+      "CMS001_040_Ra_S21"
+    ],
+    "segments": {
+      "RdRp_L": {
+        "clusters": [
+          61
+        ],
+        "contigs": [
+          "CMS001_040_Ra_S21|NODE_1_length_7059_cov_13.082641"
+        ]
+      }
+    },
+    "submission_taxid": 348018,
+    "taxid": 348018
+  },
+  "63": {
+    "family": "Phenuiviridae",
+    "name": "TBD",
+    "provisional_name": "63|Phenui-like",
+    "samples": [
+      "CMS001_011_Ra_S4",
+      "CMS001_013_Ra_S5",
+      "CMS001_019_Ra_S14",
+      "CMS001_021_Ra_S16",
+      "CMS001_048_Ra_S5",
+      "CMS001_049_Ra_S6",
+      "CMS001_056_Ra_S10",
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "GP": {
+        "clusters": [
+          59
+        ],
+        "contigs": [
+          "CMS001_048_Ra_S5|NODE_5_length_3867_cov_20.863325",
+          "CMS001_019_Ra_S14|NODE_5_length_3912_cov_99.425815",
+          "CMS001_011_Ra_S4|NODE_4_length_3946_cov_47.512794",
+          "CMS001_013_Ra_S5|NODE_2_length_3918_cov_65.268420",
+          "CMS001_021_Ra_S16|NODE_5_length_3931_cov_178.430202",
+          "CMS001_049_Ra_S6|NODE_3_length_3909_cov_22.431628",
+          "CMS001_056_Ra_S10|NODE_4_length_3907_cov_58.737598"
+        ]
+      },
+      "NP": {
+        "clusters": [
+          6048
+        ],
+        "contigs": [
+          "CMS001_056_Ra_S10|NODE_15_length_1411_cov_67.083208",
+          "CMS001_049_Ra_S6|NODE_23_length_1388_cov_38.506484",
+          "CMS002_053a_Rb_S7_L004|NODE_405_length_1440_cov_1544.804842",
+          "CMS001_021_Ra_S16|NODE_107_length_1433_cov_306.890855",
+          "CMS001_013_Ra_S5|NODE_50_length_1412_cov_185.265918",
+          "CMS001_011_Ra_S4|NODE_36_length_1434_cov_100.125276",
+          "CMS001_048_Ra_S5|NODE_21_length_1417_cov_35.092537"
+        ]
+      },
+      "RdRp_L": {
+        "clusters": [
+          63
+        ],
+        "contigs": [
+          "CMS001_056_Ra_S10|NODE_2_length_6883_cov_44.064649",
+          "CMS001_049_Ra_S6|NODE_1_length_6879_cov_20.980447",
+          "CMS002_053a_Rb_S7_L004|NODE_8_length_6901_cov_1069.408998",
+          "CMS001_021_Ra_S16|NODE_2_length_6884_cov_155.941678",
+          "CMS001_013_Ra_S5|NODE_1_length_6965_cov_47.988240",
+          "CMS001_011_Ra_S4|NODE_2_length_6879_cov_38.700088",
+          "CMS001_019_Ra_S14|NODE_2_length_6890_cov_65.181271",
+          "CMS001_048_Ra_S5|NODE_3_length_6887_cov_16.627460"
+        ]
+      }
+    },
+    "submission_taxid": 2024603,
+    "taxid": 2024603
+  },
+  "6512": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "6512|Toti-like",
+    "samples": [
       "CMS002_020b_Rb_S132_L004",
-      "CMS001_003_Ra_S2",
-      "CMS002_020e_Rb_S135_L004",
-      "CMS001_025_Ra_S7",
-      "CMS002_020a_Rb_S131_L004",
-      "CMS002_020c_Rb_S133_L004",
-      "CMS002_020d_Rb_S134_L004",
       "CMS002_021a_Rb_S136_L004"
-    ]
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          3324
+        ],
+        "contigs": [
+          "CMS002_021a_Rb_S136_L004|NODE_605_length_1753_cov_2.263723"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          6512
+        ],
+        "contigs": [
+          "CMS002_021a_Rb_S136_L004|NODE_1168_length_1406_cov_2.164786"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
+  "6823": {
+    "family": "Peribunyaviridae",
+    "name": "TBD",
+    "provisional_name": "6823|Peribunya-like",
+    "samples": [
+      "CMS001_001_Ra_S1"
+    ],
+    "segments": {
+      "RdRp_L": {
+        "clusters": [
+          6823
+        ],
+        "contigs": [
+          "CMS001_001_Ra_S1|NODE_81_length_1383_cov_1.592649"
+        ]
+      }
+    },
+    "submission_taxid": 39718,
+    "taxid": 39718
+  },
+  "70": {
+    "family": "Phasmaviridae",
+    "name": "TBD",
+    "provisional_name": "70|Phasma-like",
+    "samples": [
+      "CMS002_026a_Rb_S146_L004",
+      "CMS002_026b_Rb_S147_L004",
+      "CMS002_026c_Rb_S148_L004",
+      "CMS002_026d_Rb_S149_L004",
+      "CMS002_026e_Rb_S150_L004",
+      "CMS002_044a_Rb_S178_L004",
+      "CMS002_044c_Rb_S180_L004",
+      "CMS002_044d_Rb_S181_L004",
+      "CMS002_044e_Rb_S182_L004",
+      "CMS002_045a_Rb_S183_L004",
+      "CMS002_045b_Rb_S184_L004",
+      "CMS002_045c_Rb_S185_L004",
+      "CMS002_045d_Rb_S186_L004",
+      "CMS002_045e_Rb_S188_L004",
+      "CMS002_045f_Rb_S189_L004",
+      "CMS002_045g_Rb_S190_L004"
+    ],
+    "segments": {
+      "GP": {
+        "clusters": [
+          1813
+        ],
+        "contigs": [
+          "CMS002_026a_Rb_S146_L004|NODE_5_length_2091_cov_18.126614",
+          "CMS002_026b_Rb_S147_L004|NODE_5_length_2085_cov_16.065239",
+          "CMS002_026c_Rb_S148_L004|NODE_5_length_2107_cov_35.046305",
+          "CMS002_026d_Rb_S149_L004|NODE_5_length_2093_cov_92.344742",
+          "CMS002_026e_Rb_S150_L004|NODE_5_length_2123_cov_21.675953",
+          "CMS002_044d_Rb_S181_L004|NODE_5_length_2056_cov_11.406771",
+          "CMS002_044e_Rb_S182_L004|NODE_4_length_2040_cov_3.842588",
+          "CMS002_045a_Rb_S183_L004|NODE_6_length_2087_cov_23.526368",
+          "CMS002_045b_Rb_S184_L004|NODE_7_length_2084_cov_48.028401",
+          "CMS002_045c_Rb_S185_L004|NODE_6_length_2093_cov_21.866071",
+          "CMS002_045d_Rb_S186_L004|NODE_6_length_2093_cov_37.041171",
+          "CMS002_045e_Rb_S188_L004|NODE_5_length_2089_cov_143.046720",
+          "CMS002_045f_Rb_S189_L004|NODE_6_length_2079_cov_16.174326",
+          "CMS002_045g_Rb_S190_L004|NODE_7_length_2096_cov_33.011392"
+        ]
+      },
+      "NP": {
+        "clusters": [
+          1392
+        ],
+        "contigs": [
+          "CMS002_026a_Rb_S146_L004|NODE_6_length_2045_cov_93.704268",
+          "CMS002_026b_Rb_S147_L004|NODE_6_length_2041_cov_160.900713",
+          "CMS002_026c_Rb_S148_L004|NODE_6_length_2095_cov_132.746283",
+          "CMS002_026d_Rb_S149_L004|NODE_6_length_2041_cov_343.414460",
+          "CMS002_026e_Rb_S150_L004|NODE_6_length_2066_cov_149.367521",
+          "CMS002_044a_Rb_S178_L004|NODE_6_length_1441_cov_3.457478",
+          "CMS002_044d_Rb_S181_L004|NODE_6_length_2030_cov_21.054275",
+          "CMS002_044e_Rb_S182_L004|NODE_5_length_2026_cov_5.090303",
+          "CMS002_045a_Rb_S183_L004|NODE_7_length_2035_cov_97.297242",
+          "CMS002_045b_Rb_S184_L004|NODE_6_length_2140_cov_299.507029",
+          "CMS002_045c_Rb_S185_L004|NODE_7_length_2049_cov_186.914807",
+          "CMS002_045d_Rb_S186_L004|NODE_7_length_2044_cov_240.945094",
+          "CMS002_045e_Rb_S188_L004|NODE_6_length_2037_cov_66.502041",
+          "CMS002_045f_Rb_S189_L004|NODE_7_length_2042_cov_62.754198",
+          "CMS002_045g_Rb_S190_L004|NODE_5_length_2301_cov_72.350270"
+        ]
+      },
+      "RdRp_L": {
+        "clusters": [
+          70
+        ],
+        "contigs": [
+          "CMS002_026a_Rb_S146_L004|NODE_1_length_6613_cov_28.957160",
+          "CMS002_026b_Rb_S147_L004|NODE_1_length_6620_cov_45.772276",
+          "CMS002_026c_Rb_S148_L004|NODE_1_length_6612_cov_55.517827",
+          "CMS002_026d_Rb_S149_L004|NODE_1_length_6612_cov_140.127467",
+          "CMS002_026e_Rb_S150_L004|NODE_1_length_6618_cov_42.453142",
+          "CMS002_044d_Rb_S181_L004|NODE_1_length_6606_cov_8.091591",
+          "CMS002_045a_Rb_S183_L004|NODE_1_length_6611_cov_32.998623",
+          "CMS002_045b_Rb_S184_L004|NODE_1_length_6634_cov_114.513192",
+          "CMS002_045c_Rb_S185_L004|NODE_1_length_6614_cov_71.839988",
+          "CMS002_045d_Rb_S186_L004|NODE_1_length_6614_cov_117.931773",
+          "CMS002_045e_Rb_S188_L004|NODE_1_length_6614_cov_184.388251",
+          "CMS002_045f_Rb_S189_L004|NODE_1_length_6613_cov_24.029223",
+          "CMS002_045g_Rb_S190_L004|NODE_1_length_6613_cov_48.274480"
+        ]
+      }
+    },
+    "submission_taxid": 2546221,
+    "taxid": 2546221
+  },
+  "706": {
+    "family": "Luteoviridae",
+    "name": "Culex-associated Luteo-like virus",
+    "samples": [
+      "CMS002_029e_Rb_S164_L004",
+      "CMS002_031a_Rb_S165_L004",
+      "CMS002_032a_Rb_S166_L004",
+      "CMS002_035a_Rb_S169_L004",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_040a_Rb_S174_L004",
+      "CMS002_041a_Rb_S176_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          4231
+        ],
+        "contigs": [
+          "CMS002_035a_Rb_S169_L004|NODE_90_length_1582_cov_5.108306",
+          "CMS002_029e_Rb_S164_L004|NODE_23_length_1596_cov_100.277156",
+          "CMS002_041a_Rb_S176_L004|NODE_44_length_1601_cov_79.460630",
+          "CMS002_038a_Rb_S172_L004|NODE_58_length_1610_cov_303.457273",
+          "CMS002_040a_Rb_S174_L004|NODE_30_length_1623_cov_254.078913"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          706
+        ],
+        "contigs": [
+          "CMS002_029e_Rb_S164_L004|NODE_10_length_2787_cov_123.669004",
+          "CMS002_040a_Rb_S174_L004|NODE_6_length_2794_cov_272.435775",
+          "CMS002_041a_Rb_S176_L004|NODE_15_length_2804_cov_87.126879",
+          "CMS002_035a_Rb_S169_L004|NODE_10_length_2814_cov_6.377786",
+          "CMS002_038a_Rb_S172_L004|NODE_12_length_2836_cov_341.811888"
+        ]
+      }
+    },
+    "submission_taxid": 2304522,
+    "taxid": 2304522
+  },
+  "76": {
+    "family": "Phasmaviridae",
+    "name": "TBD",
+    "provisional_name": "76|Phasma-like",
+    "samples": [
+      "CMS001_001_Ra_S1",
+      "CMS001_011_Ra_S4",
+      "CMS001_017_Ra_S6",
+      "CMS001_018_Ra_S14",
+      "CMS001_019_Ra_S14",
+      "CMS001_035_Ra_S20",
+      "CMS001_037_Ra_S21",
+      "CMS001_057_Ra_S11",
+      "CMS002_028b_Rb_S155_L004",
+      "CMS002_028d_Rb_S157_L004",
+      "CMS002_028e_Rb_S158_L004",
+      "CMS002_047f_Rb_S198_L004",
+      "CMS002_047h_Rb_S1_L004",
+      "CMS002_047i_Rb_S2_L004",
+      "CMS002_047j_Rb_S3_L004",
+      "CMS002_053a_Rb_S7_L004"
+    ],
+    "segments": {
+      "GP": {
+        "clusters": [
+          1543
+        ],
+        "contigs": [
+          "CMS001_001_Ra_S1|NODE_23_length_2210_cov_61.079700",
+          "CMS001_011_Ra_S4|NODE_9_length_2212_cov_17.291803",
+          "CMS001_017_Ra_S6|NODE_21_length_2211_cov_6.064667",
+          "CMS001_019_Ra_S14|NODE_9_length_2213_cov_143.733614",
+          "CMS001_035_Ra_S20|NODE_28_length_2153_cov_6.789017",
+          "CMS001_037_Ra_S21|NODE_10_length_2213_cov_24.928371",
+          "CMS001_057_Ra_S11|NODE_11_length_2199_cov_22.490575",
+          "CMS002_028b_Rb_S155_L004|NODE_17_length_2193_cov_25.750000",
+          "CMS002_028d_Rb_S157_L004|NODE_11_length_2209_cov_31.870075",
+          "CMS002_028e_Rb_S158_L004|NODE_28_length_2210_cov_64.748242",
+          "CMS002_047f_Rb_S198_L004|NODE_11_length_2228_cov_179.656439",
+          "CMS002_047h_Rb_S1_L004|NODE_11_length_2212_cov_195.804215",
+          "CMS002_047i_Rb_S2_L004|NODE_7_length_2177_cov_12.793810",
+          "CMS002_053a_Rb_S7_L004|NODE_154_length_2212_cov_28.945199"
+        ]
+      },
+      "NP": {
+        "clusters": [
+          1745
+        ],
+        "contigs": [
+          "CMS001_001_Ra_S1|NODE_25_length_2094_cov_202.365394",
+          "CMS001_011_Ra_S4|NODE_11_length_2073_cov_175.375752",
+          "CMS001_017_Ra_S6|NODE_26_length_2070_cov_132.549423",
+          "CMS001_018_Ra_S14|NODE_17_length_2071_cov_22.042628",
+          "CMS001_019_Ra_S14|NODE_10_length_2070_cov_42.674360",
+          "CMS001_035_Ra_S20|NODE_31_length_2070_cov_114.351731",
+          "CMS001_037_Ra_S21|NODE_11_length_2071_cov_253.681043",
+          "CMS001_057_Ra_S11|NODE_14_length_2070_cov_117.677371",
+          "CMS002_028b_Rb_S155_L004|NODE_19_length_2078_cov_384.881559",
+          "CMS002_028d_Rb_S157_L004|NODE_16_length_2068_cov_314.980412",
+          "CMS002_028e_Rb_S158_L004|NODE_32_length_2148_cov_558.457267",
+          "CMS002_047f_Rb_S198_L004|NODE_14_length_2084_cov_219.329347",
+          "CMS002_047h_Rb_S1_L004|NODE_13_length_2130_cov_144.182172",
+          "CMS002_047i_Rb_S2_L004|NODE_12_length_2096_cov_276.578504",
+          "CMS002_053a_Rb_S7_L004|NODE_167_length_2145_cov_1150.466151"
+        ]
+      },
+      "RdRp_L": {
+        "clusters": [
+          76
+        ],
+        "contigs": [
+          "CMS001_001_Ra_S1|NODE_2_length_6399_cov_55.991142",
+          "CMS001_011_Ra_S4|NODE_3_length_6397_cov_26.972152",
+          "CMS001_019_Ra_S14|NODE_3_length_6396_cov_19.212692",
+          "CMS001_035_Ra_S20|NODE_2_length_6398_cov_11.386806",
+          "CMS001_037_Ra_S21|NODE_2_length_6396_cov_24.247824",
+          "CMS001_057_Ra_S11|NODE_3_length_6396_cov_20.229150",
+          "CMS002_028b_Rb_S155_L004|NODE_3_length_6399_cov_42.064853",
+          "CMS002_028d_Rb_S157_L004|NODE_2_length_6403_cov_43.049162",
+          "CMS002_028e_Rb_S158_L004|NODE_5_length_6398_cov_62.022465",
+          "CMS002_047f_Rb_S198_L004|NODE_3_length_6400_cov_66.440297",
+          "CMS002_047h_Rb_S1_L004|NODE_2_length_6403_cov_47.552324",
+          "CMS002_047i_Rb_S2_L004|NODE_2_length_6393_cov_18.741925",
+          "CMS002_053a_Rb_S7_L004|NODE_11_length_6400_cov_166.989720",
+          "CMS001_017_Ra_S6|NODE_3_length_6397_cov_24.691930"
+        ]
+      }
+    },
+    "submission_taxid": 2546221,
+    "taxid": 2546221
+  },
+  "78": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "78|Toti-like",
+    "samples": [
+      "CMS001_038_Ra_S22"
+    ],
+    "segments": {
+      "": {
+        "clusters": [
+          78
+        ],
+        "contigs": [
+          "CMS001_038_Ra_S22|NODE_2_length_6269_cov_19.304587"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
   },
   "8": {
+    "family": "Rhabdoviridae",
     "name": "Merida virus",
-    "taxid": 1803034,
+    "samples": [
+      "CMS002_031a_Rb_S165_L004",
+      "CMS002_035a_Rb_S169_L004",
+      "CMS002_038a_Rb_S172_L004",
+      "CMS002_040a_Rb_S174_L004",
+      "CMS002_041a_Rb_S176_L004",
+      "CMS002_044a_Rb_S178_L004",
+      "CMS002_044b_Rb_S179_L004",
+      "CMS002_044d_Rb_S181_L004",
+      "CMS002_044e_Rb_S182_L004"
+    ],
     "segments": {
       "genome": {
         "clusters": [
@@ -136,22 +2866,109 @@
         ]
       }
     },
-    "family": "Rhabdoviridae",
+    "submission_taxid": 1803034,
+    "taxid": 1803034
+  },
+  "81": {
+    "family": "Totiviridae",
+    "name": "Aedes aegypti totivirus",
     "samples": [
-      "CMS002_044b_Rb_S179_L004",
-      "CMS002_038a_Rb_S172_L004",
-      "CMS002_044a_Rb_S178_L004",
-      "CMS002_040a_Rb_S174_L004",
-      "CMS002_044e_Rb_S182_L004",
-      "CMS002_031a_Rb_S165_L004",
-      "CMS002_035a_Rb_S169_L004",
-      "CMS002_041a_Rb_S176_L004",
-      "CMS002_044d_Rb_S181_L004"
-    ]
+      "CMS002_017a_Rb_S122_L004",
+      "CMS002_017b_Rb_S123_L004",
+      "CMS002_017c_Rb_S124_L004",
+      "CMS002_017d_Rb_S125_L004",
+      "CMS002_017e_Rb_S126_L004"
+    ],
+    "segments": {
+      "RNA2": {
+        "clusters": [
+          2276
+        ],
+        "contigs": [
+          "CMS002_017e_Rb_S126_L004|NODE_6_length_1890_cov_7.275786",
+          "CMS002_017d_Rb_S125_L004|NODE_8_length_1955_cov_501.348243",
+          "CMS002_017a_Rb_S122_L004|NODE_7_length_1760_cov_257.972237",
+          "CMS002_017b_Rb_S123_L004|NODE_7_length_1977_cov_442.687368",
+          "CMS002_017c_Rb_S124_L004|NODE_9_length_1973_cov_254.317511"
+        ]
+      },
+      "RdRp_RNA1": {
+        "clusters": [
+          81
+        ],
+        "contigs": [
+          "CMS002_017c_Rb_S124_L004|NODE_2_length_6087_cov_30.839601",
+          "CMS002_017d_Rb_S125_L004|NODE_1_length_6094_cov_46.374439",
+          "CMS002_017b_Rb_S123_L004|NODE_1_length_6097_cov_69.823256",
+          "CMS002_017a_Rb_S122_L004|NODE_1_length_6223_cov_33.014156"
+        ]
+      }
+    },
+    "submission_taxid": 2603435,
+    "taxid": 2603435
+  },
+  "88": {
+    "family": "Tombusviridae",
+    "name": "TBD",
+    "provisional_name": "88|Tombus-like",
+    "samples": [
+      "CMS001_001_Ra_S1",
+      "CMS001_022_Ra_S6"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          88
+        ],
+        "contigs": [
+          "CMS001_022_Ra_S6|NODE_2_length_6047_cov_3.099497"
+        ]
+      }
+    },
+    "submission_taxid": 137555,
+    "taxid": 137555
   },
   "9": {
+    "family": "Virgaviridae",
     "name": "Hubei virga-like virus 2",
-    "taxid": 1923335,
+    "samples": [
+      "CMS001_001_Ra_S1",
+      "CMS001_002_Ra_S1",
+      "CMS001_006_Ra_S5",
+      "CMS001_010_Ra_S1",
+      "CMS001_015_Ra_S13",
+      "CMS001_017_Ra_S6",
+      "CMS001_018_Ra_S14",
+      "CMS001_019_Ra_S14",
+      "CMS001_020_Ra_S15",
+      "CMS001_021_Ra_S16",
+      "CMS001_022_Ra_S6",
+      "CMS001_023_Ra_S17",
+      "CMS001_024_Ra_S15",
+      "CMS001_034_Ra_S19",
+      "CMS001_035_Ra_S20",
+      "CMS001_037_Ra_S21",
+      "CMS001_045_Ra_S2",
+      "CMS001_048_Ra_S5",
+      "CMS001_049_Ra_S6",
+      "CMS001_050_Ra_S23",
+      "CMS001_052_Ra_S7",
+      "CMS001_053_Ra_S8",
+      "CMS001_056_Ra_S10",
+      "CMS001_057_Ra_S11",
+      "CMS001_058_Ra_S9",
+      "CMS002_028a_Rb_S154_L004",
+      "CMS002_028c_Rb_S156_L004",
+      "CMS002_029d_Rb_S162_L004",
+      "CMS002_029e_Rb_S164_L004",
+      "CMS002_047b_Rb_S194_L004",
+      "CMS002_047d_Rb_S196_L004",
+      "CMS002_047e_Rb_S197_L004",
+      "CMS002_047f_Rb_S198_L004",
+      "CMS002_047g_Rb_S200_L004",
+      "CMS002_047i_Rb_S2_L004",
+      "CMS002_053a_Rb_S7_L004"
+    ],
     "segments": {
       "genome": {
         "clusters": [
@@ -200,920 +3017,36 @@
         ]
       }
     },
-    "family": "Viruses",
-    "samples": [
-      "CMS002_029e_Rb_S164_L004",
-      "CMS002_047e_Rb_S197_L004",
-      "CMS002_029d_Rb_S162_L004",
-      "CMS001_037_Ra_S21",
-      "CMS001_045_Ra_S2",
-      "CMS001_035_Ra_S20",
-      "CMS001_034_Ra_S19",
-      "CMS001_002_Ra_S1",
-      "CMS002_047g_Rb_S200_L004",
-      "CMS001_052_Ra_S7",
-      "CMS002_047f_Rb_S198_L004",
-      "CMS002_028a_Rb_S154_L004",
-      "CMS001_049_Ra_S6",
-      "CMS002_053a_Rb_S7_L004",
-      "CMS002_047i_Rb_S2_L004",
-      "CMS001_017_Ra_S6",
-      "CMS001_024_Ra_S15",
-      "CMS001_015_Ra_S13",
-      "CMS001_057_Ra_S11",
-      "CMS001_018_Ra_S14",
-      "CMS002_047b_Rb_S194_L004",
-      "CMS002_047d_Rb_S196_L004",
-      "CMS001_053_Ra_S8",
-      "CMS001_010_Ra_S1",
-      "CMS001_006_Ra_S5",
-      "CMS001_048_Ra_S5",
-      "CMS002_028c_Rb_S156_L004",
-      "CMS001_001_Ra_S1",
-      "CMS001_056_Ra_S10",
-      "CMS001_019_Ra_S14",
-      "CMS001_058_Ra_S9",
-      "CMS001_021_Ra_S16",
-      "CMS001_020_Ra_S15",
-      "CMS001_023_Ra_S17",
-      "CMS001_050_Ra_S23",
-      "CMS001_022_Ra_S6"
-    ]
+    "submission_taxid": 1923335,
+    "taxid": 1527522
   },
-  "12": {
-    "name": "Culex flavivirus",
-    "taxid": 390844,
-    "segments": {
-      "genome": {
-        "clusters": [
-          12
-        ],
-        "contigs": [
-          "CMS001_029_Ra_S18|NODE_1_length_10946_cov_79.583034",
-          "CMS001_044_Ra_S25|NODE_1_length_10824_cov_43.717130",
-          "CMS002_049a_Rb_S4_L004|NODE_1_length_10796_cov_115.201698"
-        ]
-      }
-    },
-    "family": "Flaviviridae",
-    "samples": [
-      "CMS001_044_Ra_S25",
-      "CMS001_029_Ra_S18",
-      "CMS002_049a_Rb_S4_L004"
-    ]
-  },
-  "13": {
-    "name": "Culex pipiens-associated Tunisia virus",
-    "taxid": 2079148,
-    "segments": {
-      "genome": {
-        "clusters": [
-          13
-        ],
-        "contigs": [
-          "CMS002_028d_Rb_S157_L004|NODE_1_length_10901_cov_68.016814",
-          "CMS002_047a_Rb_S193_L004|NODE_2_length_10899_cov_76.790612",
-          "CMS002_028c_Rb_S156_L004|NODE_2_length_10899_cov_98.022639",
-          "CMS002_047h_Rb_S1_L004|NODE_1_length_10922_cov_58.303550",
-          "CMS002_047f_Rb_S198_L004|NODE_1_length_10890_cov_83.488486",
-          "CMS002_047e_Rb_S197_L004|NODE_1_length_10901_cov_55.458056",
-          "CMS002_047d_Rb_S196_L004|NODE_1_length_10890_cov_70.468418",
-          "CMS002_047c_Rb_S195_L004|NODE_1_length_10902_cov_152.673072",
-          "CMS002_047b_Rb_S194_L004|NODE_1_length_10911_cov_134.634484",
-          "CMS002_047j_Rb_S3_L004|NODE_1_length_10870_cov_36.731215",
-          "CMS002_028e_Rb_S158_L004|NODE_1_length_10892_cov_40.683865",
-          "CMS002_047g_Rb_S200_L004|NODE_2_length_10890_cov_73.266346",
-          "CMS002_028b_Rb_S155_L004|NODE_1_length_10898_cov_129.990666"
-        ]
-      }
-    },
-    "family": "Viruses",
-    "samples": [
-      "CMS002_047e_Rb_S197_L004",
-      "CMS002_047f_Rb_S198_L004",
-      "CMS002_047j_Rb_S3_L004",
-      "CMS002_028e_Rb_S158_L004",
-      "CMS002_047d_Rb_S196_L004",
-      "CMS002_047g_Rb_S200_L004",
-      "CMS002_028b_Rb_S155_L004",
-      "CMS002_047h_Rb_S1_L004",
-      "CMS002_047a_Rb_S193_L004",
-      "CMS002_028d_Rb_S157_L004",
-      "CMS002_047b_Rb_S194_L004",
-      "CMS002_028c_Rb_S156_L004",
-      "CMS002_047c_Rb_S195_L004"
-    ]
-  },
-  "16": {
-    "name": "Calbertado virus",
-    "taxid": 537023,
-    "segments": {
-      "genome": {
-        "clusters": [
-          16
-        ],
-        "contigs": [
-          "CMS001_032_Ra_S7|NODE_1_length_10763_cov_35.536028"
-        ]
-      }
-    },
-    "family": "Flaviviridae",
-    "samples": [
-      "CMS001_032_Ra_S7"
-    ]
-  },
-  "23": {
-    "name": "Culex iflavi-like virus 4",
-    "taxid": 2304480,
-    "segments": {
-      "genome": {
-        "clusters": [
-          23,
-          28
-        ],
-        "contigs": [
-          "CMS001_002_Ra_S1|NODE_3_length_9996_cov_1810.573546",
-          "CMS002_039a_Rb_S173_L004|NODE_1_length_9780_cov_8.398433",
-          "CMS001_046_Ra_S3|NODE_1_length_9875_cov_2370.818432",
-          "CMS002_034a_Rb_S168_L004|NODE_1_length_9781_cov_13.772156"
-        ]
-      }
-    },
-    "family": "Iflaviridae",
-    "samples": [
-      "CMS002_045c_Rb_S185_L004",
-      "CMS001_002_Ra_S1",
-      "CMS001_046_Ra_S3",
-      "CMS002_045g_Rb_S190_L004",
-      "CMS002_039a_Rb_S173_L004",
-      "CMS002_034a_Rb_S168_L004"
-    ]
-  },
-  "24": {
+  "9191": {
+    "family": "Botourmiaviridae",
     "name": "TBD",
-    "taxid": 1111709,
+    "provisional_name": "9191|Botourmia-like",
+    "samples": [
+      "CMS002_053a_Rb_S7_L004"
+    ],
     "segments": {
       "genome": {
         "clusters": [
-          24
+          9191
         ],
         "contigs": [
-          "CMS001_060_Ra_S12|NODE_1_length_9916_cov_285.959955"
+          "CMS002_053a_Rb_S7_L004|NODE_580_length_1250_cov_4.236999"
         ]
       }
     },
-    "family": "Iflaviridae",
-    "samples": [
-      "CMS001_060_Ra_S12"
-    ]
-  },
-  "25": {
-    "name": "TBD",
-    "taxid": 1111709,
-    "segments": {
-      "genome": {
-        "clusters": [
-          25
-        ],
-        "contigs": [
-          "CMS002_020a_Rb_S131_L004|NODE_2_length_9883_cov_83.545176",
-          "CMS002_020c_Rb_S133_L004|NODE_2_length_9884_cov_284.199042"
-        ]
-      }
-    },
-    "family": "Iflaviridae",
-    "samples": [
-      "CMS002_020a_Rb_S131_L004",
-      "CMS002_020b_Rb_S132_L004",
-      "CMS002_020c_Rb_S133_L004"
-    ]
-  },
-  "27": {
-    "name": "Culex iflavi-like virus 3",
-    "taxid": 2304479,
-    "segments": {
-      "genome": {
-        "clusters": [
-          27,
-          29
-        ],
-        "contigs": [
-          "CMS002_038a_Rb_S172_L004|NODE_2_length_9783_cov_30.124253",
-          "CMS001_051_Ra_S8|NODE_1_length_9777_cov_11.106392"
-        ]
-      }
-    },
-    "family": "Iflaviridae",
-    "samples": [
-      "CMS002_038a_Rb_S172_L004",
-      "CMS001_051_Ra_S8"
-    ]
-  },
-  "30": {
-    "name": "TBD",
-    "taxid": 35303,
-    "segments": {
-      "genome": {
-        "clusters": [
-          30,
-          32
-        ],
-        "contigs": [
-          "CMS002_037a_Rb_S171_L004|NODE_1_length_9379_cov_122.411954",
-          "CMS001_031_Ra_S19|NODE_1_length_9312_cov_34.616892"
-        ]
-      }
-    },
-    "family": "Rhabdoviridae",
-    "samples": [
-      "CMS002_037a_Rb_S171_L004",
-      "CMS001_031_Ra_S19"
-    ]
-  },
-  "39": {
-    "name": "TBD",
-    "taxid": 39756,
-    "segments": {
-      "genome": {
-        "clusters": [
-          39
-        ],
-        "contigs": [
-          "CMS001_043_Ra_S24|NODE_2_length_7455_cov_5.727433",
-          "CMS001_051_Ra_S8|NODE_2_length_7775_cov_34.360223"
-        ]
-      }
-    },
-    "family": "Totiviridae",
-    "samples": [
-      "CMS001_027_Ra_S16",
-      "CMS001_032_Ra_S7",
-      "CMS001_051_Ra_S8",
-      "CMS001_043_Ra_S24"
-    ]
-  },
-  "42": {
-    "name": "TBD",
-    "taxid": 39756,
-    "segments": {
-      "genome": {
-        "clusters": [
-          42,
-          43
-        ],
-        "contigs": [
-          "CMS001_057_Ra_S11|NODE_2_length_7695_cov_18.576267",
-          "CMS001_058_Ra_S9|NODE_2_length_7689_cov_8.491592",
-          "CMS001_050_Ra_S23|NODE_2_length_7350_cov_11.928640",
-          "CMS002_053a_Rb_S7_L004|NODE_4_length_7692_cov_11.659619",
-          "CMS001_011_Ra_S4|NODE_1_length_7687_cov_12.856373",
-          "CMS001_015_Ra_S13|NODE_2_length_7398_cov_4.753312"
-        ]
-      }
-    },
-    "family": "Totiviridae",
-    "samples": [
-      "CMS002_047j_Rb_S3_L004",
-      "CMS001_037_Ra_S21",
-      "CMS001_045_Ra_S2",
-      "CMS001_035_Ra_S20",
-      "CMS002_047d_Rb_S196_L004",
-      "CMS001_015_Ra_S13",
-      "CMS001_053_Ra_S8",
-      "CMS001_010_Ra_S1",
-      "CMS001_048_Ra_S5",
-      "CMS001_050_Ra_S23",
-      "CMS002_047g_Rb_S200_L004",
-      "CMS001_001_Ra_S1",
-      "CMS001_011_Ra_S4",
-      "CMS001_052_Ra_S7",
-      "CMS001_019_Ra_S14",
-      "CMS001_007_Ra_S12",
-      "CMS001_049_Ra_S6",
-      "CMS001_058_Ra_S9",
-      "CMS002_053a_Rb_S7_L004",
-      "CMS001_013_Ra_S5",
-      "CMS001_021_Ra_S16",
-      "CMS001_017_Ra_S6",
-      "CMS001_024_Ra_S15",
-      "CMS001_020_Ra_S15",
-      "CMS001_018_Ra_S14",
-      "CMS001_057_Ra_S11",
-      "CMS001_022_Ra_S6"
-    ]
-  },
-  "44": {
-    "name": "Culex bunya-like virus",
-    "taxid": 2304497,
-    "segments": {
-      "L": {
-        "clusters": [
-          44
-        ],
-        "contigs": [
-          "CMS001_028_Ra_S17|NODE_1_length_7457_cov_29.147154",
-          "CMS001_032_Ra_S7|NODE_2_length_7460_cov_27.721793",
-          "CMS001_059_Ra_S10|NODE_1_length_7460_cov_36.748205",
-          "CMS001_030_Ra_S7|NODE_1_length_7462_cov_59.300609",
-          "CMS001_043_Ra_S24|NODE_1_length_7460_cov_24.919139",
-          "CMS001_039_Ra_S9|NODE_3_length_7460_cov_51.901666",
-          "CMS001_002_Ra_S1|NODE_4_length_7461_cov_43.625135",
-          "CMS001_044_Ra_S25|NODE_2_length_7461_cov_39.496885",
-          "CMS001_051_Ra_S8|NODE_3_length_7461_cov_62.964789",
-          "CMS001_034_Ra_S19|NODE_2_length_7461_cov_37.127438",
-          "CMS002_051a_Rb_S6_L004|NODE_2_length_7462_cov_156.563304",
-          "CMS002_057a_Rb_S10_L004|NODE_2_length_7462_cov_64.491266",
-          "CMS001_033_Ra_S8|NODE_1_length_7462_cov_99.933378",
-          "CMS002_049a_Rb_S4_L004|NODE_2_length_7463_cov_198.088817",
-          "CMS001_042_Ra_S23|NODE_1_length_7464_cov_55.517666",
-          "CMS001_036_Ra_S20|NODE_1_length_7463_cov_25.568237",
-          "CMS002_029e_Rb_S164_L004|NODE_2_length_7464_cov_77.534994",
-          "CMS002_029c_Rb_S161_L004|NODE_1_length_7463_cov_99.720688",
-          "CMS002_029b_Rb_S160_L004|NODE_1_length_7463_cov_122.739101",
-          "CMS001_038_Ra_S22|NODE_1_length_7463_cov_64.676415",
-          "CMS002_027b_Rb_S153_L004|NODE_1_length_7468_cov_110.827493",
-          "CMS002_010a_Rb_S119_L004|NODE_1_length_7476_cov_47.962698",
-          "CMS002_029d_Rb_S162_L004|NODE_2_length_7467_cov_145.020568",
-          "CMS002_029a_Rb_S159_L004|NODE_1_length_7477_cov_160.521622",
-          "CMS002_013a_Rb_S120_L004|NODE_1_length_7477_cov_113.020000",
-          "CMS001_041_Ra_S10|NODE_1_length_7473_cov_68.448891",
-          "CMS002_035a_Rb_S169_L004|NODE_2_length_7663_cov_235.389929",
-          "CMS002_023a_Rb_S138_L004|NODE_1_length_7483_cov_181.562382",
-          "CMS002_022a_Rb_S137_L004|NODE_1_length_7544_cov_57.967591"
-        ]
-      },
-      "NP": {
-        "clusters": [
-          4751
-        ],
-        "contigs": [
-          "CMS001_032_Ra_S7|NODE_17_length_1556_cov_289.465179",
-          "CMS002_035a_Rb_S169_L004|NODE_93_length_1552_cov_1253.313220",
-          "CMS001_051_Ra_S8|NODE_30_length_1550_cov_346.778683",
-          "CMS002_029e_Rb_S164_L004|NODE_25_length_1550_cov_460.069925",
-          "CMS001_036_Ra_S20|NODE_57_length_1545_cov_164.673706",
-          "CMS002_029d_Rb_S162_L004|NODE_32_length_1555_cov_538.361976",
-          "CMS002_029c_Rb_S161_L004|NODE_31_length_1545_cov_417.388283",
-          "CMS001_034_Ra_S19|NODE_16_length_1548_cov_220.879674",
-          "CMS002_029b_Rb_S160_L004|NODE_24_length_1560_cov_616.744437",
-          "CMS002_029a_Rb_S159_L004|NODE_68_length_1552_cov_654.076610",
-          "CMS001_059_Ra_S10|NODE_12_length_1558_cov_299.632005",
-          "CMS001_033_Ra_S8|NODE_23_length_1541_cov_711.521175",
-          "CMS002_051a_Rb_S6_L004|NODE_10_length_1547_cov_761.377551",
-          "CMS001_039_Ra_S9|NODE_17_length_1540_cov_209.249487",
-          "CMS001_002_Ra_S1|NODE_21_length_1539_cov_169.224350",
-          "CMS001_043_Ra_S24|NODE_20_length_1552_cov_146.437288",
-          "CMS001_038_Ra_S22|NODE_26_length_1556_cov_240.903989",
-          "CMS002_057a_Rb_S10_L004|NODE_7_length_1540_cov_594.630212",
-          "CMS001_046_Ra_S3|NODE_13_length_1538_cov_8.502396",
-          "CMS001_042_Ra_S23|NODE_26_length_1538_cov_269.199863",
-          "CMS002_040a_Rb_S174_L004|NODE_34_length_1536_cov_14.169979",
-          "CMS001_041_Ra_S10|NODE_11_length_1550_cov_276.064494",
-          "CMS002_022a_Rb_S137_L004|NODE_18_length_1548_cov_469.408566",
-          "CMS002_023a_Rb_S138_L004|NODE_13_length_1547_cov_1012.835374",
-          "CMS002_013a_Rb_S120_L004|NODE_15_length_1545_cov_647.803815",
-          "CMS002_010a_Rb_S119_L004|NODE_9_length_1550_cov_265.044807",
-          "CMS002_049a_Rb_S4_L004|NODE_7_length_1540_cov_854.950103",
-          "CMS001_044_Ra_S25|NODE_10_length_1540_cov_191.730007",
-          "CMS001_028_Ra_S17|NODE_25_length_1538_cov_161.370294",
-          "CMS001_030_Ra_S7|NODE_6_length_1539_cov_403.448700",
-          "CMS002_046b_Rb_S192_L004|NODE_23_length_1527_cov_3.406897"
-        ]
-      }
-    },
-    "family": "Viruses",
-    "samples": [
-      "CMS002_029d_Rb_S162_L004",
-      "CMS002_029e_Rb_S164_L004",
-      "CMS001_042_Ra_S23",
-      "CMS002_029b_Rb_S160_L004",
-      "CMS001_034_Ra_S19",
-      "CMS001_002_Ra_S1",
-      "CMS002_013a_Rb_S120_L004",
-      "CMS001_028_Ra_S17",
-      "CMS001_038_Ra_S22",
-      "CMS002_029a_Rb_S159_L004",
-      "CMS001_032_Ra_S7",
-      "CMS001_059_Ra_S10",
-      "CMS001_046_Ra_S3",
-      "CMS002_035a_Rb_S169_L004",
-      "CMS002_046b_Rb_S192_L004",
-      "CMS001_051_Ra_S8",
-      "CMS001_043_Ra_S24",
-      "CMS001_044_Ra_S25",
-      "CMS002_049a_Rb_S4_L004",
-      "CMS002_046a_Rb_S191_L004",
-      "CMS002_051a_Rb_S6_L004",
-      "CMS002_040a_Rb_S174_L004",
-      "CMS001_041_Ra_S10",
-      "CMS001_039_Ra_S9",
-      "CMS002_023a_Rb_S138_L004",
-      "CMS001_033_Ra_S8",
-      "CMS002_029c_Rb_S161_L004",
-      "CMS001_036_Ra_S20",
-      "CMS002_022a_Rb_S137_L004",
-      "CMS002_057a_Rb_S10_L004",
-      "CMS002_038a_Rb_S172_L004",
-      "CMS002_010a_Rb_S119_L004",
-      "CMS002_027b_Rb_S153_L004",
-      "CMS001_030_Ra_S7"
-    ]
-  },
-  "45": {
-    "name": "Culex mosquito virus 4",
-    "taxid": 2304484,
-    "segments": {
-      "L": {
-        "clusters": [
-          45
-        ],
-        "contigs": [
-          "CMS002_051a_Rb_S6_L004|NODE_1_length_7468_cov_473.533893",
-          "CMS002_057a_Rb_S10_L004|NODE_1_length_7468_cov_172.478826",
-          "CMS002_054a_Rb_S8_L004|NODE_1_length_7470_cov_515.249290",
-          "CMS001_044_Ra_S25|NODE_3_length_7453_cov_83.423807",
-          "CMS001_059_Ra_S10|NODE_2_length_7458_cov_138.620512"
-        ]
-      },
-      "segment 1": {
-        "clusters": [
-          117
-        ],
-        "contigs": [
-          "CMS002_057a_Rb_S10_L004|NODE_3_length_5313_cov_56.443659",
-          "CMS002_051a_Rb_S6_L004|NODE_3_length_5315_cov_174.869416",
-          "CMS001_044_Ra_S25|NODE_4_length_5310_cov_57.076629",
-          "CMS002_054a_Rb_S8_L004|NODE_2_length_5313_cov_255.968869",
-          "CMS001_059_Ra_S10|NODE_3_length_5312_cov_65.660554"
-        ]
-      }
-    },
-    "family": "Nodaviridae",
-    "samples": [
-      "CMS001_044_Ra_S25",
-      "CMS002_056a_Rb_S9_L004",
-      "CMS001_059_Ra_S10",
-      "CMS002_057a_Rb_S10_L004",
-      "CMS002_051a_Rb_S6_L004",
-      "CMS002_054a_Rb_S8_L004"
-    ]
-  },
-  "49": {
-    "name": "TBD",
-    "taxid": 39756,
-    "segments": {
-      "genome": {
-        "clusters": [
-          49
-        ],
-        "contigs": [
-          "CMS002_029d_Rb_S162_L004|NODE_3_length_7380_cov_3.942352"
-        ]
-      }
-    },
-    "family": "Totiviridae",
-    "samples": [
-      "CMS002_029d_Rb_S162_L004",
-      "CMS002_031a_Rb_S165_L004"
-    ]
-  },
-  "50": {
-    "name": "Guadeloupe Culex tymo-like virus",
-    "taxid": 2607736,
-    "segments": {
-      "genome": {
-        "clusters": [
-          50
-        ],
-        "contigs": [
-          "CMS002_022a_Rb_S137_L004|NODE_2_length_7363_cov_8.020725"
-        ]
-      }
-    },
-    "family": "Viruses",
-    "samples": [
-      "CMS002_022a_Rb_S137_L004"
-    ]
-  },
-  "55": {
-    "name": "TBD",
-    "taxid": 39756,
-    "segments": {
-      "genome": {
-        "clusters": [
-          55
-        ],
-        "contigs": [
-          "CMS002_053a_Rb_S7_L004|NODE_5_length_7168_cov_39.954872",
-          "CMS001_050_Ra_S23|NODE_3_length_6772_cov_6.594324",
-          "CMS001_006_Ra_S5|NODE_2_length_6837_cov_2.930769"
-        ]
-      }
-    },
-    "family": "Totiviridae",
-    "samples": [
-      "CMS002_047e_Rb_S197_L004",
-      "CMS001_037_Ra_S21",
-      "CMS001_035_Ra_S20",
-      "CMS002_028b_Rb_S155_L004",
-      "CMS001_053_Ra_S8",
-      "CMS001_010_Ra_S1",
-      "CMS001_006_Ra_S5",
-      "CMS001_050_Ra_S23",
-      "CMS001_052_Ra_S7",
-      "CMS001_019_Ra_S14",
-      "CMS001_007_Ra_S12",
-      "CMS001_049_Ra_S6",
-      "CMS001_058_Ra_S9",
-      "CMS002_053a_Rb_S7_L004",
-      "CMS001_013_Ra_S5",
-      "CMS001_021_Ra_S16",
-      "CMS001_020_Ra_S15",
-      "CMS001_018_Ra_S14",
-      "CMS001_057_Ra_S11"
-    ]
-  },
-  "56": {
-    "name": "TBD",
-    "taxid": 39756,
-    "segments": {
-      "genome": {
-        "clusters": [
-          56
-        ],
-        "contigs": [
-          "CMS002_029c_Rb_S161_L004|NODE_2_length_7155_cov_5.347415"
-        ]
-      }
-    },
-    "family": "Totiviridae",
-    "samples": [
-      "CMS002_029e_Rb_S164_L004",
-      "CMS001_032_Ra_S7",
-      "CMS001_036_Ra_S20",
-      "CMS002_029b_Rb_S160_L004",
-      "CMS002_029a_Rb_S159_L004",
-      "CMS001_027_Ra_S16",
-      "CMS001_034_Ra_S19",
-      "CMS001_028_Ra_S17",
-      "CMS002_029c_Rb_S161_L004",
-      "CMS001_038_Ra_S22"
-    ]
-  },
-  "57": {
-    "name": "TBD",
-    "taxid": 39756,
-    "segments": {
-      "genome": {
-        "clusters": [
-          57
-        ],
-        "contigs": [
-          "CMS002_040a_Rb_S174_L004|NODE_2_length_7146_cov_3.261423"
-        ]
-      }
-    },
-    "family": "Totiviridae",
-    "samples": [
-      "CMS002_029d_Rb_S162_L004",
-      "CMS002_031a_Rb_S165_L004",
-      "CMS002_040a_Rb_S174_L004",
-      "CMS001_031_Ra_S19"
-    ]
-  },
-  "60": {
-    "name": "Wuhan insect virus 33",
-    "taxid": 1923736,
-    "segments": {
-      "genome": {
-        "clusters": [
-          60
-        ],
-        "contigs": [
-          "CMS002_044b_Rb_S179_L004|NODE_1_length_7060_cov_2.221681"
-        ]
-      }
-    },
-    "family": "Viruses",
-    "samples": [
-      "CMS002_044b_Rb_S179_L004",
-      "CMS002_044c_Rb_S180_L004",
-      "CMS002_044a_Rb_S178_L004"
-    ]
-  },
-  "61": {
-    "name": "TBD",
-    "taxid": 348018,
-    "segments": {
-      "L": {
-        "clusters": [
-          61
-        ],
-        "contigs": [
-          "CMS001_040_Ra_S21|NODE_1_length_7059_cov_13.082641"
-        ]
-      }
-    },
-    "family": "Peribunyaviridae",
-    "samples": [
-      "CMS001_040_Ra_S21"
-    ]
-  },
-  "63": {
-    "name": "TBD",
-    "taxid": 2024603,
-    "segments": {
-      "L": {
-        "clusters": [
-          63
-        ],
-        "contigs": [
-          "CMS001_056_Ra_S10|NODE_2_length_6883_cov_44.064649",
-          "CMS001_049_Ra_S6|NODE_1_length_6879_cov_20.980447",
-          "CMS002_053a_Rb_S7_L004|NODE_8_length_6901_cov_1069.408998",
-          "CMS001_021_Ra_S16|NODE_2_length_6884_cov_155.941678",
-          "CMS001_013_Ra_S5|NODE_1_length_6965_cov_47.988240",
-          "CMS001_011_Ra_S4|NODE_2_length_6879_cov_38.700088",
-          "CMS001_019_Ra_S14|NODE_2_length_6890_cov_65.181271",
-          "CMS001_048_Ra_S5|NODE_3_length_6887_cov_16.627460"
-        ]
-      },
-      "GP": {
-        "clusters": [
-          59
-        ],
-        "contigs": [
-          "CMS001_048_Ra_S5|NODE_5_length_3867_cov_20.863325",
-          "CMS001_019_Ra_S14|NODE_5_length_3912_cov_99.425815",
-          "CMS001_011_Ra_S4|NODE_4_length_3946_cov_47.512794",
-          "CMS001_013_Ra_S5|NODE_2_length_3918_cov_65.268420",
-          "CMS001_021_Ra_S16|NODE_5_length_3931_cov_178.430202",
-          "CMS001_049_Ra_S6|NODE_3_length_3909_cov_22.431628",
-          "CMS001_056_Ra_S10|NODE_4_length_3907_cov_58.737598"
-        ]
-      },
-      "NP": {
-        "clusters": [
-          6048
-        ],
-        "contigs": [
-          "CMS001_056_Ra_S10|NODE_15_length_1411_cov_67.083208",
-          "CMS001_049_Ra_S6|NODE_23_length_1388_cov_38.506484",
-          "CMS002_053a_Rb_S7_L004|NODE_405_length_1440_cov_1544.804842",
-          "CMS001_021_Ra_S16|NODE_107_length_1433_cov_306.890855",
-          "CMS001_013_Ra_S5|NODE_50_length_1412_cov_185.265918",
-          "CMS001_011_Ra_S4|NODE_36_length_1434_cov_100.125276",
-          "CMS001_048_Ra_S5|NODE_21_length_1417_cov_35.092537"
-        ]
-      }
-    },
-    "family": "Phenuiviridae",
-    "samples": [
-      "CMS001_011_Ra_S4",
-      "CMS001_056_Ra_S10",
-      "CMS001_019_Ra_S14",
-      "CMS001_049_Ra_S6",
-      "CMS002_053a_Rb_S7_L004",
-      "CMS001_013_Ra_S5",
-      "CMS001_021_Ra_S16",
-      "CMS001_048_Ra_S5"
-    ]
-  },
-  "70": {
-    "name": "TBD",
-    "taxid": 2546221,
-    "segments": {
-      "L": {
-        "clusters": [
-          70
-        ],
-        "contigs": [
-          "CMS002_026a_Rb_S146_L004|NODE_1_length_6613_cov_28.957160",
-          "CMS002_026b_Rb_S147_L004|NODE_1_length_6620_cov_45.772276",
-          "CMS002_026c_Rb_S148_L004|NODE_1_length_6612_cov_55.517827",
-          "CMS002_026d_Rb_S149_L004|NODE_1_length_6612_cov_140.127467",
-          "CMS002_026e_Rb_S150_L004|NODE_1_length_6618_cov_42.453142",
-          "CMS002_044d_Rb_S181_L004|NODE_1_length_6606_cov_8.091591",
-          "CMS002_045a_Rb_S183_L004|NODE_1_length_6611_cov_32.998623",
-          "CMS002_045b_Rb_S184_L004|NODE_1_length_6634_cov_114.513192",
-          "CMS002_045c_Rb_S185_L004|NODE_1_length_6614_cov_71.839988",
-          "CMS002_045d_Rb_S186_L004|NODE_1_length_6614_cov_117.931773",
-          "CMS002_045e_Rb_S188_L004|NODE_1_length_6614_cov_184.388251",
-          "CMS002_045f_Rb_S189_L004|NODE_1_length_6613_cov_24.029223",
-          "CMS002_045g_Rb_S190_L004|NODE_1_length_6613_cov_48.274480"
-        ]
-      },
-      "GP": {
-        "clusters": [
-          1813
-        ],
-        "contigs": [
-          "CMS002_026a_Rb_S146_L004|NODE_5_length_2091_cov_18.126614",
-          "CMS002_026b_Rb_S147_L004|NODE_5_length_2085_cov_16.065239",
-          "CMS002_026c_Rb_S148_L004|NODE_5_length_2107_cov_35.046305",
-          "CMS002_026d_Rb_S149_L004|NODE_5_length_2093_cov_92.344742",
-          "CMS002_026e_Rb_S150_L004|NODE_5_length_2123_cov_21.675953",
-          "CMS002_044d_Rb_S181_L004|NODE_5_length_2056_cov_11.406771",
-          "CMS002_044e_Rb_S182_L004|NODE_4_length_2040_cov_3.842588",
-          "CMS002_045a_Rb_S183_L004|NODE_6_length_2087_cov_23.526368",
-          "CMS002_045b_Rb_S184_L004|NODE_7_length_2084_cov_48.028401",
-          "CMS002_045c_Rb_S185_L004|NODE_6_length_2093_cov_21.866071",
-          "CMS002_045d_Rb_S186_L004|NODE_6_length_2093_cov_37.041171",
-          "CMS002_045e_Rb_S188_L004|NODE_5_length_2089_cov_143.046720",
-          "CMS002_045f_Rb_S189_L004|NODE_6_length_2079_cov_16.174326",
-          "CMS002_045g_Rb_S190_L004|NODE_7_length_2096_cov_33.011392"
-        ]
-      },
-      "NP": {
-        "clusters": [
-          1392
-        ],
-        "contigs": [
-          "CMS002_026a_Rb_S146_L004|NODE_6_length_2045_cov_93.704268",
-          "CMS002_026b_Rb_S147_L004|NODE_6_length_2041_cov_160.900713",
-          "CMS002_026c_Rb_S148_L004|NODE_6_length_2095_cov_132.746283",
-          "CMS002_026d_Rb_S149_L004|NODE_6_length_2041_cov_343.414460",
-          "CMS002_026e_Rb_S150_L004|NODE_6_length_2066_cov_149.367521",
-          "CMS002_044a_Rb_S178_L004|NODE_6_length_1441_cov_3.457478",
-          "CMS002_044d_Rb_S181_L004|NODE_6_length_2030_cov_21.054275",
-          "CMS002_044e_Rb_S182_L004|NODE_5_length_2026_cov_5.090303",
-          "CMS002_045a_Rb_S183_L004|NODE_7_length_2035_cov_97.297242",
-          "CMS002_045b_Rb_S184_L004|NODE_6_length_2140_cov_299.507029",
-          "CMS002_045c_Rb_S185_L004|NODE_7_length_2049_cov_186.914807",
-          "CMS002_045d_Rb_S186_L004|NODE_7_length_2044_cov_240.945094",
-          "CMS002_045e_Rb_S188_L004|NODE_6_length_2037_cov_66.502041",
-          "CMS002_045f_Rb_S189_L004|NODE_7_length_2042_cov_62.754198",
-          "CMS002_045g_Rb_S190_L004|NODE_5_length_2301_cov_72.350270"
-        ]
-      }
-    },
-    "family": "Phasmaviridae",
-    "samples": [
-      "CMS002_026e_Rb_S150_L004",
-      "CMS002_045f_Rb_S189_L004",
-      "CMS002_026b_Rb_S147_L004",
-      "CMS002_044e_Rb_S182_L004",
-      "CMS002_026a_Rb_S146_L004",
-      "CMS002_026d_Rb_S149_L004",
-      "CMS002_045c_Rb_S185_L004",
-      "CMS002_045b_Rb_S184_L004",
-      "CMS002_045a_Rb_S183_L004",
-      "CMS002_044a_Rb_S178_L004",
-      "CMS002_045d_Rb_S186_L004",
-      "CMS002_044c_Rb_S180_L004",
-      "CMS002_045e_Rb_S188_L004",
-      "CMS002_026c_Rb_S148_L004",
-      "CMS002_045g_Rb_S190_L004",
-      "CMS002_044d_Rb_S181_L004"
-    ]
-  },
-  "76": {
-    "name": "TBD",
-    "taxid": 2546221,
-    "segments": {
-      "L": {
-        "clusters": [
-          76
-        ],
-        "contigs": [
-          "CMS001_001_Ra_S1|NODE_2_length_6399_cov_55.991142",
-          "CMS001_011_Ra_S4|NODE_3_length_6397_cov_26.972152",
-          "CMS001_019_Ra_S14|NODE_3_length_6396_cov_19.212692",
-          "CMS001_035_Ra_S20|NODE_2_length_6398_cov_11.386806",
-          "CMS001_037_Ra_S21|NODE_2_length_6396_cov_24.247824",
-          "CMS001_057_Ra_S11|NODE_3_length_6396_cov_20.229150",
-          "CMS002_028b_Rb_S155_L004|NODE_3_length_6399_cov_42.064853",
-          "CMS002_028d_Rb_S157_L004|NODE_2_length_6403_cov_43.049162",
-          "CMS002_028e_Rb_S158_L004|NODE_5_length_6398_cov_62.022465",
-          "CMS002_047f_Rb_S198_L004|NODE_3_length_6400_cov_66.440297",
-          "CMS002_047h_Rb_S1_L004|NODE_2_length_6403_cov_47.552324",
-          "CMS002_047i_Rb_S2_L004|NODE_2_length_6393_cov_18.741925",
-          "CMS002_053a_Rb_S7_L004|NODE_11_length_6400_cov_166.989720",
-          "CMS001_017_Ra_S6|NODE_3_length_6397_cov_24.691930"
-        ]
-      },
-      "GP": {
-        "clusters": [
-          1543
-        ],
-        "contigs": [
-          "CMS001_001_Ra_S1|NODE_23_length_2210_cov_61.079700",
-          "CMS001_011_Ra_S4|NODE_9_length_2212_cov_17.291803",
-          "CMS001_017_Ra_S6|NODE_21_length_2211_cov_6.064667",
-          "CMS001_019_Ra_S14|NODE_9_length_2213_cov_143.733614",
-          "CMS001_035_Ra_S20|NODE_28_length_2153_cov_6.789017",
-          "CMS001_037_Ra_S21|NODE_10_length_2213_cov_24.928371",
-          "CMS001_057_Ra_S11|NODE_11_length_2199_cov_22.490575",
-          "CMS002_028b_Rb_S155_L004|NODE_17_length_2193_cov_25.750000",
-          "CMS002_028d_Rb_S157_L004|NODE_11_length_2209_cov_31.870075",
-          "CMS002_028e_Rb_S158_L004|NODE_28_length_2210_cov_64.748242",
-          "CMS002_047f_Rb_S198_L004|NODE_11_length_2228_cov_179.656439",
-          "CMS002_047h_Rb_S1_L004|NODE_11_length_2212_cov_195.804215",
-          "CMS002_047i_Rb_S2_L004|NODE_7_length_2177_cov_12.793810",
-          "CMS002_053a_Rb_S7_L004|NODE_154_length_2212_cov_28.945199"
-        ]
-      },
-      "NP": {
-        "clusters": [
-          1745
-        ],
-        "contigs": [
-          "CMS001_001_Ra_S1|NODE_25_length_2094_cov_202.365394",
-          "CMS001_011_Ra_S4|NODE_11_length_2073_cov_175.375752",
-          "CMS001_017_Ra_S6|NODE_26_length_2070_cov_132.549423",
-          "CMS001_018_Ra_S14|NODE_17_length_2071_cov_22.042628",
-          "CMS001_019_Ra_S14|NODE_10_length_2070_cov_42.674360",
-          "CMS001_035_Ra_S20|NODE_31_length_2070_cov_114.351731",
-          "CMS001_037_Ra_S21|NODE_11_length_2071_cov_253.681043",
-          "CMS001_057_Ra_S11|NODE_14_length_2070_cov_117.677371",
-          "CMS002_028b_Rb_S155_L004|NODE_19_length_2078_cov_384.881559",
-          "CMS002_028d_Rb_S157_L004|NODE_16_length_2068_cov_314.980412",
-          "CMS002_028e_Rb_S158_L004|NODE_32_length_2148_cov_558.457267",
-          "CMS002_047f_Rb_S198_L004|NODE_14_length_2084_cov_219.329347",
-          "CMS002_047h_Rb_S1_L004|NODE_13_length_2130_cov_144.182172",
-          "CMS002_047i_Rb_S2_L004|NODE_12_length_2096_cov_276.578504",
-          "CMS002_053a_Rb_S7_L004|NODE_167_length_2145_cov_1150.466151"
-        ]
-      }
-    },
-    "family": "Phasmaviridae",
-    "samples": [
-      "CMS001_037_Ra_S21",
-      "CMS002_047j_Rb_S3_L004",
-      "CMS001_035_Ra_S20",
-      "CMS002_028e_Rb_S158_L004",
-      "CMS002_028b_Rb_S155_L004",
-      "CMS001_001_Ra_S1",
-      "CMS001_011_Ra_S4",
-      "CMS002_047f_Rb_S198_L004",
-      "CMS001_019_Ra_S14",
-      "CMS002_047h_Rb_S1_L004",
-      "CMS002_028d_Rb_S157_L004",
-      "CMS002_053a_Rb_S7_L004",
-      "CMS002_047i_Rb_S2_L004",
-      "CMS001_017_Ra_S6",
-      "CMS001_018_Ra_S14",
-      "CMS001_057_Ra_S11"
-    ]
-  },
-  "78": {
-    "name": "TBD",
-    "taxid": 39756,
-    "segments": {
-      "": {
-        "clusters": [
-          78
-        ],
-        "contigs": [
-          "CMS001_038_Ra_S22|NODE_2_length_6269_cov_19.304587"
-        ]
-      }
-    },
-    "family": "Totiviridae",
-    "samples": [
-      "CMS001_038_Ra_S22"
-    ]
-  },
-  "81": {
-    "name": "Aedes aegypti totivirus",
-    "taxid": 2603435,
-    "segments": {
-      "RNA 1": {
-        "clusters": [
-          81
-        ],
-        "contigs": [
-          "CMS002_017c_Rb_S124_L004|NODE_2_length_6087_cov_30.839601",
-          "CMS002_017d_Rb_S125_L004|NODE_1_length_6094_cov_46.374439",
-          "CMS002_017b_Rb_S123_L004|NODE_1_length_6097_cov_69.823256",
-          "CMS002_017a_Rb_S122_L004|NODE_1_length_6223_cov_33.014156"
-        ]
-      },
-      "RNA 2": {
-        "clusters": [
-          2276
-        ],
-        "contigs": [
-          "CMS002_017e_Rb_S126_L004|NODE_6_length_1890_cov_7.275786",
-          "CMS002_017d_Rb_S125_L004|NODE_8_length_1955_cov_501.348243",
-          "CMS002_017a_Rb_S122_L004|NODE_7_length_1760_cov_257.972237",
-          "CMS002_017b_Rb_S123_L004|NODE_7_length_1977_cov_442.687368",
-          "CMS002_017c_Rb_S124_L004|NODE_9_length_1973_cov_254.317511"
-        ]
-      }
-    },
-    "family": "Totiviridae",
-    "samples": [
-      "CMS002_017a_Rb_S122_L004",
-      "CMS002_017c_Rb_S124_L004",
-      "CMS002_017b_Rb_S123_L004",
-      "CMS002_017d_Rb_S125_L004",
-      "CMS002_017e_Rb_S126_L004"
-    ]
+    "submission_taxid": 2587553,
+    "taxid": 2587553
   },
   "98": {
+    "family": "Luteoviridae",
     "name": "TBD",
-    "taxid": 328429,
+    "provisional_name": "98|Luteo-like",
+    "samples": [
+      "CMS001_060_Ra_S12"
+    ],
     "segments": {
       "genome": {
         "clusters": [
@@ -1124,74 +3057,7 @@
         ]
       }
     },
-    "family": "Luteoviridae",
-    "samples": [
-      "CMS001_060_Ra_S12"
-    ]
-  },
-  "128": {
-    "name": "TBD",
-    "taxid": 137555,
-    "segments": {
-      "genome": {
-        "clusters": [
-          128
-        ],
-        "contigs": [
-          "CMS001_001_Ra_S1|NODE_5_length_5116_cov_2209.828736",
-          "CMS002_028a_Rb_S154_L004|NODE_3_length_4954_cov_302.392864",
-          "CMS001_020_Ra_S15|NODE_5_length_4956_cov_1434.930314",
-          "CMS001_047_Ra_S4|NODE_1_length_4954_cov_281.056592",
-          "CMS002_028e_Rb_S158_L004|NODE_8_length_4993_cov_5868.479251",
-          "CMS002_038a_Rb_S172_L004|NODE_5_length_4960_cov_515.543314",
-          "CMS001_019_Ra_S14|NODE_4_length_4949_cov_48.673440",
-          "CMS001_058_Ra_S9|NODE_4_length_4922_cov_20.618163",
-          "CMS001_049_Ra_S6|NODE_2_length_4953_cov_60.591468",
-          "CMS001_057_Ra_S11|NODE_5_length_4952_cov_90.586667",
-          "CMS002_029c_Rb_S161_L004|NODE_4_length_4950_cov_32.751077",
-          "CMS001_018_Ra_S14|NODE_4_length_4948_cov_4.042702",
-          "CMS001_045_Ra_S2|NODE_2_length_4931_cov_1086.634940"
-        ]
-      }
-    },
-    "family": "Tombusviridae",
-    "samples": [
-      "CMS001_045_Ra_S2",
-      "CMS001_035_Ra_S20",
-      "CMS002_028e_Rb_S158_L004",
-      "CMS001_015_Ra_S13",
-      "CMS002_029c_Rb_S161_L004",
-      "CMS002_047g_Rb_S200_L004",
-      "CMS002_047c_Rb_S195_L004",
-      "CMS001_001_Ra_S1",
-      "CMS001_019_Ra_S14",
-      "CMS002_038a_Rb_S172_L004",
-      "CMS002_028a_Rb_S154_L004",
-      "CMS001_049_Ra_S6",
-      "CMS001_058_Ra_S9",
-      "CMS002_047a_Rb_S193_L004",
-      "CMS001_020_Ra_S15",
-      "CMS001_047_Ra_S4",
-      "CMS001_018_Ra_S14",
-      "CMS001_057_Ra_S11"
-    ]
-  },
-  "226": {
-    "name": "TBD",
-    "taxid": 12008,
-    "segments": {
-      "genome": {
-        "clusters": [
-          226
-        ],
-        "contigs": [
-          "CMS001_047_Ra_S4|NODE_2_length_4094_cov_7.237491"
-        ]
-      }
-    },
-    "family": "Leviviridae",
-    "samples": [
-      "CMS001_047_Ra_S4"
-    ]
+    "submission_taxid": 328429,
+    "taxid": 328429
   }
 }

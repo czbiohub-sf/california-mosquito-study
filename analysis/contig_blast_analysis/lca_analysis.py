@@ -24,7 +24,11 @@ exec(open("lca_functions.py").read())
 start_time = time.time()
 
 # if contigs have 2 or fewer reads, then exclude them from LCA analysis
-read_counts = load_json(args.read_count_path, colnames=["query", "read_count"])
+if (args.read_count_path.endswith(".json")):
+    read_counts = load_json(args.read_count_path, colnames=["query", "read_count"])
+else:
+    read_counts = pd.read_csv(args.read_count_path, sep="\t", header=0).rename(columns={"contig_name":"query"})
+
 filtered_contigs_by_read_count = read_counts[read_counts["read_count"]>2]
 
 print_to_stdout("Read counts have been loaded: "+args.read_count_path, start_time, verbose)
@@ -33,41 +37,44 @@ if (len(filtered_contigs_by_read_count.index)==0):
     print_to_stdout(args.fpath+": no contig had more than 2 reads.", start_time, verbose)
     exit()
 
+col_names = ["query", "subject", "identity", "align_length", "mismatches", 
+        "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
+        "sci_name", "common_name", "subject_title", "qcov", "hsp_count"]
+
 if args.blast_type =="nt":
     db = "nucleotide"
-    col_names = ["query", "subject", "identity", "align_length", "mismatches", 
-        "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
-        "sci_name", "common_name", "subject_title", "qcov", "hsp_count"]
-    col_types = {"query":str, "subject":str,
-                 "identity":float, "align_length":float,
-                 "mismatches":float, "gaps":float,
-                 "qstart":int, "qend":int, "sstart":int, "send":int, 
-                 "evalue":float, "bitscore":float, "taxid":float, 
-                 "sci_name":str, "common_name":str, "subject_title":str,
-                 "qcov":float, "hsp_count":int}
 elif args.blast_type=="nr":
     db = "protein"
-    col_names = ["query", "subject", "identity", "align_length", "mismatches", 
-        "gaps", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "taxid", 
-        "sci_name", "common_name", "subject_title", "qcov", "hsp_count"]
-    col_types = {"query":str, "subject":str,
-             "identity":float, "align_length":float,
-             "mismatches":float, "gaps":float,
-             "qstart":int, "qend":int, "sstart":int, "send":int, 
-             "evalue":float, "bitscore":float, "taxid":float, 
-             "sci_name":str, "common_name":str, "subject_title":str,
-             "qcov":float, "hsp_count":int}
     
 # obtain a single HSP for each query-subject pairing and read in blast results as a pandas data frame
-blast_results = get_single_hsp(args.fpath, args.blast_type, col_names, col_types) 
+blast_results = get_single_hsp(args.fpath, args.blast_type, col_names) 
+if "qlen" not in blast_results:
+    if ("~" in blast_results["query"].iloc[0]):
+        blast_results = blast_results.assign(qlen=blast_results["query"].str.split("~").apply(lambda x: int(x[1].split("_")[3])))
+    else:
+        blast_results = blast_results.assign(qlen=blast_results["query"].str.split("_").apply(lambda x: int(x[3])))
 print_to_stdout("Loaded blast file: "+args.fpath, start_time, verbose)
 
 
 # data frame: whether or not each contig was included or excluded from blast analysis, and reason for exclusion
-excluded_contigs = pd.DataFrame({"query":blast_results["query"].unique()})
-excluded_contigs = excluded_contigs.assign(contig_length=excluded_contigs["query"].str.split("_").apply(lambda x: int(x[3])))
-excluded_contigs = pd.merge(excluded_contigs, read_counts, how="left", on="query").fillna(0)
-excluded_contigs = excluded_contigs.assign(low_read_count=~excluded_contigs["query"].isin(filtered_contigs_by_read_count["query"]))
+excluded_contigs = blast_results.groupby(["query"]).first().reset_index()[["query", "qlen"]].rename(columns={"qlen":"contig_length"})
+if ("~" in excluded_contigs["query"].iloc[0]):
+    excluded_contigs = excluded_contigs.assign(sample=excluded_contigs["query"].str.split("~").apply(lambda x: x[0]))
+    excluded_contigs["query"] = excluded_contigs["query"].str.split("~").apply(lambda x: x[1])
+    if "sample" in read_counts:
+        selected_cols = ["sample", "query", "read_count"]
+    else:
+        selected_cols = ["query", "read_count"]
+    excluded_contigs = pd.merge(excluded_contigs, read_counts[selected_cols], how="left").fillna(0)
+    excluded_contigs["query"] = excluded_contigs[["sample", "query"]].apply(lambda x: x[0]+"~"+x[1], axis=1)
+    queries = filtered_contigs_by_read_count.apply(lambda x: x["sample"]+"~"+x["query"], axis=1)
+    excluded_contigs = excluded_contigs.assign(low_read_count=~excluded_contigs["query"].isin(queries))
+else:
+    excluded_contigs = excluded_contigs.assign(contig_length=excluded_contigs["query"].str.split("_").apply(lambda x: int(x[3])))
+    excluded_contigs = pd.merge(excluded_contigs, read_counts, how="left", on="query").fillna(0)
+    excluded_contigs = excluded_contigs.assign(low_read_count=~excluded_contigs["query"].isin(filtered_contigs_by_read_count["query"]))
+
+
 
 # find missing taxids
 blast_results["taxid"] = blast_results["taxid"].replace(to_replace=0, value=np.nan) # some synthetic constructs have taxid 0
@@ -79,19 +86,33 @@ if (blast_results["taxid"].isnull().any()):
     blast_results.loc[blast_results["taxid"].isnull(), ["taxid"]] = blast_results[blast_results["taxid"].isnull()]["subject"].apply(lambda x: subjects_taxid_dict[x])
     blast_results = blast_results[~blast_results["taxid"].isnull()]
 
+    
 excluded_contigs = excluded_contigs.assign(taxid_na=~excluded_contigs["query"].isin(blast_results["query"]))
 print_to_stdout(str(excluded_contigs["taxid_na"].sum())+" contigs were excluded because none of the subject taxids could be found.", start_time, verbose)        
 
+if len(blast_results)==0:
+    if (args.excluded_contigs_path.startswith("s3://")):
+        df_to_s3(excluded_contigs, args.excluded_contigs_path)
+    else:
+        excluded_contigs.to_csv(args.excluded_contigs_path, sep="\t", index=False)
+    exit()
+
 # exclude contigs with hits to mosquito
-all_hits_queries = blast_results["query"].unique()
-blast_results = blast_results.groupby(["query"], as_index=False).apply(
-        filter_by_taxid, db=db, taxid=ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0]
-)
-hexa_contigs = blast_results["query"][~blast_results["query"].isin(all_hits_queries)]
+all_hits_queries = list(blast_results["query"].unique())
+print_to_stdout("remove contigs if they are likely hexapoda ", start_time, verbose)
+blast_results = blast_results.groupby(["query"], as_index=False).apply(filter_by_taxid, db=db, taxid=ncbi_older_db(["Hexapoda"], "get_name_translator")["Hexapoda"][0])
+hexa_contigs = [x for x in all_hits_queries if x not in blast_results["query"].tolist()]
 excluded_contigs = excluded_contigs.assign(hexapoda=excluded_contigs["query"].isin(hexa_contigs))
 
-if (len(hexa_contigs.index)>0):
-    print_to_stdout(str(len(hexa_contigs.index))+" contigs were likely hexapoda.", start_time, verbose)
+if (len(blast_results)==0):
+    if (args.excluded_contigs_path.startswith("s3://")):
+        df_to_s3(excluded_contigs, args.excluded_contigs_path)
+    else:
+        excluded_contigs.to_csv(args.excluded_contigs_path, sep="\t", index=False)
+    exit()
+
+if (len(hexa_contigs)>0):
+    print_to_stdout(str(len(hexa_contigs))+" contigs were likely hexapoda.", start_time, verbose)
 
 # remove contigs with too few reads from blast_results
 blast_results = blast_results[~blast_results["query"].isin(excluded_contigs["query"][excluded_contigs["low_read_count"]])]
@@ -101,32 +122,36 @@ print_to_stdout (str(len(blast_results["query"].unique())) + " out of " + str(le
 # lca analysis
 filtered_blast_results = blast_results.groupby(["query"], as_index=False).apply(
     select_taxids_for_lca, db=db,
-    return_taxid_only=False,
-    ident_cutoff=float(args.ident_cutoff),
-    align_len_cutoff=float(args.align_len_cutoff),
-    bitscore_cutoff=float(args.bitscore_cutoff),
-    read_counts=filtered_contigs_by_read_count
+    return_taxid_only=False
 )
 
 print_to_stdout("BLAST results have been filtered: "+args.filtered_blast_path, start_time, verbose)
 
-if (args.filtered_blast_path is not None):
-    df_to_s3(filtered_blast_results, args.filtered_blast_path)
-    print_to_stdout("BLAST results have been uploaded to : "+args.filtered_blast_path, start_time, verbose)
-
-
 lca_results = filtered_blast_results.groupby(["query"]).apply(get_lca)
+additional_hexa_contigs = lca_results["query"][lca_results["taxid"].apply(lambda x: ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0] in ncbi_older_db(x, "get_lineage"))]
+excluded_contigs.loc[excluded_contigs["query"].isin(additional_hexa_contigs), "hexapoda"] = True
+filtered_blast_results = filtered_blast_results[~filtered_blast_results["query"].isin(additional_hexa_contigs)]
+lca_results = lca_results[~lca_results["query"].isin(additional_hexa_contigs)]
 
-print_to_stdout("LCA analysis complete: "+args.outpath, start_time, verbose)
 
 # write results to file
+
+if (args.filtered_blast_path is not None):
+    if (args.filtered_blast_path.startswith("s3://")):
+        df_to_s3(filtered_blast_results, args.filtered_blast_path)
+    else:
+        filtered_blast_results.to_csv(args.filtered_blast_path, sep="\t", index=False, header=True)
+    print_to_stdout("BLAST results have been saved to : "+args.filtered_blast_path, start_time, verbose)
+
 if (args.outpath.startswith("s3://")):
     df_to_s3(lca_results, args.outpath)
-    df_to_s3(excluded_contigs, args.excluded_contigs_path)
 else:
     lca_results.to_csv(args.outpath, sep="\t", index=False)
-    excluded_contigs.to_csv(args.excluded_contigs_path, sep="\t", index=False)
 
+if (args.excluded_contigs_path.startswith("s3://")):
+    df_to_s3(excluded_contigs, args.excluded_contigs_path)
+else:
+    excluded_contigs.to_csv(args.excluded_contigs_path, sep="\t", index=False)
     
     
 print_to_stdout("LCA analysis saved to file: "+args.outpath, start_time, verbose)

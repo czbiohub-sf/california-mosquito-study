@@ -1,0 +1,319 @@
+collected_by	group	read_prop	sample	sci_name	ska_genus	ska_species	taxid
+WVAL 	Wolbachia	0.1333242992101592	CMS002_046a_Rb_S191_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+WVAL 	Wolbachia	0.11701813891756381	CMS002_027a_Rb_S152_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+WVAL 	Wolbachia	0.11118727472467589	CMS002_027b_Rb_S153_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+WVAL 	Wolbachia	0.10939672692266564	CMS002_046b_Rb_S192_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+SAND	Wolbachia	0.12614778531733534	CMS002_013a_Rb_S120_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+SAND	Wolbachia	0.11330945986272753	CMS002_001a_Rb_S116_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+SAND	Wolbachia	0.10997084894996721	CMS002_004a_Rb_S117_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+SAND	Wolbachia	0.10403814590525771	CMS002_010a_Rb_S119_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+SAND	Wolbachia	0.05328674383053069	CMS002_022a_Rb_S137_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+SAND	Wolbachia	0.015930820443510036	CMS002_023a_Rb_S138_L004	Wolbachieae	Culex	quinquefasciatus	952.0
+PLCR	Wolbachia	0.1475397868301942	CMS002_050a_Rb_S5_L004	Wolbachieae	Culex	pipiens	952.0
+PLCR	Wolbachia	0.05939116593712694	CMS002_054a_Rb_S8_L004	Wolbachieae	Culex	pipiens	952.0
+PLCR	Wolbachia	0.03979245850537311	CMS002_051a_Rb_S6_L004	Wolbachieae	Culex	pipiens	952.0
+PLCR	Wolbachia	0.03887376944528443	CMS002_057a_Rb_S10_L004	Wolbachieae	Culex	pipiens	952.0
+ALCO	Wolbachia	0.4623272098945075	CMS001_004_Ra_S2	Wolbachieae	Culex	pipiens	952.0
+ALCO	Wolbachia	0.4598196218997513	CMS001_054_Ra_S11	Wolbachieae	Culex	pipiens	952.0
+ALCO	Wolbachia	0.4238693178552956	CMS001_059_Ra_S10	Wolbachieae	Culex	pipiens	952.0
+ALCO	Wolbachia	0.380236180203636	CMS001_030_Ra_S7	Wolbachieae	Culex	pipiens	952.0
+ALCO	Wolbachia	0.3540857242478575	CMS001_041_Ra_S10	Wolbachieae	Culex	pipiens	952.0
+ALCO	Wolbachia	0.0954625036475051	CMS001_044_Ra_S25	Wolbachieae	Culex	pipiens	952.0
+ALCO	Wolbachia	0.036826857532379006	CMS001_029_Ra_S18	Wolbachieae	Culex	pipiens	952.0
+WVAL 	Wolbachia	0.11754505013948578	CMS002_026e_Rb_S150_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.10700265923768519	CMS002_026a_Rb_S146_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.10403170814865327	CMS002_045a_Rb_S183_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.05372915593931953	CMS002_026d_Rb_S149_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.050962435343000094	CMS002_026b_Rb_S147_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.03159449937492897	CMS002_026c_Rb_S148_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.013202406629583382	CMS002_045g_Rb_S190_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.006265241042956293	CMS002_045e_Rb_S188_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.005276166936020534	CMS002_045f_Rb_S189_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.0038339472282067316	CMS002_045d_Rb_S186_L004	Wolbachieae	Aedes	albopictus	952.0
+WVAL 	Wolbachia	0.0019655205077199964	CMS002_045b_Rb_S184_L004	Wolbachieae	Aedes	albopictus	952.0
+ALCO	Virus	0.0004827047900747678	CMS001_014_Ra_S5	dsRNA viruses	Culiseta	particeps	35325.0
+ALCO	Virus	7.543391646036633e-05	CMS001_005_Ra_S3	dsRNA viruses	Culiseta	incidens	35325.0
+WVAL 	Virus	0.11444997629208155	CMS002_029e_Rb_S164_L004	unclassified Riboviria	Culex	tarsalis	2585030.0
+WVAL 	Virus	0.09616100134517597	CMS002_029d_Rb_S162_L004	unclassified Riboviria	Culex	tarsalis	2585030.0
+WVAL 	Virus	0.1636650868878357	CMS002_029b_Rb_S160_L004	Bunyavirales	Culex	tarsalis	1980410.0
+WVAL 	Virus	0.12777355268249077	CMS002_029c_Rb_S161_L004	Bunyavirales	Culex	tarsalis	1980410.0
+WVAL 	Virus	0.12737671605338727	CMS002_029d_Rb_S162_L004	Bunyavirales	Culex	tarsalis	1980410.0
+WVAL 	Virus	0.12024350725959951	CMS002_029a_Rb_S159_L004	Bunyavirales	Culex	tarsalis	1980410.0
+WVAL 	Virus	0.10688122332859175	CMS002_029e_Rb_S164_L004	Bunyavirales	Culex	tarsalis	1980410.0
+WVAL 	Virus	0.0003335601542382153	CMS002_029c_Rb_S161_L004	Iflaviridae	Culex	tarsalis	699189.0
+WVAL 	Virus	0.17535942911113442	CMS002_029d_Rb_S162_L004	Narnaviridae	Culex	tarsalis	186766.0
+WVAL 	Virus	0.05629161162924122	CMS002_029c_Rb_S161_L004	Narnaviridae	Culex	tarsalis	186766.0
+WVAL 	Virus	0.03505808440018967	CMS002_029e_Rb_S164_L004	Orthomyxoviridae	Culex	tarsalis	11308.0
+WVAL 	Virus	0.033682904374974974	CMS002_029c_Rb_S161_L004	Orthomyxoviridae	Culex	tarsalis	11308.0
+WVAL 	Virus	0.03203617664736355	CMS002_029d_Rb_S162_L004	Orthomyxoviridae	Culex	tarsalis	11308.0
+WVAL 	Virus	4.719132937974863e-05	CMS002_029a_Rb_S159_L004	Totiviridae	Culex	tarsalis	11006.0
+WVAL 	Virus	4.4233807266982626e-05	CMS002_029b_Rb_S160_L004	Totiviridae	Culex	tarsalis	11006.0
+WVAL 	Virus	3.556187766714083e-05	CMS002_029e_Rb_S164_L004	Totiviridae	Culex	tarsalis	11006.0
+PLCR	Virus	0.095015320875232	CMS002_056a_Rb_S9_L004	Nodaviridae	Culex	tarsalis	12283.0
+PLCR	Virus	0.07878382460834664	CMS002_056a_Rb_S9_L004	Orthomyxoviridae	Culex	tarsalis	11308.0
+COAV	Virus	0.10825217107301673	CMS002_035a_Rb_S169_L004	Bunyavirales	Culex	tarsalis	1980410.0
+COAV	Virus	0.0003383832112256302	CMS002_040a_Rb_S174_L004	Bunyavirales	Culex	tarsalis	1980410.0
+COAV	Virus	0.018458867778956504	CMS002_034a_Rb_S168_L004	Iflaviridae	Culex	tarsalis	699189.0
+COAV	Virus	0.0047331295181682114	CMS002_039a_Rb_S173_L004	Iflaviridae	Culex	tarsalis	699189.0
+COAV	Virus	0.0006691332756041879	CMS002_042a_Rb_S177_L004	Nodaviridae	Culex	tarsalis	12283.0
+COAV	Virus	0.30265218447211734	CMS002_035a_Rb_S169_L004	Mononegavirales	Culex	tarsalis	11157.0
+COAV	Virus	0.12767879686908218	CMS002_031a_Rb_S165_L004	Mononegavirales	Culex	tarsalis	11157.0
+COAV	Virus	0.0914151400675525	CMS002_041a_Rb_S176_L004	Mononegavirales	Culex	tarsalis	11157.0
+COAV	Virus	0.05268843909102198	CMS002_040a_Rb_S174_L004	Mononegavirales	Culex	tarsalis	11157.0
+COAV	Virus	0.00020515086478979929	CMS002_031a_Rb_S165_L004	Viruses	Culex	tarsalis	10239.0
+ALCO	Virus	0.07496149032444402	CMS001_034_Ra_S19	unclassified Riboviria	Culex	tarsalis	2585030.0
+ALCO	Virus	0.02511564410260786	CMS001_002_Ra_S1	unclassified Riboviria	Culex	tarsalis	2585030.0
+ALCO	Virus	0.17724054024496938	CMS001_033_Ra_S8	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.13190989496959651	CMS001_051_Ra_S8	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.12814127235680325	CMS001_032_Ra_S7	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.12624709727358735	CMS001_042_Ra_S23	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.11828501448387932	CMS001_039_Ra_S9	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.10457783768171752	CMS001_034_Ra_S19	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.10409588686729326	CMS001_038_Ra_S22	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.09896966811751903	CMS001_043_Ra_S24	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.0921640037593985	CMS001_028_Ra_S17	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.04420925054257448	CMS001_036_Ra_S20	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.025280196975883865	CMS001_002_Ra_S1	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.008107735690277115	CMS001_046_Ra_S3	Bunyavirales	Culex	tarsalis	1980410.0
+ALCO	Virus	0.8368265904203227	CMS001_046_Ra_S3	Iflaviridae	Culex	tarsalis	699189.0
+ALCO	Virus	0.7903687812726641	CMS001_002_Ra_S1	Iflaviridae	Culex	tarsalis	699189.0
+ALCO	Virus	0.14656541831135073	CMS001_034_Ra_S19	Narnaviridae	Culex	tarsalis	186766.0
+ALCO	Virus	0.10062784897221984	CMS001_042_Ra_S23	Narnaviridae	Culex	tarsalis	186766.0
+ALCO	Virus	0.04680302192740004	CMS001_051_Ra_S8	Narnaviridae	Culex	tarsalis	186766.0
+ALCO	Virus	0.02668499094959197	CMS001_002_Ra_S1	Narnaviridae	Culex	tarsalis	186766.0
+ALCO	Virus	0.02312667069069587	CMS001_038_Ra_S22	Narnaviridae	Culex	tarsalis	186766.0
+ALCO	Virus	0.02108994052819978	CMS001_036_Ra_S20	Narnaviridae	Culex	tarsalis	186766.0
+ALCO	Virus	0.017445958646616543	CMS001_028_Ra_S17	Narnaviridae	Culex	tarsalis	186766.0
+ALCO	Virus	0.10972744360902256	CMS001_028_Ra_S17	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.09377425196171424	CMS001_038_Ra_S22	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.08872848025246696	CMS001_039_Ra_S9	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.08545841575642898	CMS001_042_Ra_S23	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.07461229341181798	CMS001_032_Ra_S7	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.05177162676822633	CMS001_043_Ra_S24	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.05059208626167325	CMS001_034_Ra_S19	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.04215874179091858	CMS001_036_Ra_S20	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.004790316977590337	CMS001_002_Ra_S1	Orthomyxoviridae	Culex	tarsalis	11308.0
+ALCO	Virus	0.07676307448494453	CMS001_032_Ra_S7	Flavivirus	Culex	tarsalis	11051.0
+ALCO	Virus	0.00011748120300751879	CMS001_028_Ra_S17	Totiviridae	Culex	tarsalis	11006.0
+WVAL 	Virus	0.05270421179739067	CMS002_027b_Rb_S153_L004	Bunyavirales	Culex	quinquefasciatus	1980410.0
+WVAL 	Virus	0.0004679644881805541	CMS002_046b_Rb_S192_L004	Bunyavirales	Culex	quinquefasciatus	1980410.0
+WVAL 	Virus	0.4509439512247299	CMS002_046b_Rb_S192_L004	Narnaviridae	Culex	quinquefasciatus	186766.0
+WVAL 	Virus	0.2799488767635059	CMS002_027a_Rb_S152_L004	Narnaviridae	Culex	quinquefasciatus	186766.0
+WVAL 	Virus	0.23987452675158658	CMS002_027b_Rb_S153_L004	Narnaviridae	Culex	quinquefasciatus	186766.0
+WVAL 	Virus	0.2125212947189097	CMS002_046a_Rb_S191_L004	Narnaviridae	Culex	quinquefasciatus	186766.0
+SAND	Virus	0.2012448132780083	CMS002_022a_Rb_S137_L004	unclassified Riboviria	Culex	quinquefasciatus	2585030.0
+SAND	Virus	0.08576112529408819	CMS002_023a_Rb_S138_L004	unclassified Riboviria	Culex	quinquefasciatus	2585030.0
+SAND	Virus	0.5060069079441358	CMS002_023a_Rb_S138_L004	Bunyavirales	Culex	quinquefasciatus	1980410.0
+SAND	Virus	0.2180607119458397	CMS002_022a_Rb_S137_L004	Bunyavirales	Culex	quinquefasciatus	1980410.0
+SAND	Virus	0.1900942195059842	CMS002_013a_Rb_S120_L004	Bunyavirales	Culex	quinquefasciatus	1980410.0
+SAND	Virus	0.14981040239968307	CMS002_010a_Rb_S119_L004	Bunyavirales	Culex	quinquefasciatus	1980410.0
+SAND	Virus	0.3246233168143365	CMS002_023a_Rb_S138_L004	Narnaviridae	Culex	quinquefasciatus	186766.0
+SAND	Virus	0.21792002387347062	CMS002_001a_Rb_S116_L004	Narnaviridae	Culex	quinquefasciatus	186766.0
+SAND	Virus	0.16567481982965712	CMS002_022a_Rb_S137_L004	Narnaviridae	Culex	quinquefasciatus	186766.0
+SAND	Virus	0.012188796680497925	CMS002_022a_Rb_S137_L004	Viruses	Culex	quinquefasciatus	10239.0
+PLCR	Virus	0.5111199154780771	CMS002_049a_Rb_S4_L004	Bunyavirales	Culex	pipiens	1980410.0
+PLCR	Virus	0.3225817289923731	CMS002_057a_Rb_S10_L004	Bunyavirales	Culex	pipiens	1980410.0
+PLCR	Virus	0.22924585053731097	CMS002_051a_Rb_S6_L004	Bunyavirales	Culex	pipiens	1980410.0
+PLCR	Virus	0.04228760493287031	CMS002_051a_Rb_S6_L004	Narnaviridae	Culex	pipiens	186766.0
+PLCR	Virus	0.0001230483169724645	CMS002_051a_Rb_S6_L004	Mononegavirales	Culex	pipiens	11157.0
+PLCR	Virus	0.23392762810353934	CMS002_049a_Rb_S4_L004	Flavivirus	Culex	pipiens	11051.0
+ALCO	Virus	0.41252498953926264	CMS001_030_Ra_S7	Bunyavirales	Culex	pipiens	1980410.0
+ALCO	Virus	0.17823688293776221	CMS001_059_Ra_S10	Bunyavirales	Culex	pipiens	1980410.0
+ALCO	Virus	0.12146192004668807	CMS001_044_Ra_S25	Bunyavirales	Culex	pipiens	1980410.0
+ALCO	Virus	0.0823869296672644	CMS001_041_Ra_S10	Bunyavirales	Culex	pipiens	1980410.0
+ALCO	Virus	0.384986366734833	CMS001_029_Ra_S18	Narnaviridae	Culex	pipiens	186766.0
+ALCO	Virus	0.14505555813845367	CMS001_030_Ra_S7	Narnaviridae	Culex	pipiens	186766.0
+ALCO	Virus	0.12659148781375046	CMS001_004_Ra_S2	Narnaviridae	Culex	pipiens	186766.0
+ALCO	Virus	0.03733980805700822	CMS001_059_Ra_S10	Narnaviridae	Culex	pipiens	186766.0
+ALCO	Virus	0.032358288503685995	CMS001_041_Ra_S10	Narnaviridae	Culex	pipiens	186766.0
+ALCO	Virus	0.029967901955062735	CMS001_044_Ra_S25	Narnaviridae	Culex	pipiens	186766.0
+ALCO	Virus	0.017401861594496155	CMS001_054_Ra_S11	Narnaviridae	Culex	pipiens	186766.0
+ALCO	Virus	0.0007730083666787923	CMS001_004_Ra_S2	Nodaviridae	Culex	pipiens	12283.0
+ALCO	Virus	0.25274369461486024	CMS001_029_Ra_S18	Flavivirus	Culex	pipiens	11051.0
+ALCO	Virus	0.10001459002042602	CMS001_044_Ra_S25	Flavivirus	Culex	pipiens	11051.0
+WVAL 	Virus	0.6106159830616967	CMS002_047b_Rb_S194_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.2566105456626151	CMS002_028c_Rb_S156_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.22149249145446864	CMS002_047f_Rb_S198_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.16783330966917506	CMS002_047c_Rb_S195_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.15839387239418826	CMS002_028b_Rb_S155_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.12732901115589043	CMS002_047i_Rb_S2_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.11003674337652292	CMS002_047g_Rb_S200_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.10011931366236128	CMS002_028a_Rb_S154_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.09179727254223488	CMS002_047h_Rb_S1_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.09035389108400618	CMS002_028d_Rb_S157_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.08240735596422023	CMS002_047a_Rb_S193_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.080274319638676	CMS002_047d_Rb_S196_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.06873175556681385	CMS002_047j_Rb_S3_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.05746826432554277	CMS002_047e_Rb_S197_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.009987432189503492	CMS002_028e_Rb_S158_L004	unclassified Riboviria	Culex	erythrothorax	2585030.0
+WVAL 	Virus	0.016631212531425257	CMS002_047g_Rb_S200_L004	Iflaviridae	Culex	erythrothorax	699189.0
+WVAL 	Virus	0.13128613982828105	CMS002_047i_Rb_S2_L004	Nodaviridae	Culex	erythrothorax	12283.0
+WVAL 	Virus	0.11581893438524363	CMS002_047a_Rb_S193_L004	Nodaviridae	Culex	erythrothorax	12283.0
+WVAL 	Virus	0.00012062435164410991	CMS002_047j_Rb_S3_L004	Nodaviridae	Culex	erythrothorax	12283.0
+WVAL 	Virus	0.016979307677431832	CMS002_047g_Rb_S200_L004	Viruses	Culex	erythrothorax	10239.0
+WVAL 	Virus	0.000375020834490805	CMS002_047a_Rb_S193_L004	Viruses	Culex	erythrothorax	10239.0
+ALCO	Virus	0.17642783857729138	CMS001_052_Ra_S7	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.1304705398578394	CMS001_037_Ra_S21	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.12385995194886987	CMS001_024_Ra_S15	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.08764696554380083	CMS001_035_Ra_S20	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.08273125666232382	CMS001_010_Ra_S1	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.08189812165045007	CMS001_017_Ra_S6	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.08039682903358841	CMS001_023_Ra_S17	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.07564146230699365	CMS001_050_Ra_S23	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.07332796132151491	CMS001_006_Ra_S5	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.06368038740920097	CMS001_022_Ra_S6	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.05679175596188044	CMS001_056_Ra_S10	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.05565867426072364	CMS001_058_Ra_S9	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.05026963532489722	CMS001_015_Ra_S13	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.04567281156860581	CMS001_053_Ra_S8	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.04405028977378949	CMS001_021_Ra_S16	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.04334607077587639	CMS001_019_Ra_S14	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.03145010151491488	CMS001_018_Ra_S14	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.0245716630758182	CMS001_048_Ra_S5	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.022911121548979698	CMS001_020_Ra_S15	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.019882896209594412	CMS001_001_Ra_S1	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.01671578559587401	CMS001_045_Ra_S2	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.01357066039627422	CMS001_057_Ra_S11	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.001484964732087613	CMS001_049_Ra_S6	unclassified Riboviria	Culex	erythrothorax	2585030.0
+ALCO	Virus	0.20795484585833926	CMS001_001_Ra_S1	Iflaviridae	Culex	erythrothorax	699189.0
+ALCO	Virus	0.08346525639464421	CMS001_020_Ra_S15	Iflaviridae	Culex	erythrothorax	699189.0
+ALCO	Virus	0.038799819068201236	CMS001_047_Ra_S4	Iflaviridae	Culex	erythrothorax	699189.0
+ALCO	Virus	0.03700037124118302	CMS001_049_Ra_S6	Iflaviridae	Culex	erythrothorax	699189.0
+ALCO	Virus	0.0188749749366581	CMS001_057_Ra_S11	Iflaviridae	Culex	erythrothorax	699189.0
+ALCO	Virus	0.0009209799226376866	CMS001_045_Ra_S2	Iflaviridae	Culex	erythrothorax	699189.0
+ALCO	Virus	0.00014952649941850805	CMS001_019_Ra_S14	Iflaviridae	Culex	erythrothorax	699189.0
+ALCO	Virus	0.07426373112214396	CMS001_006_Ra_S5	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.059930226763020185	CMS001_035_Ra_S20	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.05037983245746397	CMS001_017_Ra_S6	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.0466632455506053	CMS001_024_Ra_S15	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.037331744251261914	CMS001_021_Ra_S16	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.031112137067815737	CMS001_048_Ra_S5	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.018974549354452832	CMS001_049_Ra_S6	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.01778304682868998	CMS001_056_Ra_S10	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.01606851880845931	CMS001_020_Ra_S15	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.010327190379509604	CMS001_018_Ra_S14	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.009619766318514062	CMS001_057_Ra_S11	Nodaviridae	Culex	erythrothorax	12283.0
+ALCO	Virus	0.00042714506914410806	CMS001_015_Ra_S13	Viruses	Culex	erythrothorax	10239.0
+ALCO	Virus	0.00019317805497295507	CMS001_053_Ra_S8	Viruses	Culex	erythrothorax	10239.0
+ALCO	Virus	7.9287769295245e-05	CMS001_035_Ra_S20	Viruses	Culex	erythrothorax	10239.0
+WVAL 	Virus	2.709435377977866	CMS002_045e_Rb_S188_L004	unclassified Riboviria	Aedes	albopictus	2585030.0
+WVAL 	Virus	0.6907995188081247	CMS002_045c_Rb_S185_L004	unclassified Riboviria	Aedes	albopictus	2585030.0
+WVAL 	Virus	0.6851742536042683	CMS002_045g_Rb_S190_L004	unclassified Riboviria	Aedes	albopictus	2585030.0
+WVAL 	Virus	0.6345066833460745	CMS002_045d_Rb_S186_L004	unclassified Riboviria	Aedes	albopictus	2585030.0
+WVAL 	Virus	0.44742846278163323	CMS002_045f_Rb_S189_L004	unclassified Riboviria	Aedes	albopictus	2585030.0
+WVAL 	Virus	0.22374701670644392	CMS002_045a_Rb_S183_L004	unclassified Riboviria	Aedes	albopictus	2585030.0
+WVAL 	Virus	0.049351141422752674	CMS002_045b_Rb_S184_L004	unclassified Riboviria	Aedes	albopictus	2585030.0
+WVAL 	Virus	8.09697867024476e-05	CMS002_045c_Rb_S185_L004	Iflaviridae	Aedes	albopictus	699189.0
+WVAL 	Virus	6.811215802020661e-05	CMS002_045g_Rb_S190_L004	Iflaviridae	Aedes	albopictus	699189.0
+WVAL 	Virus	0.0661764705882353	CMS002_044b_Rb_S179_L004	unclassified Riboviria	Aedes	aegypti	2585030.0
+WVAL 	Virus	0.03740648379052369	CMS002_044c_Rb_S180_L004	unclassified Riboviria	Aedes	aegypti	2585030.0
+WVAL 	Virus	0.024077868852459015	CMS002_044e_Rb_S182_L004	Mononegavirales	Aedes	aegypti	11157.0
+WVAL 	Virus	0.022058823529411766	CMS002_044b_Rb_S179_L004	Mononegavirales	Aedes	aegypti	11157.0
+WVAL 	Virus	0.02138364779874214	CMS002_044a_Rb_S178_L004	Mononegavirales	Aedes	aegypti	11157.0
+WVAL 	Virus	0.0034802784222737818	CMS002_044d_Rb_S181_L004	Mononegavirales	Aedes	aegypti	11157.0
+WVAL 	Virus	0.4650735294117647	CMS002_044b_Rb_S179_L004	Viruses	Aedes	aegypti	10239.0
+WVAL 	Virus	0.2967581047381546	CMS002_044c_Rb_S180_L004	Viruses	Aedes	aegypti	10239.0
+WVAL 	Virus	0.1591194968553459	CMS002_044a_Rb_S178_L004	Viruses	Aedes	aegypti	10239.0
+SAND	Virus	0.5900613677828354	CMS002_017c_Rb_S124_L004	unclassified Riboviria	Aedes	aegypti	2585030.0
+SAND	Virus	0.10360840916222153	CMS002_018a_Rb_S128_L004	Mononegavirales	Aedes	aegypti	11157.0
+SAND	Virus	0.06591047306636198	CMS002_017c_Rb_S124_L004	Mononegavirales	Aedes	aegypti	11157.0
+SAND	Virus	0.11631048788328767	CMS002_017d_Rb_S125_L004	Flavivirus	Aedes	aegypti	11051.0
+SAND	Virus	0.002515526233345005	CMS002_017c_Rb_S124_L004	Flavivirus	Aedes	aegypti	11051.0
+SAND	Virus	0.0011811513116996145	CMS002_017e_Rb_S126_L004	Flavivirus	Aedes	aegypti	11051.0
+SAND	Virus	0.0004919715939879645	CMS002_017a_Rb_S122_L004	Flavivirus	Aedes	aegypti	11051.0
+ALCO	Metazoa	0.0013950538998097654	CMS001_003_Ra_S2	Metazoa	Culiseta	particeps	33208.0
+ALCO	Metazoa	0.0036144578313253013	CMS001_003_Ra_S2	Odocoileinae	Culiseta	particeps	9881.0
+ALCO	Metazoa	0.0007191201353637902	CMS001_008_Ra_S3	Odocoileinae	Culiseta	particeps	9881.0
+ALCO	Metazoa	0.00011069702225010149	CMS001_025_Ra_S7	Odocoileinae	Culiseta	particeps	9881.0
+ALCO	Metazoa	0.001186841224694663	CMS001_016_Ra_S6	Odocoileinae	Culiseta	inornata	9881.0
+ALCO	Metazoa	0.001813842809433354	CMS001_005_Ra_S3	Homo sapiens	Culiseta	incidens	9606.0
+COAV	Metazoa	0.022356923561363463	CMS002_042a_Rb_S177_L004	Metazoa	Culex	tarsalis	33208.0
+ALCO	Metazoa	0.013463250254323501	CMS001_031_Ra_S19	Carnivora	Culex	tarsalis	33554.0
+ALCO	Metazoa	0.001881396748946418	CMS001_042_Ra_S23	Carnivora	Culex	tarsalis	33554.0
+ALCO	Metazoa	0.000693139097744361	CMS001_028_Ra_S17	Carnivora	Culex	tarsalis	33554.0
+ALCO	Metazoa	0.00826075709235147	CMS001_038_Ra_S22	Metazoa	Culex	tarsalis	33208.0
+ALCO	Metazoa	0.00010569632740494377	CMS001_036_Ra_S20	Metazoa	Culex	tarsalis	33208.0
+ALCO	Metazoa	0.0016067834311839016	CMS001_046_Ra_S3	Bovidae	Culex	tarsalis	9895.0
+ALCO	Metazoa	0.0007398742918346064	CMS001_036_Ra_S20	Bovidae	Culex	tarsalis	9895.0
+ALCO	Metazoa	0.011231996392232026	CMS001_036_Ra_S20	Odocoileinae	Culex	tarsalis	9881.0
+ALCO	Metazoa	0.004397689057514875	CMS001_038_Ra_S22	Odocoileinae	Culex	tarsalis	9881.0
+ALCO	Metazoa	0.00037893514303571343	CMS001_046_Ra_S3	Odocoileinae	Culex	tarsalis	9881.0
+ALCO	Metazoa	0.1427162499274817	CMS001_027_Ra_S16	Neognathae	Culex	tarsalis	8825.0
+ALCO	Metazoa	0.06827314919628696	CMS001_032_Ra_S7	Neognathae	Culex	tarsalis	8825.0
+ALCO	Metazoa	0.045939880304678986	CMS001_043_Ra_S24	Neognathae	Culex	tarsalis	8825.0
+ALCO	Metazoa	0.01771098581302292	CMS001_004_Ra_S2	Carnivora	Culex	pipiens	33554.0
+ALCO	Metazoa	0.010530475614858896	CMS001_030_Ra_S7	Carnivora	Culex	pipiens	33554.0
+ALCO	Metazoa	0.03127130197682344	CMS001_029_Ra_S18	Metazoa	Culex	pipiens	33208.0
+ALCO	Metazoa	0.02264519824666268	CMS001_041_Ra_S10	Metazoa	Culex	pipiens	33208.0
+ALCO	Metazoa	0.09274028629856851	CMS001_029_Ra_S18	Neognathae	Culex	pipiens	8825.0
+ALCO	Metazoa	0.031075800241365435	CMS001_059_Ra_S10	Neognathae	Culex	pipiens	8825.0
+ALCO	Metazoa	0.0008358326368061359	CMS001_040_Ra_S21	Neognathae	Culex	pipiens	8825.0
+ALCO	Metazoa	0.0006070416835289357	CMS001_054_Ra_S11	Neognathae	Culex	pipiens	8825.0
+ALCO	Metazoa	0.054965630450394994	CMS001_048_Ra_S5	Muroidea	Culex	erythrothorax	337687.0
+ALCO	Metazoa	0.03122550839417564	CMS001_049_Ra_S6	Muroidea	Culex	erythrothorax	337687.0
+ALCO	Metazoa	0.002374018738921246	CMS001_011_Ra_S4	Muroidea	Culex	erythrothorax	337687.0
+ALCO	Metazoa	0.00208497546339851	CMS001_058_Ra_S9	Muroidea	Culex	erythrothorax	337687.0
+ALCO	Metazoa	0.003987373317826882	CMS001_019_Ra_S14	Carnivora	Culex	erythrothorax	33554.0
+ALCO	Metazoa	0.04341288933907318	CMS001_011_Ra_S4	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.034658990777183804	CMS001_037_Ra_S21	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.0296727605583666	CMS001_058_Ra_S9	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.011607248608314582	CMS001_010_Ra_S1	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.010892933925756056	CMS001_013_Ra_S5	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.009947868645222646	CMS001_020_Ra_S15	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.008596294516525176	CMS001_015_Ra_S13	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.0055725855283076	CMS001_050_Ra_S23	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.0050500399091299815	CMS001_045_Ra_S2	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.0011326824185035	CMS001_035_Ra_S20	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.001112759643916914	CMS001_018_Ra_S14	Metazoa	Culex	erythrothorax	33208.0
+ALCO	Metazoa	0.002296331089191587	CMS001_020_Ra_S15	Leporidae	Culex	erythrothorax	9979.0
+ALCO	Metazoa	0.0004926902680235058	CMS001_013_Ra_S5	Leporidae	Culex	erythrothorax	9979.0
+ALCO	Metazoa	0.004716465248537212	CMS001_057_Ra_S11	Bovidae	Culex	erythrothorax	9895.0
+ALCO	Metazoa	0.008891928864569083	CMS001_052_Ra_S7	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.008595641646489105	CMS001_022_Ra_S6	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.0042638872438706624	CMS001_010_Ra_S1	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.004139529749420466	CMS001_053_Ra_S8	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.0033103742858668376	CMS001_015_Ra_S13	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.0018673611150170706	CMS001_001_Ra_S1	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.0018350773075121035	CMS001_018_Ra_S14	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.001494686571517107	CMS001_057_Ra_S11	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.0011819242340516977	CMS001_045_Ra_S2	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.00027184378044084	CMS001_035_Ra_S20	Odocoileinae	Culex	erythrothorax	9881.0
+ALCO	Metazoa	0.05504317687834106	CMS001_037_Ra_S21	Neognathae	Culex	erythrothorax	8825.0
+ALCO	Metazoa	0.021959203754162885	CMS001_050_Ra_S23	Neognathae	Culex	erythrothorax	8825.0
+ALCO	Metazoa	0.017733583833570085	CMS001_023_Ra_S17	Neognathae	Culex	erythrothorax	8825.0
+ALCO	Metazoa	0.0005528471628888777	CMS001_047_Ra_S4	Neognathae	Culex	erythrothorax	8825.0
+ALCO	Metazoa	0.005477477068386159	CMS001_012_Ra_S4	Bovidae	Aedes	dorsalis	9895.0
+ALCO	Metazoa	0.006175642539278902	CMS001_012_Ra_S4	Odocoileinae	Aedes	dorsalis	9881.0
+ALCO	Other Eukaryotes	0.0004071749155574749	CMS001_009_Ra_S13	Viridiplantae	Culiseta	particeps	33090.0
+ALCO	Other Eukaryotes	0.005455218470934805	CMS001_009_Ra_S13	Fungi	Culiseta	particeps	4751.0
+ALCO	Other Eukaryotes	0.00034898477157360404	CMS001_008_Ra_S3	Eukaryota	Culiseta	particeps	2759.0
+WVAL 	Other Eukaryotes	0.025095641057441873	CMS002_029d_Rb_S162_L004	Fungi	Culex	tarsalis	4751.0
+ALCO	Other Eukaryotes	0.0005518451437627348	CMS001_032_Ra_S7	Euglenozoa	Culex	tarsalis	33682.0
+ALCO	Other Eukaryotes	0.0002607176075988613	CMS001_036_Ra_S20	Fungi	Culex	tarsalis	4751.0
+SAND	Other Eukaryotes	0.010678803022190493	CMS002_004a_Rb_S117_L004	Plasmodium	Culex	quinquefasciatus	5820.0
+ALCO	Other Eukaryotes	0.021564852594678465	CMS001_059_Ra_S10	Euglenozoa	Culex	pipiens	33682.0
+ALCO	Other Eukaryotes	0.003294163921530066	CMS001_040_Ra_S21	Plasmodium	Culex	pipiens	5820.0
+ALCO	Other Eukaryotes	0.0020048814504881455	CMS001_041_Ra_S10	Eukaryota	Culex	pipiens	2759.0
+WVAL 	Other Eukaryotes	0.004209956177064355	CMS002_047b_Rb_S194_L004	Euglenozoa	Culex	erythrothorax	33682.0
+WVAL 	Other Eukaryotes	0.001860002839698992	CMS002_047c_Rb_S195_L004	Stramenopiles	Culex	erythrothorax	33634.0
+WVAL 	Other Eukaryotes	0.0002847380410022779	CMS002_047a_Rb_S193_L004	Viridiplantae	Culex	erythrothorax	33090.0
+WVAL 	Other Eukaryotes	0.002882922004294227	CMS002_047j_Rb_S3_L004	Fungi	Culex	erythrothorax	4751.0
+ALCO	Other Eukaryotes	0.4880841809573432	CMS001_035_Ra_S20	Euglenozoa	Culex	erythrothorax	33682.0
+ALCO	Other Eukaryotes	0.08720577069096432	CMS001_007_Ra_S12	Euglenozoa	Culex	erythrothorax	33682.0
+ALCO	Other Eukaryotes	0.056589415427187824	CMS001_022_Ra_S6	Euglenozoa	Culex	erythrothorax	33682.0
+ALCO	Other Eukaryotes	0.03563915357010271	CMS001_049_Ra_S6	Euglenozoa	Culex	erythrothorax	33682.0
+ALCO	Other Eukaryotes	9.280559758367971e-05	CMS001_001_Ra_S1	Euglenozoa	Culex	erythrothorax	33682.0
+ALCO	Other Eukaryotes	0.992130750605327	CMS001_022_Ra_S6	Trypanosomatidae	Culex	erythrothorax	5654.0
+ALCO	Other Eukaryotes	0.32155721178895863	CMS001_035_Ra_S20	Trypanosomatidae	Culex	erythrothorax	5654.0
+ALCO	Other Eukaryotes	0.1425308449164454	CMS001_018_Ra_S14	Trypanosomatidae	Culex	erythrothorax	5654.0
+ALCO	Other Eukaryotes	0.03268984861609537	CMS001_049_Ra_S6	Trypanosomatidae	Culex	erythrothorax	5654.0
+ALCO	Other Eukaryotes	0.022414389484607403	CMS001_022_Ra_S6	Eukaryota	Culex	erythrothorax	2759.0
+ALCO	Other Eukaryotes	0.0002838071019889202	CMS001_012_Ra_S4	Fungi	Aedes	dorsalis	4751.0
+ALCO	Other Eukaryotes	0.0027756334574516395	CMS001_012_Ra_S4	Eukaryota	Aedes	dorsalis	2759.0
+WVAL 	Other Eukaryotes	0.03548698715763156	CMS002_026c_Rb_S148_L004	Fungi	Aedes	albopictus	4751.0
+WVAL 	Other Eukaryotes	0.025448568146710496	CMS002_026d_Rb_S149_L004	Fungi	Aedes	albopictus	4751.0
+WVAL 	Other Eukaryotes	0.0010175527855507504	CMS002_026b_Rb_S147_L004	Fungi	Aedes	albopictus	4751.0
+WVAL 	Other Eukaryotes	0.0942622950819672	CMS002_044e_Rb_S182_L004	Viridiplantae	Aedes	aegypti	33090.0
+SAND	Other Eukaryotes	0.0014540922309929372	CMS002_017b_Rb_S123_L004	Alveolata	Aedes	aegypti	33630.0
+SAND	Other Eukaryotes	0.0008199526566466075	CMS002_017a_Rb_S122_L004	Alveolata	Aedes	aegypti	33630.0
+SAND	Other Eukaryotes	0.00025800269059948766	CMS002_017c_Rb_S124_L004	Alveolata	Aedes	aegypti	33630.0

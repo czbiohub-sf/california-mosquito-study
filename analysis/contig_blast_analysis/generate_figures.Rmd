@@ -45,11 +45,6 @@ metadata <- read.csv(metadata_file_path, stringsAsFactors = FALSE) %>%
   mutate(collected_by=gsub(" ", "", collected_by)) %>%
   mutate(collection_date=as.Date(collection_date)) %>%
   mutate(ska_genus_species=paste(ska_genus, ska_species))
-# %>% 
-#   left_join(., read.csv(file.path(data_dir, "project-mosquito_sample-table.csv")) %>% 
-#               rename(NewIDseqName=sample_name) %>% 
-#               select(NewIDseqName, total_reads, nonhost_reads, subsampled_fraction, total_ercc_reads, nucleotide_type)
-#             )
 ```
 
 
@@ -60,10 +55,13 @@ metadata <- read.csv(metadata_file_path, stringsAsFactors = FALSE) %>%
 ```{r read_in_data, message=FALSE}
 curated_contigs <- read_tsv(file.path(fig_dir, "all_contigs_df.tsv")) %>%
   mutate(collected_by=factor(collected_by, levels=c("PLCR", "ALCO",  "WVAL", "COAV", "SAND")),
-         group=factor(group, levels=c("Virus", "Wolbachia", "Metazoa", "Other Eukaryotes"))) %>%
-  arrange(group, ska_genus, ska_species, desc(collected_by), desc(read_prop)) %>%
+         group=factor(group, levels=c("Virus", "Wolbachia", "Metazoa", "Other Eukaryotes")))
+curated_contigs %<>% 
+  filter(group=="Virus") %>% group_by(sample) %>% summarize(read_prop_virus=sum(read_prop)) %>% left_join(curated_contigs, .) %>%
+  arrange(group, ska_genus, ska_species, desc(collected_by), desc(read_prop_virus)) %>%
   mutate(sample_short=str_split(as.character(sample), "_", simplify=FALSE) %>% lapply(head, 2) %>% sapply(paste, collapse="_") %>% gsub("CMS00", "", .)) %>%
   mutate(sample_short=factor(sample_short, levels=unique(sample_short)))
+
 ```
 
 
@@ -98,6 +96,7 @@ plot <-
   geom_bar(stat="identity", position="stack") +
   facet_grid(group~ska_genus+ska_species+collected_by, scales='free', space="free_x") +
   scale_y_continuous(labels=scales::percent) +
+  scale_fill_manual("", breaks=names(renamed_color_palette), values=renamed_color_palette, labels=legend_labels) +
   ylab("% of nonhost reads") +
   xlab("sample ID") +
   theme(axis.text.x=element_text(angle=90, hjust=1), 
@@ -113,10 +112,11 @@ legends <- split(curated_contigs, curated_contigs$group) %>%
     selected_colours <- names(renamed_color_palette) %in% as.character(dataframe$sci_name)
     subpalette <- renamed_color_palette[selected_colours]
     sublabels <- legend_labels[selected_colours]
+    subbreaks <- names(renamed_color_palette)[selected_colours]
     temp_plot <- ggplot(dataframe, aes(x=sample_short, y=read_prop, fill=sci_name)) +
       theme_bw() +
       geom_bar(stat="identity", position="stack") +
-      scale_fill_manual("", labels=sublabels, values=subpalette) +
+      scale_fill_manual("", breaks=subbreaks, labels=sublabels, values=subpalette) +
       theme(text=element_text(size=16))
     plot_gtable <- ggplot_gtable(ggplot_build(temp_plot))
     leg <- which(sapply(plot_gtable$grobs, function(x) x$name) == "guide-box") 

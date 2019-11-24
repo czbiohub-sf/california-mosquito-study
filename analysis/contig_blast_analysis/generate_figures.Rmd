@@ -14,7 +14,7 @@ Run this notebook after running the generate_figures.ipynb jupyter notebook.
 
 ```{r setup, include=FALSE}
 # List of packages to load
-pkgs <- c("parallel", "dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "reutils", "rjson", "knitr", "taxize", "aws.s3", "RColorBrewer")
+pkgs <- c("parallel", "dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "reutils", "rjson", "knitr", "taxize", "aws.s3", "RColorBrewer", "scales", "gtable")
 # Install any packages not yet installed
 if (any(!(pkgs %in% rownames(installed.packages())))) {
   invisible(sapply(pkgs[!(pkgs %in% rownames(installed.packages()))], install.packages))
@@ -39,12 +39,13 @@ source("generate_figures_functions.R")
 
 # Metadata
 
-```{r load_data}
+```{r load_data, message=FALSE}
 metadata_file_path <- list.files(data_dir, "CMS001_CMS002_Merged", full.names = TRUE)
 metadata <- read.csv(metadata_file_path, stringsAsFactors = FALSE) %>%
   mutate(collected_by=gsub(" ", "", collected_by)) %>%
   mutate(collection_date=as.Date(collection_date)) %>%
-  mutate(ska_genus_species=paste(ska_genus, ska_species))
+  mutate(ska_genus_species=paste(ska_genus, ska_species)) %>%
+  left_join(read_csv(file.path(data_dir, "../project-mosquito_sample-table.csv")), by=c("NewIDseqName"="sample_name"))
 ```
 
 
@@ -52,81 +53,174 @@ metadata <- read.csv(metadata_file_path, stringsAsFactors = FALSE) %>%
 
 
 
-```{r read_in_data, message=FALSE}
+```{r read_in_data, message=FALSE, warning=FALSE}
 curated_contigs <- read_tsv(file.path(fig_dir, "all_contigs_df.tsv")) %>%
   mutate(collected_by=factor(collected_by, levels=c("PLCR", "ALCO",  "WVAL", "COAV", "SAND")),
          group=factor(group, levels=c("Virus", "Wolbachia", "Metazoa", "Other Eukaryotes")))
-curated_contigs %<>% 
-  filter(group=="Virus") %>% group_by(sample) %>% summarize(read_prop_virus=sum(read_prop)) %>% left_join(curated_contigs, .) %>%
+curated_contigs <- curated_contigs %>% 
+  filter(group=="Virus") %>% 
+  group_by(sample) %>% 
+  summarize(read_prop_virus=sum(read_prop)) %>%
+  left_join(curated_contigs, .) %>%
   arrange(group, ska_genus, ska_species, desc(collected_by), desc(read_prop_virus)) %>%
-  mutate(sample_short=str_split(as.character(sample), "_", simplify=FALSE) %>% lapply(head, 2) %>% sapply(paste, collapse="_") %>% gsub("CMS00", "", .)) %>%
-  mutate(sample_short=factor(sample_short, levels=unique(sample_short)))
+  mutate(sample_short=str_split(as.character(sample), "_", simplify=FALSE) %>% 
+           lapply(head, 2) %>% 
+           sapply(paste, collapse="_") %>%
+           gsub("CMS00", "", .)) %>% 
+  mutate(sample_short=factor(sample_short, levels=unique(sample_short))) %>%
+  left_join(metadata%>%select(NewIDseqName, nonhost_reads), by=c("sample"="NewIDseqName")) %>%
+  mutate(sci_name=gsub("Virus", "Other viruses", sci_name))
 
+curated_contigs[is.na(curated_contigs$ska_species), paste0("ska_", c("genus", "species"))] <-
+  filter(curated_contigs, is.na(ska_species)) %>%
+  `[[`("sample") %>% match(metadata$NewIDseqName) %>%
+  slice(metadata, .) %>%
+  select(visual_genus, visual_species) %>%
+  rename(ska_genus=visual_genus, ska_species=visual_species)
+
+curated_virus_wolbachia_df <- filter(curated_contigs, group %in% c("Virus", "Wolbachia")) %>%
+  mutate(sample=factor(sample), sample_short=factor(sample_short)) %>%
+  mutate(baltimore_group=replace_na(baltimore_group, "Wolbachia"))
 ```
 
 
 # Plot results
 
+
 ```{r plot_color_palette, message=FALSE}
-color_palette <- split(curated_contigs$sci_name, curated_contigs$group) %>% 
+color_ranges <- c(III="Blues", IV="YlOrRd", V="Greens") %>% 
+  sapply(function (x) RColorBrewer::brewer.pal(3, x)) %>%
+  `[`(., c(1, 3), ) %>%
+  data.frame(stringsAsFactors=FALSE)
+color_palette <- split(curated_virus_wolbachia_df$sci_name, curated_virus_wolbachia_df$baltimore_group) %>% 
   lapply(unique) %>%
-  lapply(function (x) {
-    if (length(x)==1) {
+  mapply(function (i, x) {
+    if (i=="Wolbachia") {
       colors <- c("gray20")
     } else {
-      colors <- brewer.pal(length(x), name="Paired")
+      colors <- colorRampPalette(color_ranges[[i]])(length(x))
     }
     names(colors) <- x
     colors
-  }) %>%
-  do.call(what=c)
-renamed_color_palette <- unname(color_palette)
-names(renamed_color_palette) <- strsplit(names(color_palette), ".", fixed=TRUE) %>% sapply(tail, 1)
-legend_labels <- names(renamed_color_palette)
-legend_labels[match(c("Viruses", "Wolbachieae", "Eukaryota", "Metazoa"), legend_labels)] <- c("Other viruses", "Wolbachia", "Other eukaryotes", "Other metazoa")
+  }, names(.), ., SIMPLIFY=FALSE) %>%
+  do.call(what=c) %>%
+  setNames(., strsplit(names(.), ".", fixed=TRUE) %>% sapply(tail, 1))
+collected_by_colours <- c(PLCR=rgb(0.28098424626331703, 0.63955403192370541, 0.39507882933990629, 0.75), ## green\n",
+                          ALCO=rgb(0.49803923567136127, 0.43267975250879925, 0.52287583549817396, 0.75), ## purple\n"
+                          WVAL=rgb(0.88366013765335083, 0.77908497055371606, 0.18562091886997223, 0.75), ## yellow\n",
+                          COAV=rgb(0.8162552973803352, 0.41062668737243202, 0.29078047883276847, 0.75), ## red\n",
+                          SAND=rgb(0.4666666666666667, 0.7450980392156863, 0.8588235294117647, 0.75), ## light blue\n",
+                          "NA"="#C0C0C0")
+color_palette <- c(color_palette, collected_by_colours)
+collected_by_dict <- c(PLCR="Placer", ALCO="Alameda", WVAL="West Valley", COAV="Coachella Valley", SAND="San Diego", "NA"="NA")
 ```
 
 
 
 
 ```{r plot_data, message=FALSE}
-plot <- 
-  ggplot(curated_contigs, aes(x=sample_short, y=read_prop, fill=sci_name)) +
+artificial_location_df <- curated_virus_wolbachia_df %>% 
+  group_by(sample_short) %>%
+  summarize_all(first) %>% 
+  mutate(group="", read_prop=0.1, sci_name=collected_by)
+
+base_plot <- 
+  ggplot(rbind(curated_virus_wolbachia_df, artificial_location_df) %>% mutate(group=factor(group, levels=c("", levels(curated_virus_wolbachia_df$group)))), 
+         aes(x=sample_short, y=read_prop, fill=sci_name)) +
   theme_bw() + 
   geom_bar(stat="identity", position="stack") +
-  facet_grid(group~ska_genus+ska_species+collected_by, scales='free', space="free_x") +
-  scale_y_continuous(labels=scales::percent) +
-  scale_fill_manual("", breaks=names(renamed_color_palette), values=renamed_color_palette, labels=legend_labels) +
-  ylab("% of nonhost reads") +
+  facet_grid(group~ska_genus+ska_species+collected_by, scales='free', space="free") +
+  scale_y_continuous(labels=scales::percent, breaks=c(0, 0.25, 0.5, 0.75)) +
+  scale_fill_manual("", breaks=names(color_palette), values=color_palette, labels=names(color_palette)) +
+  ylab("\n\n% of\nnonhost\nreads\n(Virus)\n\n\n\n\n\n\n% of\nnonhost\nreads\n(Wolbachia)") +
   xlab("sample ID") +
-  theme(axis.text.x=element_text(angle=90, hjust=1), 
+  theme(axis.text.x=element_text(angle=90, hjust=0.5, vjust=0.5), 
         legend.position="none",
-        strip.text.y=element_text(angle=0),
+        strip.text.y=element_blank(),
+        strip.text.x=element_blank(),
+        strip.background.x=element_blank(),
+        strip.background.y=element_blank(),
+        panel.spacing=unit(0, "lines"),
         axis.title.y=element_text(angle=0, vjust=0.5),
-        text=element_text(size=16))
+        text=element_text(size=14),
+        axis.line=element_line(size=.2),
+        plot.margin=unit(c(-.1, 0, 0, 0), "lines"))
+plot_grob <- ggplotGrob(base_plot)
+plot_grob$heights[filter(plot_grob$layout, grepl("panel-2-2", name))$t] <- unit(2, "null")
+grid.draw(plot_grob)
 ```
 
 ```{r plot_legends}
-legends <- split(curated_contigs, curated_contigs$group) %>%
+# Extract legends as separate plots
+legends <- split(curated_virus_wolbachia_df, curated_virus_wolbachia_df$baltimore_group) %>%
   lapply(function (dataframe) {
-    selected_colours <- names(renamed_color_palette) %in% as.character(dataframe$sci_name)
-    subpalette <- renamed_color_palette[selected_colours]
-    sublabels <- legend_labels[selected_colours]
-    subbreaks <- names(renamed_color_palette)[selected_colours]
+    selected_colours <- names(color_palette) %in% as.character(dataframe$sci_name)
+    subpalette <- color_palette[selected_colours]
+    sublabels <- names(color_palette)[selected_colours]
     temp_plot <- ggplot(dataframe, aes(x=sample_short, y=read_prop, fill=sci_name)) +
       theme_bw() +
       geom_bar(stat="identity", position="stack") +
-      scale_fill_manual("", breaks=subbreaks, labels=sublabels, values=subpalette) +
-      theme(text=element_text(size=16))
+      scale_fill_manual(dataframe$genome_description[1], breaks=sublabels, labels=sublabels, values=subpalette) +
+      guides(fill=guide_legend(ncol=3, byrow=TRUE)) +
+      theme(text=element_text(size=12))
     plot_gtable <- ggplot_gtable(ggplot_build(temp_plot))
     leg <- which(sapply(plot_gtable$grobs, function(x) x$name) == "guide-box") 
     plot_gtable$grobs[[leg]]
   })
 ```
 
+```{r facet_labels_species}
+curated_virus_wolbachia_facet_df <- curated_virus_wolbachia_df %>% 
+  group_by(sample_short) %>% 
+  summarize_all(first) %>%
+  mutate(species_label=paste(ska_genus, ska_species, sep="\n")) %>%
+  arrange(ska_genus, ska_species, collected_by, sample_short) %>%
+  ungroup() %>%
+  mutate(sample_id=1:length(sample_short))
+
+curated_virus_wolbachia_species_labels <- curated_virus_wolbachia_facet_df %>%
+  group_by(species_label) %>%
+  summarize(x=min(sample_id)-0.5, xend=max(sample_id)+0.5)
+
+species_labeller <- unique(curated_virus_wolbachia_species_labels$species_label) %>%
+  setNames(., .) %>%
+  gsub("Aedes\ndorsalis", "A\nd", .) %>%
+  gsub("Culiseta\nincidens", "Cu\ninc", .) %>%
+  gsub("Culiseta\ninornata", "Cu\nino", .)
+
+curated_virus_wolbachia_location_df <- curated_virus_wolbachia_facet_df %>%
+  group_by(species_label, collected_by) %>% 
+  summarize(x=min(sample_id)-0.5, xend=max(sample_id)+0.5)
+
+facet_label_grob <- 
+  ggplot(curated_virus_wolbachia_species_labels, 
+         aes(x=(xend+x)/2, y=.75, xmin=x, xmax=xend, ymin=0.5, ymax=1, label=species_labeller[species_label])) +
+  theme_classic() +
+  geom_rect(data=curated_virus_wolbachia_location_df, aes(xmin=x, xmax=xend, ymin=.55, ymax=.55, fill=collected_by), size=.2) +
+  geom_rect(size=.2, fill="gray80", color="black") +
+  geom_text(fontface="italic", size=3) +
+  scale_fill_manual(breaks=names(collected_by_colours), 
+                    labels=collected_by_dict[names(collected_by_colours)], 
+                    values=collected_by_colours) +
+  guides(fill=guide_legend(title="Collection Sites", nrow=2, byrow=TRUE)) +
+  theme(axis.text=element_blank(),
+        axis.title=element_blank(),
+        axis.ticks=element_blank(),
+        axis.line=element_blank(),
+        legend.text=element_text(size=12, hjust=0),
+        legend.title=element_text(size=12, hjust=0),
+        plot.margin=unit(c(0, -2, 0, 0), "lines"))
+places_legend_grob <- ggplotGrob(facet_label_grob)$grobs[[which(ggplotGrob(facet_label_grob)$layout$name=="guide-box")]]
+facet_label_grob <- facet_label_grob +
+  theme(legend.position="none")
+```
+
 ```{r save_plot}
-full_plot <- arrangeGrob(plot, arrangeGrob(grobs=legends, ncol=1), nrow=1, widths=c(9, 1))
-ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=20, height=20)
+legends_grob <- arrangeGrob(rbind(places_legend_grob, do.call(what=rbind, legends[1:3])), ncol=1)
+main_plot_grob <- arrangeGrob(facet_label_grob, plot_grob, heights=c(1, 7), widths=unit(c(0.01, 0.98, 0.01)*20, units="in"),
+                              layout_matrix=rbind(c(NA, 1, 1), c(2, 2, NA)))
+full_plot <- arrangeGrob(main_plot_grob, legends_grob, nrow=1, widths=c(unit(c(20, 5), "in")))
+ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=unit(25, "in"), height=unit(7, "in"))
 ```
 
 ## Save output

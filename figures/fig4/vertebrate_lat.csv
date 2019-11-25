@@ -1,0 +1,51 @@
+sample,category,name
+CMS001_001_Ra_S1,Pecora,Pecora
+CMS001_003_Ra_S2,Pecora,Pecora
+CMS001_004_Ra_S2,Carnivora,Caniformia
+CMS001_005_Ra_S3,Homininae,Homininae
+CMS001_008_Ra_S3,Pecora,Pecora
+CMS001_009_Ra_S13,Pecora,Pecora
+CMS001_010_Ra_S1,Pecora,Pecora
+CMS001_011_Ra_S4,Rodentia,Muroidea
+CMS001_012_Ra_S4,Pecora,Pecora
+CMS001_013_Ra_S5,Leporidae,Oryctolagus cuniculus
+CMS001_015_Ra_S13,Pecora,Pecora
+CMS001_016_Ra_S6,Pecora,Pecora
+CMS001_018_Ra_S14,Pecora,Pecora
+CMS001_019_Ra_S14,Carnivora,Carnivora
+CMS001_020_Ra_S15,Leporidae,Leporidae
+CMS001_022_Ra_S6,Pecora,Pecora
+CMS001_023_Ra_S17,Aves,Anas platyrhynchos
+CMS001_025_Ra_S7,Pecora,Odocoileus hemionus hemionus
+CMS001_027_Ra_S16,Aves,Passeriformes
+CMS001_028_Ra_S17,Carnivora,Caniformia
+CMS001_029_Ra_S18,Aves,Passeriformes
+CMS001_030_Ra_S7,Carnivora,Caniformia
+CMS001_031_Ra_S19,Carnivora,Procyon lotor
+CMS001_032_Ra_S7,Aves,Neognathae
+CMS001_033_Ra_S8,Aves,Gallus gallus
+CMS001_035_Ra_S20,Pecora,Pecora
+CMS001_036_Ra_S20,Pecora,Pecora
+CMS001_037_Ra_S21,Aves,Porzana carolina
+CMS001_038_Ra_S22,Pecora,Pecora
+CMS001_040_Ra_S21,Aves,Haemorhous mexicanus
+CMS001_041_Ra_S10,Rodentia,Sciurini
+CMS001_042_Ra_S23,Carnivora,Felis catus
+CMS001_043_Ra_S24,Aves,Passeriformes
+CMS001_045_Ra_S2,Pecora,Pecora
+CMS001_046_Ra_S3,Pecora,Pecora
+CMS001_047_Ra_S4,Aves,Passeriformes
+CMS001_048_Ra_S5,Rodentia,Rattus norvegicus
+CMS001_049_Ra_S6,Rodentia,Rattus norvegicus
+CMS001_050_Ra_S23,Aves,Neognathae
+CMS001_052_Ra_S7,Pecora,Pecora
+CMS001_053_Ra_S8,Pecora,Pecora
+CMS001_054_Ra_S11,Aves,Zonotrichia leucophrys
+CMS001_057_Ra_S11,Pecora,Pecora
+CMS001_058_Ra_S9,Rodentia,Microtus ochrogaster
+CMS001_059_Ra_S10,Aves,Passeriformes
+CMS001_060_Ra_S12,Pecora,Pecora
+CMS002_025c_Rb_S142_L004,Rodentia,Mus musculus
+CMS002_026d_Rb_S149_L004,,NA
+CMS002_042a_Rb_S177_L004,,NA
+CMS002_056a_Rb_S9_L004,,NA

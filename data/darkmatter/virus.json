@@ -111,7 +111,7 @@
   "1168": {
     "family": "Orthomyxoviridae",
     "name": "TBD",
-    "provisional_name": "1168|Orthomyxo-like",
+    "provisional_name": "Astopletus virus",
     "samples": [
       "CMS002_026a_Rb_S146_L004",
       "CMS002_026b_Rb_S147_L004",
@@ -617,6 +617,7 @@
   "12259": {
     "family": "Totiviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "12259|Toti-like",
     "samples": [
       "CMS001_009_Ra_S13"
@@ -893,9 +894,30 @@
     "submission_taxid": 37960,
     "taxid": 37960
   },
+  "1715": {
+    "family": "Totiviridae",
+    "name": "TBD",
+    "provisional_name": "1715|Toti-like",
+    "samples": [
+      "CMS001_012_Ra_S4"
+    ],
+    "segments": {
+      "genome": {
+        "clusters": [
+          1715
+        ],
+        "contigs": [
+          "CMS001_012_Ra_S4|NODE_19_length_2157_cov_2.648077"
+        ]
+      }
+    },
+    "submission_taxid": 39756,
+    "taxid": 39756
+  },
   "19890": {
     "family": "Totiviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "19890|Toti-like",
     "samples": [
       "CMS001_016_Ra_S6"
@@ -940,7 +962,7 @@
   "226": {
     "family": "Leviviridae",
     "name": "TBD",
-    "provisional_name": "226|Levi-like",
+    "provisional_name": "Chimba virus",
     "samples": [
       "CMS001_047_Ra_S4"
     ],
@@ -960,6 +982,7 @@
   "22872": {
     "family": "Totiviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "22872|Toti-like",
     "samples": [
       "CMS002_020d_Rb_S134_L004"
@@ -1071,11 +1094,43 @@
   "253": {
     "family": "Reoviridae",
     "name": "TBD",
-    "provisional_name": "253|Reo-like",
+    "provisional_name": "Lobuck virus",
     "samples": [
       "CMS001_012_Ra_S4"
     ],
     "segments": {
+      "RNA10": {
+        "clusters": [
+          29210
+        ],
+        "contigs": [
+          "CMS001_012_Ra_S4|NODE_447_length_796_cov_84.671766"
+        ]
+      },
+      "RNA6": {
+        "clusters": [
+          14507
+        ],
+        "contigs": [
+          "CMS001_012_Ra_S4|NODE_205_length_1058_cov_45.136595"
+        ]
+      },
+      "RNA7": {
+        "clusters": [
+          11577
+        ],
+        "contigs": [
+          "CMS001_012_Ra_S4|NODE_155_length_1150_cov_46.415657"
+        ]
+      },
+      "RNA9": {
+        "clusters": [
+          4435
+        ],
+        "contigs": [
+          "CMS001_012_Ra_S4|NODE_50_length_1597_cov_57.715132"
+        ]
+      },
       "RdRp_VP1": {
         "clusters": [
           253
@@ -1255,6 +1310,7 @@
   "3061": {
     "family": "Botourmiaviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "3061|Botourmia-like",
     "samples": [
       "CMS002_053a_Rb_S7_L004"
@@ -1331,9 +1387,20 @@
     "provisional_name": "312|Tombus-like",
     "samples": [
       "CMS001_006_Ra_S5",
-      "CMS001_025_Ra_S7"
+      "CMS001_025_Ra_S7",
+      "CMS001_052_Ra_S7",
+      "CMS001_058_Ra_S9"
     ],
     "segments": {
+      "RNA2": {
+        "clusters": [
+          1621
+        ],
+        "contigs": [
+          "CMS001_025_Ra_S7|NODE_39_length_2199_cov_7.992931",
+          "CMS001_006_Ra_S5|NODE_29_length_1852_cov_3.388732"
+        ]
+      },
       "RdRp_RNA1": {
         "clusters": [
           312
@@ -1429,11 +1496,35 @@
   "354": {
     "family": "Chrysoviridae",
     "name": "TBD",
-    "provisional_name": "354|Chryso-like",
+    "provisional_name": "Keturi virus",
     "samples": [
       "CMS001_053_Ra_S8"
     ],
     "segments": {
+      "RNA2": {
+        "clusters": [
+          491
+        ],
+        "contigs": [
+          "CMS001_053_Ra_S8|NODE_3_length_3187_cov_25.318328"
+        ]
+      },
+      "RNA3": {
+        "clusters": [
+          668
+        ],
+        "contigs": [
+          "CMS001_053_Ra_S8|NODE_6_length_2894_cov_13.407171"
+        ]
+      },
+      "RNA4": {
+        "clusters": [
+          521
+        ],
+        "contigs": [
+          "CMS001_053_Ra_S8|NODE_5_length_3138_cov_11.494283"
+        ]
+      },
       "RdRp_RNA1": {
         "clusters": [
           354
@@ -1497,6 +1588,7 @@
   "416": {
     "family": "Leviviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "416|Levi-like",
     "samples": [
       "CMS001_026_Ra_S18"
@@ -1569,6 +1661,7 @@
   "4269": {
     "family": "Botourmiaviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "4269|Botourmia-like",
     "samples": [
       "CMS002_053a_Rb_S7_L004"
@@ -1747,7 +1840,7 @@
   "458": {
     "family": "Solemoviridae",
     "name": "TBD",
-    "provisional_name": "458|Solemo-like",
+    "provisional_name": "Kellev virus",
     "samples": [
       "CMS001_002_Ra_S1",
       "CMS001_015_Ra_S13",
@@ -1919,7 +2012,8 @@
     "segments": {
       "RNA2": {
         "clusters": [
-          4559
+          4559,
+          4513
         ],
         "contigs": [
           "CMS001_056_Ra_S10|NODE_12_length_1539_cov_12.593707",
@@ -1934,7 +2028,8 @@
           "CMS001_021_Ra_S16|NODE_82_length_1566_cov_106.010745",
           "CMS001_018_Ra_S14|NODE_26_length_1543_cov_8.057981",
           "CMS001_048_Ra_S5|NODE_16_length_1567_cov_20.620805",
-          "CMS002_047a_Rb_S193_L004|NODE_35_length_1583_cov_278.194555"
+          "CMS002_047a_Rb_S193_L004|NODE_35_length_1583_cov_278.194555",
+          "CMS002_056a_Rb_S9_L004|NODE_38_length_1588_cov_379.508273"
         ]
       },
       "RdRp_RNA1": {
@@ -2190,9 +2285,11 @@
     "taxid": 330383
   },
   "506": {
-    "family": "Viruses",
+    "family": "Solemoviridae",
     "name": "Guadeloupe mosquito virus",
     "samples": [
+      "CMS001_008_Ra_S3",
+      "CMS001_009_Ra_S13",
       "CMS002_017a_Rb_S122_L004",
       "CMS002_017b_Rb_S123_L004",
       "CMS002_017c_Rb_S124_L004",
@@ -2200,9 +2297,26 @@
       "CMS002_017e_Rb_S126_L004",
       "CMS002_018a_Rb_S128_L004",
       "CMS002_018b_Rb_S129_L004",
-      "CMS002_019a_Rb_S130_L004"
+      "CMS002_019a_Rb_S130_L004",
+      "CMS002_021a_Rb_S136_L004"
     ],
     "segments": {
+      "RNA2": {
+        "clusters": [
+          4126,
+          4035
+        ],
+        "contigs": [
+          "CMS002_019a_Rb_S130_L004|NODE_2_length_1637_cov_2719.595513",
+          "CMS002_018a_Rb_S128_L004|NODE_3_length_1633_cov_366.911311",
+          "CMS002_017b_Rb_S123_L004|NODE_8_length_1583_cov_1668.470120",
+          "CMS002_017c_Rb_S124_L004|NODE_12_length_1649_cov_1547.207379",
+          "CMS002_017d_Rb_S125_L004|NODE_9_length_1587_cov_1705.698013",
+          "CMS002_017e_Rb_S126_L004|NODE_7_length_1619_cov_55.029183",
+          "CMS002_018b_Rb_S129_L004|NODE_5_length_1597_cov_2883.953947",
+          "CMS002_017a_Rb_S122_L004|NODE_8_length_1586_cov_1572.108681"
+        ]
+      },
       "RdRp_RNA1": {
         "clusters": [
           506
@@ -2219,11 +2333,12 @@
       }
     },
     "submission_taxid": 2607735,
-    "taxid": 2607735
+    "taxid": 2600328
   },
   "5308": {
     "family": "Totiviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "5308|Toti-like",
     "samples": [
       "CMS001_009_Ra_S13"
@@ -2447,6 +2562,7 @@
   "60": {
     "family": "Dicistroviridae",
     "name": "Wuhan insect virus 33",
+    "partial": true,
     "samples": [
       "CMS002_044a_Rb_S178_L004",
       "CMS002_044b_Rb_S179_L004",
@@ -2473,6 +2589,22 @@
       "CMS001_040_Ra_S21"
     ],
     "segments": {
+      "GP": {
+        "clusters": [
+          175
+        ],
+        "contigs": [
+          "CMS001_040_Ra_S21|NODE_2_length_4603_cov_44.142289"
+        ]
+      },
+      "NP": {
+        "clusters": [
+          8754
+        ],
+        "contigs": [
+          "NODE_20_length_1270_cov_159.751886"
+        ]
+      },
       "RdRp_L": {
         "clusters": [
           61
@@ -2550,6 +2682,7 @@
   "6512": {
     "family": "Totiviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "6512|Toti-like",
     "samples": [
       "CMS002_020b_Rb_S132_L004",
@@ -2579,6 +2712,7 @@
   "6823": {
     "family": "Peribunyaviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "6823|Peribunya-like",
     "samples": [
       "CMS001_001_Ra_S1"
@@ -2586,7 +2720,10 @@
     "segments": {
       "RdRp_L": {
         "clusters": [
-          6823
+          6823,
+          22654,
+          28263,
+          55292
         ],
         "contigs": [
           "CMS001_001_Ra_S1|NODE_81_length_1383_cov_1.592649"
@@ -3023,6 +3160,7 @@
   "9191": {
     "family": "Botourmiaviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "9191|Botourmia-like",
     "samples": [
       "CMS002_053a_Rb_S7_L004"

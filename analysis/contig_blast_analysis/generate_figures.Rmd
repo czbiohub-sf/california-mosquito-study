@@ -45,7 +45,7 @@ metadata <- read.csv(metadata_file_path, stringsAsFactors = FALSE) %>%
   mutate(collected_by=gsub(" ", "", collected_by)) %>%
   mutate(collection_date=as.Date(collection_date)) %>%
   mutate(ska_genus_species=paste(ska_genus, ska_species)) %>%
-  left_join(read_csv(file.path(data_dir, "../project-mosquito_sample-table.csv")), by=c("NewIDseqName"="sample_name"))
+  left_join(read_csv(file.path(data_dir, "../metadata/idseq_metadata.csv")), by=c("NewIDseqName"="sample"))
 ```
 
 

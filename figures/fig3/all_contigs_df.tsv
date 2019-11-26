@@ -73,376 +73,193 @@ baltimore_group	collected_by	genome_description	group	number_of_segments_convent
 	WVAL 		Wolbachia		0.004741662924164726	CMS002_045g_Rb_S190_L004	Wolbachieae	Aedes	albopictus	953.0
 	WVAL 		Wolbachia		0.001917524287717315	CMS002_045d_Rb_S186_L004	Wolbachieae	Aedes	albopictus	953.0
 	WVAL 		Wolbachia		0.04780530204259018	CMS002_026a_Rb_S146_L004	Wolbachieae	Aedes	albopictus	953.0
-V	ALCO	single stranded RNA negative sense	Virus	3	4.653097072329486e-05	CMS001_001_Ra_S1	Peribunyaviridae	Culex	erythrothorax	39718.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.0033749494702739803	CMS001_001_Ra_S1	Phasmaviridae	Culex	erythrothorax	2546221.0
-III	ALCO	double stranded RNA	Virus	10-12	0.012004990446610074	CMS001_001_Ra_S1	Reoviridae	Culex	erythrothorax	1567403.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.2714762241280532	CMS001_001_Ra_S1	Tombusviridae	Culex	erythrothorax	137555.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.010280436344177957	CMS001_001_Ra_S1	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.005056435118551625	CMS001_002_Ra_S1	Flaviviridae	Culex	tarsalis	38144.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.7017027930784464	CMS001_002_Ra_S1	Iflaviridae	Culex	tarsalis	2304480.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.010962372980401917	CMS001_002_Ra_S1	Narnaviridae	Culex	tarsalis	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.003084181934269049	CMS001_002_Ra_S1	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.009753049011438527	CMS001_002_Ra_S1	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.009961366563139156	CMS001_002_Ra_S1	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.02229809430021535	CMS001_002_Ra_S1	Virgaviridae	Culex	tarsalis	1527522.0
-III	ALCO	double stranded RNA	Virus	2	0.0020102915460252844	CMS001_003_Ra_S2	Partitiviridae	Culiseta	particeps	37960.0
-V	ALCO	single stranded RNA negative sense	Virus	1	0.013140354900667946	CMS001_003_Ra_S2	Xinmoviridae	Culiseta	particeps	2059674.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.16654522074582084	CMS001_004_Ra_S2	Narnaviridae	Culex	pipiens	2562539.0
-III	ALCO	double stranded RNA	Virus	1	0.00017871806018451432	CMS001_005_Ra_S3	Totiviridae	Culiseta	incidens	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.013804325005248792	CMS001_006_Ra_S5	Nodaviridae	Culex	erythrothorax	2304486.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.0008835467842396249	CMS001_006_Ra_S5	Tombusviridae	Culex	erythrothorax	137555.0
-III	ALCO	double stranded RNA	Virus	1	0.0024931765693890404	CMS001_006_Ra_S5	Totiviridae	Culex	erythrothorax	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.04935614808594024	CMS001_006_Ra_S5	Virgaviridae	Culex	erythrothorax	1527522.0
-III	ALCO	double stranded RNA	Virus	2	0.011533125216788068	CMS001_008_Ra_S3	Partitiviridae	Culiseta	particeps	37960.0
-V	ALCO	single stranded RNA negative sense	Virus	1	0.008659134829790397	CMS001_008_Ra_S3	Xinmoviridae	Culiseta	particeps	2059674.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	7.377442240775124e-05	CMS001_009_Ra_S13	Narnaviridae	Culiseta	particeps	908833.0
-III	ALCO	double stranded RNA	Virus	1	0.00010574333878444344	CMS001_009_Ra_S13	Totiviridae	Culiseta	particeps	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.043828826002384386	CMS001_010_Ra_S1	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.06210155430645408	CMS001_011_Ra_S4	Narnaviridae	Culex	erythrothorax	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.0031227536795465525	CMS001_011_Ra_S4	Phasmaviridae	Culex	erythrothorax	2546221.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.015631444361956612	CMS001_011_Ra_S4	Phenuiviridae	Culex	erythrothorax	2024603.0
-III	ALCO	double stranded RNA	Virus	1	0.00841965095862646	CMS001_011_Ra_S4	Totiviridae	Culex	erythrothorax	39756.0
-III	ALCO	double stranded RNA	Virus	10-12	0.010940966633314482	CMS001_012_Ra_S4	Reoviridae	Aedes	dorsalis	40068.0
-III	ALCO	double stranded RNA	Virus	1	0.0004894070561621786	CMS001_012_Ra_S4	Totiviridae	Aedes	dorsalis	39756.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.03280650465923625	CMS001_013_Ra_S5	Phenuiviridae	Culex	erythrothorax	2024603.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.08629516954811901	CMS001_015_Ra_S13	Solemoviridae	Culex	erythrothorax	502177.0
-III	ALCO	double stranded RNA	Virus	1	0.009497662684573718	CMS001_015_Ra_S13	Totiviridae	Culex	erythrothorax	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.03478147955776508	CMS001_015_Ra_S13	Virgaviridae	Culex	erythrothorax	1527522.0
-III	ALCO	double stranded RNA	Virus	1	9.207927708242048e-05	CMS001_016_Ra_S6	Totiviridae	Culiseta	inornata	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.011755247878517195	CMS001_017_Ra_S6	Nodaviridae	Culex	erythrothorax	2304486.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.0016793211255024564	CMS001_017_Ra_S6	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.056239392585975885	CMS001_017_Ra_S6	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.01615057680631451	CMS001_018_Ra_S14	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.003172434729811779	CMS001_018_Ra_S14	Nodaviridae	Culex	erythrothorax	2304486.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.005221615057680632	CMS001_018_Ra_S14	Tombusviridae	Culex	erythrothorax	137555.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.024453551912568306	CMS001_018_Ra_S14	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.14533938752870154	CMS001_019_Ra_S14	Narnaviridae	Culex	erythrothorax	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.057351461520600604	CMS001_019_Ra_S14	Phasmaviridae	Culex	erythrothorax	2546221.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.07085730502309022	CMS001_019_Ra_S14	Phenuiviridae	Culex	erythrothorax	2024603.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.044503495781842574	CMS001_019_Ra_S14	Tombusviridae	Culex	erythrothorax	137555.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.033654962462268775	CMS001_019_Ra_S14	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.004923919136622343	CMS001_020_Ra_S15	Nodaviridae	Culex	erythrothorax	2304486.0
-III	ALCO	double stranded RNA	Virus	10-12	0.056955856433668496	CMS001_020_Ra_S15	Reoviridae	Culex	erythrothorax	1567403.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.25632912990561224	CMS001_020_Ra_S15	Tombusviridae	Culex	erythrothorax	137555.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.019953235393635773	CMS001_020_Ra_S15	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.00885532321736985	CMS001_021_Ra_S16	Nodaviridae	Culex	erythrothorax	2304486.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.03814304219096965	CMS001_021_Ra_S16	Phenuiviridae	Culex	erythrothorax	2024603.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.045849525043177894	CMS001_021_Ra_S16	Solemoviridae	Culex	erythrothorax	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.029067974339995067	CMS001_021_Ra_S16	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.022544301520194297	CMS001_022_Ra_S6	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.0015516776108662408	CMS001_022_Ra_S6	Tombusviridae	Culex	erythrothorax	137555.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.14645736479726945	CMS001_023_Ra_S17	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.051624198199258516	CMS001_023_Ra_S17	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.024068921983494262	CMS001_024_Ra_S15	Nodaviridae	Culex	erythrothorax	2304486.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.033479063895448066	CMS001_024_Ra_S15	Solemoviridae	Culex	erythrothorax	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.12414373553409862	CMS001_024_Ra_S15	Virgaviridae	Culex	erythrothorax	1527522.0
-III	ALCO	double stranded RNA	Virus	2	0.012314240634058636	CMS001_025_Ra_S7	Partitiviridae	Culiseta	particeps	37960.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.0009320074854144497	CMS001_025_Ra_S7	Tombusviridae	Culiseta	particeps	137555.0
-V	ALCO	single stranded RNA negative sense	Virus	1	0.00998789124133123	CMS001_025_Ra_S7	Xinmoviridae	Culiseta	particeps	2059674.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.000717619710621385	CMS001_026_Ra_S18	Leviviridae	Culiseta	incidens	39683.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.007527122524136558	CMS001_027_Ra_S16	Orthomyxoviridae	Culex	tarsalis	1566308.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.020317010052752067	CMS001_027_Ra_S16	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.015109693512441473	CMS001_028_Ra_S17	Narnaviridae	Culex	tarsalis	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.02838945797297021	CMS001_028_Ra_S17	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.0420781451266638	CMS001_028_Ra_S17	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.0399313009875483	CMS001_028_Ra_S17	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.16558738807136636	CMS001_029_Ra_S18	Flaviviridae	Culex	pipiens	390844.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.2324207846727553	CMS001_029_Ra_S18	Narnaviridae	Culex	pipiens	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.11307273768613975	CMS001_030_Ra_S7	Narnaviridae	Culex	pipiens	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.14717926689576175	CMS001_030_Ra_S7	Peribunyaviridae	Culex	pipiens	39718.0
-V	ALCO	single stranded RNA negative sense	Virus	1	0.04918989928477595	CMS001_031_Ra_S19	Rhabdoviridae	Culex	tarsalis	35303.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.05149795650270034	CMS001_031_Ra_S19	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.05801642640201908	CMS001_032_Ra_S7	Flaviviridae	Culex	tarsalis	537023.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.013891859520041065	CMS001_032_Ra_S7	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.06537408563973136	CMS001_032_Ra_S7	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.064475766779313	CMS001_032_Ra_S7	Solemoviridae	Culex	tarsalis	502177.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.08162452503202333	CMS001_033_Ra_S8	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.09376110052636678	CMS001_033_Ra_S8	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.08453599230298259	CMS001_034_Ra_S19	Narnaviridae	Culex	tarsalis	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.01111694218490335	CMS001_034_Ra_S19	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.0412402693956092	CMS001_034_Ra_S19	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.051185165748272546	CMS001_034_Ra_S19	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.05448263797778361	CMS001_034_Ra_S19	Virgaviridae	Culex	tarsalis	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.015381116729539556	CMS001_035_Ra_S20	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.004660620167482677	CMS001_035_Ra_S20	Nodaviridae	Culex	erythrothorax	2304486.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.0006394306659175429	CMS001_035_Ra_S20	Phasmaviridae	Culex	erythrothorax	2546221.0
-III	ALCO	double stranded RNA	Virus	10-12	0.000733071140005886	CMS001_035_Ra_S20	Reoviridae	Culex	erythrothorax	1567403.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.020702571099874254	CMS001_035_Ra_S20	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.008569727075980072	CMS001_036_Ra_S20	Narnaviridae	Culex	tarsalis	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.005969759030894592	CMS001_036_Ra_S20	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.012803753249960057	CMS001_036_Ra_S20	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.031994858163754414	CMS001_036_Ra_S20	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.03048270957418437	CMS001_037_Ra_S21	Narnaviridae	Culex	erythrothorax	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.006827273535425371	CMS001_037_Ra_S21	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.07897590896968619	CMS001_037_Ra_S21	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.0044929882153608765	CMS001_038_Ra_S22	Narnaviridae	Culex	tarsalis	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.021912772491414913	CMS001_038_Ra_S22	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.039135893983631605	CMS001_038_Ra_S22	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.05940728862532714	CMS001_038_Ra_S22	Solemoviridae	Culex	tarsalis	502177.0
-III	ALCO	double stranded RNA	Virus	1	0.013191534423551124	CMS001_038_Ra_S22	Totiviridae	Culex	tarsalis	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.11297786004128996	CMS001_039_Ra_S9	Flaviviridae	Culex	tarsalis	38144.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.016782942977148146	CMS001_039_Ra_S9	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.039839467501957715	CMS001_039_Ra_S9	Peribunyaviridae	Culex	tarsalis	39718.0
-V	ALCO	single stranded RNA negative sense	Virus	1	0.03900298996226952	CMS001_039_Ra_S9	Rhabdoviridae	Culex	tarsalis	35303.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.050313234142521535	CMS001_039_Ra_S9	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.07850841110890472	CMS001_040_Ra_S21	Narnaviridae	Culex	pipiens	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.049388669824969506	CMS001_040_Ra_S21	Peribunyaviridae	Culex	pipiens	348018.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.03432526736830161	CMS001_040_Ra_S21	Solemoviridae	Culex	pipiens	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.033201527133896916	CMS001_041_Ra_S10	Narnaviridae	Culex	pipiens	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.05757918111340527	CMS001_041_Ra_S10	Peribunyaviridae	Culex	pipiens	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.02734127212963497	CMS001_042_Ra_S23	Narnaviridae	Culex	tarsalis	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.018626376794879187	CMS001_042_Ra_S23	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.041642638832823944	CMS001_042_Ra_S23	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.03898275762643446	CMS001_042_Ra_S23	Solemoviridae	Culex	tarsalis	502177.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.015623518255097203	CMS001_043_Ra_S24	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.037363679468942625	CMS001_043_Ra_S24	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.032088667614983406	CMS001_043_Ra_S24	Solemoviridae	Culex	tarsalis	502177.0
-III	ALCO	double stranded RNA	Virus	1	0.0073020388809862495	CMS001_043_Ra_S24	Totiviridae	Culex	tarsalis	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.10525426851738116	CMS001_044_Ra_S25	Flaviviridae	Culex	pipiens	390844.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.012406338287679647	CMS001_044_Ra_S25	Narnaviridae	Culex	pipiens	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.0663923350939688	CMS001_044_Ra_S25	Nodaviridae	Culex	pipiens	2304484.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.06296830856160177	CMS001_044_Ra_S25	Peribunyaviridae	Culex	pipiens	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.07769315808868689	CMS001_044_Ra_S25	Solemoviridae	Culex	pipiens	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.009743514150943397	CMS001_045_Ra_S2	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.5757370283018868	CMS001_045_Ra_S2	Tombusviridae	Culex	erythrothorax	137555.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.01605247641509434	CMS001_045_Ra_S2	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.8851110787232713	CMS001_046_Ra_S3	Iflaviridae	Culex	tarsalis	2304480.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.0003123113119157176	CMS001_046_Ra_S3	Orthomyxoviridae	Culex	tarsalis	1566308.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.00048408253346936226	CMS001_046_Ra_S3	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.005717899602323596	CMS001_046_Ra_S3	Solemoviridae	Culex	tarsalis	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.004171312137172735	CMS001_047_Ra_S4	Leviviridae	Culex	erythrothorax	12008.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.03577332666948599	CMS001_047_Ra_S4	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.19824305101687748	CMS001_047_Ra_S4	Tombusviridae	Culex	erythrothorax	137555.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.039270747829092324	CMS001_048_Ra_S5	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.00991489177863222	CMS001_048_Ra_S5	Nodaviridae	Culex	erythrothorax	2304486.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.025446062124681385	CMS001_048_Ra_S5	Phenuiviridae	Culex	erythrothorax	2024603.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.020693826413790126	CMS001_048_Ra_S5	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.004176664000710922	CMS001_049_Ra_S6	Nodaviridae	Culex	erythrothorax	2304486.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.018706122811694658	CMS001_049_Ra_S6	Phenuiviridae	Culex	erythrothorax	2024603.0
-III	ALCO	double stranded RNA	Virus	10-12	0.01466275659824047	CMS001_049_Ra_S6	Reoviridae	Culex	erythrothorax	1567403.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.045113895553778253	CMS001_049_Ra_S6	Solemoviridae	Culex	erythrothorax	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.07417281317574573	CMS001_049_Ra_S6	Tombusviridae	Culex	erythrothorax	137555.0
-III	ALCO	double stranded RNA	Virus	1	0.020077754699898812	CMS001_050_Ra_S23	Totiviridae	Culex	erythrothorax	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.07096447781860787	CMS001_050_Ra_S23	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.00910867827878718	CMS001_051_Ra_S8	Iflaviridae	Culex	tarsalis	2304479.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.030619024235246543	CMS001_051_Ra_S8	Narnaviridae	Culex	tarsalis	2562539.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.04368025265509306	CMS001_051_Ra_S8	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.06964383719922586	CMS001_051_Ra_S8	Solemoviridae	Culex	tarsalis	502177.0
-III	ALCO	double stranded RNA	Virus	1	0.021659589628046257	CMS001_051_Ra_S8	Totiviridae	Culex	tarsalis	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.08087608658598944	CMS001_052_Ra_S7	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.0879282427134822	CMS001_052_Ra_S7	Virgaviridae	Culex	erythrothorax	1527522.0
-III	ALCO	double stranded RNA	Virus	4	0.02463198394111743	CMS001_053_Ra_S8	Chrysoviridae	Culex	erythrothorax	2587491.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.0661383405821345	CMS001_053_Ra_S8	Solemoviridae	Culex	erythrothorax	502177.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.03460605553696888	CMS001_053_Ra_S8	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.024682270965209283	CMS001_054_Ra_S11	Narnaviridae	Culex	pipiens	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.007113218731475993	CMS001_056_Ra_S10	Nodaviridae	Culex	erythrothorax	2304486.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.08266646907725746	CMS001_056_Ra_S10	Phenuiviridae	Culex	erythrothorax	2024603.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.06152440229203715	CMS001_056_Ra_S10	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.0034413756706834376	CMS001_057_Ra_S11	Nodaviridae	Culex	erythrothorax	2304486.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.0039636291670331605	CMS001_057_Ra_S11	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.036590729175829007	CMS001_057_Ra_S11	Tombusviridae	Culex	erythrothorax	137555.0
-III	ALCO	double stranded RNA	Virus	1	0.011758949775705867	CMS001_057_Ra_S11	Totiviridae	Culex	erythrothorax	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.01637127275925763	CMS001_057_Ra_S11	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.007507559098405717	CMS001_058_Ra_S9	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.015186915887850467	CMS001_058_Ra_S9	Tombusviridae	Culex	erythrothorax	137555.0
-III	ALCO	double stranded RNA	Virus	1	0.009646440351841671	CMS001_058_Ra_S9	Totiviridae	Culex	erythrothorax	39756.0
-IV	ALCO	single stranded RNA positive sense	Virus	1 or more	0.0376065145684442	CMS001_058_Ra_S9	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.036900923274118286	CMS001_059_Ra_S10	Narnaviridae	Culex	pipiens	2562539.0
-IV	ALCO	single stranded RNA positive sense	Virus	2	0.05994272095491779	CMS001_059_Ra_S10	Nodaviridae	Culex	pipiens	2304484.0
-V	ALCO	single stranded RNA negative sense	Virus	3	0.07680599226933167	CMS001_059_Ra_S10	Peribunyaviridae	Culex	pipiens	39718.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.08018935192520996	CMS001_060_Ra_S12	Iflaviridae			1111709.0
-IV	ALCO	single stranded RNA positive sense	Virus	1	0.0018222151798447156	CMS001_060_Ra_S12	Luteoviridae			328429.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.31260723520456246	CMS002_001a_Rb_S116_L004	Narnaviridae	Culex	quinquefasciatus	2562539.0
-V	SAND	single stranded RNA negative sense	Virus	3	0.16491882924517123	CMS002_010a_Rb_S119_L004	Peribunyaviridae	Culex	quinquefasciatus	39718.0
-V	SAND	single stranded RNA negative sense	Virus	3	0.19755413342684316	CMS002_013a_Rb_S120_L004	Peribunyaviridae	Culex	quinquefasciatus	39718.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.22219442835325715	CMS002_017a_Rb_S122_L004	Solemoviridae	Aedes	aegypti	2600328.0
-III	SAND	double stranded RNA	Virus	1	0.041807098846700724	CMS002_017a_Rb_S122_L004	Totiviridae	Aedes	aegypti	2603435.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.20941786182189193	CMS002_017b_Rb_S123_L004	Solemoviridae	Aedes	aegypti	2600328.0
-III	SAND	double stranded RNA	Virus	1	0.07097888720130781	CMS002_017b_Rb_S123_L004	Totiviridae	Aedes	aegypti	2603435.0
-V	SAND	single stranded RNA negative sense	Virus	8	0.0023566572482633533	CMS002_017c_Rb_S124_L004	Orthomyxoviridae	Aedes	aegypti	2607737.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.2178550717484916	CMS002_017c_Rb_S124_L004	Solemoviridae	Aedes	aegypti	2600328.0
-III	SAND	double stranded RNA	Virus	1	0.043067602749022174	CMS002_017c_Rb_S124_L004	Totiviridae	Aedes	aegypti	2603435.0
-V	SAND	single stranded RNA negative sense	Virus	1	0.0441287154367219	CMS002_017c_Rb_S124_L004	Xinmoviridae	Aedes	aegypti	2230910.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.1389303888185286	CMS002_017d_Rb_S125_L004	Solemoviridae	Aedes	aegypti	2600328.0
-III	SAND	double stranded RNA	Virus	1	0.05150499389508649	CMS002_017d_Rb_S125_L004	Totiviridae	Aedes	aegypti	2603435.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.09499004136663092	CMS002_017e_Rb_S126_L004	Solemoviridae	Aedes	aegypti	2600328.0
-III	SAND	double stranded RNA	Virus	1	0.015167764669833002	CMS002_017e_Rb_S126_L004	Totiviridae	Aedes	aegypti	2603435.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.25007581731060835	CMS002_018a_Rb_S128_L004	Solemoviridae	Aedes	aegypti	2600328.0
-V	SAND	single stranded RNA negative sense	Virus	1	0.09665190756353491	CMS002_018a_Rb_S128_L004	Xinmoviridae	Aedes	aegypti	2230910.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.2874858561156331	CMS002_018b_Rb_S129_L004	Solemoviridae	Aedes	aegypti	2600328.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.2881384105394136	CMS002_019a_Rb_S130_L004	Solemoviridae	Aedes	aegypti	2600328.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.015667331666805395	CMS002_020a_Rb_S131_L004	Iflaviridae	Culiseta	particeps	1111709.0
-III	SAND	double stranded RNA	Virus	2	0.046397856247197465	CMS002_020a_Rb_S131_L004	Partitiviridae	Culiseta	particeps	37960.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.0012055924453120176	CMS002_020a_Rb_S131_L004	Solemoviridae	Culiseta	particeps	502177.0
-V	SAND	single stranded RNA negative sense	Virus	1	0.022765290751843966	CMS002_020a_Rb_S131_L004	Xinmoviridae	Culiseta	particeps	2059674.0
-III	SAND	double stranded RNA	Virus	2	0.17964096749811034	CMS002_020b_Rb_S132_L004	Partitiviridae	Culiseta	particeps	37960.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.08448223733938019	CMS002_020b_Rb_S132_L004	Solemoviridae	Culiseta	particeps	502177.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.12321630031861742	CMS002_020c_Rb_S133_L004	Iflaviridae	Culiseta	particeps	1111709.0
-III	SAND	double stranded RNA	Virus	2	0.1421597798192435	CMS002_020c_Rb_S133_L004	Partitiviridae	Culiseta	particeps	37960.0
-V	SAND	single stranded RNA negative sense	Virus	1	0.09388056185765116	CMS002_020c_Rb_S133_L004	Xinmoviridae	Culiseta	particeps	2059674.0
-III	SAND	double stranded RNA	Virus	2	0.04811718127427046	CMS002_020d_Rb_S134_L004	Partitiviridae	Culiseta	particeps	37960.0
-III	SAND	double stranded RNA	Virus	1	7.589460768812375e-05	CMS002_020d_Rb_S134_L004	Totiviridae	Culiseta	particeps	39756.0
-V	SAND	single stranded RNA negative sense	Virus	1	0.030142808353466485	CMS002_020d_Rb_S134_L004	Xinmoviridae	Culiseta	particeps	2059674.0
-III	SAND	double stranded RNA	Virus	2	0.12128564155953751	CMS002_020e_Rb_S135_L004	Partitiviridae	Culiseta	particeps	37960.0
-V	SAND	single stranded RNA negative sense	Virus	1	0.046672842931769085	CMS002_020e_Rb_S135_L004	Xinmoviridae	Culiseta	particeps	2059674.0
-III	SAND	double stranded RNA	Virus	2	0.027041743936584123	CMS002_021a_Rb_S136_L004	Partitiviridae	Culiseta	particeps	37960.0
-III	SAND	double stranded RNA	Virus	1	5.636158685138722e-05	CMS002_021a_Rb_S136_L004	Totiviridae	Culiseta	particeps	39756.0
-V	SAND	single stranded RNA negative sense	Virus	1	0.019263844951092686	CMS002_021a_Rb_S136_L004	Xinmoviridae	Culiseta	particeps	2059674.0
-III	SAND	double stranded RNA	Virus	4	0.04812501365016271	CMS002_022a_Rb_S137_L004	Chrysoviridae	Culex	quinquefasciatus	2587491.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.047633607792604886	CMS002_022a_Rb_S137_L004	Narnaviridae	Culex	quinquefasciatus	2562539.0
-III	SAND	double stranded RNA	Virus	2	0.0005023259877257736	CMS002_022a_Rb_S137_L004	Partitiviridae	Culex	quinquefasciatus	37960.0
-V	SAND	single stranded RNA negative sense	Virus	3	0.10732303929062835	CMS002_022a_Rb_S137_L004	Peribunyaviridae	Culex	quinquefasciatus	39718.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.00975167623998078	CMS002_022a_Rb_S137_L004	Tymoviridae	Culex	quinquefasciatus	330383.0
-III	SAND	double stranded RNA	Virus	4	0.01142718916303822	CMS002_023a_Rb_S138_L004	Chrysoviridae	Culex	quinquefasciatus	2587491.0
-IV	SAND	single stranded RNA positive sense	Virus	1	0.19144654088050314	CMS002_023a_Rb_S138_L004	Narnaviridae	Culex	quinquefasciatus	2562539.0
-V	SAND	single stranded RNA negative sense	Virus	3	0.20558297048863086	CMS002_023a_Rb_S138_L004	Peribunyaviridae	Culex	quinquefasciatus	39718.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.025838466803559206	CMS002_026a_Rb_S146_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-III	WVAL 	double stranded RNA	Virus	2	0.012919233401779603	CMS002_026a_Rb_S146_L004	Partitiviridae	Aedes	albopictus	37960.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.04483230663928816	CMS002_026a_Rb_S146_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.038645504946189804	CMS002_026b_Rb_S147_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-III	WVAL 	double stranded RNA	Virus	2	0.005978910751168605	CMS002_026b_Rb_S147_L004	Partitiviridae	Aedes	albopictus	37960.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.024785302750298947	CMS002_026b_Rb_S147_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.02126314125365584	CMS002_026c_Rb_S148_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.03999683819460912	CMS002_026c_Rb_S148_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.023152351552569457	CMS002_026d_Rb_S149_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-III	WVAL 	double stranded RNA	Virus	2	0.014617759215543853	CMS002_026d_Rb_S149_L004	Partitiviridae	Aedes	albopictus	37960.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.059991828581804976	CMS002_026d_Rb_S149_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.018163471241170535	CMS002_026e_Rb_S150_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-III	WVAL 	double stranded RNA	Virus	2	0.01160443995963673	CMS002_026e_Rb_S150_L004	Partitiviridae	Aedes	albopictus	37960.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.0322401614530777	CMS002_026e_Rb_S150_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.19250829777145567	CMS002_027a_Rb_S152_L004	Narnaviridae	Culex	quinquefasciatus	2562539.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.2142188503445048	CMS002_027b_Rb_S153_L004	Narnaviridae	Culex	quinquefasciatus	2562539.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.0002694012340314591	CMS002_028a_Rb_S154_L004	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or 2	0.18241939688885025	CMS002_028a_Rb_S154_L004	Tombusviridae	Culex	erythrothorax	137555.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.09188320152950379	CMS002_028a_Rb_S154_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.005680659539138288	CMS002_028b_Rb_S155_L004	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.14608762781483964	CMS002_028b_Rb_S155_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.2358523641811025	CMS002_028c_Rb_S156_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.0057308979995472475	CMS002_028d_Rb_S157_L004	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.06266456970606808	CMS002_028d_Rb_S157_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.048090397885512566	CMS002_028e_Rb_S158_L004	Narnaviridae	Culex	erythrothorax	2562539.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.002915107113925697	CMS002_028e_Rb_S158_L004	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or 2	0.6052424624081268	CMS002_028e_Rb_S158_L004	Tombusviridae	Culex	erythrothorax	137555.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.009280447495550471	CMS002_028e_Rb_S158_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.04432343340981805	CMS002_029a_Rb_S159_L004	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.04832433829945383	CMS002_029a_Rb_S159_L004	Solemoviridae	Culex	tarsalis	502177.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.0711746497052164	CMS002_029b_Rb_S160_L004	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.07038710171401069	CMS002_029b_Rb_S160_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.029416294470968735	CMS002_029c_Rb_S161_L004	Narnaviridae	Culex	tarsalis	2562539.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.010000513373376457	CMS002_029c_Rb_S161_L004	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.04464294881667437	CMS002_029c_Rb_S161_L004	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.05501822475486421	CMS002_029c_Rb_S161_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or 2	0.01199240207402844	CMS002_029c_Rb_S161_L004	Tombusviridae	Culex	tarsalis	137555.0
-III	WVAL 	double stranded RNA	Virus	1	0.002813286102982699	CMS002_029c_Rb_S161_L004	Totiviridae	Culex	tarsalis	39756.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.09543585033741964	CMS002_029d_Rb_S162_L004	Narnaviridae	Culex	tarsalis	2562539.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.012175724420663126	CMS002_029d_Rb_S162_L004	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.03816435730543465	CMS002_029d_Rb_S162_L004	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.02224507180982044	CMS002_029d_Rb_S162_L004	Solemoviridae	Culex	tarsalis	502177.0
-III	WVAL 	double stranded RNA	Virus	1	0.0013476819869823902	CMS002_029d_Rb_S162_L004	Totiviridae	Culex	tarsalis	39756.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.06708128685327902	CMS002_029d_Rb_S162_L004	Virgaviridae	Culex	tarsalis	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.0115055850349968	CMS002_029e_Rb_S164_L004	Luteoviridae	Culex	tarsalis	2304522.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.012697953874424463	CMS002_029e_Rb_S164_L004	Orthomyxoviridae	Culex	tarsalis	1608131.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.05048210930563872	CMS002_029e_Rb_S164_L004	Peribunyaviridae	Culex	tarsalis	39718.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.12286044638985816	CMS002_029e_Rb_S164_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.09967377614436437	CMS002_029e_Rb_S164_L004	Virgaviridae	Culex	tarsalis	1527522.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.00039772529044412657	CMS002_031a_Rb_S165_L004	Narnaviridae	Culex	tarsalis	2562539.0
-V	COAV	single stranded RNA negative sense	Virus	1	0.11290862784774797	CMS002_031a_Rb_S165_L004	Rhabdoviridae	Culex	tarsalis	1803034.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.14062380071869657	CMS002_031a_Rb_S165_L004	Solemoviridae	Culex	tarsalis	502177.0
-V	COAV	single stranded RNA negative sense	Virus	1	0.17959515575123386	CMS002_032a_Rb_S166_L004	Rhabdoviridae	Culex	tarsalis	35303.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.10830955734284642	CMS002_032a_Rb_S166_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.13984397572955792	CMS002_033a_Rb_S167_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.012907837768576092	CMS002_034a_Rb_S168_L004	Iflaviridae	Culex	tarsalis	2304480.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.18308358398187238	CMS002_034a_Rb_S168_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.0002712119665101082	CMS002_035a_Rb_S169_L004	Luteoviridae	Culex	tarsalis	2304522.0
-V	COAV	single stranded RNA negative sense	Virus	3	0.04194053757402491	CMS002_035a_Rb_S169_L004	Peribunyaviridae	Culex	tarsalis	39718.0
-V	COAV	single stranded RNA negative sense	Virus	1	0.23062589340412498	CMS002_035a_Rb_S169_L004	Rhabdoviridae	Culex	tarsalis	1803034.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.16617512965179232	CMS002_036a_Rb_S170_L004	Solemoviridae	Culex	tarsalis	502177.0
-V	COAV	single stranded RNA negative sense	Virus	1	0.053383547754177585	CMS002_037a_Rb_S171_L004	Rhabdoviridae	Culex	tarsalis	35303.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.1344168499229665	CMS002_037a_Rb_S171_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.008686814611581863	CMS002_038a_Rb_S172_L004	Iflaviridae	Culex	tarsalis	2304479.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.014098821403775857	CMS002_038a_Rb_S172_L004	Luteoviridae	Culex	tarsalis	2304522.0
-V	COAV	single stranded RNA negative sense	Virus	1	0.07378355318739596	CMS002_038a_Rb_S172_L004	Rhabdoviridae	Culex	tarsalis	1803034.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.07710018486143758	CMS002_038a_Rb_S172_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	COAV	single stranded RNA positive sense	Virus	1 or 2	0.07513864607817715	CMS002_038a_Rb_S172_L004	Tombusviridae	Culex	tarsalis	137555.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.003521503141442094	CMS002_039a_Rb_S173_L004	Iflaviridae	Culex	tarsalis	2304480.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.1149387745406606	CMS002_039a_Rb_S173_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.0163006058936932	CMS002_040a_Rb_S174_L004	Luteoviridae	Culex	tarsalis	2304522.0
-V	COAV	single stranded RNA negative sense	Virus	3	0.0008606444505645827	CMS002_040a_Rb_S174_L004	Peribunyaviridae	Culex	tarsalis	39718.0
-V	COAV	single stranded RNA negative sense	Virus	1	0.04868952538327366	CMS002_040a_Rb_S174_L004	Rhabdoviridae	Culex	tarsalis	1803034.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.13953054714036536	CMS002_040a_Rb_S174_L004	Solemoviridae	Culex	tarsalis	502177.0
-III	COAV	double stranded RNA	Virus	1	0.0009409712659506105	CMS002_040a_Rb_S174_L004	Totiviridae	Culex	tarsalis	39756.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.008780346416399309	CMS002_041a_Rb_S176_L004	Luteoviridae	Culex	tarsalis	2304522.0
-V	COAV	single stranded RNA negative sense	Virus	1	0.11875206140745405	CMS002_041a_Rb_S176_L004	Rhabdoviridae	Culex	tarsalis	1803034.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.09640390592985718	CMS002_041a_Rb_S176_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	COAV	single stranded RNA positive sense	Virus	1	0.005105279134586196	CMS002_042a_Rb_S177_L004	Solemoviridae	Culex	tarsalis	502177.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.14348925410872312	CMS002_044b_Rb_S179_L004	Dicistroviridae	Aedes	aegypti	336635.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.03563142194232682	CMS002_044d_Rb_S181_L004	Orthomyxoviridae	Aedes	aegypti	1566308.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.054027179317202516	CMS002_044d_Rb_S181_L004	Phasmaviridae	Aedes	aegypti	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.02129673450070989	CMS002_044e_Rb_S182_L004	Orthomyxoviridae	Aedes	aegypti	1566308.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.02602934216753431	CMS002_044e_Rb_S182_L004	Phasmaviridae	Aedes	aegypti	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.00946521533364884	CMS002_044e_Rb_S182_L004	Solemoviridae	Aedes	aegypti	502177.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.025058731401722788	CMS002_045a_Rb_S183_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-III	WVAL 	double stranded RNA	Virus	2	0.016668531155610247	CMS002_045a_Rb_S183_L004	Partitiviridae	Aedes	albopictus	37960.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.018682179214677255	CMS002_045a_Rb_S183_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.13192191520304283	CMS002_045a_Rb_S183_L004	Solemoviridae	Aedes	albopictus	502177.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.07062701947428172	CMS002_045b_Rb_S184_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.03010654091345734	CMS002_045b_Rb_S184_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.01951794603091433	CMS002_045b_Rb_S184_L004	Solemoviridae	Aedes	albopictus	502177.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.009341349263726647	CMS002_045c_Rb_S185_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.0061070735512347325	CMS002_045c_Rb_S185_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.22161447433507098	CMS002_045c_Rb_S185_L004	Solemoviridae	Aedes	albopictus	502177.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.005877686824506704	CMS002_045d_Rb_S186_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.005899721264336157	CMS002_045d_Rb_S186_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.25304901561140064	CMS002_045d_Rb_S186_L004	Solemoviridae	Aedes	albopictus	502177.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.003457387696638925	CMS002_045e_Rb_S188_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.016965895339935297	CMS002_045e_Rb_S188_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.01923253045150655	CMS002_045f_Rb_S189_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.021338950453338217	CMS002_045f_Rb_S189_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.17799249015477608	CMS002_045f_Rb_S189_L004	Solemoviridae	Aedes	albopictus	502177.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.00591679882883982	CMS002_045g_Rb_S190_L004	Orthomyxoviridae	Aedes	albopictus	1566308.0
-III	WVAL 	double stranded RNA	Virus	2	0.0020332642023504536	CMS002_045g_Rb_S190_L004	Partitiviridae	Aedes	albopictus	37960.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.009749501850270424	CMS002_045g_Rb_S190_L004	Phasmaviridae	Aedes	albopictus	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.24283274368671465	CMS002_045g_Rb_S190_L004	Solemoviridae	Aedes	albopictus	502177.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.2143912099715801	CMS002_046a_Rb_S191_L004	Narnaviridae	Culex	quinquefasciatus	2562539.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.2263681094487559	CMS002_046b_Rb_S192_L004	Narnaviridae	Culex	quinquefasciatus	2562539.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.0007000560044803585	CMS002_046b_Rb_S192_L004	Peribunyaviridae	Culex	quinquefasciatus	39718.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.034664371772805506	CMS002_047a_Rb_S193_L004	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	WVAL 	single stranded RNA positive sense	Virus	2	0.04117039586919105	CMS002_047a_Rb_S193_L004	Nodaviridae	Culex	erythrothorax	2304486.0
-V	WVAL 	single stranded RNA negative sense	Virus	1	0.03943545611015491	CMS002_047a_Rb_S193_L004	Rhabdoviridae	Culex	erythrothorax	35303.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.08169363166953528	CMS002_047a_Rb_S193_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.37098752505459653	CMS002_047b_Rb_S194_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.15698917590809483	CMS002_047c_Rb_S195_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.061892689086407084	CMS002_047d_Rb_S196_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.05213591501544489	CMS002_047e_Rb_S197_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.04838686163311125	CMS002_047f_Rb_S198_L004	Narnaviridae	Culex	erythrothorax	2562539.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.03987287332526643	CMS002_047f_Rb_S198_L004	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.16815126907993527	CMS002_047f_Rb_S198_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.5898443886271421	CMS002_047g_Rb_S200_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.05773060340660828	CMS002_047h_Rb_S1_L004	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.08719525162886917	CMS002_047h_Rb_S1_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	2	0.030379041248606464	CMS002_047i_Rb_S2_L004	Nodaviridae	Culex	erythrothorax	2304486.0
-V	WVAL 	single stranded RNA negative sense	Virus	3	0.0035767372723894465	CMS002_047i_Rb_S2_L004	Phasmaviridae	Culex	erythrothorax	2546221.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.08101077666295058	CMS002_047i_Rb_S2_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1	0.16666666666666666	CMS002_047j_Rb_S3_L004	Narnaviridae	Culex	erythrothorax	2562539.0
-IV	WVAL 	single stranded RNA positive sense	Virus	1 or more	0.038052883647925306	CMS002_047j_Rb_S3_L004	Virgaviridae	Culex	erythrothorax	1527522.0
-IV	PLCR	single stranded RNA positive sense	Virus	1	0.2131630884759796	CMS002_049a_Rb_S4_L004	Flaviviridae	Culex	pipiens	390844.0
-V	PLCR	single stranded RNA negative sense	Virus	3	0.21470347549821892	CMS002_049a_Rb_S4_L004	Peribunyaviridae	Culex	pipiens	39718.0
-IV	PLCR	single stranded RNA positive sense	Virus	2	0.09291510700917222	CMS002_051a_Rb_S6_L004	Nodaviridae	Culex	pipiens	2304484.0
-V	PLCR	single stranded RNA negative sense	Virus	3	0.12121038946195388	CMS002_051a_Rb_S6_L004	Peribunyaviridae	Culex	pipiens	39718.0
-IV	PLCR	single stranded RNA positive sense	Virus	1	0.027766665714204074	CMS002_051a_Rb_S6_L004	Solemoviridae	Culex	pipiens	502177.0
-IV	PLCR	single stranded RNA positive sense	Virus	3	0.00019859025237984072	CMS002_053a_Rb_S7_L004	Botourmiaviridae			1629669.0
-IV	PLCR	single stranded RNA positive sense	Virus	3	0.0002820792156252432	CMS002_053a_Rb_S7_L004	Botourmiaviridae			2587553.0
-IV	PLCR	single stranded RNA positive sense	Virus	1	0.0074694252068580914	CMS002_053a_Rb_S7_L004	Narnaviridae			2562539.0
-V	PLCR	single stranded RNA negative sense	Virus	3	0.000705198039063108	CMS002_053a_Rb_S7_L004	Phasmaviridae			2546221.0
-V	PLCR	single stranded RNA negative sense	Virus	1	0.004895857650507094	CMS002_053a_Rb_S7_L004	Rhabdoviridae			35303.0
-III	PLCR	double stranded RNA	Virus	1	0.004343857806137006	CMS002_053a_Rb_S7_L004	Totiviridae			39756.0
-IV	PLCR	single stranded RNA positive sense	Virus	1 or more	0.018143853915389203	CMS002_053a_Rb_S7_L004	Virgaviridae			1527522.0
-IV	PLCR	single stranded RNA positive sense	Virus	2	0.2271060979908354	CMS002_054a_Rb_S8_L004	Nodaviridae	Culex	pipiens	2304484.0
-IV	PLCR	single stranded RNA positive sense	Virus	1	0.03744875698223575	CMS002_056a_Rb_S9_L004	Flaviviridae	Culex	tarsalis	38144.0
-IV	PLCR	single stranded RNA positive sense	Virus	2	0.019744444178073983	CMS002_056a_Rb_S9_L004	Nodaviridae	Culex	tarsalis	2304486.0
-V	PLCR	single stranded RNA negative sense	Virus	8	0.01255483901901086	CMS002_056a_Rb_S9_L004	Orthomyxoviridae	Culex	tarsalis	1608131.0
-IV	PLCR	single stranded RNA positive sense	Virus	2	0.07847317489155019	CMS002_057a_Rb_S10_L004	Nodaviridae	Culex	pipiens	2304484.0
-V	PLCR	single stranded RNA negative sense	Virus	3	0.22993214934559342	CMS002_057a_Rb_S10_L004	Peribunyaviridae	Culex	pipiens	39718.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.2714762241280532	CMS001_001_Ra_S1	128|Tombus-like	Culex	erythrothorax	137555.0
+III	ALCO	double stranded RNA	Virus	10-12	0.012004990446610074	CMS001_001_Ra_S1	296|Reo-like	Culex	erythrothorax	1567403.0
+V	ALCO	single stranded RNA negative sense	Virus	3	4.653097072329486e-05	CMS001_001_Ra_S1	6823|Peribunya-like	Culex	erythrothorax	39718.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.0033749494702739803	CMS001_001_Ra_S1	76|Phasma-like	Culex	erythrothorax	2546221.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.005056435118551625	CMS001_002_Ra_S1	1|Flavi-like	Culex	tarsalis	38144.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.009961366563139156	CMS001_002_Ra_S1	Kellev virus	Culex	tarsalis	502177.0
+III	ALCO	double stranded RNA	Virus	2	0.0020102915460252844	CMS001_003_Ra_S2	3256|Partiti-like	Culiseta	particeps	37960.0
+V	ALCO	single stranded RNA negative sense	Virus	1	0.013140354900667946	CMS001_003_Ra_S2	Gordis virus	Culiseta	particeps	2059674.0
+III	ALCO	double stranded RNA	Virus	1	0.00017871806018451432	CMS001_005_Ra_S3	2923|Toti-like	Culiseta	incidens	39756.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.0008835467842396249	CMS001_006_Ra_S5	312|Tombus-like	Culex	erythrothorax	137555.0
+III	ALCO	double stranded RNA	Virus	1	0.0024931765693890404	CMS001_006_Ra_S5	55|Toti-like	Culex	erythrothorax	39756.0
+III	ALCO	double stranded RNA	Virus	2	0.011533125216788068	CMS001_008_Ra_S3	1636|Partiti-like	Culiseta	particeps	37960.0
+V	ALCO	single stranded RNA negative sense	Virus	1	0.008659134829790397	CMS001_008_Ra_S3	Gordis virus	Culiseta	particeps	2059674.0
+III	ALCO	double stranded RNA	Virus	1	4.426465344465074e-05	CMS001_009_Ra_S13	12259|Toti-like	Culiseta	particeps	39756.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	7.377442240775124e-05	CMS001_009_Ra_S13	1249|Narna-like	Culiseta	particeps	908833.0
+III	ALCO	double stranded RNA	Virus	1	6.14786853397927e-05	CMS001_009_Ra_S13	5308|Toti-like	Culiseta	particeps	39756.0
+III	ALCO	double stranded RNA	Virus	1	0.00841965095862646	CMS001_011_Ra_S4	42|Toti-like	Culex	erythrothorax	39756.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.015631444361956612	CMS001_011_Ra_S4	63|Phenui-like	Culex	erythrothorax	2024603.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.0031227536795465525	CMS001_011_Ra_S4	76|Phasma-like	Culex	erythrothorax	2546221.0
+III	ALCO	double stranded RNA	Virus	1	0.0004894070561621786	CMS001_012_Ra_S4	1715|Toti-like	Aedes	dorsalis	39756.0
+III	ALCO	double stranded RNA	Virus	10-12	0.005345412624526907	CMS001_012_Ra_S4	246|Reo-like	Aedes	dorsalis	40068.0
+III	ALCO	double stranded RNA	Virus	10-12	0.005595554008787576	CMS001_012_Ra_S4	Lobuck virus	Aedes	dorsalis	40068.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.03280650465923625	CMS001_013_Ra_S5	63|Phenui-like	Culex	erythrothorax	2024603.0
+III	ALCO	double stranded RNA	Virus	1	0.009497662684573718	CMS001_015_Ra_S13	42|Toti-like	Culex	erythrothorax	39756.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.08629516954811901	CMS001_015_Ra_S13	Kellev virus	Culex	erythrothorax	502177.0
+III	ALCO	double stranded RNA	Virus	1	9.207927708242048e-05	CMS001_016_Ra_S6	19890|Toti-like	Culiseta	inornata	39756.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.0016793211255024564	CMS001_017_Ra_S6	76|Phasma-like	Culex	erythrothorax	2546221.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.005221615057680632	CMS001_018_Ra_S14	128|Tombus-like	Culex	erythrothorax	137555.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.044503495781842574	CMS001_019_Ra_S14	128|Tombus-like	Culex	erythrothorax	137555.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.07085730502309022	CMS001_019_Ra_S14	63|Phenui-like	Culex	erythrothorax	2024603.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.057351461520600604	CMS001_019_Ra_S14	76|Phasma-like	Culex	erythrothorax	2546221.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.25632912990561224	CMS001_020_Ra_S15	128|Tombus-like	Culex	erythrothorax	137555.0
+III	ALCO	double stranded RNA	Virus	10-12	0.056955856433668496	CMS001_020_Ra_S15	296|Reo-like	Culex	erythrothorax	1567403.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.03814304219096965	CMS001_021_Ra_S16	63|Phenui-like	Culex	erythrothorax	2024603.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.045849525043177894	CMS001_021_Ra_S16	Kellev virus	Culex	erythrothorax	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.0015516776108662408	CMS001_022_Ra_S6	88|Tombus-like	Culex	erythrothorax	137555.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.033479063895448066	CMS001_024_Ra_S15	Kellev virus	Culex	erythrothorax	502177.0
+III	ALCO	double stranded RNA	Virus	2	0.012314240634058636	CMS001_025_Ra_S7	1636|Partiti-like	Culiseta	particeps	37960.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.0009320074854144497	CMS001_025_Ra_S7	312|Tombus-like	Culiseta	particeps	137555.0
+V	ALCO	single stranded RNA negative sense	Virus	1	0.00998789124133123	CMS001_025_Ra_S7	Gordis virus	Culiseta	particeps	2059674.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.000717619710621385	CMS001_026_Ra_S18	416|Levi-like	Culiseta	incidens	39683.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.020317010052752067	CMS001_027_Ra_S16	Kellev virus	Culex	tarsalis	502177.0
+V	ALCO	single stranded RNA negative sense	Virus	8	0.007527122524136558	CMS001_027_Ra_S16	Ūsinis virus	Culex	tarsalis	1566308.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.0399313009875483	CMS001_028_Ra_S17	Kellev virus	Culex	tarsalis	502177.0
+V	ALCO	single stranded RNA negative sense	Virus	1	0.04918989928477595	CMS001_031_Ra_S19	30|Rhabdo-like	Culex	tarsalis	35303.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.05149795650270034	CMS001_031_Ra_S19	Kellev virus	Culex	tarsalis	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.064475766779313	CMS001_032_Ra_S7	Kellev virus	Culex	tarsalis	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.09376110052636678	CMS001_033_Ra_S8	Kellev virus	Culex	tarsalis	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.051185165748272546	CMS001_034_Ra_S19	Kellev virus	Culex	tarsalis	502177.0
+III	ALCO	double stranded RNA	Virus	10-12	0.000733071140005886	CMS001_035_Ra_S20	296|Reo-like	Culex	erythrothorax	1567403.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.0006394306659175429	CMS001_035_Ra_S20	76|Phasma-like	Culex	erythrothorax	2546221.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.031994858163754414	CMS001_036_Ra_S20	Kellev virus	Culex	tarsalis	502177.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.006827273535425371	CMS001_037_Ra_S21	76|Phasma-like	Culex	erythrothorax	2546221.0
+III	ALCO	double stranded RNA	Virus	1	0.013191534423551124	CMS001_038_Ra_S22	78|Toti-like	Culex	tarsalis	39756.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.05940728862532714	CMS001_038_Ra_S22	Kellev virus	Culex	tarsalis	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.11297786004128996	CMS001_039_Ra_S9	1|Flavi-like	Culex	tarsalis	38144.0
+V	ALCO	single stranded RNA negative sense	Virus	1	0.03900298996226952	CMS001_039_Ra_S9	2|Rhabdo-like	Culex	tarsalis	35303.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.050313234142521535	CMS001_039_Ra_S9	Kellev virus	Culex	tarsalis	502177.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.049388669824969506	CMS001_040_Ra_S21	61|Peribunya-like	Culex	pipiens	348018.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.03432526736830161	CMS001_040_Ra_S21	Kellev virus	Culex	pipiens	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.03898275762643446	CMS001_042_Ra_S23	Kellev virus	Culex	tarsalis	502177.0
+III	ALCO	double stranded RNA	Virus	1	0.0073020388809862495	CMS001_043_Ra_S24	39|Toti-like	Culex	tarsalis	39756.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.032088667614983406	CMS001_043_Ra_S24	Kellev virus	Culex	tarsalis	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.07769315808868689	CMS001_044_Ra_S25	Kellev virus	Culex	pipiens	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.5757370283018868	CMS001_045_Ra_S2	128|Tombus-like	Culex	erythrothorax	137555.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.005717899602323596	CMS001_046_Ra_S3	Kellev virus	Culex	tarsalis	502177.0
+V	ALCO	single stranded RNA negative sense	Virus	8	0.0003123113119157176	CMS001_046_Ra_S3	Ūsinis virus	Culex	tarsalis	1566308.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.19824305101687748	CMS001_047_Ra_S4	128|Tombus-like	Culex	erythrothorax	137555.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.004171312137172735	CMS001_047_Ra_S4	Chimba virus	Culex	erythrothorax	12008.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.025446062124681385	CMS001_048_Ra_S5	63|Phenui-like	Culex	erythrothorax	2024603.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.07417281317574573	CMS001_049_Ra_S6	128|Tombus-like	Culex	erythrothorax	137555.0
+III	ALCO	double stranded RNA	Virus	10-12	0.01466275659824047	CMS001_049_Ra_S6	296|Reo-like	Culex	erythrothorax	1567403.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.018706122811694658	CMS001_049_Ra_S6	63|Phenui-like	Culex	erythrothorax	2024603.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.045113895553778253	CMS001_049_Ra_S6	Kellev virus	Culex	erythrothorax	502177.0
+III	ALCO	double stranded RNA	Virus	1	0.013331913156166232	CMS001_050_Ra_S23	42|Toti-like	Culex	erythrothorax	39756.0
+III	ALCO	double stranded RNA	Virus	1	0.0067458415437325805	CMS001_050_Ra_S23	55|Toti-like	Culex	erythrothorax	39756.0
+III	ALCO	double stranded RNA	Virus	1	0.021659589628046257	CMS001_051_Ra_S8	39|Toti-like	Culex	tarsalis	39756.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.06964383719922586	CMS001_051_Ra_S8	Kellev virus	Culex	tarsalis	502177.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.0661383405821345	CMS001_053_Ra_S8	Kellev virus	Culex	erythrothorax	502177.0
+III	ALCO	double stranded RNA	Virus	4	0.02463198394111743	CMS001_053_Ra_S8	Keturi virus	Culex	erythrothorax	2587491.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.08266646907725746	CMS001_056_Ra_S10	63|Phenui-like	Culex	erythrothorax	2024603.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.036590729175829007	CMS001_057_Ra_S11	128|Tombus-like	Culex	erythrothorax	137555.0
+III	ALCO	double stranded RNA	Virus	1	0.011758949775705867	CMS001_057_Ra_S11	42|Toti-like	Culex	erythrothorax	39756.0
+V	ALCO	single stranded RNA negative sense	Virus	3	0.0039636291670331605	CMS001_057_Ra_S11	76|Phasma-like	Culex	erythrothorax	2546221.0
+IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.015186915887850467	CMS001_058_Ra_S9	128|Tombus-like	Culex	erythrothorax	137555.0
+III	ALCO	double stranded RNA	Virus	1	0.009646440351841671	CMS001_058_Ra_S9	42|Toti-like	Culex	erythrothorax	39756.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.08018935192520996	CMS001_060_Ra_S12	24|Ifla-like			1111709.0
+IV	ALCO	single stranded RNA positive sense	Virus	1	0.0018222151798447156	CMS001_060_Ra_S12	98|Luteo-like			328429.0
+III	SAND	double stranded RNA	Virus	2	0.04015240406947864	CMS002_020a_Rb_S131_L004	1636|Partiti-like	Culiseta	particeps	37960.0
+IV	SAND	single stranded RNA positive sense	Virus	1	0.015667331666805395	CMS002_020a_Rb_S131_L004	25|Ifla-like	Culiseta	particeps	1111709.0
+III	SAND	double stranded RNA	Virus	2	0.006245452177718826	CMS002_020a_Rb_S131_L004	3256|Partiti-like	Culiseta	particeps	37960.0
+IV	SAND	single stranded RNA positive sense	Virus	1	0.0012055924453120176	CMS002_020a_Rb_S131_L004	Goras virus	Culiseta	particeps	502177.0
+V	SAND	single stranded RNA negative sense	Virus	1	0.022765290751843966	CMS002_020a_Rb_S131_L004	Gordis virus	Culiseta	particeps	2059674.0
+III	SAND	double stranded RNA	Virus	2	0.17964096749811034	CMS002_020b_Rb_S132_L004	1636|Partiti-like	Culiseta	particeps	37960.0
+IV	SAND	single stranded RNA positive sense	Virus	1	0.08448223733938019	CMS002_020b_Rb_S132_L004	Goras virus	Culiseta	particeps	502177.0
+III	SAND	double stranded RNA	Virus	2	0.1421597798192435	CMS002_020c_Rb_S133_L004	1636|Partiti-like	Culiseta	particeps	37960.0
+IV	SAND	single stranded RNA positive sense	Virus	1	0.12321630031861742	CMS002_020c_Rb_S133_L004	25|Ifla-like	Culiseta	particeps	1111709.0
+V	SAND	single stranded RNA negative sense	Virus	1	0.09388056185765116	CMS002_020c_Rb_S133_L004	Gordis virus	Culiseta	particeps	2059674.0
+III	SAND	double stranded RNA	Virus	2	0.04811718127427046	CMS002_020d_Rb_S134_L004	1636|Partiti-like	Culiseta	particeps	37960.0
+III	SAND	double stranded RNA	Virus	1	7.589460768812375e-05	CMS002_020d_Rb_S134_L004	22872|Toti-like	Culiseta	particeps	39756.0
+V	SAND	single stranded RNA negative sense	Virus	1	0.030142808353466485	CMS002_020d_Rb_S134_L004	Gordis virus	Culiseta	particeps	2059674.0
+III	SAND	double stranded RNA	Virus	2	0.12128564155953751	CMS002_020e_Rb_S135_L004	1636|Partiti-like	Culiseta	particeps	37960.0
+V	SAND	single stranded RNA negative sense	Virus	1	0.046672842931769085	CMS002_020e_Rb_S135_L004	Gordis virus	Culiseta	particeps	2059674.0
+III	SAND	double stranded RNA	Virus	2	0.027041743936584123	CMS002_021a_Rb_S136_L004	1636|Partiti-like	Culiseta	particeps	37960.0
+III	SAND	double stranded RNA	Virus	1	5.636158685138722e-05	CMS002_021a_Rb_S136_L004	6512|Toti-like	Culiseta	particeps	39756.0
+V	SAND	single stranded RNA negative sense	Virus	1	0.019263844951092686	CMS002_021a_Rb_S136_L004	Gordis virus	Culiseta	particeps	2059674.0
+III	SAND	double stranded RNA	Virus	2	0.0005023259877257736	CMS002_022a_Rb_S137_L004	1636|Partiti-like	Culex	quinquefasciatus	37960.0
+III	WVAL 	double stranded RNA	Virus	2	0.012919233401779603	CMS002_026a_Rb_S146_L004	3110|Partiti-like	Aedes	albopictus	37960.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.04483230663928816	CMS002_026a_Rb_S146_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.025838466803559206	CMS002_026a_Rb_S146_L004	Astopletus virus	Aedes	albopictus	1566308.0
+III	WVAL 	double stranded RNA	Virus	2	0.005978910751168605	CMS002_026b_Rb_S147_L004	3110|Partiti-like	Aedes	albopictus	37960.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.024785302750298947	CMS002_026b_Rb_S147_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.038645504946189804	CMS002_026b_Rb_S147_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.03999683819460912	CMS002_026c_Rb_S148_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.02126314125365584	CMS002_026c_Rb_S148_L004	Astopletus virus	Aedes	albopictus	1566308.0
+III	WVAL 	double stranded RNA	Virus	2	0.014617759215543853	CMS002_026d_Rb_S149_L004	3110|Partiti-like	Aedes	albopictus	37960.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.059991828581804976	CMS002_026d_Rb_S149_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.023152351552569457	CMS002_026d_Rb_S149_L004	Astopletus virus	Aedes	albopictus	1566308.0
+III	WVAL 	double stranded RNA	Virus	2	0.01160443995963673	CMS002_026e_Rb_S150_L004	3110|Partiti-like	Aedes	albopictus	37960.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.0322401614530777	CMS002_026e_Rb_S150_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.018163471241170535	CMS002_026e_Rb_S150_L004	Astopletus virus	Aedes	albopictus	1566308.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1 or 2	0.18241939688885025	CMS002_028a_Rb_S154_L004	128|Tombus-like	Culex	erythrothorax	137555.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.005680659539138288	CMS002_028b_Rb_S155_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.0057308979995472475	CMS002_028d_Rb_S157_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1 or 2	0.6052424624081268	CMS002_028e_Rb_S158_L004	128|Tombus-like	Culex	erythrothorax	137555.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.002915107113925697	CMS002_028e_Rb_S158_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1	0.04832433829945383	CMS002_029a_Rb_S159_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1	0.07038710171401069	CMS002_029b_Rb_S160_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1 or 2	0.01199240207402844	CMS002_029c_Rb_S161_L004	128|Tombus-like	Culex	tarsalis	137555.0
+III	WVAL 	double stranded RNA	Virus	1	0.002813286102982699	CMS002_029c_Rb_S161_L004	56|Toti-like	Culex	tarsalis	39756.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1	0.05501822475486421	CMS002_029c_Rb_S161_L004	Kellev virus	Culex	tarsalis	502177.0
+III	WVAL 	double stranded RNA	Virus	1	0.0013476819869823902	CMS002_029d_Rb_S162_L004	49|Toti-like	Culex	tarsalis	39756.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1	0.02224507180982044	CMS002_029d_Rb_S162_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1	0.12286044638985816	CMS002_029e_Rb_S164_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.14062380071869657	CMS002_031a_Rb_S165_L004	Kellev virus	Culex	tarsalis	502177.0
+V	COAV	single stranded RNA negative sense	Virus	1	0.17959515575123386	CMS002_032a_Rb_S166_L004	2|Rhabdo-like	Culex	tarsalis	35303.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.10830955734284642	CMS002_032a_Rb_S166_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.13984397572955792	CMS002_033a_Rb_S167_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.18308358398187238	CMS002_034a_Rb_S168_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.16617512965179232	CMS002_036a_Rb_S170_L004	Kellev virus	Culex	tarsalis	502177.0
+V	COAV	single stranded RNA negative sense	Virus	1	0.053383547754177585	CMS002_037a_Rb_S171_L004	30|Rhabdo-like	Culex	tarsalis	35303.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.1344168499229665	CMS002_037a_Rb_S171_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	COAV	single stranded RNA positive sense	Virus	1 or 2	0.07513864607817715	CMS002_038a_Rb_S172_L004	128|Tombus-like	Culex	tarsalis	137555.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.07710018486143758	CMS002_038a_Rb_S172_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.1149387745406606	CMS002_039a_Rb_S173_L004	Kellev virus	Culex	tarsalis	502177.0
+III	COAV	double stranded RNA	Virus	1	0.0009409712659506105	CMS002_040a_Rb_S174_L004	57|Toti-like	Culex	tarsalis	39756.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.13953054714036536	CMS002_040a_Rb_S174_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.09640390592985718	CMS002_041a_Rb_S176_L004	Kellev virus	Culex	tarsalis	502177.0
+IV	COAV	single stranded RNA positive sense	Virus	1	0.005105279134586196	CMS002_042a_Rb_S177_L004	Kellev virus	Culex	tarsalis	502177.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.054027179317202516	CMS002_044d_Rb_S181_L004	70|Phasma-like	Aedes	aegypti	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.03563142194232682	CMS002_044d_Rb_S181_L004	Astopletus virus	Aedes	aegypti	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.02602934216753431	CMS002_044e_Rb_S182_L004	70|Phasma-like	Aedes	aegypti	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.02129673450070989	CMS002_044e_Rb_S182_L004	Astopletus virus	Aedes	aegypti	1566308.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1	0.00946521533364884	CMS002_044e_Rb_S182_L004	Kellev virus	Aedes	aegypti	502177.0
+III	WVAL 	double stranded RNA	Virus	2	0.016668531155610247	CMS002_045a_Rb_S183_L004	3110|Partiti-like	Aedes	albopictus	37960.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.018682179214677255	CMS002_045a_Rb_S183_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.025058731401722788	CMS002_045a_Rb_S183_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.03010654091345734	CMS002_045b_Rb_S184_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.07062701947428172	CMS002_045b_Rb_S184_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.0061070735512347325	CMS002_045c_Rb_S185_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.009341349263726647	CMS002_045c_Rb_S185_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.005899721264336157	CMS002_045d_Rb_S186_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.005877686824506704	CMS002_045d_Rb_S186_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.016965895339935297	CMS002_045e_Rb_S188_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.003457387696638925	CMS002_045e_Rb_S188_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.021338950453338217	CMS002_045f_Rb_S189_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.01923253045150655	CMS002_045f_Rb_S189_L004	Astopletus virus	Aedes	albopictus	1566308.0
+III	WVAL 	double stranded RNA	Virus	2	0.0020332642023504536	CMS002_045g_Rb_S190_L004	3110|Partiti-like	Aedes	albopictus	37960.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.009749501850270424	CMS002_045g_Rb_S190_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.00591679882883982	CMS002_045g_Rb_S190_L004	Astopletus virus	Aedes	albopictus	1566308.0
+IV	WVAL 	single stranded RNA positive sense	Virus	1	0.0004879834085641088	CMS002_045g_Rb_S190_L004	Kellev virus	Aedes	albopictus	502177.0
+V	WVAL 	single stranded RNA negative sense	Virus	1	0.03943545611015491	CMS002_047a_Rb_S193_L004	4|Rhabdo-like	Culex	erythrothorax	35303.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.03987287332526643	CMS002_047f_Rb_S198_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.05773060340660828	CMS002_047h_Rb_S1_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
+V	WVAL 	single stranded RNA negative sense	Virus	3	0.0035767372723894465	CMS002_047i_Rb_S2_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
+IV	PLCR	single stranded RNA positive sense	Virus	1	0.027766665714204074	CMS002_051a_Rb_S6_L004	Kellev virus	Culex	pipiens	502177.0
+IV	PLCR	single stranded RNA positive sense	Virus	3	5.349778227375302e-05	CMS002_053a_Rb_S7_L004	1399|Botourmia-like			2587553.0
+IV	PLCR	single stranded RNA positive sense	Virus	3	7.94361009519363e-05	CMS002_053a_Rb_S7_L004	1438|Botourmia-like			2587553.0
+IV	PLCR	single stranded RNA positive sense	Virus	3	0.00013941846289523512	CMS002_053a_Rb_S7_L004	1479|Botourmia-like			1629669.0
+IV	PLCR	single stranded RNA positive sense	Virus	3	8.267839078670921e-05	CMS002_053a_Rb_S7_L004	3061|Botourmia-like			2587553.0
+IV	PLCR	single stranded RNA positive sense	Virus	3	5.9171789484605606e-05	CMS002_053a_Rb_S7_L004	4269|Botourmia-like			1629669.0
+III	PLCR	double stranded RNA	Virus	1	0.0010650922107229008	CMS002_053a_Rb_S7_L004	42|Toti-like			39756.0
+V	PLCR	single stranded RNA negative sense	Virus	1	0.004895857650507094	CMS002_053a_Rb_S7_L004	4|Rhabdo-like			35303.0
+III	PLCR	double stranded RNA	Virus	1	0.003278765595414105	CMS002_053a_Rb_S7_L004	55|Toti-like			39756.0
+V	PLCR	single stranded RNA negative sense	Virus	3	0.000705198039063108	CMS002_053a_Rb_S7_L004	76|Phasma-like			2546221.0
+IV	PLCR	single stranded RNA positive sense	Virus	3	6.646694161284466e-05	CMS002_053a_Rb_S7_L004	9191|Botourmia-like			2587553.0
+IV	PLCR	single stranded RNA positive sense	Virus	1	0.03744875698223575	CMS002_056a_Rb_S9_L004	1|Flavi-like	Culex	tarsalis	38144.0
 	ALCO		Metazoa		0.0016415766597645829	CMS001_003_Ra_S2	Boreoeutheria	Culiseta	particeps	1437010.0
 	ALCO		Metazoa		0.0008532475210112202	CMS001_009_Ra_S13	Boreoeutheria	Culiseta	particeps	1437010.0
 	ALCO		Metazoa		0.00046909246783077087	CMS001_025_Ra_S7	Boreoeutheria	Culiseta	particeps	1437010.0

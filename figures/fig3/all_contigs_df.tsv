@@ -114,8 +114,8 @@ III	ALCO	double stranded RNA	Virus	2	0.012314240634058636	CMS001_025_Ra_S7	1636|
 IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.0009320074854144497	CMS001_025_Ra_S7	312|Tombus-like	Culiseta	particeps	137555.0
 V	ALCO	single stranded RNA negative sense	Virus	1	0.00998789124133123	CMS001_025_Ra_S7	Gordis virus	Culiseta	particeps	2059674.0
 IV	ALCO	single stranded RNA positive sense	Virus	1	0.000717619710621385	CMS001_026_Ra_S18	416|Levi-like	Culiseta	incidens	39683.0
+V	ALCO	single stranded RNA negative sense	Virus	8	0.007527122524136558	CMS001_027_Ra_S16	Astopletus virus	Culex	tarsalis	1566308.0
 IV	ALCO	single stranded RNA positive sense	Virus	1	0.020317010052752067	CMS001_027_Ra_S16	Kellev virus	Culex	tarsalis	502177.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.007527122524136558	CMS001_027_Ra_S16	Ūsinis virus	Culex	tarsalis	1566308.0
 IV	ALCO	single stranded RNA positive sense	Virus	1	0.0399313009875483	CMS001_028_Ra_S17	Kellev virus	Culex	tarsalis	502177.0
 V	ALCO	single stranded RNA negative sense	Virus	1	0.04918989928477595	CMS001_031_Ra_S19	30|Rhabdo-like	Culex	tarsalis	35303.0
 IV	ALCO	single stranded RNA positive sense	Virus	1	0.05149795650270034	CMS001_031_Ra_S19	Kellev virus	Culex	tarsalis	502177.0
@@ -138,8 +138,8 @@ III	ALCO	double stranded RNA	Virus	1	0.0073020388809862495	CMS001_043_Ra_S24	39|
 IV	ALCO	single stranded RNA positive sense	Virus	1	0.032088667614983406	CMS001_043_Ra_S24	Kellev virus	Culex	tarsalis	502177.0
 IV	ALCO	single stranded RNA positive sense	Virus	1	0.07769315808868689	CMS001_044_Ra_S25	Kellev virus	Culex	pipiens	502177.0
 IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.5757370283018868	CMS001_045_Ra_S2	128|Tombus-like	Culex	erythrothorax	137555.0
+V	ALCO	single stranded RNA negative sense	Virus	8	0.0003123113119157176	CMS001_046_Ra_S3	Astopletus virus	Culex	tarsalis	1566308.0
 IV	ALCO	single stranded RNA positive sense	Virus	1	0.005717899602323596	CMS001_046_Ra_S3	Kellev virus	Culex	tarsalis	502177.0
-V	ALCO	single stranded RNA negative sense	Virus	8	0.0003123113119157176	CMS001_046_Ra_S3	Ūsinis virus	Culex	tarsalis	1566308.0
 IV	ALCO	single stranded RNA positive sense	Virus	1 or 2	0.19824305101687748	CMS001_047_Ra_S4	128|Tombus-like	Culex	erythrothorax	137555.0
 IV	ALCO	single stranded RNA positive sense	Virus	1	0.004171312137172735	CMS001_047_Ra_S4	Chimba virus	Culex	erythrothorax	12008.0
 V	ALCO	single stranded RNA negative sense	Virus	3	0.025446062124681385	CMS001_048_Ra_S5	63|Phenui-like	Culex	erythrothorax	2024603.0
@@ -182,18 +182,18 @@ V	SAND	single stranded RNA negative sense	Virus	1	0.019263844951092686	CMS002_02
 III	SAND	double stranded RNA	Virus	2	0.0005023259877257736	CMS002_022a_Rb_S137_L004	1636|Partiti-like	Culex	quinquefasciatus	37960.0
 III	WVAL 	double stranded RNA	Virus	2	0.012919233401779603	CMS002_026a_Rb_S146_L004	3110|Partiti-like	Aedes	albopictus	37960.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.04483230663928816	CMS002_026a_Rb_S146_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.025838466803559206	CMS002_026a_Rb_S146_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.025838466803559206	CMS002_026a_Rb_S146_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 III	WVAL 	double stranded RNA	Virus	2	0.005978910751168605	CMS002_026b_Rb_S147_L004	3110|Partiti-like	Aedes	albopictus	37960.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.024785302750298947	CMS002_026b_Rb_S147_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.038645504946189804	CMS002_026b_Rb_S147_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.038645504946189804	CMS002_026b_Rb_S147_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.03999683819460912	CMS002_026c_Rb_S148_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.02126314125365584	CMS002_026c_Rb_S148_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.02126314125365584	CMS002_026c_Rb_S148_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 III	WVAL 	double stranded RNA	Virus	2	0.014617759215543853	CMS002_026d_Rb_S149_L004	3110|Partiti-like	Aedes	albopictus	37960.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.059991828581804976	CMS002_026d_Rb_S149_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.023152351552569457	CMS002_026d_Rb_S149_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.023152351552569457	CMS002_026d_Rb_S149_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 III	WVAL 	double stranded RNA	Virus	2	0.01160443995963673	CMS002_026e_Rb_S150_L004	3110|Partiti-like	Aedes	albopictus	37960.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.0322401614530777	CMS002_026e_Rb_S150_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.018163471241170535	CMS002_026e_Rb_S150_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.018163471241170535	CMS002_026e_Rb_S150_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 IV	WVAL 	single stranded RNA positive sense	Virus	1 or 2	0.18241939688885025	CMS002_028a_Rb_S154_L004	128|Tombus-like	Culex	erythrothorax	137555.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.005680659539138288	CMS002_028b_Rb_S155_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.0057308979995472475	CMS002_028d_Rb_S157_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
@@ -223,27 +223,27 @@ IV	COAV	single stranded RNA positive sense	Virus	1	0.13953054714036536	CMS002_04
 IV	COAV	single stranded RNA positive sense	Virus	1	0.09640390592985718	CMS002_041a_Rb_S176_L004	Kellev virus	Culex	tarsalis	502177.0
 IV	COAV	single stranded RNA positive sense	Virus	1	0.005105279134586196	CMS002_042a_Rb_S177_L004	Kellev virus	Culex	tarsalis	502177.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.054027179317202516	CMS002_044d_Rb_S181_L004	70|Phasma-like	Aedes	aegypti	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.03563142194232682	CMS002_044d_Rb_S181_L004	Astopletus virus	Aedes	aegypti	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.03563142194232682	CMS002_044d_Rb_S181_L004	Ūsinis virus	Aedes	aegypti	1566308.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.02602934216753431	CMS002_044e_Rb_S182_L004	70|Phasma-like	Aedes	aegypti	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.02129673450070989	CMS002_044e_Rb_S182_L004	Astopletus virus	Aedes	aegypti	1566308.0
 IV	WVAL 	single stranded RNA positive sense	Virus	1	0.00946521533364884	CMS002_044e_Rb_S182_L004	Kellev virus	Aedes	aegypti	502177.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.02129673450070989	CMS002_044e_Rb_S182_L004	Ūsinis virus	Aedes	aegypti	1566308.0
 III	WVAL 	double stranded RNA	Virus	2	0.016668531155610247	CMS002_045a_Rb_S183_L004	3110|Partiti-like	Aedes	albopictus	37960.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.018682179214677255	CMS002_045a_Rb_S183_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.025058731401722788	CMS002_045a_Rb_S183_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.025058731401722788	CMS002_045a_Rb_S183_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.03010654091345734	CMS002_045b_Rb_S184_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.07062701947428172	CMS002_045b_Rb_S184_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.07062701947428172	CMS002_045b_Rb_S184_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.0061070735512347325	CMS002_045c_Rb_S185_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.009341349263726647	CMS002_045c_Rb_S185_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.009341349263726647	CMS002_045c_Rb_S185_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.005899721264336157	CMS002_045d_Rb_S186_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.005877686824506704	CMS002_045d_Rb_S186_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.005877686824506704	CMS002_045d_Rb_S186_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.016965895339935297	CMS002_045e_Rb_S188_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.003457387696638925	CMS002_045e_Rb_S188_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.003457387696638925	CMS002_045e_Rb_S188_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.021338950453338217	CMS002_045f_Rb_S189_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.01923253045150655	CMS002_045f_Rb_S189_L004	Astopletus virus	Aedes	albopictus	1566308.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.01923253045150655	CMS002_045f_Rb_S189_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 III	WVAL 	double stranded RNA	Virus	2	0.0020332642023504536	CMS002_045g_Rb_S190_L004	3110|Partiti-like	Aedes	albopictus	37960.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.009749501850270424	CMS002_045g_Rb_S190_L004	70|Phasma-like	Aedes	albopictus	2546221.0
-V	WVAL 	single stranded RNA negative sense	Virus	8	0.00591679882883982	CMS002_045g_Rb_S190_L004	Astopletus virus	Aedes	albopictus	1566308.0
 IV	WVAL 	single stranded RNA positive sense	Virus	1	0.0004879834085641088	CMS002_045g_Rb_S190_L004	Kellev virus	Aedes	albopictus	502177.0
+V	WVAL 	single stranded RNA negative sense	Virus	8	0.00591679882883982	CMS002_045g_Rb_S190_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 V	WVAL 	single stranded RNA negative sense	Virus	1	0.03943545611015491	CMS002_047a_Rb_S193_L004	4|Rhabdo-like	Culex	erythrothorax	35303.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.03987287332526643	CMS002_047f_Rb_S198_L004	76|Phasma-like	Culex	erythrothorax	2546221.0
 V	WVAL 	single stranded RNA negative sense	Virus	3	0.05773060340660828	CMS002_047h_Rb_S1_L004	76|Phasma-like	Culex	erythrothorax	2546221.0

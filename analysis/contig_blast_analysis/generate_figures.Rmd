@@ -94,7 +94,7 @@ curated_virus_wolbachia_df %<>% filter(., sci_name %in% subset_virus_wolbachia)
 ```
 
 
-# Plot results
+# Plot virus and wolbachia results
 
 
 ```{r plot_color_palette, message=FALSE}
@@ -110,7 +110,7 @@ collected_by_colors <- c(PLCR=rgb(0.28098424626331703, 0.63955403192370541, 0.39
 color_palette <- read_tsv(file.path(fig_dir, "virus_color_scheme.tsv"), col_names = c("id", "sci_name", "color")) %>% 
   filter(!duplicated(sci_name)) %>%
   with(setNames(color, sci_name)) %>%
-  c(., c(Wolbachieae="gray10", "Luteo-Sobemo"="gray60")) %>%
+  c(., c(Wolbachieae="gray10")) %>%#, "Luteo-Sobemo"="gray60")) %>%
   c(., collected_by_colors) 
 
 
@@ -145,7 +145,7 @@ base_plot <-
         axis.title.y=element_text(angle=0, vjust=0.5),
         text=element_text(size=14),
         axis.line=element_line(size=.2),
-        plot.margin=unit(c(-.1, 0, 0, 0), "lines"))
+        plot.margin=unit(c(-.1, 0, 0.5, 0), "lines"))
 plot_grob <- ggplotGrob(base_plot)
 plot_grob$heights[filter(plot_grob$layout, grepl("panel-2-2", name))$t] <- unit(2, "null")
 grid.draw(plot_grob)
@@ -154,7 +154,7 @@ grid.draw(plot_grob)
 ```{r plot_legends}
 collection_site_plot <- ggplot(curated_virus_wolbachia_df, aes(x=sample_short, y=read_prop, fill=collected_by)) + 
   theme_bw() + 
-  geom_bar(stat="identity") +
+  geom_bar(stat="identity",) +
   scale_fill_manual(breaks=names(collected_by_colors), 
                     labels=collected_by_dict[names(collected_by_colors)], 
                     values=collected_by_colors) +
@@ -192,7 +192,7 @@ curated_virus_wolbachia_facet_df <-
   ungroup() %>%
   mutate(sample_id=1:length(sample_short))
 
-#strip_widths <- plot_grob$widths[plot_grob$layout$l[grep("strip-t", plot_grob$layout$name)]] %>% gsub("null", "", .) %>% as.numeric() %>% `/`(.[4])
+strip_widths <- plot_grob$widths[plot_grob$layout$l[grep("strip-t", plot_grob$layout$name)]] %>% gsub("null", "", .) %>% as.numeric() %>% `/`(.[4])
 
 curated_virus_wolbachia_species_labels <- curated_virus_wolbachia_facet_df %>%
   group_by(species_label) %>%
@@ -233,7 +233,86 @@ full_plot <- arrangeGrob(main_plot_grob, legends_grob, nrow=1, widths=c(20, 5))
 ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=unit(23, "in"), height=unit(5, "in"))
 ```
 
-## Save output
+# Plot prevalence vs abundance of viruses
+
+```{r prev_abundance}
+curated_virus_df <- filter(curated_virus_wolbachia_df, group=="Virus") %>%
+  left_join(., select(metadata, NewIDseqName, collection_lat, collection_long), by=c("sample"="NewIDseqName"))
+viral_bulk_abundance <- curated_virus_df %>%
+  group_by(ska_genus, ska_species, collection_lat, collection_long, sci_name) %>%
+  summarize(bulk_abundance=mean(read_prop), infected_mosquitos=n()) %>%
+  ungroup()
+viral_bulk_abundance <- curated_virus_df %>%
+  group_by(ska_genus, ska_species, collection_lat, collection_long) %>%
+  summarize(num_mosquitos=n_distinct(sample_short)) %>%
+  ungroup() %>%
+  left_join(viral_bulk_abundance, .) %>% 
+  mutate(prevalence=infected_mosquitos/num_mosquitos)
+```
+```{r prev_abundance_vignettes}
+select_viruses_prev_abundance <- 
+  filter(viral_bulk_abundance, num_mosquitos>=10) %>%
+  filter(bulk_abundance>=0.1, bulk_abundance<=0.2) %>%
+  slice(c(which.min(prevalence), which.max(prevalence))) %>%
+  list(.) %>%
+  mapply(function (i, df) {
+    read_prop_df <- data.frame(mosquito_id=1:df$num_mosquitos[i], read_prop=0)
+    read_prop_vector <- left_join(df[i, ], curated_virus_df)$read_prop %>% sort(decreasing=TRUE)
+    read_prop_df[seq(read_prop_vector), "read_prop"] <- read_prop_vector
+    read_prop_df <- left_join(df[i, ] %>% select(-sci_name), curated_virus_df) %>%
+      slice(order(read_prop, decreasing=TRUE)) %>%
+      `[[`("sample_short") %>%
+      unique() %>%
+      mutate(read_prop_df, sample_short=.) %>%
+      mutate(sample_short=factor(as.character(sample_short), levels=unique(as.character(sample_short))))
+    cbind(read_prop_df, df[i, ])
+  }, 1:nrow(.[[1]]), ., SIMPLIFY=FALSE) %>%
+  do.call(what=rbind, .)
+```
+
+```{r prev_abundance_plot}
+prev_abundance_plot_df <- filter(viral_bulk_abundance, num_mosquitos>=10) %>%
+  left_join(., select_viruses_prev_abundance) %>% 
+  mutate(highlight=sci_name)
+prev_abundance_plot_df$highlight[is.na(prev_abundance_plot_df$mosquito_id)] <- "NA"
+prev_abundance_plot <- 
+  ggplot(prev_abundance_plot_df) +
+  theme_bw() +
+  geom_point(aes(x=bulk_abundance, y=prevalence, color=highlight)) +
+  geom_label(data=filter(select_viruses_prev_abundance, !duplicated(paste(ska_genus, ska_species, collection_lat, collection_long, sci_name))) %>%
+                           mutate(bulk_abundance=bulk_abundance-c(0.02, 0.095), prevalence=prevalence+c(0.13, -0.07)),
+             aes(x=bulk_abundance, y=prevalence, label=paste0(sci_name, "\ncollected at\n", round(collection_lat, 2), ", ", round(collection_long, 2)), fill=sci_name),
+             hjust=0.5, alpha=.75) +
+  scale_x_log10(labels=scales::percent) +
+  scale_y_continuous(labels=scales::percent) +
+  scale_color_manual(values=c("black", "indianred1", "skyblue2")) +
+  scale_fill_manual(values=c("indianred1", "skyblue2")) +
+  xlab("bulk abundance") + 
+  ylab("prevalence") +
+  ggtitle("A)") +
+  theme(legend.position="none", text=element_text(size=12))
+```
+
+
+```{r prev_abundance_vignettes_plot}
+select_virus_prev_abund_plot <- ggplot(select_viruses_prev_abundance, aes(x=sample_short, y=read_prop)) +
+  theme_bw() +
+  geom_bar(stat="identity") +
+  geom_hline(aes(yintercept=bulk_abundance), color="darkmagenta") +
+  facet_grid(.~paste0(sci_name, " collected at ", round(collection_lat, 2), ",", round(collection_long, 2)), scales="free_x", space="free") +
+  scale_y_continuous(labels=scales::percent) +
+  xlab("Sample") + ylab("% nonhost\nreads") +
+  ggtitle("B)") +
+  theme(axis.text.x=element_text(angle=90))
+```
+
+```{r prev_abundance_combined_plot}
+ggsave(file.path(fig_dir, "../supplementary/virus_prev_abundance.pdf"), arrangeGrob(prev_abundance_plot, select_virus_prev_abund_plot, ncol=1, heights=c(6, 4)),
+       width=unit(8, "in"), height=unit(6.5, "in"))
+```
+
+
+# Save output
 
 ```{r output}
 save.image(file="generate_figures.RData")

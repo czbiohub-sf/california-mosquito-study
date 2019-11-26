@@ -1,78 +1,5 @@
 baltimore_group	collected_by	family	genome_description	group	number_of_segments_conventional	read_prop	sample	sci_name	ska_genus	ska_species	taxid
-	WVAL 			Wolbachia		0.13418574514038922	CMS002_027b_Rb_S153_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	WVAL 			Wolbachia		0.1618537238901408	CMS002_046a_Rb_S191_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	WVAL 			Wolbachia		0.08863656763306697	CMS002_046b_Rb_S192_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	WVAL 			Wolbachia		0.14828542062478575	CMS002_027a_Rb_S152_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	WVAL 			Wolbachia		1.7278617710583154e-05	CMS002_027b_Rb_S153_L004	Wolbachieae	Culex	quinquefasciatus	363538.0
-	WVAL 			Wolbachia		5.183585313174946e-05	CMS002_027b_Rb_S153_L004	Wolbachieae	Culex	quinquefasciatus	263437.0
-	WVAL 			Wolbachia		7.307715729858108e-05	CMS002_046a_Rb_S191_L004	Wolbachieae	Culex	quinquefasciatus	263437.0
-	WVAL 			Wolbachia		3.365945606319002e-05	CMS002_046b_Rb_S192_L004	Wolbachieae	Culex	quinquefasciatus	263437.0
-	WVAL 			Wolbachia		0.0001948724194628829	CMS002_046a_Rb_S191_L004	Wolbachieae	Culex	quinquefasciatus	955.0
-	WVAL 			Wolbachia		0.00713030957523398	CMS002_027b_Rb_S153_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	WVAL 			Wolbachia		0.016351574423023017	CMS002_027a_Rb_S152_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	WVAL 			Wolbachia		0.0066256622617380185	CMS002_046a_Rb_S191_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	WVAL 			Wolbachia		0.003287406875504892	CMS002_046b_Rb_S192_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	SAND			Wolbachia		0.28752288241432983	CMS002_013a_Rb_S120_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	SAND			Wolbachia		0.10326642358789317	CMS002_001a_Rb_S116_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	SAND			Wolbachia		0.21965714285714286	CMS002_010a_Rb_S119_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	SAND			Wolbachia		0.046278953981839295	CMS002_022a_Rb_S137_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	SAND			Wolbachia		0.37832582889889477	CMS002_004a_Rb_S117_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	SAND			Wolbachia		0.012580791809143557	CMS002_023a_Rb_S138_L004	Wolbachieae	Culex	quinquefasciatus	570417.0
-	SAND			Wolbachia		0.0001261654533755567	CMS002_001a_Rb_S116_L004	Wolbachieae	Culex	quinquefasciatus	263437.0
-	SAND			Wolbachia		0.0008186655751125665	CMS002_004a_Rb_S117_L004	Wolbachieae	Culex	quinquefasciatus	263437.0
-	SAND			Wolbachia		0.00022857142857142857	CMS002_010a_Rb_S119_L004	Wolbachieae	Culex	quinquefasciatus	263437.0
-	SAND			Wolbachia		0.00010265008297548374	CMS002_013a_Rb_S120_L004	Wolbachieae	Culex	quinquefasciatus	263437.0
-	SAND			Wolbachia		6.84333886503225e-05	CMS002_013a_Rb_S120_L004	Wolbachieae	Culex	quinquefasciatus	955.0
-	SAND			Wolbachia		0.06118095238095238	CMS002_010a_Rb_S119_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	SAND			Wolbachia		0.05106426524764633	CMS002_004a_Rb_S117_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	SAND			Wolbachia		0.004617655593545376	CMS002_001a_Rb_S116_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	SAND			Wolbachia		0.0036036890395694542	CMS002_022a_Rb_S137_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	SAND			Wolbachia		0.0027375328602771134	CMS002_023a_Rb_S138_L004	Wolbachieae	Culex	quinquefasciatus	953.0
-	SAND			Wolbachia		0.0023096268669483846	CMS002_013a_Rb_S120_L004	Wolbachieae	Culex	quinquefasciatus	953.0
 	SAND			Wolbachia		0.002275410172623223	CMS002_013a_Rb_S120_L004	Wolbachieae	Culex	quinquefasciatus	952.0
-	PLCR			Wolbachia		0.09253231656281968	CMS002_054a_Rb_S8_L004	Wolbachieae	Culex	pipiens	570417.0
-	PLCR			Wolbachia		0.046728371771921226	CMS002_051a_Rb_S6_L004	Wolbachieae	Culex	pipiens	570417.0
-	PLCR			Wolbachia		0.0385350884995108	CMS002_057a_Rb_S10_L004	Wolbachieae	Culex	pipiens	570417.0
-	PLCR			Wolbachia		0.4397834912043302	CMS002_050a_Rb_S5_L004	Wolbachieae	Culex	pipiens	570417.0
-	PLCR			Wolbachia		0.0129191496931424	CMS002_057a_Rb_S10_L004	Wolbachieae	Culex	pipiens	953.0
-	PLCR			Wolbachia		0.10717185385656292	CMS002_050a_Rb_S5_L004	Wolbachieae	Culex	pipiens	953.0
-	PLCR			Wolbachia		0.0015011519535044274	CMS002_051a_Rb_S6_L004	Wolbachieae	Culex	pipiens	953.0
-	PLCR			Wolbachia		0.00034099011128677266	CMS002_054a_Rb_S8_L004	Wolbachieae	Culex	pipiens	953.0
-	ALCO			Wolbachia		7.997166718077024e-05	CMS001_059_Ra_S10	Wolbachieae	Culex	pipiens	1236908.0
-	ALCO			Wolbachia		0.4878842055291251	CMS001_041_Ra_S10	Wolbachieae	Culex	pipiens	570417.0
-	ALCO			Wolbachia		0.7497373818218194	CMS001_054_Ra_S11	Wolbachieae	Culex	pipiens	570417.0
-	ALCO			Wolbachia		0.42426265998887075	CMS001_004_Ra_S2	Wolbachieae	Culex	pipiens	570417.0
-	ALCO			Wolbachia		0.21730586877791866	CMS001_059_Ra_S10	Wolbachieae	Culex	pipiens	570417.0
-	ALCO			Wolbachia		0.23904753458673292	CMS001_030_Ra_S7	Wolbachieae	Culex	pipiens	570417.0
-	ALCO			Wolbachia		0.09244374339268034	CMS001_044_Ra_S25	Wolbachieae	Culex	pipiens	570417.0
-	ALCO			Wolbachia		0.011526471919151288	CMS001_029_Ra_S18	Wolbachieae	Culex	pipiens	570417.0
-	ALCO			Wolbachia		0.00011110774420977141	CMS001_041_Ra_S10	Wolbachieae	Culex	pipiens	263437.0
-	ALCO			Wolbachia		6.060422411442077e-05	CMS001_041_Ra_S10	Wolbachieae	Culex	pipiens	955.0
-	ALCO			Wolbachia		0.11984325553232568	CMS001_059_Ra_S10	Wolbachieae	Culex	pipiens	953.0
-	ALCO			Wolbachia		0.08720947850065153	CMS001_041_Ra_S10	Wolbachieae	Culex	pipiens	953.0
-	ALCO			Wolbachia		0.04622079935971187	CMS001_054_Ra_S11	Wolbachieae	Culex	pipiens	953.0
-	ALCO			Wolbachia		0.029115191986644404	CMS001_004_Ra_S2	Wolbachieae	Culex	pipiens	953.0
-	ALCO			Wolbachia		0.015636784152043844	CMS001_029_Ra_S18	Wolbachieae	Culex	pipiens	953.0
-	ALCO			Wolbachia		0.017351031161378015	CMS001_044_Ra_S25	Wolbachieae	Culex	pipiens	953.0
-	ALCO			Wolbachia		0.003044814946198416	CMS001_030_Ra_S7	Wolbachieae	Culex	pipiens	953.0
-	WVAL 			Wolbachia		0.09534597708589551	CMS002_045a_Rb_S183_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.04979114452798663	CMS002_026d_Rb_S149_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.2448210922787194	CMS002_026a_Rb_S146_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.0729368932038835	CMS002_026b_Rb_S147_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.047933100564679504	CMS002_026c_Rb_S148_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.00740493174720879	CMS002_045g_Rb_S190_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.02443879243613845	CMS002_026e_Rb_S150_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.001382644908637805	CMS002_045e_Rb_S188_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.0017512649564123454	CMS002_045d_Rb_S186_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.00042057008274716377	CMS002_045c_Rb_S185_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.0005440414507772021	CMS002_045b_Rb_S184_L004	Wolbachieae	Aedes	albopictus	1116230.0
-	WVAL 			Wolbachia		0.00016587415680636956	CMS002_026e_Rb_S150_L004	Wolbachieae	Aedes	albopictus	66084.0
-	WVAL 			Wolbachia		0.17494194404511773	CMS002_026e_Rb_S150_L004	Wolbachieae	Aedes	albopictus	953.0
-	WVAL 			Wolbachia		0.06307851640882906	CMS002_045a_Rb_S183_L004	Wolbachieae	Aedes	albopictus	953.0
-	WVAL 			Wolbachia		0.014965986394557823	CMS002_026d_Rb_S149_L004	Wolbachieae	Aedes	albopictus	953.0
-	WVAL 			Wolbachia		0.004741662924164726	CMS002_045g_Rb_S190_L004	Wolbachieae	Aedes	albopictus	953.0
-	WVAL 			Wolbachia		0.001917524287717315	CMS002_045d_Rb_S186_L004	Wolbachieae	Aedes	albopictus	953.0
-	WVAL 			Wolbachia		0.04780530204259018	CMS002_026a_Rb_S146_L004	Wolbachieae	Aedes	albopictus	953.0
 IV	ALCO	Tombusviridae	single stranded RNA positive sense	Virus	1 or 2	0.2714762241280532	CMS001_001_Ra_S1	128|Tombus-like	Culex	erythrothorax	137555.0
 III	ALCO	Reoviridae	double stranded RNA	Virus	10-12	0.012004990446610074	CMS001_001_Ra_S1	296|Reo-like	Culex	erythrothorax	1567403.0
 V	ALCO	Peribunyaviridae	single stranded RNA negative sense	Virus	3	4.653097072329486e-05	CMS001_001_Ra_S1	6823|Peribunya-like	Culex	erythrothorax	39718.0
@@ -522,292 +449,292 @@ IV	PLCR	Flaviviridae	single stranded RNA positive sense	Virus	1	0.03744875698223
 	WVAL 			Metazoa		4.2057008274716376e-05	CMS002_045c_Rb_S185_L004	Laurasiatheria	Aedes	albopictus	314145.0
 	WVAL 			Metazoa		0.0001670843776106934	CMS002_026d_Rb_S149_L004	Araneomorphae	Aedes	albopictus	6905.0
 	WVAL 			Metazoa		0.002294893861158921	CMS002_025c_Rb_S142_L004	Mus musculus	Aedes	aegypti	10090.0
-	SAND			Other Eukaryotes		0.0002350835302157899	CMS002_021a_Rb_S136_L004	Melampsora sp. Mel P	Culiseta	particeps	1495666.0
-	SAND			Other Eukaryotes		0.00011754176510789495	CMS002_021a_Rb_S136_L004	Melampsora sp. SAL 135	Culiseta	particeps	437599.0
-	SAND			Other Eukaryotes		0.00012204603395591878	CMS002_020c_Rb_S133_L004	Trematosphaeria heterospora	Culiseta	particeps	147495.0
-	SAND			Other Eukaryotes		0.00010848536351637225	CMS002_020c_Rb_S133_L004	Pleosporales	Culiseta	particeps	92860.0
-	SAND			Other Eukaryotes		0.0005686844433211172	CMS002_020b_Rb_S132_L004	Xylariaceae	Culiseta	particeps	37990.0
-	SAND			Other Eukaryotes		0.00010578758859710544	CMS002_021a_Rb_S136_L004	Xylariaceae	Culiseta	particeps	37990.0
-	SAND			Other Eukaryotes		0.000217012319065979	CMS002_020e_Rb_S135_L004	Pleurotus ostreatus	Culiseta	particeps	5322.0
-	SAND			Other Eukaryotes		0.00010578758859710546	CMS002_021a_Rb_S136_L004	Pucciniales	Culiseta	particeps	5258.0
-	SAND			Other Eukaryotes		0.0002786343203180146	CMS002_020d_Rb_S134_L004	Pseudomicrostroma juglandis	Culiseta	particeps	5033.0
-	SAND			Other Eukaryotes		9.571258015928588e-05	CMS002_021a_Rb_S136_L004	Fungi	Culiseta	particeps	4751.0
-	SAND			Other Eukaryotes		4.19792018242482e-05	CMS002_021a_Rb_S136_L004	Salicaceae	Culiseta	particeps	3688.0
-	SAND			Other Eukaryotes		0.0001085061595329895	CMS002_020e_Rb_S135_L004	Cannabaceae	Culiseta	particeps	3481.0
-	SAND			Other Eukaryotes		0.0007632044886772471	CMS002_020a_Rb_S131_L004	Eukaryota	Culiseta	particeps	2759.0
-	ALCO			Other Eukaryotes		0.16595664283668235	CMS001_009_Ra_S13	Lachancea thermotolerans CBS 6340	Culiseta	particeps	559295.0
-	ALCO			Other Eukaryotes		0.054522516592616976	CMS001_009_Ra_S13	Lachancea thermotolerans	Culiseta	particeps	381046.0
-	ALCO			Other Eukaryotes		0.0013007072595723923	CMS001_008_Ra_S3	Lachancea thermotolerans	Culiseta	particeps	381046.0
-	ALCO			Other Eukaryotes		0.0005850840144076938	CMS001_009_Ra_S13	Lachancea	Culiseta	particeps	300275.0
-	ALCO			Other Eukaryotes		0.0009624483391700297	CMS001_025_Ra_S7	Microbotryomycetes	Culiseta	particeps	162481.0
-	ALCO			Other Eukaryotes		0.00022364038625889568	CMS001_014_Ra_S5	Microbotryomycetes	Culiseta	particeps	162481.0
-	ALCO			Other Eukaryotes		0.00965388623772695	CMS001_009_Ra_S13	Salix interior	Culiseta	particeps	75712.0
-	ALCO			Other Eukaryotes		0.0005972732647078541	CMS001_009_Ra_S13	Hanseniaspora vineae	Culiseta	particeps	56409.0
-	ALCO			Other Eukaryotes		0.0003412990084044881	CMS001_009_Ra_S13	Hanseniaspora osmophila	Culiseta	particeps	56408.0
-	ALCO			Other Eukaryotes		0.014803844489544672	CMS001_009_Ra_S13	Saccharomycetaceae	Culiseta	particeps	4893.0
-	ALCO			Other Eukaryotes		0.00295359436889461	CMS001_003_Ra_S2	Eukaryota	Culiseta	particeps	2759.0
-	ALCO			Other Eukaryotes		0.002465924179605994	CMS001_008_Ra_S3	Eukaryota	Culiseta	particeps	2759.0
-	ALCO			Other Eukaryotes		0.002894946946288069	CMS001_009_Ra_S13	Eukaryota	Culiseta	particeps	2759.0
-	ALCO			Other Eukaryotes		0.0030697760644707505	CMS001_016_Ra_S6	Eukaryota	Culiseta	inornata	2759.0
-	ALCO			Other Eukaryotes		0.00024195733808214938	CMS001_005_Ra_S3	Ostreococcus lucimarinus CCE9901	Culiseta	incidens	436017.0
-	ALCO			Other Eukaryotes		0.0023373078858735627	CMS001_005_Ra_S3	Eukaryota	Culiseta	incidens	2759.0
-	WVAL 			Other Eukaryotes		0.0013067535219558138	CMS002_029a_Rb_S159_L004	unclassified Melampsora	Culex	tarsalis	2629660.0
-	WVAL 			Other Eukaryotes		0.00018187942068036378	CMS002_029b_Rb_S160_L004	unclassified Melampsora	Culex	tarsalis	2629660.0
-	WVAL 			Other Eukaryotes		0.00014146177164028293	CMS002_029b_Rb_S160_L004	Wickerhamiella sp.	Culex	tarsalis	1869267.0
-	WVAL 			Other Eukaryotes		0.0001511902028748537	CMS002_029e_Rb_S164_L004	Cenchrinae	Culex	tarsalis	1293361.0
-	WVAL 			Other Eukaryotes		0.00036375884136072756	CMS002_029b_Rb_S160_L004	Sordariomycetidae	Culex	tarsalis	222544.0
-	WVAL 			Other Eukaryotes		0.09563427701263835	CMS002_029d_Rb_S162_L004	Amblyospora	Culex	tarsalis	33687.0
-	WVAL 			Other Eukaryotes		0.00037723139104075447	CMS002_029b_Rb_S160_L004	Melampsora	Culex	tarsalis	5260.0
-	WVAL 			Other Eukaryotes		0.00015696739002472236	CMS002_029a_Rb_S159_L004	Melampsora	Culex	tarsalis	5260.0
-	PLCR			Other Eukaryotes		2.9846811241304007e-05	CMS002_056a_Rb_S9_L004	Albugo laibachii Nc14	Culex	tarsalis	890382.0
-	PLCR			Other Eukaryotes		0.001353055442939115	CMS002_056a_Rb_S9_L004	uncultured Cantharellales	Culex	tarsalis	465787.0
-	PLCR			Other Eukaryotes		0.00029846811241304006	CMS002_056a_Rb_S9_L004	Vuilleminia	Culex	tarsalis	47056.0
-	PLCR			Other Eukaryotes		0.0002984681124130401	CMS002_056a_Rb_S9_L004	Opisthokonta	Culex	tarsalis	33154.0
-	PLCR			Other Eukaryotes		0.0011192554215489004	CMS002_056a_Rb_S9_L004	Agaricomycotina	Culex	tarsalis	5302.0
-	PLCR			Other Eukaryotes		0.0001591829932869547	CMS002_056a_Rb_S9_L004	Tulasnellaceae	Culex	tarsalis	5237.0
-	PLCR			Other Eukaryotes		0.0005098830253722768	CMS002_056a_Rb_S9_L004	Basidiomycota	Culex	tarsalis	5204.0
-	COAV			Other Eukaryotes		0.00019480378929444953	CMS002_034a_Rb_S168_L004	uncultured Filobasidiella	Culex	tarsalis	1503101.0
-	COAV			Other Eukaryotes		0.00028138325120309377	CMS002_034a_Rb_S168_L004	Pentapetalae	Culex	tarsalis	1437201.0
-	COAV			Other Eukaryotes		0.0005565154132945348	CMS002_035a_Rb_S169_L004	South American lineages	Culex	tarsalis	886584.0
-	COAV			Other Eukaryotes		0.0011711922737346618	CMS002_042a_Rb_S177_L004	Tamarix pentandra	Culex	tarsalis	63103.0
-	COAV			Other Eukaryotes		0.00010118976679131748	CMS002_032a_Rb_S166_L004	Tamarix pentandra	Culex	tarsalis	63103.0
-	COAV			Other Eukaryotes		0.00017315892381728848	CMS002_034a_Rb_S168_L004	Helianthus	Culex	tarsalis	4231.0
-	COAV			Other Eukaryotes		5.396787562203598e-05	CMS002_032a_Rb_S166_L004	Helianthus	Culex	tarsalis	4231.0
-	COAV			Other Eukaryotes		0.00011141130267665655	CMS002_041a_Rb_S176_L004	Asteraceae	Culex	tarsalis	4210.0
-	COAV			Other Eukaryotes		0.00036074775795268436	CMS002_034a_Rb_S168_L004	Spinacia oleracea	Culex	tarsalis	3562.0
-	ALCO			Other Eukaryotes		0.000146504941489589	CMS001_033_Ra_S8	Ceraceosorus africanus	Culex	tarsalis	1698434.0
-	ALCO			Other Eukaryotes		4.2093410539663834e-05	CMS001_046_Ra_S3	Paratrypanosoma confusum	Culex	tarsalis	1470209.0
-	ALCO			Other Eukaryotes		0.0007077558242406369	CMS001_028_Ra_S17	Pentapetalae	Culex	tarsalis	1437201.0
-	ALCO			Other Eukaryotes		0.00011800935083618056	CMS001_002_Ra_S1	Microbotryomycetes	Culex	tarsalis	162481.0
-	ALCO			Other Eukaryotes		0.00012939958592132506	CMS001_036_Ra_S20	Pleosporales	Culex	tarsalis	92860.0
-	ALCO			Other Eukaryotes		0.000101615689462453	CMS001_032_Ra_S7	Selaginella moellendorffii	Culex	tarsalis	88036.0
-	ALCO			Other Eukaryotes		0.006440578000589796	CMS001_028_Ra_S17	Hanseniaspora guilliermondii	Culex	tarsalis	56406.0
-	ALCO			Other Eukaryotes		0.001321144205249189	CMS001_028_Ra_S17	Hanseniaspora valbyensis	Culex	tarsalis	53685.0
-	ALCO			Other Eukaryotes		0.0008542870974172054	CMS001_043_Ra_S24	Amblyospora californica	Culex	tarsalis	51588.0
-	ALCO			Other Eukaryotes		0.000146504941489589	CMS001_033_Ra_S8	Peniophora nuda	Culex	tarsalis	40464.0
-	ALCO			Other Eukaryotes		0.0004003299689440994	CMS001_036_Ra_S20	Xylariaceae	Culex	tarsalis	37990.0
-	ALCO			Other Eukaryotes		0.02450055647204616	CMS001_038_Ra_S22	Amblyospora	Culex	tarsalis	33687.0
-	ALCO			Other Eukaryotes		0.005337732919254658	CMS001_036_Ra_S20	Amblyospora	Culex	tarsalis	33687.0
-	ALCO			Other Eukaryotes		0.00034171483896688215	CMS001_043_Ra_S24	Amblyospora	Culex	tarsalis	33687.0
-	ALCO			Other Eukaryotes		0.0004954290769684459	CMS001_028_Ra_S17	Hanseniaspora uvarum	Culex	tarsalis	29833.0
-	ALCO			Other Eukaryotes		0.00014574338233954565	CMS001_027_Ra_S16	Plasmodium	Culex	tarsalis	5820.0
-	ALCO			Other Eukaryotes		0.0019815059445178335	CMS001_032_Ra_S7	Trypanosoma	Culex	tarsalis	5690.0
-	ALCO			Other Eukaryotes		0.0008002235545168174	CMS001_032_Ra_S7	Trypanosomatidae	Culex	tarsalis	5654.0
-	ALCO			Other Eukaryotes		0.001415511648481274	CMS001_028_Ra_S17	Fusarium	Culex	tarsalis	5506.0
-	ALCO			Other Eukaryotes		0.0001617494824016563	CMS001_036_Ra_S20	Diaporthales	Culex	tarsalis	5114.0
-	ALCO			Other Eukaryotes		0.00044885481366459625	CMS001_036_Ra_S20	Fungi	Culex	tarsalis	4751.0
-	ALCO			Other Eukaryotes		6.469979296066253e-05	CMS001_036_Ra_S20	Caryophyllales	Culex	tarsalis	3524.0
-	ALCO			Other Eukaryotes		3.2349896480331265e-05	CMS001_036_Ra_S20	Bacillariophyta	Culex	tarsalis	2836.0
-	ALCO			Other Eukaryotes		0.01653629697452858	CMS001_038_Ra_S22	Eukaryota	Culex	tarsalis	2759.0
-	ALCO			Other Eukaryotes		0.0013565319964612206	CMS001_028_Ra_S17	Eukaryota	Culex	tarsalis	2759.0
-	ALCO			Other Eukaryotes		0.004031605848861283	CMS001_036_Ra_S20	Eukaryota	Culex	tarsalis	2759.0
-	ALCO			Other Eukaryotes		0.0011841649815088084	CMS001_027_Ra_S16	Eukaryota	Culex	tarsalis	2759.0
-	ALCO			Other Eukaryotes		0.005445100325363058	CMS001_033_Ra_S8	Eukaryota	Culex	tarsalis	2759.0
-	WVAL 			Other Eukaryotes		0.0003897448389257658	CMS002_046a_Rb_S191_L004	fabids	Culex	quinquefasciatus	91835.0
-	SAND			Other Eukaryotes		0.0012279983626688497	CMS002_004a_Rb_S117_L004	Acrogymnospermae	Culex	quinquefasciatus	1437180.0
-	SAND			Other Eukaryotes		0.0018419975440032745	CMS002_004a_Rb_S117_L004	Plasmodium sp. type B	Culex	quinquefasciatus	1350013.0
-	SAND			Other Eukaryotes		0.00011859348131164391	CMS002_023a_Rb_S138_L004	Selaginella moellendorffii	Culex	quinquefasciatus	88036.0
-	SAND			Other Eukaryotes		9.4833922093933e-05	CMS002_022a_Rb_S137_L004	Selaginella moellendorffii	Culex	quinquefasciatus	88036.0
-	SAND			Other Eukaryotes		0.005525992632009824	CMS002_004a_Rb_S117_L004	Plasmodium relictum	Culex	quinquefasciatus	85471.0
-	SAND			Other Eukaryotes		0.012279983626688497	CMS002_004a_Rb_S117_L004	Podocarpus macrophyllus	Culex	quinquefasciatus	58043.0
-	SAND			Other Eukaryotes		0.17887842816209576	CMS002_004a_Rb_S117_L004	Plasmodium	Culex	quinquefasciatus	5820.0
-	SAND			Other Eukaryotes		0.001739371059237444	CMS002_023a_Rb_S138_L004	Melampsora	Culex	quinquefasciatus	5260.0
-	PLCR			Other Eukaryotes		0.00046498651539105364	CMS002_054a_Rb_S8_L004	50 kb inversion clade	Culex	pipiens	2231393.0
-	PLCR			Other Eukaryotes		0.001045842774969496	CMS002_049a_Rb_S4_L004	Hyphopichia pseudoburtonii	Culex	pipiens	717741.0
-	PLCR			Other Eukaryotes		0.0014008716534732722	CMS002_057a_Rb_S10_L004	leotiomyceta	Culex	pipiens	716546.0
-	PLCR			Other Eukaryotes		0.00019266121328399065	CMS002_051a_Rb_S6_L004	Dikarya	Culex	pipiens	451864.0
-	PLCR			Other Eukaryotes		0.0031130481188294938	CMS002_057a_Rb_S10_L004	Microbotryomycetes	Culex	pipiens	162481.0
-	PLCR			Other Eukaryotes		0.0003486142583231654	CMS002_049a_Rb_S4_L004	Microbotryomycetes	Culex	pipiens	162481.0
-	PLCR			Other Eukaryotes		0.0010673307835986836	CMS002_057a_Rb_S10_L004	Agaricales	Culex	pipiens	5338.0
-	PLCR			Other Eukaryotes		0.001200747131548519	CMS002_057a_Rb_S10_L004	Tulasnella	Culex	pipiens	5240.0
-	PLCR			Other Eukaryotes		0.0006225254612913667	CMS002_049a_Rb_S4_L004	Basidiomycota	Culex	pipiens	5204.0
-	PLCR			Other Eukaryotes		0.0008894423196655697	CMS002_057a_Rb_S10_L004	Basidiomycota	Culex	pipiens	5204.0
-	ALCO			Other Eukaryotes		0.0046020709319193635	CMS001_054_Ra_S11	Brassiceae	Culex	pipiens	981071.0
-	ALCO			Other Eukaryotes		0.0015837900346925434	CMS001_029_Ra_S18	Trypanosoma bennetti	Culex	pipiens	71803.0
-	ALCO			Other Eukaryotes		0.006925657396385671	CMS001_040_Ra_S21	Plasmodium	Culex	pipiens	5820.0
-	ALCO			Other Eukaryotes		0.06859284139333494	CMS001_059_Ra_S10	Trypanosoma	Culex	pipiens	5690.0
-	ALCO			Other Eukaryotes		0.0014078133641711498	CMS001_029_Ra_S18	Trypanosoma	Culex	pipiens	5690.0
-	ALCO			Other Eukaryotes		0.001206697169289557	CMS001_029_Ra_S18	Trypanosomatidae	Culex	pipiens	5654.0
-	ALCO			Other Eukaryotes		0.018383272472612677	CMS001_054_Ra_S11	Brassica	Culex	pipiens	3705.0
-	ALCO			Other Eukaryotes		0.004581234077069838	CMS001_059_Ra_S10	Eukaryota	Culex	pipiens	2759.0
-	ALCO			Other Eukaryotes		0.0032524266941405815	CMS001_041_Ra_S10	Eukaryota	Culex	pipiens	2759.0
-	WVAL 			Other Eukaryotes		0.0016497396504614116	CMS002_047b_Rb_S194_L004	Sporidiobolaceae	Culex	erythrothorax	1799696.0
-	WVAL 			Other Eukaryotes		0.010654568575896617	CMS002_047b_Rb_S194_L004	Monomorphina parapyrum	Culex	erythrothorax	1664066.0
-	WVAL 			Other Eukaryotes		0.00012361448761794884	CMS002_047g_Rb_S200_L004	Hemiamphisiella terricola qingdaoensis	Culex	erythrothorax	1590123.0
-	WVAL 			Other Eukaryotes		0.0005684708135116536	CMS002_047c_Rb_S195_L004	Pentapetalae	Culex	erythrothorax	1437201.0
-	WVAL 			Other Eukaryotes		9.835501241732032e-05	CMS002_047j_Rb_S3_L004	Pentapetalae	Culex	erythrothorax	1437201.0
-	WVAL 			Other Eukaryotes		0.0056248691021153095	CMS002_047c_Rb_S195_L004	Albugo laibachii Nc14	Culex	erythrothorax	890382.0
-	WVAL 			Other Eukaryotes		0.00022832961663457369	CMS002_028d_Rb_S157_L004	Albugo laibachii Nc14	Culex	erythrothorax	890382.0
-	WVAL 			Other Eukaryotes		9.889159009435905e-05	CMS002_047g_Rb_S200_L004	Albugo laibachii Nc14	Culex	erythrothorax	890382.0
-	WVAL 			Other Eukaryotes		0.0009773708723533694	CMS002_047c_Rb_S195_L004	leotiomyceta	Culex	erythrothorax	716546.0
-	WVAL 			Other Eukaryotes		0.0010960484568791464	CMS002_047g_Rb_S200_L004	leotiomyceta	Culex	erythrothorax	716546.0
-	WVAL 			Other Eukaryotes		0.0005283780167296831	CMS002_047d_Rb_S196_L004	leotiomyceta	Culex	erythrothorax	716546.0
-	WVAL 			Other Eukaryotes		0.00026927564850552014	CMS002_047c_Rb_S195_L004	Pleosporineae	Culex	erythrothorax	715340.0
-	WVAL 			Other Eukaryotes		0.0007445428394156467	CMS002_028c_Rb_S156_L004	Fusarium sambucinum species complex	Culex	erythrothorax	569360.0
-	WVAL 			Other Eukaryotes		0.0013747830420511762	CMS002_047b_Rb_S194_L004	Monomorphina pseudonordstedti	Culex	erythrothorax	298287.0
-	WVAL 			Other Eukaryotes		0.001907511470846007	CMS002_047b_Rb_S194_L004	Monomorphina	Culex	erythrothorax	298266.0
-	WVAL 			Other Eukaryotes		0.0001196780660024534	CMS002_047c_Rb_S195_L004	Stichotrichia	Culex	erythrothorax	194286.0
-	WVAL 			Other Eukaryotes		0.00029919516500613347	CMS002_047c_Rb_S195_L004	Stemphylium lycopersici	Culex	erythrothorax	183478.0
-	WVAL 			Other Eukaryotes		0.0017528483786152498	CMS002_047b_Rb_S194_L004	Trifolieae	Culex	erythrothorax	163742.0
-	WVAL 			Other Eukaryotes		0.001186807487857663	CMS002_047c_Rb_S195_L004	Microbotryomycetes	Culex	erythrothorax	162481.0
-	WVAL 			Other Eukaryotes		0.0001360341510497302	CMS002_028e_Rb_S158_L004	Microbotryomycetes	Culex	erythrothorax	162481.0
-	WVAL 			Other Eukaryotes		0.000905826404839701	CMS002_047h_Rb_S1_L004	Microbotryomycetes	Culex	erythrothorax	162481.0
-	WVAL 			Other Eukaryotes		0.00023074704355350445	CMS002_047g_Rb_S200_L004	Microbotryomycetes	Culex	erythrothorax	162481.0
-	WVAL 			Other Eukaryotes		0.0012084770241990155	CMS002_047a_Rb_S193_L004	Dangeardinia pseudopertusa	Culex	erythrothorax	160059.0
-	WVAL 			Other Eukaryotes		0.00017478061391690638	CMS002_047e_Rb_S197_L004	Dangeardinia pseudopertusa	Culex	erythrothorax	160059.0
-	WVAL 			Other Eukaryotes		0.00023074704355350445	CMS002_047g_Rb_S200_L004	Agaricomycetes	Culex	erythrothorax	155619.0
-	WVAL 			Other Eukaryotes		0.00022949502897374742	CMS002_047j_Rb_S3_L004	Agaricomycetes	Culex	erythrothorax	155619.0
-	WVAL 			Other Eukaryotes		0.0016497396504614116	CMS002_047b_Rb_S194_L004	Pezizomycotina	Culex	erythrothorax	147538.0
-	WVAL 			Other Eukaryotes		0.0006702067329999485	CMS002_047b_Rb_S194_L004	Sterkiella histriomuscorum	Culex	erythrothorax	94289.0
-	WVAL 			Other Eukaryotes		0.00029506503725196096	CMS002_047j_Rb_S3_L004	Sterkiella histriomuscorum	Culex	erythrothorax	94289.0
-	WVAL 			Other Eukaryotes		0.00023580039496566156	CMS002_047a_Rb_S193_L004	Sterkiella histriomuscorum	Culex	erythrothorax	94289.0
-	WVAL 			Other Eukaryotes		0.0005499132168204705	CMS002_047b_Rb_S194_L004	Euglenales	Culex	erythrothorax	86650.0
-	WVAL 			Other Eukaryotes		0.002563449004114627	CMS002_047e_Rb_S197_L004	Pandora neoaphidis	Culex	erythrothorax	76017.0
-	WVAL 			Other Eukaryotes		0.00032911468150674685	CMS002_047c_Rb_S195_L004	Albugo candida	Culex	erythrothorax	65357.0
-	WVAL 			Other Eukaryotes		0.0014760294806969252	CMS002_047c_Rb_S195_L004	Albugo	Culex	erythrothorax	65356.0
-	WVAL 			Other Eukaryotes		7.287543806235546e-05	CMS002_028e_Rb_S158_L004	Tamarix pentandra	Culex	erythrothorax	63103.0
-	WVAL 			Other Eukaryotes		0.007835615989246519	CMS002_047j_Rb_S3_L004	Amblyospora	Culex	erythrothorax	33687.0
-	WVAL 			Other Eukaryotes		0.00010979283464512897	CMS002_047d_Rb_S196_L004	Opisthokonta	Culex	erythrothorax	33154.0
-	WVAL 			Other Eukaryotes		0.0003818154049788729	CMS002_028a_Rb_S154_L004	Cladosporium cladosporioides	Culex	erythrothorax	29917.0
-	WVAL 			Other Eukaryotes		3.2389083583269095e-05	CMS002_028e_Rb_S158_L004	Juglans nigra	Culex	erythrothorax	16719.0
-	WVAL 			Other Eukaryotes		0.00034113845483232095	CMS002_047f_Rb_S198_L004	Cladosporium	Culex	erythrothorax	5498.0
-	WVAL 			Other Eukaryotes		0.0005090872066384972	CMS002_028a_Rb_S154_L004	Pleurotus ostreatus	Culex	erythrothorax	5322.0
-	WVAL 			Other Eukaryotes		0.0002225060777123079	CMS002_047g_Rb_S200_L004	Pleurotus	Culex	erythrothorax	5320.0
-	WVAL 			Other Eukaryotes		0.0001036450674664611	CMS002_028e_Rb_S158_L004	Melampsora	Culex	erythrothorax	5260.0
-	WVAL 			Other Eukaryotes		0.002776171197223829	CMS002_028b_Rb_S155_L004	Melampsora	Culex	erythrothorax	5260.0
-	WVAL 			Other Eukaryotes		0.00036099046759546506	CMS002_028c_Rb_S156_L004	Melampsora	Culex	erythrothorax	5260.0
-	WVAL 			Other Eukaryotes		0.0015575425439861553	CMS002_047g_Rb_S200_L004	Hypocreales	Culex	erythrothorax	5125.0
-	WVAL 			Other Eukaryotes		0.0009263770423182757	CMS002_047d_Rb_S196_L004	Hypocreales	Culex	erythrothorax	5125.0
-	WVAL 			Other Eukaryotes		0.0007278962181747598	CMS002_047h_Rb_S1_L004	Hypocreales	Culex	erythrothorax	5125.0
-	WVAL 			Other Eukaryotes		0.00012361448761794884	CMS002_047g_Rb_S200_L004	Ascomycota	Culex	erythrothorax	4890.0
-	WVAL 			Other Eukaryotes		0.00027448208661282243	CMS002_047d_Rb_S196_L004	Medicago sativa	Culex	erythrothorax	3879.0
-	WVAL 			Other Eukaryotes		0.0005176150884798292	CMS002_047h_Rb_S1_L004	Medicago sativa	Culex	erythrothorax	3879.0
-	WVAL 			Other Eukaryotes		0.0008420546132563455	CMS002_047b_Rb_S194_L004	Medicago	Culex	erythrothorax	3877.0
-	WVAL 			Other Eukaryotes		0.00015957075466993786	CMS002_047c_Rb_S195_L004	Magnoliopsida	Culex	erythrothorax	3398.0
-	WVAL 			Other Eukaryotes		7.860013165522053e-05	CMS002_047a_Rb_S193_L004	Chlamydomonadales	Culex	erythrothorax	3042.0
-	ALCO			Other Eukaryotes		0.49513647508959124	CMS001_007_Ra_S12	Paratrypanosoma confusum	Culex	erythrothorax	1470209.0
-	ALCO			Other Eukaryotes		0.08413419816020724	CMS001_022_Ra_S6	Paratrypanosoma confusum	Culex	erythrothorax	1470209.0
-	ALCO			Other Eukaryotes		0.1660221478661401	CMS001_001_Ra_S1	Paratrypanosoma confusum	Culex	erythrothorax	1470209.0
-	ALCO			Other Eukaryotes		0.0001642521599159029	CMS001_037_Ra_S21	Pentapetalae	Culex	erythrothorax	1437201.0
-	ALCO			Other Eukaryotes		1.7372823191373035	CMS001_035_Ra_S20	Leishmaniinae	Culex	erythrothorax	1286322.0
-	ALCO			Other Eukaryotes		0.12874184109835696	CMS001_049_Ra_S6	Leishmaniinae	Culex	erythrothorax	1286322.0
-	ALCO			Other Eukaryotes		0.061134622963178724	CMS001_018_Ra_S14	Leishmaniinae	Culex	erythrothorax	1286322.0
-	ALCO			Other Eukaryotes		1.2334430546412112	CMS001_047_Ra_S4	Leishmaniinae	Culex	erythrothorax	1286322.0
-	ALCO			Other Eukaryotes		0.3738886755145877	CMS001_011_Ra_S4	Leishmaniinae	Culex	erythrothorax	1286322.0
-	ALCO			Other Eukaryotes		0.028564615008782848	CMS001_035_Ra_S20	Trypanosoma culicavium	Culex	erythrothorax	1052859.0
-	ALCO			Other Eukaryotes		0.00038325503980377344	CMS001_037_Ra_S21	leotiomyceta	Culex	erythrothorax	716546.0
-	ALCO			Other Eukaryotes		0.011371171317892581	CMS001_035_Ra_S20	Trypanosoma with unspecified subgenus	Culex	erythrothorax	669453.0
-	ALCO			Other Eukaryotes		0.00019285039309338458	CMS001_022_Ra_S6	Melampsora sp. SAL 135	Culex	erythrothorax	437599.0
-	ALCO			Other Eukaryotes		2.326582366832242e-05	CMS001_035_Ra_S20	Eimeriorina	Culex	erythrothorax	423054.0
-	ALCO			Other Eukaryotes		0.0004198870970250221	CMS001_045_Ra_S2	Sordariomycetidae	Culex	erythrothorax	222544.0
-	ALCO			Other Eukaryotes		0.0021154427319431852	CMS001_056_Ra_S10	Microbotryomycetes	Culex	erythrothorax	162481.0
-	ALCO			Other Eukaryotes		0.000719634014701095	CMS001_018_Ra_S14	Microbotryomycetes	Culex	erythrothorax	162481.0
-	ALCO			Other Eukaryotes		0.0005658394632608519	CMS001_007_Ra_S12	Microbotryomycetes	Culex	erythrothorax	162481.0
-	ALCO			Other Eukaryotes		0.006223607831276247	CMS001_035_Ra_S20	Leptomonas pyrrhocoris	Culex	erythrothorax	157538.0
-	ALCO			Other Eukaryotes		8.26326770921561e-05	CMS001_058_Ra_S9	Theileria youngi	Culex	erythrothorax	119759.0
-	ALCO			Other Eukaryotes		7.714015723735383e-05	CMS001_022_Ra_S6	Rhizopus oryzae	Culex	erythrothorax	64495.0
-	ALCO			Other Eukaryotes		0.0003718470469147024	CMS001_058_Ra_S9	Pucciniomycotina	Culex	erythrothorax	29000.0
-	ALCO			Other Eukaryotes		0.00012394901563823413	CMS001_058_Ra_S9	Theileria sp.	Culex	erythrothorax	27992.0
-	ALCO			Other Eukaryotes		0.00021900287988787053	CMS001_037_Ra_S21	Eimeria	Culex	erythrothorax	5800.0
-	ALCO			Other Eukaryotes		0.00015704430976117633	CMS001_035_Ra_S20	Eimeriidae	Culex	erythrothorax	5799.0
-	ALCO			Other Eukaryotes		0.09587845933715669	CMS001_035_Ra_S20	Trypanosoma	Culex	erythrothorax	5690.0
-	ALCO			Other Eukaryotes		1.12641986101915	CMS001_022_Ra_S6	Trypanosomatidae	Culex	erythrothorax	5654.0
-	ALCO			Other Eukaryotes		0.5244669218151995	CMS001_035_Ra_S20	Trypanosomatidae	Culex	erythrothorax	5654.0
-	ALCO			Other Eukaryotes		0.4273597998732074	CMS001_018_Ra_S14	Trypanosomatidae	Culex	erythrothorax	5654.0
-	ALCO			Other Eukaryotes		0.08657277901032122	CMS001_049_Ra_S6	Trypanosomatidae	Culex	erythrothorax	5654.0
-	ALCO			Other Eukaryotes		0.00039499670836076365	CMS001_047_Ra_S4	Trypanosomatidae	Culex	erythrothorax	5654.0
-	ALCO			Other Eukaryotes		0.000279189884019869	CMS001_035_Ra_S20	Kinetoplastida	Culex	erythrothorax	5653.0
-	ALCO			Other Eukaryotes		0.0017240140794483156	CMS001_052_Ra_S7	Cladosporium	Culex	erythrothorax	5498.0
-	ALCO			Other Eukaryotes		0.001524631265105143	CMS001_006_Ra_S5	Hypocreales	Culex	erythrothorax	5125.0
-	ALCO			Other Eukaryotes		0.0014454794791332066	CMS001_013_Ra_S5	Hypocreales	Culex	erythrothorax	5125.0
-	ALCO			Other Eukaryotes		0.00022684178076614358	CMS001_035_Ra_S20	Saccharomycetales	Culex	erythrothorax	4892.0
-	ALCO			Other Eukaryotes		0.0001859235234573512	CMS001_058_Ra_S9	Fungi	Culex	erythrothorax	4751.0
-	ALCO			Other Eukaryotes		0.0004155153429040367	CMS001_015_Ra_S13	Asteraceae	Culex	erythrothorax	4210.0
-	ALCO			Other Eukaryotes		0.0004986184114848441	CMS001_015_Ra_S13	Asterales	Culex	erythrothorax	4209.0
-	ALCO			Other Eukaryotes		0.0004114141719325538	CMS001_022_Ra_S6	Caryophyllales	Culex	erythrothorax	3524.0
-	ALCO			Other Eukaryotes		0.00017520230391029643	CMS001_037_Ra_S21	Caryophyllales	Culex	erythrothorax	3524.0
-	ALCO			Other Eukaryotes		0.008562557453346276	CMS001_022_Ra_S6	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.005071195891833455	CMS001_011_Ra_S4	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.0006374251225509806	CMS001_020_Ra_S15	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.00048003360235216466	CMS001_001_Ra_S1	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.002902472782861983	CMS001_058_Ra_S9	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.0024114980225716214	CMS001_049_Ra_S6	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.0024902425592031223	CMS001_052_Ra_S7	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.0006446645058467489	CMS001_057_Ra_S11	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.0011262070783312967	CMS001_053_Ra_S8	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.0017783525988198207	CMS001_007_Ra_S12	Eukaryota	Culex	erythrothorax	2759.0
-	ALCO			Other Eukaryotes		0.002639470970549559	CMS001_012_Ra_S4	Vishniacozyma victoriae	Aedes	dorsalis	1895944.0
-	ALCO			Other Eukaryotes		0.0012866238422750537	CMS001_012_Ra_S4	Sporidiobolaceae	Aedes	dorsalis	1799696.0
-	ALCO			Other Eukaryotes		0.00026489314399780515	CMS001_012_Ra_S4	Tremellomycetes	Aedes	dorsalis	155616.0
-	ALCO			Other Eukaryotes		0.0003405768994257495	CMS001_012_Ra_S4	Rhodotorula	Aedes	dorsalis	5533.0
-	ALCO			Other Eukaryotes		0.006735854233087046	CMS001_012_Ra_S4	Tremellales	Aedes	dorsalis	5234.0
-	ALCO			Other Eukaryotes		0.0011825586785616303	CMS001_012_Ra_S4	Basidiomycota	Aedes	dorsalis	5204.0
-	ALCO			Other Eukaryotes		0.0008230608402788947	CMS001_012_Ra_S4	Fungi	Aedes	dorsalis	4751.0
-	ALCO			Other Eukaryotes		0.0067358542330870465	CMS001_012_Ra_S4	Eukaryota	Aedes	dorsalis	2759.0
-	WVAL 			Other Eukaryotes		0.006839378238341969	CMS002_045b_Rb_S184_L004	Puccinia cf. psidii AE-2014	Aedes	albopictus	1505670.0
-	WVAL 			Other Eukaryotes		0.0011651239562431226	CMS002_045a_Rb_S183_L004	Pentapetalae	Aedes	albopictus	1437201.0
-	WVAL 			Other Eukaryotes		0.00849514563106796	CMS002_026b_Rb_S147_L004	Aspergillus pseudoglaucus	Aedes	albopictus	1405805.0
-	WVAL 			Other Eukaryotes		0.0031746031746031746	CMS002_026d_Rb_S149_L004	Pichiaceae	Aedes	albopictus	1156497.0
-	WVAL 			Other Eukaryotes		0.004827794301478512	CMS002_026c_Rb_S148_L004	Pichiaceae	Aedes	albopictus	1156497.0
-	WVAL 			Other Eukaryotes		0.01699029126213592	CMS002_026b_Rb_S147_L004	Aspergillaceae	Aedes	albopictus	1131492.0
-	WVAL 			Other Eukaryotes		0.12006205991168395	CMS002_026d_Rb_S149_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
-	WVAL 			Other Eukaryotes		0.20604336393810074	CMS002_026c_Rb_S148_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
-	WVAL 			Other Eukaryotes		0.08009708737864078	CMS002_026b_Rb_S147_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
-	WVAL 			Other Eukaryotes		0.0657967488665266	CMS002_026e_Rb_S150_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
-	WVAL 			Other Eukaryotes		0.021729682746631895	CMS002_026a_Rb_S146_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
-	WVAL 			Other Eukaryotes		0.1679914070891515	CMS002_026d_Rb_S149_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
-	WVAL 			Other Eukaryotes		0.3076425708004656	CMS002_026c_Rb_S148_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
-	WVAL 			Other Eukaryotes		0.06007281553398058	CMS002_026b_Rb_S147_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
-	WVAL 			Other Eukaryotes		0.029359725754727412	CMS002_026e_Rb_S150_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
-	WVAL 			Other Eukaryotes		0.014341590612777054	CMS002_026a_Rb_S146_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
-	WVAL 			Other Eukaryotes		0.001034527350316824	CMS002_026c_Rb_S148_L004	Malvoideae	Aedes	albopictus	214907.0
-	WVAL 			Other Eukaryotes		0.001990489881676435	CMS002_026e_Rb_S150_L004	Lepiota lilacea	Aedes	albopictus	182871.0
-	WVAL 			Other Eukaryotes		0.004095004095004095	CMS002_026c_Rb_S148_L004	Althaea officinalis	Aedes	albopictus	145745.0
-	WVAL 			Other Eukaryotes		0.0010025062656641602	CMS002_026d_Rb_S149_L004	Malassezia restricta	Aedes	albopictus	76775.0
-	WVAL 			Other Eukaryotes		0.0005728607232366631	CMS002_026d_Rb_S149_L004	Malassezia globosa	Aedes	albopictus	76773.0
-	WVAL 			Other Eukaryotes		0.00025066059511002955	CMS002_045g_Rb_S190_L004	Puccinia coronata	Aedes	albopictus	27344.0
-	WVAL 			Other Eukaryotes		0.0031507339778016467	CMS002_026d_Rb_S149_L004	Achillea millefolium	Aedes	albopictus	13329.0
-	WVAL 			Other Eukaryotes		0.01767317556791241	CMS002_026c_Rb_S148_L004	Fusarium	Aedes	albopictus	5506.0
-	WVAL 			Other Eukaryotes		0.01303780964797914	CMS002_026a_Rb_S146_L004	Fusarium	Aedes	albopictus	5506.0
-	WVAL 			Other Eukaryotes		0.0014563106796116505	CMS002_026b_Rb_S147_L004	Agaricales	Aedes	albopictus	5338.0
-	WVAL 			Other Eukaryotes		0.013106796116504855	CMS002_026b_Rb_S147_L004	Aspergillus	Aedes	albopictus	5052.0
-	WVAL 			Other Eukaryotes		0.0003785130744724474	CMS002_045c_Rb_S185_L004	Aspergillus	Aedes	albopictus	5052.0
-	WVAL 			Other Eukaryotes		0.00398097976335287	CMS002_026e_Rb_S150_L004	Saccharomycetales	Aedes	albopictus	4892.0
-	WVAL 			Other Eukaryotes		0.0034767492394611036	CMS002_026a_Rb_S146_L004	Saccharomycetales	Aedes	albopictus	4892.0
-	WVAL 			Other Eukaryotes		0.0017383746197305518	CMS002_026a_Rb_S146_L004	Triticum aestivum	Aedes	albopictus	4565.0
-	WVAL 			Other Eukaryotes		0.004177109440267335	CMS002_026d_Rb_S149_L004	Asteraceae	Aedes	albopictus	4210.0
-	WVAL 			Other Eukaryotes		0.0006217616580310881	CMS002_045b_Rb_S184_L004	Menispermaceae	Aedes	albopictus	3455.0
-	WVAL 			Other Eukaryotes		0.0076652826572979876	CMS002_044a_Rb_S178_L004	Peniophora sp. 213 OA-2013	Aedes	aegypti	1321910.0
-	WVAL 			Other Eukaryotes		0.013769363166953529	CMS002_025c_Rb_S142_L004	Dothideomycetes sp. TRN 142	Aedes	aegypti	748619.0
-	WVAL 			Other Eukaryotes		0.057489619929734906	CMS002_044a_Rb_S178_L004	Dikarya	Aedes	aegypti	451864.0
-	WVAL 			Other Eukaryotes		0.10327022375215145	CMS002_025c_Rb_S142_L004	Plectosphaera eucalypti	Aedes	aegypti	407092.0
-	WVAL 			Other Eukaryotes		0.011329305135951661	CMS002_044d_Rb_S181_L004	Catenulostroma elginense	Aedes	aegypti	237593.0
-	WVAL 			Other Eukaryotes		0.04374240583232078	CMS002_025a_Rb_S140_L004	Trechispora farinacea	Aedes	aegypti	156599.0
-	WVAL 			Other Eukaryotes		0.15605278255880667	CMS002_025c_Rb_S142_L004	Sordariomycetes	Aedes	aegypti	147550.0
-	WVAL 			Other Eukaryotes		0.018633540372670808	CMS002_025e_Rb_S144_L004	Sordariomycetes	Aedes	aegypti	147550.0
-	WVAL 			Other Eukaryotes		0.010186757215619693	CMS002_044c_Rb_S180_L004	Pezizomycotina	Aedes	aegypti	147538.0
-	WVAL 			Other Eukaryotes		0.013975155279503104	CMS002_025e_Rb_S144_L004	Gymnopus	Aedes	aegypti	93827.0
-	WVAL 			Other Eukaryotes		0.032225579053373615	CMS002_044d_Rb_S181_L004	Udeniomyces	Aedes	aegypti	42658.0
-	WVAL 			Other Eukaryotes		0.03239377366428271	CMS002_044e_Rb_S182_L004	Diaporthe	Aedes	aegypti	36922.0
-	WVAL 			Other Eukaryotes		0.01746894409937888	CMS002_025e_Rb_S144_L004	Schizophyllum	Aedes	aegypti	5333.0
-	WVAL 			Other Eukaryotes		0.02065404475043029	CMS002_025c_Rb_S142_L004	Schizophyllum	Aedes	aegypti	5333.0
-	WVAL 			Other Eukaryotes		0.016403402187120292	CMS002_025a_Rb_S140_L004	Schizophyllum	Aedes	aegypti	5333.0
-	WVAL 			Other Eukaryotes		0.020080321285140562	CMS002_025c_Rb_S142_L004	Basidiomycota	Aedes	aegypti	5204.0
-	WVAL 			Other Eukaryotes		0.006884681583476764	CMS002_025c_Rb_S142_L004	Fungi	Aedes	aegypti	4751.0
-	WVAL 			Other Eukaryotes		0.0050483803113167865	CMS002_044e_Rb_S182_L004	Oryza	Aedes	aegypti	4527.0
-	WVAL 			Other Eukaryotes		0.022948938611589215	CMS002_025c_Rb_S142_L004	Asterales	Aedes	aegypti	4209.0
-	WVAL 			Other Eukaryotes		0.017211703958691912	CMS002_025c_Rb_S142_L004	Eukaryota	Aedes	aegypti	2759.0
-	SAND			Other Eukaryotes		0.0006642118019949659	CMS002_017b_Rb_S123_L004	Ascogregarina culicis	Aedes	aegypti	247478.0
-	SAND			Other Eukaryotes		0.0002271565676642626	CMS002_017c_Rb_S124_L004	Ascogregarina culicis	Aedes	aegypti	247478.0
-	SAND			Other Eukaryotes		0.00017837441450250054	CMS002_017a_Rb_S122_L004	Ascogregarina culicis	Aedes	aegypti	247478.0
-	SAND			Other Eukaryotes		0.003670644168919549	CMS002_017b_Rb_S123_L004	Ascogregarina taiwanensis	Aedes	aegypti	158379.0
-	SAND			Other Eukaryotes		0.0022792286297541736	CMS002_017a_Rb_S122_L004	Ascogregarina taiwanensis	Aedes	aegypti	158379.0
-	SAND			Other Eukaryotes		0.0005300319912166127	CMS002_017c_Rb_S124_L004	Ascogregarina taiwanensis	Aedes	aegypti	158379.0
-	SAND			Other Eukaryotes		9.249043714944473e-05	CMS002_017a_Rb_S122_L004	Ascogregarina	Aedes	aegypti	158378.0
-	SAND			Other Eukaryotes		0.00014734864531339216	CMS002_018b_Rb_S129_L004	Capnodiales	Aedes	aegypti	134362.0
-	SAND			Other Eukaryotes		0.00012235480563065163	CMS002_017b_Rb_S123_L004	Pinus massoniana	Aedes	aegypti	88730.0
-	SAND			Other Eukaryotes		0.00043698144868089866	CMS002_017b_Rb_S123_L004	Pinus resinosa	Aedes	aegypti	54921.0
-	SAND			Other Eukaryotes		3.683716132834804e-05	CMS002_018b_Rb_S129_L004	Opisthokonta	Aedes	aegypti	33154.0
-	SAND			Other Eukaryotes		0.0006630689039102647	CMS002_018b_Rb_S129_L004	Trametes hirsuta	Aedes	aegypti	5327.0
-	SAND			Other Eukaryotes		0.00011051148398504411	CMS002_018b_Rb_S129_L004	Polyporaceae	Aedes	aegypti	5317.0
-	SAND			Other Eukaryotes		0.00021394849071225828	CMS002_019a_Rb_S130_L004	Hypocreales	Aedes	aegypti	5125.0
+	SAND	Other eukaryotes		Other Eukaryotes		2.350835302157899e-05	CMS002_021a_Rb_S136_L004	Melampsora sp. Mel P	Culiseta	particeps	1495666.0
+	SAND	Other eukaryotes		Other Eukaryotes		1.1754176510789495e-05	CMS002_021a_Rb_S136_L004	Melampsora sp. SAL 135	Culiseta	particeps	437599.0
+	SAND	Other eukaryotes		Other Eukaryotes		1.3560670439546532e-05	CMS002_020c_Rb_S133_L004	Trematosphaeria heterospora	Culiseta	particeps	147495.0
+	SAND	Other eukaryotes		Other Eukaryotes		1.3560670439546532e-05	CMS002_020c_Rb_S133_L004	Pleosporales	Culiseta	particeps	92860.0
+	SAND	Other eukaryotes		Other Eukaryotes		6.318716036901302e-05	CMS002_020b_Rb_S132_L004	Xylariaceae	Culiseta	particeps	37990.0
+	SAND	Other eukaryotes		Other Eukaryotes		1.1754176510789495e-05	CMS002_021a_Rb_S136_L004	Xylariaceae	Culiseta	particeps	37990.0
+	SAND	Other eukaryotes		Other Eukaryotes		2.17012319065979e-05	CMS002_020e_Rb_S135_L004	Pleurotus ostreatus	Culiseta	particeps	5322.0
+	SAND	Other eukaryotes		Other Eukaryotes		1.5112512656729351e-05	CMS002_021a_Rb_S136_L004	Pucciniales	Culiseta	particeps	5258.0
+	SAND	Other eukaryotes		Other Eukaryotes		4.643905338633577e-05	CMS002_020d_Rb_S134_L004	Pseudomicrostroma juglandis	Culiseta	particeps	5033.0
+	SAND	Other eukaryotes		Other Eukaryotes		3.190419338642863e-05	CMS002_021a_Rb_S136_L004	Fungi	Culiseta	particeps	4751.0
+	SAND	Other eukaryotes		Other Eukaryotes		8.39584036484964e-06	CMS002_021a_Rb_S136_L004	Salicaceae	Culiseta	particeps	3688.0
+	SAND	Other eukaryotes		Other Eukaryotes		2.17012319065979e-05	CMS002_020e_Rb_S135_L004	Cannabaceae	Culiseta	particeps	3481.0
+	SAND	Other eukaryotes		Other Eukaryotes		0.0007632044886772471	CMS002_020a_Rb_S131_L004	Eukaryota	Culiseta	particeps	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.016595664283668234	CMS001_009_Ra_S13	Lachancea thermotolerans CBS 6340	Culiseta	particeps	559295.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.006058057399179664	CMS001_009_Ra_S13	Lachancea thermotolerans	Culiseta	particeps	381046.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00014452302884137693	CMS001_008_Ra_S3	Lachancea thermotolerans	Culiseta	particeps	381046.0
+	ALCO	Other eukaryotes		Other Eukaryotes		7.313550180096173e-05	CMS001_009_Ra_S13	Lachancea	Culiseta	particeps	300275.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00013749261988143282	CMS001_025_Ra_S7	Microbotryomycetes	Culiseta	particeps	162481.0
+	ALCO	Other eukaryotes		Other Eukaryotes		3.194862660841367e-05	CMS001_014_Ra_S5	Microbotryomycetes	Culiseta	particeps	162481.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0016089810396211581	CMS001_009_Ra_S13	Salix interior	Culiseta	particeps	75712.0
+	ALCO	Other eukaryotes		Other Eukaryotes		8.532475210112202e-05	CMS001_009_Ra_S13	Hanseniaspora vineae	Culiseta	particeps	56409.0
+	ALCO	Other eukaryotes		Other Eukaryotes		4.875700120064116e-05	CMS001_009_Ra_S13	Hanseniaspora osmophila	Culiseta	particeps	56408.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0021148349270778103	CMS001_009_Ra_S13	Saccharomycetaceae	Culiseta	particeps	4893.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00295359436889461	CMS001_003_Ra_S2	Eukaryota	Culiseta	particeps	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.002465924179605994	CMS001_008_Ra_S3	Eukaryota	Culiseta	particeps	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.002894946946288069	CMS001_009_Ra_S13	Eukaryota	Culiseta	particeps	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0030697760644707505	CMS001_016_Ra_S6	Eukaryota	Culiseta	inornata	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00012097866904107469	CMS001_005_Ra_S3	Ostreococcus lucimarinus CCE9901	Culiseta	incidens	436017.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0023373078858735627	CMS001_005_Ra_S3	Eukaryota	Culiseta	incidens	2759.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0001451948357728682	CMS002_029a_Rb_S159_L004	unclassified Melampsora	Culex	tarsalis	2629660.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		2.020882452004042e-05	CMS002_029b_Rb_S160_L004	unclassified Melampsora	Culex	tarsalis	2629660.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		2.020882452004042e-05	CMS002_029b_Rb_S160_L004	Wickerhamiella sp.	Culex	tarsalis	1869267.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		5.0396734291617904e-05	CMS002_029e_Rb_S164_L004	Cenchrinae	Culex	tarsalis	1293361.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		4.041764904008084e-05	CMS002_029b_Rb_S160_L004	Sordariomycetidae	Culex	tarsalis	222544.0
+	WVAL 	Amblyosporidae		Other Eukaryotes		0.023908569253159588	CMS002_029d_Rb_S162_L004	Amblyospora	Culex	tarsalis	33687.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		4.715392388009431e-05	CMS002_029b_Rb_S160_L004	Melampsora	Culex	tarsalis	5260.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		1.9620923753090295e-05	CMS002_029a_Rb_S159_L004	Melampsora	Culex	tarsalis	5260.0
+	PLCR	Other eukaryotes		Other Eukaryotes		9.948937080434669e-06	CMS002_056a_Rb_S9_L004	Albugo laibachii Nc14	Culex	tarsalis	890382.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00016913193036738937	CMS002_056a_Rb_S9_L004	uncultured Cantharellales	Culex	tarsalis	465787.0
+	PLCR	Other eukaryotes		Other Eukaryotes		3.730851405163001e-05	CMS002_056a_Rb_S9_L004	Vuilleminia	Culex	tarsalis	47056.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00014923405620652006	CMS002_056a_Rb_S9_L004	Opisthokonta	Culex	tarsalis	33154.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00018654257025815004	CMS002_056a_Rb_S9_L004	Agaricomycotina	Culex	tarsalis	5302.0
+	PLCR	Other eukaryotes		Other Eukaryotes		1.9897874160869338e-05	CMS002_056a_Rb_S9_L004	Tulasnellaceae	Culex	tarsalis	5237.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00010197660507445536	CMS002_056a_Rb_S9_L004	Basidiomycota	Culex	tarsalis	5204.0
+	COAV	Other eukaryotes		Other Eukaryotes		2.164486547716106e-05	CMS002_034a_Rb_S168_L004	uncultured Filobasidiella	Culex	tarsalis	1503101.0
+	COAV	Other eukaryotes		Other Eukaryotes		9.379441706769793e-05	CMS002_034a_Rb_S168_L004	Pentapetalae	Culex	tarsalis	1437201.0
+	COAV	Other eukaryotes		Other Eukaryotes		9.275256888242247e-05	CMS002_035a_Rb_S169_L004	South American lineages	Culex	tarsalis	886584.0
+	COAV	Other eukaryotes		Other Eukaryotes		0.0002342384547469324	CMS002_042a_Rb_S177_L004	Tamarix pentandra	Culex	tarsalis	63103.0
+	COAV	Other eukaryotes		Other Eukaryotes		2.0237953358263495e-05	CMS002_032a_Rb_S166_L004	Tamarix pentandra	Culex	tarsalis	63103.0
+	COAV	Other eukaryotes		Other Eukaryotes		2.8859820636214747e-05	CMS002_034a_Rb_S168_L004	Helianthus	Culex	tarsalis	4231.0
+	COAV	Other eukaryotes		Other Eukaryotes		8.994645937005996e-06	CMS002_032a_Rb_S166_L004	Helianthus	Culex	tarsalis	4231.0
+	COAV	Other eukaryotes		Other Eukaryotes		2.228226053533131e-05	CMS002_041a_Rb_S176_L004	Asteraceae	Culex	tarsalis	4210.0
+	COAV	Other eukaryotes		Other Eukaryotes		7.214955159053687e-05	CMS002_034a_Rb_S168_L004	Spinacia oleracea	Culex	tarsalis	3562.0
+	ALCO	Other eukaryotes		Other Eukaryotes		2.4417490248264832e-05	CMS001_033_Ra_S8	Ceraceosorus africanus	Culex	tarsalis	1698434.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		1.0523352634915958e-05	CMS001_046_Ra_S3	Paratrypanosoma confusum	Culex	tarsalis	1470209.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00023591860808021232	CMS001_028_Ra_S17	Pentapetalae	Culex	tarsalis	1437201.0
+	ALCO	Other eukaryotes		Other Eukaryotes		1.6858478690882936e-05	CMS001_002_Ra_S1	Microbotryomycetes	Culex	tarsalis	162481.0
+	ALCO	Other eukaryotes		Other Eukaryotes		1.6174948240165633e-05	CMS001_036_Ra_S20	Pleosporales	Culex	tarsalis	92860.0
+	ALCO	Other eukaryotes		Other Eukaryotes		5.08078447312265e-05	CMS001_032_Ra_S7	Selaginella moellendorffii	Culex	tarsalis	88036.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0009200825715128281	CMS001_028_Ra_S17	Hanseniaspora guilliermondii	Culex	tarsalis	56406.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00018873488646416986	CMS001_028_Ra_S17	Hanseniaspora valbyensis	Culex	tarsalis	53685.0
+	ALCO	Amblyosporidae		Other Eukaryotes		0.00017085741948344107	CMS001_043_Ra_S24	Amblyospora californica	Culex	tarsalis	51588.0
+	ALCO	Other eukaryotes		Other Eukaryotes		1.8313117686198625e-05	CMS001_033_Ra_S8	Peniophora nuda	Culex	tarsalis	40464.0
+	ALCO	Other eukaryotes		Other Eukaryotes		4.4481107660455485e-05	CMS001_036_Ra_S20	Xylariaceae	Culex	tarsalis	37990.0
+	ALCO	Amblyosporidae		Other Eukaryotes		0.00612513911801154	CMS001_038_Ra_S22	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Amblyosporidae		Other Eukaryotes		0.0013344332298136645	CMS001_036_Ra_S20	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Amblyosporidae		Other Eukaryotes		8.542870974172054e-05	CMS001_043_Ra_S24	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Other eukaryotes		Other Eukaryotes		7.07755824240637e-05	CMS001_028_Ra_S17	Hanseniaspora uvarum	Culex	tarsalis	29833.0
+	ALCO	Apicomplexa		Other Eukaryotes		7.287169116977282e-05	CMS001_027_Ra_S16	Plasmodium	Culex	tarsalis	5820.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.0004953764861294584	CMS001_032_Ra_S7	Trypanosoma	Culex	tarsalis	5690.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.00026674118483893916	CMS001_032_Ra_S7	Trypanosomatidae	Culex	tarsalis	5654.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0001415511648481274	CMS001_028_Ra_S17	Fusarium	Culex	tarsalis	5506.0
+	ALCO	Other eukaryotes		Other Eukaryotes		1.6174948240165633e-05	CMS001_036_Ra_S20	Diaporthales	Culex	tarsalis	5114.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0001496182712215321	CMS001_036_Ra_S20	Fungi	Culex	tarsalis	4751.0
+	ALCO	Other eukaryotes		Other Eukaryotes		1.6174948240165633e-05	CMS001_036_Ra_S20	Caryophyllales	Culex	tarsalis	3524.0
+	ALCO	Other eukaryotes		Other Eukaryotes		1.6174948240165633e-05	CMS001_036_Ra_S20	Bacillariophyta	Culex	tarsalis	2836.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.01653629697452858	CMS001_038_Ra_S22	Eukaryota	Culex	tarsalis	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0013565319964612206	CMS001_028_Ra_S17	Eukaryota	Culex	tarsalis	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.004031605848861283	CMS001_036_Ra_S20	Eukaryota	Culex	tarsalis	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0011841649815088084	CMS001_027_Ra_S16	Eukaryota	Culex	tarsalis	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.005445100325363058	CMS001_033_Ra_S8	Eukaryota	Culex	tarsalis	2759.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		9.743620973144145e-05	CMS002_046a_Rb_S191_L004	fabids	Culex	quinquefasciatus	91835.0
+	SAND	Other eukaryotes		Other Eukaryotes		0.0006139991813344249	CMS002_004a_Rb_S117_L004	Acrogymnospermae	Culex	quinquefasciatus	1437180.0
+	SAND	Apicomplexa		Other Eukaryotes		0.0006139991813344249	CMS002_004a_Rb_S117_L004	Plasmodium sp. type B	Culex	quinquefasciatus	1350013.0
+	SAND	Other eukaryotes		Other Eukaryotes		5.9296740655821955e-05	CMS002_023a_Rb_S138_L004	Selaginella moellendorffii	Culex	quinquefasciatus	88036.0
+	SAND	Other eukaryotes		Other Eukaryotes		4.74169610469665e-05	CMS002_022a_Rb_S137_L004	Selaginella moellendorffii	Culex	quinquefasciatus	88036.0
+	SAND	Apicomplexa		Other Eukaryotes		0.0018419975440032747	CMS002_004a_Rb_S117_L004	Plasmodium relictum	Culex	quinquefasciatus	85471.0
+	SAND	Other eukaryotes		Other Eukaryotes		0.004093327875562832	CMS002_004a_Rb_S117_L004	Podocarpus macrophyllus	Culex	quinquefasciatus	58043.0
+	SAND	Apicomplexa		Other Eukaryotes		0.08943921408104788	CMS002_004a_Rb_S117_L004	Plasmodium	Culex	quinquefasciatus	5820.0
+	SAND	Other eukaryotes		Other Eukaryotes		0.0002174213824046805	CMS002_023a_Rb_S138_L004	Melampsora	Culex	quinquefasciatus	5260.0
+	PLCR	Other eukaryotes		Other Eukaryotes		9.299730307821073e-05	CMS002_054a_Rb_S8_L004	50 kb inversion clade	Culex	pipiens	2231393.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00014940611070992803	CMS002_049a_Rb_S4_L004	Hyphopichia pseudoburtonii	Culex	pipiens	717741.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00020012452192475318	CMS002_057a_Rb_S10_L004	leotiomyceta	Culex	pipiens	716546.0
+	PLCR	Other eukaryotes		Other Eukaryotes		4.816530332099766e-05	CMS002_051a_Rb_S6_L004	Dikarya	Culex	pipiens	451864.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00044472115983278484	CMS002_057a_Rb_S10_L004	Microbotryomycetes	Culex	pipiens	162481.0
+	PLCR	Other eukaryotes		Other Eukaryotes		4.980203690330934e-05	CMS002_049a_Rb_S4_L004	Microbotryomycetes	Culex	pipiens	162481.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00013341634794983545	CMS002_057a_Rb_S10_L004	Agaricales	Culex	pipiens	5338.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00013341634794983545	CMS002_057a_Rb_S10_L004	Tulasnella	Culex	pipiens	5240.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00012450509225827336	CMS002_049a_Rb_S4_L004	Basidiomycota	Culex	pipiens	5204.0
+	PLCR	Other eukaryotes		Other Eukaryotes		0.00017788846393311395	CMS002_057a_Rb_S10_L004	Basidiomycota	Culex	pipiens	5204.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0011505177329798409	CMS001_054_Ra_S11	Brassiceae	Culex	pipiens	981071.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.0002639650057820906	CMS001_029_Ra_S18	Trypanosoma bennetti	Culex	pipiens	71803.0
+	ALCO	Apicomplexa		Other Eukaryotes		0.0034628286981928354	CMS001_040_Ra_S21	Plasmodium	Culex	pipiens	5820.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.017148210348333734	CMS001_059_Ra_S10	Trypanosoma	Culex	pipiens	5690.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.00035195334104278744	CMS001_029_Ra_S18	Trypanosoma	Culex	pipiens	5690.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.0004022323897631857	CMS001_029_Ra_S18	Trypanosomatidae	Culex	pipiens	5654.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0036766544945225355	CMS001_054_Ra_S11	Brassica	Culex	pipiens	3705.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.004581234077069838	CMS001_059_Ra_S10	Eukaryota	Culex	pipiens	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0032524266941405815	CMS001_041_Ra_S10	Eukaryota	Culex	pipiens	2759.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00020621745630767645	CMS002_047b_Rb_S194_L004	Sporidiobolaceae	Culex	erythrothorax	1799696.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.002663642143974154	CMS002_047b_Rb_S194_L004	Monomorphina parapyrum	Culex	erythrothorax	1664066.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		4.1204829205982944e-05	CMS002_047g_Rb_S200_L004	Hemiamphisiella terricola qingdaoensis	Culex	erythrothorax	1590123.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00018949027117055121	CMS002_047c_Rb_S195_L004	Pentapetalae	Culex	erythrothorax	1437201.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.2785004139106774e-05	CMS002_047j_Rb_S3_L004	Pentapetalae	Culex	erythrothorax	1437201.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0018749563673717698	CMS002_047c_Rb_S195_L004	Albugo laibachii Nc14	Culex	erythrothorax	890382.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		7.610987221152456e-05	CMS002_028d_Rb_S157_L004	Albugo laibachii Nc14	Culex	erythrothorax	890382.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.296386336478635e-05	CMS002_047g_Rb_S200_L004	Albugo laibachii Nc14	Culex	erythrothorax	890382.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00013962441033619564	CMS002_047c_Rb_S195_L004	leotiomyceta	Culex	erythrothorax	716546.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0001565783509827352	CMS002_047g_Rb_S200_L004	leotiomyceta	Culex	erythrothorax	716546.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		7.548257381852616e-05	CMS002_047d_Rb_S196_L004	leotiomyceta	Culex	erythrothorax	716546.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		2.991951650061335e-05	CMS002_047c_Rb_S195_L004	Pleosporineae	Culex	erythrothorax	715340.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		6.76857126741497e-05	CMS002_028c_Rb_S156_L004	Fusarium sambucinum species complex	Culex	erythrothorax	569360.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00034369576051279405	CMS002_047b_Rb_S194_L004	Monomorphina pseudonordstedti	Culex	erythrothorax	298287.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.000635837156948669	CMS002_047b_Rb_S194_L004	Monomorphina	Culex	erythrothorax	298266.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		5.98390330012267e-05	CMS002_047c_Rb_S195_L004	Stichotrichia	Culex	erythrothorax	194286.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		2.991951650061335e-05	CMS002_047c_Rb_S195_L004	Stemphylium lycopersici	Culex	erythrothorax	183478.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00029214139643587495	CMS002_047b_Rb_S194_L004	Trifolieae	Culex	erythrothorax	163742.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.000169543926836809	CMS002_047c_Rb_S195_L004	Microbotryomycetes	Culex	erythrothorax	162481.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		1.9433450149961457e-05	CMS002_028e_Rb_S158_L004	Microbotryomycetes	Culex	erythrothorax	162481.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0001294037721199573	CMS002_047h_Rb_S1_L004	Microbotryomycetes	Culex	erythrothorax	162481.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.296386336478635e-05	CMS002_047g_Rb_S200_L004	Microbotryomycetes	Culex	erythrothorax	162481.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0004028256747330052	CMS002_047a_Rb_S193_L004	Dangeardinia pseudopertusa	Culex	erythrothorax	160059.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		5.8260204638968797e-05	CMS002_047e_Rb_S197_L004	Dangeardinia pseudopertusa	Culex	erythrothorax	160059.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.296386336478635e-05	CMS002_047g_Rb_S200_L004	Agaricomycetes	Culex	erythrothorax	155619.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.2785004139106774e-05	CMS002_047j_Rb_S3_L004	Agaricomycetes	Culex	erythrothorax	155619.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00027495660841023525	CMS002_047b_Rb_S194_L004	Pezizomycotina	Culex	erythrothorax	147538.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00022340224433331615	CMS002_047b_Rb_S194_L004	Sterkiella histriomuscorum	Culex	erythrothorax	94289.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		9.835501241732032e-05	CMS002_047j_Rb_S3_L004	Sterkiella histriomuscorum	Culex	erythrothorax	94289.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		7.860013165522053e-05	CMS002_047a_Rb_S193_L004	Sterkiella histriomuscorum	Culex	erythrothorax	94289.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00027495660841023525	CMS002_047b_Rb_S194_L004	Euglenales	Culex	erythrothorax	86650.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0006408622510286567	CMS002_047e_Rb_S197_L004	Pandora neoaphidis	Culex	erythrothorax	76017.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00010970489383558228	CMS002_047c_Rb_S195_L004	Albugo candida	Culex	erythrothorax	65357.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0007380147403484626	CMS002_047c_Rb_S195_L004	Albugo	Culex	erythrothorax	65356.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		1.4575087612471093e-05	CMS002_028e_Rb_S158_L004	Tamarix pentandra	Culex	erythrothorax	63103.0
+	WVAL 	Amblyosporidae		Other Eukaryotes		0.0019589039973116297	CMS002_047j_Rb_S3_L004	Amblyospora	Culex	erythrothorax	33687.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		5.489641732256448e-05	CMS002_047d_Rb_S196_L004	Opisthokonta	Culex	erythrothorax	33154.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.818154049788729e-05	CMS002_028a_Rb_S154_L004	Cladosporium cladosporioides	Culex	erythrothorax	29917.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		6.477816716653819e-06	CMS002_028e_Rb_S158_L004	Juglans nigra	Culex	erythrothorax	16719.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.790427275914677e-05	CMS002_047f_Rb_S198_L004	Cladosporium	Culex	erythrothorax	5498.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		5.0908720663849717e-05	CMS002_028a_Rb_S154_L004	Pleurotus ostreatus	Culex	erythrothorax	5322.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		2.4722897523589766e-05	CMS002_047g_Rb_S200_L004	Pleurotus	Culex	erythrothorax	5320.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		1.2955633433307638e-05	CMS002_028e_Rb_S158_L004	Melampsora	Culex	erythrothorax	5260.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0003470213996529786	CMS002_028b_Rb_S155_L004	Melampsora	Culex	erythrothorax	5260.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		4.512380844943313e-05	CMS002_028c_Rb_S156_L004	Melampsora	Culex	erythrothorax	5260.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00017306028266512836	CMS002_047g_Rb_S200_L004	Hypocreales	Culex	erythrothorax	5125.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00010293078247980841	CMS002_047d_Rb_S196_L004	Hypocreales	Culex	erythrothorax	5125.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		8.087735757497331e-05	CMS002_047h_Rb_S1_L004	Hypocreales	Culex	erythrothorax	5125.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		2.4722897523589766e-05	CMS002_047g_Rb_S200_L004	Ascomycota	Culex	erythrothorax	4890.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.4310260826602804e-05	CMS002_047d_Rb_S196_L004	Medicago sativa	Culex	erythrothorax	3879.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		6.470188605997865e-05	CMS002_047h_Rb_S1_L004	Medicago sativa	Culex	erythrothorax	3879.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00012029351617947793	CMS002_047b_Rb_S194_L004	Medicago	Culex	erythrothorax	3877.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		7.978537733496893e-05	CMS002_047c_Rb_S195_L004	Magnoliopsida	Culex	erythrothorax	3398.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.930006582761026e-05	CMS002_047a_Rb_S193_L004	Chlamydomonadales	Culex	erythrothorax	3042.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.12378411877239781	CMS001_007_Ra_S12	Paratrypanosoma confusum	Culex	erythrothorax	1470209.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.02103354954005181	CMS001_022_Ra_S6	Paratrypanosoma confusum	Culex	erythrothorax	1470209.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.04150553696653503	CMS001_001_Ra_S1	Paratrypanosoma confusum	Culex	erythrothorax	1470209.0
+	ALCO	Other eukaryotes		Other Eukaryotes		5.475071997196763e-05	CMS001_037_Ra_S21	Pentapetalae	Culex	erythrothorax	1437201.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.43432057978432587	CMS001_035_Ra_S20	Leishmaniinae	Culex	erythrothorax	1286322.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.03218546027458924	CMS001_049_Ra_S6	Leishmaniinae	Culex	erythrothorax	1286322.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.015283655740794681	CMS001_018_Ra_S14	Leishmaniinae	Culex	erythrothorax	1286322.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.3083607636603028	CMS001_047_Ra_S4	Leishmaniinae	Culex	erythrothorax	1286322.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.09347216887864693	CMS001_011_Ra_S4	Leishmaniinae	Culex	erythrothorax	1286322.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.004760769168130475	CMS001_035_Ra_S20	Trypanosoma culicavium	Culex	erythrothorax	1052859.0
+	ALCO	Other eukaryotes		Other Eukaryotes		5.475071997196763e-05	CMS001_037_Ra_S21	leotiomyceta	Culex	erythrothorax	716546.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.002274234263578516	CMS001_035_Ra_S20	Trypanosoma with unspecified subgenus	Culex	erythrothorax	669453.0
+	ALCO	Other eukaryotes		Other Eukaryotes		1.9285039309338458e-05	CMS001_022_Ra_S6	Melampsora sp. SAL 135	Culex	erythrothorax	437599.0
+	ALCO	Apicomplexa		Other Eukaryotes		1.163291183416121e-05	CMS001_035_Ra_S20	Eimeriorina	Culex	erythrothorax	423054.0
+	ALCO	Other eukaryotes		Other Eukaryotes		4.6654121891669126e-05	CMS001_045_Ra_S2	Sordariomycetidae	Culex	erythrothorax	222544.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0003022061045633122	CMS001_056_Ra_S10	Microbotryomycetes	Culex	erythrothorax	162481.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00010280485924301356	CMS001_018_Ra_S14	Microbotryomycetes	Culex	erythrothorax	162481.0
+	ALCO	Other eukaryotes		Other Eukaryotes		8.083420903726457e-05	CMS001_007_Ra_S12	Microbotryomycetes	Culex	erythrothorax	162481.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.0012447215662552494	CMS001_035_Ra_S20	Leptomonas pyrrhocoris	Culex	erythrothorax	157538.0
+	ALCO	Apicomplexa		Other Eukaryotes		4.131633854607805e-05	CMS001_058_Ra_S9	Theileria youngi	Culex	erythrothorax	119759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		1.9285039309338458e-05	CMS001_022_Ra_S6	Rhizopus oryzae	Culex	erythrothorax	64495.0
+	ALCO	Other eukaryotes		Other Eukaryotes		6.197450781911707e-05	CMS001_058_Ra_S9	Pucciniomycotina	Culex	erythrothorax	29000.0
+	ALCO	Apicomplexa		Other Eukaryotes		6.197450781911707e-05	CMS001_058_Ra_S9	Theileria sp.	Culex	erythrothorax	27992.0
+	ALCO	Apicomplexa		Other Eukaryotes		5.475071997196763e-05	CMS001_037_Ra_S21	Eimeria	Culex	erythrothorax	5800.0
+	ALCO	Apicomplexa		Other Eukaryotes		5.234810325372544e-05	CMS001_035_Ra_S20	Eimeriidae	Culex	erythrothorax	5799.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.023969614834289173	CMS001_035_Ra_S20	Trypanosoma	Culex	erythrothorax	5690.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.3754732870063834	CMS001_022_Ra_S6	Trypanosomatidae	Culex	erythrothorax	5654.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.17482230727173317	CMS001_035_Ra_S20	Trypanosomatidae	Culex	erythrothorax	5654.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.14245326662440247	CMS001_018_Ra_S14	Trypanosomatidae	Culex	erythrothorax	5654.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.028857593003440405	CMS001_049_Ra_S6	Trypanosomatidae	Culex	erythrothorax	5654.0
+	ALCO	Trypanosomatidae		Other Eukaryotes		0.00013166556945358788	CMS001_047_Ra_S4	Trypanosomatidae	Culex	erythrothorax	5654.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0001395949420099345	CMS001_035_Ra_S20	Kinetoplastida	Culex	erythrothorax	5653.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00019155711993870173	CMS001_052_Ra_S7	Cladosporium	Culex	erythrothorax	5498.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00016940347390057144	CMS001_006_Ra_S5	Hypocreales	Culex	erythrothorax	5125.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00016060883101480072	CMS001_013_Ra_S5	Hypocreales	Culex	erythrothorax	5125.0
+	ALCO	Other eukaryotes		Other Eukaryotes		3.780696346102393e-05	CMS001_035_Ra_S20	Saccharomycetales	Culex	erythrothorax	4892.0
+	ALCO	Other eukaryotes		Other Eukaryotes		6.197450781911707e-05	CMS001_058_Ra_S9	Fungi	Culex	erythrothorax	4751.0
+	ALCO	Other eukaryotes		Other Eukaryotes		8.310306858080734e-05	CMS001_015_Ra_S13	Asteraceae	Culex	erythrothorax	4210.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00012465460287121102	CMS001_015_Ra_S13	Asterales	Culex	erythrothorax	4209.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00010285354298313845	CMS001_022_Ra_S6	Caryophyllales	Culex	erythrothorax	3524.0
+	ALCO	Other eukaryotes		Other Eukaryotes		4.380057597757411e-05	CMS001_037_Ra_S21	Caryophyllales	Culex	erythrothorax	3524.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.008562557453346276	CMS001_022_Ra_S6	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.005071195891833455	CMS001_011_Ra_S4	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0006374251225509806	CMS001_020_Ra_S15	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00048003360235216466	CMS001_001_Ra_S1	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.002902472782861983	CMS001_058_Ra_S9	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0024114980225716214	CMS001_049_Ra_S6	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0024902425592031223	CMS001_052_Ra_S7	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0006446645058467489	CMS001_057_Ra_S11	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0011262070783312967	CMS001_053_Ra_S8	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0017783525988198207	CMS001_007_Ra_S12	Eukaryota	Culex	erythrothorax	2759.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0002932745522832843	CMS001_012_Ra_S4	Vishniacozyma victoriae	Aedes	dorsalis	1895944.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00016082798028438171	CMS001_012_Ra_S4	Sporidiobolaceae	Aedes	dorsalis	1799696.0
+	ALCO	Other eukaryotes		Other Eukaryotes		3.784187771397217e-05	CMS001_012_Ra_S4	Tremellomycetes	Aedes	dorsalis	155616.0
+	ALCO	Other eukaryotes		Other Eukaryotes		3.784187771397217e-05	CMS001_012_Ra_S4	Rhodotorula	Aedes	dorsalis	5533.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0008419817791358807	CMS001_012_Ra_S4	Tremellales	Aedes	dorsalis	5234.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.00023651173571232606	CMS001_012_Ra_S4	Basidiomycota	Aedes	dorsalis	5204.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0002743536134262982	CMS001_012_Ra_S4	Fungi	Aedes	dorsalis	4751.0
+	ALCO	Other eukaryotes		Other Eukaryotes		0.0067358542330870465	CMS001_012_Ra_S4	Eukaryota	Aedes	dorsalis	2759.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0008549222797927461	CMS002_045b_Rb_S184_L004	Puccinia cf. psidii AE-2014	Aedes	albopictus	1505670.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00038837465208104083	CMS002_045a_Rb_S183_L004	Pentapetalae	Aedes	albopictus	1437201.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0008495145631067961	CMS002_026b_Rb_S147_L004	Aspergillus pseudoglaucus	Aedes	albopictus	1405805.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0004535147392290249	CMS002_026d_Rb_S149_L004	Pichiaceae	Aedes	albopictus	1156497.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.000689684900211216	CMS002_026c_Rb_S148_L004	Pichiaceae	Aedes	albopictus	1156497.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00212378640776699	CMS002_026b_Rb_S147_L004	Aspergillaceae	Aedes	albopictus	1131492.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.012006205991168395	CMS002_026d_Rb_S149_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.020604336393810076	CMS002_026c_Rb_S148_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.008009708737864078	CMS002_026b_Rb_S147_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00657967488665266	CMS002_026e_Rb_S150_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0021729682746631897	CMS002_026a_Rb_S146_L004	Lachancea thermotolerans CBS 6340	Aedes	albopictus	559295.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.01866571189879461	CMS002_026d_Rb_S149_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.03418250786671839	CMS002_026c_Rb_S148_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.006674757281553398	CMS002_026b_Rb_S147_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.003262191750525268	CMS002_026e_Rb_S150_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0015935100680863393	CMS002_026a_Rb_S146_L004	Lachancea thermotolerans	Aedes	albopictus	381046.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.000258631837579206	CMS002_026c_Rb_S148_L004	Malvoideae	Aedes	albopictus	214907.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00022116554240849277	CMS002_026e_Rb_S150_L004	Lepiota lilacea	Aedes	albopictus	182871.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.000819000819000819	CMS002_026c_Rb_S148_L004	Althaea officinalis	Aedes	albopictus	145745.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00016708437761069338	CMS002_026d_Rb_S149_L004	Malassezia restricta	Aedes	albopictus	76775.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		9.547678720611051e-05	CMS002_026d_Rb_S149_L004	Malassezia globosa	Aedes	albopictus	76773.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		3.1332574388753694e-05	CMS002_045g_Rb_S190_L004	Puccinia coronata	Aedes	albopictus	27344.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0005251223296336078	CMS002_026d_Rb_S149_L004	Achillea millefolium	Aedes	albopictus	13329.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.001767317556791241	CMS002_026c_Rb_S148_L004	Fusarium	Aedes	albopictus	5506.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.001303780964797914	CMS002_026a_Rb_S146_L004	Fusarium	Aedes	albopictus	5506.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.00018203883495145632	CMS002_026b_Rb_S147_L004	Agaricales	Aedes	albopictus	5338.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0014563106796116505	CMS002_026b_Rb_S147_L004	Aspergillus	Aedes	albopictus	5052.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		4.2057008274716376e-05	CMS002_045c_Rb_S185_L004	Aspergillus	Aedes	albopictus	5052.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0006634966272254782	CMS002_026e_Rb_S150_L004	Saccharomycetales	Aedes	albopictus	4892.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0005794582065768506	CMS002_026a_Rb_S146_L004	Saccharomycetales	Aedes	albopictus	4892.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0005794582065768506	CMS002_026a_Rb_S146_L004	Triticum aestivum	Aedes	albopictus	4565.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.000835421888053467	CMS002_026d_Rb_S149_L004	Asteraceae	Aedes	albopictus	4210.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0002072538860103627	CMS002_045b_Rb_S184_L004	Menispermaceae	Aedes	albopictus	3455.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0009581603321622484	CMS002_044a_Rb_S178_L004	Peniophora sp. 213 OA-2013	Aedes	aegypti	1321910.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0017211703958691911	CMS002_025c_Rb_S142_L004	Dothideomycetes sp. TRN 142	Aedes	aegypti	748619.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.014372404982433726	CMS002_044a_Rb_S178_L004	Dikarya	Aedes	aegypti	451864.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.011474469305794606	CMS002_025c_Rb_S142_L004	Plectosphaera eucalypti	Aedes	aegypti	407092.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0012588116817724068	CMS002_044d_Rb_S181_L004	Catenulostroma elginense	Aedes	aegypti	237593.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0054678007290400975	CMS002_025a_Rb_S140_L004	Trechispora farinacea	Aedes	aegypti	156599.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.019506597819850834	CMS002_025c_Rb_S142_L004	Sordariomycetes	Aedes	aegypti	147550.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.002329192546583851	CMS002_025e_Rb_S144_L004	Sordariomycetes	Aedes	aegypti	147550.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.001697792869269949	CMS002_044c_Rb_S180_L004	Pezizomycotina	Aedes	aegypti	147538.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0015527950310559005	CMS002_025e_Rb_S144_L004	Gymnopus	Aedes	aegypti	93827.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.004028197381671702	CMS002_044d_Rb_S181_L004	Udeniomyces	Aedes	aegypti	42658.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.002944888514934792	CMS002_044e_Rb_S182_L004	Diaporthe	Aedes	aegypti	36922.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0019409937888198758	CMS002_025e_Rb_S144_L004	Schizophyllum	Aedes	aegypti	5333.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.002294893861158921	CMS002_025c_Rb_S142_L004	Schizophyllum	Aedes	aegypti	5333.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0018226002430133657	CMS002_025a_Rb_S140_L004	Schizophyllum	Aedes	aegypti	5333.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.004016064257028112	CMS002_025c_Rb_S142_L004	Basidiomycota	Aedes	aegypti	5204.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.002294893861158921	CMS002_025c_Rb_S142_L004	Fungi	Aedes	aegypti	4751.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.0016827934371055953	CMS002_044e_Rb_S182_L004	Oryza	Aedes	aegypti	4527.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.005737234652897304	CMS002_025c_Rb_S142_L004	Asterales	Aedes	aegypti	4209.0
+	WVAL 	Other eukaryotes		Other Eukaryotes		0.017211703958691912	CMS002_025c_Rb_S142_L004	Eukaryota	Aedes	aegypti	2759.0
+	SAND	Apicomplexa		Other Eukaryotes		0.000221403933998322	CMS002_017b_Rb_S123_L004	Ascogregarina culicis	Aedes	aegypti	247478.0
+	SAND	Apicomplexa		Other Eukaryotes		7.571885588808753e-05	CMS002_017c_Rb_S124_L004	Ascogregarina culicis	Aedes	aegypti	247478.0
+	SAND	Apicomplexa		Other Eukaryotes		5.945813816750018e-05	CMS002_017a_Rb_S122_L004	Ascogregarina culicis	Aedes	aegypti	247478.0
+	SAND	Apicomplexa		Other Eukaryotes		0.0012235480563065164	CMS002_017b_Rb_S123_L004	Ascogregarina taiwanensis	Aedes	aegypti	158379.0
+	SAND	Apicomplexa		Other Eukaryotes		0.0007597428765847245	CMS002_017a_Rb_S122_L004	Ascogregarina taiwanensis	Aedes	aegypti	158379.0
+	SAND	Apicomplexa		Other Eukaryotes		0.0001766773304055376	CMS002_017c_Rb_S124_L004	Ascogregarina taiwanensis	Aedes	aegypti	158379.0
+	SAND	Apicomplexa		Other Eukaryotes		4.624521857472236e-05	CMS002_017a_Rb_S122_L004	Ascogregarina	Aedes	aegypti	158378.0
+	SAND	Other eukaryotes		Other Eukaryotes		1.841858066417402e-05	CMS002_018b_Rb_S129_L004	Capnodiales	Aedes	aegypti	134362.0
+	SAND	Other eukaryotes		Other Eukaryotes		4.078493521021721e-05	CMS002_017b_Rb_S123_L004	Pinus massoniana	Aedes	aegypti	88730.0
+	SAND	Other eukaryotes		Other Eukaryotes		0.0001456604828936329	CMS002_017b_Rb_S123_L004	Pinus resinosa	Aedes	aegypti	54921.0
+	SAND	Other eukaryotes		Other Eukaryotes		1.841858066417402e-05	CMS002_018b_Rb_S129_L004	Opisthokonta	Aedes	aegypti	33154.0
+	SAND	Other eukaryotes		Other Eukaryotes		7.367432265669608e-05	CMS002_018b_Rb_S129_L004	Trametes hirsuta	Aedes	aegypti	5327.0
+	SAND	Other eukaryotes		Other Eukaryotes		1.3813935498130514e-05	CMS002_018b_Rb_S129_L004	Polyporaceae	Aedes	aegypti	5317.0
+	SAND	Other eukaryotes		Other Eukaryotes		2.3772054523584255e-05	CMS002_019a_Rb_S130_L004	Hypocreales	Aedes	aegypti	5125.0

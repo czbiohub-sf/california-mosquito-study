@@ -23,18 +23,51 @@ data_dir <- "../data"
 
 ```{r}
 contig_reads = read_tsv(file.path(data_dir, 's3/contig_quality_concat/decontam_sample_read_counts.tsv'))
+
 select_taxa = read_tsv(file.path('../figures/fig3/all_contigs_df.tsv'))
+vertebrates = read_csv(file.path('../figures/fig4/vertebrate_lat.csv'))
 ```
 
 ```{r}
-select_taxa %>% filter(group == 'Metazoa') %>% pull(sci_name) %>% unique()
+select_taxa %>% select(sample, sci_name) %>% filter(str_detect(sci_name, 'rypan')) %>% 
+  group_by(sample) %>% count()
 ```
 
 
 ```{r}
 all_samples = unique(df %>% filter(!str_detect(tolower(sample), 'water')) %>% pull(sample))
 cms001_samples = unique(df %>% filter(str_detect(sample, 'CMS001')) %>% pull(sample))
+
+vertebrates = vertebrates %>% filter(sample %in% cms001_samples)
 ```
+
+
+```{r}
+has_anaplasma = contig_reads %>% filter(taxid == 768) %>% pull(sample)
+has_orbi = c('CMS001_012_Ra_S4')
+```
+
+
+We detect bloodmeals in 46 out of 60 samples.
+
+```{r}
+vertebrates %>% mutate(anaplasma = sample %in% has_anaplasma,
+                                                orbi = sample %in% has_orbi) %>% 
+  group_by(category) %>% summarize(count = n(), ana = sum(anaplasma), orbi = sum(orbi)) %>% arrange(desc(count))
+```
+
+```{r}
+vertebrates %>% group_by(category) %>% count() %>% 
+  ggplot(aes(x = reorder(category, -n), y = n)) + geom_col()
+```
+
+
+```{r}
+vertebrates %>% mutate(anaplasma = sample %in% has_anaplasma,
+                                                orbi = sample %in% has_orbi) %>% 
+  group_by(category, name) %>% summarize(count = n(), ana = sum(anaplasma), orbi = sum(orbi))
+```
+
 
 ```{r}
 association <- function(df, query, sample_subset = all_samples, p_filter=0.05){
@@ -51,11 +84,11 @@ association <- function(df, query, sample_subset = all_samples, p_filter=0.05){
 ```
 
 ```{r}
-association(select_taxa, "Wolbachieae", cms001_samples)
+association(vertebrates, "Wolbachieae", cms001_samples)
 ```
 
 ```{r}
-association(select_taxa, "Plasmodium")
+association(select_taxa, "Bovidae")
 ```
 
 ```{r}
@@ -70,10 +103,26 @@ association_with <- function(df, has_query, sample_subset = all_samples, p_filte
 }
 ```
 
+
 ```{r}
 has_anaplasma = contig_reads %>% filter(taxid == 768) %>% pull(sample)
 association_with(select_taxa, has_anaplasma, cms001_samples)
 ```
+
+```{r}
+read_csv('~/src/skeeters/figures/fig4/vertebrate_lat.csv') %>% mutate(anaplasma = sample %in% has_anaplasma) %>%
+  arrange(desc(anaplasma))
+```
+
+
+```{r}
+length(has_anaplasma)
+```
+
+```{r}
+association_with(select_taxa, has_anaplasma, cms001_samples)
+```
+
 
 Note Odocoileinae and Bovidae are the only Metazoa co-occuring with Anaplasma.
 
@@ -105,5 +154,23 @@ stratify_association <- function(df, query, stratify_by, sample_subset = all_sam
 ```
 
 ```{r}
+select_taxa
+select_taxa %>% filter(group=='Metazoa') %>% 
+  ggplot(aes(x = sample, y = read_prop, c = sci_name))
+```
+
+
+```{r}
 stratify_association(select_taxa, "Wolbachieae", 'ska_species', cms001_samples)
 ```
+
+```{r}
+cows_vs_deer = select_taxa %>% filter(sci_name %in% c("Bovidae", "Odocoileinae")) %>% 
+  select(sci_name, sample, read_prop) %>% spread(sci_name, read_prop, fill=0) %>%
+  mutate(Odocoileinae/Bovidae)
+cows_vs_deer %>%  ggplot(aes(x=Bovidae, y=Odocoileinae)) + geom_point() + geom_abline(slope=1)
+```
+```{r}
+cows_vs_deer %>% arrange(desc(Odocoileinae))
+```
+

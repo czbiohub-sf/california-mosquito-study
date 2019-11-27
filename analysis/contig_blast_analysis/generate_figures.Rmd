@@ -266,7 +266,7 @@ ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=unit(18, "in"), height=u
 # Plot prevalence vs abundance of viruses
 
 ```{r prev_abundance}
-curated_virus_df <- filter(curated_virus_wolbachia_df, group=="Virus") %>%
+curated_virus_df <- filter(curated_contigs, group=="Virus") %>%
   left_join(., select(metadata, NewIDseqName, collection_lat, collection_long), by=c("sample"="NewIDseqName"))
 viral_bulk_abundance <- curated_virus_df %>%
   group_by(ska_genus, ska_species, collection_lat, collection_long, sci_name) %>%
@@ -283,7 +283,7 @@ viral_bulk_abundance <- curated_virus_df %>%
 ```{r prev_abundance_vignettes}
 select_viruses_prev_abundance <- 
   filter(viral_bulk_abundance, num_mosquitos>=10) %>%
-  filter(bulk_abundance>=0.1, bulk_abundance<=0.2) %>%
+  filter(bulk_abundance>=0.08) %>%
   slice(c(which.min(prevalence), which.max(prevalence))) %>%
   list(.) %>%
   mapply(function (i, df) {
@@ -311,13 +311,13 @@ prev_abundance_plot <-
   theme_bw() +
   geom_point(aes(x=bulk_abundance, y=prevalence, color=highlight)) +
   geom_label(data=filter(select_viruses_prev_abundance, !duplicated(paste(ska_genus, ska_species, collection_lat, collection_long, sci_name))) %>%
-                           mutate(bulk_abundance=bulk_abundance-c(0.02, 0.095), prevalence=prevalence+c(0.13, -0.07)),
-             aes(x=bulk_abundance, y=prevalence, label=paste0(sci_name, "\ncollected at\n", round(collection_lat, 2), ", ", round(collection_long, 2)), fill=sci_name),
-             hjust=0.5, alpha=.75) +
+                           mutate(bulk_abundance=bulk_abundance-c(0.01, 0.09), prevalence=prevalence+c(0.07, -0.05)),
+             aes(x=bulk_abundance, y=prevalence, label=sci_name, fill=sci_name),
+             hjust=0.5, alpha=.75, size=3) +
   scale_x_log10(labels=scales::percent) +
   scale_y_continuous(labels=scales::percent) +
-  scale_color_manual(values=c("black", "indianred1", "skyblue2")) +
-  scale_fill_manual(values=c("indianred1", "skyblue2")) +
+  scale_color_manual(values=c("skyblue2", "indianred1", "black")) +
+  scale_fill_manual(values=c("skyblue2", "indianred1")) +
   xlab("bulk abundance") + 
   ylab("prevalence") +
   ggtitle("A)") +
@@ -330,16 +330,16 @@ select_virus_prev_abund_plot <- ggplot(select_viruses_prev_abundance, aes(x=samp
   theme_bw() +
   geom_bar(stat="identity") +
   geom_hline(aes(yintercept=bulk_abundance), color="darkmagenta") +
-  facet_grid(.~paste0(sci_name, " collected at ", round(collection_lat, 2), ",", round(collection_long, 2)), scales="free_x", space="free") +
+  facet_grid(.~sci_name, scales="free_x", space="free") +
   scale_y_continuous(labels=scales::percent) +
-  xlab("Sample") + ylab("% nonhost\nreads") +
+  xlab("Sample") + ylab("% nonhost reads") +
   ggtitle("B)") +
-  theme(axis.text.x=element_text(angle=90))
+  theme(axis.text.x=element_blank(), axis.title.x=element_blank())
 ```
 
 ```{r prev_abundance_combined_plot}
 ggsave(file.path(fig_dir, "../supplementary/virus_prev_abundance.pdf"), arrangeGrob(prev_abundance_plot, select_virus_prev_abund_plot, ncol=1, heights=c(6, 4)),
-       width=unit(8, "in"), height=unit(6.5, "in"))
+       width=unit(6, "in"), height=unit(5, "in"))
 ```
 
 

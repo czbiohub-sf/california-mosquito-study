@@ -14,7 +14,7 @@ Run this notebook after running the generate_figures.ipynb jupyter notebook.
 
 ```{r setup, include=FALSE}
 # List of packages to load
-pkgs <- c("dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "knitr", "scales", "gtable")
+pkgs <- c("dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "knitr", "scales", "gtable", "rgdal", "broom")
 # Install any packages not yet installed
 if (any(!(pkgs %in% rownames(installed.packages())))) {
   invisible(sapply(pkgs[!(pkgs %in% rownames(installed.packages()))], install.packages))
@@ -111,26 +111,9 @@ curated_contigs %<>%
 
 
 ```{r plot_color_palette, message=FALSE}
-collected_by_dict <- c(PLCR="Placer", ALCO="Alameda", WVAL="West Valley", COAV="Coachella Valley", SAND="San Diego", "NA"="NA")
-
-collected_by_colors <- c(PLCR=rgb(0.28098424626331703, 0.63955403192370541, 0.39507882933990629, 0.75), ## green\n",
-                          ALCO=rgb(0.49803923567136127, 0.43267975250879925, 0.52287583549817396, 0.75), ## purple\n"
-                          WVAL=rgb(0.88366013765335083, 0.77908497055371606, 0.18562091886997223, 0.75), ## yellow\n",
-                          COAV=rgb(0.8162552973803352, 0.41062668737243202, 0.29078047883276847, 0.75), ## red\n",
-                          SAND=rgb(0.4666666666666667, 0.7450980392156863, 0.8588235294117647, 0.75), ## light blue\n",
-                          "NA"="#C0C0C0")
-
-color_palette <- read_tsv(file.path(fig_dir, "virus_color_scheme.tsv"), col_names = c("id", "family", "color")) %>% 
-  filter(!duplicated(family)) %>%
-  with(setNames(color, family)) %>%
-  c(., c(Wolbachia="black", Amblyosporidae="gray75", Apicomplexa="gray50", Trypanosomatidae="gray25")) %>%
-  c(., collected_by_colors) 
-
-
-names(color_palette)
-
-color_palette[c("Flaviviridae", "Narnaviridae", "Virgaviridae", "Solemoviridae", "Luteoviridae", "Tombusviridae", "Nodaviridae", "Iflaviridae", "Dicistroviridae", "Orthomyxoviridae", "Rhabdoviridae", "Xinmoviridae", "Partitiviridae")] <- c("#0074C4", "#57A2F7", "#AFD1FF", "#FDFB2F", "#FDFB2F", "#7AD593", "#7AD593", "#48A365", "#48A365", "#BA0000", "#FF7D48", "#FF7D48", "#965DAE")
-
+color_palette <- file.path(fig_dir, "fig3_color_palette.tsv") %>%
+  read_tsv() %>%
+  with(setNames(color, key))
 ```
 
 
@@ -148,27 +131,26 @@ base_plot_background_df <- curated_contigs %>%
 base_plot <- 
   ggplot(curated_contigs) +
   theme_bw() + 
-  geom_tile(data=base_plot_background_df, aes(x=sample, y=0.5), fill=base_plot_background_df$fill, alpha=.5) +
+  #geom_tile(data=base_plot_background_df, aes(x=sample, y=0.5), fill=base_plot_background_df$fill, alpha=.5) +
   geom_bar(aes(x=sample, y=read_prop, fill=family), stat="identity", position="stack", color="white", size=.2) +
-  geom_text(data=curated_contigs %>% filter(!duplicated(group)) %>% mutate(group_label=gsub("Other Eukaryotes", "Microscopic\neukaryotes", group)), 
+  geom_text(data=curated_contigs %>% filter(!duplicated(group)) %>% mutate(group_label=gsub("Other Eukaryotes", "eukaryotes", group) %>% gsub("Virus", "viruses", .)), 
             aes(label=group_label), x=1, y=max(curated_contigs$read_prop)*0.9, hjust=0, lineheight=.75) +
   facet_grid(group~., switch="both") +
-  scale_y_continuous(labels=scales::percent, breaks=c(0.25, 0.5, 0.75), minor_breaks=seq(0.05, 1, 0.05)) +
-  #scale_alpha_continuous("", range=c(0.0, 0.1)) +
+  scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
   scale_fill_manual("", breaks=names(color_palette), values=color_palette, labels=names(color_palette)) +
-  ylab("% of nonhost reads") +
+  ylab("% nonhost reads") +
   xlab("sample ID") +
   theme(legend.position="none",
         strip.background.y=element_blank(),
         strip.text.y=element_blank(),
-        panel.grid.minor.x = element_blank(),
-        panel.grid.major.x = element_blank(),
-        text=element_text(size=14),
+        text=element_text(size=18),
         axis.text.x=element_blank(),
         axis.title.x=element_blank(),
-        axis.title.y=element_text(vjust=0.5),
+        axis.title.y=element_text(vjust=0.5, margin=margin(t=0, r=1.1, b=0, l=0, unit="lines")),
         axis.line=element_line(size=.2),
-        plot.margin=unit(c(0, 0, 0, 0), "lines"))
+        plot.margin=unit(c(0, 0, 0, 0), "lines"),
+        panel.grid.major.y=element_line(linetype=2, size=0.5, color="gray80"),
+        panel.grid.minor.y=element_line(linetype=2, size=0.25, color="gray90"))
 plot_grob <- ggplotGrob(base_plot)
 plot_grob$heights[filter(plot_grob$layout, grepl("panel-1-1", name))$t] <- unit(2.5, "null")
 ```
@@ -178,7 +160,6 @@ species_label_df <- curated_contigs %>%
   group_by(ska_genus, ska_species) %>% 
   summarize(xmin=min(sample_id), xmax=max(sample_id)) %>% 
   ungroup() %>% 
-  mutate(col=as.numeric((1:nrow(.))%%2)) %>%
   mutate(xmin=xmin-0.5, xmax=xmax+0.5) %>%
   mutate(species_label=paste0(substr(ska_genus, 1, 2), ". ", ska_species) %>% 
            gsub("Cu. $", "Culiseta spp.", .) %>% 
@@ -189,30 +170,40 @@ species_label_df <- curated_contigs %>%
 species_label_grob <- ggplot(species_label_df) +
   theme_classic() +
   geom_rect(aes(xmin=xmin, xmax=xmax, fill=species_label, ymin=0, ymax=1), color="white", fill="gray") +
-  geom_text(aes(x=(xmax+xmin)/2, y=0.5, label=species_label), fontface="italic", size=3) +
-  scale_y_continuous(labels=scales::percent) +
+  geom_text(aes(x=(xmax+xmin)/2, y=0.5, label=species_label), fontface="italic", size=4.5) +
+  scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
   scale_x_continuous(expand = c(0,0)) +
-  ylab("% of nonhost reads") +
+  ylab("% nonhost reads") +
   theme(axis.line.y=element_line(size=.2, color="white"),
-        axis.text.y=element_text(size=14, color="white", ),
+        axis.text.y=element_text(size=18, color="white"),
         axis.ticks.y=element_line(color="white"),
-        axis.title.y=element_text(vjust=0.5, color="white"),
+        axis.title.y=element_text(vjust=0.5, color="white", margin=margin(t=0, r=1.1, b=0, l=0, unit="lines")),
         axis.line.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
         axis.title.x=element_blank(),
         plot.margin=unit(c(0, 0, 0, 0), "lines"))
 
-location_label_grob <- ggplot(curated_contigs %>% filter(!duplicated(sample))) +
+```
+
+```{r location_labels_grob}
+location_label_df <- curated_contigs %>%
+  group_by(ska_genus, ska_species, collected_by) %>% 
+  summarize(xmin=min(sample_id), xmax=max(sample_id)) %>% 
+  ungroup() %>%
+  mutate(xmin=xmin-0.5, xmax=xmax+0.5) 
+
+location_label_grob <- ggplot(location_label_df) +
   theme_classic() +
-  geom_tile(aes(x=sample, fill=collected_by, y=1)) +
-  scale_y_continuous(labels=scales::percent) +
-  ylab("% of nonhost reads") +
+  geom_rect(aes(xmin=xmin, xmax=xmax, fill=collected_by, ymin=0, ymax=1)) +
+  scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
+  scale_x_continuous(expand = c(0,0)) +
+  ylab("% nonhost reads") +
   scale_fill_manual("", breaks=names(color_palette), values=color_palette, labels=names(color_palette)) +
   theme(axis.line.y=element_line(size=.2, color="white"),
-        axis.text.y=element_text(size=14, color="white"),
+        axis.text.y=element_text(size=18, color="white"),
         axis.ticks.y=element_line(color="white"),
-        axis.title.y=element_text(vjust=0.5, color="white"),
+        axis.title.y=element_text(vjust=0.5, color="white", margin=margin(t=0, r=1.1, b=0, l=0, unit="lines")),
         axis.line.x=element_blank(),
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank(),
@@ -224,29 +215,69 @@ location_label_grob <- ggplot(curated_contigs %>% filter(!duplicated(sample))) +
 ```
 
 
+```{r collection_site_map}
+ca_shapefile <- readOGR(dsn=file.path(data_dir, "../shapefiles/CA_State")) %>% spTransform(CRS("+proj=longlat +datum=WGS84"))
+ca_shapefile_tidy <- broom::tidy(ca_shapefile)
+selected_ca_shapefile_group <- ca_shapefile_tidy %>% 
+  group_by(group) %>% 
+  summarize(sum=diff(range(lat))+diff(range(long))) %>%
+  slice(which.max(sum)) %>% 
+  `[[`("group")
+ca_shapefile_tidy <- filter(ca_shapefile_tidy, group==selected_ca_shapefile_group)
+map_dot_df <- metadata %>% group_by(collected_by) %>% summarize(lat=median(collection_lat, na.rm=TRUE), long=median(collection_long, na.rm=TRUE))
+map_text_df <- map_dot_df %>%
+  mutate(lat=lat+c(0, 1.8, 1, -.9, -.9), long=long+c(2, -1.7, -.8, 1.5, -2)) %>%
+  mutate(label=collected_by_dict[collected_by])
+ca_map_plot <- ggplot(ca_shapefile_tidy, aes(x=long, y=lat, group=group)) +
+  geom_polygon(color = "black", size = 0.2, fill = "white") +
+  coord_equal() +
+  theme_classic() +
+  geom_point(data=map_dot_df, aes(x=long, y=lat, fill=collected_by, group=NA), cex=6, stroke=0.25, color="black", shape=21, alpha=1) +
+  geom_text(data=map_text_df, aes(x=long, y=lat, label=label, group=NA)) +
+  geom_segment(data=filter(map_dot_df, collected_by=="COAV") %>% mutate(xend=long, yend=filter(map_text_df, collected_by=="COAV")$lat-.4, lat=lat+.4), 
+               aes(x=long, y=lat, xend=xend, yend=yend, group=NA)) +
+  scale_fill_manual(breaks=names(color_palette), values=color_palette) +
+  xlab("Collection Sites") +
+  theme(legend.position="none", 
+        axis.line=element_blank(), 
+        axis.ticks=element_blank(), 
+        axis.title.y=element_blank(), 
+        axis.text=element_blank(),
+        axis.title.x=element_text(hjust=0, face="bold", size=14),
+        plot.margin=unit(c(0, 0, 0, .5), units="lines"))
+```
+
 ```{r plot_legends}
-collection_site_plot <- ggplot(curated_contigs, aes(x=sample_short, y=read_prop, fill=collected_by)) + 
-  theme_bw() + 
-  geom_bar(stat="identity",) +
-  scale_fill_manual(breaks=names(collected_by_colors), 
-                    labels=collected_by_dict[names(collected_by_colors)], 
-                    values=collected_by_colors) +
-  guides(fill=guide_legend(title="Collection Sites")) +
-  theme(text=element_text(size=10), legend.title=element_text(size=12, face="bold"))
+# collection_site_plot <- ggplot(curated_contigs, aes(x=sample_short, y=read_prop, fill=collected_by)) + 
+#   theme_bw() + 
+#   geom_bar(stat="identity",) +
+#   scale_fill_manual(breaks=names(collected_by_colors), 
+#                     labels=collected_by_dict[names(collected_by_colors)], 
+#                     values=collected_by_colors) +
+#   guides(fill=guide_legend(title="Collection Sites")) +
+#   theme(text=element_text(size=10), legend.title=element_text(size=12, face="bold"))
 # Extract legends as separate plots
 legends <- split(curated_contigs, curated_contigs$baltimore_group) %>%
   lapply(function (dataframe) {
+    legend_nrow <- 2
+    if (dataframe$genome_description[1]=="Other Eukaryotes") legend_nrow <- 3
     selected_colours <- names(color_palette) %in% as.character(dataframe$family)
     subpalette <- color_palette[selected_colours]
     sublabels <- names(color_palette)[selected_colours]
     ggplot(dataframe, aes(x=sample_short, y=read_prop, fill=family)) +
       theme_bw() +
       geom_bar(stat="identity", position="stack") +
-      scale_fill_manual(gsub("Other ", "Microscopic ", dataframe$genome_description[1]), breaks=sublabels, labels=sublabels, values=subpalette) +
-      guides(fill=guide_legend(nrow=2, byrow=TRUE, title.position="top")) +
-      theme(text=element_text(size=10), legend.position="top", legend.title=element_text(size=12, face="bold"))
+      scale_fill_manual(gsub("Other E", "e", dataframe$genome_description[1]), breaks=sublabels, labels=sublabels, values=subpalette) +
+      guides(fill=guide_legend(nrow=legend_nrow, byrow=TRUE, title.position="top")) +
+      theme(text=element_text(size=14), 
+            plot.margin=unit(c(0, 1, 0, 0), units="lines"),
+            legend.position="top",
+            legend.spacing.y=unit(0.4, "lines"),
+            legend.spacing.x=unit(0.3, "lines"),
+            legend.key.size=unit(0.9, "lines"),
+            legend.title=element_text(margin=margin(0, 0, 0.65, 0, unit="lines"), face="bold"))
   }) %>%
-  c(., list(collection_site=collection_site_plot)) %>%
+  #c(., list(collection_site=collection_site_plot)) %>%
   lapply(function (plot_x) {
     plot_gtable <- ggplot_gtable(ggplot_build(plot_x))
     leg <- which(sapply(plot_gtable$grobs, function(x) x$name) == "guide-box")
@@ -254,14 +285,17 @@ legends <- split(curated_contigs, curated_contigs$baltimore_group) %>%
   })
 ```
 
-
 ```{r save_plot}
-legends_grob <- arrangeGrob(do.call(what=cbind, legends[c("V", "IV", "III", "Other Eukaryotes")]), nrow=1)
-collection_site_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), legends$collection_site, ncol=1, heights=c(2, 1))
-main_plot_grob <- arrangeGrob(arrangeGrob(plot_grob, location_label_grob, species_label_grob, ncol=1, heights=c(40, 2, 3)), collection_site_grob, nrow=1, widths=c(7, 1))
-full_plot <- arrangeGrob(legends_grob, main_plot_grob, heights=c(1, 6))
-ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=unit(18, "in"), height=unit(7, "in"))
+legends_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), arrangeGrob(do.call(what=cbind, legends[c("V", "IV", "III", "Other Eukaryotes")]), nrow=1), widths=c(1, 9))
+collection_site_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), ca_map_plot, ncol=1, heights=c(1.75, 1))
+main_plot_grob <- arrangeGrob(legends_grob, species_label_grob, plot_grob, location_label_grob, ncol=1, heights=c(7, 3, 30, 2))
+full_plot <- arrangeGrob(main_plot_grob, collection_site_grob, nrow=1, widths=c(7, 1))
+ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=unit(20, "in"), height=unit(8, "in"))
 ```
+
+
+
+
 
 # Plot prevalence vs abundance of viruses
 

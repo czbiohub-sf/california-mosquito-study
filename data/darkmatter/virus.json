@@ -2288,8 +2288,6 @@
     "family": "Solemoviridae",
     "name": "Guadeloupe mosquito virus",
     "samples": [
-      "CMS001_008_Ra_S3",
-      "CMS001_009_Ra_S13",
       "CMS002_017a_Rb_S122_L004",
       "CMS002_017b_Rb_S123_L004",
       "CMS002_017c_Rb_S124_L004",
@@ -2297,8 +2295,7 @@
       "CMS002_017e_Rb_S126_L004",
       "CMS002_018a_Rb_S128_L004",
       "CMS002_018b_Rb_S129_L004",
-      "CMS002_019a_Rb_S130_L004",
-      "CMS002_021a_Rb_S136_L004"
+      "CMS002_019a_Rb_S130_L004"
     ],
     "segments": {
       "RNA2": {

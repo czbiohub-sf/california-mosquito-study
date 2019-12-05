@@ -2963,7 +2963,7 @@
       "CMS001_038_Ra_S22"
     ],
     "segments": {
-      "": {
+      "genome": {
         "clusters": [
           78
         ],

@@ -301,18 +301,18 @@ V	SAND	Peribunyaviridae	single stranded RNA negative sense	Virus	3	44.0	0.205582
 IV	SAND	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.19144654088050314	CMS002_023a_Rb_S138_L004	Culex narnavirus 1	Culex	quinquefasciatus	2562539.0
 III	SAND	Chrysoviridae	double stranded RNA	Virus	4	326.0	0.01142718916303822	CMS002_023a_Rb_S138_L004	Hubei chryso-like virus 1	Culex	quinquefasciatus	2587491.0
 III	WVAL 	Partitiviridae	double stranded RNA	Virus	2	3110.0	0.012919233401779603	CMS002_026a_Rb_S146_L004	3110|Partiti-like	Aedes	albopictus	37960.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.04483230663928816	CMS002_026a_Rb_S146_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.04483230663928816	CMS002_026a_Rb_S146_L004	Barstukas virus	Aedes	albopictus	2546221.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.025838466803559206	CMS002_026a_Rb_S146_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 III	WVAL 	Partitiviridae	double stranded RNA	Virus	2	3110.0	0.005978910751168605	CMS002_026b_Rb_S147_L004	3110|Partiti-like	Aedes	albopictus	37960.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.024785302750298947	CMS002_026b_Rb_S147_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.024785302750298947	CMS002_026b_Rb_S147_L004	Barstukas virus	Aedes	albopictus	2546221.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.038645504946189804	CMS002_026b_Rb_S147_L004	Ūsinis virus	Aedes	albopictus	1566308.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.03999683819460912	CMS002_026c_Rb_S148_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.03999683819460912	CMS002_026c_Rb_S148_L004	Barstukas virus	Aedes	albopictus	2546221.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.02126314125365584	CMS002_026c_Rb_S148_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 III	WVAL 	Partitiviridae	double stranded RNA	Virus	2	3110.0	0.014617759215543853	CMS002_026d_Rb_S149_L004	3110|Partiti-like	Aedes	albopictus	37960.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.059991828581804976	CMS002_026d_Rb_S149_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.059991828581804976	CMS002_026d_Rb_S149_L004	Barstukas virus	Aedes	albopictus	2546221.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.023152351552569457	CMS002_026d_Rb_S149_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 III	WVAL 	Partitiviridae	double stranded RNA	Virus	2	3110.0	0.01160443995963673	CMS002_026e_Rb_S150_L004	3110|Partiti-like	Aedes	albopictus	37960.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.0322401614530777	CMS002_026e_Rb_S150_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.0322401614530777	CMS002_026e_Rb_S150_L004	Barstukas virus	Aedes	albopictus	2546221.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.018163471241170535	CMS002_026e_Rb_S150_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 IV	WVAL 	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.19250829777145567	CMS002_027a_Rb_S152_L004	Culex narnavirus 1	Culex	quinquefasciatus	2562539.0
 IV	WVAL 	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.2142188503445048	CMS002_027b_Rb_S153_L004	Culex narnavirus 1	Culex	quinquefasciatus	2562539.0
@@ -377,30 +377,30 @@ IV	COAV	Luteoviridae	single stranded RNA positive sense	Virus	1	706.0	0.00878034
 IV	COAV	Solemoviridae	single stranded RNA positive sense	Virus	1	458.0	0.09640390592985718	CMS002_041a_Rb_S176_L004	Kellev virus	Culex	tarsalis	502177.0
 V	COAV	Rhabdoviridae	single stranded RNA negative sense	Virus	1	8.0	0.11875206140745405	CMS002_041a_Rb_S176_L004	Merida virus	Culex	tarsalis	1803034.0
 IV	WVAL 	Dicistroviridae	single stranded RNA positive sense	Virus	1	60.0	0.14348925410872312	CMS002_044b_Rb_S179_L004	Wuhan insect virus 33	Aedes	aegypti	336635.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.054027179317202516	CMS002_044d_Rb_S181_L004	70|Phasma-like	Aedes	aegypti	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.054027179317202516	CMS002_044d_Rb_S181_L004	Barstukas virus	Aedes	aegypti	2546221.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.03563142194232682	CMS002_044d_Rb_S181_L004	Ūsinis virus	Aedes	aegypti	1566308.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.02602934216753431	CMS002_044e_Rb_S182_L004	70|Phasma-like	Aedes	aegypti	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.02602934216753431	CMS002_044e_Rb_S182_L004	Barstukas virus	Aedes	aegypti	2546221.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.02129673450070989	CMS002_044e_Rb_S182_L004	Ūsinis virus	Aedes	aegypti	1566308.0
 III	WVAL 	Partitiviridae	double stranded RNA	Virus	2	3110.0	0.016668531155610247	CMS002_045a_Rb_S183_L004	3110|Partiti-like	Aedes	albopictus	37960.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.018682179214677255	CMS002_045a_Rb_S183_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.018682179214677255	CMS002_045a_Rb_S183_L004	Barstukas virus	Aedes	albopictus	2546221.0
 IV	WVAL 	Solemoviridae	single stranded RNA positive sense	Virus	1	561.0	0.13192191520304283	CMS002_045a_Rb_S183_L004	Wenzhou sobemo-like virus 4	Aedes	albopictus	502177.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.025058731401722788	CMS002_045a_Rb_S183_L004	Ūsinis virus	Aedes	albopictus	1566308.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.03010654091345734	CMS002_045b_Rb_S184_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.03010654091345734	CMS002_045b_Rb_S184_L004	Barstukas virus	Aedes	albopictus	2546221.0
 IV	WVAL 	Solemoviridae	single stranded RNA positive sense	Virus	1	561.0	0.01951794603091433	CMS002_045b_Rb_S184_L004	Wenzhou sobemo-like virus 4	Aedes	albopictus	502177.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.07062701947428172	CMS002_045b_Rb_S184_L004	Ūsinis virus	Aedes	albopictus	1566308.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.0061070735512347325	CMS002_045c_Rb_S185_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.0061070735512347325	CMS002_045c_Rb_S185_L004	Barstukas virus	Aedes	albopictus	2546221.0
 IV	WVAL 	Solemoviridae	single stranded RNA positive sense	Virus	1	561.0	0.22161447433507098	CMS002_045c_Rb_S185_L004	Wenzhou sobemo-like virus 4	Aedes	albopictus	502177.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.009341349263726647	CMS002_045c_Rb_S185_L004	Ūsinis virus	Aedes	albopictus	1566308.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.005899721264336157	CMS002_045d_Rb_S186_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.005899721264336157	CMS002_045d_Rb_S186_L004	Barstukas virus	Aedes	albopictus	2546221.0
 IV	WVAL 	Solemoviridae	single stranded RNA positive sense	Virus	1	561.0	0.25304901561140064	CMS002_045d_Rb_S186_L004	Wenzhou sobemo-like virus 4	Aedes	albopictus	502177.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.005877686824506704	CMS002_045d_Rb_S186_L004	Ūsinis virus	Aedes	albopictus	1566308.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.016965895339935297	CMS002_045e_Rb_S188_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.016965895339935297	CMS002_045e_Rb_S188_L004	Barstukas virus	Aedes	albopictus	2546221.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.003457387696638925	CMS002_045e_Rb_S188_L004	Ūsinis virus	Aedes	albopictus	1566308.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.021338950453338217	CMS002_045f_Rb_S189_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.021338950453338217	CMS002_045f_Rb_S189_L004	Barstukas virus	Aedes	albopictus	2546221.0
 IV	WVAL 	Solemoviridae	single stranded RNA positive sense	Virus	1	561.0	0.17799249015477608	CMS002_045f_Rb_S189_L004	Wenzhou sobemo-like virus 4	Aedes	albopictus	502177.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.01923253045150655	CMS002_045f_Rb_S189_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 III	WVAL 	Partitiviridae	double stranded RNA	Virus	2	3110.0	0.0020332642023504536	CMS002_045g_Rb_S190_L004	3110|Partiti-like	Aedes	albopictus	37960.0
-V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.009749501850270424	CMS002_045g_Rb_S190_L004	70|Phasma-like	Aedes	albopictus	2546221.0
+V	WVAL 	Phasmaviridae	single stranded RNA negative sense	Virus	3	70.0	0.009749501850270424	CMS002_045g_Rb_S190_L004	Barstukas virus	Aedes	albopictus	2546221.0
 IV	WVAL 	Solemoviridae	single stranded RNA positive sense	Virus	1	561.0	0.24234476027815055	CMS002_045g_Rb_S190_L004	Wenzhou sobemo-like virus 4	Aedes	albopictus	502177.0
 V	WVAL 	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1168.0	0.00591679882883982	CMS002_045g_Rb_S190_L004	Ūsinis virus	Aedes	albopictus	1566308.0
 IV	WVAL 	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.2143912099715801	CMS002_046a_Rb_S191_L004	Culex narnavirus 1	Culex	quinquefasciatus	2562539.0
@@ -514,8 +514,8 @@ IV	PLCR	Nodaviridae	single stranded RNA positive sense	Virus	2	45.0	0.0784731748
 	ALCO			Metazoa			0.005237393099380714	CMS001_028_Ra_S17	Ursus arctos horribilis	Culex	tarsalis	116960.0
 	ALCO			Metazoa			0.0007973346242560583	CMS001_043_Ra_S24	Pipridae	Culex	tarsalis	114313.0
 	ALCO			Metazoa			1.6174948240165633e-05	CMS001_036_Ra_S20	Ovis canadensis canadensis	Culex	tarsalis	112262.0
-	ALCO			Metazoa			3.2349896480331265e-05	CMS001_036_Ra_S20	Cetartiodactyla	Culex	tarsalis	91561.0
-	ALCO			Metazoa			3.157288205160588e-05	CMS001_038_Ra_S22	Cetartiodactyla	Culex	tarsalis	91561.0
+	ALCO			Metazoa			3.2349896480331265e-05	CMS001_036_Ra_S20	Artiodactyla	Culex	tarsalis	91561.0
+	ALCO			Metazoa			3.157288205160588e-05	CMS001_038_Ra_S22	Artiodactyla	Culex	tarsalis	91561.0
 	ALCO			Metazoa			6.350980591403313e-05	CMS001_032_Ra_S7	Corvus brachyrhynchos	Culex	tarsalis	85066.0
 	ALCO			Metazoa			7.287169116977282e-05	CMS001_027_Ra_S16	Geospiza fortis	Culex	tarsalis	48883.0
 	ALCO			Metazoa			0.002349862818819225	CMS001_032_Ra_S7	Zonotrichia albicollis	Culex	tarsalis	44394.0
@@ -630,7 +630,7 @@ IV	PLCR	Nodaviridae	single stranded RNA positive sense	Virus	2	45.0	0.0784731748
 	ALCO			Metazoa			0.004936058834407318	CMS001_011_Ra_S4	Peromyscus maniculatus bairdii	Culex	erythrothorax	230844.0
 	ALCO			Metazoa			0.0008536206820096671	CMS001_050_Ra_S23	Egretta garzetta	Culex	erythrothorax	188379.0
 	ALCO			Metazoa			6.076872436319441e-05	CMS001_047_Ra_S4	Pipridae	Culex	erythrothorax	114313.0
-	ALCO			Metazoa			9.015506671474937e-05	CMS001_035_Ra_S20	Cetartiodactyla	Culex	erythrothorax	91561.0
+	ALCO			Metazoa			9.015506671474937e-05	CMS001_035_Ra_S20	Artiodactyla	Culex	erythrothorax	91561.0
 	ALCO			Metazoa			0.0022723986200342923	CMS001_058_Ra_S9	Microtus ochrogaster	Culex	erythrothorax	79684.0
 	ALCO			Metazoa			0.0003115040854958905	CMS001_053_Ra_S8	Entelegynae	Culex	erythrothorax	74971.0
 	ALCO			Metazoa			0.00018230617308958322	CMS001_047_Ra_S4	Troglodytinae	Culex	erythrothorax	69501.0
@@ -732,7 +732,7 @@ IV	PLCR	Nodaviridae	single stranded RNA positive sense	Virus	2	45.0	0.0784731748
 	ALCO	Other eukaryotes		Other Eukaryotes			0.00014452302884137693	CMS001_008_Ra_S3	Lachancea thermotolerans	Culiseta	particeps	381046.0
 	ALCO	Other eukaryotes		Other Eukaryotes			7.313550180096173e-05	CMS001_009_Ra_S13	Lachancea	Culiseta	particeps	300275.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.00013749261988143282	CMS001_025_Ra_S7	Microbotryomycetes	Culiseta	particeps	162481.0
-	ALCO	Other eukaryotes		Other Eukaryotes			3.194862660841367e-05	CMS001_014_Ra_S5	Microbotryomycetes	Culiseta	particeps	162481.0
+	ALCO	Other eukaryotes		Other Eukaryotes			3.195322048520965e-05	CMS001_014_Ra_S5	Microbotryomycetes	Culiseta	particeps	162481.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.0016089810396211581	CMS001_009_Ra_S13	Salix interior	Culiseta	particeps	75712.0
 	ALCO	Other eukaryotes		Other Eukaryotes			8.532475210112202e-05	CMS001_009_Ra_S13	Hanseniaspora vineae	Culiseta	particeps	56409.0
 	ALCO	Other eukaryotes		Other Eukaryotes			4.875700120064116e-05	CMS001_009_Ra_S13	Hanseniaspora osmophila	Culiseta	particeps	56408.0

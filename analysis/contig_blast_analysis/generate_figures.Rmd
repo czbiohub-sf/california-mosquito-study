@@ -216,6 +216,9 @@ location_label_grob <- ggplot(location_label_df) +
 
 
 ```{r collection_site_map}
+collected_by_dict <- c("ALCO"="Alameda", "COAV"="Coachella Valley", "PLCR"="Placer", 
+                       "SAND"="San Diego", "WVAL"="West Valley")
+
 ca_shapefile <- readOGR(dsn=file.path(data_dir, "../shapefiles/CA_State")) %>% spTransform(CRS("+proj=longlat +datum=WGS84"))
 ca_shapefile_tidy <- broom::tidy(ca_shapefile)
 selected_ca_shapefile_group <- ca_shapefile_tidy %>% 
@@ -286,15 +289,40 @@ legends <- split(curated_contigs, curated_contigs$baltimore_group) %>%
 ```
 
 ```{r save_plot}
-legends_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), arrangeGrob(do.call(what=cbind, legends[c("V", "IV", "III", "Other Eukaryotes")]), nrow=1), widths=c(1, 9))
+legends_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), arrangeGrob(do.call(what=gtable_cbind, legends[c("V", "IV", "III", "Other Eukaryotes")]), nrow=1), widths=c(1, 9))
 collection_site_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), ca_map_plot, ncol=1, heights=c(1.75, 1))
 main_plot_grob <- arrangeGrob(legends_grob, species_label_grob, plot_grob, location_label_grob, ncol=1, heights=c(7, 3, 30, 2))
 full_plot <- arrangeGrob(main_plot_grob, collection_site_grob, nrow=1, widths=c(7, 1))
 ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=unit(20, "in"), height=unit(8, "in"))
 ```
 
+```{r save-data}
+base_plot$data %>%
+  filter(group=="Virus") %>%
+  mutate(mosquito_species=paste(ska_genus, ska_species)) %>%
+  mutate(collected_by=collected_by_dict[collected_by]) %>%
+  mutate(sample=paste0("CMS00", sample_short)) %>%
+  select(sample, mosquito_species, collected_by, sci_name, taxid, family, baltimore_group, genome_description, read_prop, nonhost_reads) %>%
+  write_tsv(file.path(fig_dir, "fig3_data_viruses.tsv"))
 
+base_plot$data %>%
+  filter(group=="Wolbachia") %>%
+  mutate(mosquito_species=paste(ska_genus, ska_species)) %>%
+  mutate(collected_by=collected_by_dict[collected_by]) %>%
+  mutate(sample=paste0("CMS00", sample_short)) %>%
+  select(sample, mosquito_species, collected_by, read_prop, nonhost_reads) %>%
+  write_tsv(file.path(fig_dir, "fig3_data_wolbachia.tsv"))
 
+base_plot$data %>%
+    filter(group=="Other Eukaryotes") %>%
+    mutate(mosquito_species=paste(ska_genus, ska_species)) %>%
+    mutate(collected_by=collected_by_dict[collected_by]) %>%
+    mutate(sample=paste0("CMS00", sample_short)) %>%
+    mutate(taxonomic_group=family) %>%
+    select(sample, mosquito_species, collected_by, sci_name, taxid, taxonomic_group, read_prop, nonhost_reads) %>%
+  write_tsv(file.path(fig_dir, "fig3_data_eukaryota.tsv"))
+
+```
 
 
 # Plot prevalence vs abundance of viruses
@@ -376,6 +404,16 @@ ggsave(file.path(fig_dir, "../supplementary/virus_prev_abundance.pdf"), arrangeG
        width=unit(6, "in"), height=unit(5, "in"))
 ```
 
+
+```{r save-data-supp}
+prev_abundance_plot$data %>%
+  mutate(mosquito_species=paste(ska_genus, ska_species)) %>%
+  mutate(collection_long=round(collection_long, 2), round(collection_lat, 2)) %>%
+  mutate(sample=paste0("CMS00", sample_short)) %>%
+  select(-ska_genus, -ska_species, -sample_short) %>%
+  rename(in_panel_B=highlight) %>%
+  write_tsv(file.path(fig_dir, "../supplementary/virus_prev_abundance_data.tsv"))
+```
 
 # Save output
 

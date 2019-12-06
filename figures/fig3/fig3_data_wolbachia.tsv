@@ -1,0 +1,75 @@
+sample	mosquito_species	collected_by	read_prop	nonhost_reads
+CMS002_045d	Aedes albopictus	Placer	0.0017512649564123454	181534
+CMS002_045d	Aedes albopictus	Placer	0.001917524287717315	181534
+CMS002_045g	Aedes albopictus	Placer	0.00740493174720879	98364
+CMS002_045g	Aedes albopictus	Placer	0.004741662924164726	98364
+CMS002_045c	Aedes albopictus	Placer	4.2057008274716377e-4	105124
+CMS002_045a	Aedes albopictus	Placer	0.09534597708589551	35756
+CMS002_045a	Aedes albopictus	Placer	0.06307851640882906	35756
+CMS002_045b	Aedes albopictus	Placer	5.440414507772021e-4	45804
+CMS002_026d	Aedes albopictus	Placer	0.04979114452798663	44056
+CMS002_026d	Aedes albopictus	Placer	0.014965986394557823	44056
+CMS002_026a	Aedes albopictus	Placer	0.2448210922787194	11688
+CMS002_026a	Aedes albopictus	Placer	0.04780530204259018	11688
+CMS002_026b	Aedes albopictus	Placer	0.0729368932038835	18398
+CMS002_026e	Aedes albopictus	Placer	0.02443879243613845	19820
+CMS002_026e	Aedes albopictus	Placer	1.6587415680636956e-4	19820
+CMS002_026e	Aedes albopictus	Placer	0.17494194404511773	19820
+CMS002_026c	Aedes albopictus	Placer	0.047933100564679504	25302
+CMS002_045e	Aedes albopictus	Placer	0.001382644908637805	242958
+CMS002_057a	Culex pipiens	Alameda	0.0385350884995108	53942
+CMS002_057a	Culex pipiens	Alameda	0.0129191496931424	53942
+CMS002_051a	Culex pipiens	Alameda	0.046728371771921226	139988
+CMS002_051a	Culex pipiens	Alameda	0.0015011519535044274	139988
+CMS002_054a	Culex pipiens	Alameda	0.09253231656281968	85110
+CMS002_054a	Culex pipiens	Alameda	3.4099011128677266e-4	85110
+CMS002_050a	Culex pipiens	Alameda	0.4397834912043302	4052
+CMS002_050a	Culex pipiens	Alameda	0.10717185385656292	4052
+CMS001_029	Culex pipiens	Coachella Valley	0.011526471919151288	89566
+CMS001_029	Culex pipiens	Coachella Valley	0.015636784152043844	89566
+CMS001_044	Culex pipiens	Coachella Valley	0.09244374339268034	65128
+CMS001_044	Culex pipiens	Coachella Valley	0.017351031161378015	65128
+CMS001_030	Culex pipiens	Coachella Valley	0.23904753458673292	69840
+CMS001_030	Culex pipiens	Coachella Valley	0.003044814946198416	69840
+CMS001_059	Culex pipiens	Coachella Valley	7.997166718077024e-5	99862
+CMS001_059	Culex pipiens	Coachella Valley	0.21730586877791866	99862
+CMS001_059	Culex pipiens	Coachella Valley	0.11984325553232568	99862
+CMS001_004	Culex pipiens	Coachella Valley	0.42426265998887075	46660
+CMS001_004	Culex pipiens	Coachella Valley	0.029115191986644404	46660
+CMS001_041	Culex pipiens	Coachella Valley	0.4878842055291251	102676
+CMS001_041	Culex pipiens	Coachella Valley	1.1110774420977141e-4	102676
+CMS001_041	Culex pipiens	Coachella Valley	6.060422411442077e-5	102676
+CMS001_041	Culex pipiens	Coachella Valley	0.08720947850065153	102676
+CMS001_054	Culex pipiens	Coachella Valley	0.7497373818218194	40758
+CMS001_054	Culex pipiens	Coachella Valley	0.04622079935971187	40758
+CMS002_046b	Culex quinquefasciatus	Placer	0.08863656763306697	99992
+CMS002_046b	Culex quinquefasciatus	Placer	3.365945606319002e-5	99992
+CMS002_046b	Culex quinquefasciatus	Placer	0.003287406875504892	99992
+CMS002_046a	Culex quinquefasciatus	Placer	0.1618537238901408	89374
+CMS002_046a	Culex quinquefasciatus	Placer	7.307715729858108e-5	89374
+CMS002_046a	Culex quinquefasciatus	Placer	1.948724194628829e-4	89374
+CMS002_046a	Culex quinquefasciatus	Placer	0.0066256622617380185	89374
+CMS002_027b	Culex quinquefasciatus	Placer	0.13418574514038922	183742
+CMS002_027b	Culex quinquefasciatus	Placer	1.7278617710583154e-5	183742
+CMS002_027b	Culex quinquefasciatus	Placer	5.183585313174946e-5	183742
+CMS002_027b	Culex quinquefasciatus	Placer	0.00713030957523398	183742
+CMS002_027a	Culex quinquefasciatus	Placer	0.14828542062478575	33744
+CMS002_027a	Culex quinquefasciatus	Placer	0.016351574423023017	33744
+CMS002_023a	Culex quinquefasciatus	West Valley	0.012580791809143557	103350
+CMS002_023a	Culex quinquefasciatus	West Valley	0.0027375328602771134	103350
+CMS002_001a	Culex quinquefasciatus	West Valley	0.10326642358789317	82762
+CMS002_001a	Culex quinquefasciatus	West Valley	1.261654533755567e-4	82762
+CMS002_001a	Culex quinquefasciatus	West Valley	0.004617655593545376	82762
+CMS002_022a	Culex quinquefasciatus	West Valley	0.046278953981839295	91574
+CMS002_022a	Culex quinquefasciatus	West Valley	0.0036036890395694542	91574
+CMS002_013a	Culex quinquefasciatus	West Valley	0.28752288241432983	68442
+CMS002_013a	Culex quinquefasciatus	West Valley	1.0265008297548374e-4	68442
+CMS002_013a	Culex quinquefasciatus	West Valley	6.84333886503225e-5	68442
+CMS002_013a	Culex quinquefasciatus	West Valley	0.0023096268669483846	68442
+CMS002_013a	Culex quinquefasciatus	West Valley	0.002275410172623223	68442
+CMS002_010a	Culex quinquefasciatus	West Valley	0.21965714285714286	33756
+CMS002_010a	Culex quinquefasciatus	West Valley	2.2857142857142857e-4	33756
+CMS002_010a	Culex quinquefasciatus	West Valley	0.06118095238095238	33756
+CMS002_004a	Culex quinquefasciatus	West Valley	0.37832582889889477	13812
+CMS002_004a	Culex quinquefasciatus	West Valley	8.186655751125665e-4	13812
+CMS002_004a	Culex quinquefasciatus	West Valley	0.05106426524764633	13812

@@ -403,7 +403,7 @@ select_virus_prev_abund_plot <-
 ```{r prev_abundance_combined_plot}
 if (!(dir.exists(file.path(fig_dir, "../figS4")))) dir.create(file.path(fig_dir, "../figS4"))
 ggsave(file.path(fig_dir, "../figS4/virus_prev_abundance.pdf"), select_virus_prev_abund_plot,
-       width=unit(4, "in"), height=unit(5, "in"))
+       width=unit(6, "in"), height=unit(3, "in"))
 ```
 
 
@@ -413,7 +413,7 @@ select_virus_prev_abund_plot$data %>%
   mutate(collection_long=round(collection_long, 2), collection_lat=round(collection_lat, 2)) %>%
   mutate(sample=paste0("CMS00", sample_short)) %>%
   select(-ska_genus, -ska_species, -sample_short) %>%
-  pivot_wider(id_cols=c(mosquito_species, collection_lat, collection_long, sci_name, bulk_abundance, num_mosquitos), values_from=read_prop, names_from=mosquito_id, names_prefix="mosquito_") %>%
+  pivot_wider(id_cols=c(mosquito_species, collection_lat, collection_long, sci_name, bulk_abundance, num_mosquitos, prevalence), values_from=read_prop, names_from=mosquito_id, names_prefix="mosquito_") %>%
   write_tsv(file.path(fig_dir, "../figS4/virus_prev_abundance_data.tsv"))
 ```
 

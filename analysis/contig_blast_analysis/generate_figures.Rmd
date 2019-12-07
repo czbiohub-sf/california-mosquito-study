@@ -388,31 +388,33 @@ prev_abundance_plot <-
 
 
 ```{r prev_abundance_vignettes_plot}
-select_virus_prev_abund_plot <- ggplot(select_viruses_prev_abundance, aes(x=sample_short, y=read_prop)) +
+select_virus_prev_abund_plot <- 
+  ggplot(select_viruses_prev_abundance, aes(x=sample_short, y=read_prop)) +
   theme_bw() +
   geom_bar(stat="identity") +
   geom_hline(aes(yintercept=bulk_abundance), color="darkmagenta") +
   facet_grid(.~sci_name, scales="free_x", space="free") +
   scale_y_continuous(labels=scales::percent) +
   xlab("Sample") + ylab("% nonhost reads") +
-  ggtitle("B)") +
+  #ggtitle("B)") +
   theme(axis.text.x=element_blank(), axis.title.x=element_blank())
 ```
 
 ```{r prev_abundance_combined_plot}
-ggsave(file.path(fig_dir, "../supplementary/virus_prev_abundance.pdf"), arrangeGrob(prev_abundance_plot, select_virus_prev_abund_plot, ncol=1, heights=c(6, 4)),
-       width=unit(6, "in"), height=unit(5, "in"))
+if (!(dir.exists(file.path(fig_dir, "../figS4")))) dir.create(file.path(fig_dir, "../figS4"))
+ggsave(file.path(fig_dir, "../figS4/virus_prev_abundance.pdf"), select_virus_prev_abund_plot,
+       width=unit(4, "in"), height=unit(5, "in"))
 ```
 
 
 ```{r save-data-supp}
-prev_abundance_plot$data %>%
+select_virus_prev_abund_plot$data %>%
   mutate(mosquito_species=paste(ska_genus, ska_species)) %>%
-  mutate(collection_long=round(collection_long, 2), round(collection_lat, 2)) %>%
+  mutate(collection_long=round(collection_long, 2), collection_lat=round(collection_lat, 2)) %>%
   mutate(sample=paste0("CMS00", sample_short)) %>%
   select(-ska_genus, -ska_species, -sample_short) %>%
-  rename(in_panel_B=highlight) %>%
-  write_tsv(file.path(fig_dir, "../supplementary/virus_prev_abundance_data.tsv"))
+  pivot_wider(id_cols=c(mosquito_species, collection_lat, collection_long, sci_name, bulk_abundance, num_mosquitos), values_from=read_prop, names_from=mosquito_id, names_prefix="mosquito_") %>%
+  write_tsv(file.path(fig_dir, "../figS4/virus_prev_abundance_data.tsv"))
 ```
 
 # Save output

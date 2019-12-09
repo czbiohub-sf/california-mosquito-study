@@ -14,7 +14,7 @@ Run this notebook after running the generate_figures.ipynb jupyter notebook.
 
 ```{r setup, include=FALSE}
 # List of packages to load
-pkgs <- c("dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "knitr", "scales", "gtable", "rgdal", "broom")
+pkgs <- c("dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "knitr", "scales", "gtable", "rgdal", "broom", "svglite")
 # Install any packages not yet installed
 if (any(!(pkgs %in% rownames(installed.packages())))) {
   invisible(sapply(pkgs[!(pkgs %in% rownames(installed.packages()))], install.packages))
@@ -293,7 +293,10 @@ legends_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), arrangeGrob(do.call(
 collection_site_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), ca_map_plot, ncol=1, heights=c(1.75, 1))
 main_plot_grob <- arrangeGrob(legends_grob, species_label_grob, plot_grob, location_label_grob, ncol=1, heights=c(7, 3, 30, 2))
 full_plot <- arrangeGrob(main_plot_grob, collection_site_grob, nrow=1, widths=c(7, 1))
-ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=unit(20, "in"), height=unit(8, "in"))
+lapply(c("pdf", "svg"), function (suffix) {
+  ggsave(file.path(fig_dir, paste0("fig3.", suffix)), full_plot, width=unit(20, "in"), height=unit(8, "in"))
+})
+
 ```
 
 ```{r save-data}
@@ -402,8 +405,12 @@ select_virus_prev_abund_plot <-
 
 ```{r prev_abundance_combined_plot}
 if (!(dir.exists(file.path(fig_dir, "../figS4")))) dir.create(file.path(fig_dir, "../figS4"))
-ggsave(file.path(fig_dir, "../figS4/virus_prev_abundance.pdf"), select_virus_prev_abund_plot,
-       width=unit(6, "in"), height=unit(3, "in"))
+lapply(c("pdf", "svg"), function (suffix) {
+  ggsave(file.path(fig_dir, paste0("../figS4/virus_prev_abundance.", suffix)),
+         select_virus_prev_abund_plot,
+         width=unit(6, "in"), height=unit(3, "in"))
+})
+
 ```
 
 

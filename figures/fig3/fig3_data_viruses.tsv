@@ -59,6 +59,12 @@ CMS002_045e	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	sin
 CMS001_012	Aedes dorsalis	Coachella Valley	1715|Toti-like	39756	Totiviridae	III	double stranded RNA	4.894070561621786e-4	183896
 CMS001_012	Aedes dorsalis	Coachella Valley	246|Reo-like	40068	Reoviridae	III	double stranded RNA	0.005345412624526907	183896
 CMS001_012	Aedes dorsalis	Coachella Valley	Lobuck virus	40068	Reoviridae	III	double stranded RNA	0.005595554008787576	183896
+CMS002_053a	Culex erythrothorax	Alameda	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0010650922107229008	1233696
+CMS002_053a	Culex erythrothorax	Alameda	4|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.004895857650507094	1233696
+CMS002_053a	Culex erythrothorax	Alameda	55|Toti-like	39756	Totiviridae	III	double stranded RNA	0.003278765595414105	1233696
+CMS002_053a	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	7.05198039063108e-4	1233696
+CMS002_053a	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.0074694252068580914	1233696
+CMS002_053a	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.018143853915389203	1233696
 CMS001_045	Culex erythrothorax	Coachella Valley	128|Tombus-like	137555	Tombusviridae	IV	single stranded RNA positive sense	0.5757370283018868	135680
 CMS001_045	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.009743514150943397	135680
 CMS001_045	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.01605247641509434	135680
@@ -190,12 +196,6 @@ CMS002_051a	Culex pipiens	Alameda	Culex bunya-like virus	39718	Peribunyaviridae	
 CMS002_051a	Culex pipiens	Alameda	Culex mosquito virus 4	2304484	Nodaviridae	IV	single stranded RNA positive sense	0.09291510700917222	139988
 CMS002_051a	Culex pipiens	Alameda	Kellev virus	502177	Solemoviridae	IV	single stranded RNA positive sense	0.027766665714204074	139988
 CMS002_054a	Culex pipiens	Alameda	Culex mosquito virus 4	2304484	Nodaviridae	IV	single stranded RNA positive sense	0.2271060979908354	85110
-CMS002_053a	Culex pipiens	Alameda	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0010650922107229008	1233696
-CMS002_053a	Culex pipiens	Alameda	4|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.004895857650507094	1233696
-CMS002_053a	Culex pipiens	Alameda	55|Toti-like	39756	Totiviridae	III	double stranded RNA	0.003278765595414105	1233696
-CMS002_053a	Culex pipiens	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	7.05198039063108e-4	1233696
-CMS002_053a	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.0074694252068580914	1233696
-CMS002_053a	Culex pipiens	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.018143853915389203	1233696
 CMS001_029	Culex pipiens	Coachella Valley	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.16558738807136636	89566
 CMS001_029	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2324207846727553	89566
 CMS001_044	Culex pipiens	Coachella Valley	Culex bunya-like virus	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.06296830856160177	65128
@@ -215,9 +215,9 @@ CMS001_040	Culex pipiens	Coachella Valley	Kellev virus	502177	Solemoviridae	IV	s
 CMS001_041	Culex pipiens	Coachella Valley	Culex bunya-like virus	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.05757918111340527	102676
 CMS001_041	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.033201527133896916	102676
 CMS001_054	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.024682270965209283	40758
+CMS002_027b	Culex pipiens	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2142188503445048	183742
 CMS002_046b	Culex quinquefasciatus	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2263681094487559	99992
 CMS002_046a	Culex quinquefasciatus	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2143912099715801	89374
-CMS002_027b	Culex quinquefasciatus	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2142188503445048	183742
 CMS002_027a	Culex quinquefasciatus	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.19250829777145567	33744
 CMS002_023a	Culex quinquefasciatus	West Valley	Culex bunya-like virus	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.20558297048863086	103350
 CMS002_023a	Culex quinquefasciatus	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.19144654088050314	103350

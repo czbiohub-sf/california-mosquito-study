@@ -34,11 +34,43 @@ Load reads-mapping-to-contigs, together with contig LCAs.
 
 ```{r}
 contig_reads = read_tsv(file.path(data_dir, 's3/contig_quality_concat/contig_stats_lca.tsv'))
-contig_reads = contig_reads %>% filter(!hexapoda) %>% filter(!is.na(taxid))
-read_counts = contig_reads %>% group_by(taxid, sample) %>% summarize(reads = sum(read_count))
+contig_reads = contig_reads %>% filter(!hexapoda) %>% filter(!is.na(taxid)) %>% mutate(key = str_c(sample, "|", contig_name))
+contig_reads
 ```
 
-Markov correction for background. We compute the average concentration of each taxon in the water. Markov's inequality says that for any nonnegative random variable X, the probability that X is greater k is less than EX/k. Thus for any false-discovery rate r, the probability that X > EX/r is less than EX/(EX/r) = r. If we treat concentrations of contaminating taxa in each well as a random variable, we can estimate the mean from the water, and use that estimate to bound (using Markov's inequality), the amount of that taxon contained in another sample can be explained by contamination.
+Load viral-reclassifications.
+
+```{r}
+all_contig_reads = read_tsv(file.path(data_dir, 's3/contig_quality_concat/contig_stats_all.tsv'))
+all_contig_reads = all_contig_reads %>% mutate(key = str_c(sample, "|", contig_name))
+```
+
+```{r}
+cluster_to_virus = read_csv('../data/darkmatter/clusters_to_virus.csv')
+```
+
+Add reads counts for viruses.
+
+```{r}
+cluster_contig = read_csv('../data/darkmatter/cluster_contig.csv')
+cluster_contig = cluster_contig %>% mutate(key = str_c(sample, "|", contig))
+cluster_contig = cluster_contig %>% left_join(cluster_to_virus, on='cluster') %>% filter(!is.na(name))
+
+contigs_in_clusters = cluster_contig %>% pull(key)
+all_contig_reads = all_contig_reads %>% filter(key %in% contigs_in_clusters) %>% select(key, read_count)
+
+cluster_contig = cluster_contig %>% left_join(all_contig_reads, on='key')
+```
+
+Reassign taxids for curated viral contigs.
+
+```{r}
+contig_reads = contig_reads %>% left_join(cluster_contig %>% select(key, submission_taxid)) %>% mutate(taxid = ifelse(is.na(submission_taxid), taxid, submission_taxid))
+```
+
+## Markov correction for background
+
+We compute the average concentration of each taxon in the water. Markov's inequality says that for any nonnegative random variable X, the probability that X is greater k is less than EX/k. Thus for any false-discovery rate r, the probability that X > EX/r is less than EX/(EX/r) = r. If we treat concentrations of contaminating taxa in each well as a random variable, we can estimate the mean from the water, and use that estimate to bound (using Markov's inequality), the amount of that taxon contained in another sample can be explained by contamination.
 
 ```{r}
 decontam <- function(read_counts, category, fdr){
@@ -64,6 +96,19 @@ sum_over <- function(df, category){
 }
 ```
 
+Estimate contaminant taxa for curated viruses.
+
+```{r}
+category = quo(poly_group)
+
+viral_contamination = decontam(sum_over(cluster_contig, category), category, 0.01) %>% 
+  filter(is_contam) %>% select(sample, poly_group, reads, background_reads) 
+
+viral_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_contamination.tsv'))
+```
+
+Estimate contaminant taxa for all taxa.
+
 ```{r}
 category = quo(taxid)
 
@@ -77,8 +122,8 @@ contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/sample
 decontam_read_counts %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/decontam_sample_read_counts.tsv'))
 ```
 
-# Exploratory Analysis
 
+# Exploratory Analysis
 
 Hubei MV 2: 1922926
 Wuhan 6: 1608131
@@ -90,79 +135,29 @@ mouse: 10090
 Plot relationship of relative abundance (RPM) to input RNA concentration. For contaminants, this should be approx linear.
 
 ```{r}
-contig_reads %>% filter(taxid == '1248439')
+# contig_reads %>% filter(taxid == '1248439')
 ```
 
 
 ```{r}
-contig_reads %>% filter((taxid == '10090') & (sample == 'CMS001_002_Ra_S1'))
-read_counts %>% filter((taxid == '10090'))
-read_counts %>% left_join(sample_table, by='sample') %>% mutate(rpm = reads/total_reads*1e6) %>%
-  select(sample, taxid, input_conc, rpm, water, total_ercc_reads, reads) %>%
-    filter((taxid == '10090'))
+# contig_reads %>% filter((taxid == '10090') & (sample == 'CMS001_002_Ra_S1'))
+# read_counts %>% filter((taxid == '10090'))
+# read_counts %>% left_join(sample_table, by='sample') %>% mutate(rpm = reads/total_reads*1e6) %>%
+#   select(sample, taxid, input_conc, rpm, water, total_ercc_reads, reads) %>%
+#     filter((taxid == '10090'))
 ```
 
 
 ```{r}
-read_counts %>% left_join(sample_table, by='sample') %>% mutate(rpm = reads/total_reads*1e6) %>%
-  select(sample, taxid, input_conc, rpm, water, total_ercc_reads, reads) %>%
-    filter((taxid == '10090')) %>%
-ggplot(aes(x = log10(input_conc), y=log10(rpm), color=water)) + geom_point()
+# read_counts %>% left_join(sample_table, by='sample') %>% mutate(rpm = reads/total_reads*1e6) %>%
+#   select(sample, taxid, input_conc, rpm, water, total_ercc_reads, reads) %>%
+#     filter((taxid == '10090')) %>%
+# ggplot(aes(x = log10(input_conc), y=log10(rpm), color=water)) + geom_point()
 ```
-
 
 
 What was removed as contamination?
 
 ```{r}
-contamination %>% group_by(taxid) %>% summarize(n_samples = n(), n_reads = sum(reads)) %>% arrange(desc(n_samples))
-```
-
-
-
-# Curated Viruses
-
-```{r}
-all_contig_reads = read_tsv(file.path(data_dir, 's3/contig_quality_concat/contig_stats_all.tsv'))
-all_contig_reads = all_contig_reads %>% mutate(key = str_c(sample, "|", contig_name))
-```
-
-```{r}
-cluster_to_virus = read_csv('../data/darkmatter/clusters_to_virus.csv')
-```
-
-
-```{r}
-cluster_contig = read_csv('../data/darkmatter/cluster_contig.csv')
-cluster_contig = cluster_contig %>% mutate(key = str_c(sample, "|", contig))
-cluster_contig = cluster_contig %>% left_join(cluster_to_virus, on='cluster') %>% filter(!is.na(name))
-
-contigs_in_clusters = cluster_contig %>% pull(key)
-all_contig_reads = all_contig_reads %>% filter(key %in% contigs_in_clusters) %>% select(key, read_count)
-
-cluster_contig = cluster_contig %>% left_join(all_contig_reads, on='key')
-
-read_counts = cluster_contig %>% select(cluster, sample, read_count) %>% group_by(cluster, sample) %>% summarize(reads = sum(read_count))
-```
-
-
-```{r}
-category = quo(poly_group)
-
-viral_contamination = decontam(sum_over(cluster_contig, category), category, 0.01) %>% 
-  filter(is_contam) %>% select(sample, poly_group, reads, background_reads) 
-
-viral_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_contamination.tsv'))
-```
-
-```{r}
-viral_contamination
-```
-
-
-```{r}
-category = quo(provisional_name)
-
-decontam(sum_over(cluster_contig, category),
-         category, 0.01) %>% filter(is_contam)
+# contamination %>% group_by(taxid) %>% summarize(n_samples = n(), n_reads = sum(reads)) %>% arrange(desc(n_samples))
 ```

@@ -84,8 +84,7 @@ decontam <- function(read_counts, category, fdr){
     left_join(background_levels, by=quo_name(category))  %>%
     replace_na(list(background_rate = 0)) %>%  mutate(background_reads=total_ercc_reads*background_rate/compression_ratio) 
     
-  df %>% mutate(is_contam = (reads < background_reads/fdr)) %>% 
-    select(sample, !!category, reads, background_reads, is_contam)
+  df %>% mutate(is_contam = (reads < background_reads/fdr))
 }
 ```
 
@@ -101,10 +100,14 @@ Estimate contaminant taxa for curated viruses.
 ```{r}
 category = quo(poly_group)
 
-viral_contamination = decontam(sum_over(cluster_contig, category), category, 0.01) %>% 
-  filter(is_contam) %>% select(sample, poly_group, reads, background_reads) 
+viral_df = decontam(sum_over(cluster_contig, category), category, 0.01)
 
-viral_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_contamination.tsv'))
+viral_contamination = viral_df %>% filter(!is_contam) %>% select(sample, poly_group, reads)
+viral_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_decontam.tsv'))
+
+viral_decontamination = viral_df %>% filter(is_contam) %>% select(sample, poly_group, reads)
+viral_decontamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_contamination.tsv'))
+
 ```
 
 Estimate contaminant taxa for all taxa.
@@ -112,14 +115,17 @@ Estimate contaminant taxa for all taxa.
 ```{r}
 category = quo(taxid)
 
-df = decontam(sum_over(contig_reads, category),
-         category, 0.01)
+sample_taxid_reads = sum_over(contig_reads, category) %>% mutate(sample_taxid = str_c(sample, "|", taxid))
 
-decontam_read_counts = df %>% filter(!is_contam) %>% select(sample, taxid, reads)
+bad_pairs = decontam(sample_taxid_reads, category, 0.01) %>% filter(is_contam) %>% pull(sample_taxid)
 
-contamination = df %>% filter(is_contam) %>% select(sample, taxid, reads, background_reads)
-contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/sample_contamination.tsv'))
-decontam_read_counts %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/decontam_sample_read_counts.tsv'))
+contig_reads_no_polygroup = sum_over(contig_reads %>% filter(is.na(submission_taxid)), category) %>% mutate(sample_taxid = str_c(sample, "|", taxid))
+
+lca_contamination = contig_reads_no_polygroup %>% filter(sample_taxid %in% bad_pairs) %>% select(sample, taxid, reads)
+lca_decontamination = contig_reads_no_polygroup %>% filter(!(sample_taxid %in% bad_pairs)) %>% select(sample, taxid, reads)
+
+lca_decontamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/lca_decontam.tsv'))
+lca_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/lca_contamination.tsv'))
 ```
 
 
@@ -137,7 +143,6 @@ Plot relationship of relative abundance (RPM) to input RNA concentration. For co
 ```{r}
 # contig_reads %>% filter(taxid == '1248439')
 ```
-
 
 ```{r}
 # contig_reads %>% filter((taxid == '10090') & (sample == 'CMS001_002_Ra_S1'))

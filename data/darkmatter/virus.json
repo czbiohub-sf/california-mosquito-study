@@ -1839,8 +1839,7 @@
   },
   "458": {
     "family": "Solemoviridae",
-    "name": "TBD",
-    "provisional_name": "Kellev virus",
+    "name": "Marma virus",
     "samples": [
       "CMS001_002_Ra_S1",
       "CMS001_015_Ra_S13",
@@ -1986,8 +1985,8 @@
         ]
       }
     },
-    "submission_taxid": 502177,
-    "taxid": 502177
+    "submission_taxid": 2651926,
+    "taxid": 2651926
   },
   "484": {
     "family": "Nodaviridae",

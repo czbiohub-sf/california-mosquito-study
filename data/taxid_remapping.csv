@@ -1,0 +1,4 @@
+# Taxids changed between NCBI version used for BLAST and present
+accession, old_taxid, new_taxid
+MH396013.1, 257814, 2608709
+WP_100202443.1, 2053043, 2665496

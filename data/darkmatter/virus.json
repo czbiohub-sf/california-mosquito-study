@@ -1798,7 +1798,7 @@
     "taxid": 39718
   },
   "45": {
-    "family": "Nodaviridae",
+    "family": "Chuviridae",
     "name": "Culex mosquito virus 4",
     "samples": [
       "CMS001_044_Ra_S25",
@@ -1835,7 +1835,7 @@
       }
     },
     "submission_taxid": 2304484,
-    "taxid": 2304484
+    "taxid": 2600344
   },
   "458": {
     "family": "Solemoviridae",
@@ -1989,7 +1989,7 @@
     "taxid": 2651926
   },
   "484": {
-    "family": "Nodaviridae",
+    "family": "Solemoviridae",
     "name": "Culex mosquito virus 6",
     "samples": [
       "CMS001_006_Ra_S5",
@@ -2055,7 +2055,7 @@
       }
     },
     "submission_taxid": 2304486,
-    "taxid": 2304486
+    "taxid": 2600328
   },
   "49": {
     "family": "Totiviridae",

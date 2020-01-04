@@ -5962,6 +5962,44 @@
         },
         {
          "attrs": {
+          "colour": "#9E415F",
+          "read_count": 0,
+          "sample_count": 0
+         },
+         "children": [
+          {
+           "attrs": {
+            "CMS001_044_Ra_S25": {
+             "read_count": 13184
+            },
+            "CMS001_059_Ra_S10": {
+             "read_count": 23775
+            },
+            "CMS002_051a_Rb_S6_L004": {
+             "read_count": 62630
+            },
+            "CMS002_054a_Rb_S8_L004": {
+             "read_count": 74047
+            },
+            "CMS002_056a_Rb_S9_L004": {
+             "read_count": 5
+            },
+            "CMS002_057a_Rb_S10_L004": {
+             "read_count": 22436
+            },
+            "colour": "#9E415F",
+            "read_count": 196077,
+            "sample_count": 6
+           },
+           "taxid": 2304484,
+           "taxonomy": "Culex mosquito virus 4"
+          }
+         ],
+         "taxid": 2501952,
+         "taxonomy": "Chuviridae"
+        },
+        {
+         "attrs": {
           "colour": "#C43A3F",
           "read_count": 0,
           "sample_count": 0
@@ -7530,6 +7568,60 @@
            "children": [
             {
              "attrs": {
+              "CMS001_006_Ra_S5": {
+               "read_count": 5714
+              },
+              "CMS001_017_Ra_S6": {
+               "read_count": 3873
+              },
+              "CMS001_018_Ra_S14": {
+               "read_count": 529
+              },
+              "CMS001_020_Ra_S15": {
+               "read_count": 5542
+              },
+              "CMS001_021_Ra_S16": {
+               "read_count": 6390
+              },
+              "CMS001_024_Ra_S15": {
+               "read_count": 4001
+              },
+              "CMS001_035_Ra_S20": {
+               "read_count": 5291
+              },
+              "CMS001_048_Ra_S5": {
+               "read_count": 1213
+              },
+              "CMS001_049_Ra_S6": {
+               "read_count": 920
+              },
+              "CMS001_056_Ra_S10": {
+               "read_count": 780
+              },
+              "CMS001_057_Ra_S11": {
+               "read_count": 2111
+              },
+              "CMS002_047a_Rb_S193_L004": {
+               "read_count": 16677
+              },
+              "CMS002_047i_Rb_S2_L004": {
+               "read_count": 8991
+              },
+              "CMS002_047j_Rb_S3_L004": {
+               "read_count": 10
+              },
+              "CMS002_056a_Rb_S9_L004": {
+               "read_count": 30216
+              },
+              "colour": "#E6C930",
+              "read_count": 92258,
+              "sample_count": 15
+             },
+             "taxid": 2304486,
+             "taxonomy": "Culex mosquito virus 6"
+            },
+            {
+             "attrs": {
               "CMS002_017a_Rb_S122_L004": {
                "read_count": 112727
               },
@@ -7573,8 +7665,8 @@
               "read_count": 70643,
               "sample_count": 2
              },
-             "taxid": "Goras virus",
-             "taxonomy": "Goras virus"
+             "taxid": "Kellev virus",
+             "taxonomy": "Kellev virus"
             },
             {
              "attrs": {
@@ -7909,98 +8001,6 @@
            ],
            "taxid": 39738,
            "taxonomy": "Tombusviridae"
-          },
-          {
-           "attrs": {
-            "colour": "#618F80",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS001_044_Ra_S25": {
-               "read_count": 13184
-              },
-              "CMS001_059_Ra_S10": {
-               "read_count": 23775
-              },
-              "CMS002_051a_Rb_S6_L004": {
-               "read_count": 62630
-              },
-              "CMS002_054a_Rb_S8_L004": {
-               "read_count": 74047
-              },
-              "CMS002_056a_Rb_S9_L004": {
-               "read_count": 5
-              },
-              "CMS002_057a_Rb_S10_L004": {
-               "read_count": 22436
-              },
-              "colour": "#618F80",
-              "read_count": 196077,
-              "sample_count": 6
-             },
-             "taxid": 2304484,
-             "taxonomy": "Culex mosquito virus 4"
-            },
-            {
-             "attrs": {
-              "CMS001_006_Ra_S5": {
-               "read_count": 5714
-              },
-              "CMS001_017_Ra_S6": {
-               "read_count": 3873
-              },
-              "CMS001_018_Ra_S14": {
-               "read_count": 529
-              },
-              "CMS001_020_Ra_S15": {
-               "read_count": 5542
-              },
-              "CMS001_021_Ra_S16": {
-               "read_count": 6390
-              },
-              "CMS001_024_Ra_S15": {
-               "read_count": 4001
-              },
-              "CMS001_035_Ra_S20": {
-               "read_count": 5291
-              },
-              "CMS001_048_Ra_S5": {
-               "read_count": 1213
-              },
-              "CMS001_049_Ra_S6": {
-               "read_count": 920
-              },
-              "CMS001_056_Ra_S10": {
-               "read_count": 780
-              },
-              "CMS001_057_Ra_S11": {
-               "read_count": 2111
-              },
-              "CMS002_047a_Rb_S193_L004": {
-               "read_count": 16677
-              },
-              "CMS002_047i_Rb_S2_L004": {
-               "read_count": 8991
-              },
-              "CMS002_047j_Rb_S3_L004": {
-               "read_count": 10
-              },
-              "CMS002_056a_Rb_S9_L004": {
-               "read_count": 30216
-              },
-              "colour": "#618F80",
-              "read_count": 92258,
-              "sample_count": 15
-             },
-             "taxid": 2304486,
-             "taxonomy": "Culex mosquito virus 6"
-            }
-           ],
-           "taxid": 12283,
-           "taxonomy": "Nodaviridae"
           }
          ],
          "taxid": "Tombus-Noda",

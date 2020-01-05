@@ -614,27 +614,6 @@
     "submission_taxid": 390844,
     "taxid": 390844
   },
-  "12259": {
-    "family": "Totiviridae",
-    "name": "TBD",
-    "partial": true,
-    "provisional_name": "12259|Toti-like",
-    "samples": [
-      "CMS001_009_Ra_S13"
-    ],
-    "segments": {
-      "genome": {
-        "clusters": [
-          12259
-        ],
-        "contigs": [
-          "CMS001_009_Ra_S13|NODE_835_length_1125_cov_1.704198"
-        ]
-      }
-    },
-    "submission_taxid": 39756,
-    "taxid": 39756
-  },
   "1249": {
     "family": "Narnaviridae",
     "name": "TBD",
@@ -2342,11 +2321,9 @@
     "segments": {
       "genome": {
         "clusters": [
-          5308
+          5308,12259
         ],
-        "contigs": [
-          "CMS001_009_Ra_S13|NODE_344_length_1503_cov_2.269285"
-        ]
+        "contigs": []
       }
     },
     "submission_taxid": 39756,

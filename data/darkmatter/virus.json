@@ -1660,7 +1660,7 @@
   },
   "44": {
     "family": "Peribunyaviridae",
-    "name": "Culex bunya-like virus",
+    "name": "Bunyaviridae environmental sample",
     "samples": [
       "CMS001_002_Ra_S1",
       "CMS001_028_Ra_S17",
@@ -1773,7 +1773,7 @@
         ]
       }
     },
-    "submission_taxid": 2304497,
+    "submission_taxid": 1628184,
     "taxid": 39718
   },
   "45": {

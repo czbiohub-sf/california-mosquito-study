@@ -636,8 +636,7 @@
   },
   "128": {
     "family": "Tombusviridae",
-    "name": "TBD",
-    "provisional_name": "128|Tombus-like",
+    "name": "Hubei mosquito virus 4",
     "samples": [
       "CMS001_001_Ra_S1",
       "CMS001_015_Ra_S13",
@@ -680,7 +679,7 @@
         ]
       }
     },
-    "submission_taxid": 137555,
+    "submission_taxid": 1922928,
     "taxid": 137555
   },
   "13": {
@@ -1660,7 +1659,7 @@
   },
   "44": {
     "family": "Peribunyaviridae",
-    "name": "Bunyaviridae environmental sample",
+    "name": "Culex bunyavirus 2",
     "samples": [
       "CMS001_002_Ra_S1",
       "CMS001_028_Ra_S17",
@@ -1773,7 +1772,7 @@
         ]
       }
     },
-    "submission_taxid": 1628184,
+    "submission_taxid": 2304499,
     "taxid": 39718
   },
   "45": {
@@ -2930,8 +2929,7 @@
   },
   "78": {
     "family": "Totiviridae",
-    "name": "TBD",
-    "provisional_name": "78|Toti-like",
+    "name": "Totivirus-like Culex mosquito virus 1",
     "samples": [
       "CMS001_038_Ra_S22"
     ],
@@ -2945,8 +2943,8 @@
         ]
       }
     },
-    "submission_taxid": 39756,
-    "taxid": 39756
+    "submission_taxid": 2304495,
+    "taxid": 2304495
   },
   "8": {
     "family": "Rhabdoviridae",

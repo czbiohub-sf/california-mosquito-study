@@ -1,4 +1,4 @@
-sample,category,name
+Sample,Bloodmeal Category,Bloodmeal Call
 CMS001_001_Ra_S1,Pecora,Pecora
 CMS001_003_Ra_S2,Pecora,Pecora
 CMS001_004_Ra_S2,Carnivora,Caniformia
@@ -44,3 +44,4 @@ CMS001_057_Ra_S11,Pecora,Pecora
 CMS001_058_Ra_S9,Rodentia,Microtus ochrogaster
 CMS001_059_Ra_S10,Aves,Passeriformes
 CMS001_060_Ra_S12,Pecora,Pecora
+CMS002_025c_Rb_S142_L004,Rodentia,Mus musculus

@@ -744,6 +744,456 @@
         {
          "attrs": {
           "CMS001_001_Ra_S1": {
+           "read_count": 1362
+          },
+          "CMS001_006_Ra_S5": {
+           "read_count": 175
+          },
+          "CMS001_008_Ra_S3": {
+           "read_count": 13
+          },
+          "CMS001_011_Ra_S4": {
+           "read_count": 1176
+          },
+          "CMS001_013_Ra_S5": {
+           "read_count": 909
+          },
+          "CMS001_017_Ra_S6": {
+           "read_count": 4
+          },
+          "CMS001_018_Ra_S14": {
+           "read_count": 2119
+          },
+          "CMS001_026_Ra_S18": {
+           "read_count": 1943
+          },
+          "CMS001_028_Ra_S17": {
+           "read_count": 1274
+          },
+          "CMS001_038_Ra_S22": {
+           "read_count": 2775
+          },
+          "CMS001_048_Ra_S5": {
+           "read_count": 357
+          },
+          "CMS001_049_Ra_S6": {
+           "read_count": 92
+          },
+          "CMS001_053_Ra_S8": {
+           "read_count": 99
+          },
+          "CMS001_056_Ra_S10": {
+           "read_count": 400
+          },
+          "CMS001_057_Ra_S11": {
+           "read_count": 553
+          },
+          "CMS001_058_Ra_S9": {
+           "read_count": 338
+          },
+          "CMS001_060_Ra_S12": {
+           "read_count": 6
+          },
+          "CMS001_water3_Qiagen_S26": {
+           "read_count": 164
+          },
+          "CMS002_013a_Rb_S120_L004": {
+           "read_count": 50
+          },
+          "CMS002_017d_Rb_S125_L004": {
+           "read_count": 1316
+          },
+          "CMS002_020a_Rb_S131_L004": {
+           "read_count": 43
+          },
+          "CMS002_021a_Rb_S136_L004": {
+           "read_count": 12
+          },
+          "CMS002_027b_Rb_S153_L004": {
+           "read_count": 3157
+          },
+          "CMS002_029a_Rb_S159_L004": {
+           "read_count": 3549
+          },
+          "CMS002_034a_Rb_S168_L004": {
+           "read_count": 3
+          },
+          "CMS002_038a_Rb_S172_L004": {
+           "read_count": 505
+          },
+          "CMS002_047h_Rb_S1_L004": {
+           "read_count": 3
+          },
+          "CMS002_053a_Rb_S7_L004": {
+           "read_count": 53
+          },
+          "CMS002_056a_Rb_S9_L004": {
+           "read_count": 3
+          },
+          "colour": "#867A5F",
+          "read_count": 22453,
+          "sample_count": 29
+         },
+         "taxid": 203691,
+         "taxonomy": "Spirochaetes"
+        },
+        {
+         "attrs": {
+          "CMS001_001_Ra_S1": {
+           "read_count": 38
+          },
+          "CMS001_002_Ra_S1": {
+           "read_count": 12
+          },
+          "CMS001_003_Ra_S2": {
+           "read_count": 58
+          },
+          "CMS001_004_Ra_S2": {
+           "read_count": 8
+          },
+          "CMS001_005_Ra_S3": {
+           "read_count": 91
+          },
+          "CMS001_006_Ra_S5": {
+           "read_count": 78
+          },
+          "CMS001_007_Ra_S12": {
+           "read_count": 14
+          },
+          "CMS001_008_Ra_S3": {
+           "read_count": 50
+          },
+          "CMS001_009_Ra_S13": {
+           "read_count": 18
+          },
+          "CMS001_011_Ra_S4": {
+           "read_count": 20
+          },
+          "CMS001_012_Ra_S4": {
+           "read_count": 3
+          },
+          "CMS001_013_Ra_S5": {
+           "read_count": 14
+          },
+          "CMS001_014_Ra_S5": {
+           "read_count": 9
+          },
+          "CMS001_015_Ra_S13": {
+           "read_count": 3
+          },
+          "CMS001_016_Ra_S6": {
+           "read_count": 51
+          },
+          "CMS001_017_Ra_S6": {
+           "read_count": 3
+          },
+          "CMS001_018_Ra_S14": {
+           "read_count": 3
+          },
+          "CMS001_019_Ra_S14": {
+           "read_count": 9
+          },
+          "CMS001_020_Ra_S15": {
+           "read_count": 28
+          },
+          "CMS001_021_Ra_S16": {
+           "read_count": 19
+          },
+          "CMS001_022_Ra_S6": {
+           "read_count": 4
+          },
+          "CMS001_023_Ra_S17": {
+           "read_count": 10
+          },
+          "CMS001_024_Ra_S15": {
+           "read_count": 30
+          },
+          "CMS001_025_Ra_S7": {
+           "read_count": 11
+          },
+          "CMS001_026_Ra_S18": {
+           "read_count": 36
+          },
+          "CMS001_027_Ra_S16": {
+           "read_count": 42
+          },
+          "CMS001_028_Ra_S17": {
+           "read_count": 1013
+          },
+          "CMS001_029_Ra_S18": {
+           "read_count": 6
+          },
+          "CMS001_031_Ra_S19": {
+           "read_count": 35
+          },
+          "CMS001_033_Ra_S8": {
+           "read_count": 95
+          },
+          "CMS001_034_Ra_S19": {
+           "read_count": 28
+          },
+          "CMS001_036_Ra_S20": {
+           "read_count": 91
+          },
+          "CMS001_037_Ra_S21": {
+           "read_count": 13
+          },
+          "CMS001_038_Ra_S22": {
+           "read_count": 8
+          },
+          "CMS001_039_Ra_S9": {
+           "read_count": 11
+          },
+          "CMS001_042_Ra_S23": {
+           "read_count": 31
+          },
+          "CMS001_045_Ra_S2": {
+           "read_count": 60
+          },
+          "CMS001_046_Ra_S3": {
+           "read_count": 14
+          },
+          "CMS001_047_Ra_S4": {
+           "read_count": 4
+          },
+          "CMS001_049_Ra_S6": {
+           "read_count": 70
+          },
+          "CMS001_050_Ra_S23": {
+           "read_count": 8
+          },
+          "CMS001_051_Ra_S8": {
+           "read_count": 304
+          },
+          "CMS001_052_Ra_S7": {
+           "read_count": 12
+          },
+          "CMS001_057_Ra_S11": {
+           "read_count": 32
+          },
+          "CMS001_058_Ra_S9": {
+           "read_count": 12
+          },
+          "CMS001_059_Ra_S10": {
+           "read_count": 14
+          },
+          "CMS001_060_Ra_S12": {
+           "read_count": 182
+          },
+          "CMS001_water2_S24": {
+           "read_count": 71
+          },
+          "CMS001_water3_Qiagen_S26": {
+           "read_count": 372
+          },
+          "CMS001_water4_Zymo_S27": {
+           "read_count": 249
+          },
+          "CMS002_001a_Rb_S116_L004": {
+           "read_count": 12
+          },
+          "CMS002_007a_Rb_S118_L004": {
+           "read_count": 71
+          },
+          "CMS002_013a_Rb_S120_L004": {
+           "read_count": 29
+          },
+          "CMS002_017e_Rb_S126_L004": {
+           "read_count": 3
+          },
+          "CMS002_018b_Rb_S129_L004": {
+           "read_count": 92
+          },
+          "CMS002_019a_Rb_S130_L004": {
+           "read_count": 7
+          },
+          "CMS002_020a_Rb_S131_L004": {
+           "read_count": 245
+          },
+          "CMS002_020b_Rb_S132_L004": {
+           "read_count": 7
+          },
+          "CMS002_020c_Rb_S133_L004": {
+           "read_count": 22
+          },
+          "CMS002_020d_Rb_S134_L004": {
+           "read_count": 22
+          },
+          "CMS002_020e_Rb_S135_L004": {
+           "read_count": 28
+          },
+          "CMS002_021a_Rb_S136_L004": {
+           "read_count": 82
+          },
+          "CMS002_022a_Rb_S137_L004": {
+           "read_count": 23653
+          },
+          "CMS002_023a_Rb_S138_L004": {
+           "read_count": 5
+          },
+          "CMS002_025b_Rb_S141_L004": {
+           "read_count": 3
+          },
+          "CMS002_025c_Rb_S142_L004": {
+           "read_count": 13
+          },
+          "CMS002_026c_Rb_S148_L004": {
+           "read_count": 3
+          },
+          "CMS002_026d_Rb_S149_L004": {
+           "read_count": 24
+          },
+          "CMS002_026e_Rb_S150_L004": {
+           "read_count": 8
+          },
+          "CMS002_027b_Rb_S153_L004": {
+           "read_count": 18
+          },
+          "CMS002_028a_Rb_S154_L004": {
+           "read_count": 67
+          },
+          "CMS002_028b_Rb_S155_L004": {
+           "read_count": 9
+          },
+          "CMS002_028c_Rb_S156_L004": {
+           "read_count": 7
+          },
+          "CMS002_028d_Rb_S157_L004": {
+           "read_count": 37
+          },
+          "CMS002_028e_Rb_S158_L004": {
+           "read_count": 13
+          },
+          "CMS002_029a_Rb_S159_L004": {
+           "read_count": 462
+          },
+          "CMS002_029b_Rb_S160_L004": {
+           "read_count": 13
+          },
+          "CMS002_029c_Rb_S161_L004": {
+           "read_count": 17
+          },
+          "CMS002_029d_Rb_S162_L004": {
+           "read_count": 34
+          },
+          "CMS002_029e_Rb_S164_L004": {
+           "read_count": 14
+          },
+          "CMS002_031a_Rb_S165_L004": {
+           "read_count": 44
+          },
+          "CMS002_032a_Rb_S166_L004": {
+           "read_count": 43
+          },
+          "CMS002_033a_Rb_S167_L004": {
+           "read_count": 145
+          },
+          "CMS002_034a_Rb_S168_L004": {
+           "read_count": 4
+          },
+          "CMS002_035a_Rb_S169_L004": {
+           "read_count": 27
+          },
+          "CMS002_038a_Rb_S172_L004": {
+           "read_count": 73
+          },
+          "CMS002_039a_Rb_S173_L004": {
+           "read_count": 26
+          },
+          "CMS002_040a_Rb_S174_L004": {
+           "read_count": 87
+          },
+          "CMS002_041a_Rb_S176_L004": {
+           "read_count": 12
+          },
+          "CMS002_042a_Rb_S177_L004": {
+           "read_count": 3
+          },
+          "CMS002_044d_Rb_S181_L004": {
+           "read_count": 6
+          },
+          "CMS002_044e_Rb_S182_L004": {
+           "read_count": 6
+          },
+          "CMS002_045a_Rb_S183_L004": {
+           "read_count": 4
+          },
+          "CMS002_045f_Rb_S189_L004": {
+           "read_count": 3
+          },
+          "CMS002_046a_Rb_S191_L004": {
+           "read_count": 3
+          },
+          "CMS002_047b_Rb_S194_L004": {
+           "read_count": 15
+          },
+          "CMS002_047c_Rb_S195_L004": {
+           "read_count": 13
+          },
+          "CMS002_047d_Rb_S196_L004": {
+           "read_count": 17
+          },
+          "CMS002_047e_Rb_S197_L004": {
+           "read_count": 4
+          },
+          "CMS002_047f_Rb_S198_L004": {
+           "read_count": 24
+          },
+          "CMS002_047g_Rb_S200_L004": {
+           "read_count": 5
+          },
+          "CMS002_047h_Rb_S1_L004": {
+           "read_count": 3
+          },
+          "CMS002_047i_Rb_S2_L004": {
+           "read_count": 19
+          },
+          "CMS002_047j_Rb_S3_L004": {
+           "read_count": 82
+          },
+          "CMS002_049a_Rb_S4_L004": {
+           "read_count": 71
+          },
+          "CMS002_051a_Rb_S6_L004": {
+           "read_count": 5824
+          },
+          "CMS002_053a_Rb_S7_L004": {
+           "read_count": 12612
+          },
+          "CMS002_056a_Rb_S9_L004": {
+           "read_count": 49
+          },
+          "CMS002_0Water1_Rb_S127_L004": {
+           "read_count": 52
+          },
+          "CMS002_0Water2_Rb_S139_L004": {
+           "read_count": 63
+          },
+          "CMS002_0Water3_Rb_S151_L004": {
+           "read_count": 47
+          },
+          "CMS002_0Water4_Rb_S163_L004": {
+           "read_count": 7
+          },
+          "CMS002_0Water5_Rb_S175_L004": {
+           "read_count": 16
+          },
+          "CMS002_0Water6_Rb_S187_L004": {
+           "read_count": 4
+          },
+          "CMS002_0Water7_Rb_S199_L004": {
+           "read_count": 8
+          },
+          "colour": "#867A5F",
+          "read_count": 47838,
+          "sample_count": 115
+         },
+         "taxid": 1783272,
+         "taxonomy": "Terrabacteria group"
+        },
+        {
+         "attrs": {
+          "CMS001_001_Ra_S1": {
            "read_count": 26
           },
           "CMS001_005_Ra_S3": {
@@ -1491,456 +1941,6 @@
          ],
          "taxid": 28211,
          "taxonomy": "Alphaproteobacteria"
-        },
-        {
-         "attrs": {
-          "CMS001_001_Ra_S1": {
-           "read_count": 1362
-          },
-          "CMS001_006_Ra_S5": {
-           "read_count": 175
-          },
-          "CMS001_008_Ra_S3": {
-           "read_count": 13
-          },
-          "CMS001_011_Ra_S4": {
-           "read_count": 1176
-          },
-          "CMS001_013_Ra_S5": {
-           "read_count": 909
-          },
-          "CMS001_017_Ra_S6": {
-           "read_count": 4
-          },
-          "CMS001_018_Ra_S14": {
-           "read_count": 2119
-          },
-          "CMS001_026_Ra_S18": {
-           "read_count": 1943
-          },
-          "CMS001_028_Ra_S17": {
-           "read_count": 1274
-          },
-          "CMS001_038_Ra_S22": {
-           "read_count": 2775
-          },
-          "CMS001_048_Ra_S5": {
-           "read_count": 357
-          },
-          "CMS001_049_Ra_S6": {
-           "read_count": 92
-          },
-          "CMS001_053_Ra_S8": {
-           "read_count": 99
-          },
-          "CMS001_056_Ra_S10": {
-           "read_count": 400
-          },
-          "CMS001_057_Ra_S11": {
-           "read_count": 553
-          },
-          "CMS001_058_Ra_S9": {
-           "read_count": 338
-          },
-          "CMS001_060_Ra_S12": {
-           "read_count": 6
-          },
-          "CMS001_water3_Qiagen_S26": {
-           "read_count": 164
-          },
-          "CMS002_013a_Rb_S120_L004": {
-           "read_count": 50
-          },
-          "CMS002_017d_Rb_S125_L004": {
-           "read_count": 1316
-          },
-          "CMS002_020a_Rb_S131_L004": {
-           "read_count": 43
-          },
-          "CMS002_021a_Rb_S136_L004": {
-           "read_count": 12
-          },
-          "CMS002_027b_Rb_S153_L004": {
-           "read_count": 3157
-          },
-          "CMS002_029a_Rb_S159_L004": {
-           "read_count": 3549
-          },
-          "CMS002_034a_Rb_S168_L004": {
-           "read_count": 3
-          },
-          "CMS002_038a_Rb_S172_L004": {
-           "read_count": 505
-          },
-          "CMS002_047h_Rb_S1_L004": {
-           "read_count": 3
-          },
-          "CMS002_053a_Rb_S7_L004": {
-           "read_count": 53
-          },
-          "CMS002_056a_Rb_S9_L004": {
-           "read_count": 3
-          },
-          "colour": "#867A5F",
-          "read_count": 22453,
-          "sample_count": 29
-         },
-         "taxid": 203691,
-         "taxonomy": "Spirochaetes"
-        },
-        {
-         "attrs": {
-          "CMS001_001_Ra_S1": {
-           "read_count": 38
-          },
-          "CMS001_002_Ra_S1": {
-           "read_count": 12
-          },
-          "CMS001_003_Ra_S2": {
-           "read_count": 58
-          },
-          "CMS001_004_Ra_S2": {
-           "read_count": 8
-          },
-          "CMS001_005_Ra_S3": {
-           "read_count": 91
-          },
-          "CMS001_006_Ra_S5": {
-           "read_count": 78
-          },
-          "CMS001_007_Ra_S12": {
-           "read_count": 14
-          },
-          "CMS001_008_Ra_S3": {
-           "read_count": 50
-          },
-          "CMS001_009_Ra_S13": {
-           "read_count": 18
-          },
-          "CMS001_011_Ra_S4": {
-           "read_count": 20
-          },
-          "CMS001_012_Ra_S4": {
-           "read_count": 3
-          },
-          "CMS001_013_Ra_S5": {
-           "read_count": 14
-          },
-          "CMS001_014_Ra_S5": {
-           "read_count": 9
-          },
-          "CMS001_015_Ra_S13": {
-           "read_count": 3
-          },
-          "CMS001_016_Ra_S6": {
-           "read_count": 51
-          },
-          "CMS001_017_Ra_S6": {
-           "read_count": 3
-          },
-          "CMS001_018_Ra_S14": {
-           "read_count": 3
-          },
-          "CMS001_019_Ra_S14": {
-           "read_count": 9
-          },
-          "CMS001_020_Ra_S15": {
-           "read_count": 28
-          },
-          "CMS001_021_Ra_S16": {
-           "read_count": 19
-          },
-          "CMS001_022_Ra_S6": {
-           "read_count": 4
-          },
-          "CMS001_023_Ra_S17": {
-           "read_count": 10
-          },
-          "CMS001_024_Ra_S15": {
-           "read_count": 30
-          },
-          "CMS001_025_Ra_S7": {
-           "read_count": 11
-          },
-          "CMS001_026_Ra_S18": {
-           "read_count": 36
-          },
-          "CMS001_027_Ra_S16": {
-           "read_count": 42
-          },
-          "CMS001_028_Ra_S17": {
-           "read_count": 1013
-          },
-          "CMS001_029_Ra_S18": {
-           "read_count": 6
-          },
-          "CMS001_031_Ra_S19": {
-           "read_count": 35
-          },
-          "CMS001_033_Ra_S8": {
-           "read_count": 95
-          },
-          "CMS001_034_Ra_S19": {
-           "read_count": 28
-          },
-          "CMS001_036_Ra_S20": {
-           "read_count": 91
-          },
-          "CMS001_037_Ra_S21": {
-           "read_count": 13
-          },
-          "CMS001_038_Ra_S22": {
-           "read_count": 8
-          },
-          "CMS001_039_Ra_S9": {
-           "read_count": 11
-          },
-          "CMS001_042_Ra_S23": {
-           "read_count": 31
-          },
-          "CMS001_045_Ra_S2": {
-           "read_count": 60
-          },
-          "CMS001_046_Ra_S3": {
-           "read_count": 14
-          },
-          "CMS001_047_Ra_S4": {
-           "read_count": 4
-          },
-          "CMS001_049_Ra_S6": {
-           "read_count": 70
-          },
-          "CMS001_050_Ra_S23": {
-           "read_count": 8
-          },
-          "CMS001_051_Ra_S8": {
-           "read_count": 304
-          },
-          "CMS001_052_Ra_S7": {
-           "read_count": 12
-          },
-          "CMS001_057_Ra_S11": {
-           "read_count": 32
-          },
-          "CMS001_058_Ra_S9": {
-           "read_count": 12
-          },
-          "CMS001_059_Ra_S10": {
-           "read_count": 14
-          },
-          "CMS001_060_Ra_S12": {
-           "read_count": 182
-          },
-          "CMS001_water2_S24": {
-           "read_count": 71
-          },
-          "CMS001_water3_Qiagen_S26": {
-           "read_count": 372
-          },
-          "CMS001_water4_Zymo_S27": {
-           "read_count": 249
-          },
-          "CMS002_001a_Rb_S116_L004": {
-           "read_count": 12
-          },
-          "CMS002_007a_Rb_S118_L004": {
-           "read_count": 71
-          },
-          "CMS002_013a_Rb_S120_L004": {
-           "read_count": 29
-          },
-          "CMS002_017e_Rb_S126_L004": {
-           "read_count": 3
-          },
-          "CMS002_018b_Rb_S129_L004": {
-           "read_count": 92
-          },
-          "CMS002_019a_Rb_S130_L004": {
-           "read_count": 7
-          },
-          "CMS002_020a_Rb_S131_L004": {
-           "read_count": 245
-          },
-          "CMS002_020b_Rb_S132_L004": {
-           "read_count": 7
-          },
-          "CMS002_020c_Rb_S133_L004": {
-           "read_count": 22
-          },
-          "CMS002_020d_Rb_S134_L004": {
-           "read_count": 22
-          },
-          "CMS002_020e_Rb_S135_L004": {
-           "read_count": 28
-          },
-          "CMS002_021a_Rb_S136_L004": {
-           "read_count": 82
-          },
-          "CMS002_022a_Rb_S137_L004": {
-           "read_count": 23653
-          },
-          "CMS002_023a_Rb_S138_L004": {
-           "read_count": 5
-          },
-          "CMS002_025b_Rb_S141_L004": {
-           "read_count": 3
-          },
-          "CMS002_025c_Rb_S142_L004": {
-           "read_count": 13
-          },
-          "CMS002_026c_Rb_S148_L004": {
-           "read_count": 3
-          },
-          "CMS002_026d_Rb_S149_L004": {
-           "read_count": 24
-          },
-          "CMS002_026e_Rb_S150_L004": {
-           "read_count": 8
-          },
-          "CMS002_027b_Rb_S153_L004": {
-           "read_count": 18
-          },
-          "CMS002_028a_Rb_S154_L004": {
-           "read_count": 67
-          },
-          "CMS002_028b_Rb_S155_L004": {
-           "read_count": 9
-          },
-          "CMS002_028c_Rb_S156_L004": {
-           "read_count": 7
-          },
-          "CMS002_028d_Rb_S157_L004": {
-           "read_count": 37
-          },
-          "CMS002_028e_Rb_S158_L004": {
-           "read_count": 13
-          },
-          "CMS002_029a_Rb_S159_L004": {
-           "read_count": 462
-          },
-          "CMS002_029b_Rb_S160_L004": {
-           "read_count": 13
-          },
-          "CMS002_029c_Rb_S161_L004": {
-           "read_count": 17
-          },
-          "CMS002_029d_Rb_S162_L004": {
-           "read_count": 34
-          },
-          "CMS002_029e_Rb_S164_L004": {
-           "read_count": 14
-          },
-          "CMS002_031a_Rb_S165_L004": {
-           "read_count": 44
-          },
-          "CMS002_032a_Rb_S166_L004": {
-           "read_count": 43
-          },
-          "CMS002_033a_Rb_S167_L004": {
-           "read_count": 145
-          },
-          "CMS002_034a_Rb_S168_L004": {
-           "read_count": 4
-          },
-          "CMS002_035a_Rb_S169_L004": {
-           "read_count": 27
-          },
-          "CMS002_038a_Rb_S172_L004": {
-           "read_count": 73
-          },
-          "CMS002_039a_Rb_S173_L004": {
-           "read_count": 26
-          },
-          "CMS002_040a_Rb_S174_L004": {
-           "read_count": 87
-          },
-          "CMS002_041a_Rb_S176_L004": {
-           "read_count": 12
-          },
-          "CMS002_042a_Rb_S177_L004": {
-           "read_count": 3
-          },
-          "CMS002_044d_Rb_S181_L004": {
-           "read_count": 6
-          },
-          "CMS002_044e_Rb_S182_L004": {
-           "read_count": 6
-          },
-          "CMS002_045a_Rb_S183_L004": {
-           "read_count": 4
-          },
-          "CMS002_045f_Rb_S189_L004": {
-           "read_count": 3
-          },
-          "CMS002_046a_Rb_S191_L004": {
-           "read_count": 3
-          },
-          "CMS002_047b_Rb_S194_L004": {
-           "read_count": 15
-          },
-          "CMS002_047c_Rb_S195_L004": {
-           "read_count": 13
-          },
-          "CMS002_047d_Rb_S196_L004": {
-           "read_count": 17
-          },
-          "CMS002_047e_Rb_S197_L004": {
-           "read_count": 4
-          },
-          "CMS002_047f_Rb_S198_L004": {
-           "read_count": 24
-          },
-          "CMS002_047g_Rb_S200_L004": {
-           "read_count": 5
-          },
-          "CMS002_047h_Rb_S1_L004": {
-           "read_count": 3
-          },
-          "CMS002_047i_Rb_S2_L004": {
-           "read_count": 19
-          },
-          "CMS002_047j_Rb_S3_L004": {
-           "read_count": 82
-          },
-          "CMS002_049a_Rb_S4_L004": {
-           "read_count": 71
-          },
-          "CMS002_051a_Rb_S6_L004": {
-           "read_count": 5824
-          },
-          "CMS002_053a_Rb_S7_L004": {
-           "read_count": 12612
-          },
-          "CMS002_056a_Rb_S9_L004": {
-           "read_count": 49
-          },
-          "CMS002_0Water1_Rb_S127_L004": {
-           "read_count": 52
-          },
-          "CMS002_0Water2_Rb_S139_L004": {
-           "read_count": 63
-          },
-          "CMS002_0Water3_Rb_S151_L004": {
-           "read_count": 47
-          },
-          "CMS002_0Water4_Rb_S163_L004": {
-           "read_count": 7
-          },
-          "CMS002_0Water5_Rb_S175_L004": {
-           "read_count": 16
-          },
-          "CMS002_0Water6_Rb_S187_L004": {
-           "read_count": 4
-          },
-          "CMS002_0Water7_Rb_S199_L004": {
-           "read_count": 8
-          },
-          "colour": "#867A5F",
-          "read_count": 47838,
-          "sample_count": 115
-         },
-         "taxid": 1783272,
-         "taxonomy": "Terrabacteria group"
         }
        ],
        "taxid": 2,
@@ -1949,118 +1949,85 @@
       {
        "attrs": {
         "CMS001_001_Ra_S1": {
-         "read_count": 587
-        },
-        "CMS001_002_Ra_S1": {
-         "read_count": 44
+         "read_count": 318
         },
         "CMS001_003_Ra_S2": {
-         "read_count": 614
+         "read_count": 483
         },
         "CMS001_005_Ra_S3": {
-         "read_count": 774
+         "read_count": 514
         },
         "CMS001_006_Ra_S5": {
-         "read_count": 178
+         "read_count": 4
         },
         "CMS001_007_Ra_S12": {
-         "read_count": 75
+         "read_count": 66
         },
         "CMS001_008_Ra_S3": {
-         "read_count": 413
+         "read_count": 277
         },
         "CMS001_009_Ra_S13": {
-         "read_count": 788
-        },
-        "CMS001_010_Ra_S1": {
-         "read_count": 28
-        },
-        "CMS001_011_Ra_S4": {
-         "read_count": 736
-        },
-        "CMS001_012_Ra_S4": {
-         "read_count": 871
-        },
-        "CMS001_013_Ra_S5": {
-         "read_count": 39
-        },
-        "CMS001_014_Ra_S5": {
-         "read_count": 495
-        },
-        "CMS001_015_Ra_S13": {
-         "read_count": 14
-        },
-        "CMS001_016_Ra_S6": {
-         "read_count": 853
-        },
-        "CMS001_017_Ra_S6": {
-         "read_count": 34
-        },
-        "CMS001_018_Ra_S14": {
-         "read_count": 13
-        },
-        "CMS001_019_Ra_S14": {
-         "read_count": 30
-        },
-        "CMS001_020_Ra_S15": {
-         "read_count": 362
-        },
-        "CMS001_021_Ra_S16": {
-         "read_count": 223
-        },
-        "CMS001_022_Ra_S6": {
-         "read_count": 1380
-        },
-        "CMS001_023_Ra_S17": {
-         "read_count": 79
-        },
-        "CMS001_024_Ra_S15": {
-         "read_count": 72
-        },
-        "CMS001_025_Ra_S7": {
          "read_count": 478
         },
-        "CMS001_026_Ra_S18": {
-         "read_count": 468
+        "CMS001_011_Ra_S4": {
+         "read_count": 713
         },
-        "CMS001_027_Ra_S16": {
+        "CMS001_012_Ra_S4": {
+         "read_count": 756
+        },
+        "CMS001_013_Ra_S5": {
+         "read_count": 8
+        },
+        "CMS001_014_Ra_S5": {
+         "read_count": 378
+        },
+        "CMS001_016_Ra_S6": {
+         "read_count": 579
+        },
+        "CMS001_020_Ra_S15": {
+         "read_count": 246
+        },
+        "CMS001_021_Ra_S16": {
+         "read_count": 5
+        },
+        "CMS001_022_Ra_S6": {
+         "read_count": 1335
+        },
+        "CMS001_023_Ra_S17": {
          "read_count": 72
         },
+        "CMS001_024_Ra_S15": {
+         "read_count": 69
+        },
+        "CMS001_025_Ra_S7": {
+         "read_count": 374
+        },
+        "CMS001_026_Ra_S18": {
+         "read_count": 234
+        },
+        "CMS001_027_Ra_S16": {
+         "read_count": 65
+        },
         "CMS001_028_Ra_S17": {
-         "read_count": 157
+         "read_count": 115
         },
         "CMS001_029_Ra_S18": {
          "read_count": 67
         },
-        "CMS001_030_Ra_S7": {
-         "read_count": 4
-        },
-        "CMS001_031_Ra_S19": {
-         "read_count": 32
-        },
-        "CMS001_032_Ra_S7": {
-         "read_count": 12
-        },
         "CMS001_033_Ra_S8": {
-         "read_count": 1127
+         "read_count": 892
         },
         "CMS001_034_Ra_S19": {
-         "read_count": 21
+         "read_count": 12
         },
         "CMS001_035_Ra_S20": {
-         "read_count": 434
+         "read_count": 393
         },
         "CMS001_036_Ra_S20": {
-         "read_count": 1249
-        },
-        "CMS001_037_Ra_S21": {
-         "read_count": 194
+         "read_count": 1021
         },
         "CMS001_038_Ra_S22": {
-         "read_count": 2121
-        },
-        "CMS001_039_Ra_S9": {
-         "read_count": 49
+         "read_count": 2111
         },
         "CMS001_040_Ra_S21": {
          "read_count": 300
@@ -2069,680 +2036,564 @@
          "read_count": 322
         },
         "CMS001_042_Ra_S23": {
-         "read_count": 157
+         "read_count": 111
         },
         "CMS001_043_Ra_S24": {
-         "read_count": 175
+         "read_count": 96
         },
         "CMS001_045_Ra_S2": {
-         "read_count": 62
-        },
-        "CMS001_046_Ra_S3": {
-         "read_count": 27
+         "read_count": 8
         },
         "CMS001_047_Ra_S4": {
-         "read_count": 26
-        },
-        "CMS001_048_Ra_S5": {
-         "read_count": 55
+         "read_count": 6
         },
         "CMS001_049_Ra_S6": {
-         "read_count": 219
+         "read_count": 150
         },
         "CMS001_050_Ra_S23": {
-         "read_count": 202
+         "read_count": 165
         },
         "CMS001_051_Ra_S8": {
-         "read_count": 300
+         "read_count": 214
         },
         "CMS001_052_Ra_S7": {
-         "read_count": 141
+         "read_count": 104
         },
         "CMS001_053_Ra_S8": {
-         "read_count": 56
+         "read_count": 47
         },
         "CMS001_054_Ra_S11": {
-         "read_count": 359
-        },
-        "CMS001_055_Ra_S9": {
-         "read_count": 71
-        },
-        "CMS001_056_Ra_S10": {
-         "read_count": 3
+         "read_count": 166
         },
         "CMS001_057_Ra_S11": {
-         "read_count": 255
+         "read_count": 112
         },
         "CMS001_058_Ra_S9": {
-         "read_count": 368
+         "read_count": 281
         },
         "CMS001_059_Ra_S10": {
-         "read_count": 435
+         "read_count": 424
         },
         "CMS001_060_Ra_S12": {
-         "read_count": 1225
+         "read_count": 914
         },
         "CMS001_water3_Qiagen_S26": {
-         "read_count": 103
+         "read_count": 56
         },
         "CMS001_water4_Zymo_S27": {
-         "read_count": 106
-        },
-        "CMS002_001a_Rb_S116_L004": {
-         "read_count": 4
-        },
-        "CMS002_004a_Rb_S117_L004": {
-         "read_count": 367
-        },
-        "CMS002_007a_Rb_S118_L004": {
-         "read_count": 1428
-        },
-        "CMS002_013a_Rb_S120_L004": {
-         "read_count": 24
-        },
-        "CMS002_017b_Rb_S123_L004": {
-         "read_count": 32
-        },
-        "CMS002_017c_Rb_S124_L004": {
-         "read_count": 6
-        },
-        "CMS002_018b_Rb_S129_L004": {
-         "read_count": 7
-        },
-        "CMS002_020a_Rb_S131_L004": {
-         "read_count": 1310
-        },
-        "CMS002_020b_Rb_S132_L004": {
-         "read_count": 76
-        },
-        "CMS002_020c_Rb_S133_L004": {
-         "read_count": 364
-        },
-        "CMS002_020d_Rb_S134_L004": {
-         "read_count": 135
-        },
-        "CMS002_020e_Rb_S135_L004": {
-         "read_count": 449
-        },
-        "CMS002_021a_Rb_S136_L004": {
-         "read_count": 1467
-        },
-        "CMS002_022a_Rb_S137_L004": {
-         "read_count": 10
-        },
-        "CMS002_023a_Rb_S138_L004": {
-         "read_count": 6
-        },
-        "CMS002_025c_Rb_S142_L004": {
          "read_count": 40
         },
-        "CMS002_026a_Rb_S146_L004": {
-         "read_count": 4
+        "CMS002_004a_Rb_S117_L004": {
+         "read_count": 321
         },
-        "CMS002_026c_Rb_S148_L004": {
-         "read_count": 25
+        "CMS002_007a_Rb_S118_L004": {
+         "read_count": 831
         },
-        "CMS002_026d_Rb_S149_L004": {
-         "read_count": 57
+        "CMS002_018b_Rb_S129_L004": {
+         "read_count": 3
         },
-        "CMS002_027a_Rb_S152_L004": {
-         "read_count": 5
+        "CMS002_020a_Rb_S131_L004": {
+         "read_count": 622
         },
-        "CMS002_027b_Rb_S153_L004": {
-         "read_count": 11
+        "CMS002_020b_Rb_S132_L004": {
+         "read_count": 55
         },
-        "CMS002_028a_Rb_S154_L004": {
-         "read_count": 169
+        "CMS002_020c_Rb_S133_L004": {
+         "read_count": 250
+        },
+        "CMS002_020d_Rb_S134_L004": {
+         "read_count": 36
+        },
+        "CMS002_020e_Rb_S135_L004": {
+         "read_count": 173
+        },
+        "CMS002_021a_Rb_S136_L004": {
+         "read_count": 768
+        },
+        "CMS002_025c_Rb_S142_L004": {
+         "read_count": 30
         },
         "CMS002_028b_Rb_S155_L004": {
-         "read_count": 64
-        },
-        "CMS002_028c_Rb_S156_L004": {
-         "read_count": 65
+         "read_count": 22
         },
         "CMS002_028d_Rb_S157_L004": {
-         "read_count": 102
+         "read_count": 10
         },
         "CMS002_028e_Rb_S158_L004": {
-         "read_count": 251
+         "read_count": 11
         },
         "CMS002_029a_Rb_S159_L004": {
-         "read_count": 469
+         "read_count": 269
         },
         "CMS002_029b_Rb_S160_L004": {
-         "read_count": 61
+         "read_count": 14
         },
         "CMS002_029c_Rb_S161_L004": {
-         "read_count": 59
+         "read_count": 3
         },
         "CMS002_029d_Rb_S162_L004": {
-         "read_count": 13247
+         "read_count": 13182
         },
         "CMS002_029e_Rb_S164_L004": {
-         "read_count": 404
-        },
-        "CMS002_031a_Rb_S165_L004": {
-         "read_count": 51
+         "read_count": 3
         },
         "CMS002_032a_Rb_S166_L004": {
-         "read_count": 696
+         "read_count": 20
         },
         "CMS002_033a_Rb_S167_L004": {
-         "read_count": 417
+         "read_count": 4
         },
         "CMS002_034a_Rb_S168_L004": {
-         "read_count": 60
+         "read_count": 4
         },
         "CMS002_035a_Rb_S169_L004": {
-         "read_count": 161
-        },
-        "CMS002_036a_Rb_S170_L004": {
-         "read_count": 3
+         "read_count": 27
         },
         "CMS002_037a_Rb_S171_L004": {
          "read_count": 18
         },
-        "CMS002_038a_Rb_S172_L004": {
-         "read_count": 76
-        },
         "CMS002_039a_Rb_S173_L004": {
-         "read_count": 204
-        },
-        "CMS002_040a_Rb_S174_L004": {
-         "read_count": 15294
-        },
-        "CMS002_041a_Rb_S176_L004": {
-         "read_count": 111
-        },
-        "CMS002_042a_Rb_S177_L004": {
-         "read_count": 104
-        },
-        "CMS002_044e_Rb_S182_L004": {
          "read_count": 4
         },
-        "CMS002_045a_Rb_S183_L004": {
-         "read_count": 12
-        },
-        "CMS002_045b_Rb_S184_L004": {
-         "read_count": 8
-        },
-        "CMS002_046a_Rb_S191_L004": {
-         "read_count": 12
-        },
-        "CMS002_046b_Rb_S192_L004": {
-         "read_count": 7
+        "CMS002_040a_Rb_S174_L004": {
+         "read_count": 15233
         },
         "CMS002_047a_Rb_S193_L004": {
-         "read_count": 84
+         "read_count": 8
         },
         "CMS002_047b_Rb_S194_L004": {
-         "read_count": 279
+         "read_count": 241
         },
         "CMS002_047c_Rb_S195_L004": {
-         "read_count": 373
+         "read_count": 296
         },
         "CMS002_047d_Rb_S196_L004": {
-         "read_count": 190
+         "read_count": 22
         },
         "CMS002_047e_Rb_S197_L004": {
-         "read_count": 217
+         "read_count": 155
         },
         "CMS002_047f_Rb_S198_L004": {
-         "read_count": 196
+         "read_count": 71
         },
         "CMS002_047g_Rb_S200_L004": {
-         "read_count": 69
+         "read_count": 9
         },
         "CMS002_047h_Rb_S1_L004": {
-         "read_count": 60
-        },
-        "CMS002_047i_Rb_S2_L004": {
-         "read_count": 48
+         "read_count": 21
         },
         "CMS002_047j_Rb_S3_L004": {
-         "read_count": 792
-        },
-        "CMS002_049a_Rb_S4_L004": {
-         "read_count": 6
+         "read_count": 714
         },
         "CMS002_053a_Rb_S7_L004": {
-         "read_count": 2223
-        },
-        "CMS002_054a_Rb_S8_L004": {
-         "read_count": 12
+         "read_count": 1293
         },
         "CMS002_056a_Rb_S9_L004": {
-         "read_count": 88
+         "read_count": 9
         },
         "CMS002_0Water1_Rb_S127_L004": {
          "read_count": 4
         },
         "CMS002_0Water2_Rb_S139_L004": {
-         "read_count": 11
-        },
-        "CMS002_0Water3_Rb_S151_L004": {
          "read_count": 4
         },
         "CMS002_0Water4_Rb_S163_L004": {
-         "read_count": 150
+         "read_count": 73
         },
         "CMS002_0Water5_Rb_S175_L004": {
-         "read_count": 68
+         "read_count": 14
         },
         "CMS002_0Water6_Rb_S187_L004": {
-         "read_count": 74
+         "read_count": 61
         },
         "CMS002_0Water7_Rb_S199_L004": {
-         "read_count": 12
+         "read_count": 4
         },
         "colour": "#E5E4E2",
-        "read_count": 63070,
-        "sample_count": 129
+        "read_count": 50013,
+        "sample_count": 87
        },
        "children": [
         {
          "attrs": {
           "CMS001_001_Ra_S1": {
-           "read_count": 36493
+           "read_count": 269
+          },
+          "CMS001_002_Ra_S1": {
+           "read_count": 44
+          },
+          "CMS001_003_Ra_S2": {
+           "read_count": 131
+          },
+          "CMS001_005_Ra_S3": {
+           "read_count": 260
+          },
+          "CMS001_006_Ra_S5": {
+           "read_count": 174
           },
           "CMS001_007_Ra_S12": {
-           "read_count": 8711
+           "read_count": 9
+          },
+          "CMS001_008_Ra_S3": {
+           "read_count": 136
+          },
+          "CMS001_009_Ra_S13": {
+           "read_count": 310
+          },
+          "CMS001_010_Ra_S1": {
+           "read_count": 28
           },
           "CMS001_011_Ra_S4": {
-           "read_count": 10346
+           "read_count": 23
+          },
+          "CMS001_012_Ra_S4": {
+           "read_count": 115
+          },
+          "CMS001_013_Ra_S5": {
+           "read_count": 31
+          },
+          "CMS001_014_Ra_S5": {
+           "read_count": 117
+          },
+          "CMS001_015_Ra_S13": {
+           "read_count": 14
+          },
+          "CMS001_016_Ra_S6": {
+           "read_count": 274
+          },
+          "CMS001_017_Ra_S6": {
+           "read_count": 34
           },
           "CMS001_018_Ra_S14": {
-           "read_count": 8314
+           "read_count": 13
+          },
+          "CMS001_019_Ra_S14": {
+           "read_count": 30
+          },
+          "CMS001_020_Ra_S15": {
+           "read_count": 116
+          },
+          "CMS001_021_Ra_S16": {
+           "read_count": 218
           },
           "CMS001_022_Ra_S6": {
-           "read_count": 61681
+           "read_count": 45
           },
-          "CMS001_029_Ra_S18": {
+          "CMS001_023_Ra_S17": {
+           "read_count": 7
+          },
+          "CMS001_024_Ra_S15": {
+           "read_count": 3
+          },
+          "CMS001_025_Ra_S7": {
+           "read_count": 104
+          },
+          "CMS001_026_Ra_S18": {
+           "read_count": 234
+          },
+          "CMS001_027_Ra_S16": {
+           "read_count": 7
+          },
+          "CMS001_028_Ra_S17": {
+           "read_count": 42
+          },
+          "CMS001_030_Ra_S7": {
+           "read_count": 4
+          },
+          "CMS001_031_Ra_S19": {
            "read_count": 32
           },
           "CMS001_032_Ra_S7": {
-           "read_count": 21
-          },
-          "CMS001_035_Ra_S20": {
-           "read_count": 60117
-          },
-          "CMS001_046_Ra_S3": {
-           "read_count": 4
-          },
-          "CMS001_047_Ra_S4": {
-           "read_count": 13
-          },
-          "CMS001_049_Ra_S6": {
-           "read_count": 1795
-          },
-          "CMS001_059_Ra_S10": {
-           "read_count": 244
-          },
-          "CMS001_water4_Zymo_S27": {
-           "read_count": 4
-          },
-          "colour": "#708090",
-          "read_count": 187775,
-          "sample_count": 13
-         },
-         "children": [
-          {
-           "attrs": {
-            "CMS001_007_Ra_S12": {
-             "read_count": 221
-            },
-            "CMS001_011_Ra_S4": {
-             "read_count": 13158
-            },
-            "CMS001_018_Ra_S14": {
-             "read_count": 892
-            },
-            "CMS001_022_Ra_S6": {
-             "read_count": 35153
-            },
-            "CMS001_035_Ra_S20": {
-             "read_count": 167925
-            },
-            "CMS001_047_Ra_S4": {
-             "read_count": 30452
-            },
-            "CMS001_049_Ra_S6": {
-             "read_count": 2002
-            },
-            "CMS001_059_Ra_S10": {
-             "read_count": 3
-            },
-            "CMS001_water3_Qiagen_S26": {
-             "read_count": 10
-            },
-            "CMS002_004a_Rb_S117_L004": {
-             "read_count": 4
-            },
-            "CMS002_032a_Rb_S166_L004": {
-             "read_count": 8
-            },
-            "CMS002_053a_Rb_S7_L004": {
-             "read_count": 4
-            },
-            "colour": "#708090",
-            "read_count": 249832,
-            "sample_count": 12
-           },
-           "taxid": 1286322,
-           "taxonomy": "Leishmaniinae"
-          },
-          {
-           "attrs": {
-            "CMS001_001_Ra_S1": {
-             "read_count": 4
-            },
-            "CMS001_003_Ra_S2": {
-             "read_count": 6
-            },
-            "CMS001_009_Ra_S13": {
-             "read_count": 17
-            },
-            "CMS001_025_Ra_S7": {
-             "read_count": 17
-            },
-            "CMS001_029_Ra_S18": {
-             "read_count": 49
-            },
-            "CMS001_032_Ra_S7": {
-             "read_count": 39
-            },
-            "CMS001_035_Ra_S20": {
-             "read_count": 10712
-            },
-            "CMS001_059_Ra_S10": {
-             "read_count": 1501
-            },
-            "CMS002_020e_Rb_S135_L004": {
-             "read_count": 6
-            },
-            "CMS002_028c_Rb_S156_L004": {
-             "read_count": 7
-            },
-            "CMS002_047h_Rb_S1_L004": {
-             "read_count": 6
-            },
-            "colour": "#708090",
-            "read_count": 12364,
-            "sample_count": 11
-           },
-           "taxid": 5690,
-           "taxonomy": "Trypanosoma"
-          }
-         ],
-         "taxid": 5654,
-         "taxonomy": "Trypanosomatidae"
-        },
-        {
-         "attrs": {
-          "CMS001_001_Ra_S1": {
-           "read_count": 84
-          },
-          "CMS001_002_Ra_S1": {
-           "read_count": 16
-          },
-          "CMS001_003_Ra_S2": {
-           "read_count": 115
-          },
-          "CMS001_005_Ra_S3": {
-           "read_count": 141
-          },
-          "CMS001_006_Ra_S5": {
-           "read_count": 261
-          },
-          "CMS001_007_Ra_S12": {
-           "read_count": 8
-          },
-          "CMS001_008_Ra_S3": {
-           "read_count": 96
-          },
-          "CMS001_009_Ra_S13": {
-           "read_count": 39
-          },
-          "CMS001_010_Ra_S1": {
-           "read_count": 8
-          },
-          "CMS001_011_Ra_S4": {
-           "read_count": 93
-          },
-          "CMS001_012_Ra_S4": {
-           "read_count": 19
-          },
-          "CMS001_013_Ra_S5": {
-           "read_count": 5
-          },
-          "CMS001_014_Ra_S5": {
-           "read_count": 55
-          },
-          "CMS001_016_Ra_S6": {
-           "read_count": 81
-          },
-          "CMS001_017_Ra_S6": {
-           "read_count": 14
-          },
-          "CMS001_018_Ra_S14": {
-           "read_count": 10
-          },
-          "CMS001_019_Ra_S14": {
-           "read_count": 3
-          },
-          "CMS001_020_Ra_S15": {
-           "read_count": 22
-          },
-          "CMS001_021_Ra_S16": {
-           "read_count": 717
-          },
-          "CMS001_022_Ra_S6": {
-           "read_count": 123
-          },
-          "CMS001_024_Ra_S15": {
-           "read_count": 32
-          },
-          "CMS001_025_Ra_S7": {
-           "read_count": 112
-          },
-          "CMS001_026_Ra_S18": {
-           "read_count": 249
-          },
-          "CMS001_027_Ra_S16": {
-           "read_count": 48
-          },
-          "CMS001_028_Ra_S17": {
-           "read_count": 6
-          },
-          "CMS001_031_Ra_S19": {
-           "read_count": 7
+           "read_count": 12
           },
           "CMS001_033_Ra_S8": {
-           "read_count": 36
+           "read_count": 235
           },
           "CMS001_034_Ra_S19": {
-           "read_count": 10
+           "read_count": 9
           },
           "CMS001_035_Ra_S20": {
-           "read_count": 34
+           "read_count": 41
           },
           "CMS001_036_Ra_S20": {
-           "read_count": 101
+           "read_count": 228
           },
           "CMS001_037_Ra_S21": {
-           "read_count": 286
+           "read_count": 194
+          },
+          "CMS001_038_Ra_S22": {
+           "read_count": 10
           },
           "CMS001_039_Ra_S9": {
-           "read_count": 10
-          },
-          "CMS001_040_Ra_S21": {
-           "read_count": 227
+           "read_count": 49
           },
           "CMS001_042_Ra_S23": {
-           "read_count": 22
+           "read_count": 46
           },
           "CMS001_043_Ra_S24": {
-           "read_count": 6
+           "read_count": 79
           },
-          "CMS001_046_Ra_S3": {
-           "read_count": 7
-          },
-          "CMS001_049_Ra_S6": {
-           "read_count": 3
-          },
-          "CMS001_050_Ra_S23": {
-           "read_count": 5
-          },
-          "CMS001_051_Ra_S8": {
-           "read_count": 136
-          },
-          "CMS001_052_Ra_S7": {
-           "read_count": 101
-          },
-          "CMS001_053_Ra_S8": {
-           "read_count": 10
-          },
-          "CMS001_057_Ra_S11": {
-           "read_count": 26
-          },
-          "CMS001_058_Ra_S9": {
-           "read_count": 56
-          },
-          "CMS001_060_Ra_S12": {
-           "read_count": 314
-          },
-          "CMS001_water3_Qiagen_S26": {
-           "read_count": 7
-          },
-          "CMS001_water4_Zymo_S27": {
-           "read_count": 8
-          },
-          "CMS002_004a_Rb_S117_L004": {
-           "read_count": 898
-          },
-          "CMS002_007a_Rb_S118_L004": {
-           "read_count": 207
-          },
-          "CMS002_017a_Rb_S122_L004": {
-           "read_count": 131
-          },
-          "CMS002_017b_Rb_S123_L004": {
-           "read_count": 248
-          },
-          "CMS002_017c_Rb_S124_L004": {
-           "read_count": 40
-          },
-          "CMS002_020a_Rb_S131_L004": {
-           "read_count": 172
-          },
-          "CMS002_020b_Rb_S132_L004": {
-           "read_count": 3
-          },
-          "CMS002_020c_Rb_S133_L004": {
-           "read_count": 28
-          },
-          "CMS002_020d_Rb_S134_L004": {
-           "read_count": 29
-          },
-          "CMS002_020e_Rb_S135_L004": {
+          "CMS001_045_Ra_S2": {
            "read_count": 54
           },
-          "CMS002_021a_Rb_S136_L004": {
-           "read_count": 282
+          "CMS001_046_Ra_S3": {
+           "read_count": 27
           },
-          "CMS002_022a_Rb_S137_L004": {
-           "read_count": 6
-          },
-          "CMS002_028a_Rb_S154_L004": {
-           "read_count": 11
-          },
-          "CMS002_028b_Rb_S155_L004": {
-           "read_count": 161
-          },
-          "CMS002_028c_Rb_S156_L004": {
-           "read_count": 11
-          },
-          "CMS002_029a_Rb_S159_L004": {
-           "read_count": 28
-          },
-          "CMS002_029b_Rb_S160_L004": {
-           "read_count": 91
-          },
-          "CMS002_029c_Rb_S161_L004": {
-           "read_count": 35
-          },
-          "CMS002_029d_Rb_S162_L004": {
-           "read_count": 18
-          },
-          "CMS002_031a_Rb_S165_L004": {
-           "read_count": 11
-          },
-          "CMS002_032a_Rb_S166_L004": {
-           "read_count": 184
-          },
-          "CMS002_033a_Rb_S167_L004": {
-           "read_count": 30
-          },
-          "CMS002_034a_Rb_S168_L004": {
-           "read_count": 3
-          },
-          "CMS002_035a_Rb_S169_L004": {
-           "read_count": 48
-          },
-          "CMS002_039a_Rb_S173_L004": {
+          "CMS001_047_Ra_S4": {
            "read_count": 20
           },
-          "CMS002_040a_Rb_S174_L004": {
-           "read_count": 92
+          "CMS001_048_Ra_S5": {
+           "read_count": 55
           },
-          "CMS002_041a_Rb_S176_L004": {
+          "CMS001_049_Ra_S6": {
+           "read_count": 69
+          },
+          "CMS001_050_Ra_S23": {
+           "read_count": 37
+          },
+          "CMS001_051_Ra_S8": {
+           "read_count": 86
+          },
+          "CMS001_052_Ra_S7": {
+           "read_count": 37
+          },
+          "CMS001_053_Ra_S8": {
+           "read_count": 9
+          },
+          "CMS001_054_Ra_S11": {
+           "read_count": 193
+          },
+          "CMS001_055_Ra_S9": {
+           "read_count": 71
+          },
+          "CMS001_056_Ra_S10": {
            "read_count": 3
           },
-          "CMS002_042a_Rb_S177_L004": {
+          "CMS001_057_Ra_S11": {
+           "read_count": 143
+          },
+          "CMS001_058_Ra_S9": {
+           "read_count": 87
+          },
+          "CMS001_059_Ra_S10": {
            "read_count": 11
           },
-          "CMS002_047a_Rb_S193_L004": {
-           "read_count": 3
+          "CMS001_060_Ra_S12": {
+           "read_count": 311
           },
-          "CMS002_047d_Rb_S196_L004": {
-           "read_count": 78
+          "CMS001_water3_Qiagen_S26": {
+           "read_count": 47
           },
-          "CMS002_047e_Rb_S197_L004": {
+          "CMS001_water4_Zymo_S27": {
+           "read_count": 66
+          },
+          "CMS002_001a_Rb_S116_L004": {
+           "read_count": 4
+          },
+          "CMS002_004a_Rb_S117_L004": {
+           "read_count": 46
+          },
+          "CMS002_007a_Rb_S118_L004": {
+           "read_count": 597
+          },
+          "CMS002_013a_Rb_S120_L004": {
+           "read_count": 24
+          },
+          "CMS002_017b_Rb_S123_L004": {
+           "read_count": 32
+          },
+          "CMS002_017c_Rb_S124_L004": {
            "read_count": 6
           },
-          "CMS002_047f_Rb_S198_L004": {
+          "CMS002_018b_Rb_S129_L004": {
+           "read_count": 4
+          },
+          "CMS002_020a_Rb_S131_L004": {
+           "read_count": 688
+          },
+          "CMS002_020b_Rb_S132_L004": {
+           "read_count": 21
+          },
+          "CMS002_020c_Rb_S133_L004": {
+           "read_count": 114
+          },
+          "CMS002_020d_Rb_S134_L004": {
+           "read_count": 99
+          },
+          "CMS002_020e_Rb_S135_L004": {
+           "read_count": 276
+          },
+          "CMS002_021a_Rb_S136_L004": {
+           "read_count": 699
+          },
+          "CMS002_022a_Rb_S137_L004": {
+           "read_count": 10
+          },
+          "CMS002_023a_Rb_S138_L004": {
+           "read_count": 6
+          },
+          "CMS002_025c_Rb_S142_L004": {
+           "read_count": 10
+          },
+          "CMS002_026a_Rb_S146_L004": {
+           "read_count": 4
+          },
+          "CMS002_026c_Rb_S148_L004": {
+           "read_count": 25
+          },
+          "CMS002_026d_Rb_S149_L004": {
+           "read_count": 57
+          },
+          "CMS002_027a_Rb_S152_L004": {
+           "read_count": 5
+          },
+          "CMS002_027b_Rb_S153_L004": {
+           "read_count": 11
+          },
+          "CMS002_028a_Rb_S154_L004": {
+           "read_count": 169
+          },
+          "CMS002_028b_Rb_S155_L004": {
+           "read_count": 42
+          },
+          "CMS002_028c_Rb_S156_L004": {
+           "read_count": 65
+          },
+          "CMS002_028d_Rb_S157_L004": {
+           "read_count": 92
+          },
+          "CMS002_028e_Rb_S158_L004": {
+           "read_count": 240
+          },
+          "CMS002_029a_Rb_S159_L004": {
+           "read_count": 200
+          },
+          "CMS002_029b_Rb_S160_L004": {
+           "read_count": 47
+          },
+          "CMS002_029c_Rb_S161_L004": {
+           "read_count": 56
+          },
+          "CMS002_029d_Rb_S162_L004": {
+           "read_count": 65
+          },
+          "CMS002_029e_Rb_S164_L004": {
+           "read_count": 401
+          },
+          "CMS002_031a_Rb_S165_L004": {
+           "read_count": 51
+          },
+          "CMS002_032a_Rb_S166_L004": {
+           "read_count": 676
+          },
+          "CMS002_033a_Rb_S167_L004": {
+           "read_count": 413
+          },
+          "CMS002_034a_Rb_S168_L004": {
+           "read_count": 56
+          },
+          "CMS002_035a_Rb_S169_L004": {
+           "read_count": 134
+          },
+          "CMS002_036a_Rb_S170_L004": {
            "read_count": 3
+          },
+          "CMS002_038a_Rb_S172_L004": {
+           "read_count": 76
+          },
+          "CMS002_039a_Rb_S173_L004": {
+           "read_count": 200
+          },
+          "CMS002_040a_Rb_S174_L004": {
+           "read_count": 61
+          },
+          "CMS002_041a_Rb_S176_L004": {
+           "read_count": 111
+          },
+          "CMS002_042a_Rb_S177_L004": {
+           "read_count": 104
+          },
+          "CMS002_044e_Rb_S182_L004": {
+           "read_count": 4
+          },
+          "CMS002_045a_Rb_S183_L004": {
+           "read_count": 12
+          },
+          "CMS002_045b_Rb_S184_L004": {
+           "read_count": 8
+          },
+          "CMS002_046a_Rb_S191_L004": {
+           "read_count": 12
+          },
+          "CMS002_046b_Rb_S192_L004": {
+           "read_count": 7
+          },
+          "CMS002_047a_Rb_S193_L004": {
+           "read_count": 76
+          },
+          "CMS002_047b_Rb_S194_L004": {
+           "read_count": 38
+          },
+          "CMS002_047c_Rb_S195_L004": {
+           "read_count": 77
+          },
+          "CMS002_047d_Rb_S196_L004": {
+           "read_count": 168
+          },
+          "CMS002_047e_Rb_S197_L004": {
+           "read_count": 62
+          },
+          "CMS002_047f_Rb_S198_L004": {
+           "read_count": 125
           },
           "CMS002_047g_Rb_S200_L004": {
-           "read_count": 75
+           "read_count": 60
+          },
+          "CMS002_047h_Rb_S1_L004": {
+           "read_count": 39
           },
           "CMS002_047i_Rb_S2_L004": {
-           "read_count": 3
+           "read_count": 48
           },
           "CMS002_047j_Rb_S3_L004": {
-           "read_count": 147
+           "read_count": 78
           },
           "CMS002_049a_Rb_S4_L004": {
            "read_count": 6
           },
           "CMS002_053a_Rb_S7_L004": {
-           "read_count": 2714
+           "read_count": 930
           },
-          "CMS002_056a_Rb_S9_L004": {
-           "read_count": 19
-          },
-          "CMS002_057a_Rb_S10_L004": {
+          "CMS002_054a_Rb_S8_L004": {
            "read_count": 12
           },
-          "CMS002_0Water7_Rb_S199_L004": {
-           "read_count": 3
+          "CMS002_056a_Rb_S9_L004": {
+           "read_count": 79
           },
-          "colour": "#5E716A",
-          "read_count": 9693,
-          "sample_count": 86
+          "CMS002_0Water2_Rb_S139_L004": {
+           "read_count": 7
+          },
+          "CMS002_0Water3_Rb_S151_L004": {
+           "read_count": 4
+          },
+          "CMS002_0Water4_Rb_S163_L004": {
+           "read_count": 77
+          },
+          "CMS002_0Water5_Rb_S175_L004": {
+           "read_count": 54
+          },
+          "CMS002_0Water6_Rb_S187_L004": {
+           "read_count": 13
+          },
+          "CMS002_0Water7_Rb_S199_L004": {
+           "read_count": 8
+          },
+          "colour": "#2e8b57",
+          "read_count": 13057,
+          "sample_count": 124
          },
-         "taxid": 5794,
-         "taxonomy": "Apicomplexa"
+         "taxid": 33090,
+         "taxonomy": "Viridiplantae"
         },
         {
          "attrs": {
@@ -3162,39 +3013,6 @@
            "children": [
             {
              "attrs": {
-              "CMS001_036_Ra_S20": {
-               "read_count": 1256
-              },
-              "CMS001_038_Ra_S22": {
-               "read_count": 1881
-              },
-              "CMS001_043_Ra_S24": {
-               "read_count": 65
-              },
-              "CMS001_water3_Qiagen_S26": {
-               "read_count": 26
-              },
-              "CMS002_029d_Rb_S162_L004": {
-               "read_count": 10529
-              },
-              "CMS002_040a_Rb_S174_L004": {
-               "read_count": 14331
-              },
-              "CMS002_047j_Rb_S3_L004": {
-               "read_count": 534
-              },
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 97
-              },
-              "colour": "#808080",
-              "read_count": 28719,
-              "sample_count": 8
-             },
-             "taxid": 6029,
-             "taxonomy": "Microsporidia"
-            },
-            {
-             "attrs": {
               "CMS001_001_Ra_S1": {
                "read_count": 19
               },
@@ -3585,6 +3403,39 @@
              },
              "taxid": 451864,
              "taxonomy": "Dikarya"
+            },
+            {
+             "attrs": {
+              "CMS001_036_Ra_S20": {
+               "read_count": 1256
+              },
+              "CMS001_038_Ra_S22": {
+               "read_count": 1881
+              },
+              "CMS001_043_Ra_S24": {
+               "read_count": 65
+              },
+              "CMS001_water3_Qiagen_S26": {
+               "read_count": 26
+              },
+              "CMS002_029d_Rb_S162_L004": {
+               "read_count": 10529
+              },
+              "CMS002_040a_Rb_S174_L004": {
+               "read_count": 14331
+              },
+              "CMS002_047j_Rb_S3_L004": {
+               "read_count": 534
+              },
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 97
+              },
+              "colour": "#808080",
+              "read_count": 28719,
+              "sample_count": 8
+             },
+             "taxid": 6029,
+             "taxonomy": "Microsporidia"
             }
            ],
            "taxid": 4751,
@@ -4968,222 +4819,6 @@
                "children": [
                 {
                  "attrs": {
-                  "CMS001_001_Ra_S1": {
-                   "read_count": 1556
-                  },
-                  "CMS001_002_Ra_S1": {
-                   "read_count": 285
-                  },
-                  "CMS001_003_Ra_S2": {
-                   "read_count": 1839
-                  },
-                  "CMS001_005_Ra_S3": {
-                   "read_count": 7
-                  },
-                  "CMS001_006_Ra_S5": {
-                   "read_count": 33
-                  },
-                  "CMS001_008_Ra_S3": {
-                   "read_count": 630
-                  },
-                  "CMS001_009_Ra_S13": {
-                   "read_count": 67
-                  },
-                  "CMS001_010_Ra_S1": {
-                   "read_count": 238
-                  },
-                  "CMS001_011_Ra_S4": {
-                   "read_count": 3
-                  },
-                  "CMS001_012_Ra_S4": {
-                   "read_count": 2114
-                  },
-                  "CMS001_013_Ra_S5": {
-                   "read_count": 4
-                  },
-                  "CMS001_014_Ra_S5": {
-                   "read_count": 9
-                  },
-                  "CMS001_015_Ra_S13": {
-                   "read_count": 316
-                  },
-                  "CMS001_016_Ra_S6": {
-                   "read_count": 769
-                  },
-                  "CMS001_017_Ra_S6": {
-                   "read_count": 6
-                  },
-                  "CMS001_018_Ra_S14": {
-                   "read_count": 288
-                  },
-                  "CMS001_020_Ra_S15": {
-                   "read_count": 42
-                  },
-                  "CMS001_021_Ra_S16": {
-                   "read_count": 48
-                  },
-                  "CMS001_022_Ra_S6": {
-                   "read_count": 1314
-                  },
-                  "CMS001_025_Ra_S7": {
-                   "read_count": 49
-                  },
-                  "CMS001_026_Ra_S18": {
-                   "read_count": 3
-                  },
-                  "CMS001_027_Ra_S16": {
-                   "read_count": 10
-                  },
-                  "CMS001_028_Ra_S17": {
-                   "read_count": 349
-                  },
-                  "CMS001_031_Ra_S19": {
-                   "read_count": 115
-                  },
-                  "CMS001_033_Ra_S8": {
-                   "read_count": 714
-                  },
-                  "CMS001_035_Ra_S20": {
-                   "read_count": 55
-                  },
-                  "CMS001_036_Ra_S20": {
-                   "read_count": 1763
-                  },
-                  "CMS001_038_Ra_S22": {
-                   "read_count": 982
-                  },
-                  "CMS001_039_Ra_S9": {
-                   "read_count": 3
-                  },
-                  "CMS001_043_Ra_S24": {
-                   "read_count": 11
-                  },
-                  "CMS001_045_Ra_S2": {
-                   "read_count": 526
-                  },
-                  "CMS001_046_Ra_S3": {
-                   "read_count": 811
-                  },
-                  "CMS001_050_Ra_S23": {
-                   "read_count": 7
-                  },
-                  "CMS001_051_Ra_S8": {
-                   "read_count": 20
-                  },
-                  "CMS001_052_Ra_S7": {
-                   "read_count": 550
-                  },
-                  "CMS001_053_Ra_S8": {
-                   "read_count": 389
-                  },
-                  "CMS001_055_Ra_S9": {
-                   "read_count": 3
-                  },
-                  "CMS001_057_Ra_S11": {
-                   "read_count": 1384
-                  },
-                  "CMS001_060_Ra_S12": {
-                   "read_count": 911
-                  },
-                  "CMS002_007a_Rb_S118_L004": {
-                   "read_count": 22
-                  },
-                  "CMS002_020a_Rb_S131_L004": {
-                   "read_count": 48
-                  },
-                  "CMS002_020d_Rb_S134_L004": {
-                   "read_count": 13
-                  },
-                  "CMS002_020e_Rb_S135_L004": {
-                   "read_count": 23
-                  },
-                  "CMS002_021a_Rb_S136_L004": {
-                   "read_count": 67
-                  },
-                  "CMS002_028a_Rb_S154_L004": {
-                   "read_count": 17
-                  },
-                  "CMS002_028b_Rb_S155_L004": {
-                   "read_count": 18
-                  },
-                  "CMS002_028c_Rb_S156_L004": {
-                   "read_count": 16
-                  },
-                  "CMS002_028e_Rb_S158_L004": {
-                   "read_count": 201
-                  },
-                  "CMS002_029a_Rb_S159_L004": {
-                   "read_count": 1280
-                  },
-                  "CMS002_029b_Rb_S160_L004": {
-                   "read_count": 3
-                  },
-                  "CMS002_029e_Rb_S164_L004": {
-                   "read_count": 331
-                  },
-                  "CMS002_031a_Rb_S165_L004": {
-                   "read_count": 570
-                  },
-                  "CMS002_032a_Rb_S166_L004": {
-                   "read_count": 1151
-                  },
-                  "CMS002_033a_Rb_S167_L004": {
-                   "read_count": 587
-                  },
-                  "CMS002_037a_Rb_S171_L004": {
-                   "read_count": 13
-                  },
-                  "CMS002_039a_Rb_S173_L004": {
-                   "read_count": 46
-                  },
-                  "CMS002_040a_Rb_S174_L004": {
-                   "read_count": 6
-                  },
-                  "CMS002_041a_Rb_S176_L004": {
-                   "read_count": 7
-                  },
-                  "CMS002_042a_Rb_S177_L004": {
-                   "read_count": 85
-                  },
-                  "CMS002_047a_Rb_S193_L004": {
-                   "read_count": 8
-                  },
-                  "CMS002_047b_Rb_S194_L004": {
-                   "read_count": 4
-                  },
-                  "CMS002_047c_Rb_S195_L004": {
-                   "read_count": 23
-                  },
-                  "CMS002_047d_Rb_S196_L004": {
-                   "read_count": 37
-                  },
-                  "CMS002_047e_Rb_S197_L004": {
-                   "read_count": 7
-                  },
-                  "CMS002_047h_Rb_S1_L004": {
-                   "read_count": 4
-                  },
-                  "CMS002_047i_Rb_S2_L004": {
-                   "read_count": 12
-                  },
-                  "CMS002_047j_Rb_S3_L004": {
-                   "read_count": 37
-                  },
-                  "CMS002_053a_Rb_S7_L004": {
-                   "read_count": 275
-                  },
-                  "CMS002_056a_Rb_S9_L004": {
-                   "read_count": 459
-                  },
-                  "colour": "#B2BEB5",
-                  "read_count": 23593,
-                  "sample_count": 69
-                 },
-                 "taxid": 35500,
-                 "taxonomy": "Pecora"
-                },
-                {
-                 "attrs": {
                   "CMS001_004_Ra_S2": {
                    "read_count": 1533
                   },
@@ -5448,6 +5083,222 @@
                  },
                  "taxid": 9989,
                  "taxonomy": "Rodentia"
+                },
+                {
+                 "attrs": {
+                  "CMS001_001_Ra_S1": {
+                   "read_count": 1556
+                  },
+                  "CMS001_002_Ra_S1": {
+                   "read_count": 285
+                  },
+                  "CMS001_003_Ra_S2": {
+                   "read_count": 1839
+                  },
+                  "CMS001_005_Ra_S3": {
+                   "read_count": 7
+                  },
+                  "CMS001_006_Ra_S5": {
+                   "read_count": 33
+                  },
+                  "CMS001_008_Ra_S3": {
+                   "read_count": 630
+                  },
+                  "CMS001_009_Ra_S13": {
+                   "read_count": 67
+                  },
+                  "CMS001_010_Ra_S1": {
+                   "read_count": 238
+                  },
+                  "CMS001_011_Ra_S4": {
+                   "read_count": 3
+                  },
+                  "CMS001_012_Ra_S4": {
+                   "read_count": 2114
+                  },
+                  "CMS001_013_Ra_S5": {
+                   "read_count": 4
+                  },
+                  "CMS001_014_Ra_S5": {
+                   "read_count": 9
+                  },
+                  "CMS001_015_Ra_S13": {
+                   "read_count": 316
+                  },
+                  "CMS001_016_Ra_S6": {
+                   "read_count": 769
+                  },
+                  "CMS001_017_Ra_S6": {
+                   "read_count": 6
+                  },
+                  "CMS001_018_Ra_S14": {
+                   "read_count": 288
+                  },
+                  "CMS001_020_Ra_S15": {
+                   "read_count": 42
+                  },
+                  "CMS001_021_Ra_S16": {
+                   "read_count": 48
+                  },
+                  "CMS001_022_Ra_S6": {
+                   "read_count": 1314
+                  },
+                  "CMS001_025_Ra_S7": {
+                   "read_count": 49
+                  },
+                  "CMS001_026_Ra_S18": {
+                   "read_count": 3
+                  },
+                  "CMS001_027_Ra_S16": {
+                   "read_count": 10
+                  },
+                  "CMS001_028_Ra_S17": {
+                   "read_count": 349
+                  },
+                  "CMS001_031_Ra_S19": {
+                   "read_count": 115
+                  },
+                  "CMS001_033_Ra_S8": {
+                   "read_count": 714
+                  },
+                  "CMS001_035_Ra_S20": {
+                   "read_count": 55
+                  },
+                  "CMS001_036_Ra_S20": {
+                   "read_count": 1763
+                  },
+                  "CMS001_038_Ra_S22": {
+                   "read_count": 982
+                  },
+                  "CMS001_039_Ra_S9": {
+                   "read_count": 3
+                  },
+                  "CMS001_043_Ra_S24": {
+                   "read_count": 11
+                  },
+                  "CMS001_045_Ra_S2": {
+                   "read_count": 526
+                  },
+                  "CMS001_046_Ra_S3": {
+                   "read_count": 811
+                  },
+                  "CMS001_050_Ra_S23": {
+                   "read_count": 7
+                  },
+                  "CMS001_051_Ra_S8": {
+                   "read_count": 20
+                  },
+                  "CMS001_052_Ra_S7": {
+                   "read_count": 550
+                  },
+                  "CMS001_053_Ra_S8": {
+                   "read_count": 389
+                  },
+                  "CMS001_055_Ra_S9": {
+                   "read_count": 3
+                  },
+                  "CMS001_057_Ra_S11": {
+                   "read_count": 1384
+                  },
+                  "CMS001_060_Ra_S12": {
+                   "read_count": 911
+                  },
+                  "CMS002_007a_Rb_S118_L004": {
+                   "read_count": 22
+                  },
+                  "CMS002_020a_Rb_S131_L004": {
+                   "read_count": 48
+                  },
+                  "CMS002_020d_Rb_S134_L004": {
+                   "read_count": 13
+                  },
+                  "CMS002_020e_Rb_S135_L004": {
+                   "read_count": 23
+                  },
+                  "CMS002_021a_Rb_S136_L004": {
+                   "read_count": 67
+                  },
+                  "CMS002_028a_Rb_S154_L004": {
+                   "read_count": 17
+                  },
+                  "CMS002_028b_Rb_S155_L004": {
+                   "read_count": 18
+                  },
+                  "CMS002_028c_Rb_S156_L004": {
+                   "read_count": 16
+                  },
+                  "CMS002_028e_Rb_S158_L004": {
+                   "read_count": 201
+                  },
+                  "CMS002_029a_Rb_S159_L004": {
+                   "read_count": 1280
+                  },
+                  "CMS002_029b_Rb_S160_L004": {
+                   "read_count": 3
+                  },
+                  "CMS002_029e_Rb_S164_L004": {
+                   "read_count": 331
+                  },
+                  "CMS002_031a_Rb_S165_L004": {
+                   "read_count": 570
+                  },
+                  "CMS002_032a_Rb_S166_L004": {
+                   "read_count": 1151
+                  },
+                  "CMS002_033a_Rb_S167_L004": {
+                   "read_count": 587
+                  },
+                  "CMS002_037a_Rb_S171_L004": {
+                   "read_count": 13
+                  },
+                  "CMS002_039a_Rb_S173_L004": {
+                   "read_count": 46
+                  },
+                  "CMS002_040a_Rb_S174_L004": {
+                   "read_count": 6
+                  },
+                  "CMS002_041a_Rb_S176_L004": {
+                   "read_count": 7
+                  },
+                  "CMS002_042a_Rb_S177_L004": {
+                   "read_count": 85
+                  },
+                  "CMS002_047a_Rb_S193_L004": {
+                   "read_count": 8
+                  },
+                  "CMS002_047b_Rb_S194_L004": {
+                   "read_count": 4
+                  },
+                  "CMS002_047c_Rb_S195_L004": {
+                   "read_count": 23
+                  },
+                  "CMS002_047d_Rb_S196_L004": {
+                   "read_count": 37
+                  },
+                  "CMS002_047e_Rb_S197_L004": {
+                   "read_count": 7
+                  },
+                  "CMS002_047h_Rb_S1_L004": {
+                   "read_count": 4
+                  },
+                  "CMS002_047i_Rb_S2_L004": {
+                   "read_count": 12
+                  },
+                  "CMS002_047j_Rb_S3_L004": {
+                   "read_count": 37
+                  },
+                  "CMS002_053a_Rb_S7_L004": {
+                   "read_count": 275
+                  },
+                  "CMS002_056a_Rb_S9_L004": {
+                   "read_count": 459
+                  },
+                  "colour": "#B2BEB5",
+                  "read_count": 23593,
+                  "sample_count": 69
+                 },
+                 "taxid": 35500,
+                 "taxonomy": "Pecora"
                 },
                 {
                  "attrs": {
@@ -5763,6 +5614,410 @@
          ],
          "taxid": 33154,
          "taxonomy": "Opisthokonta"
+        },
+        {
+         "attrs": {
+          "CMS001_001_Ra_S1": {
+           "read_count": 84
+          },
+          "CMS001_002_Ra_S1": {
+           "read_count": 16
+          },
+          "CMS001_003_Ra_S2": {
+           "read_count": 115
+          },
+          "CMS001_005_Ra_S3": {
+           "read_count": 141
+          },
+          "CMS001_006_Ra_S5": {
+           "read_count": 261
+          },
+          "CMS001_007_Ra_S12": {
+           "read_count": 8
+          },
+          "CMS001_008_Ra_S3": {
+           "read_count": 96
+          },
+          "CMS001_009_Ra_S13": {
+           "read_count": 39
+          },
+          "CMS001_010_Ra_S1": {
+           "read_count": 8
+          },
+          "CMS001_011_Ra_S4": {
+           "read_count": 93
+          },
+          "CMS001_012_Ra_S4": {
+           "read_count": 19
+          },
+          "CMS001_013_Ra_S5": {
+           "read_count": 5
+          },
+          "CMS001_014_Ra_S5": {
+           "read_count": 55
+          },
+          "CMS001_016_Ra_S6": {
+           "read_count": 81
+          },
+          "CMS001_017_Ra_S6": {
+           "read_count": 14
+          },
+          "CMS001_018_Ra_S14": {
+           "read_count": 10
+          },
+          "CMS001_019_Ra_S14": {
+           "read_count": 3
+          },
+          "CMS001_020_Ra_S15": {
+           "read_count": 22
+          },
+          "CMS001_021_Ra_S16": {
+           "read_count": 717
+          },
+          "CMS001_022_Ra_S6": {
+           "read_count": 123
+          },
+          "CMS001_024_Ra_S15": {
+           "read_count": 32
+          },
+          "CMS001_025_Ra_S7": {
+           "read_count": 112
+          },
+          "CMS001_026_Ra_S18": {
+           "read_count": 249
+          },
+          "CMS001_027_Ra_S16": {
+           "read_count": 48
+          },
+          "CMS001_028_Ra_S17": {
+           "read_count": 6
+          },
+          "CMS001_031_Ra_S19": {
+           "read_count": 7
+          },
+          "CMS001_033_Ra_S8": {
+           "read_count": 36
+          },
+          "CMS001_034_Ra_S19": {
+           "read_count": 10
+          },
+          "CMS001_035_Ra_S20": {
+           "read_count": 34
+          },
+          "CMS001_036_Ra_S20": {
+           "read_count": 101
+          },
+          "CMS001_037_Ra_S21": {
+           "read_count": 286
+          },
+          "CMS001_039_Ra_S9": {
+           "read_count": 10
+          },
+          "CMS001_040_Ra_S21": {
+           "read_count": 227
+          },
+          "CMS001_042_Ra_S23": {
+           "read_count": 22
+          },
+          "CMS001_043_Ra_S24": {
+           "read_count": 6
+          },
+          "CMS001_046_Ra_S3": {
+           "read_count": 7
+          },
+          "CMS001_049_Ra_S6": {
+           "read_count": 3
+          },
+          "CMS001_050_Ra_S23": {
+           "read_count": 5
+          },
+          "CMS001_051_Ra_S8": {
+           "read_count": 136
+          },
+          "CMS001_052_Ra_S7": {
+           "read_count": 101
+          },
+          "CMS001_053_Ra_S8": {
+           "read_count": 10
+          },
+          "CMS001_057_Ra_S11": {
+           "read_count": 26
+          },
+          "CMS001_058_Ra_S9": {
+           "read_count": 56
+          },
+          "CMS001_060_Ra_S12": {
+           "read_count": 314
+          },
+          "CMS001_water3_Qiagen_S26": {
+           "read_count": 7
+          },
+          "CMS001_water4_Zymo_S27": {
+           "read_count": 8
+          },
+          "CMS002_004a_Rb_S117_L004": {
+           "read_count": 898
+          },
+          "CMS002_007a_Rb_S118_L004": {
+           "read_count": 207
+          },
+          "CMS002_017a_Rb_S122_L004": {
+           "read_count": 131
+          },
+          "CMS002_017b_Rb_S123_L004": {
+           "read_count": 248
+          },
+          "CMS002_017c_Rb_S124_L004": {
+           "read_count": 40
+          },
+          "CMS002_020a_Rb_S131_L004": {
+           "read_count": 172
+          },
+          "CMS002_020b_Rb_S132_L004": {
+           "read_count": 3
+          },
+          "CMS002_020c_Rb_S133_L004": {
+           "read_count": 28
+          },
+          "CMS002_020d_Rb_S134_L004": {
+           "read_count": 29
+          },
+          "CMS002_020e_Rb_S135_L004": {
+           "read_count": 54
+          },
+          "CMS002_021a_Rb_S136_L004": {
+           "read_count": 282
+          },
+          "CMS002_022a_Rb_S137_L004": {
+           "read_count": 6
+          },
+          "CMS002_028a_Rb_S154_L004": {
+           "read_count": 11
+          },
+          "CMS002_028b_Rb_S155_L004": {
+           "read_count": 161
+          },
+          "CMS002_028c_Rb_S156_L004": {
+           "read_count": 11
+          },
+          "CMS002_029a_Rb_S159_L004": {
+           "read_count": 28
+          },
+          "CMS002_029b_Rb_S160_L004": {
+           "read_count": 91
+          },
+          "CMS002_029c_Rb_S161_L004": {
+           "read_count": 35
+          },
+          "CMS002_029d_Rb_S162_L004": {
+           "read_count": 18
+          },
+          "CMS002_031a_Rb_S165_L004": {
+           "read_count": 11
+          },
+          "CMS002_032a_Rb_S166_L004": {
+           "read_count": 184
+          },
+          "CMS002_033a_Rb_S167_L004": {
+           "read_count": 30
+          },
+          "CMS002_034a_Rb_S168_L004": {
+           "read_count": 3
+          },
+          "CMS002_035a_Rb_S169_L004": {
+           "read_count": 48
+          },
+          "CMS002_039a_Rb_S173_L004": {
+           "read_count": 20
+          },
+          "CMS002_040a_Rb_S174_L004": {
+           "read_count": 92
+          },
+          "CMS002_041a_Rb_S176_L004": {
+           "read_count": 3
+          },
+          "CMS002_042a_Rb_S177_L004": {
+           "read_count": 11
+          },
+          "CMS002_047a_Rb_S193_L004": {
+           "read_count": 3
+          },
+          "CMS002_047d_Rb_S196_L004": {
+           "read_count": 78
+          },
+          "CMS002_047e_Rb_S197_L004": {
+           "read_count": 6
+          },
+          "CMS002_047f_Rb_S198_L004": {
+           "read_count": 3
+          },
+          "CMS002_047g_Rb_S200_L004": {
+           "read_count": 75
+          },
+          "CMS002_047i_Rb_S2_L004": {
+           "read_count": 3
+          },
+          "CMS002_047j_Rb_S3_L004": {
+           "read_count": 147
+          },
+          "CMS002_049a_Rb_S4_L004": {
+           "read_count": 6
+          },
+          "CMS002_053a_Rb_S7_L004": {
+           "read_count": 2714
+          },
+          "CMS002_056a_Rb_S9_L004": {
+           "read_count": 19
+          },
+          "CMS002_057a_Rb_S10_L004": {
+           "read_count": 12
+          },
+          "CMS002_0Water7_Rb_S199_L004": {
+           "read_count": 3
+          },
+          "colour": "#5E716A",
+          "read_count": 9693,
+          "sample_count": 86
+         },
+         "taxid": 5794,
+         "taxonomy": "Apicomplexa"
+        },
+        {
+         "attrs": {
+          "CMS001_001_Ra_S1": {
+           "read_count": 36493
+          },
+          "CMS001_007_Ra_S12": {
+           "read_count": 8711
+          },
+          "CMS001_011_Ra_S4": {
+           "read_count": 10346
+          },
+          "CMS001_018_Ra_S14": {
+           "read_count": 8314
+          },
+          "CMS001_022_Ra_S6": {
+           "read_count": 61681
+          },
+          "CMS001_029_Ra_S18": {
+           "read_count": 32
+          },
+          "CMS001_032_Ra_S7": {
+           "read_count": 21
+          },
+          "CMS001_035_Ra_S20": {
+           "read_count": 60117
+          },
+          "CMS001_046_Ra_S3": {
+           "read_count": 4
+          },
+          "CMS001_047_Ra_S4": {
+           "read_count": 13
+          },
+          "CMS001_049_Ra_S6": {
+           "read_count": 1795
+          },
+          "CMS001_059_Ra_S10": {
+           "read_count": 244
+          },
+          "CMS001_water4_Zymo_S27": {
+           "read_count": 4
+          },
+          "colour": "#708090",
+          "read_count": 187775,
+          "sample_count": 13
+         },
+         "children": [
+          {
+           "attrs": {
+            "CMS001_007_Ra_S12": {
+             "read_count": 221
+            },
+            "CMS001_011_Ra_S4": {
+             "read_count": 13158
+            },
+            "CMS001_018_Ra_S14": {
+             "read_count": 892
+            },
+            "CMS001_022_Ra_S6": {
+             "read_count": 35153
+            },
+            "CMS001_035_Ra_S20": {
+             "read_count": 167925
+            },
+            "CMS001_047_Ra_S4": {
+             "read_count": 30452
+            },
+            "CMS001_049_Ra_S6": {
+             "read_count": 2002
+            },
+            "CMS001_059_Ra_S10": {
+             "read_count": 3
+            },
+            "CMS001_water3_Qiagen_S26": {
+             "read_count": 10
+            },
+            "CMS002_004a_Rb_S117_L004": {
+             "read_count": 4
+            },
+            "CMS002_032a_Rb_S166_L004": {
+             "read_count": 8
+            },
+            "CMS002_053a_Rb_S7_L004": {
+             "read_count": 4
+            },
+            "colour": "#708090",
+            "read_count": 249832,
+            "sample_count": 12
+           },
+           "taxid": 1286322,
+           "taxonomy": "Leishmaniinae"
+          },
+          {
+           "attrs": {
+            "CMS001_001_Ra_S1": {
+             "read_count": 4
+            },
+            "CMS001_003_Ra_S2": {
+             "read_count": 6
+            },
+            "CMS001_009_Ra_S13": {
+             "read_count": 17
+            },
+            "CMS001_025_Ra_S7": {
+             "read_count": 17
+            },
+            "CMS001_029_Ra_S18": {
+             "read_count": 49
+            },
+            "CMS001_032_Ra_S7": {
+             "read_count": 39
+            },
+            "CMS001_035_Ra_S20": {
+             "read_count": 10712
+            },
+            "CMS001_059_Ra_S10": {
+             "read_count": 1501
+            },
+            "CMS002_020e_Rb_S135_L004": {
+             "read_count": 6
+            },
+            "CMS002_028c_Rb_S156_L004": {
+             "read_count": 7
+            },
+            "CMS002_047h_Rb_S1_L004": {
+             "read_count": 6
+            },
+            "colour": "#708090",
+            "read_count": 12364,
+            "sample_count": 11
+           },
+           "taxid": 5690,
+           "taxonomy": "Trypanosoma"
+          }
+         ],
+         "taxid": 5654,
+         "taxonomy": "Trypanosomatidae"
         }
        ],
        "taxid": 2759,
@@ -5786,381 +6041,6 @@
         "sample_count": 0
        },
        "children": [
-        {
-         "attrs": {
-          "colour": "#FF7D48",
-          "read_count": 0,
-          "sample_count": 0
-         },
-         "children": [
-          {
-           "attrs": {
-            "colour": "#FF7D48",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS001_039_Ra_S9": {
-               "read_count": 4383
-              },
-              "CMS002_032a_Rb_S166_L004": {
-               "read_count": 89007
-              },
-              "CMS002_042a_Rb_S177_L004": {
-               "read_count": 48
-              },
-              "colour": "#FF7D48",
-              "read_count": 93438,
-              "sample_count": 3
-             },
-             "taxid": "2|Rhabdo-like",
-             "taxonomy": "2|Rhabdo-like"
-            },
-            {
-             "attrs": {
-              "CMS001_031_Ra_S19": {
-               "read_count": 5392
-              },
-              "CMS002_037a_Rb_S171_L004": {
-               "read_count": 16216
-              },
-              "colour": "#FF7D48",
-              "read_count": 21608,
-              "sample_count": 2
-             },
-             "taxid": "30|Rhabdo-like",
-             "taxonomy": "30|Rhabdo-like"
-            },
-            {
-             "attrs": {
-              "CMS001_015_Ra_S13": {
-               "read_count": 770
-              },
-              "CMS001_048_Ra_S5": {
-               "read_count": 710
-              },
-              "CMS002_047a_Rb_S193_L004": {
-               "read_count": 5728
-              },
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 6040
-              },
-              "colour": "#FF7D48",
-              "read_count": 13248,
-              "sample_count": 4
-             },
-             "taxid": "4|Rhabdo-like",
-             "taxonomy": "4|Rhabdo-like"
-            },
-            {
-             "attrs": {
-              "CMS002_031a_Rb_S165_L004": {
-               "read_count": 32363
-              },
-              "CMS002_035a_Rb_S169_L004": {
-               "read_count": 144560
-              },
-              "CMS002_038a_Rb_S172_L004": {
-               "read_count": 35283
-              },
-              "CMS002_040a_Rb_S174_L004": {
-               "read_count": 16972
-              },
-              "CMS002_041a_Rb_S176_L004": {
-               "read_count": 23763
-              },
-              "CMS002_044a_Rb_S178_L004": {
-               "read_count": 31
-              },
-              "CMS002_044b_Rb_S179_L004": {
-               "read_count": 6
-              },
-              "CMS002_044d_Rb_S181_L004": {
-               "read_count": 10
-              },
-              "CMS002_044e_Rb_S182_L004": {
-               "read_count": 26
-              },
-              "colour": "#FF7D48",
-              "read_count": 253014,
-              "sample_count": 9
-             },
-             "taxid": 1803034,
-             "taxonomy": "Merida virus"
-            }
-           ],
-           "taxid": 11270,
-           "taxonomy": "Rhabdoviridae"
-          },
-          {
-           "attrs": {
-            "colour": "#FF7D48",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS002_017c_Rb_S124_L004": {
-               "read_count": 7153
-              },
-              "CMS002_018a_Rb_S128_L004": {
-               "read_count": 3187
-              },
-              "colour": "#FF7D48",
-              "read_count": 10340,
-              "sample_count": 2
-             },
-             "taxid": 2230910,
-             "taxonomy": "Aedes anphevirus"
-            },
-            {
-             "attrs": {
-              "CMS001_003_Ra_S2": {
-               "read_count": 3667
-              },
-              "CMS001_008_Ra_S3": {
-               "read_count": 2097
-              },
-              "CMS001_025_Ra_S7": {
-               "read_count": 2722
-              },
-              "CMS002_020a_Rb_S131_L004": {
-               "read_count": 16957
-              },
-              "CMS002_020b_Rb_S132_L004": {
-               "read_count": 205
-              },
-              "CMS002_020c_Rb_S133_L004": {
-               "read_count": 30290
-              },
-              "CMS002_020d_Rb_S134_L004": {
-               "read_count": 4766
-              },
-              "CMS002_020e_Rb_S135_L004": {
-               "read_count": 20353
-              },
-              "CMS002_021a_Rb_S136_L004": {
-               "read_count": 21191
-              },
-              "colour": "#FF7D48",
-              "read_count": 102248,
-              "sample_count": 9
-             },
-             "taxid": "Gordis virus",
-             "taxonomy": "Gordis virus"
-            }
-           ],
-           "taxid": 2501985,
-           "taxonomy": "Xinmoviridae"
-          }
-         ],
-         "taxid": 11157,
-         "taxonomy": "Mononegavirales"
-        },
-        {
-         "attrs": {
-          "colour": "#9E415F",
-          "read_count": 0,
-          "sample_count": 0
-         },
-         "children": [
-          {
-           "attrs": {
-            "CMS001_044_Ra_S25": {
-             "read_count": 13184
-            },
-            "CMS001_059_Ra_S10": {
-             "read_count": 23775
-            },
-            "CMS002_051a_Rb_S6_L004": {
-             "read_count": 62630
-            },
-            "CMS002_054a_Rb_S8_L004": {
-             "read_count": 74047
-            },
-            "CMS002_056a_Rb_S9_L004": {
-             "read_count": 5
-            },
-            "CMS002_057a_Rb_S10_L004": {
-             "read_count": 22436
-            },
-            "colour": "#9E415F",
-            "read_count": 196077,
-            "sample_count": 6
-           },
-           "taxid": 2304484,
-           "taxonomy": "Culex mosquito virus 4"
-          }
-         ],
-         "taxid": 2501952,
-         "taxonomy": "Chuviridae"
-        },
-        {
-         "attrs": {
-          "colour": "#C43A3F",
-          "read_count": 0,
-          "sample_count": 0
-         },
-         "children": [
-          {
-           "attrs": {
-            "colour": "#C43A3F",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS001_027_Ra_S16": {
-               "read_count": 4064
-              },
-              "CMS001_046_Ra_S3": {
-               "read_count": 1616
-              },
-              "colour": "#C43A3F",
-              "read_count": 5680,
-              "sample_count": 2
-             },
-             "taxid": "Astopletus virus",
-             "taxonomy": "Astopletus virus"
-            },
-            {
-             "attrs": {
-              "CMS002_026a_Rb_S146_L004": {
-               "read_count": 2091
-              },
-              "CMS002_026b_Rb_S147_L004": {
-               "read_count": 4442
-              },
-              "CMS002_026c_Rb_S148_L004": {
-               "read_count": 3285
-              },
-              "CMS002_026d_Rb_S149_L004": {
-               "read_count": 5927
-              },
-              "CMS002_026e_Rb_S150_L004": {
-               "read_count": 2755
-              },
-              "CMS002_044a_Rb_S178_L004": {
-               "read_count": 232
-              },
-              "CMS002_044d_Rb_S181_L004": {
-               "read_count": 908
-              },
-              "CMS002_044e_Rb_S182_L004": {
-               "read_count": 325
-              },
-              "CMS002_045a_Rb_S183_L004": {
-               "read_count": 4525
-              },
-              "CMS002_045b_Rb_S184_L004": {
-               "read_count": 18614
-              },
-              "CMS002_045c_Rb_S185_L004": {
-               "read_count": 4723
-              },
-              "CMS002_045d_Rb_S186_L004": {
-               "read_count": 4937
-              },
-              "CMS002_045e_Rb_S188_L004": {
-               "read_count": 3670
-              },
-              "CMS002_045f_Rb_S189_L004": {
-               "read_count": 2286
-              },
-              "CMS002_045g_Rb_S190_L004": {
-               "read_count": 2974
-              },
-              "colour": "#C43A3F",
-              "read_count": 61694,
-              "sample_count": 15
-             },
-             "taxid": "\u016asinis virus",
-             "taxonomy": "\u016asinis virus"
-            },
-            {
-             "attrs": {
-              "CMS001_002_Ra_S1": {
-               "read_count": 2954
-              },
-              "CMS001_028_Ra_S17": {
-               "read_count": 10645
-              },
-              "CMS001_032_Ra_S7": {
-               "read_count": 5596
-              },
-              "CMS001_034_Ra_S19": {
-               "read_count": 5867
-              },
-              "CMS001_036_Ra_S20": {
-               "read_count": 6827
-              },
-              "CMS001_038_Ra_S22": {
-               "read_count": 11791
-              },
-              "CMS001_039_Ra_S9": {
-               "read_count": 8322
-              },
-              "CMS001_042_Ra_S23": {
-               "read_count": 11201
-              },
-              "CMS001_043_Ra_S24": {
-               "read_count": 4611
-              },
-              "CMS002_029c_Rb_S161_L004": {
-               "read_count": 8043
-              },
-              "CMS002_029d_Rb_S162_L004": {
-               "read_count": 11519
-              },
-              "CMS002_029e_Rb_S164_L004": {
-               "read_count": 6462
-              },
-              "CMS002_056a_Rb_S9_L004": {
-               "read_count": 19681
-              },
-              "colour": "#C43A3F",
-              "read_count": 113519,
-              "sample_count": 13
-             },
-             "taxid": 1608131,
-             "taxonomy": "Wuhan mosquito virus 6"
-            },
-            {
-             "attrs": {
-              "CMS002_017a_Rb_S122_L004": {
-               "read_count": 3207
-              },
-              "CMS002_017b_Rb_S123_L004": {
-               "read_count": 3659
-              },
-              "CMS002_017c_Rb_S124_L004": {
-               "read_count": 4776
-              },
-              "CMS002_017e_Rb_S126_L004": {
-               "read_count": 3584
-              },
-              "CMS002_018b_Rb_S129_L004": {
-               "read_count": 10924
-              },
-              "colour": "#C43A3F",
-              "read_count": 26150,
-              "sample_count": 5
-             },
-             "taxid": 2607737,
-             "taxonomy": "Guadeloupe mosquito quaranja-like virus 1"
-            }
-           ],
-           "taxid": 1299308,
-           "taxonomy": "Quaranjavirus"
-          }
-         ],
-         "taxid": 11308,
-         "taxonomy": "Orthomyxoviridae"
-        },
         {
          "attrs": {
           "colour": "#AC6569",
@@ -6440,8 +6320,8 @@
               "read_count": 545058,
               "sample_count": 30
              },
-             "taxid": 2304497,
-             "taxonomy": "Culex bunya-like virus"
+             "taxid": 2304499,
+             "taxonomy": "Culex bunyavirus 2"
             },
             {
              "attrs": {
@@ -6474,6 +6354,392 @@
          ],
          "taxid": 1980410,
          "taxonomy": "Bunyavirales"
+        },
+        {
+         "attrs": {
+          "colour": "#C43A3F",
+          "read_count": 0,
+          "sample_count": 0
+         },
+         "children": [
+          {
+           "attrs": {
+            "colour": "#C43A3F",
+            "read_count": 0,
+            "sample_count": 0
+           },
+           "children": [
+            {
+             "attrs": {
+              "CMS001_002_Ra_S1": {
+               "read_count": 2954
+              },
+              "CMS001_028_Ra_S17": {
+               "read_count": 10645
+              },
+              "CMS001_032_Ra_S7": {
+               "read_count": 5596
+              },
+              "CMS001_034_Ra_S19": {
+               "read_count": 5867
+              },
+              "CMS001_036_Ra_S20": {
+               "read_count": 6827
+              },
+              "CMS001_038_Ra_S22": {
+               "read_count": 11791
+              },
+              "CMS001_039_Ra_S9": {
+               "read_count": 8322
+              },
+              "CMS001_042_Ra_S23": {
+               "read_count": 11201
+              },
+              "CMS001_043_Ra_S24": {
+               "read_count": 4611
+              },
+              "CMS002_029c_Rb_S161_L004": {
+               "read_count": 8043
+              },
+              "CMS002_029d_Rb_S162_L004": {
+               "read_count": 11519
+              },
+              "CMS002_029e_Rb_S164_L004": {
+               "read_count": 6462
+              },
+              "CMS002_056a_Rb_S9_L004": {
+               "read_count": 19681
+              },
+              "colour": "#C43A3F",
+              "read_count": 113519,
+              "sample_count": 13
+             },
+             "taxid": 1608131,
+             "taxonomy": "Wuhan mosquito virus 6"
+            },
+            {
+             "attrs": {
+              "CMS002_017a_Rb_S122_L004": {
+               "read_count": 3207
+              },
+              "CMS002_017b_Rb_S123_L004": {
+               "read_count": 3659
+              },
+              "CMS002_017c_Rb_S124_L004": {
+               "read_count": 4776
+              },
+              "CMS002_017e_Rb_S126_L004": {
+               "read_count": 3584
+              },
+              "CMS002_018b_Rb_S129_L004": {
+               "read_count": 10924
+              },
+              "colour": "#C43A3F",
+              "read_count": 26150,
+              "sample_count": 5
+             },
+             "taxid": 2607737,
+             "taxonomy": "Guadeloupe mosquito quaranja-like virus 1"
+            },
+            {
+             "attrs": {
+              "CMS001_027_Ra_S16": {
+               "read_count": 4064
+              },
+              "CMS001_046_Ra_S3": {
+               "read_count": 1616
+              },
+              "colour": "#C43A3F",
+              "read_count": 5680,
+              "sample_count": 2
+             },
+             "taxid": "Astopletus virus",
+             "taxonomy": "Astopletus virus"
+            },
+            {
+             "attrs": {
+              "CMS002_026a_Rb_S146_L004": {
+               "read_count": 2091
+              },
+              "CMS002_026b_Rb_S147_L004": {
+               "read_count": 4442
+              },
+              "CMS002_026c_Rb_S148_L004": {
+               "read_count": 3285
+              },
+              "CMS002_026d_Rb_S149_L004": {
+               "read_count": 5927
+              },
+              "CMS002_026e_Rb_S150_L004": {
+               "read_count": 2755
+              },
+              "CMS002_044a_Rb_S178_L004": {
+               "read_count": 232
+              },
+              "CMS002_044d_Rb_S181_L004": {
+               "read_count": 908
+              },
+              "CMS002_044e_Rb_S182_L004": {
+               "read_count": 325
+              },
+              "CMS002_045a_Rb_S183_L004": {
+               "read_count": 4525
+              },
+              "CMS002_045b_Rb_S184_L004": {
+               "read_count": 18614
+              },
+              "CMS002_045c_Rb_S185_L004": {
+               "read_count": 4723
+              },
+              "CMS002_045d_Rb_S186_L004": {
+               "read_count": 4937
+              },
+              "CMS002_045e_Rb_S188_L004": {
+               "read_count": 3670
+              },
+              "CMS002_045f_Rb_S189_L004": {
+               "read_count": 2286
+              },
+              "CMS002_045g_Rb_S190_L004": {
+               "read_count": 2974
+              },
+              "colour": "#C43A3F",
+              "read_count": 61694,
+              "sample_count": 15
+             },
+             "taxid": "\u016asinis virus",
+             "taxonomy": "\u016asinis virus"
+            }
+           ],
+           "taxid": 1299308,
+           "taxonomy": "Quaranjavirus"
+          }
+         ],
+         "taxid": 11308,
+         "taxonomy": "Orthomyxoviridae"
+        },
+        {
+         "attrs": {
+          "colour": "#FF7D48",
+          "read_count": 0,
+          "sample_count": 0
+         },
+         "children": [
+          {
+           "attrs": {
+            "colour": "#FF7D48",
+            "read_count": 0,
+            "sample_count": 0
+           },
+           "children": [
+            {
+             "attrs": {
+              "colour": "#FF7D48",
+              "read_count": 0,
+              "sample_count": 0
+             },
+             "children": [
+              {
+               "attrs": {
+                "CMS002_031a_Rb_S165_L004": {
+                 "read_count": 32363
+                },
+                "CMS002_035a_Rb_S169_L004": {
+                 "read_count": 144560
+                },
+                "CMS002_038a_Rb_S172_L004": {
+                 "read_count": 35283
+                },
+                "CMS002_040a_Rb_S174_L004": {
+                 "read_count": 16972
+                },
+                "CMS002_041a_Rb_S176_L004": {
+                 "read_count": 23763
+                },
+                "CMS002_044a_Rb_S178_L004": {
+                 "read_count": 31
+                },
+                "CMS002_044b_Rb_S179_L004": {
+                 "read_count": 6
+                },
+                "CMS002_044d_Rb_S181_L004": {
+                 "read_count": 10
+                },
+                "CMS002_044e_Rb_S182_L004": {
+                 "read_count": 26
+                },
+                "colour": "#FF7D48",
+                "read_count": 253014,
+                "sample_count": 9
+               },
+               "taxid": 1803034,
+               "taxonomy": "Merida virus"
+              },
+              {
+               "attrs": {
+                "CMS001_039_Ra_S9": {
+                 "read_count": 4383
+                },
+                "CMS002_032a_Rb_S166_L004": {
+                 "read_count": 89007
+                },
+                "CMS002_042a_Rb_S177_L004": {
+                 "read_count": 48
+                },
+                "colour": "#FF7D48",
+                "read_count": 93438,
+                "sample_count": 3
+               },
+               "taxid": "2|Rhabdo-like",
+               "taxonomy": "2|Rhabdo-like"
+              },
+              {
+               "attrs": {
+                "CMS001_031_Ra_S19": {
+                 "read_count": 5392
+                },
+                "CMS002_037a_Rb_S171_L004": {
+                 "read_count": 16216
+                },
+                "colour": "#FF7D48",
+                "read_count": 21608,
+                "sample_count": 2
+               },
+               "taxid": "30|Rhabdo-like",
+               "taxonomy": "30|Rhabdo-like"
+              },
+              {
+               "attrs": {
+                "CMS001_015_Ra_S13": {
+                 "read_count": 770
+                },
+                "CMS001_048_Ra_S5": {
+                 "read_count": 710
+                },
+                "CMS002_047a_Rb_S193_L004": {
+                 "read_count": 5728
+                },
+                "CMS002_053a_Rb_S7_L004": {
+                 "read_count": 6040
+                },
+                "colour": "#FF7D48",
+                "read_count": 13248,
+                "sample_count": 4
+               },
+               "taxid": "4|Rhabdo-like",
+               "taxonomy": "4|Rhabdo-like"
+              }
+             ],
+             "taxid": 11270,
+             "taxonomy": "Rhabdoviridae"
+            },
+            {
+             "attrs": {
+              "colour": "#FF7D48",
+              "read_count": 0,
+              "sample_count": 0
+             },
+             "children": [
+              {
+               "attrs": {
+                "CMS002_017c_Rb_S124_L004": {
+                 "read_count": 7153
+                },
+                "CMS002_018a_Rb_S128_L004": {
+                 "read_count": 3187
+                },
+                "colour": "#FF7D48",
+                "read_count": 10340,
+                "sample_count": 2
+               },
+               "taxid": 2230910,
+               "taxonomy": "Aedes anphevirus"
+              },
+              {
+               "attrs": {
+                "CMS001_003_Ra_S2": {
+                 "read_count": 3667
+                },
+                "CMS001_008_Ra_S3": {
+                 "read_count": 2097
+                },
+                "CMS001_025_Ra_S7": {
+                 "read_count": 2722
+                },
+                "CMS002_020a_Rb_S131_L004": {
+                 "read_count": 16957
+                },
+                "CMS002_020b_Rb_S132_L004": {
+                 "read_count": 205
+                },
+                "CMS002_020c_Rb_S133_L004": {
+                 "read_count": 30290
+                },
+                "CMS002_020d_Rb_S134_L004": {
+                 "read_count": 4766
+                },
+                "CMS002_020e_Rb_S135_L004": {
+                 "read_count": 20353
+                },
+                "CMS002_021a_Rb_S136_L004": {
+                 "read_count": 21191
+                },
+                "colour": "#FF7D48",
+                "read_count": 102248,
+                "sample_count": 9
+               },
+               "taxid": "Gordis virus",
+               "taxonomy": "Gordis virus"
+              }
+             ],
+             "taxid": 2501985,
+             "taxonomy": "Xinmoviridae"
+            }
+           ],
+           "taxid": 11157,
+           "taxonomy": "Mononegavirales"
+          },
+          {
+           "attrs": {
+            "colour": "#FF7D48",
+            "read_count": 0,
+            "sample_count": 0
+           },
+           "children": [
+            {
+             "attrs": {
+              "CMS001_044_Ra_S25": {
+               "read_count": 13184
+              },
+              "CMS001_059_Ra_S10": {
+               "read_count": 23775
+              },
+              "CMS002_051a_Rb_S6_L004": {
+               "read_count": 62630
+              },
+              "CMS002_054a_Rb_S8_L004": {
+               "read_count": 74047
+              },
+              "CMS002_056a_Rb_S9_L004": {
+               "read_count": 5
+              },
+              "CMS002_057a_Rb_S10_L004": {
+               "read_count": 22436
+              },
+              "colour": "#FF7D48",
+              "read_count": 196077,
+              "sample_count": 6
+             },
+             "taxid": 2304484,
+             "taxonomy": "Culex mosquito virus 4"
+            }
+           ],
+           "taxid": 2501952,
+           "taxonomy": "Chuviridae"
+          }
+         ],
+         "taxid": "Mononega-Chu",
+         "taxonomy": "Mononega-Chu"
         }
        ],
        "taxid": 2497569,
@@ -6879,24 +7145,6 @@
          "children": [
           {
            "attrs": {
-            "CMS001_002_Ra_S1": {
-             "read_count": 1907
-            },
-            "CMS001_039_Ra_S9": {
-             "read_count": 12696
-            },
-            "CMS002_056a_Rb_S9_L004": {
-             "read_count": 15621
-            },
-            "colour": "#0074C4",
-            "read_count": 30224,
-            "sample_count": 3
-           },
-           "taxid": "1|Flavi-like",
-           "taxonomy": "1|Flavi-like"
-          },
-          {
-           "attrs": {
             "CMS001_029_Ra_S18": {
              "read_count": 14831
             },
@@ -6924,6 +7172,24 @@
            },
            "taxid": 537023,
            "taxonomy": "Calbertado virus"
+          },
+          {
+           "attrs": {
+            "CMS001_002_Ra_S1": {
+             "read_count": 1907
+            },
+            "CMS001_039_Ra_S9": {
+             "read_count": 12696
+            },
+            "CMS002_056a_Rb_S9_L004": {
+             "read_count": 15621
+            },
+            "colour": "#0074C4",
+            "read_count": 30224,
+            "sample_count": 3
+           },
+           "taxid": "1|Flavi-like",
+           "taxonomy": "1|Flavi-like"
           }
          ],
          "taxid": 11050,
@@ -6972,6 +7238,21 @@
             },
             {
              "attrs": {
+              "CMS001_051_Ra_S8": {
+               "read_count": 1892
+              },
+              "CMS002_038a_Rb_S172_L004": {
+               "read_count": 4154
+              },
+              "colour": "#42C754",
+              "read_count": 6046,
+              "sample_count": 2
+             },
+             "taxid": 2304479,
+             "taxonomy": "Culex iflavi-like virus 3"
+            },
+            {
+             "attrs": {
               "CMS001_060_Ra_S12": {
                "read_count": 40486
               },
@@ -6999,21 +7280,6 @@
              },
              "taxid": "25|Ifla-like",
              "taxonomy": "25|Ifla-like"
-            },
-            {
-             "attrs": {
-              "CMS001_051_Ra_S8": {
-               "read_count": 1892
-              },
-              "CMS002_038a_Rb_S172_L004": {
-               "read_count": 4154
-              },
-              "colour": "#42C754",
-              "read_count": 6046,
-              "sample_count": 2
-             },
-             "taxid": 2304479,
-             "taxonomy": "Culex iflavi-like virus 3"
             }
            ],
            "taxid": 699189,
@@ -7054,506 +7320,6 @@
         },
         {
          "attrs": {
-          "colour": "#AFD1FF",
-          "read_count": 0,
-          "sample_count": 0
-         },
-         "children": [
-          {
-           "attrs": {
-            "colour": "#AFD1FF",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS002_022a_Rb_S137_L004": {
-               "read_count": 893
-              },
-              "colour": "#AFD1FF",
-              "read_count": 893,
-              "sample_count": 1
-             },
-             "taxid": 2607736,
-             "taxonomy": "Guadeloupe Culex tymo-like virus"
-            }
-           ],
-           "taxid": 249184,
-           "taxonomy": "Tymoviridae"
-          },
-          {
-           "attrs": {
-            "colour": "#AFD1FF",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS002_028b_Rb_S155_L004": {
-               "read_count": 20059
-              },
-              "CMS002_028c_Rb_S156_L004": {
-               "read_count": 15122
-              },
-              "CMS002_028d_Rb_S157_L004": {
-               "read_count": 10519
-              },
-              "CMS002_028e_Rb_S158_L004": {
-               "read_count": 6278
-              },
-              "CMS002_047a_Rb_S193_L004": {
-               "read_count": 11866
-              },
-              "CMS002_047b_Rb_S194_L004": {
-               "read_count": 21045
-              },
-              "CMS002_047c_Rb_S195_L004": {
-               "read_count": 23641
-              },
-              "CMS002_047d_Rb_S196_L004": {
-               "read_count": 10895
-              },
-              "CMS002_047e_Rb_S197_L004": {
-               "read_count": 8557
-              },
-              "CMS002_047f_Rb_S198_L004": {
-               "read_count": 12815
-              },
-              "CMS002_047g_Rb_S200_L004": {
-               "read_count": 11380
-              },
-              "CMS002_047h_Rb_S1_L004": {
-               "read_count": 9020
-              },
-              "CMS002_047j_Rb_S3_L004": {
-               "read_count": 5673
-              },
-              "colour": "#AFD1FF",
-              "read_count": 166870,
-              "sample_count": 13
-             },
-             "taxid": 2079148,
-             "taxonomy": "Culex pipiens-associated Tunisia virus"
-            },
-            {
-             "attrs": {
-              "CMS001_001_Ra_S1": {
-               "read_count": 7070
-              },
-              "CMS001_002_Ra_S1": {
-               "read_count": 8242
-              },
-              "CMS001_006_Ra_S5": {
-               "read_count": 5642
-              },
-              "CMS001_010_Ra_S1": {
-               "read_count": 1397
-              },
-              "CMS001_015_Ra_S13": {
-               "read_count": 1875
-              },
-              "CMS001_017_Ra_S6": {
-               "read_count": 6296
-              },
-              "CMS001_018_Ra_S14": {
-               "read_count": 1611
-              },
-              "CMS001_019_Ra_S14": {
-               "read_count": 2609
-              },
-              "CMS001_020_Ra_S15": {
-               "read_count": 7902
-              },
-              "CMS001_021_Ra_S16": {
-               "read_count": 7540
-              },
-              "CMS001_022_Ra_S6": {
-               "read_count": 3682
-              },
-              "CMS001_023_Ra_S17": {
-               "read_count": 3509
-              },
-              "CMS001_024_Ra_S15": {
-               "read_count": 10620
-              },
-              "CMS001_034_Ra_S19": {
-               "read_count": 6229
-              },
-              "CMS001_035_Ra_S20": {
-               "read_count": 7738
-              },
-              "CMS001_037_Ra_S21": {
-               "read_count": 8884
-              },
-              "CMS001_045_Ra_S2": {
-               "read_count": 2178
-              },
-              "CMS001_048_Ra_S5": {
-               "read_count": 958
-              },
-              "CMS001_049_Ra_S6": {
-               "read_count": 45
-              },
-              "CMS001_050_Ra_S23": {
-               "read_count": 7995
-              },
-              "CMS001_052_Ra_S7": {
-               "read_count": 4127
-              },
-              "CMS001_053_Ra_S8": {
-               "read_count": 1655
-              },
-              "CMS001_056_Ra_S10": {
-               "read_count": 2491
-              },
-              "CMS001_057_Ra_S11": {
-               "read_count": 2978
-              },
-              "CMS001_058_Ra_S9": {
-               "read_count": 4378
-              },
-              "CMS002_028a_Rb_S154_L004": {
-               "read_count": 10573
-              },
-              "CMS002_028c_Rb_S156_L004": {
-               "read_count": 14477
-              },
-              "CMS002_029d_Rb_S162_L004": {
-               "read_count": 20159
-              },
-              "CMS002_029e_Rb_S164_L004": {
-               "read_count": 19310
-              },
-              "CMS002_047b_Rb_S194_L004": {
-               "read_count": 3757
-              },
-              "CMS002_047d_Rb_S196_L004": {
-               "read_count": 46326
-              },
-              "CMS002_047e_Rb_S197_L004": {
-               "read_count": 1131
-              },
-              "CMS002_047f_Rb_S198_L004": {
-               "read_count": 10253
-              },
-              "CMS002_047g_Rb_S200_L004": {
-               "read_count": 67993
-              },
-              "CMS002_047i_Rb_S2_L004": {
-               "read_count": 8720
-              },
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 22384
-              },
-              "colour": "#AFD1FF",
-              "read_count": 342734,
-              "sample_count": 36
-             },
-             "taxid": 1923335,
-             "taxonomy": "Hubei virga-like virus 2"
-            }
-           ],
-           "taxid": 675071,
-           "taxonomy": "Virgaviridae"
-          }
-         ],
-         "taxid": "Hepe-Virga",
-         "taxonomy": "Hepe-Virga"
-        },
-        {
-         "attrs": {
-          "colour": "#6967BC",
-          "read_count": 0,
-          "sample_count": 0
-         },
-         "children": [
-          {
-           "attrs": {
-            "colour": "#6967BC",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS001_009_Ra_S13": {
-               "read_count": 60
-              },
-              "colour": "#6967BC",
-              "read_count": 60,
-              "sample_count": 1
-             },
-             "taxid": "1249|Narna-like",
-             "taxonomy": "1249|Narna-like"
-            },
-            {
-             "attrs": {
-              "CMS001_002_Ra_S1": {
-               "read_count": 12809
-              },
-              "CMS001_004_Ra_S2": {
-               "read_count": 13339
-              },
-              "CMS001_011_Ra_S4": {
-               "read_count": 19066
-              },
-              "CMS001_018_Ra_S14": {
-               "read_count": 2752
-              },
-              "CMS001_019_Ra_S14": {
-               "read_count": 18604
-              },
-              "CMS001_022_Ra_S6": {
-               "read_count": 5690
-              },
-              "CMS001_023_Ra_S17": {
-               "read_count": 18850
-              },
-              "CMS001_028_Ra_S17": {
-               "read_count": 2960
-              },
-              "CMS001_029_Ra_S18": {
-               "read_count": 43408
-              },
-              "CMS001_030_Ra_S7": {
-               "read_count": 14137
-              },
-              "CMS001_034_Ra_S19": {
-               "read_count": 21844
-              },
-              "CMS001_035_Ra_S20": {
-               "read_count": 10699
-              },
-              "CMS001_036_Ra_S20": {
-               "read_count": 5353
-              },
-              "CMS001_037_Ra_S21": {
-               "read_count": 6797
-              },
-              "CMS001_038_Ra_S22": {
-               "read_count": 3276
-              },
-              "CMS001_040_Ra_S21": {
-               "read_count": 12824
-              },
-              "CMS001_041_Ra_S10": {
-               "read_count": 8606
-              },
-              "CMS001_042_Ra_S23": {
-               "read_count": 13153
-              },
-              "CMS001_044_Ra_S25": {
-               "read_count": 2862
-              },
-              "CMS001_045_Ra_S2": {
-               "read_count": 2741
-              },
-              "CMS001_047_Ra_S4": {
-               "read_count": 6134
-              },
-              "CMS001_048_Ra_S5": {
-               "read_count": 2826
-              },
-              "CMS001_051_Ra_S8": {
-               "read_count": 12456
-              },
-              "CMS001_052_Ra_S7": {
-               "read_count": 6865
-              },
-              "CMS001_054_Ra_S11": {
-               "read_count": 2210
-              },
-              "CMS001_058_Ra_S9": {
-               "read_count": 4691
-              },
-              "CMS001_059_Ra_S10": {
-               "read_count": 6284
-              },
-              "CMS002_001a_Rb_S116_L004": {
-               "read_count": 40477
-              },
-              "CMS002_022a_Rb_S137_L004": {
-               "read_count": 16500
-              },
-              "CMS002_023a_Rb_S138_L004": {
-               "read_count": 45726
-              },
-              "CMS002_027a_Rb_S152_L004": {
-               "read_count": 17886
-              },
-              "CMS002_027b_Rb_S153_L004": {
-               "read_count": 92202
-              },
-              "CMS002_028d_Rb_S157_L004": {
-               "read_count": 62148
-              },
-              "CMS002_028e_Rb_S158_L004": {
-               "read_count": 78690
-              },
-              "CMS002_029c_Rb_S161_L004": {
-               "read_count": 14168
-              },
-              "CMS002_029d_Rb_S162_L004": {
-               "read_count": 65442
-              },
-              "CMS002_046a_Rb_S191_L004": {
-               "read_count": 41117
-              },
-              "CMS002_046b_Rb_S192_L004": {
-               "read_count": 56362
-              },
-              "CMS002_047a_Rb_S193_L004": {
-               "read_count": 11226
-              },
-              "CMS002_047f_Rb_S198_L004": {
-               "read_count": 11660
-              },
-              "CMS002_047j_Rb_S3_L004": {
-               "read_count": 53135
-              },
-              "CMS002_051a_Rb_S6_L004": {
-               "read_count": 6186
-              },
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 24921
-              },
-              "colour": "#6967BC",
-              "read_count": 919082,
-              "sample_count": 43
-             },
-             "taxid": 2562539,
-             "taxonomy": "Culex narnavirus 1"
-            }
-           ],
-           "taxid": 186766,
-           "taxonomy": "Narnaviridae"
-          },
-          {
-           "attrs": {
-            "colour": "#6967BC",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS001_047_Ra_S4": {
-               "read_count": 434
-              },
-              "colour": "#6967BC",
-              "read_count": 434,
-              "sample_count": 1
-             },
-             "taxid": "Chimba virus",
-             "taxonomy": "Chimba virus"
-            },
-            {
-             "attrs": {
-              "CMS001_026_Ra_S18": {
-               "read_count": 234
-              },
-              "colour": "#6967BC",
-              "read_count": 234,
-              "sample_count": 1
-             },
-             "taxid": "416|Levi-like",
-             "taxonomy": "416|Levi-like"
-            }
-           ],
-           "taxid": 11989,
-           "taxonomy": "Leviviridae"
-          },
-          {
-           "attrs": {
-            "colour": "#6967BC",
-            "read_count": 0,
-            "sample_count": 0
-           },
-           "children": [
-            {
-             "attrs": {
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 66
-              },
-              "colour": "#6967BC",
-              "read_count": 66,
-              "sample_count": 1
-             },
-             "taxid": "1399|Botourmia-like",
-             "taxonomy": "1399|Botourmia-like"
-            },
-            {
-             "attrs": {
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 98
-              },
-              "colour": "#6967BC",
-              "read_count": 98,
-              "sample_count": 1
-             },
-             "taxid": "1438|Botourmia-like",
-             "taxonomy": "1438|Botourmia-like"
-            },
-            {
-             "attrs": {
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 172
-              },
-              "colour": "#6967BC",
-              "read_count": 172,
-              "sample_count": 1
-             },
-             "taxid": "1479|Botourmia-like",
-             "taxonomy": "1479|Botourmia-like"
-            },
-            {
-             "attrs": {
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 102
-              },
-              "colour": "#6967BC",
-              "read_count": 102,
-              "sample_count": 1
-             },
-             "taxid": "3061|Botourmia-like",
-             "taxonomy": "3061|Botourmia-like"
-            },
-            {
-             "attrs": {
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 73
-              },
-              "colour": "#6967BC",
-              "read_count": 73,
-              "sample_count": 1
-             },
-             "taxid": "4269|Botourmia-like",
-             "taxonomy": "4269|Botourmia-like"
-            },
-            {
-             "attrs": {
-              "CMS002_053a_Rb_S7_L004": {
-               "read_count": 82
-              },
-              "colour": "#6967BC",
-              "read_count": 82,
-              "sample_count": 1
-             },
-             "taxid": "9191|Botourmia-like",
-             "taxonomy": "9191|Botourmia-like"
-            }
-           ],
-           "taxid": 2560063,
-           "taxonomy": "Botourmiaviridae"
-          }
-         ],
-         "taxid": "Narna-Levi",
-         "taxonomy": "Narna-Levi"
-        },
-        {
-         "attrs": {
           "colour": "#E6C930",
           "read_count": 0,
           "sample_count": 0
@@ -7566,6 +7332,39 @@
             "sample_count": 0
            },
            "children": [
+            {
+             "attrs": {
+              "CMS002_017a_Rb_S122_L004": {
+               "read_count": 112727
+              },
+              "CMS002_017b_Rb_S123_L004": {
+               "read_count": 121209
+              },
+              "CMS002_017c_Rb_S124_L004": {
+               "read_count": 111333
+              },
+              "CMS002_017d_Rb_S125_L004": {
+               "read_count": 126139
+              },
+              "CMS002_017e_Rb_S126_L004": {
+               "read_count": 4108
+              },
+              "CMS002_018a_Rb_S128_L004": {
+               "read_count": 29058
+              },
+              "CMS002_018b_Rb_S129_L004": {
+               "read_count": 200926
+              },
+              "CMS002_019a_Rb_S130_L004": {
+               "read_count": 207566
+              },
+              "colour": "#E6C930",
+              "read_count": 913066,
+              "sample_count": 8
+             },
+             "taxid": 2607735,
+             "taxonomy": "Guadeloupe mosquito virus"
+            },
             {
              "attrs": {
               "CMS001_006_Ra_S5": {
@@ -7622,54 +7421,6 @@
             },
             {
              "attrs": {
-              "CMS002_017a_Rb_S122_L004": {
-               "read_count": 112727
-              },
-              "CMS002_017b_Rb_S123_L004": {
-               "read_count": 121209
-              },
-              "CMS002_017c_Rb_S124_L004": {
-               "read_count": 111333
-              },
-              "CMS002_017d_Rb_S125_L004": {
-               "read_count": 126139
-              },
-              "CMS002_017e_Rb_S126_L004": {
-               "read_count": 4108
-              },
-              "CMS002_018a_Rb_S128_L004": {
-               "read_count": 29058
-              },
-              "CMS002_018b_Rb_S129_L004": {
-               "read_count": 200926
-              },
-              "CMS002_019a_Rb_S130_L004": {
-               "read_count": 207566
-              },
-              "colour": "#E6C930",
-              "read_count": 913066,
-              "sample_count": 8
-             },
-             "taxid": 2607735,
-             "taxonomy": "Guadeloupe mosquito virus"
-            },
-            {
-             "attrs": {
-              "CMS002_020a_Rb_S131_L004": {
-               "read_count": 2704
-              },
-              "CMS002_020b_Rb_S132_L004": {
-               "read_count": 67939
-              },
-              "colour": "#E6C930",
-              "read_count": 70643,
-              "sample_count": 2
-             },
-             "taxid": "Kellev virus",
-             "taxonomy": "Kellev virus"
-            },
-            {
-             "attrs": {
               "CMS002_045a_Rb_S183_L004": {
                "read_count": 15217
               },
@@ -7697,6 +7448,21 @@
              },
              "taxid": 1923660,
              "taxonomy": "Wenzhou sobemo-like virus 4"
+            },
+            {
+             "attrs": {
+              "CMS002_020a_Rb_S131_L004": {
+               "read_count": 2704
+              },
+              "CMS002_020b_Rb_S132_L004": {
+               "read_count": 67939
+              },
+              "colour": "#E6C930",
+              "read_count": 70643,
+              "sample_count": 2
+             },
+             "taxid": "Kellev virus",
+             "taxonomy": "Kellev virus"
             }
            ],
            "taxid": 2169577,
@@ -7959,8 +7725,8 @@
               "read_count": 879164,
               "sample_count": 18
              },
-             "taxid": "128|Tombus-like",
-             "taxonomy": "128|Tombus-like"
+             "taxid": 1922928,
+             "taxonomy": "Hubei mosquito virus 4"
             },
             {
              "attrs": {
@@ -8005,6 +7771,506 @@
          ],
          "taxid": "Tombus-Noda",
          "taxonomy": "Tombus-Noda"
+        },
+        {
+         "attrs": {
+          "colour": "#6967BC",
+          "read_count": 0,
+          "sample_count": 0
+         },
+         "children": [
+          {
+           "attrs": {
+            "colour": "#6967BC",
+            "read_count": 0,
+            "sample_count": 0
+           },
+           "children": [
+            {
+             "attrs": {
+              "CMS001_002_Ra_S1": {
+               "read_count": 12809
+              },
+              "CMS001_004_Ra_S2": {
+               "read_count": 13339
+              },
+              "CMS001_011_Ra_S4": {
+               "read_count": 19066
+              },
+              "CMS001_018_Ra_S14": {
+               "read_count": 2752
+              },
+              "CMS001_019_Ra_S14": {
+               "read_count": 18604
+              },
+              "CMS001_022_Ra_S6": {
+               "read_count": 5690
+              },
+              "CMS001_023_Ra_S17": {
+               "read_count": 18850
+              },
+              "CMS001_028_Ra_S17": {
+               "read_count": 2960
+              },
+              "CMS001_029_Ra_S18": {
+               "read_count": 43408
+              },
+              "CMS001_030_Ra_S7": {
+               "read_count": 14137
+              },
+              "CMS001_034_Ra_S19": {
+               "read_count": 21844
+              },
+              "CMS001_035_Ra_S20": {
+               "read_count": 10699
+              },
+              "CMS001_036_Ra_S20": {
+               "read_count": 5353
+              },
+              "CMS001_037_Ra_S21": {
+               "read_count": 6797
+              },
+              "CMS001_038_Ra_S22": {
+               "read_count": 3276
+              },
+              "CMS001_040_Ra_S21": {
+               "read_count": 12824
+              },
+              "CMS001_041_Ra_S10": {
+               "read_count": 8606
+              },
+              "CMS001_042_Ra_S23": {
+               "read_count": 13153
+              },
+              "CMS001_044_Ra_S25": {
+               "read_count": 2862
+              },
+              "CMS001_045_Ra_S2": {
+               "read_count": 2741
+              },
+              "CMS001_047_Ra_S4": {
+               "read_count": 6134
+              },
+              "CMS001_048_Ra_S5": {
+               "read_count": 2826
+              },
+              "CMS001_051_Ra_S8": {
+               "read_count": 12456
+              },
+              "CMS001_052_Ra_S7": {
+               "read_count": 6865
+              },
+              "CMS001_054_Ra_S11": {
+               "read_count": 2210
+              },
+              "CMS001_058_Ra_S9": {
+               "read_count": 4691
+              },
+              "CMS001_059_Ra_S10": {
+               "read_count": 6284
+              },
+              "CMS002_001a_Rb_S116_L004": {
+               "read_count": 40477
+              },
+              "CMS002_022a_Rb_S137_L004": {
+               "read_count": 16500
+              },
+              "CMS002_023a_Rb_S138_L004": {
+               "read_count": 45726
+              },
+              "CMS002_027a_Rb_S152_L004": {
+               "read_count": 17886
+              },
+              "CMS002_027b_Rb_S153_L004": {
+               "read_count": 92202
+              },
+              "CMS002_028d_Rb_S157_L004": {
+               "read_count": 62148
+              },
+              "CMS002_028e_Rb_S158_L004": {
+               "read_count": 78690
+              },
+              "CMS002_029c_Rb_S161_L004": {
+               "read_count": 14168
+              },
+              "CMS002_029d_Rb_S162_L004": {
+               "read_count": 65442
+              },
+              "CMS002_046a_Rb_S191_L004": {
+               "read_count": 41117
+              },
+              "CMS002_046b_Rb_S192_L004": {
+               "read_count": 56362
+              },
+              "CMS002_047a_Rb_S193_L004": {
+               "read_count": 11226
+              },
+              "CMS002_047f_Rb_S198_L004": {
+               "read_count": 11660
+              },
+              "CMS002_047j_Rb_S3_L004": {
+               "read_count": 53135
+              },
+              "CMS002_051a_Rb_S6_L004": {
+               "read_count": 6186
+              },
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 24921
+              },
+              "colour": "#6967BC",
+              "read_count": 919082,
+              "sample_count": 43
+             },
+             "taxid": 2562539,
+             "taxonomy": "Culex narnavirus 1"
+            },
+            {
+             "attrs": {
+              "CMS001_009_Ra_S13": {
+               "read_count": 60
+              },
+              "colour": "#6967BC",
+              "read_count": 60,
+              "sample_count": 1
+             },
+             "taxid": "1249|Narna-like",
+             "taxonomy": "1249|Narna-like"
+            }
+           ],
+           "taxid": 186766,
+           "taxonomy": "Narnaviridae"
+          },
+          {
+           "attrs": {
+            "colour": "#6967BC",
+            "read_count": 0,
+            "sample_count": 0
+           },
+           "children": [
+            {
+             "attrs": {
+              "CMS001_047_Ra_S4": {
+               "read_count": 434
+              },
+              "colour": "#6967BC",
+              "read_count": 434,
+              "sample_count": 1
+             },
+             "taxid": "Chimba virus",
+             "taxonomy": "Chimba virus"
+            },
+            {
+             "attrs": {
+              "CMS001_026_Ra_S18": {
+               "read_count": 234
+              },
+              "colour": "#6967BC",
+              "read_count": 234,
+              "sample_count": 1
+             },
+             "taxid": "416|Levi-like",
+             "taxonomy": "416|Levi-like"
+            }
+           ],
+           "taxid": 11989,
+           "taxonomy": "Leviviridae"
+          },
+          {
+           "attrs": {
+            "colour": "#6967BC",
+            "read_count": 0,
+            "sample_count": 0
+           },
+           "children": [
+            {
+             "attrs": {
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 66
+              },
+              "colour": "#6967BC",
+              "read_count": 66,
+              "sample_count": 1
+             },
+             "taxid": "1399|Botourmia-like",
+             "taxonomy": "1399|Botourmia-like"
+            },
+            {
+             "attrs": {
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 98
+              },
+              "colour": "#6967BC",
+              "read_count": 98,
+              "sample_count": 1
+             },
+             "taxid": "1438|Botourmia-like",
+             "taxonomy": "1438|Botourmia-like"
+            },
+            {
+             "attrs": {
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 172
+              },
+              "colour": "#6967BC",
+              "read_count": 172,
+              "sample_count": 1
+             },
+             "taxid": "1479|Botourmia-like",
+             "taxonomy": "1479|Botourmia-like"
+            },
+            {
+             "attrs": {
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 102
+              },
+              "colour": "#6967BC",
+              "read_count": 102,
+              "sample_count": 1
+             },
+             "taxid": "3061|Botourmia-like",
+             "taxonomy": "3061|Botourmia-like"
+            },
+            {
+             "attrs": {
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 73
+              },
+              "colour": "#6967BC",
+              "read_count": 73,
+              "sample_count": 1
+             },
+             "taxid": "4269|Botourmia-like",
+             "taxonomy": "4269|Botourmia-like"
+            },
+            {
+             "attrs": {
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 82
+              },
+              "colour": "#6967BC",
+              "read_count": 82,
+              "sample_count": 1
+             },
+             "taxid": "9191|Botourmia-like",
+             "taxonomy": "9191|Botourmia-like"
+            }
+           ],
+           "taxid": 2560063,
+           "taxonomy": "Botourmiaviridae"
+          }
+         ],
+         "taxid": "Narna-Levi",
+         "taxonomy": "Narna-Levi"
+        },
+        {
+         "attrs": {
+          "colour": "#AFD1FF",
+          "read_count": 0,
+          "sample_count": 0
+         },
+         "children": [
+          {
+           "attrs": {
+            "colour": "#AFD1FF",
+            "read_count": 0,
+            "sample_count": 0
+           },
+           "children": [
+            {
+             "attrs": {
+              "CMS001_001_Ra_S1": {
+               "read_count": 7070
+              },
+              "CMS001_002_Ra_S1": {
+               "read_count": 8242
+              },
+              "CMS001_006_Ra_S5": {
+               "read_count": 5642
+              },
+              "CMS001_010_Ra_S1": {
+               "read_count": 1397
+              },
+              "CMS001_015_Ra_S13": {
+               "read_count": 1875
+              },
+              "CMS001_017_Ra_S6": {
+               "read_count": 6296
+              },
+              "CMS001_018_Ra_S14": {
+               "read_count": 1611
+              },
+              "CMS001_019_Ra_S14": {
+               "read_count": 2609
+              },
+              "CMS001_020_Ra_S15": {
+               "read_count": 7902
+              },
+              "CMS001_021_Ra_S16": {
+               "read_count": 7540
+              },
+              "CMS001_022_Ra_S6": {
+               "read_count": 3682
+              },
+              "CMS001_023_Ra_S17": {
+               "read_count": 3509
+              },
+              "CMS001_024_Ra_S15": {
+               "read_count": 10620
+              },
+              "CMS001_034_Ra_S19": {
+               "read_count": 6229
+              },
+              "CMS001_035_Ra_S20": {
+               "read_count": 7738
+              },
+              "CMS001_037_Ra_S21": {
+               "read_count": 8884
+              },
+              "CMS001_045_Ra_S2": {
+               "read_count": 2178
+              },
+              "CMS001_048_Ra_S5": {
+               "read_count": 958
+              },
+              "CMS001_049_Ra_S6": {
+               "read_count": 45
+              },
+              "CMS001_050_Ra_S23": {
+               "read_count": 7995
+              },
+              "CMS001_052_Ra_S7": {
+               "read_count": 4127
+              },
+              "CMS001_053_Ra_S8": {
+               "read_count": 1655
+              },
+              "CMS001_056_Ra_S10": {
+               "read_count": 2491
+              },
+              "CMS001_057_Ra_S11": {
+               "read_count": 2978
+              },
+              "CMS001_058_Ra_S9": {
+               "read_count": 4378
+              },
+              "CMS002_028a_Rb_S154_L004": {
+               "read_count": 10573
+              },
+              "CMS002_028c_Rb_S156_L004": {
+               "read_count": 14477
+              },
+              "CMS002_029d_Rb_S162_L004": {
+               "read_count": 20159
+              },
+              "CMS002_029e_Rb_S164_L004": {
+               "read_count": 19310
+              },
+              "CMS002_047b_Rb_S194_L004": {
+               "read_count": 3757
+              },
+              "CMS002_047d_Rb_S196_L004": {
+               "read_count": 46326
+              },
+              "CMS002_047e_Rb_S197_L004": {
+               "read_count": 1131
+              },
+              "CMS002_047f_Rb_S198_L004": {
+               "read_count": 10253
+              },
+              "CMS002_047g_Rb_S200_L004": {
+               "read_count": 67993
+              },
+              "CMS002_047i_Rb_S2_L004": {
+               "read_count": 8720
+              },
+              "CMS002_053a_Rb_S7_L004": {
+               "read_count": 22384
+              },
+              "colour": "#AFD1FF",
+              "read_count": 342734,
+              "sample_count": 36
+             },
+             "taxid": 1923335,
+             "taxonomy": "Hubei virga-like virus 2"
+            },
+            {
+             "attrs": {
+              "CMS002_028b_Rb_S155_L004": {
+               "read_count": 20059
+              },
+              "CMS002_028c_Rb_S156_L004": {
+               "read_count": 15122
+              },
+              "CMS002_028d_Rb_S157_L004": {
+               "read_count": 10519
+              },
+              "CMS002_028e_Rb_S158_L004": {
+               "read_count": 6278
+              },
+              "CMS002_047a_Rb_S193_L004": {
+               "read_count": 11866
+              },
+              "CMS002_047b_Rb_S194_L004": {
+               "read_count": 21045
+              },
+              "CMS002_047c_Rb_S195_L004": {
+               "read_count": 23641
+              },
+              "CMS002_047d_Rb_S196_L004": {
+               "read_count": 10895
+              },
+              "CMS002_047e_Rb_S197_L004": {
+               "read_count": 8557
+              },
+              "CMS002_047f_Rb_S198_L004": {
+               "read_count": 12815
+              },
+              "CMS002_047g_Rb_S200_L004": {
+               "read_count": 11380
+              },
+              "CMS002_047h_Rb_S1_L004": {
+               "read_count": 9020
+              },
+              "CMS002_047j_Rb_S3_L004": {
+               "read_count": 5673
+              },
+              "colour": "#AFD1FF",
+              "read_count": 166870,
+              "sample_count": 13
+             },
+             "taxid": 2079148,
+             "taxonomy": "Culex pipiens-associated Tunisia virus"
+            }
+           ],
+           "taxid": 675071,
+           "taxonomy": "Virgaviridae"
+          },
+          {
+           "attrs": {
+            "colour": "#AFD1FF",
+            "read_count": 0,
+            "sample_count": 0
+           },
+           "children": [
+            {
+             "attrs": {
+              "CMS002_022a_Rb_S137_L004": {
+               "read_count": 893
+              },
+              "colour": "#AFD1FF",
+              "read_count": 893,
+              "sample_count": 1
+             },
+             "taxid": 2607736,
+             "taxonomy": "Guadeloupe Culex tymo-like virus"
+            }
+           ],
+           "taxid": 249184,
+           "taxonomy": "Tymoviridae"
+          }
+         ],
+         "taxid": "Hepe-Virga",
+         "taxonomy": "Hepe-Virga"
         }
        ],
        "taxid": "(+)ssRNA viruses",
@@ -8202,15 +8468,39 @@
            "children": [
             {
              "attrs": {
-              "CMS001_009_Ra_S13": {
-               "read_count": 36
+              "CMS001_038_Ra_S22": {
+               "read_count": 1744
               },
               "colour": "#D8A5CE",
-              "read_count": 36,
+              "read_count": 1744,
               "sample_count": 1
              },
-             "taxid": "12259|Toti-like",
-             "taxonomy": "12259|Toti-like"
+             "taxid": 2304495,
+             "taxonomy": "Totivirus-like Culex mosquito virus 1"
+            },
+            {
+             "attrs": {
+              "CMS002_017a_Rb_S122_L004": {
+               "read_count": 9405
+              },
+              "CMS002_017b_Rb_S123_L004": {
+               "read_count": 18769
+              },
+              "CMS002_017c_Rb_S124_L004": {
+               "read_count": 9842
+              },
+              "CMS002_017d_Rb_S125_L004": {
+               "read_count": 17825
+              },
+              "CMS002_017e_Rb_S126_L004": {
+               "read_count": 283
+              },
+              "colour": "#D8A5CE",
+              "read_count": 56124,
+              "sample_count": 5
+             },
+             "taxid": 2603435,
+             "taxonomy": "Aedes aegypti totivirus"
             },
             {
              "attrs": {
@@ -8538,42 +8828,6 @@
              },
              "taxid": "6512|Toti-like",
              "taxonomy": "6512|Toti-like"
-            },
-            {
-             "attrs": {
-              "CMS001_038_Ra_S22": {
-               "read_count": 1744
-              },
-              "colour": "#D8A5CE",
-              "read_count": 1744,
-              "sample_count": 1
-             },
-             "taxid": "78|Toti-like",
-             "taxonomy": "78|Toti-like"
-            },
-            {
-             "attrs": {
-              "CMS002_017a_Rb_S122_L004": {
-               "read_count": 9405
-              },
-              "CMS002_017b_Rb_S123_L004": {
-               "read_count": 18769
-              },
-              "CMS002_017c_Rb_S124_L004": {
-               "read_count": 9842
-              },
-              "CMS002_017d_Rb_S125_L004": {
-               "read_count": 17825
-              },
-              "CMS002_017e_Rb_S126_L004": {
-               "read_count": 283
-              },
-              "colour": "#D8A5CE",
-              "read_count": 56124,
-              "sample_count": 5
-             },
-             "taxid": 2603435,
-             "taxonomy": "Aedes aegypti totivirus"
             }
            ],
            "taxid": 11006,

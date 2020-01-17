@@ -149,7 +149,7 @@ base_plot <-
   facet_grid(group~., switch="both") +
   scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
   scale_fill_manual("", breaks=names(color_palette), values=color_palette, labels=names(color_palette)) +
-  ylab("% nonhost reads") +
+  ylab("% non-host reads") +
   xlab("sample ID") +
   theme(legend.position="none",
         strip.background.y=element_blank(),
@@ -184,7 +184,7 @@ species_label_grob <- ggplot(species_label_df) +
   geom_text(aes(x=(xmax+xmin)/2, y=0.5, label=species_label), fontface="italic", size=4.5) +
   scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
   scale_x_continuous(expand = c(0,0)) +
-  ylab("% nonhost reads") +
+  ylab("% non-host reads") +
   theme(axis.line.y=element_line(size=.2, color="white"),
         axis.text.y=element_text(size=18, color="white"),
         axis.ticks.y=element_line(color="white"),
@@ -209,7 +209,7 @@ location_label_grob <- ggplot(location_label_df) +
   geom_rect(aes(xmin=xmin, xmax=xmax, fill=collected_by, ymin=0, ymax=1)) +
   scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
   scale_x_continuous(expand = c(0,0)) +
-  ylab("% nonhost reads") +
+  ylab("% non-host reads") +
   scale_fill_manual("", breaks=names(color_palette), values=color_palette, labels=names(color_palette)) +
   theme(axis.line.y=element_line(size=.2, color="white"),
         axis.text.y=element_text(size=18, color="white"),
@@ -409,7 +409,7 @@ select_virus_prev_abund_plot <-
   geom_hline(aes(yintercept=bulk_abundance), color="darkmagenta") +
   facet_grid(.~sci_name, scales="free_x", space="free") +
   scale_y_continuous(labels=scales::percent) +
-  xlab("Sample") + ylab("% nonhost reads") +
+  xlab("Sample") + ylab("% non-host reads") +
   #ggtitle("B)") +
   theme(axis.text.x=element_blank(), axis.title.x=element_blank())
 ```

@@ -200,7 +200,7 @@ IV	ALCO	Solemoviridae	single stranded RNA positive sense	Virus	1	458.0	0.0320886
 V	ALCO	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1170.0	0.015623518255097203	4611.0	CMS001_043_Ra_S24	Wuhan mosquito virus 6	Culex	tarsalis	1608131.0
 V	ALCO	Peribunyaviridae	single stranded RNA negative sense	Virus	3	44.0	0.06296830856160177	8325.0	CMS001_044_Ra_S25	Culex bunyavirus 2	Culex	pipiens	39718.0
 IV	ALCO	Flaviviridae	single stranded RNA positive sense	Virus	1	12.0	0.10525426851738116	6855.0	CMS001_044_Ra_S25	Culex flavivirus	Culex	pipiens	390844.0
-	ALCO	Chuviridae		Virus		45.0	0.0663923350939688	13184.0	CMS001_044_Ra_S25	Culex mosquito virus 4	Culex	pipiens	2600344.0
+V	ALCO	Chuviridae		Virus		45.0	0.0663923350939688	13184.0	CMS001_044_Ra_S25	Culex mosquito virus 4	Culex	pipiens	2600344.0
 IV	ALCO	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.012406338287679647	2862.0	CMS001_044_Ra_S25	Culex narnavirus 1	Culex	pipiens	2562539.0
 IV	ALCO	Solemoviridae	single stranded RNA positive sense	Virus	1	458.0	0.07769315808868689	19187.0	CMS001_044_Ra_S25	Marma virus	Culex	pipiens	2651926.0
 IV	ALCO	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.009743514150943397	2741.0	CMS001_045_Ra_S2	Culex narnavirus 1	Culex	erythrothorax	2562539.0
@@ -249,7 +249,7 @@ IV	ALCO	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.00750755
 IV	ALCO	Tombusviridae	single stranded RNA positive sense	Virus	1 or 2	128.0	0.015186915887850467	1768.0	CMS001_058_Ra_S9	Hubei mosquito virus 4	Culex	erythrothorax	137555.0
 IV	ALCO	Virgaviridae	single stranded RNA positive sense	Virus	1 or more	9.0	0.0376065145684442	4378.0	CMS001_058_Ra_S9	Hubei virga-like virus 2	Culex	erythrothorax	1527522.0
 V	ALCO	Peribunyaviridae	single stranded RNA negative sense	Virus	3	44.0	0.07680599226933167	12397.0	CMS001_059_Ra_S10	Culex bunyavirus 2	Culex	pipiens	39718.0
-	ALCO	Chuviridae		Virus		45.0	0.05994272095491779	23775.0	CMS001_059_Ra_S10	Culex mosquito virus 4	Culex	pipiens	2600344.0
+V	ALCO	Chuviridae		Virus		45.0	0.05994272095491779	23775.0	CMS001_059_Ra_S10	Culex mosquito virus 4	Culex	pipiens	2600344.0
 IV	ALCO	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.036900923274118286	6284.0	CMS001_059_Ra_S10	Culex narnavirus 1	Culex	pipiens	2562539.0
 IV	ALCO	Iflaviridae	single stranded RNA positive sense	Virus	1	24.0	0.08018935192520996	40486.0	CMS001_060_Ra_S12	24|Ifla-like	Culiseta	inornata	1111709.0
 IV	ALCO	Luteoviridae	single stranded RNA positive sense	Virus	1	98.0	0.0018222151798447156	920.0	CMS001_060_Ra_S12	98|Luteo-like	Culiseta	inornata	328429.0
@@ -430,7 +430,7 @@ IV	WVAL 	Virgaviridae	single stranded RNA positive sense	Virus	1 or more	13.0	0.
 V	PLCR	Peribunyaviridae	single stranded RNA negative sense	Virus	3	44.0	0.21470347549821892	38702.0	CMS002_049a_Rb_S4_L004	Culex bunyavirus 2	Culex	pipiens	39718.0
 IV	PLCR	Flaviviridae	single stranded RNA positive sense	Virus	1	12.0	0.2131630884759796	17713.0	CMS002_049a_Rb_S4_L004	Culex flavivirus	Culex	pipiens	390844.0
 V	PLCR	Peribunyaviridae	single stranded RNA negative sense	Virus	3	44.0	0.12121038946195388	33363.0	CMS002_051a_Rb_S6_L004	Culex bunyavirus 2	Culex	pipiens	39718.0
-	PLCR	Chuviridae		Virus		45.0	0.09291510700917222	62630.0	CMS002_051a_Rb_S6_L004	Culex mosquito virus 4	Culex	pipiens	2600344.0
+V	PLCR	Chuviridae		Virus		45.0	0.09291510700917222	62630.0	CMS002_051a_Rb_S6_L004	Culex mosquito virus 4	Culex	pipiens	2600344.0
 IV	PLCR	Solemoviridae	single stranded RNA positive sense	Virus	1	458.0	0.027766665714204074	12816.0	CMS002_051a_Rb_S6_L004	Marma virus	Culex	pipiens	2651926.0
 IV	PLCR	Botourmiaviridae	single stranded RNA positive sense	Virus	3	1399.0	5.349778227375302e-05	66.0	CMS002_053a_Rb_S7_L004	1399|Botourmia-like	Culex	erythrothorax	2587553.0
 IV	PLCR	Botourmiaviridae	single stranded RNA positive sense	Virus	3	1438.0	7.94361009519363e-05	98.0	CMS002_053a_Rb_S7_L004	1438|Botourmia-like	Culex	erythrothorax	2587553.0
@@ -444,12 +444,12 @@ V	PLCR	Phasmaviridae	single stranded RNA negative sense	Virus	3	76.0	0.000705198
 IV	PLCR	Botourmiaviridae	single stranded RNA positive sense	Virus	3	9191.0	6.646694161284466e-05	82.0	CMS002_053a_Rb_S7_L004	9191|Botourmia-like	Culex	erythrothorax	2587553.0
 IV	PLCR	Narnaviridae	single stranded RNA positive sense	Virus	1	493.0	0.0074694252068580914	24921.0	CMS002_053a_Rb_S7_L004	Culex narnavirus 1	Culex	erythrothorax	2562539.0
 IV	PLCR	Virgaviridae	single stranded RNA positive sense	Virus	1 or more	9.0	0.018143853915389203	22384.0	CMS002_053a_Rb_S7_L004	Hubei virga-like virus 2	Culex	erythrothorax	1527522.0
-	PLCR	Chuviridae		Virus		45.0	0.2271060979908354	74047.0	CMS002_054a_Rb_S8_L004	Culex mosquito virus 4	Culex	pipiens	2600344.0
+V	PLCR	Chuviridae		Virus		45.0	0.2271060979908354	74047.0	CMS002_054a_Rb_S8_L004	Culex mosquito virus 4	Culex	pipiens	2600344.0
 IV	PLCR	Flaviviridae	single stranded RNA positive sense	Virus	1	1.0	0.03744875698223575	15621.0	CMS002_056a_Rb_S9_L004	1|Flavi-like	Culex	tarsalis	38144.0
 IV	PLCR	Solemoviridae	single stranded RNA positive sense	Virus	1	484.0	0.019744444178073983	30216.0	CMS002_056a_Rb_S9_L004	Culex mosquito virus 6	Culex	tarsalis	2600328.0
 V	PLCR	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1170.0	0.01255483901901086	19681.0	CMS002_056a_Rb_S9_L004	Wuhan mosquito virus 6	Culex	tarsalis	1608131.0
 V	PLCR	Peribunyaviridae	single stranded RNA negative sense	Virus	3	44.0	0.22993214934559342	19202.0	CMS002_057a_Rb_S10_L004	Culex bunyavirus 2	Culex	pipiens	39718.0
-	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L004	Culex mosquito virus 4	Culex	pipiens	2600344.0
+V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L004	Culex mosquito virus 4	Culex	pipiens	2600344.0
 	ALCO			Metazoa			0.02502606882168926	264.0	CMS001_003_Ra_S2	Boreoeutheria	Culiseta	particeps	1437010.0
 	ALCO			Metazoa			0.003327628826773151	140.0	CMS001_009_Ra_S13	Boreoeutheria	Culiseta	particeps	1437010.0
 	ALCO			Metazoa			0.0033258787774528356	58.0	CMS001_025_Ra_S7	Boreoeutheria	Culiseta	particeps	1437010.0

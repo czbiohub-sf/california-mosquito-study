@@ -13,74 +13,77 @@
 </defs>
 <rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
 <rect x='0.00' y='0.00' width='163.80' height='124.80' style='stroke-width: 0.75; stroke: #FFFFFF; fill: #FFFFFF;' />
-<rect x='226.09' y='18.47' width='310.49' height='69.14' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='231.57' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='241.96px' lengthAdjust='spacingAndGlyphs'>single stranded RNA negative sense</text>
-<rect x='231.57' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='232.28' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #BA0000;' />
-<rect x='340.94' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='341.64' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #AC6569;' />
-<rect x='430.40' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='431.11' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #AC6569;' />
-<rect x='231.57' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='232.28' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #AC6569;' />
-<rect x='340.94' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='341.64' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #FF7D48;' />
-<rect x='430.40' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='431.11' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #FF7D48;' />
-<text x='248.85' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='86.20px' lengthAdjust='spacingAndGlyphs'>Orthomyxoviridae</text>
-<text x='358.22' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='66.66px' lengthAdjust='spacingAndGlyphs'>Phenuiviridae</text>
-<text x='447.68' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='81.94px' lengthAdjust='spacingAndGlyphs'>Peribunyaviridae</text>
-<text x='248.85' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='72.76px' lengthAdjust='spacingAndGlyphs'>Phasmaviridae</text>
-<text x='358.22' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='63.58px' lengthAdjust='spacingAndGlyphs'>Xinmoviridae</text>
-<text x='447.68' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='70.94px' lengthAdjust='spacingAndGlyphs'>Rhabdoviridae</text>
-<rect x='661.18' y='18.47' width='364.43' height='69.14' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='666.66' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='238.07px' lengthAdjust='spacingAndGlyphs'>single stranded RNA positive sense</text>
-<rect x='666.66' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='667.36' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #0074C4;' />
-<rect x='744.90' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='745.60' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #57A2F7;' />
-<rect x='839.95' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='840.65' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #AFD1FF;' />
-<rect x='932.51' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='933.22' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #48A365;' />
-<rect x='666.66' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='667.36' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #48A365;' />
-<rect x='744.90' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='745.60' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #7AD593;' />
-<rect x='839.95' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='840.65' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #F8C41D;' />
-<rect x='932.51' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='933.22' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #F8C41D;' />
-<text x='683.94' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='55.63px' lengthAdjust='spacingAndGlyphs'>Flaviviridae</text>
-<text x='762.18' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='62.36px' lengthAdjust='spacingAndGlyphs'>Narnaviridae</text>
-<text x='857.23' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='58.08px' lengthAdjust='spacingAndGlyphs'>Virgaviridae</text>
-<text x='949.79' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='69.07px' lengthAdjust='spacingAndGlyphs'>Dicistroviridae</text>
-<text x='683.94' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='47.08px' lengthAdjust='spacingAndGlyphs'>Iflaviridae</text>
-<text x='762.18' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='72.14px' lengthAdjust='spacingAndGlyphs'>Tombusviridae</text>
-<text x='857.23' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='69.70px' lengthAdjust='spacingAndGlyphs'>Solemoviridae</text>
-<text x='949.79' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='59.93px' lengthAdjust='spacingAndGlyphs'>Luteoviridae</text>
-<rect x='1150.19' y='18.47' width='179.93' height='69.14' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='1155.67' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='143.12px' lengthAdjust='spacingAndGlyphs'>double stranded RNA</text>
-<rect x='1155.67' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='1156.38' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #965DAE;' />
-<rect x='1238.89' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='1239.60' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #9D6E96;' />
-<rect x='1155.67' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='1156.38' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #D8A5CE;' />
-<rect x='1238.89' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='1239.60' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #D8A5CE;' />
-<text x='1172.95' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='60.52px' lengthAdjust='spacingAndGlyphs'>Partitiviridae</text>
-<text x='1256.17' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='52.58px' lengthAdjust='spacingAndGlyphs'>Reoviridae</text>
-<text x='1172.95' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='50.74px' lengthAdjust='spacingAndGlyphs'>Totiviridae</text>
-<text x='1256.17' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='67.25px' lengthAdjust='spacingAndGlyphs'>Chrysoviridae</text>
-<rect x='1454.71' y='18.47' width='121.00' height='87.86' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='1460.19' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='73.93px' lengthAdjust='spacingAndGlyphs'>eukaryotes</text>
-<rect x='1460.19' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='1460.89' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #404040;' />
-<rect x='1460.19' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='1460.89' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #BFBFBF;' />
-<text x='1477.47' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='78.87px' lengthAdjust='spacingAndGlyphs'>Amblyosporidae</text>
-<text x='1477.47' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='91.10px' lengthAdjust='spacingAndGlyphs'>Trypanosomatidae</text>
+<rect x='213.59' y='18.47' width='410.53' height='69.14' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='219.07' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='241.96px' lengthAdjust='spacingAndGlyphs'>single stranded RNA negative sense</text>
+<rect x='219.07' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='219.78' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #BA0000;' />
+<rect x='328.43' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='329.14' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #AC6569;' />
+<rect x='422.26' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='422.97' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #AC6569;' />
+<rect x='527.28' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='527.99' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #AC6569;' />
+<rect x='219.07' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='219.78' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #FF7D48;' />
+<rect x='328.43' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='329.14' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #FF7D48;' />
+<rect x='422.26' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='422.97' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #FF7D48;' />
+<text x='236.35' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='86.20px' lengthAdjust='spacingAndGlyphs'>Orthomyxoviridae</text>
+<text x='345.71' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='66.66px' lengthAdjust='spacingAndGlyphs'>Phenuiviridae</text>
+<text x='439.54' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='81.94px' lengthAdjust='spacingAndGlyphs'>Peribunyaviridae</text>
+<text x='544.56' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='72.76px' lengthAdjust='spacingAndGlyphs'>Phasmaviridae</text>
+<text x='236.35' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='63.58px' lengthAdjust='spacingAndGlyphs'>Xinmoviridae</text>
+<text x='345.71' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='70.94px' lengthAdjust='spacingAndGlyphs'>Rhabdoviridae</text>
+<text x='439.54' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='52.58px' lengthAdjust='spacingAndGlyphs'>Chuviridae</text>
+<rect x='723.70' y='18.47' width='364.43' height='69.14' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='729.18' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='238.07px' lengthAdjust='spacingAndGlyphs'>single stranded RNA positive sense</text>
+<rect x='729.18' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='729.89' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #0074C4;' />
+<rect x='807.42' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='808.13' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #57A2F7;' />
+<rect x='902.47' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='903.18' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #AFD1FF;' />
+<rect x='995.04' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='995.75' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #48A365;' />
+<rect x='729.18' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='729.89' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #48A365;' />
+<rect x='807.42' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='808.13' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #7AD593;' />
+<rect x='902.47' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='903.18' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #F8C41D;' />
+<rect x='995.04' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='995.75' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #F8C41D;' />
+<text x='746.46' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='55.63px' lengthAdjust='spacingAndGlyphs'>Flaviviridae</text>
+<text x='824.70' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='62.36px' lengthAdjust='spacingAndGlyphs'>Narnaviridae</text>
+<text x='919.75' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='58.08px' lengthAdjust='spacingAndGlyphs'>Virgaviridae</text>
+<text x='1012.32' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='69.07px' lengthAdjust='spacingAndGlyphs'>Dicistroviridae</text>
+<text x='746.46' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='47.08px' lengthAdjust='spacingAndGlyphs'>Iflaviridae</text>
+<text x='824.70' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='72.14px' lengthAdjust='spacingAndGlyphs'>Tombusviridae</text>
+<text x='919.75' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='69.70px' lengthAdjust='spacingAndGlyphs'>Solemoviridae</text>
+<text x='1012.32' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='59.93px' lengthAdjust='spacingAndGlyphs'>Luteoviridae</text>
+<rect x='1187.70' y='18.47' width='179.93' height='69.14' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='1193.18' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='143.12px' lengthAdjust='spacingAndGlyphs'>double stranded RNA</text>
+<rect x='1193.18' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='1193.89' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #965DAE;' />
+<rect x='1276.40' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='1277.11' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #9D6E96;' />
+<rect x='1193.18' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='1193.89' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #D8A5CE;' />
+<rect x='1276.40' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='1277.11' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #D8A5CE;' />
+<text x='1210.46' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='60.52px' lengthAdjust='spacingAndGlyphs'>Partitiviridae</text>
+<text x='1293.68' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='52.58px' lengthAdjust='spacingAndGlyphs'>Reoviridae</text>
+<text x='1210.46' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='50.74px' lengthAdjust='spacingAndGlyphs'>Totiviridae</text>
+<text x='1293.68' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='67.25px' lengthAdjust='spacingAndGlyphs'>Chrysoviridae</text>
+<rect x='1467.21' y='18.47' width='121.00' height='87.86' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='1472.69' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='73.93px' lengthAdjust='spacingAndGlyphs'>eukaryotes</text>
+<rect x='1472.69' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='1473.40' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #404040;' />
+<rect x='1472.69' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='1473.40' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #BFBFBF;' />
+<text x='1489.97' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='78.87px' lengthAdjust='spacingAndGlyphs'>Amblyosporidae</text>
+<text x='1489.97' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='91.10px' lengthAdjust='spacingAndGlyphs'>Trypanosomatidae</text>
 <defs>
   <clipPath id='cpMC4wMHwxNjM4LjAwfDE3OC4yOXwxMjQuODA='>
     <rect x='0.00' y='124.80' width='1638.00' height='53.49' />
@@ -464,23 +467,23 @@
 <rect x='889.27' y='405.65' width='10.86' height='62.16' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #AC6569;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='889.27' y='343.94' width='10.86' height='61.72' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #0074C4;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='901.34' y='401.25' width='10.86' height='66.57' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #AC6569;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
-<rect x='901.34' y='378.52' width='10.86' height='22.72' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #7AD593;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
+<rect x='901.34' y='378.52' width='10.86' height='22.72' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #FF7D48;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='913.40' y='459.78' width='10.86' height='8.04' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #F8C41D;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='913.40' y='424.68' width='10.86' height='35.09' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #AC6569;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
-<rect x='913.40' y='397.78' width='10.86' height='26.90' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #7AD593;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
-<rect x='925.47' y='402.06' width='10.86' height='65.75' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #7AD593;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
+<rect x='913.40' y='397.78' width='10.86' height='26.90' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #FF7D48;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
+<rect x='925.47' y='402.06' width='10.86' height='65.75' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #FF7D48;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='937.54' y='400.52' width='10.86' height='67.29' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #57A2F7;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='937.54' y='352.58' width='10.86' height='47.94' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #0074C4;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='949.60' y='445.32' width='10.86' height='22.49' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #F8C41D;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='949.60' y='427.09' width='10.86' height='18.23' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #AC6569;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='949.60' y='423.50' width='10.86' height='3.59' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #57A2F7;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='949.60' y='393.03' width='10.86' height='30.47' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #0074C4;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
-<rect x='949.60' y='373.80' width='10.86' height='19.22' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #7AD593;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
+<rect x='949.60' y='373.80' width='10.86' height='19.22' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #FF7D48;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='961.67' y='425.21' width='10.86' height='42.61' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #AC6569;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='961.67' y='392.47' width='10.86' height='32.74' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #57A2F7;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='973.73' y='445.58' width='10.86' height='22.24' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #AC6569;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='973.73' y='434.90' width='10.86' height='10.68' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #57A2F7;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
-<rect x='973.73' y='417.54' width='10.86' height='17.36' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #7AD593;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
+<rect x='973.73' y='417.54' width='10.86' height='17.36' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #FF7D48;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='985.80' y='419.60' width='10.86' height='48.22' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #57A2F7;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='997.87' y='457.88' width='10.86' height='9.94' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #F8C41D;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />
 <rect x='997.87' y='443.58' width='10.86' height='14.30' style='stroke-width: 0.43; stroke: #FFFFFF; stroke-linecap: butt; fill: #AC6569;' clip-path='url(#cpNzkuMDB8MTYzOC4wMHw0NjcuODJ8MTc4LjI5)' />

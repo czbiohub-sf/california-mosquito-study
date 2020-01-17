@@ -94,7 +94,7 @@ subset_contigs <- curated_contigs %>%
   summarize(read_prop=sum(read_prop)) %>%
   group_by(family) %>%
   summarize(read_prop=max(read_prop)) %>% 
-  filter(read_prop>0.01) %>%
+  filter(read_prop>=0.01) %>%
   `[[`("family")
 
 curated_contigs %<>% 

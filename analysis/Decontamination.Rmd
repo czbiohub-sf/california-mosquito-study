@@ -74,6 +74,11 @@ Contigs whose LCAs were in the following taxon_groups were reassigned:
 contig_reads %>% filter(!is.na(submission_taxid)) %>% group_by(taxon_group) %>% count()
 ```
 
+```{r}
+contig_reads %>% filter(!is.na(submission_taxid)) %>% count()
+```
+
+
 ## Markov correction for background
 
 We compute the average concentration of each taxon in the water. Markov's inequality says that for any nonnegative random variable X, the probability that X is greater k is less than EX/k. Thus for any false-discovery rate r, the probability that X > EX/r is less than EX/(EX/r) = r. If we treat concentrations of contaminating taxa in each well as a random variable, we can estimate the mean from the water, and use that estimate to bound (using Markov's inequality), the amount of that taxon contained in another sample can be explained by contamination.
@@ -108,12 +113,16 @@ category = quo(poly_group)
 
 viral_df = decontam(sum_over(cluster_contig, category), category, 0.01)
 
-viral_contamination = viral_df %>% filter(!is_contam) %>% select(sample, poly_group, reads)
-viral_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_decontam.tsv'))
+viral_decontamination = viral_df %>% filter(!is_contam) %>% select(sample, poly_group, reads)
+viral_decontamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_decontam.tsv'))
 
-viral_decontamination = viral_df %>% filter(is_contam) %>% select(sample, poly_group, reads)
-viral_decontamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_contamination.tsv'))
+viral_contamination = viral_df %>% filter(is_contam) %>% select(sample, poly_group, reads)
+viral_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_contamination.tsv'))
 
+```
+
+```{r}
+viral_df %>% group_by(is_contam) %>% summarize(reads = sum(reads))
 ```
 
 Estimate contaminant taxa for all taxa.
@@ -125,13 +134,18 @@ sample_taxid_reads = sum_over(contig_reads, category) %>% mutate(sample_taxid = 
 
 bad_pairs = decontam(sample_taxid_reads, category, 0.01) %>% filter(is_contam) %>% pull(sample_taxid)
 
-contig_reads_no_polygroup = sum_over(contig_reads %>% filter(is.na(submission_taxid)), category) %>% mutate(sample_taxid = str_c(sample, "|", taxid))
+contig_reads_no_polygroup = sum_over(contig_reads %>% filter(is.na(submission_taxid)), category) %>% 
+  mutate(sample_taxid = str_c(sample, "|", taxid), is_contam=sample_taxid %in% bad_pairs)
 
-lca_contamination = contig_reads_no_polygroup %>% filter(sample_taxid %in% bad_pairs) %>% select(sample, taxid, reads)
-lca_decontamination = contig_reads_no_polygroup %>% filter(!(sample_taxid %in% bad_pairs)) %>% select(sample, taxid, reads)
+lca_contamination = contig_reads_no_polygroup %>% filter(is_contam) %>% select(sample, taxid, reads)
+lca_decontamination = contig_reads_no_polygroup %>% filter(!is_contam) %>% select(sample, taxid, reads)
 
 lca_decontamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/lca_decontam.tsv'))
 lca_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/lca_contamination.tsv'))
+```
+
+```{r}
+contig_reads_no_polygroup %>% group_by(is_contam) %>% summarize(reads = sum(reads))
 ```
 
 

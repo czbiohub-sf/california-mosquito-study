@@ -65,7 +65,13 @@ cluster_contig = cluster_contig %>% left_join(all_contig_reads, on='key')
 Reassign taxids for curated viral contigs.
 
 ```{r}
-contig_reads = contig_reads %>% left_join(cluster_contig %>% select(key, submission_taxid)) %>% mutate(taxid = ifelse(is.na(submission_taxid), taxid, submission_taxid))
+contig_reads = contig_reads %>% full_join(cluster_contig %>% select(key, submission_taxid, sample, read_count)) %>% mutate(taxid = ifelse(is.na(submission_taxid), taxid, submission_taxid))
+```
+
+Contigs whose LCAs were in the following taxon_groups were reassigned:
+
+```{r}
+contig_reads %>% filter(!is.na(submission_taxid)) %>% group_by(taxon_group) %>% count()
 ```
 
 ## Markov correction for background

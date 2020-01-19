@@ -614,27 +614,6 @@
     "submission_taxid": 390844,
     "taxid": 390844
   },
-  "12259": {
-    "family": "Totiviridae",
-    "name": "TBD",
-    "partial": true,
-    "provisional_name": "12259|Toti-like",
-    "samples": [
-      "CMS001_009_Ra_S13"
-    ],
-    "segments": {
-      "genome": {
-        "clusters": [
-          12259
-        ],
-        "contigs": [
-          "CMS001_009_Ra_S13|NODE_835_length_1125_cov_1.704198"
-        ]
-      }
-    },
-    "submission_taxid": 39756,
-    "taxid": 39756
-  },
   "1249": {
     "family": "Narnaviridae",
     "name": "TBD",
@@ -657,8 +636,7 @@
   },
   "128": {
     "family": "Tombusviridae",
-    "name": "TBD",
-    "provisional_name": "128|Tombus-like",
+    "name": "Hubei mosquito virus 4",
     "samples": [
       "CMS001_001_Ra_S1",
       "CMS001_015_Ra_S13",
@@ -701,7 +679,7 @@
         ]
       }
     },
-    "submission_taxid": 137555,
+    "submission_taxid": 1922928,
     "taxid": 137555
   },
   "13": {
@@ -1681,7 +1659,7 @@
   },
   "44": {
     "family": "Peribunyaviridae",
-    "name": "Culex bunya-like virus",
+    "name": "Culex bunyavirus 2",
     "samples": [
       "CMS001_002_Ra_S1",
       "CMS001_028_Ra_S17",
@@ -1794,11 +1772,11 @@
         ]
       }
     },
-    "submission_taxid": 2304497,
+    "submission_taxid": 2304499,
     "taxid": 39718
   },
   "45": {
-    "family": "Nodaviridae",
+    "family": "Chuviridae",
     "name": "Culex mosquito virus 4",
     "samples": [
       "CMS001_044_Ra_S25",
@@ -1835,12 +1813,11 @@
       }
     },
     "submission_taxid": 2304484,
-    "taxid": 2304484
+    "taxid": 2600344
   },
   "458": {
     "family": "Solemoviridae",
-    "name": "TBD",
-    "provisional_name": "Kellev virus",
+    "name": "Marma virus",
     "samples": [
       "CMS001_002_Ra_S1",
       "CMS001_015_Ra_S13",
@@ -1986,11 +1963,11 @@
         ]
       }
     },
-    "submission_taxid": 502177,
-    "taxid": 502177
+    "submission_taxid": 2651926,
+    "taxid": 2651926
   },
   "484": {
-    "family": "Nodaviridae",
+    "family": "Solemoviridae",
     "name": "Culex mosquito virus 6",
     "samples": [
       "CMS001_006_Ra_S5",
@@ -2056,7 +2033,7 @@
       }
     },
     "submission_taxid": 2304486,
-    "taxid": 2304486
+    "taxid": 2600328
   },
   "49": {
     "family": "Totiviridae",
@@ -2343,11 +2320,9 @@
     "segments": {
       "genome": {
         "clusters": [
-          5308
+          5308,12259
         ],
-        "contigs": [
-          "CMS001_009_Ra_S13|NODE_344_length_1503_cov_2.269285"
-        ]
+        "contigs": []
       }
     },
     "submission_taxid": 39756,
@@ -2356,7 +2331,7 @@
   "531": {
     "family": "Solemoviridae",
     "name": "TBD",
-    "provisional_name": "Goras virus",
+    "provisional_name": "Kellev virus",
     "samples": [
       "CMS002_020a_Rb_S131_L004",
       "CMS002_020b_Rb_S132_L004"
@@ -2954,8 +2929,7 @@
   },
   "78": {
     "family": "Totiviridae",
-    "name": "TBD",
-    "provisional_name": "78|Toti-like",
+    "name": "Totivirus-like Culex mosquito virus 1",
     "samples": [
       "CMS001_038_Ra_S22"
     ],
@@ -2969,8 +2943,8 @@
         ]
       }
     },
-    "submission_taxid": 39756,
-    "taxid": 39756
+    "submission_taxid": 2304495,
+    "taxid": 2304495
   },
   "8": {
     "family": "Rhabdoviridae",

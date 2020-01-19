@@ -14,7 +14,7 @@ Run this notebook after running the generate_figures.ipynb jupyter notebook.
 
 ```{r setup, include=FALSE}
 # List of packages to load
-pkgs <- c("dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "knitr", "scales", "gtable", "rgdal", "broom")
+pkgs <- c("dplyr", "tidyr", "readr", "magrittr", "ggplot2", "grid", "gridExtra", "stringr", "knitr", "scales", "gtable", "rgdal", "broom", "svglite")
 # Install any packages not yet installed
 if (any(!(pkgs %in% rownames(installed.packages())))) {
   invisible(sapply(pkgs[!(pkgs %in% rownames(installed.packages()))], install.packages))
@@ -94,16 +94,27 @@ subset_contigs <- curated_contigs %>%
   summarize(read_prop=sum(read_prop)) %>%
   group_by(family) %>%
   summarize(read_prop=max(read_prop)) %>% 
-  filter(read_prop>0.01) %>%
+  filter(read_prop>=0.01) %>%
   `[[`("family")
 
 curated_contigs %<>% 
   filter(., family %in% subset_contigs) %>%
-  mutate(ska_species=apply(., 1, function (x) ifelse(x["ska_genus"]=="Culiseta", "", x["ska_species"]))) %>% 
+  mutate(ska_species=apply(., 1, function (x) ifelse(x["ska_genus"]=="Culiseta", "", x["ska_species"])))
+
+curated_contigs %<>%
+  group_by(sample) %>%
+  summarize(read_prop=sum(read_prop)) %>%
+  filter(read_prop>=0.01) %>%
+  with(curated_contigs$sample %in% sample) %>%
+  filter(curated_contigs, .)
+
+curated_contigs %<>%
   arrange(ska_genus, ska_species, collected_by, desc(read_prop_virus)) %>%
   mutate(sample=factor(sample, levels=as.character(sample) %>% unique())) %>%
   mutate(sample_id=as.numeric(sample))
-  
+
+
+
 ```
 
 
@@ -138,7 +149,7 @@ base_plot <-
   facet_grid(group~., switch="both") +
   scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
   scale_fill_manual("", breaks=names(color_palette), values=color_palette, labels=names(color_palette)) +
-  ylab("% nonhost reads") +
+  ylab("% non-host reads") +
   xlab("sample ID") +
   theme(legend.position="none",
         strip.background.y=element_blank(),
@@ -173,7 +184,7 @@ species_label_grob <- ggplot(species_label_df) +
   geom_text(aes(x=(xmax+xmin)/2, y=0.5, label=species_label), fontface="italic", size=4.5) +
   scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
   scale_x_continuous(expand = c(0,0)) +
-  ylab("% nonhost reads") +
+  ylab("% non-host reads") +
   theme(axis.line.y=element_line(size=.2, color="white"),
         axis.text.y=element_text(size=18, color="white"),
         axis.ticks.y=element_line(color="white"),
@@ -198,7 +209,7 @@ location_label_grob <- ggplot(location_label_df) +
   geom_rect(aes(xmin=xmin, xmax=xmax, fill=collected_by, ymin=0, ymax=1)) +
   scale_y_continuous(labels=scales::percent, breaks=c(0.5), minor_breaks=c(0.25, 0.75), limits=c(0, 1), expand=c(0, 0)) +
   scale_x_continuous(expand = c(0,0)) +
-  ylab("% nonhost reads") +
+  ylab("% non-host reads") +
   scale_fill_manual("", breaks=names(color_palette), values=color_palette, labels=names(color_palette)) +
   theme(axis.line.y=element_line(size=.2, color="white"),
         axis.text.y=element_text(size=18, color="white"),
@@ -293,7 +304,10 @@ legends_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), arrangeGrob(do.call(
 collection_site_grob <- arrangeGrob(rectGrob(gp=gpar(col="white")), ca_map_plot, ncol=1, heights=c(1.75, 1))
 main_plot_grob <- arrangeGrob(legends_grob, species_label_grob, plot_grob, location_label_grob, ncol=1, heights=c(7, 3, 30, 2))
 full_plot <- arrangeGrob(main_plot_grob, collection_site_grob, nrow=1, widths=c(7, 1))
-ggsave(file.path(fig_dir, "fig3.pdf"), full_plot, width=unit(20, "in"), height=unit(8, "in"))
+lapply(c("pdf", "svg"), function (suffix) {
+  ggsave(file.path(fig_dir, paste0("fig3.", suffix)), full_plot, width=ifelse(suffix=="pdf", 20, 20*1.3), height=ifelse(suffix=="pdf", 8, 8*1.3), units="in")
+})
+
 ```
 
 ```{r save-data}
@@ -395,15 +409,19 @@ select_virus_prev_abund_plot <-
   geom_hline(aes(yintercept=bulk_abundance), color="darkmagenta") +
   facet_grid(.~sci_name, scales="free_x", space="free") +
   scale_y_continuous(labels=scales::percent) +
-  xlab("Sample") + ylab("% nonhost reads") +
+  xlab("Sample") + ylab("% non-host reads") +
   #ggtitle("B)") +
   theme(axis.text.x=element_blank(), axis.title.x=element_blank())
 ```
 
 ```{r prev_abundance_combined_plot}
 if (!(dir.exists(file.path(fig_dir, "../figS4")))) dir.create(file.path(fig_dir, "../figS4"))
-ggsave(file.path(fig_dir, "../figS4/virus_prev_abundance.pdf"), select_virus_prev_abund_plot,
-       width=unit(6, "in"), height=unit(3, "in"))
+lapply(c("pdf", "svg"), function (suffix) {
+  ggsave(file.path(fig_dir, paste0("../figS4/virus_prev_abundance.", suffix)),
+         select_virus_prev_abund_plot,
+         width=ifelse(suffix=="pdf", 6, 6*1.3), height=ifelse(suffix=="pdf", 3, 3*1.3), units="in")
+})
+
 ```
 
 

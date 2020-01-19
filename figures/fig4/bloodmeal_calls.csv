@@ -1,0 +1,47 @@
+Sample,Bloodmeal Category,Bloodmeal Call,Habitat,Lat,Long,Genus,Species
+CMS001_001_Ra_S1,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_003_Ra_S2,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culiseta,particeps
+CMS001_004_Ra_S2,Carnivora,Caniformia, Industrial (waste water treatment plant),37.7152,-122.19431000000002,Culex,pipiens
+CMS001_008_Ra_S3,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culiseta,particeps
+CMS001_009_Ra_S13,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culiseta,particeps
+CMS001_010_Ra_S1,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_011_Ra_S4,Rodentia,Muroidea,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_012_Ra_S4,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Aedes,dorsalis
+CMS001_013_Ra_S5,Leporidae,Oryctolagus cuniculus,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_015_Ra_S13,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_016_Ra_S6,Pecora,Pecora,Marsh,37.58191,-122.04846,Culiseta,inornata
+CMS001_018_Ra_S14,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_019_Ra_S14,Carnivora,Carnivora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_020_Ra_S15,Leporidae,Leporidae,Marsh,37.58191,-122.04846,Culex,erythrothorax
+CMS001_022_Ra_S6,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_023_Ra_S17,Aves,Anas platyrhynchos,Marsh,37.58191,-122.04838000000001,Culex,erythrothorax
+CMS001_025_Ra_S7,Pecora,Odocoileus hemionus hemionus,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culiseta,particeps
+CMS001_027_Ra_S16,Aves,Passeriformes,Park / Undeveloped,37.8665,-122.31051000000001,Culex,tarsalis
+CMS001_028_Ra_S17,Carnivora,Caniformia, Industrial (waste water treatment plant),37.7152,-122.19431000000002,Culex,tarsalis
+CMS001_029_Ra_S18,Aves,Passeriformes,Park / adjacent to  Industrial (waste water treatment plant),37.68473,-121.91341000000001,Culex,pipiens
+CMS001_030_Ra_S7,Carnivora,Caniformia, Industrial (waste water treatment plant),37.7152,-122.19431000000002,Culex,pipiens
+CMS001_031_Ra_S19,Carnivora,Procyon lotor,Park,37.8063,-122.2573,Culex,tarsalis
+CMS001_032_Ra_S7,Aves,Neognathae,Golf Course,37.66126,-122.13335,Culex,tarsalis
+CMS001_033_Ra_S8,Aves,Gallus gallus,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,tarsalis
+CMS001_035_Ra_S20,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_036_Ra_S20,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,tarsalis
+CMS001_037_Ra_S21,Aves,Porzana carolina,,,,Culex,erythrothorax
+CMS001_038_Ra_S22,Pecora,Pecora,Marsh,37.583909999999996,-122.09238,Culex,tarsalis
+CMS001_040_Ra_S21,Aves,Haemorhous mexicanus,Undeveloped,37.49949,-121.93378,Culex,pipiens
+CMS001_041_Ra_S10,Rodentia,Sciurini,Undeveloped,37.49949,-121.93378,Culex,pipiens
+CMS001_042_Ra_S23,Carnivora,Felis catus,Golf Course,37.66126,-122.13335,Culex,tarsalis
+CMS001_043_Ra_S24,Aves,Passeriformes,Golf Course,37.66126,-122.13335,Culex,tarsalis
+CMS001_045_Ra_S2,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_046_Ra_S3,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,tarsalis
+CMS001_047_Ra_S4,Aves,Passeriformes,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_048_Ra_S5,Rodentia,Rattus norvegicus,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_049_Ra_S6,Rodentia,Rattus norvegicus,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_050_Ra_S23,Aves,Neognathae,Marsh,37.50608,-121.99857,Culex,erythrothorax
+CMS001_052_Ra_S7,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_053_Ra_S8,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_054_Ra_S11,Aves,Zonotrichia leucophrys,Marsh / Wildlife Refuge / Park,37.630829999999996,-122.14267,Culex,pipiens
+CMS001_057_Ra_S11,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culex,erythrothorax
+CMS001_058_Ra_S9,Rodentia,Microtus ochrogaster,,,,Culex,erythrothorax
+CMS001_059_Ra_S10,Aves,Passeriformes, Industrial (waste water treatment plant),37.6683,-122.15915,Culex,pipiens
+CMS001_060_Ra_S12,Pecora,Pecora,Marsh / Wildlife Refuge / Park,37.55697,-122.07938,Culiseta,inornata
+CMS002_025c_Rb_S142_L004,Rodentia,Mus musculus,Residential,33.954615000000004,-117.693828,Aedes,aegypti

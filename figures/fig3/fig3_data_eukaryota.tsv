@@ -1,48 +1,49 @@
 sample	mosquito_species	collected_by	sci_name	taxid	taxonomic_group	read_prop	nonhost_reads
-CMS002_017c	Aedes aegypti	West Valley	Ascogregarina culicis	247478	Apicomplexa	7.571885588808753e-5	162094
-CMS002_017c	Aedes aegypti	West Valley	Ascogregarina taiwanensis	158379	Apicomplexa	1.766773304055376e-4	162094
-CMS002_017b	Aedes aegypti	West Valley	Ascogregarina culicis	247478	Apicomplexa	2.21403933998322e-4	172502
-CMS002_017b	Aedes aegypti	West Valley	Ascogregarina taiwanensis	158379	Apicomplexa	0.0012235480563065164	172502
-CMS002_017a	Aedes aegypti	West Valley	Ascogregarina culicis	247478	Apicomplexa	5.945813816750018e-5	151912
-CMS002_017a	Aedes aegypti	West Valley	Ascogregarina taiwanensis	158379	Apicomplexa	7.597428765847245e-4	151912
-CMS002_017a	Aedes aegypti	West Valley	Ascogregarina	158378	Apicomplexa	4.624521857472236e-5	151912
-CMS001_001	Culex erythrothorax	Coachella Valley	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.04150553696653503	687714
-CMS001_047	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	0.3083607636603028	104044
-CMS001_047	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	1.3166556945358788e-4	104044
-CMS001_049	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	0.03218546027458924	67518
-CMS001_049	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	0.028857593003440405	67518
-CMS001_037	Culex erythrothorax	Coachella Valley	Eimeria	5800	Apicomplexa	5.475071997196763e-5	112490
-CMS001_011	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	0.09347216887864693	169722
-CMS001_058	Culex erythrothorax	Coachella Valley	Theileria youngi	119759	Apicomplexa	4.131633854607805e-5	116416
-CMS001_058	Culex erythrothorax	Coachella Valley	Theileria sp.	27992	Apicomplexa	6.197450781911707e-5	116416
-CMS001_018	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	0.015283655740794681	65880
-CMS001_018	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	0.14245326662440247	65880
-CMS001_035	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	0.43432057978432587	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Trypanosoma culicavium	1052859	Trypanosomatidae	0.004760769168130475	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Trypanosoma with unspecified subgenus	669453	Trypanosomatidae	0.002274234263578516	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Eimeriorina	423054	Apicomplexa	1.163291183416121e-5	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Leptomonas pyrrhocoris	157538	Trypanosomatidae	0.0012447215662552494	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Eimeriidae	5799	Apicomplexa	5.234810325372544e-5	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Trypanosoma	5690	Trypanosomatidae	0.023969614834289173	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	0.17482230727173317	373770
-CMS001_022	Culex erythrothorax	Coachella Valley	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.02103354954005181	177872
-CMS001_022	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	0.3754732870063834	177872
-CMS001_007	Culex erythrothorax	Coachella Valley	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.12378411877239781	55328
-CMS002_047j	Culex erythrothorax	Placer	Amblyospora	33687	Amblyosporidae	0.0019589039973116297	149082
-CMS001_029	Culex pipiens	Coachella Valley	Trypanosoma bennetti	71803	Trypanosomatidae	2.639650057820906e-4	89566
-CMS001_029	Culex pipiens	Coachella Valley	Trypanosoma	5690	Trypanosomatidae	3.5195334104278744e-4	89566
-CMS001_029	Culex pipiens	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	4.022323897631857e-4	89566
-CMS001_059	Culex pipiens	Coachella Valley	Trypanosoma	5690	Trypanosomatidae	0.017148210348333734	99862
-CMS001_040	Culex pipiens	Coachella Valley	Plasmodium	5820	Apicomplexa	0.0034628286981928354	70502
-CMS002_004a	Culex quinquefasciatus	West Valley	Plasmodium sp. type B	1350013	Apicomplexa	6.139991813344249e-4	13812
-CMS002_004a	Culex quinquefasciatus	West Valley	Plasmodium relictum	85471	Apicomplexa	0.0018419975440032747	13812
-CMS002_004a	Culex quinquefasciatus	West Valley	Plasmodium	5820	Apicomplexa	0.08943921408104788	13812
-CMS001_046	Culex tarsalis	Coachella Valley	Paratrypanosoma confusum	1470209	Trypanosomatidae	1.0523352634915958e-5	384232
-CMS001_032	Culex tarsalis	Coachella Valley	Trypanosoma	5690	Trypanosomatidae	4.953764861294584e-4	93508
-CMS001_032	Culex tarsalis	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	2.6674118483893916e-4	93508
-CMS001_038	Culex tarsalis	Coachella Valley	Amblyospora	33687	Amblyosporidae	0.00612513911801154	132206
-CMS001_043	Culex tarsalis	Coachella Valley	Amblyospora californica	51588	Amblyosporidae	1.7085741948344107e-4	84360
-CMS001_043	Culex tarsalis	Coachella Valley	Amblyospora	33687	Amblyosporidae	8.542870974172054e-5	84360
-CMS001_036	Culex tarsalis	Coachella Valley	Amblyospora	33687	Amblyosporidae	0.0013344332298136645	275388
-CMS001_027	Culex tarsalis	Coachella Valley	Plasmodium	5820	Apicomplexa	7.287169116977282e-5	80376
-CMS002_029d	Culex tarsalis	Placer	Amblyospora	33687	Amblyosporidae	0.023908569253159588	300516
+CMS002_017c	Aedes aegypti	West Valley	Ascogregarina culicis	247478	Apicomplexa	8.89659927492716e-5	162094
+CMS002_017c	Aedes aegypti	West Valley	Ascogregarina taiwanensis	158379	Apicomplexa	2.0758731641496705e-4	162094
+CMS002_017b	Aedes aegypti	West Valley	Ascogregarina culicis	247478	Apicomplexa	2.640319061713984e-4	172502
+CMS002_017b	Aedes aegypti	West Valley	Ascogregarina taiwanensis	158379	Apicomplexa	0.0014591236919998334	172502
+CMS002_017a	Aedes aegypti	West Valley	Ascogregarina culicis	247478	Apicomplexa	7.16851587826267e-5	151912
+CMS002_017a	Aedes aegypti	West Valley	Ascogregarina taiwanensis	158379	Apicomplexa	9.159770288891191e-4	151912
+CMS002_017a	Aedes aegypti	West Valley	Ascogregarina	158378	Apicomplexa	5.5755123497598545e-5	151912
+CMS002_053a	Culex erythrothorax	Alameda	Amblyospora	33687	Amblyosporidae	1.2631470915051385e-4	1233696
+CMS001_001	Culex erythrothorax	Coachella Valley	Paratrypanosoma confusum	1470209	Trypanosomatidae	6.563820222931204e-5	687714
+CMS001_047	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	4.211767678894832e-5	104044
+CMS001_047	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	4.211767678894832e-5	104044
+CMS001_049	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	0.04937283922397783	67518
+CMS001_049	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	0.04528700820023429	67518
+CMS001_037	Culex erythrothorax	Coachella Valley	Eimeria	5800	Apicomplexa	1.4844283466437075e-4	112490
+CMS001_011	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	3.681839938145089e-5	169722
+CMS001_058	Culex erythrothorax	Coachella Valley	Theileria youngi	119759	Apicomplexa	2.115730455939913e-4	116416
+CMS001_058	Culex erythrothorax	Coachella Valley	Theileria sp.	27992	Apicomplexa	3.1735956839098697e-4	116416
+CMS001_018	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	0.03419470684674838	65880
+CMS001_018	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	0.28499492544304783	65880
+CMS001_035	Culex erythrothorax	Coachella Valley	Leishmaniinae	1286322	Trypanosomatidae	0.12715248632837342	373770
+CMS001_035	Culex erythrothorax	Coachella Valley	Trypanosoma culicavium	1052859	Trypanosomatidae	0.005948293090605185	373770
+CMS001_035	Culex erythrothorax	Coachella Valley	Trypanosoma with unspecified subgenus	669453	Trypanosomatidae	0.002841518141022147	373770
+CMS001_035	Culex erythrothorax	Coachella Valley	Eimeriorina	423054	Apicomplexa	1.4534619647172108e-5	373770
+CMS001_035	Culex erythrothorax	Coachella Valley	Leptomonas pyrrhocoris	157538	Trypanosomatidae	1.8168274558965135e-5	373770
+CMS001_035	Culex erythrothorax	Coachella Valley	Eimeriidae	5799	Apicomplexa	2.1801929470758162e-5	373770
+CMS001_035	Culex erythrothorax	Coachella Valley	Trypanosoma	5690	Trypanosomatidae	0.029425337475699934	373770
+CMS001_035	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	0.10315582929089223	373770
+CMS001_022	Culex erythrothorax	Coachella Valley	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.029305866547245856	177872
+CMS001_022	Culex erythrothorax	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	0.5137931034482759	177872
+CMS001_007	Culex erythrothorax	Coachella Valley	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.4617085427135678	55328
+CMS002_047j	Culex erythrothorax	Placer	Amblyospora	33687	Amblyosporidae	0.003923049144808116	149082
+CMS001_029	Culex pipiens	Coachella Valley	Trypanosoma bennetti	71803	Trypanosomatidae	2.9219423959927647e-4	89566
+CMS001_029	Culex pipiens	Coachella Valley	Trypanosoma	5690	Trypanosomatidae	3.8959231946570196e-4	89566
+CMS001_029	Culex pipiens	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	4.4524836510365936e-4	89566
+CMS001_059	Culex pipiens	Coachella Valley	Trypanosoma	5690	Trypanosomatidae	0.01860251834225659	99862
+CMS001_040	Culex pipiens	Coachella Valley	Plasmodium	5820	Apicomplexa	0.004185407296351824	70502
+CMS002_004a	Culex quinquefasciatus	West Valley	Plasmodium sp. type B	1350013	Apicomplexa	0.001007725898555593	13812
+CMS002_004a	Culex quinquefasciatus	West Valley	Plasmodium relictum	85471	Apicomplexa	0.0030231776956667787	13812
+CMS002_004a	Culex quinquefasciatus	West Valley	Plasmodium	5820	Apicomplexa	0.06029559959690964	13812
+CMS001_046	Culex tarsalis	Coachella Valley	Paratrypanosoma confusum	1470209	Trypanosomatidae	1.1106915165381966e-5	384232
+CMS001_032	Culex tarsalis	Coachella Valley	Trypanosoma	5690	Trypanosomatidae	7.153469432674847e-4	93508
+CMS001_032	Culex tarsalis	Coachella Valley	Trypanosomatidae	5654	Trypanosomatidae	1.834222931455089e-4	93508
+CMS001_038	Culex tarsalis	Coachella Valley	Amblyospora	33687	Amblyosporidae	0.009434076955808158	132206
+CMS001_043	Culex tarsalis	Coachella Valley	Amblyospora californica	51588	Amblyosporidae	4.8661800486618007e-4	84360
+CMS001_043	Culex tarsalis	Coachella Valley	Amblyospora	33687	Amblyosporidae	2.4330900243309004e-4	84360
+CMS001_036	Culex tarsalis	Coachella Valley	Amblyospora	33687	Amblyosporidae	0.005525879535826119	275388
+CMS001_027	Culex tarsalis	Coachella Valley	Plasmodium	5820	Apicomplexa	1.8078278947844165e-4	80376
+CMS002_029d	Culex tarsalis	Placer	Amblyospora	33687	Amblyosporidae	0.028594256147140035	300516

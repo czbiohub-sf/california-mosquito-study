@@ -314,7 +314,7 @@ lapply(c("pdf", "svg"), function (suffix) {
 base_plot$data %>%
   filter(group=="Virus") %>%
   mutate(mosquito_species=paste(ska_genus, ska_species)) %>%
-  mutate(collected_by=collected_by_dict[collected_by]) %>%
+  mutate(collected_by=collected_by_dict[as.character(collected_by)]) %>%
   mutate(sample=paste0("CMS00", sample_short)) %>%
   select(sample, mosquito_species, collected_by, sci_name, taxid, family, baltimore_group, genome_description, read_prop, nonhost_reads) %>%
   write_tsv(file.path(fig_dir, "fig3_data_viruses.tsv"))
@@ -322,7 +322,7 @@ base_plot$data %>%
 base_plot$data %>%
   filter(group=="Wolbachia") %>%
   mutate(mosquito_species=paste(ska_genus, ska_species)) %>%
-  mutate(collected_by=collected_by_dict[collected_by]) %>%
+  mutate(collected_by=collected_by_dict[as.character(collected_by)]) %>%
   mutate(sample=paste0("CMS00", sample_short)) %>%
   select(sample, mosquito_species, collected_by, read_prop, nonhost_reads) %>%
   write_tsv(file.path(fig_dir, "fig3_data_wolbachia.tsv"))
@@ -330,7 +330,7 @@ base_plot$data %>%
 base_plot$data %>%
     filter(group=="Other Eukaryotes") %>%
     mutate(mosquito_species=paste(ska_genus, ska_species)) %>%
-    mutate(collected_by=collected_by_dict[collected_by]) %>%
+    mutate(collected_by=collected_by_dict[as.character(collected_by)]) %>%
     mutate(sample=paste0("CMS00", sample_short)) %>%
     mutate(taxonomic_group=family) %>%
     select(sample, mosquito_species, collected_by, sci_name, taxid, taxonomic_group, read_prop, nonhost_reads) %>%

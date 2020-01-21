@@ -79,13 +79,13 @@
 <rect x='1467.21' y='18.47' width='121.00' height='87.86' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
 <text x='1472.69' y='35.23' style='font-size: 14.00px; font-weight: bold; font-family: Arial;' textLength='73.93px' lengthAdjust='spacingAndGlyphs'>eukaryotes</text>
 <rect x='1472.69' y='50.45' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='1473.40' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #404040;' />
+<rect x='1473.40' y='51.16' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #7F7F7F;' />
 <rect x='1472.69' y='69.17' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='1473.40' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #7F7F7F;' />
+<rect x='1473.40' y='69.88' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #404040;' />
 <rect x='1472.69' y='87.89' width='12.96' height='12.96' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
 <rect x='1473.40' y='88.60' width='11.54' height='11.54' style='stroke-width: 1.07; stroke: none; stroke-linejoin: miter; fill: #BFBFBF;' />
-<text x='1489.97' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='78.87px' lengthAdjust='spacingAndGlyphs'>Amblyosporidae</text>
-<text x='1489.97' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='62.98px' lengthAdjust='spacingAndGlyphs'>Apicomplexa</text>
+<text x='1489.97' y='60.87' style='font-size: 11.20px; font-family: Arial;' textLength='62.98px' lengthAdjust='spacingAndGlyphs'>Apicomplexa</text>
+<text x='1489.97' y='79.59' style='font-size: 11.20px; font-family: Arial;' textLength='65.41px' lengthAdjust='spacingAndGlyphs'>Microsporidia</text>
 <text x='1489.97' y='98.31' style='font-size: 11.20px; font-family: Arial;' textLength='91.10px' lengthAdjust='spacingAndGlyphs'>Trypanosomatidae</text>
 <defs>
   <clipPath id='cpMC4wMHwxNjM4LjAwfDE3OC4yOXwxMjQuODA='>

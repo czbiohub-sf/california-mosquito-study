@@ -1004,7 +1004,7 @@ V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L0
 	WVAL 	Other eukaryotes		Other Eukaryotes			3.102763528048982e-05	3.0	CMS002_029b_Rb_S160_L004	Wickerhamiella sp.	Culex	tarsalis	1869267.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			6.103474233166279e-05	9.0	CMS002_029e_Rb_S164_L004	Cenchrinae	Culex	tarsalis	1293361.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			6.205527056097964e-05	6.0	CMS002_029b_Rb_S160_L004	Sordariomycetidae	Culex	tarsalis	222544.0
-	WVAL 	Amblyosporidae		Other Eukaryotes			0.028594256147140035	5261.0	CMS002_029d_Rb_S162_L004	Amblyospora	Culex	tarsalis	33687.0
+	WVAL 	Microsporidia		Other Eukaryotes			0.028594256147140035	5261.0	CMS002_029d_Rb_S162_L004	Amblyospora	Culex	tarsalis	33687.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			7.239781565447626e-05	7.0	CMS002_029b_Rb_S160_L004	Melampsora	Culex	tarsalis	5260.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			3.932146873550021e-05	5.0	CMS002_029a_Rb_S159_L004	Melampsora	Culex	tarsalis	5260.0
 	PLCR	Other eukaryotes		Other Eukaryotes			1.3990759103612065e-05	4.0	CMS002_056a_Rb_S9_L004	Albugo laibachii Nc14	Culex	tarsalis	890382.0
@@ -1031,12 +1031,12 @@ V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L0
 	ALCO	Other eukaryotes		Other Eukaryotes			7.336891725820356e-05	4.0	CMS001_032_Ra_S7	Selaginella moellendorffii	Culex	tarsalis	88036.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.001724519124474906	78.0	CMS001_028_Ra_S17	Hanseniaspora guilliermondii	Culex	tarsalis	56406.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.00035374751271280126	16.0	CMS001_028_Ra_S17	Hanseniaspora valbyensis	Culex	tarsalis	53685.0
-	ALCO	Amblyosporidae		Other Eukaryotes			0.00048661800486618007	12.0	CMS001_043_Ra_S24	Amblyospora californica	Culex	tarsalis	51588.0
+	ALCO	Microsporidia		Other Eukaryotes			0.00048661800486618007	12.0	CMS001_043_Ra_S24	Amblyospora californica	Culex	tarsalis	51588.0
 	ALCO	Other eukaryotes		Other Eukaryotes			3.4941821866592126e-05	3.0	CMS001_033_Ra_S8	Peniophora nuda	Culex	tarsalis	40464.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.0001841959845275373	11.0	CMS001_036_Ra_S20	Xylariaceae	Culex	tarsalis	37990.0
-	ALCO	Amblyosporidae		Other Eukaryotes			0.009434076955808158	776.0	CMS001_038_Ra_S22	Amblyospora	Culex	tarsalis	33687.0
-	ALCO	Amblyosporidae		Other Eukaryotes			0.005525879535826119	330.0	CMS001_036_Ra_S20	Amblyospora	Culex	tarsalis	33687.0
-	ALCO	Amblyosporidae		Other Eukaryotes			0.00024330900243309004	6.0	CMS001_043_Ra_S24	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Microsporidia		Other Eukaryotes			0.009434076955808158	776.0	CMS001_038_Ra_S22	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Microsporidia		Other Eukaryotes			0.005525879535826119	330.0	CMS001_036_Ra_S20	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Microsporidia		Other Eukaryotes			0.00024330900243309004	6.0	CMS001_043_Ra_S24	Amblyospora	Culex	tarsalis	33687.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.00013265531726730045	6.0	CMS001_028_Ra_S17	Hanseniaspora uvarum	Culex	tarsalis	29833.0
 	ALCO	Apicomplexa		Other Eukaryotes			0.00018078278947844165	4.0	CMS001_027_Ra_S16	Plasmodium	Culex	tarsalis	5820.0
 	ALCO	Trypanosomatidae		Other Eukaryotes			0.0007153469432674847	39.0	CMS001_032_Ra_S7	Trypanosoma	Culex	tarsalis	5690.0
@@ -1114,7 +1114,7 @@ V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L0
 	WVAL 	Other eukaryotes		Other Eukaryotes			0.0003962393285544469	11.0	CMS002_047c_Rb_S195_L004	Albugo candida	Culex	erythrothorax	65357.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			0.002665610028457188	74.0	CMS002_047c_Rb_S195_L004	Albugo	Culex	erythrothorax	65356.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			1.6733352173848373e-05	9.0	CMS002_028e_Rb_S158_L004	Tamarix pentandra	Culex	erythrothorax	63103.0
-	WVAL 	Amblyosporidae		Other Eukaryotes			0.003923049144808116	239.0	CMS002_047j_Rb_S3_L004	Amblyospora	Culex	erythrothorax	33687.0
+	WVAL 	Microsporidia		Other Eukaryotes			0.003923049144808116	239.0	CMS002_047j_Rb_S3_L004	Amblyospora	Culex	erythrothorax	33687.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			5.752581470935082e-05	4.0	CMS002_047d_Rb_S196_L004	Opisthokonta	Culex	erythrothorax	33154.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			9.311564963684897e-05	3.0	CMS002_028a_Rb_S154_L004	Cladosporium cladosporioides	Culex	erythrothorax	29917.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			7.437045410599277e-06	4.0	CMS002_028e_Rb_S158_L004	Juglans nigra	Culex	erythrothorax	16719.0
@@ -1136,7 +1136,7 @@ V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L0
 	PLCR	Other eukaryotes		Other Eukaryotes			1.9736673304767787e-05	10.0	CMS002_053a_Rb_S7_L004	uncultured fungus	Culex	erythrothorax	175245.0
 	PLCR	Other eukaryotes		Other Eukaryotes			7.894669321907116e-06	4.0	CMS002_053a_Rb_S7_L004	uncultured Basidiomycota	Culex	erythrothorax	175244.0
 	PLCR	Other eukaryotes		Other Eukaryotes			9.868336652383894e-06	5.0	CMS002_053a_Rb_S7_L004	Psathyrella	Culex	erythrothorax	71729.0
-	PLCR	Amblyosporidae		Other Eukaryotes			0.00012631470915051385	64.0	CMS002_053a_Rb_S7_L004	Amblyospora	Culex	erythrothorax	33687.0
+	PLCR	Microsporidia		Other Eukaryotes			0.00012631470915051385	64.0	CMS002_053a_Rb_S7_L004	Amblyospora	Culex	erythrothorax	33687.0
 	PLCR	Other eukaryotes		Other Eukaryotes			0.002194718071490178	1112.0	CMS002_053a_Rb_S7_L004	Epichloe	Culex	erythrothorax	5112.0
 	PLCR	Other eukaryotes		Other Eukaryotes			0.0012651207588356154	641.0	CMS002_053a_Rb_S7_L004	Claviceps purpurea	Culex	erythrothorax	5111.0
 	PLCR	Other eukaryotes		Other Eukaryotes			0.00014210404779432809	72.0	CMS002_053a_Rb_S7_L004	Claviceps	Culex	erythrothorax	5110.0

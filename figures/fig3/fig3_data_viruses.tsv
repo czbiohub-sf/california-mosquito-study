@@ -191,22 +191,22 @@ CMS002_047e	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Vir
 CMS002_049a	Culex pipiens	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.21470347549821892	83096
 CMS002_049a	Culex pipiens	Placer	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.2131630884759796	83096
 CMS002_057a	Culex pipiens	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.22993214934559342	53942
-CMS002_057a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.07847317489155019	53942
+CMS002_057a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.07847317489155019	53942
 CMS002_051a	Culex pipiens	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.12121038946195388	139988
-CMS002_051a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.09291510700917222	139988
+CMS002_051a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.09291510700917222	139988
 CMS002_051a	Culex pipiens	Placer	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.027766665714204074	139988
-CMS002_054a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.2271060979908354	85110
+CMS002_054a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.2271060979908354	85110
 CMS001_029	Culex pipiens	Alameda	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.16558738807136636	89566
 CMS001_029	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2324207846727553	89566
 CMS001_044	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.06296830856160177	65128
 CMS001_044	Culex pipiens	Alameda	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.10525426851738116	65128
-CMS001_044	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.0663923350939688	65128
+CMS001_044	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.0663923350939688	65128
 CMS001_044	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.012406338287679647	65128
 CMS001_044	Culex pipiens	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.07769315808868689	65128
 CMS001_030	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.14717926689576175	69840
 CMS001_030	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.11307273768613975	69840
 CMS001_059	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.07680599226933167	99862
-CMS001_059	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.05994272095491779	99862
+CMS001_059	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.05994272095491779	99862
 CMS001_059	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.036900923274118286	99862
 CMS001_004	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.16654522074582084	46660
 CMS001_040	Culex pipiens	Alameda	61|Peribunya-like	348018	Peribunyaviridae	V	single stranded RNA negative sense	0.049388669824969506	70502

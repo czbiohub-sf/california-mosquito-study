@@ -19,9 +19,10 @@ Reoviridae	#9D6E96
 Totiviridae	#D8A5CE
 Chrysoviridae	#D8A5CE
 Wolbachia	#1a1a1a
-Apicomplexa	#7f7f7f
-Microsporidia	#404040
-Trypanosomatidae	#bfbfbf
+Apicomplexa	#D8D8D8
+Microsporidia	#909090
+Onchocercidae	#484848
+Trypanosomatidae	#000000
 PLCR	#48A365BF
 ALCO	#7F6E85BF
 WVAL	#E1C72FBF

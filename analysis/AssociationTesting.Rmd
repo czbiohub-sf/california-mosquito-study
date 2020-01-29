@@ -32,6 +32,8 @@ all_samples = unique(sample_taxa %>% filter(!str_detect(tolower(sample), 'water'
 bloodmeals = bloodmeals %>% filter(sample %in% cms001_samples)
 
 microbiota = sample_taxa %>% filter(group != 'Chordata')
+
+microbiota %>% filter(sci_name == 'Aves')
 ```
 
 ```{r}

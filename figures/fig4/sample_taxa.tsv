@@ -1691,675 +1691,675 @@ CMS001_026_Ra_S18	Strongylocentrotus purpuratus	Eukaryota
 CMS001_058_Ra_S9	Strongylocentrotus purpuratus	Eukaryota
 CMS001_water3_Qiagen_S26	Strongylocentrotus purpuratus	Eukaryota
 CMS002_007a_Rb_S118_L004	Strongylocentrotus purpuratus	Eukaryota
-CMS001_020_Ra_S15	Chordata	Eukaryota
-CMS002_007a_Rb_S118_L004	Chordata	Eukaryota
-CMS002_020d_Rb_S134_L004	Chordata	Eukaryota
-CMS001_036_Ra_S20	Ciona intestinalis	Eukaryota
-CMS002_029e_Rb_S164_L004	Ciona intestinalis	Eukaryota
-CMS001_023_Ra_S17	Branchiostoma floridae	Eukaryota
-CMS002_047d_Rb_S196_L004	Branchiostoma floridae	Eukaryota
-CMS001_001_Ra_S1	Branchiostoma belcheri	Eukaryota
-CMS001_042_Ra_S23	Branchiostoma belcheri	Eukaryota
-CMS002_041a_Rb_S176_L004	Branchiostoma belcheri	Eukaryota
-CMS002_020c_Rb_S133_L004	Vertebrata	Eukaryota
-CMS002_020a_Rb_S131_L004	Eptatretus burgeri	Eukaryota
-CMS001_005_Ra_S3	Gnathostomata	Eukaryota
-CMS001_020_Ra_S15	Gnathostomata	Eukaryota
-CMS001_025_Ra_S7	Gnathostomata	Eukaryota
-CMS002_020a_Rb_S131_L004	Gnathostomata	Eukaryota
-CMS002_021a_Rb_S136_L004	Gnathostomata	Eukaryota
-CMS001_003_Ra_S2	Callorhinchus milii	Eukaryota
-CMS001_005_Ra_S3	Callorhinchus milii	Eukaryota
-CMS001_008_Ra_S3	Callorhinchus milii	Eukaryota
-CMS001_009_Ra_S13	Callorhinchus milii	Eukaryota
-CMS001_014_Ra_S5	Callorhinchus milii	Eukaryota
-CMS001_025_Ra_S7	Callorhinchus milii	Eukaryota
-CMS001_026_Ra_S18	Callorhinchus milii	Eukaryota
-CMS001_060_Ra_S12	Callorhinchus milii	Eukaryota
-CMS001_water3_Qiagen_S26	Callorhinchus milii	Eukaryota
-CMS002_007a_Rb_S118_L004	Callorhinchus milii	Eukaryota
-CMS002_020a_Rb_S131_L004	Callorhinchus milii	Eukaryota
-CMS002_020c_Rb_S133_L004	Callorhinchus milii	Eukaryota
-CMS002_020e_Rb_S135_L004	Callorhinchus milii	Eukaryota
-CMS002_021a_Rb_S136_L004	Callorhinchus milii	Eukaryota
-CMS002_020d_Rb_S134_L004	Latimeria chalumnae	Eukaryota
-CMS002_020e_Rb_S135_L004	Latimeria chalumnae	Eukaryota
-CMS001_008_Ra_S3	Actinopterygii	Eukaryota
-CMS002_020b_Rb_S132_L004	Actinopterygii	Eukaryota
-CMS002_020d_Rb_S134_L004	Actinopterygii	Eukaryota
-CMS002_029a_Rb_S159_L004	Actinopterygii	Eukaryota
-CMS002_039a_Rb_S173_L004	Lepisosteus oculatus	Eukaryota
-CMS001_016_Ra_S6	Clupea harengus	Eukaryota
-CMS002_053a_Rb_S7_L004	Clupea harengus	Eukaryota
-CMS001_019_Ra_S14	Cyprinidae	Eukaryota
-CMS001_036_Ra_S20	Cyprinidae	Eukaryota
-CMS002_007a_Rb_S118_L004	Cyprinidae	Eukaryota
-CMS001_003_Ra_S2	Danio rerio	Eukaryota
-CMS001_005_Ra_S3	Danio rerio	Eukaryota
-CMS001_006_Ra_S5	Danio rerio	Eukaryota
-CMS001_007_Ra_S12	Danio rerio	Eukaryota
-CMS001_008_Ra_S3	Danio rerio	Eukaryota
-CMS001_011_Ra_S4	Danio rerio	Eukaryota
-CMS001_012_Ra_S4	Danio rerio	Eukaryota
-CMS001_013_Ra_S5	Danio rerio	Eukaryota
-CMS001_014_Ra_S5	Danio rerio	Eukaryota
-CMS001_015_Ra_S13	Danio rerio	Eukaryota
-CMS001_016_Ra_S6	Danio rerio	Eukaryota
-CMS001_017_Ra_S6	Danio rerio	Eukaryota
-CMS001_020_Ra_S15	Danio rerio	Eukaryota
-CMS001_021_Ra_S16	Danio rerio	Eukaryota
-CMS001_025_Ra_S7	Danio rerio	Eukaryota
-CMS001_026_Ra_S18	Danio rerio	Eukaryota
-CMS001_031_Ra_S19	Danio rerio	Eukaryota
-CMS001_035_Ra_S20	Danio rerio	Eukaryota
-CMS001_036_Ra_S20	Danio rerio	Eukaryota
-CMS001_038_Ra_S22	Danio rerio	Eukaryota
-CMS001_039_Ra_S9	Danio rerio	Eukaryota
-CMS001_043_Ra_S24	Danio rerio	Eukaryota
-CMS001_046_Ra_S3	Danio rerio	Eukaryota
-CMS001_050_Ra_S23	Danio rerio	Eukaryota
-CMS001_051_Ra_S8	Danio rerio	Eukaryota
-CMS001_053_Ra_S8	Danio rerio	Eukaryota
-CMS001_055_Ra_S9	Danio rerio	Eukaryota
-CMS001_056_Ra_S10	Danio rerio	Eukaryota
-CMS001_057_Ra_S11	Danio rerio	Eukaryota
-CMS001_060_Ra_S12	Danio rerio	Eukaryota
-CMS002_007a_Rb_S118_L004	Danio rerio	Eukaryota
-CMS002_020a_Rb_S131_L004	Danio rerio	Eukaryota
-CMS002_020b_Rb_S132_L004	Danio rerio	Eukaryota
-CMS002_020c_Rb_S133_L004	Danio rerio	Eukaryota
-CMS002_020e_Rb_S135_L004	Danio rerio	Eukaryota
-CMS002_021a_Rb_S136_L004	Danio rerio	Eukaryota
-CMS002_023a_Rb_S138_L004	Danio rerio	Eukaryota
-CMS002_028a_Rb_S154_L004	Danio rerio	Eukaryota
-CMS002_028b_Rb_S155_L004	Danio rerio	Eukaryota
-CMS002_028e_Rb_S158_L004	Danio rerio	Eukaryota
-CMS002_029a_Rb_S159_L004	Danio rerio	Eukaryota
-CMS002_029d_Rb_S162_L004	Danio rerio	Eukaryota
-CMS002_029e_Rb_S164_L004	Danio rerio	Eukaryota
-CMS002_031a_Rb_S165_L004	Danio rerio	Eukaryota
-CMS002_032a_Rb_S166_L004	Danio rerio	Eukaryota
-CMS002_033a_Rb_S167_L004	Danio rerio	Eukaryota
-CMS002_035a_Rb_S169_L004	Danio rerio	Eukaryota
-CMS002_038a_Rb_S172_L004	Danio rerio	Eukaryota
-CMS002_039a_Rb_S173_L004	Danio rerio	Eukaryota
-CMS002_040a_Rb_S174_L004	Danio rerio	Eukaryota
-CMS002_041a_Rb_S176_L004	Danio rerio	Eukaryota
-CMS002_042a_Rb_S177_L004	Danio rerio	Eukaryota
-CMS002_047a_Rb_S193_L004	Danio rerio	Eukaryota
-CMS002_047d_Rb_S196_L004	Danio rerio	Eukaryota
-CMS002_047e_Rb_S197_L004	Danio rerio	Eukaryota
-CMS002_047g_Rb_S200_L004	Danio rerio	Eukaryota
-CMS002_047h_Rb_S1_L004	Danio rerio	Eukaryota
-CMS002_047j_Rb_S3_L004	Danio rerio	Eukaryota
-CMS002_053a_Rb_S7_L004	Danio rerio	Eukaryota
-CMS002_056a_Rb_S9_L004	Danio rerio	Eukaryota
-CMS002_057a_Rb_S10_L004	Danio rerio	Eukaryota
-CMS001_003_Ra_S2	Carassius auratus	Eukaryota
-CMS001_008_Ra_S3	Carassius auratus	Eukaryota
-CMS001_025_Ra_S7	Carassius auratus	Eukaryota
-CMS002_021a_Rb_S136_L004	Carassius auratus	Eukaryota
-CMS001_001_Ra_S1	Cyprinus carpio	Eukaryota
-CMS001_002_Ra_S1	Cyprinus carpio	Eukaryota
-CMS001_003_Ra_S2	Cyprinus carpio	Eukaryota
-CMS001_005_Ra_S3	Cyprinus carpio	Eukaryota
-CMS001_006_Ra_S5	Cyprinus carpio	Eukaryota
-CMS001_007_Ra_S12	Cyprinus carpio	Eukaryota
-CMS001_008_Ra_S3	Cyprinus carpio	Eukaryota
-CMS001_009_Ra_S13	Cyprinus carpio	Eukaryota
-CMS001_012_Ra_S4	Cyprinus carpio	Eukaryota
-CMS001_013_Ra_S5	Cyprinus carpio	Eukaryota
-CMS001_014_Ra_S5	Cyprinus carpio	Eukaryota
-CMS001_016_Ra_S6	Cyprinus carpio	Eukaryota
-CMS001_017_Ra_S6	Cyprinus carpio	Eukaryota
-CMS001_019_Ra_S14	Cyprinus carpio	Eukaryota
-CMS001_020_Ra_S15	Cyprinus carpio	Eukaryota
-CMS001_021_Ra_S16	Cyprinus carpio	Eukaryota
-CMS001_024_Ra_S15	Cyprinus carpio	Eukaryota
-CMS001_025_Ra_S7	Cyprinus carpio	Eukaryota
-CMS001_026_Ra_S18	Cyprinus carpio	Eukaryota
-CMS001_028_Ra_S17	Cyprinus carpio	Eukaryota
-CMS001_031_Ra_S19	Cyprinus carpio	Eukaryota
-CMS001_032_Ra_S7	Cyprinus carpio	Eukaryota
-CMS001_033_Ra_S8	Cyprinus carpio	Eukaryota
-CMS001_035_Ra_S20	Cyprinus carpio	Eukaryota
-CMS001_036_Ra_S20	Cyprinus carpio	Eukaryota
-CMS001_037_Ra_S21	Cyprinus carpio	Eukaryota
-CMS001_039_Ra_S9	Cyprinus carpio	Eukaryota
-CMS001_042_Ra_S23	Cyprinus carpio	Eukaryota
-CMS001_043_Ra_S24	Cyprinus carpio	Eukaryota
-CMS001_045_Ra_S2	Cyprinus carpio	Eukaryota
-CMS001_050_Ra_S23	Cyprinus carpio	Eukaryota
-CMS001_051_Ra_S8	Cyprinus carpio	Eukaryota
-CMS001_059_Ra_S10	Cyprinus carpio	Eukaryota
-CMS001_060_Ra_S12	Cyprinus carpio	Eukaryota
-CMS002_007a_Rb_S118_L004	Cyprinus carpio	Eukaryota
-CMS002_020a_Rb_S131_L004	Cyprinus carpio	Eukaryota
-CMS002_020b_Rb_S132_L004	Cyprinus carpio	Eukaryota
-CMS002_020e_Rb_S135_L004	Cyprinus carpio	Eukaryota
-CMS002_021a_Rb_S136_L004	Cyprinus carpio	Eukaryota
-CMS002_028a_Rb_S154_L004	Cyprinus carpio	Eukaryota
-CMS002_028b_Rb_S155_L004	Cyprinus carpio	Eukaryota
-CMS002_028c_Rb_S156_L004	Cyprinus carpio	Eukaryota
-CMS002_029a_Rb_S159_L004	Cyprinus carpio	Eukaryota
-CMS002_029b_Rb_S160_L004	Cyprinus carpio	Eukaryota
-CMS002_029d_Rb_S162_L004	Cyprinus carpio	Eukaryota
-CMS002_031a_Rb_S165_L004	Cyprinus carpio	Eukaryota
-CMS002_032a_Rb_S166_L004	Cyprinus carpio	Eukaryota
-CMS002_033a_Rb_S167_L004	Cyprinus carpio	Eukaryota
-CMS002_035a_Rb_S169_L004	Cyprinus carpio	Eukaryota
-CMS002_039a_Rb_S173_L004	Cyprinus carpio	Eukaryota
-CMS002_040a_Rb_S174_L004	Cyprinus carpio	Eukaryota
-CMS002_041a_Rb_S176_L004	Cyprinus carpio	Eukaryota
-CMS002_047a_Rb_S193_L004	Cyprinus carpio	Eukaryota
-CMS002_047c_Rb_S195_L004	Cyprinus carpio	Eukaryota
-CMS002_047d_Rb_S196_L004	Cyprinus carpio	Eukaryota
-CMS002_047e_Rb_S197_L004	Cyprinus carpio	Eukaryota
-CMS002_047i_Rb_S2_L004	Cyprinus carpio	Eukaryota
-CMS002_053a_Rb_S7_L004	Cyprinus carpio	Eukaryota
-CMS002_056a_Rb_S9_L004	Cyprinus carpio	Eukaryota
-CMS001_021_Ra_S16	Astyanax mexicanus	Eukaryota
-CMS001_045_Ra_S2	Astyanax mexicanus	Eukaryota
-CMS002_007a_Rb_S118_L004	Astyanax mexicanus	Eukaryota
-CMS002_028b_Rb_S155_L004	Astyanax mexicanus	Eukaryota
-CMS002_028c_Rb_S156_L004	Astyanax mexicanus	Eukaryota
-CMS002_047h_Rb_S1_L004	Astyanax mexicanus	Eukaryota
-CMS001_017_Ra_S6	Ictalurus punctatus	Eukaryota
-CMS001_021_Ra_S16	Ictalurus punctatus	Eukaryota
-CMS001_036_Ra_S20	Ictalurus punctatus	Eukaryota
-CMS001_048_Ra_S5	Ictalurus punctatus	Eukaryota
-CMS002_020d_Rb_S134_L004	Ictalurus punctatus	Eukaryota
-CMS002_028e_Rb_S158_L004	Ictalurus punctatus	Eukaryota
-CMS002_053a_Rb_S7_L004	Ictalurus punctatus	Eukaryota
-CMS001_039_Ra_S9	Esox lucius	Eukaryota
-CMS002_007a_Rb_S118_L004	Esox lucius	Eukaryota
-CMS002_029b_Rb_S160_L004	Esox lucius	Eukaryota
-CMS001_004_Ra_S2	Oncorhynchus kisutch	Eukaryota
-CMS001_009_Ra_S13	Oncorhynchus kisutch	Eukaryota
-CMS002_020a_Rb_S131_L004	Oncorhynchus kisutch	Eukaryota
-CMS002_020d_Rb_S134_L004	Oncorhynchus kisutch	Eukaryota
-CMS002_020e_Rb_S135_L004	Oncorhynchus kisutch	Eukaryota
-CMS002_021a_Rb_S136_L004	Oncorhynchus kisutch	Eukaryota
-CMS002_022a_Rb_S137_L004	Oncorhynchus kisutch	Eukaryota
-CMS001_014_Ra_S5	Oncorhynchus mykiss	Eukaryota
-CMS001_026_Ra_S18	Oncorhynchus mykiss	Eukaryota
-CMS002_053a_Rb_S7_L004	Oncorhynchus mykiss	Eukaryota
-CMS001_005_Ra_S3	Salmo salar	Eukaryota
-CMS001_020_Ra_S15	Salmo salar	Eukaryota
-CMS002_028e_Rb_S158_L004	Salmo salar	Eukaryota
-CMS002_039a_Rb_S173_L004	Salmo salar	Eukaryota
-CMS002_029b_Rb_S160_L004	Salvelinus alpinus	Eukaryota
-CMS002_032a_Rb_S166_L004	Salvelinus alpinus	Eukaryota
-CMS002_053a_Rb_S7_L004	Salvelinus alpinus	Eukaryota
-CMS001_047_Ra_S4	Fundulus heteroclitus	Eukaryota
-CMS001_001_Ra_S1	Poecilia	Eukaryota
-CMS001_013_Ra_S5	Poecilia	Eukaryota
-CMS001_015_Ra_S13	Poecilia	Eukaryota
-CMS001_017_Ra_S6	Poecilia	Eukaryota
-CMS001_021_Ra_S16	Poecilia	Eukaryota
-CMS001_049_Ra_S6	Poecilia	Eukaryota
-CMS001_005_Ra_S3	Xiphophorus	Eukaryota
-CMS002_007a_Rb_S118_L004	Xiphophorus	Eukaryota
-CMS002_020e_Rb_S135_L004	Xiphophorus	Eukaryota
-CMS001_002_Ra_S1	Oryzias latipes	Eukaryota
-CMS001_003_Ra_S2	Oryzias latipes	Eukaryota
-CMS001_005_Ra_S3	Oryzias latipes	Eukaryota
-CMS001_006_Ra_S5	Oryzias latipes	Eukaryota
-CMS001_007_Ra_S12	Oryzias latipes	Eukaryota
-CMS001_008_Ra_S3	Oryzias latipes	Eukaryota
-CMS001_011_Ra_S4	Oryzias latipes	Eukaryota
-CMS001_012_Ra_S4	Oryzias latipes	Eukaryota
-CMS001_013_Ra_S5	Oryzias latipes	Eukaryota
-CMS001_014_Ra_S5	Oryzias latipes	Eukaryota
-CMS001_015_Ra_S13	Oryzias latipes	Eukaryota
-CMS001_017_Ra_S6	Oryzias latipes	Eukaryota
-CMS001_020_Ra_S15	Oryzias latipes	Eukaryota
-CMS001_021_Ra_S16	Oryzias latipes	Eukaryota
-CMS001_024_Ra_S15	Oryzias latipes	Eukaryota
-CMS001_025_Ra_S7	Oryzias latipes	Eukaryota
-CMS001_031_Ra_S19	Oryzias latipes	Eukaryota
-CMS001_033_Ra_S8	Oryzias latipes	Eukaryota
-CMS001_035_Ra_S20	Oryzias latipes	Eukaryota
-CMS001_036_Ra_S20	Oryzias latipes	Eukaryota
-CMS001_037_Ra_S21	Oryzias latipes	Eukaryota
-CMS001_042_Ra_S23	Oryzias latipes	Eukaryota
-CMS001_043_Ra_S24	Oryzias latipes	Eukaryota
-CMS001_045_Ra_S2	Oryzias latipes	Eukaryota
-CMS001_049_Ra_S6	Oryzias latipes	Eukaryota
-CMS001_051_Ra_S8	Oryzias latipes	Eukaryota
-CMS001_053_Ra_S8	Oryzias latipes	Eukaryota
-CMS001_055_Ra_S9	Oryzias latipes	Eukaryota
-CMS001_057_Ra_S11	Oryzias latipes	Eukaryota
-CMS001_058_Ra_S9	Oryzias latipes	Eukaryota
-CMS001_060_Ra_S12	Oryzias latipes	Eukaryota
-CMS002_007a_Rb_S118_L004	Oryzias latipes	Eukaryota
-CMS002_020a_Rb_S131_L004	Oryzias latipes	Eukaryota
-CMS002_020b_Rb_S132_L004	Oryzias latipes	Eukaryota
-CMS002_020d_Rb_S134_L004	Oryzias latipes	Eukaryota
-CMS002_021a_Rb_S136_L004	Oryzias latipes	Eukaryota
-CMS002_022a_Rb_S137_L004	Oryzias latipes	Eukaryota
-CMS002_028b_Rb_S155_L004	Oryzias latipes	Eukaryota
-CMS002_028e_Rb_S158_L004	Oryzias latipes	Eukaryota
-CMS002_029a_Rb_S159_L004	Oryzias latipes	Eukaryota
-CMS002_029b_Rb_S160_L004	Oryzias latipes	Eukaryota
-CMS002_029c_Rb_S161_L004	Oryzias latipes	Eukaryota
-CMS002_031a_Rb_S165_L004	Oryzias latipes	Eukaryota
-CMS002_032a_Rb_S166_L004	Oryzias latipes	Eukaryota
-CMS002_033a_Rb_S167_L004	Oryzias latipes	Eukaryota
-CMS002_038a_Rb_S172_L004	Oryzias latipes	Eukaryota
-CMS002_039a_Rb_S173_L004	Oryzias latipes	Eukaryota
-CMS002_040a_Rb_S174_L004	Oryzias latipes	Eukaryota
-CMS002_042a_Rb_S177_L004	Oryzias latipes	Eukaryota
-CMS002_045c_Rb_S185_L004	Oryzias latipes	Eukaryota
-CMS002_047a_Rb_S193_L004	Oryzias latipes	Eukaryota
-CMS002_047c_Rb_S195_L004	Oryzias latipes	Eukaryota
-CMS002_047d_Rb_S196_L004	Oryzias latipes	Eukaryota
-CMS002_047f_Rb_S198_L004	Oryzias latipes	Eukaryota
-CMS002_047i_Rb_S2_L004	Oryzias latipes	Eukaryota
-CMS002_047j_Rb_S3_L004	Oryzias latipes	Eukaryota
-CMS002_051a_Rb_S6_L004	Oryzias latipes	Eukaryota
-CMS002_053a_Rb_S7_L004	Oryzias latipes	Eukaryota
-CMS002_056a_Rb_S9_L004	Oryzias latipes	Eukaryota
-CMS001_005_Ra_S3	Oreochromis niloticus	Eukaryota
-CMS001_020_Ra_S15	Oreochromis niloticus	Eukaryota
-CMS002_007a_Rb_S118_L004	Oreochromis niloticus	Eukaryota
-CMS002_029a_Rb_S159_L004	Oreochromis niloticus	Eukaryota
-CMS002_032a_Rb_S166_L004	Oreochromis niloticus	Eukaryota
-CMS002_020a_Rb_S131_L004	Haplochromis burtoni	Eukaryota
-CMS002_021a_Rb_S136_L004	Haplochromis burtoni	Eukaryota
-CMS002_032a_Rb_S166_L004	Seriola	Eukaryota
-CMS001_006_Ra_S5	Lates calcarifer	Eukaryota
-CMS001_013_Ra_S5	Lates calcarifer	Eukaryota
-CMS001_016_Ra_S6	Lates calcarifer	Eukaryota
-CMS001_026_Ra_S18	Lates calcarifer	Eukaryota
-CMS001_060_Ra_S12	Lates calcarifer	Eukaryota
-CMS002_053a_Rb_S7_L004	Lates calcarifer	Eukaryota
-CMS002_053a_Rb_S7_L004	Notothenia coriiceps	Eukaryota
-CMS001_051_Ra_S8	Paralichthys olivaceus	Eukaryota
-CMS002_029a_Rb_S159_L004	Paralichthys olivaceus	Eukaryota
-CMS002_053a_Rb_S7_L004	Paralichthys olivaceus	Eukaryota
-CMS002_032a_Rb_S166_L004	Xenopus	Eukaryota
-CMS001_009_Ra_S13	Xenopus laevis	Eukaryota
-CMS001_012_Ra_S4	Xenopus laevis	Eukaryota
-CMS001_050_Ra_S23	Xenopus laevis	Eukaryota
-CMS002_007a_Rb_S118_L004	Xenopus laevis	Eukaryota
-CMS002_020a_Rb_S131_L004	Xenopus laevis	Eukaryota
-CMS002_033a_Rb_S167_L004	Xenopus laevis	Eukaryota
-CMS001_003_Ra_S2	Xenopus tropicalis	Eukaryota
-CMS001_036_Ra_S20	Xenopus tropicalis	Eukaryota
-CMS002_020a_Rb_S131_L004	Xenopus tropicalis	Eukaryota
-CMS002_021a_Rb_S136_L004	Xenopus tropicalis	Eukaryota
-CMS002_029a_Rb_S159_L004	Xenopus tropicalis	Eukaryota
-CMS002_031a_Rb_S165_L004	Xenopus tropicalis	Eukaryota
-CMS002_035a_Rb_S169_L004	Xenopus tropicalis	Eukaryota
-CMS002_037a_Rb_S171_L004	Xenopus tropicalis	Eukaryota
-CMS001_031_Ra_S19	Chrysemys picta bellii	Eukaryota
-CMS002_031a_Rb_S165_L004	Chrysemys picta bellii	Eukaryota
-CMS001_029_Ra_S18	Archosauria	Eukaryota
-CMS001_010_Ra_S1	Alligator	Eukaryota
-CMS001_052_Ra_S7	Alligator	Eukaryota
-CMS001_001_Ra_S1	Alligator mississippiensis	Eukaryota
-CMS001_017_Ra_S6	Alligator mississippiensis	Eukaryota
-CMS001_035_Ra_S20	Alligator mississippiensis	Eukaryota
-CMS001_045_Ra_S2	Alligator mississippiensis	Eukaryota
-CMS001_050_Ra_S23	Alligator mississippiensis	Eukaryota
-CMS001_052_Ra_S7	Alligator mississippiensis	Eukaryota
-CMS001_057_Ra_S11	Alligator mississippiensis	Eukaryota
-CMS002_020e_Rb_S135_L004	Alligator mississippiensis	Eukaryota
-CMS002_028d_Rb_S157_L004	Alligator mississippiensis	Eukaryota
-CMS002_047d_Rb_S196_L004	Alligator mississippiensis	Eukaryota
-CMS002_047i_Rb_S2_L004	Alligator mississippiensis	Eukaryota
-CMS002_047j_Rb_S3_L004	Alligator mississippiensis	Eukaryota
-CMS001_026_Ra_S18	Crocodylus porosus	Eukaryota
-CMS001_036_Ra_S20	Crocodylus porosus	Eukaryota
-CMS002_021a_Rb_S136_L004	Crocodylus porosus	Eukaryota
-CMS002_032a_Rb_S166_L004	Crocodylus porosus	Eukaryota
-CMS002_034a_Rb_S168_L004	Crocodylus porosus	Eukaryota
-CMS002_035a_Rb_S169_L004	Crocodylus porosus	Eukaryota
-CMS002_028e_Rb_S158_L004	Iguania	Eukaryota
-CMS002_020e_Rb_S135_L004	Pseudonaja textilis	Eukaryota
-CMS002_053a_Rb_S7_L004	Pseudonaja textilis	Eukaryota
-CMS001_023_Ra_S17	Aves	Eukaryota
-CMS001_027_Ra_S16	Aves	Eukaryota
-CMS001_029_Ra_S18	Aves	Eukaryota
-CMS001_032_Ra_S7	Aves	Eukaryota
-CMS001_037_Ra_S21	Aves	Eukaryota
-CMS001_043_Ra_S24	Aves	Eukaryota
-CMS001_050_Ra_S23	Aves	Eukaryota
-CMS001_water3_Qiagen_S26	Palaeognathae	Eukaryota
-CMS002_053a_Rb_S7_L004	Dromaius novaehollandiae	Eukaryota
-CMS001_027_Ra_S16	Neognathae	Eukaryota
-CMS001_029_Ra_S18	Neognathae	Eukaryota
-CMS001_032_Ra_S7	Neognathae	Eukaryota
-CMS001_037_Ra_S21	Neognathae	Eukaryota
-CMS001_043_Ra_S24	Neognathae	Eukaryota
-CMS001_047_Ra_S4	Neognathae	Eukaryota
-CMS001_050_Ra_S23	Neognathae	Eukaryota
-CMS001_059_Ra_S10	Neognathae	Eukaryota
-CMS001_water3_Qiagen_S26	Neognathae	Eukaryota
-CMS001_023_Ra_S17	Anatidae	Eukaryota
-CMS001_003_Ra_S2	Anas platyrhynchos	Eukaryota
-CMS001_008_Ra_S3	Anas platyrhynchos	Eukaryota
-CMS001_023_Ra_S17	Anas platyrhynchos	Eukaryota
-CMS002_028e_Rb_S158_L004	Anas platyrhynchos	Eukaryota
-CMS002_033a_Rb_S167_L004	Anas platyrhynchos	Eukaryota
-CMS002_047a_Rb_S193_L004	Anas platyrhynchos	Eukaryota
-CMS001_050_Ra_S23	Nycticorax nycticorax	Eukaryota
-CMS001_032_Ra_S7	Columbidae	Eukaryota
-CMS001_050_Ra_S23	Columbidae	Eukaryota
-CMS001_021_Ra_S16	Falco	Eukaryota
-CMS001_043_Ra_S24	Falco	Eukaryota
-CMS001_036_Ra_S20	Falco peregrinus	Eukaryota
-CMS001_032_Ra_S7	Haliaeetus albicilla	Eukaryota
-CMS002_039a_Rb_S173_L004	Callipepla squamata	Eukaryota
-CMS001_006_Ra_S5	Gallus gallus	Eukaryota
-CMS001_017_Ra_S6	Gallus gallus	Eukaryota
-CMS001_021_Ra_S16	Gallus gallus	Eukaryota
-CMS001_033_Ra_S8	Gallus gallus	Eukaryota
-CMS001_060_Ra_S12	Gallus gallus	Eukaryota
-CMS002_007a_Rb_S118_L004	Gallus gallus	Eukaryota
-CMS002_020a_Rb_S131_L004	Gallus gallus	Eukaryota
-CMS002_021a_Rb_S136_L004	Gallus gallus	Eukaryota
-CMS002_053a_Rb_S7_L004	Gallus gallus	Eukaryota
-CMS002_037a_Rb_S171_L004	Meleagris gallopavo	Eukaryota
-CMS002_047b_Rb_S194_L004	Meleagris gallopavo	Eukaryota
-CMS002_047h_Rb_S1_L004	Meleagris gallopavo	Eukaryota
-CMS001_001_Ra_S1	Passeriformes	Eukaryota
-CMS001_027_Ra_S16	Passeriformes	Eukaryota
-CMS001_029_Ra_S18	Passeriformes	Eukaryota
-CMS001_032_Ra_S7	Passeriformes	Eukaryota
-CMS001_043_Ra_S24	Passeriformes	Eukaryota
-CMS001_047_Ra_S4	Passeriformes	Eukaryota
-CMS001_050_Ra_S23	Passeriformes	Eukaryota
-CMS001_059_Ra_S10	Passeriformes	Eukaryota
-CMS001_water3_Qiagen_S26	Passeriformes	Eukaryota
-CMS001_027_Ra_S16	Serinus canaria	Eukaryota
-CMS001_029_Ra_S18	Serinus canaria	Eukaryota
-CMS001_032_Ra_S7	Serinus canaria	Eukaryota
-CMS001_043_Ra_S24	Serinus canaria	Eukaryota
-CMS001_001_Ra_S1	Parus major	Eukaryota
-CMS001_020_Ra_S15	Parus major	Eukaryota
-CMS001_027_Ra_S16	Parus major	Eukaryota
-CMS001_043_Ra_S24	Parus major	Eukaryota
-CMS001_058_Ra_S9	Parus major	Eukaryota
-CMS001_059_Ra_S10	Parus major	Eukaryota
-CMS001_043_Ra_S24	Sturnus vulgaris	Eukaryota
-CMS001_water3_Qiagen_S26	Sturnus vulgaris	Eukaryota
-CMS001_011_Ra_S4	Calypte anna	Eukaryota
-CMS002_013a_Rb_S120_L004	Calypte anna	Eukaryota
-CMS002_020a_Rb_S131_L004	Ornithorhynchus anatinus	Eukaryota
-CMS001_033_Ra_S8	Sarcophilus harrisii	Eukaryota
-CMS001_006_Ra_S5	Notamacropus eugenii	Eukaryota
-CMS001_017_Ra_S6	Notamacropus eugenii	Eukaryota
-CMS002_028b_Rb_S155_L004	Notamacropus eugenii	Eukaryota
-CMS002_028c_Rb_S156_L004	Notamacropus eugenii	Eukaryota
-CMS002_047c_Rb_S195_L004	Notamacropus eugenii	Eukaryota
-CMS002_047f_Rb_S198_L004	Notamacropus eugenii	Eukaryota
-CMS001_004_Ra_S2	Eutheria	Eukaryota
-CMS001_011_Ra_S4	Eutheria	Eukaryota
-CMS001_028_Ra_S17	Eutheria	Eukaryota
-CMS001_030_Ra_S7	Eutheria	Eukaryota
-CMS001_031_Ra_S19	Eutheria	Eukaryota
-CMS001_048_Ra_S5	Eutheria	Eukaryota
-CMS001_060_Ra_S12	Dasypus novemcinctus	Eukaryota
-CMS002_038a_Rb_S172_L004	Dasypus novemcinctus	Eukaryota
-CMS001_026_Ra_S18	Atelerix albiventris	Eukaryota
-CMS002_053a_Rb_S7_L004	Pteropus	Eukaryota
-CMS002_020e_Rb_S135_L004	Pteropus alecto	Eukaryota
-CMS002_033a_Rb_S167_L004	Pteropus alecto	Eukaryota
-CMS001_006_Ra_S5	Rousettus aegyptiacus	Eukaryota
-CMS001_035_Ra_S20	Rousettus aegyptiacus	Eukaryota
-CMS002_053a_Rb_S7_L004	Rousettus aegyptiacus	Eukaryota
-CMS002_020a_Rb_S131_L004	Myotis	Eukaryota
-CMS002_033a_Rb_S167_L004	Myotis	Eukaryota
-CMS001_060_Ra_S12	Callithrix jacchus	Eukaryota
-CMS001_006_Ra_S5	Cebidae	Eukaryota
-CMS002_028a_Rb_S154_L004	Cebidae	Eukaryota
-CMS002_053a_Rb_S7_L004	Cebidae	Eukaryota
-CMS001_water3_Qiagen_S26	Catarrhini	Eukaryota
-CMS001_016_Ra_S6	Cercopithecinae	Eukaryota
-CMS002_020c_Rb_S133_L004	Cercopithecinae	Eukaryota
-CMS002_021a_Rb_S136_L004	Cercopithecinae	Eukaryota
-CMS002_029a_Rb_S159_L004	Cercopithecinae	Eukaryota
-CMS002_033a_Rb_S167_L004	Cercopithecinae	Eukaryota
-CMS002_035a_Rb_S169_L004	Chlorocebus aethiops	Eukaryota
-CMS001_005_Ra_S3	Macaca mulatta	Eukaryota
-CMS001_011_Ra_S4	Macaca mulatta	Eukaryota
-CMS001_016_Ra_S6	Macaca mulatta	Eukaryota
-CMS001_031_Ra_S19	Macaca mulatta	Eukaryota
-CMS001_060_Ra_S12	Macaca mulatta	Eukaryota
-CMS002_007a_Rb_S118_L004	Macaca mulatta	Eukaryota
-CMS002_032a_Rb_S166_L004	Macaca mulatta	Eukaryota
-CMS002_035a_Rb_S169_L004	Macaca mulatta	Eukaryota
-CMS002_041a_Rb_S176_L004	Macaca mulatta	Eukaryota
-CMS002_021a_Rb_S136_L004	Macaca nemestrina	Eukaryota
-CMS002_040a_Rb_S174_L004	Mandrillus leucophaeus	Eukaryota
-CMS002_053a_Rb_S7_L004	Mandrillus leucophaeus	Eukaryota
-CMS002_032a_Rb_S166_L004	Gorilla gorilla gorilla	Eukaryota
-CMS001_005_Ra_S3	Pan	Eukaryota
-CMS001_025_Ra_S7	Pan troglodytes	Eukaryota
-CMS001_026_Ra_S18	Pan troglodytes	Eukaryota
-CMS002_020e_Rb_S135_L004	Pan troglodytes	Eukaryota
-CMS002_033a_Rb_S167_L004	Pan troglodytes	Eukaryota
-CMS002_053a_Rb_S7_L004	Pan troglodytes	Eukaryota
-CMS001_005_Ra_S3	Pongo abelii	Eukaryota
-CMS001_017_Ra_S6	Pongo abelii	Eukaryota
-CMS001_021_Ra_S16	Pongo abelii	Eukaryota
-CMS001_035_Ra_S20	Pongo abelii	Eukaryota
-CMS001_058_Ra_S9	Pongo abelii	Eukaryota
-CMS001_060_Ra_S12	Pongo abelii	Eukaryota
-CMS002_007a_Rb_S118_L004	Pongo abelii	Eukaryota
-CMS002_042a_Rb_S177_L004	Pongo abelii	Eukaryota
-CMS002_047d_Rb_S196_L004	Pongo abelii	Eukaryota
-CMS002_047j_Rb_S3_L004	Pongo abelii	Eukaryota
-CMS002_053a_Rb_S7_L004	Pongo abelii	Eukaryota
-CMS002_056a_Rb_S9_L004	Pongo abelii	Eukaryota
-CMS002_020a_Rb_S131_L004	Hominidae	Eukaryota
-CMS002_020e_Rb_S135_L004	Hominidae	Eukaryota
-CMS001_005_Ra_S3	Homo sapiens	Eukaryota
-CMS001_008_Ra_S3	Homo sapiens	Eukaryota
-CMS001_016_Ra_S6	Homo sapiens	Eukaryota
-CMS001_water3_Qiagen_S26	Homo sapiens	Eukaryota
-CMS001_water4_Zymo_S27	Homo sapiens	Eukaryota
-CMS002_021a_Rb_S136_L004	Homo sapiens	Eukaryota
-CMS002_0Water5_Rb_S175_L004	Homo sapiens	Eukaryota
-CMS001_027_Ra_S16	Canis lupus	Eukaryota
-CMS001_037_Ra_S21	Canis lupus familiaris	Eukaryota
-CMS001_042_Ra_S23	Canis lupus familiaris	Eukaryota
-CMS002_039a_Rb_S173_L004	Canis lupus familiaris	Eukaryota
-CMS002_023a_Rb_S138_L004	Vulpes vulpes	Eukaryota
-CMS001_006_Ra_S5	Ailuropoda melanoleuca	Eukaryota
-CMS001_007_Ra_S12	Ailuropoda melanoleuca	Eukaryota
-CMS001_004_Ra_S2	Procyon lotor	Eukaryota
-CMS001_028_Ra_S17	Procyon lotor	Eukaryota
-CMS001_030_Ra_S7	Procyon lotor	Eukaryota
-CMS001_031_Ra_S19	Procyon lotor	Eukaryota
-CMS002_007a_Rb_S118_L004	Mustelidae	Eukaryota
-CMS001_021_Ra_S16	Mustela putorius furo	Eukaryota
-CMS001_019_Ra_S14	Felis	Eukaryota
-CMS001_042_Ra_S23	Felis	Eukaryota
-CMS001_019_Ra_S14	Felis catus	Eukaryota
-CMS001_042_Ra_S23	Felis catus	Eukaryota
-CMS002_028a_Rb_S154_L004	Otariidae	Eukaryota
-CMS002_053a_Rb_S7_L004	Otariidae	Eukaryota
-CMS002_021a_Rb_S136_L004	Odobenus rosmarus divergens	Eukaryota
-CMS001_036_Ra_S20	Odontoceti	Eukaryota
-CMS001_050_Ra_S23	Tursiops truncatus	Eukaryota
-CMS001_012_Ra_S4	Equus caballus	Eukaryota
-CMS001_042_Ra_S23	Equus caballus	Eukaryota
-CMS001_060_Ra_S12	Equus caballus	Eukaryota
-CMS002_007a_Rb_S118_L004	Equus caballus	Eukaryota
-CMS002_047f_Rb_S198_L004	Equus caballus	Eukaryota
-CMS002_053a_Rb_S7_L004	Equus caballus	Eukaryota
-CMS001_026_Ra_S18	Equus przewalskii	Eukaryota
-CMS001_001_Ra_S1	Sus scrofa	Eukaryota
-CMS001_015_Ra_S13	Sus scrofa	Eukaryota
-CMS001_025_Ra_S7	Sus scrofa	Eukaryota
-CMS001_026_Ra_S18	Sus scrofa	Eukaryota
-CMS001_036_Ra_S20	Sus scrofa	Eukaryota
-CMS001_045_Ra_S2	Sus scrofa	Eukaryota
-CMS001_051_Ra_S8	Sus scrofa	Eukaryota
-CMS001_056_Ra_S10	Sus scrofa	Eukaryota
-CMS002_021a_Rb_S136_L004	Sus scrofa	Eukaryota
-CMS002_031a_Rb_S165_L004	Sus scrofa	Eukaryota
-CMS002_032a_Rb_S166_L004	Sus scrofa	Eukaryota
-CMS002_034a_Rb_S168_L004	Sus scrofa	Eukaryota
-CMS002_039a_Rb_S173_L004	Sus scrofa	Eukaryota
-CMS002_041a_Rb_S176_L004	Sus scrofa	Eukaryota
-CMS002_047h_Rb_S1_L004	Sus scrofa	Eukaryota
-CMS002_056a_Rb_S9_L004	Sus scrofa	Eukaryota
-CMS001_026_Ra_S18	Camelidae	Eukaryota
-CMS001_001_Ra_S1	Cervidae	Eukaryota
-CMS001_009_Ra_S13	Cervidae	Eukaryota
-CMS001_025_Ra_S7	Cervidae	Eukaryota
-CMS001_036_Ra_S20	Cervidae	Eukaryota
-CMS001_003_Ra_S2	Odocoileus	Eukaryota
-CMS001_012_Ra_S4	Odocoileus	Eukaryota
-CMS001_016_Ra_S6	Odocoileus	Eukaryota
-CMS001_035_Ra_S20	Odocoileus	Eukaryota
-CMS001_001_Ra_S1	Odocoileus hemionus	Eukaryota
-CMS001_012_Ra_S4	Odocoileus hemionus	Eukaryota
-CMS001_016_Ra_S6	Odocoileus hemionus	Eukaryota
-CMS001_022_Ra_S6	Odocoileus hemionus	Eukaryota
-CMS001_036_Ra_S20	Odocoileus hemionus	Eukaryota
-CMS001_009_Ra_S13	Odocoileus hemionus hemionus	Eukaryota
-CMS001_010_Ra_S1	Odocoileus hemionus hemionus	Eukaryota
-CMS001_025_Ra_S7	Odocoileus hemionus hemionus	Eukaryota
-CMS001_001_Ra_S1	Odocoileus virginianus texanus	Eukaryota
-CMS001_003_Ra_S2	Odocoileus virginianus texanus	Eukaryota
-CMS001_012_Ra_S4	Odocoileus virginianus texanus	Eukaryota
-CMS001_016_Ra_S6	Odocoileus virginianus texanus	Eukaryota
-CMS001_022_Ra_S6	Odocoileus virginianus texanus	Eukaryota
-CMS001_052_Ra_S7	Odocoileus virginianus texanus	Eukaryota
-CMS001_060_Ra_S12	Odocoileus virginianus texanus	Eukaryota
-CMS002_053a_Rb_S7_L004	Odocoileus virginianus texanus	Eukaryota
-CMS001_001_Ra_S1	Odocoileinae	Eukaryota
-CMS001_003_Ra_S2	Odocoileinae	Eukaryota
-CMS001_008_Ra_S3	Odocoileinae	Eukaryota
-CMS001_010_Ra_S1	Odocoileinae	Eukaryota
-CMS001_012_Ra_S4	Odocoileinae	Eukaryota
-CMS001_015_Ra_S13	Odocoileinae	Eukaryota
-CMS001_018_Ra_S14	Odocoileinae	Eukaryota
-CMS001_022_Ra_S6	Odocoileinae	Eukaryota
-CMS001_025_Ra_S7	Odocoileinae	Eukaryota
-CMS001_036_Ra_S20	Odocoileinae	Eukaryota
-CMS001_038_Ra_S22	Odocoileinae	Eukaryota
-CMS001_045_Ra_S2	Odocoileinae	Eukaryota
-CMS001_046_Ra_S3	Odocoileinae	Eukaryota
-CMS001_052_Ra_S7	Odocoileinae	Eukaryota
-CMS001_053_Ra_S8	Odocoileinae	Eukaryota
-CMS001_057_Ra_S11	Odocoileinae	Eukaryota
-CMS001_060_Ra_S12	Odocoileinae	Eukaryota
-CMS001_036_Ra_S20	Muntiacus	Eukaryota
-CMS001_001_Ra_S1	Bovidae	Eukaryota
-CMS001_003_Ra_S2	Bovidae	Eukaryota
-CMS001_008_Ra_S3	Bovidae	Eukaryota
-CMS001_009_Ra_S13	Bovidae	Eukaryota
-CMS001_010_Ra_S1	Bovidae	Eukaryota
-CMS001_012_Ra_S4	Bovidae	Eukaryota
-CMS001_015_Ra_S13	Bovidae	Eukaryota
-CMS001_016_Ra_S6	Bovidae	Eukaryota
-CMS001_018_Ra_S14	Bovidae	Eukaryota
-CMS001_022_Ra_S6	Bovidae	Eukaryota
-CMS001_035_Ra_S20	Bovidae	Eukaryota
-CMS001_036_Ra_S20	Bovidae	Eukaryota
-CMS001_038_Ra_S22	Bovidae	Eukaryota
-CMS001_045_Ra_S2	Bovidae	Eukaryota
-CMS001_046_Ra_S3	Bovidae	Eukaryota
-CMS001_052_Ra_S7	Bovidae	Eukaryota
-CMS001_053_Ra_S8	Bovidae	Eukaryota
-CMS001_057_Ra_S11	Bovidae	Eukaryota
-CMS001_060_Ra_S12	Bovidae	Eukaryota
-CMS002_020a_Rb_S131_L004	Bovidae	Eukaryota
-CMS001_022_Ra_S6	Bos	Eukaryota
-CMS001_036_Ra_S20	Bos	Eukaryota
-CMS001_060_Ra_S12	Bos	Eukaryota
-CMS002_053a_Rb_S7_L004	Bos	Eukaryota
-CMS001_001_Ra_S1	Bos taurus	Eukaryota
-CMS001_003_Ra_S2	Bos taurus	Eukaryota
-CMS001_012_Ra_S4	Bos taurus	Eukaryota
-CMS001_015_Ra_S13	Bos taurus	Eukaryota
-CMS001_016_Ra_S6	Bos taurus	Eukaryota
-CMS001_022_Ra_S6	Bos taurus	Eukaryota
-CMS001_046_Ra_S3	Bos taurus	Eukaryota
-CMS001_057_Ra_S11	Bos taurus	Eukaryota
-CMS001_060_Ra_S12	Bos taurus	Eukaryota
-CMS001_043_Ra_S24	Ovis	Eukaryota
-CMS001_003_Ra_S2	Ovis aries musimon	Eukaryota
-CMS002_020e_Rb_S135_L004	Ovis aries musimon	Eukaryota
-CMS001_036_Ra_S20	Ovis aries	Eukaryota
-CMS001_053_Ra_S8	Ovis aries	Eukaryota
-CMS001_002_Ra_S1	Manis javanica	Eukaryota
-CMS001_003_Ra_S2	Ochotona princeps	Eukaryota
-CMS002_021a_Rb_S136_L004	Ochotona princeps	Eukaryota
-CMS001_013_Ra_S5	Leporidae	Eukaryota
-CMS001_013_Ra_S5	Oryctolagus cuniculus	Eukaryota
-CMS001_020_Ra_S15	Oryctolagus cuniculus	Eukaryota
-CMS001_021_Ra_S16	Rodentia	Eukaryota
-CMS002_039a_Rb_S173_L004	Rodentia	Eukaryota
-CMS002_040a_Rb_S174_L004	Rodentia	Eukaryota
-CMS002_047i_Rb_S2_L004	Rodentia	Eukaryota
-CMS002_028e_Rb_S158_L004	Dipodomys ordii	Eukaryota
-CMS002_038a_Rb_S172_L004	Dipodomys ordii	Eukaryota
-CMS001_005_Ra_S3	Cricetulus griseus	Eukaryota
-CMS002_035a_Rb_S169_L004	Cricetulus griseus	Eukaryota
-CMS001_025_Ra_S7	Mesocricetus auratus	Eukaryota
-CMS002_007a_Rb_S118_L004	Mesocricetus auratus	Eukaryota
-CMS002_038a_Rb_S172_L004	Peromyscus leucopus	Eukaryota
-CMS001_051_Ra_S8	Meriones unguiculatus	Eukaryota
-CMS002_007a_Rb_S118_L004	Mus	Eukaryota
-CMS001_001_Ra_S1	Mus musculus	Eukaryota
-CMS001_003_Ra_S2	Mus musculus	Eukaryota
-CMS001_005_Ra_S3	Mus musculus	Eukaryota
-CMS001_006_Ra_S5	Mus musculus	Eukaryota
-CMS001_007_Ra_S12	Mus musculus	Eukaryota
-CMS001_008_Ra_S3	Mus musculus	Eukaryota
-CMS001_009_Ra_S13	Mus musculus	Eukaryota
-CMS001_011_Ra_S4	Mus musculus	Eukaryota
-CMS001_012_Ra_S4	Mus musculus	Eukaryota
-CMS001_014_Ra_S5	Mus musculus	Eukaryota
-CMS001_016_Ra_S6	Mus musculus	Eukaryota
-CMS001_017_Ra_S6	Mus musculus	Eukaryota
-CMS001_020_Ra_S15	Mus musculus	Eukaryota
-CMS001_021_Ra_S16	Mus musculus	Eukaryota
-CMS001_023_Ra_S17	Mus musculus	Eukaryota
-CMS001_025_Ra_S7	Mus musculus	Eukaryota
-CMS001_026_Ra_S18	Mus musculus	Eukaryota
-CMS001_035_Ra_S20	Mus musculus	Eukaryota
-CMS001_050_Ra_S23	Mus musculus	Eukaryota
-CMS001_051_Ra_S8	Mus musculus	Eukaryota
-CMS001_052_Ra_S7	Mus musculus	Eukaryota
-CMS001_056_Ra_S10	Mus musculus	Eukaryota
-CMS001_057_Ra_S11	Mus musculus	Eukaryota
-CMS001_058_Ra_S9	Mus musculus	Eukaryota
-CMS001_060_Ra_S12	Mus musculus	Eukaryota
-CMS001_water2_S24	Mus musculus	Eukaryota
-CMS001_water3_Qiagen_S26	Mus musculus	Eukaryota
-CMS001_water4_Zymo_S27	Mus musculus	Eukaryota
-CMS002_007a_Rb_S118_L004	Mus musculus	Eukaryota
-CMS002_020a_Rb_S131_L004	Mus musculus	Eukaryota
-CMS002_021a_Rb_S136_L004	Mus musculus	Eukaryota
-CMS002_025c_Rb_S142_L004	Mus musculus	Eukaryota
-CMS002_029c_Rb_S161_L004	Mus musculus	Eukaryota
-CMS002_0Water1_Rb_S127_L004	Mus musculus	Eukaryota
-CMS002_0Water2_Rb_S139_L004	Mus musculus	Eukaryota
-CMS002_0Water5_Rb_S175_L004	Mus musculus	Eukaryota
-CMS002_0Water6_Rb_S187_L004	Mus musculus	Eukaryota
-CMS002_0Water7_Rb_S199_L004	Mus musculus	Eukaryota
-CMS001_016_Ra_S6	Rattus norvegicus	Eukaryota
-CMS001_017_Ra_S6	Rattus norvegicus	Eukaryota
-CMS001_028_Ra_S17	Rattus norvegicus	Eukaryota
-CMS001_048_Ra_S5	Rattus norvegicus	Eukaryota
-CMS001_049_Ra_S6	Rattus norvegicus	Eukaryota
-CMS001_058_Ra_S9	Rattus norvegicus	Eukaryota
-CMS001_060_Ra_S12	Rattus norvegicus	Eukaryota
-CMS002_021a_Rb_S136_L004	Rattus norvegicus	Eukaryota
-CMS002_031a_Rb_S165_L004	Rattus norvegicus	Eukaryota
-CMS002_032a_Rb_S166_L004	Rattus norvegicus	Eukaryota
-CMS002_033a_Rb_S167_L004	Rattus norvegicus	Eukaryota
-CMS001_039_Ra_S9	Octodon degus	Eukaryota
-CMS001_009_Ra_S13	Heterocephalus glaber	Eukaryota
-CMS001_060_Ra_S12	Heterocephalus glaber	Eukaryota
+CMS001_020_Ra_S15	Chordata	Chordata
+CMS002_007a_Rb_S118_L004	Chordata	Chordata
+CMS002_020d_Rb_S134_L004	Chordata	Chordata
+CMS001_036_Ra_S20	Ciona intestinalis	Chordata
+CMS002_029e_Rb_S164_L004	Ciona intestinalis	Chordata
+CMS001_023_Ra_S17	Branchiostoma floridae	Chordata
+CMS002_047d_Rb_S196_L004	Branchiostoma floridae	Chordata
+CMS001_001_Ra_S1	Branchiostoma belcheri	Chordata
+CMS001_042_Ra_S23	Branchiostoma belcheri	Chordata
+CMS002_041a_Rb_S176_L004	Branchiostoma belcheri	Chordata
+CMS002_020c_Rb_S133_L004	Vertebrata	Chordata
+CMS002_020a_Rb_S131_L004	Eptatretus burgeri	Chordata
+CMS001_005_Ra_S3	Gnathostomata	Chordata
+CMS001_020_Ra_S15	Gnathostomata	Chordata
+CMS001_025_Ra_S7	Gnathostomata	Chordata
+CMS002_020a_Rb_S131_L004	Gnathostomata	Chordata
+CMS002_021a_Rb_S136_L004	Gnathostomata	Chordata
+CMS001_003_Ra_S2	Callorhinchus milii	Chordata
+CMS001_005_Ra_S3	Callorhinchus milii	Chordata
+CMS001_008_Ra_S3	Callorhinchus milii	Chordata
+CMS001_009_Ra_S13	Callorhinchus milii	Chordata
+CMS001_014_Ra_S5	Callorhinchus milii	Chordata
+CMS001_025_Ra_S7	Callorhinchus milii	Chordata
+CMS001_026_Ra_S18	Callorhinchus milii	Chordata
+CMS001_060_Ra_S12	Callorhinchus milii	Chordata
+CMS001_water3_Qiagen_S26	Callorhinchus milii	Chordata
+CMS002_007a_Rb_S118_L004	Callorhinchus milii	Chordata
+CMS002_020a_Rb_S131_L004	Callorhinchus milii	Chordata
+CMS002_020c_Rb_S133_L004	Callorhinchus milii	Chordata
+CMS002_020e_Rb_S135_L004	Callorhinchus milii	Chordata
+CMS002_021a_Rb_S136_L004	Callorhinchus milii	Chordata
+CMS002_020d_Rb_S134_L004	Latimeria chalumnae	Chordata
+CMS002_020e_Rb_S135_L004	Latimeria chalumnae	Chordata
+CMS001_008_Ra_S3	Actinopterygii	Chordata
+CMS002_020b_Rb_S132_L004	Actinopterygii	Chordata
+CMS002_020d_Rb_S134_L004	Actinopterygii	Chordata
+CMS002_029a_Rb_S159_L004	Actinopterygii	Chordata
+CMS002_039a_Rb_S173_L004	Lepisosteus oculatus	Chordata
+CMS001_016_Ra_S6	Clupea harengus	Chordata
+CMS002_053a_Rb_S7_L004	Clupea harengus	Chordata
+CMS001_019_Ra_S14	Cyprinidae	Chordata
+CMS001_036_Ra_S20	Cyprinidae	Chordata
+CMS002_007a_Rb_S118_L004	Cyprinidae	Chordata
+CMS001_003_Ra_S2	Danio rerio	Chordata
+CMS001_005_Ra_S3	Danio rerio	Chordata
+CMS001_006_Ra_S5	Danio rerio	Chordata
+CMS001_007_Ra_S12	Danio rerio	Chordata
+CMS001_008_Ra_S3	Danio rerio	Chordata
+CMS001_011_Ra_S4	Danio rerio	Chordata
+CMS001_012_Ra_S4	Danio rerio	Chordata
+CMS001_013_Ra_S5	Danio rerio	Chordata
+CMS001_014_Ra_S5	Danio rerio	Chordata
+CMS001_015_Ra_S13	Danio rerio	Chordata
+CMS001_016_Ra_S6	Danio rerio	Chordata
+CMS001_017_Ra_S6	Danio rerio	Chordata
+CMS001_020_Ra_S15	Danio rerio	Chordata
+CMS001_021_Ra_S16	Danio rerio	Chordata
+CMS001_025_Ra_S7	Danio rerio	Chordata
+CMS001_026_Ra_S18	Danio rerio	Chordata
+CMS001_031_Ra_S19	Danio rerio	Chordata
+CMS001_035_Ra_S20	Danio rerio	Chordata
+CMS001_036_Ra_S20	Danio rerio	Chordata
+CMS001_038_Ra_S22	Danio rerio	Chordata
+CMS001_039_Ra_S9	Danio rerio	Chordata
+CMS001_043_Ra_S24	Danio rerio	Chordata
+CMS001_046_Ra_S3	Danio rerio	Chordata
+CMS001_050_Ra_S23	Danio rerio	Chordata
+CMS001_051_Ra_S8	Danio rerio	Chordata
+CMS001_053_Ra_S8	Danio rerio	Chordata
+CMS001_055_Ra_S9	Danio rerio	Chordata
+CMS001_056_Ra_S10	Danio rerio	Chordata
+CMS001_057_Ra_S11	Danio rerio	Chordata
+CMS001_060_Ra_S12	Danio rerio	Chordata
+CMS002_007a_Rb_S118_L004	Danio rerio	Chordata
+CMS002_020a_Rb_S131_L004	Danio rerio	Chordata
+CMS002_020b_Rb_S132_L004	Danio rerio	Chordata
+CMS002_020c_Rb_S133_L004	Danio rerio	Chordata
+CMS002_020e_Rb_S135_L004	Danio rerio	Chordata
+CMS002_021a_Rb_S136_L004	Danio rerio	Chordata
+CMS002_023a_Rb_S138_L004	Danio rerio	Chordata
+CMS002_028a_Rb_S154_L004	Danio rerio	Chordata
+CMS002_028b_Rb_S155_L004	Danio rerio	Chordata
+CMS002_028e_Rb_S158_L004	Danio rerio	Chordata
+CMS002_029a_Rb_S159_L004	Danio rerio	Chordata
+CMS002_029d_Rb_S162_L004	Danio rerio	Chordata
+CMS002_029e_Rb_S164_L004	Danio rerio	Chordata
+CMS002_031a_Rb_S165_L004	Danio rerio	Chordata
+CMS002_032a_Rb_S166_L004	Danio rerio	Chordata
+CMS002_033a_Rb_S167_L004	Danio rerio	Chordata
+CMS002_035a_Rb_S169_L004	Danio rerio	Chordata
+CMS002_038a_Rb_S172_L004	Danio rerio	Chordata
+CMS002_039a_Rb_S173_L004	Danio rerio	Chordata
+CMS002_040a_Rb_S174_L004	Danio rerio	Chordata
+CMS002_041a_Rb_S176_L004	Danio rerio	Chordata
+CMS002_042a_Rb_S177_L004	Danio rerio	Chordata
+CMS002_047a_Rb_S193_L004	Danio rerio	Chordata
+CMS002_047d_Rb_S196_L004	Danio rerio	Chordata
+CMS002_047e_Rb_S197_L004	Danio rerio	Chordata
+CMS002_047g_Rb_S200_L004	Danio rerio	Chordata
+CMS002_047h_Rb_S1_L004	Danio rerio	Chordata
+CMS002_047j_Rb_S3_L004	Danio rerio	Chordata
+CMS002_053a_Rb_S7_L004	Danio rerio	Chordata
+CMS002_056a_Rb_S9_L004	Danio rerio	Chordata
+CMS002_057a_Rb_S10_L004	Danio rerio	Chordata
+CMS001_003_Ra_S2	Carassius auratus	Chordata
+CMS001_008_Ra_S3	Carassius auratus	Chordata
+CMS001_025_Ra_S7	Carassius auratus	Chordata
+CMS002_021a_Rb_S136_L004	Carassius auratus	Chordata
+CMS001_001_Ra_S1	Cyprinus carpio	Chordata
+CMS001_002_Ra_S1	Cyprinus carpio	Chordata
+CMS001_003_Ra_S2	Cyprinus carpio	Chordata
+CMS001_005_Ra_S3	Cyprinus carpio	Chordata
+CMS001_006_Ra_S5	Cyprinus carpio	Chordata
+CMS001_007_Ra_S12	Cyprinus carpio	Chordata
+CMS001_008_Ra_S3	Cyprinus carpio	Chordata
+CMS001_009_Ra_S13	Cyprinus carpio	Chordata
+CMS001_012_Ra_S4	Cyprinus carpio	Chordata
+CMS001_013_Ra_S5	Cyprinus carpio	Chordata
+CMS001_014_Ra_S5	Cyprinus carpio	Chordata
+CMS001_016_Ra_S6	Cyprinus carpio	Chordata
+CMS001_017_Ra_S6	Cyprinus carpio	Chordata
+CMS001_019_Ra_S14	Cyprinus carpio	Chordata
+CMS001_020_Ra_S15	Cyprinus carpio	Chordata
+CMS001_021_Ra_S16	Cyprinus carpio	Chordata
+CMS001_024_Ra_S15	Cyprinus carpio	Chordata
+CMS001_025_Ra_S7	Cyprinus carpio	Chordata
+CMS001_026_Ra_S18	Cyprinus carpio	Chordata
+CMS001_028_Ra_S17	Cyprinus carpio	Chordata
+CMS001_031_Ra_S19	Cyprinus carpio	Chordata
+CMS001_032_Ra_S7	Cyprinus carpio	Chordata
+CMS001_033_Ra_S8	Cyprinus carpio	Chordata
+CMS001_035_Ra_S20	Cyprinus carpio	Chordata
+CMS001_036_Ra_S20	Cyprinus carpio	Chordata
+CMS001_037_Ra_S21	Cyprinus carpio	Chordata
+CMS001_039_Ra_S9	Cyprinus carpio	Chordata
+CMS001_042_Ra_S23	Cyprinus carpio	Chordata
+CMS001_043_Ra_S24	Cyprinus carpio	Chordata
+CMS001_045_Ra_S2	Cyprinus carpio	Chordata
+CMS001_050_Ra_S23	Cyprinus carpio	Chordata
+CMS001_051_Ra_S8	Cyprinus carpio	Chordata
+CMS001_059_Ra_S10	Cyprinus carpio	Chordata
+CMS001_060_Ra_S12	Cyprinus carpio	Chordata
+CMS002_007a_Rb_S118_L004	Cyprinus carpio	Chordata
+CMS002_020a_Rb_S131_L004	Cyprinus carpio	Chordata
+CMS002_020b_Rb_S132_L004	Cyprinus carpio	Chordata
+CMS002_020e_Rb_S135_L004	Cyprinus carpio	Chordata
+CMS002_021a_Rb_S136_L004	Cyprinus carpio	Chordata
+CMS002_028a_Rb_S154_L004	Cyprinus carpio	Chordata
+CMS002_028b_Rb_S155_L004	Cyprinus carpio	Chordata
+CMS002_028c_Rb_S156_L004	Cyprinus carpio	Chordata
+CMS002_029a_Rb_S159_L004	Cyprinus carpio	Chordata
+CMS002_029b_Rb_S160_L004	Cyprinus carpio	Chordata
+CMS002_029d_Rb_S162_L004	Cyprinus carpio	Chordata
+CMS002_031a_Rb_S165_L004	Cyprinus carpio	Chordata
+CMS002_032a_Rb_S166_L004	Cyprinus carpio	Chordata
+CMS002_033a_Rb_S167_L004	Cyprinus carpio	Chordata
+CMS002_035a_Rb_S169_L004	Cyprinus carpio	Chordata
+CMS002_039a_Rb_S173_L004	Cyprinus carpio	Chordata
+CMS002_040a_Rb_S174_L004	Cyprinus carpio	Chordata
+CMS002_041a_Rb_S176_L004	Cyprinus carpio	Chordata
+CMS002_047a_Rb_S193_L004	Cyprinus carpio	Chordata
+CMS002_047c_Rb_S195_L004	Cyprinus carpio	Chordata
+CMS002_047d_Rb_S196_L004	Cyprinus carpio	Chordata
+CMS002_047e_Rb_S197_L004	Cyprinus carpio	Chordata
+CMS002_047i_Rb_S2_L004	Cyprinus carpio	Chordata
+CMS002_053a_Rb_S7_L004	Cyprinus carpio	Chordata
+CMS002_056a_Rb_S9_L004	Cyprinus carpio	Chordata
+CMS001_021_Ra_S16	Astyanax mexicanus	Chordata
+CMS001_045_Ra_S2	Astyanax mexicanus	Chordata
+CMS002_007a_Rb_S118_L004	Astyanax mexicanus	Chordata
+CMS002_028b_Rb_S155_L004	Astyanax mexicanus	Chordata
+CMS002_028c_Rb_S156_L004	Astyanax mexicanus	Chordata
+CMS002_047h_Rb_S1_L004	Astyanax mexicanus	Chordata
+CMS001_017_Ra_S6	Ictalurus punctatus	Chordata
+CMS001_021_Ra_S16	Ictalurus punctatus	Chordata
+CMS001_036_Ra_S20	Ictalurus punctatus	Chordata
+CMS001_048_Ra_S5	Ictalurus punctatus	Chordata
+CMS002_020d_Rb_S134_L004	Ictalurus punctatus	Chordata
+CMS002_028e_Rb_S158_L004	Ictalurus punctatus	Chordata
+CMS002_053a_Rb_S7_L004	Ictalurus punctatus	Chordata
+CMS001_039_Ra_S9	Esox lucius	Chordata
+CMS002_007a_Rb_S118_L004	Esox lucius	Chordata
+CMS002_029b_Rb_S160_L004	Esox lucius	Chordata
+CMS001_004_Ra_S2	Oncorhynchus kisutch	Chordata
+CMS001_009_Ra_S13	Oncorhynchus kisutch	Chordata
+CMS002_020a_Rb_S131_L004	Oncorhynchus kisutch	Chordata
+CMS002_020d_Rb_S134_L004	Oncorhynchus kisutch	Chordata
+CMS002_020e_Rb_S135_L004	Oncorhynchus kisutch	Chordata
+CMS002_021a_Rb_S136_L004	Oncorhynchus kisutch	Chordata
+CMS002_022a_Rb_S137_L004	Oncorhynchus kisutch	Chordata
+CMS001_014_Ra_S5	Oncorhynchus mykiss	Chordata
+CMS001_026_Ra_S18	Oncorhynchus mykiss	Chordata
+CMS002_053a_Rb_S7_L004	Oncorhynchus mykiss	Chordata
+CMS001_005_Ra_S3	Salmo salar	Chordata
+CMS001_020_Ra_S15	Salmo salar	Chordata
+CMS002_028e_Rb_S158_L004	Salmo salar	Chordata
+CMS002_039a_Rb_S173_L004	Salmo salar	Chordata
+CMS002_029b_Rb_S160_L004	Salvelinus alpinus	Chordata
+CMS002_032a_Rb_S166_L004	Salvelinus alpinus	Chordata
+CMS002_053a_Rb_S7_L004	Salvelinus alpinus	Chordata
+CMS001_047_Ra_S4	Fundulus heteroclitus	Chordata
+CMS001_001_Ra_S1	Poecilia	Chordata
+CMS001_013_Ra_S5	Poecilia	Chordata
+CMS001_015_Ra_S13	Poecilia	Chordata
+CMS001_017_Ra_S6	Poecilia	Chordata
+CMS001_021_Ra_S16	Poecilia	Chordata
+CMS001_049_Ra_S6	Poecilia	Chordata
+CMS001_005_Ra_S3	Xiphophorus	Chordata
+CMS002_007a_Rb_S118_L004	Xiphophorus	Chordata
+CMS002_020e_Rb_S135_L004	Xiphophorus	Chordata
+CMS001_002_Ra_S1	Oryzias latipes	Chordata
+CMS001_003_Ra_S2	Oryzias latipes	Chordata
+CMS001_005_Ra_S3	Oryzias latipes	Chordata
+CMS001_006_Ra_S5	Oryzias latipes	Chordata
+CMS001_007_Ra_S12	Oryzias latipes	Chordata
+CMS001_008_Ra_S3	Oryzias latipes	Chordata
+CMS001_011_Ra_S4	Oryzias latipes	Chordata
+CMS001_012_Ra_S4	Oryzias latipes	Chordata
+CMS001_013_Ra_S5	Oryzias latipes	Chordata
+CMS001_014_Ra_S5	Oryzias latipes	Chordata
+CMS001_015_Ra_S13	Oryzias latipes	Chordata
+CMS001_017_Ra_S6	Oryzias latipes	Chordata
+CMS001_020_Ra_S15	Oryzias latipes	Chordata
+CMS001_021_Ra_S16	Oryzias latipes	Chordata
+CMS001_024_Ra_S15	Oryzias latipes	Chordata
+CMS001_025_Ra_S7	Oryzias latipes	Chordata
+CMS001_031_Ra_S19	Oryzias latipes	Chordata
+CMS001_033_Ra_S8	Oryzias latipes	Chordata
+CMS001_035_Ra_S20	Oryzias latipes	Chordata
+CMS001_036_Ra_S20	Oryzias latipes	Chordata
+CMS001_037_Ra_S21	Oryzias latipes	Chordata
+CMS001_042_Ra_S23	Oryzias latipes	Chordata
+CMS001_043_Ra_S24	Oryzias latipes	Chordata
+CMS001_045_Ra_S2	Oryzias latipes	Chordata
+CMS001_049_Ra_S6	Oryzias latipes	Chordata
+CMS001_051_Ra_S8	Oryzias latipes	Chordata
+CMS001_053_Ra_S8	Oryzias latipes	Chordata
+CMS001_055_Ra_S9	Oryzias latipes	Chordata
+CMS001_057_Ra_S11	Oryzias latipes	Chordata
+CMS001_058_Ra_S9	Oryzias latipes	Chordata
+CMS001_060_Ra_S12	Oryzias latipes	Chordata
+CMS002_007a_Rb_S118_L004	Oryzias latipes	Chordata
+CMS002_020a_Rb_S131_L004	Oryzias latipes	Chordata
+CMS002_020b_Rb_S132_L004	Oryzias latipes	Chordata
+CMS002_020d_Rb_S134_L004	Oryzias latipes	Chordata
+CMS002_021a_Rb_S136_L004	Oryzias latipes	Chordata
+CMS002_022a_Rb_S137_L004	Oryzias latipes	Chordata
+CMS002_028b_Rb_S155_L004	Oryzias latipes	Chordata
+CMS002_028e_Rb_S158_L004	Oryzias latipes	Chordata
+CMS002_029a_Rb_S159_L004	Oryzias latipes	Chordata
+CMS002_029b_Rb_S160_L004	Oryzias latipes	Chordata
+CMS002_029c_Rb_S161_L004	Oryzias latipes	Chordata
+CMS002_031a_Rb_S165_L004	Oryzias latipes	Chordata
+CMS002_032a_Rb_S166_L004	Oryzias latipes	Chordata
+CMS002_033a_Rb_S167_L004	Oryzias latipes	Chordata
+CMS002_038a_Rb_S172_L004	Oryzias latipes	Chordata
+CMS002_039a_Rb_S173_L004	Oryzias latipes	Chordata
+CMS002_040a_Rb_S174_L004	Oryzias latipes	Chordata
+CMS002_042a_Rb_S177_L004	Oryzias latipes	Chordata
+CMS002_045c_Rb_S185_L004	Oryzias latipes	Chordata
+CMS002_047a_Rb_S193_L004	Oryzias latipes	Chordata
+CMS002_047c_Rb_S195_L004	Oryzias latipes	Chordata
+CMS002_047d_Rb_S196_L004	Oryzias latipes	Chordata
+CMS002_047f_Rb_S198_L004	Oryzias latipes	Chordata
+CMS002_047i_Rb_S2_L004	Oryzias latipes	Chordata
+CMS002_047j_Rb_S3_L004	Oryzias latipes	Chordata
+CMS002_051a_Rb_S6_L004	Oryzias latipes	Chordata
+CMS002_053a_Rb_S7_L004	Oryzias latipes	Chordata
+CMS002_056a_Rb_S9_L004	Oryzias latipes	Chordata
+CMS001_005_Ra_S3	Oreochromis niloticus	Chordata
+CMS001_020_Ra_S15	Oreochromis niloticus	Chordata
+CMS002_007a_Rb_S118_L004	Oreochromis niloticus	Chordata
+CMS002_029a_Rb_S159_L004	Oreochromis niloticus	Chordata
+CMS002_032a_Rb_S166_L004	Oreochromis niloticus	Chordata
+CMS002_020a_Rb_S131_L004	Haplochromis burtoni	Chordata
+CMS002_021a_Rb_S136_L004	Haplochromis burtoni	Chordata
+CMS002_032a_Rb_S166_L004	Seriola	Chordata
+CMS001_006_Ra_S5	Lates calcarifer	Chordata
+CMS001_013_Ra_S5	Lates calcarifer	Chordata
+CMS001_016_Ra_S6	Lates calcarifer	Chordata
+CMS001_026_Ra_S18	Lates calcarifer	Chordata
+CMS001_060_Ra_S12	Lates calcarifer	Chordata
+CMS002_053a_Rb_S7_L004	Lates calcarifer	Chordata
+CMS002_053a_Rb_S7_L004	Notothenia coriiceps	Chordata
+CMS001_051_Ra_S8	Paralichthys olivaceus	Chordata
+CMS002_029a_Rb_S159_L004	Paralichthys olivaceus	Chordata
+CMS002_053a_Rb_S7_L004	Paralichthys olivaceus	Chordata
+CMS002_032a_Rb_S166_L004	Xenopus	Chordata
+CMS001_009_Ra_S13	Xenopus laevis	Chordata
+CMS001_012_Ra_S4	Xenopus laevis	Chordata
+CMS001_050_Ra_S23	Xenopus laevis	Chordata
+CMS002_007a_Rb_S118_L004	Xenopus laevis	Chordata
+CMS002_020a_Rb_S131_L004	Xenopus laevis	Chordata
+CMS002_033a_Rb_S167_L004	Xenopus laevis	Chordata
+CMS001_003_Ra_S2	Xenopus tropicalis	Chordata
+CMS001_036_Ra_S20	Xenopus tropicalis	Chordata
+CMS002_020a_Rb_S131_L004	Xenopus tropicalis	Chordata
+CMS002_021a_Rb_S136_L004	Xenopus tropicalis	Chordata
+CMS002_029a_Rb_S159_L004	Xenopus tropicalis	Chordata
+CMS002_031a_Rb_S165_L004	Xenopus tropicalis	Chordata
+CMS002_035a_Rb_S169_L004	Xenopus tropicalis	Chordata
+CMS002_037a_Rb_S171_L004	Xenopus tropicalis	Chordata
+CMS001_031_Ra_S19	Chrysemys picta bellii	Chordata
+CMS002_031a_Rb_S165_L004	Chrysemys picta bellii	Chordata
+CMS001_029_Ra_S18	Archosauria	Chordata
+CMS001_010_Ra_S1	Alligator	Chordata
+CMS001_052_Ra_S7	Alligator	Chordata
+CMS001_001_Ra_S1	Alligator mississippiensis	Chordata
+CMS001_017_Ra_S6	Alligator mississippiensis	Chordata
+CMS001_035_Ra_S20	Alligator mississippiensis	Chordata
+CMS001_045_Ra_S2	Alligator mississippiensis	Chordata
+CMS001_050_Ra_S23	Alligator mississippiensis	Chordata
+CMS001_052_Ra_S7	Alligator mississippiensis	Chordata
+CMS001_057_Ra_S11	Alligator mississippiensis	Chordata
+CMS002_020e_Rb_S135_L004	Alligator mississippiensis	Chordata
+CMS002_028d_Rb_S157_L004	Alligator mississippiensis	Chordata
+CMS002_047d_Rb_S196_L004	Alligator mississippiensis	Chordata
+CMS002_047i_Rb_S2_L004	Alligator mississippiensis	Chordata
+CMS002_047j_Rb_S3_L004	Alligator mississippiensis	Chordata
+CMS001_026_Ra_S18	Crocodylus porosus	Chordata
+CMS001_036_Ra_S20	Crocodylus porosus	Chordata
+CMS002_021a_Rb_S136_L004	Crocodylus porosus	Chordata
+CMS002_032a_Rb_S166_L004	Crocodylus porosus	Chordata
+CMS002_034a_Rb_S168_L004	Crocodylus porosus	Chordata
+CMS002_035a_Rb_S169_L004	Crocodylus porosus	Chordata
+CMS002_028e_Rb_S158_L004	Iguania	Chordata
+CMS002_020e_Rb_S135_L004	Pseudonaja textilis	Chordata
+CMS002_053a_Rb_S7_L004	Pseudonaja textilis	Chordata
+CMS001_023_Ra_S17	Aves	Chordata
+CMS001_027_Ra_S16	Aves	Chordata
+CMS001_029_Ra_S18	Aves	Chordata
+CMS001_032_Ra_S7	Aves	Chordata
+CMS001_037_Ra_S21	Aves	Chordata
+CMS001_043_Ra_S24	Aves	Chordata
+CMS001_050_Ra_S23	Aves	Chordata
+CMS001_water3_Qiagen_S26	Palaeognathae	Chordata
+CMS002_053a_Rb_S7_L004	Dromaius novaehollandiae	Chordata
+CMS001_027_Ra_S16	Neognathae	Chordata
+CMS001_029_Ra_S18	Neognathae	Chordata
+CMS001_032_Ra_S7	Neognathae	Chordata
+CMS001_037_Ra_S21	Neognathae	Chordata
+CMS001_043_Ra_S24	Neognathae	Chordata
+CMS001_047_Ra_S4	Neognathae	Chordata
+CMS001_050_Ra_S23	Neognathae	Chordata
+CMS001_059_Ra_S10	Neognathae	Chordata
+CMS001_water3_Qiagen_S26	Neognathae	Chordata
+CMS001_023_Ra_S17	Anatidae	Chordata
+CMS001_003_Ra_S2	Anas platyrhynchos	Chordata
+CMS001_008_Ra_S3	Anas platyrhynchos	Chordata
+CMS001_023_Ra_S17	Anas platyrhynchos	Chordata
+CMS002_028e_Rb_S158_L004	Anas platyrhynchos	Chordata
+CMS002_033a_Rb_S167_L004	Anas platyrhynchos	Chordata
+CMS002_047a_Rb_S193_L004	Anas platyrhynchos	Chordata
+CMS001_050_Ra_S23	Nycticorax nycticorax	Chordata
+CMS001_032_Ra_S7	Columbidae	Chordata
+CMS001_050_Ra_S23	Columbidae	Chordata
+CMS001_021_Ra_S16	Falco	Chordata
+CMS001_043_Ra_S24	Falco	Chordata
+CMS001_036_Ra_S20	Falco peregrinus	Chordata
+CMS001_032_Ra_S7	Haliaeetus albicilla	Chordata
+CMS002_039a_Rb_S173_L004	Callipepla squamata	Chordata
+CMS001_006_Ra_S5	Gallus gallus	Chordata
+CMS001_017_Ra_S6	Gallus gallus	Chordata
+CMS001_021_Ra_S16	Gallus gallus	Chordata
+CMS001_033_Ra_S8	Gallus gallus	Chordata
+CMS001_060_Ra_S12	Gallus gallus	Chordata
+CMS002_007a_Rb_S118_L004	Gallus gallus	Chordata
+CMS002_020a_Rb_S131_L004	Gallus gallus	Chordata
+CMS002_021a_Rb_S136_L004	Gallus gallus	Chordata
+CMS002_053a_Rb_S7_L004	Gallus gallus	Chordata
+CMS002_037a_Rb_S171_L004	Meleagris gallopavo	Chordata
+CMS002_047b_Rb_S194_L004	Meleagris gallopavo	Chordata
+CMS002_047h_Rb_S1_L004	Meleagris gallopavo	Chordata
+CMS001_001_Ra_S1	Passeriformes	Chordata
+CMS001_027_Ra_S16	Passeriformes	Chordata
+CMS001_029_Ra_S18	Passeriformes	Chordata
+CMS001_032_Ra_S7	Passeriformes	Chordata
+CMS001_043_Ra_S24	Passeriformes	Chordata
+CMS001_047_Ra_S4	Passeriformes	Chordata
+CMS001_050_Ra_S23	Passeriformes	Chordata
+CMS001_059_Ra_S10	Passeriformes	Chordata
+CMS001_water3_Qiagen_S26	Passeriformes	Chordata
+CMS001_027_Ra_S16	Serinus canaria	Chordata
+CMS001_029_Ra_S18	Serinus canaria	Chordata
+CMS001_032_Ra_S7	Serinus canaria	Chordata
+CMS001_043_Ra_S24	Serinus canaria	Chordata
+CMS001_001_Ra_S1	Parus major	Chordata
+CMS001_020_Ra_S15	Parus major	Chordata
+CMS001_027_Ra_S16	Parus major	Chordata
+CMS001_043_Ra_S24	Parus major	Chordata
+CMS001_058_Ra_S9	Parus major	Chordata
+CMS001_059_Ra_S10	Parus major	Chordata
+CMS001_043_Ra_S24	Sturnus vulgaris	Chordata
+CMS001_water3_Qiagen_S26	Sturnus vulgaris	Chordata
+CMS001_011_Ra_S4	Calypte anna	Chordata
+CMS002_013a_Rb_S120_L004	Calypte anna	Chordata
+CMS002_020a_Rb_S131_L004	Ornithorhynchus anatinus	Chordata
+CMS001_033_Ra_S8	Sarcophilus harrisii	Chordata
+CMS001_006_Ra_S5	Notamacropus eugenii	Chordata
+CMS001_017_Ra_S6	Notamacropus eugenii	Chordata
+CMS002_028b_Rb_S155_L004	Notamacropus eugenii	Chordata
+CMS002_028c_Rb_S156_L004	Notamacropus eugenii	Chordata
+CMS002_047c_Rb_S195_L004	Notamacropus eugenii	Chordata
+CMS002_047f_Rb_S198_L004	Notamacropus eugenii	Chordata
+CMS001_004_Ra_S2	Eutheria	Chordata
+CMS001_011_Ra_S4	Eutheria	Chordata
+CMS001_028_Ra_S17	Eutheria	Chordata
+CMS001_030_Ra_S7	Eutheria	Chordata
+CMS001_031_Ra_S19	Eutheria	Chordata
+CMS001_048_Ra_S5	Eutheria	Chordata
+CMS001_060_Ra_S12	Dasypus novemcinctus	Chordata
+CMS002_038a_Rb_S172_L004	Dasypus novemcinctus	Chordata
+CMS001_026_Ra_S18	Atelerix albiventris	Chordata
+CMS002_053a_Rb_S7_L004	Pteropus	Chordata
+CMS002_020e_Rb_S135_L004	Pteropus alecto	Chordata
+CMS002_033a_Rb_S167_L004	Pteropus alecto	Chordata
+CMS001_006_Ra_S5	Rousettus aegyptiacus	Chordata
+CMS001_035_Ra_S20	Rousettus aegyptiacus	Chordata
+CMS002_053a_Rb_S7_L004	Rousettus aegyptiacus	Chordata
+CMS002_020a_Rb_S131_L004	Myotis	Chordata
+CMS002_033a_Rb_S167_L004	Myotis	Chordata
+CMS001_060_Ra_S12	Callithrix jacchus	Chordata
+CMS001_006_Ra_S5	Cebidae	Chordata
+CMS002_028a_Rb_S154_L004	Cebidae	Chordata
+CMS002_053a_Rb_S7_L004	Cebidae	Chordata
+CMS001_water3_Qiagen_S26	Catarrhini	Chordata
+CMS001_016_Ra_S6	Cercopithecinae	Chordata
+CMS002_020c_Rb_S133_L004	Cercopithecinae	Chordata
+CMS002_021a_Rb_S136_L004	Cercopithecinae	Chordata
+CMS002_029a_Rb_S159_L004	Cercopithecinae	Chordata
+CMS002_033a_Rb_S167_L004	Cercopithecinae	Chordata
+CMS002_035a_Rb_S169_L004	Chlorocebus aethiops	Chordata
+CMS001_005_Ra_S3	Macaca mulatta	Chordata
+CMS001_011_Ra_S4	Macaca mulatta	Chordata
+CMS001_016_Ra_S6	Macaca mulatta	Chordata
+CMS001_031_Ra_S19	Macaca mulatta	Chordata
+CMS001_060_Ra_S12	Macaca mulatta	Chordata
+CMS002_007a_Rb_S118_L004	Macaca mulatta	Chordata
+CMS002_032a_Rb_S166_L004	Macaca mulatta	Chordata
+CMS002_035a_Rb_S169_L004	Macaca mulatta	Chordata
+CMS002_041a_Rb_S176_L004	Macaca mulatta	Chordata
+CMS002_021a_Rb_S136_L004	Macaca nemestrina	Chordata
+CMS002_040a_Rb_S174_L004	Mandrillus leucophaeus	Chordata
+CMS002_053a_Rb_S7_L004	Mandrillus leucophaeus	Chordata
+CMS002_032a_Rb_S166_L004	Gorilla gorilla gorilla	Chordata
+CMS001_005_Ra_S3	Pan	Chordata
+CMS001_025_Ra_S7	Pan troglodytes	Chordata
+CMS001_026_Ra_S18	Pan troglodytes	Chordata
+CMS002_020e_Rb_S135_L004	Pan troglodytes	Chordata
+CMS002_033a_Rb_S167_L004	Pan troglodytes	Chordata
+CMS002_053a_Rb_S7_L004	Pan troglodytes	Chordata
+CMS001_005_Ra_S3	Pongo abelii	Chordata
+CMS001_017_Ra_S6	Pongo abelii	Chordata
+CMS001_021_Ra_S16	Pongo abelii	Chordata
+CMS001_035_Ra_S20	Pongo abelii	Chordata
+CMS001_058_Ra_S9	Pongo abelii	Chordata
+CMS001_060_Ra_S12	Pongo abelii	Chordata
+CMS002_007a_Rb_S118_L004	Pongo abelii	Chordata
+CMS002_042a_Rb_S177_L004	Pongo abelii	Chordata
+CMS002_047d_Rb_S196_L004	Pongo abelii	Chordata
+CMS002_047j_Rb_S3_L004	Pongo abelii	Chordata
+CMS002_053a_Rb_S7_L004	Pongo abelii	Chordata
+CMS002_056a_Rb_S9_L004	Pongo abelii	Chordata
+CMS002_020a_Rb_S131_L004	Hominidae	Chordata
+CMS002_020e_Rb_S135_L004	Hominidae	Chordata
+CMS001_005_Ra_S3	Homo sapiens	Chordata
+CMS001_008_Ra_S3	Homo sapiens	Chordata
+CMS001_016_Ra_S6	Homo sapiens	Chordata
+CMS001_water3_Qiagen_S26	Homo sapiens	Chordata
+CMS001_water4_Zymo_S27	Homo sapiens	Chordata
+CMS002_021a_Rb_S136_L004	Homo sapiens	Chordata
+CMS002_0Water5_Rb_S175_L004	Homo sapiens	Chordata
+CMS001_027_Ra_S16	Canis lupus	Chordata
+CMS001_037_Ra_S21	Canis lupus familiaris	Chordata
+CMS001_042_Ra_S23	Canis lupus familiaris	Chordata
+CMS002_039a_Rb_S173_L004	Canis lupus familiaris	Chordata
+CMS002_023a_Rb_S138_L004	Vulpes vulpes	Chordata
+CMS001_006_Ra_S5	Ailuropoda melanoleuca	Chordata
+CMS001_007_Ra_S12	Ailuropoda melanoleuca	Chordata
+CMS001_004_Ra_S2	Procyon lotor	Chordata
+CMS001_028_Ra_S17	Procyon lotor	Chordata
+CMS001_030_Ra_S7	Procyon lotor	Chordata
+CMS001_031_Ra_S19	Procyon lotor	Chordata
+CMS002_007a_Rb_S118_L004	Mustelidae	Chordata
+CMS001_021_Ra_S16	Mustela putorius furo	Chordata
+CMS001_019_Ra_S14	Felis	Chordata
+CMS001_042_Ra_S23	Felis	Chordata
+CMS001_019_Ra_S14	Felis catus	Chordata
+CMS001_042_Ra_S23	Felis catus	Chordata
+CMS002_028a_Rb_S154_L004	Otariidae	Chordata
+CMS002_053a_Rb_S7_L004	Otariidae	Chordata
+CMS002_021a_Rb_S136_L004	Odobenus rosmarus divergens	Chordata
+CMS001_036_Ra_S20	Odontoceti	Chordata
+CMS001_050_Ra_S23	Tursiops truncatus	Chordata
+CMS001_012_Ra_S4	Equus caballus	Chordata
+CMS001_042_Ra_S23	Equus caballus	Chordata
+CMS001_060_Ra_S12	Equus caballus	Chordata
+CMS002_007a_Rb_S118_L004	Equus caballus	Chordata
+CMS002_047f_Rb_S198_L004	Equus caballus	Chordata
+CMS002_053a_Rb_S7_L004	Equus caballus	Chordata
+CMS001_026_Ra_S18	Equus przewalskii	Chordata
+CMS001_001_Ra_S1	Sus scrofa	Chordata
+CMS001_015_Ra_S13	Sus scrofa	Chordata
+CMS001_025_Ra_S7	Sus scrofa	Chordata
+CMS001_026_Ra_S18	Sus scrofa	Chordata
+CMS001_036_Ra_S20	Sus scrofa	Chordata
+CMS001_045_Ra_S2	Sus scrofa	Chordata
+CMS001_051_Ra_S8	Sus scrofa	Chordata
+CMS001_056_Ra_S10	Sus scrofa	Chordata
+CMS002_021a_Rb_S136_L004	Sus scrofa	Chordata
+CMS002_031a_Rb_S165_L004	Sus scrofa	Chordata
+CMS002_032a_Rb_S166_L004	Sus scrofa	Chordata
+CMS002_034a_Rb_S168_L004	Sus scrofa	Chordata
+CMS002_039a_Rb_S173_L004	Sus scrofa	Chordata
+CMS002_041a_Rb_S176_L004	Sus scrofa	Chordata
+CMS002_047h_Rb_S1_L004	Sus scrofa	Chordata
+CMS002_056a_Rb_S9_L004	Sus scrofa	Chordata
+CMS001_026_Ra_S18	Camelidae	Chordata
+CMS001_001_Ra_S1	Cervidae	Chordata
+CMS001_009_Ra_S13	Cervidae	Chordata
+CMS001_025_Ra_S7	Cervidae	Chordata
+CMS001_036_Ra_S20	Cervidae	Chordata
+CMS001_003_Ra_S2	Odocoileus	Chordata
+CMS001_012_Ra_S4	Odocoileus	Chordata
+CMS001_016_Ra_S6	Odocoileus	Chordata
+CMS001_035_Ra_S20	Odocoileus	Chordata
+CMS001_001_Ra_S1	Odocoileus hemionus	Chordata
+CMS001_012_Ra_S4	Odocoileus hemionus	Chordata
+CMS001_016_Ra_S6	Odocoileus hemionus	Chordata
+CMS001_022_Ra_S6	Odocoileus hemionus	Chordata
+CMS001_036_Ra_S20	Odocoileus hemionus	Chordata
+CMS001_009_Ra_S13	Odocoileus hemionus hemionus	Chordata
+CMS001_010_Ra_S1	Odocoileus hemionus hemionus	Chordata
+CMS001_025_Ra_S7	Odocoileus hemionus hemionus	Chordata
+CMS001_001_Ra_S1	Odocoileus virginianus texanus	Chordata
+CMS001_003_Ra_S2	Odocoileus virginianus texanus	Chordata
+CMS001_012_Ra_S4	Odocoileus virginianus texanus	Chordata
+CMS001_016_Ra_S6	Odocoileus virginianus texanus	Chordata
+CMS001_022_Ra_S6	Odocoileus virginianus texanus	Chordata
+CMS001_052_Ra_S7	Odocoileus virginianus texanus	Chordata
+CMS001_060_Ra_S12	Odocoileus virginianus texanus	Chordata
+CMS002_053a_Rb_S7_L004	Odocoileus virginianus texanus	Chordata
+CMS001_001_Ra_S1	Odocoileinae	Chordata
+CMS001_003_Ra_S2	Odocoileinae	Chordata
+CMS001_008_Ra_S3	Odocoileinae	Chordata
+CMS001_010_Ra_S1	Odocoileinae	Chordata
+CMS001_012_Ra_S4	Odocoileinae	Chordata
+CMS001_015_Ra_S13	Odocoileinae	Chordata
+CMS001_018_Ra_S14	Odocoileinae	Chordata
+CMS001_022_Ra_S6	Odocoileinae	Chordata
+CMS001_025_Ra_S7	Odocoileinae	Chordata
+CMS001_036_Ra_S20	Odocoileinae	Chordata
+CMS001_038_Ra_S22	Odocoileinae	Chordata
+CMS001_045_Ra_S2	Odocoileinae	Chordata
+CMS001_046_Ra_S3	Odocoileinae	Chordata
+CMS001_052_Ra_S7	Odocoileinae	Chordata
+CMS001_053_Ra_S8	Odocoileinae	Chordata
+CMS001_057_Ra_S11	Odocoileinae	Chordata
+CMS001_060_Ra_S12	Odocoileinae	Chordata
+CMS001_036_Ra_S20	Muntiacus	Chordata
+CMS001_001_Ra_S1	Bovidae	Chordata
+CMS001_003_Ra_S2	Bovidae	Chordata
+CMS001_008_Ra_S3	Bovidae	Chordata
+CMS001_009_Ra_S13	Bovidae	Chordata
+CMS001_010_Ra_S1	Bovidae	Chordata
+CMS001_012_Ra_S4	Bovidae	Chordata
+CMS001_015_Ra_S13	Bovidae	Chordata
+CMS001_016_Ra_S6	Bovidae	Chordata
+CMS001_018_Ra_S14	Bovidae	Chordata
+CMS001_022_Ra_S6	Bovidae	Chordata
+CMS001_035_Ra_S20	Bovidae	Chordata
+CMS001_036_Ra_S20	Bovidae	Chordata
+CMS001_038_Ra_S22	Bovidae	Chordata
+CMS001_045_Ra_S2	Bovidae	Chordata
+CMS001_046_Ra_S3	Bovidae	Chordata
+CMS001_052_Ra_S7	Bovidae	Chordata
+CMS001_053_Ra_S8	Bovidae	Chordata
+CMS001_057_Ra_S11	Bovidae	Chordata
+CMS001_060_Ra_S12	Bovidae	Chordata
+CMS002_020a_Rb_S131_L004	Bovidae	Chordata
+CMS001_022_Ra_S6	Bos	Chordata
+CMS001_036_Ra_S20	Bos	Chordata
+CMS001_060_Ra_S12	Bos	Chordata
+CMS002_053a_Rb_S7_L004	Bos	Chordata
+CMS001_001_Ra_S1	Bos taurus	Chordata
+CMS001_003_Ra_S2	Bos taurus	Chordata
+CMS001_012_Ra_S4	Bos taurus	Chordata
+CMS001_015_Ra_S13	Bos taurus	Chordata
+CMS001_016_Ra_S6	Bos taurus	Chordata
+CMS001_022_Ra_S6	Bos taurus	Chordata
+CMS001_046_Ra_S3	Bos taurus	Chordata
+CMS001_057_Ra_S11	Bos taurus	Chordata
+CMS001_060_Ra_S12	Bos taurus	Chordata
+CMS001_043_Ra_S24	Ovis	Chordata
+CMS001_003_Ra_S2	Ovis aries musimon	Chordata
+CMS002_020e_Rb_S135_L004	Ovis aries musimon	Chordata
+CMS001_036_Ra_S20	Ovis aries	Chordata
+CMS001_053_Ra_S8	Ovis aries	Chordata
+CMS001_002_Ra_S1	Manis javanica	Chordata
+CMS001_003_Ra_S2	Ochotona princeps	Chordata
+CMS002_021a_Rb_S136_L004	Ochotona princeps	Chordata
+CMS001_013_Ra_S5	Leporidae	Chordata
+CMS001_013_Ra_S5	Oryctolagus cuniculus	Chordata
+CMS001_020_Ra_S15	Oryctolagus cuniculus	Chordata
+CMS001_021_Ra_S16	Rodentia	Chordata
+CMS002_039a_Rb_S173_L004	Rodentia	Chordata
+CMS002_040a_Rb_S174_L004	Rodentia	Chordata
+CMS002_047i_Rb_S2_L004	Rodentia	Chordata
+CMS002_028e_Rb_S158_L004	Dipodomys ordii	Chordata
+CMS002_038a_Rb_S172_L004	Dipodomys ordii	Chordata
+CMS001_005_Ra_S3	Cricetulus griseus	Chordata
+CMS002_035a_Rb_S169_L004	Cricetulus griseus	Chordata
+CMS001_025_Ra_S7	Mesocricetus auratus	Chordata
+CMS002_007a_Rb_S118_L004	Mesocricetus auratus	Chordata
+CMS002_038a_Rb_S172_L004	Peromyscus leucopus	Chordata
+CMS001_051_Ra_S8	Meriones unguiculatus	Chordata
+CMS002_007a_Rb_S118_L004	Mus	Chordata
+CMS001_001_Ra_S1	Mus musculus	Chordata
+CMS001_003_Ra_S2	Mus musculus	Chordata
+CMS001_005_Ra_S3	Mus musculus	Chordata
+CMS001_006_Ra_S5	Mus musculus	Chordata
+CMS001_007_Ra_S12	Mus musculus	Chordata
+CMS001_008_Ra_S3	Mus musculus	Chordata
+CMS001_009_Ra_S13	Mus musculus	Chordata
+CMS001_011_Ra_S4	Mus musculus	Chordata
+CMS001_012_Ra_S4	Mus musculus	Chordata
+CMS001_014_Ra_S5	Mus musculus	Chordata
+CMS001_016_Ra_S6	Mus musculus	Chordata
+CMS001_017_Ra_S6	Mus musculus	Chordata
+CMS001_020_Ra_S15	Mus musculus	Chordata
+CMS001_021_Ra_S16	Mus musculus	Chordata
+CMS001_023_Ra_S17	Mus musculus	Chordata
+CMS001_025_Ra_S7	Mus musculus	Chordata
+CMS001_026_Ra_S18	Mus musculus	Chordata
+CMS001_035_Ra_S20	Mus musculus	Chordata
+CMS001_050_Ra_S23	Mus musculus	Chordata
+CMS001_051_Ra_S8	Mus musculus	Chordata
+CMS001_052_Ra_S7	Mus musculus	Chordata
+CMS001_056_Ra_S10	Mus musculus	Chordata
+CMS001_057_Ra_S11	Mus musculus	Chordata
+CMS001_058_Ra_S9	Mus musculus	Chordata
+CMS001_060_Ra_S12	Mus musculus	Chordata
+CMS001_water2_S24	Mus musculus	Chordata
+CMS001_water3_Qiagen_S26	Mus musculus	Chordata
+CMS001_water4_Zymo_S27	Mus musculus	Chordata
+CMS002_007a_Rb_S118_L004	Mus musculus	Chordata
+CMS002_020a_Rb_S131_L004	Mus musculus	Chordata
+CMS002_021a_Rb_S136_L004	Mus musculus	Chordata
+CMS002_025c_Rb_S142_L004	Mus musculus	Chordata
+CMS002_029c_Rb_S161_L004	Mus musculus	Chordata
+CMS002_0Water1_Rb_S127_L004	Mus musculus	Chordata
+CMS002_0Water2_Rb_S139_L004	Mus musculus	Chordata
+CMS002_0Water5_Rb_S175_L004	Mus musculus	Chordata
+CMS002_0Water6_Rb_S187_L004	Mus musculus	Chordata
+CMS002_0Water7_Rb_S199_L004	Mus musculus	Chordata
+CMS001_016_Ra_S6	Rattus norvegicus	Chordata
+CMS001_017_Ra_S6	Rattus norvegicus	Chordata
+CMS001_028_Ra_S17	Rattus norvegicus	Chordata
+CMS001_048_Ra_S5	Rattus norvegicus	Chordata
+CMS001_049_Ra_S6	Rattus norvegicus	Chordata
+CMS001_058_Ra_S9	Rattus norvegicus	Chordata
+CMS001_060_Ra_S12	Rattus norvegicus	Chordata
+CMS002_021a_Rb_S136_L004	Rattus norvegicus	Chordata
+CMS002_031a_Rb_S165_L004	Rattus norvegicus	Chordata
+CMS002_032a_Rb_S166_L004	Rattus norvegicus	Chordata
+CMS002_033a_Rb_S167_L004	Rattus norvegicus	Chordata
+CMS001_039_Ra_S9	Octodon degus	Chordata
+CMS001_009_Ra_S13	Heterocephalus glaber	Chordata
+CMS001_060_Ra_S12	Heterocephalus glaber	Chordata
 CMS002_039a_Rb_S173_L004	Brachionus plicatilis	Eukaryota
 CMS001_003_Ra_S2	Saccoglossus kowalevskii	Eukaryota
 CMS001_025_Ra_S7	Saccoglossus kowalevskii	Eukaryota
@@ -2417,22 +2417,22 @@ CMS002_020c_Rb_S133_L004	unclassified viruses	Viruses
 CMS002_029a_Rb_S159_L004	unclassified viruses	Viruses
 CMS002_053a_Rb_S7_L004	unclassified viruses	Viruses
 CMS001_004_Ra_S2	Acidovorax	Bacteria
-CMS002_047c_Rb_S195_L004	Amazona aestiva	Eukaryota
+CMS002_047c_Rb_S195_L004	Amazona aestiva	Chordata
 CMS001_013_Ra_S5	Blastocystis hominis	Eukaryota
 CMS002_026d_Rb_S149_L004	Achillea millefolium	Eukaryota
 CMS001_001_Ra_S1	Amborella trichopoda	Eukaryota
-CMS001_005_Ra_S3	Dicentrarchus labrax	Eukaryota
-CMS001_020_Ra_S15	Dicentrarchus labrax	Eukaryota
-CMS001_036_Ra_S20	Dicentrarchus labrax	Eukaryota
-CMS002_020a_Rb_S131_L004	Dicentrarchus labrax	Eukaryota
-CMS002_021a_Rb_S136_L004	Dicentrarchus labrax	Eukaryota
-CMS002_022a_Rb_S137_L004	Dicentrarchus labrax	Eukaryota
-CMS001_060_Ra_S12	Monodelphis domestica	Eukaryota
-CMS002_020d_Rb_S134_L004	Monodelphis domestica	Eukaryota
+CMS001_005_Ra_S3	Dicentrarchus labrax	Chordata
+CMS001_020_Ra_S15	Dicentrarchus labrax	Chordata
+CMS001_036_Ra_S20	Dicentrarchus labrax	Chordata
+CMS002_020a_Rb_S131_L004	Dicentrarchus labrax	Chordata
+CMS002_021a_Rb_S136_L004	Dicentrarchus labrax	Chordata
+CMS002_022a_Rb_S137_L004	Dicentrarchus labrax	Chordata
+CMS001_060_Ra_S12	Monodelphis domestica	Chordata
+CMS002_020d_Rb_S134_L004	Monodelphis domestica	Chordata
 CMS002_021a_Rb_S136_L004	Parastagonospora nodorum	Eukaryota
 CMS001_water4_Zymo_S27	Sphingomonas	Bacteria
-CMS001_036_Ra_S20	Pelodiscus sinensis	Eukaryota
-CMS002_039a_Rb_S173_L004	Pelodiscus sinensis	Eukaryota
+CMS001_036_Ra_S20	Pelodiscus sinensis	Chordata
+CMS002_039a_Rb_S173_L004	Pelodiscus sinensis	Chordata
 CMS001_046_Ra_S3	Brachypodium distachyon	Eukaryota
 CMS002_032a_Rb_S166_L004	Brachypodium distachyon	Eukaryota
 CMS002_047e_Rb_S197_L004	Brachypodium distachyon	Eukaryota
@@ -2442,18 +2442,18 @@ CMS001_033_Ra_S8	Saccharomyces paradoxus	Eukaryota
 CMS002_007a_Rb_S118_L004	Saccharomyces paradoxus	Eukaryota
 CMS002_021a_Rb_S136_L004	Verticillium dahliae	Eukaryota
 CMS002_045g_Rb_S190_L004	Puccinia coronata	Eukaryota
-CMS001_003_Ra_S2	Bovinae	Eukaryota
-CMS001_008_Ra_S3	Bovinae	Eukaryota
-CMS001_003_Ra_S2	Erpetoichthys calabaricus	Eukaryota
-CMS001_008_Ra_S3	Erpetoichthys calabaricus	Eukaryota
-CMS001_025_Ra_S7	Erpetoichthys calabaricus	Eukaryota
-CMS001_050_Ra_S23	Erpetoichthys calabaricus	Eukaryota
-CMS002_020a_Rb_S131_L004	Erpetoichthys calabaricus	Eukaryota
-CMS002_020e_Rb_S135_L004	Erpetoichthys calabaricus	Eukaryota
-CMS002_021a_Rb_S136_L004	Erpetoichthys calabaricus	Eukaryota
-CMS002_047f_Rb_S198_L004	Erpetoichthys calabaricus	Eukaryota
-CMS002_053a_Rb_S7_L004	Erpetoichthys calabaricus	Eukaryota
-CMS002_056a_Rb_S9_L004	Erpetoichthys calabaricus	Eukaryota
+CMS001_003_Ra_S2	Bovinae	Chordata
+CMS001_008_Ra_S3	Bovinae	Chordata
+CMS001_003_Ra_S2	Erpetoichthys calabaricus	Chordata
+CMS001_008_Ra_S3	Erpetoichthys calabaricus	Chordata
+CMS001_025_Ra_S7	Erpetoichthys calabaricus	Chordata
+CMS001_050_Ra_S23	Erpetoichthys calabaricus	Chordata
+CMS002_020a_Rb_S131_L004	Erpetoichthys calabaricus	Chordata
+CMS002_020e_Rb_S135_L004	Erpetoichthys calabaricus	Chordata
+CMS002_021a_Rb_S136_L004	Erpetoichthys calabaricus	Chordata
+CMS002_047f_Rb_S198_L004	Erpetoichthys calabaricus	Chordata
+CMS002_053a_Rb_S7_L004	Erpetoichthys calabaricus	Chordata
+CMS002_056a_Rb_S9_L004	Erpetoichthys calabaricus	Chordata
 CMS001_058_Ra_S9	Theileria sp.	Eukaryota
 CMS001_035_Ra_S20	Strigomonas culicis	Eukaryota
 CMS001_036_Ra_S20	Prevotella melaninogenica	Bacteria
@@ -2475,14 +2475,14 @@ CMS001_050_Ra_S23	Halomonadaceae	Bacteria
 CMS002_026c_Rb_S148_L004	Halomonadaceae	Bacteria
 CMS002_031a_Rb_S165_L004	Halomonadaceae	Bacteria
 CMS002_041a_Rb_S176_L004	Halomonadaceae	Bacteria
-CMS001_005_Ra_S3	Anolis carolinensis	Eukaryota
-CMS001_008_Ra_S3	Anolis carolinensis	Eukaryota
-CMS001_009_Ra_S13	Anolis carolinensis	Eukaryota
-CMS001_014_Ra_S5	Anolis carolinensis	Eukaryota
-CMS001_026_Ra_S18	Anolis carolinensis	Eukaryota
-CMS002_007a_Rb_S118_L004	Anolis carolinensis	Eukaryota
-CMS002_021a_Rb_S136_L004	Anolis carolinensis	Eukaryota
-CMS002_040a_Rb_S174_L004	Anolis carolinensis	Eukaryota
+CMS001_005_Ra_S3	Anolis carolinensis	Chordata
+CMS001_008_Ra_S3	Anolis carolinensis	Chordata
+CMS001_009_Ra_S13	Anolis carolinensis	Chordata
+CMS001_014_Ra_S5	Anolis carolinensis	Chordata
+CMS001_026_Ra_S18	Anolis carolinensis	Chordata
+CMS002_007a_Rb_S118_L004	Anolis carolinensis	Chordata
+CMS002_021a_Rb_S136_L004	Anolis carolinensis	Chordata
+CMS002_040a_Rb_S174_L004	Anolis carolinensis	Chordata
 CMS001_023_Ra_S17	Burkholderia pseudomallei	Bacteria
 CMS001_040_Ra_S21	Burkholderia pseudomallei	Bacteria
 CMS002_032a_Rb_S166_L004	Burkholderia pseudomallei	Bacteria
@@ -2524,15 +2524,15 @@ CMS002_053a_Rb_S7_L004	Solanum pennellii	Eukaryota
 CMS001_039_Ra_S9	Tarenaya hassleriana	Eukaryota
 CMS002_033a_Rb_S167_L004	Tarenaya hassleriana	Eukaryota
 CMS002_035a_Rb_S169_L004	Tarenaya hassleriana	Eukaryota
-CMS001_043_Ra_S24	Cyprinodontiformes	Eukaryota
-CMS002_020a_Rb_S131_L004	Cyprinodon variegatus	Eukaryota
-CMS002_021a_Rb_S136_L004	Cyprinodon variegatus	Eukaryota
-CMS001_001_Ra_S1	Rivulidae	Eukaryota
+CMS001_043_Ra_S24	Cyprinodontiformes	Chordata
+CMS002_020a_Rb_S131_L004	Cyprinodon variegatus	Chordata
+CMS002_021a_Rb_S136_L004	Cyprinodon variegatus	Chordata
+CMS001_001_Ra_S1	Rivulidae	Chordata
 CMS001_009_Ra_S13	Salmonella enterica	Bacteria
 CMS002_031a_Rb_S165_L004	Salmonella enterica	Bacteria
 CMS001_058_Ra_S9	Pucciniomycotina	Eukaryota
-CMS001_009_Ra_S13	Eptesicus fuscus	Eukaryota
-CMS002_029a_Rb_S159_L004	Eptesicus fuscus	Eukaryota
+CMS001_009_Ra_S13	Eptesicus fuscus	Chordata
+CMS002_029a_Rb_S159_L004	Eptesicus fuscus	Chordata
 CMS001_001_Ra_S1	Crassostrea gigas	Eukaryota
 CMS001_003_Ra_S2	Crassostrea gigas	Eukaryota
 CMS001_025_Ra_S7	Crassostrea gigas	Eukaryota
@@ -2605,31 +2605,31 @@ CMS002_056a_Rb_S9_L004	Vitis vinifera	Eukaryota
 CMS001_028_Ra_S17	Hanseniaspora uvarum	Eukaryota
 CMS002_028a_Rb_S154_L004	Cladosporium cladosporioides	Eukaryota
 CMS001_060_Ra_S12	Phytophthora cactorum	Eukaryota
-CMS001_003_Ra_S2	Botryllus schlosseri	Eukaryota
-CMS001_014_Ra_S5	Botryllus schlosseri	Eukaryota
-CMS001_057_Ra_S11	Botryllus schlosseri	Eukaryota
-CMS002_020a_Rb_S131_L004	Botryllus schlosseri	Eukaryota
-CMS002_020e_Rb_S135_L004	Botryllus schlosseri	Eukaryota
-CMS002_021a_Rb_S136_L004	Botryllus schlosseri	Eukaryota
-CMS002_033a_Rb_S167_L004	Botryllus schlosseri	Eukaryota
-CMS001_032_Ra_S7	Corvus	Eukaryota
-CMS001_027_Ra_S16	Haemorhous mexicanus	Eukaryota
-CMS001_029_Ra_S18	Haemorhous mexicanus	Eukaryota
-CMS001_040_Ra_S21	Haemorhous mexicanus	Eukaryota
-CMS001_036_Ra_S20	Nothoprocta perdicaria	Eukaryota
-CMS001_018_Ra_S14	Bos indicus x Bos taurus	Eukaryota
-CMS001_003_Ra_S2	Microcebus murinus	Eukaryota
-CMS001_014_Ra_S5	Microcebus murinus	Eukaryota
-CMS002_007a_Rb_S118_L004	Microcebus murinus	Eukaryota
-CMS002_021a_Rb_S136_L004	Microcebus murinus	Eukaryota
-CMS001_005_Ra_S3	Oryzias melastigma	Eukaryota
-CMS002_007a_Rb_S118_L004	Oryzias melastigma	Eukaryota
-CMS002_053a_Rb_S7_L004	Takifugu	Eukaryota
-CMS002_033a_Rb_S167_L004	Takifugu rubripes	Eukaryota
-CMS002_035a_Rb_S169_L004	Takifugu rubripes	Eukaryota
-CMS002_038a_Rb_S172_L004	Takifugu rubripes	Eukaryota
-CMS002_039a_Rb_S173_L004	Takifugu rubripes	Eukaryota
-CMS002_053a_Rb_S7_L004	Takifugu rubripes	Eukaryota
+CMS001_003_Ra_S2	Botryllus schlosseri	Chordata
+CMS001_014_Ra_S5	Botryllus schlosseri	Chordata
+CMS001_057_Ra_S11	Botryllus schlosseri	Chordata
+CMS002_020a_Rb_S131_L004	Botryllus schlosseri	Chordata
+CMS002_020e_Rb_S135_L004	Botryllus schlosseri	Chordata
+CMS002_021a_Rb_S136_L004	Botryllus schlosseri	Chordata
+CMS002_033a_Rb_S167_L004	Botryllus schlosseri	Chordata
+CMS001_032_Ra_S7	Corvus	Chordata
+CMS001_027_Ra_S16	Haemorhous mexicanus	Chordata
+CMS001_029_Ra_S18	Haemorhous mexicanus	Chordata
+CMS001_040_Ra_S21	Haemorhous mexicanus	Chordata
+CMS001_036_Ra_S20	Nothoprocta perdicaria	Chordata
+CMS001_018_Ra_S14	Bos indicus x Bos taurus	Chordata
+CMS001_003_Ra_S2	Microcebus murinus	Chordata
+CMS001_014_Ra_S5	Microcebus murinus	Chordata
+CMS002_007a_Rb_S118_L004	Microcebus murinus	Chordata
+CMS002_021a_Rb_S136_L004	Microcebus murinus	Chordata
+CMS001_005_Ra_S3	Oryzias melastigma	Chordata
+CMS002_007a_Rb_S118_L004	Oryzias melastigma	Chordata
+CMS002_053a_Rb_S7_L004	Takifugu	Chordata
+CMS002_033a_Rb_S167_L004	Takifugu rubripes	Chordata
+CMS002_035a_Rb_S169_L004	Takifugu rubripes	Chordata
+CMS002_038a_Rb_S172_L004	Takifugu rubripes	Chordata
+CMS002_039a_Rb_S173_L004	Takifugu rubripes	Chordata
+CMS002_053a_Rb_S7_L004	Takifugu rubripes	Chordata
 CMS001_050_Ra_S23	Littorina saxatilis	Eukaryota
 CMS001_006_Ra_S5	Caenorhabditis remanei	Eukaryota
 CMS001_010_Ra_S1	Caenorhabditis remanei	Eukaryota
@@ -2659,25 +2659,25 @@ CMS001_014_Ra_S5	Tetranychus urticae	Eukaryota
 CMS001_050_Ra_S23	Tetranychus urticae	Eukaryota
 CMS001_058_Ra_S9	Tetranychus urticae	Eukaryota
 CMS002_053a_Rb_S7_L004	Tetranychus urticae	Eukaryota
-CMS002_020a_Rb_S131_L004	Xiphophorus couchianus	Eukaryota
-CMS002_020c_Rb_S133_L004	Neolamprologus brichardi	Eukaryota
-CMS002_007a_Rb_S118_L004	Tetrapoda	Eukaryota
-CMS002_0Water5_Rb_S175_L004	Tetrapoda	Eukaryota
-CMS001_005_Ra_S3	Amniota	Eukaryota
-CMS001_011_Ra_S4	Amniota	Eukaryota
-CMS001_012_Ra_S4	Amniota	Eukaryota
-CMS001_013_Ra_S5	Amniota	Eukaryota
-CMS001_014_Ra_S5	Amniota	Eukaryota
-CMS001_021_Ra_S16	Amniota	Eukaryota
-CMS001_026_Ra_S18	Amniota	Eukaryota
-CMS001_029_Ra_S18	Amniota	Eukaryota
-CMS001_037_Ra_S21	Amniota	Eukaryota
-CMS001_059_Ra_S10	Amniota	Eukaryota
-CMS002_007a_Rb_S118_L004	Amniota	Eukaryota
-CMS001_032_Ra_S7	Sauria	Eukaryota
-CMS001_037_Ra_S21	Sauria	Eukaryota
-CMS001_043_Ra_S24	Sauria	Eukaryota
-CMS001_water3_Qiagen_S26	Sauria	Eukaryota
+CMS002_020a_Rb_S131_L004	Xiphophorus couchianus	Chordata
+CMS002_020c_Rb_S133_L004	Neolamprologus brichardi	Chordata
+CMS002_007a_Rb_S118_L004	Tetrapoda	Chordata
+CMS002_0Water5_Rb_S175_L004	Tetrapoda	Chordata
+CMS001_005_Ra_S3	Amniota	Chordata
+CMS001_011_Ra_S4	Amniota	Chordata
+CMS001_012_Ra_S4	Amniota	Chordata
+CMS001_013_Ra_S5	Amniota	Chordata
+CMS001_014_Ra_S5	Amniota	Chordata
+CMS001_021_Ra_S16	Amniota	Chordata
+CMS001_026_Ra_S18	Amniota	Chordata
+CMS001_029_Ra_S18	Amniota	Chordata
+CMS001_037_Ra_S21	Amniota	Chordata
+CMS001_059_Ra_S10	Amniota	Chordata
+CMS002_007a_Rb_S118_L004	Amniota	Chordata
+CMS001_032_Ra_S7	Sauria	Chordata
+CMS001_037_Ra_S21	Sauria	Chordata
+CMS001_043_Ra_S24	Sauria	Chordata
+CMS001_water3_Qiagen_S26	Sauria	Chordata
 CMS001_025_Ra_S7	synthetic construct	Other
 CMS002_018b_Rb_S129_L004	unidentified	Other
 CMS001_026_Ra_S18	Parvimonas micra	Bacteria
@@ -2894,11 +2894,11 @@ CMS002_053a_Rb_S7_L004	Protostomia	Eukaryota
 CMS002_057a_Rb_S10_L004	Protostomia	Eukaryota
 CMS002_021a_Rb_S136_L004	Deuterostomia	Eukaryota
 CMS002_032a_Rb_S166_L004	Deuterostomia	Eukaryota
-CMS001_004_Ra_S2	Carnivora	Eukaryota
-CMS001_019_Ra_S14	Carnivora	Eukaryota
-CMS001_028_Ra_S17	Carnivora	Eukaryota
-CMS001_030_Ra_S7	Carnivora	Eukaryota
-CMS002_041a_Rb_S176_L004	Rhyncholestes raphanurus	Eukaryota
+CMS001_004_Ra_S2	Carnivora	Chordata
+CMS001_019_Ra_S14	Carnivora	Chordata
+CMS001_028_Ra_S17	Carnivora	Chordata
+CMS001_030_Ra_S7	Carnivora	Chordata
+CMS002_041a_Rb_S176_L004	Rhyncholestes raphanurus	Chordata
 CMS001_036_Ra_S20	Amblyospora	Eukaryota
 CMS001_038_Ra_S22	Amblyospora	Eukaryota
 CMS001_043_Ra_S24	Amblyospora	Eukaryota
@@ -2951,11 +2951,11 @@ CMS002_047f_Rb_S198_L004	Strongyloides ratti	Eukaryota
 CMS002_053a_Rb_S7_L004	Strongyloides ratti	Eukaryota
 CMS002_056a_Rb_S9_L004	Strongyloides ratti	Eukaryota
 CMS001_001_Ra_S1	Galendromus occidentalis	Eukaryota
-CMS001_036_Ra_S20	Oikopleura dioica	Eukaryota
-CMS002_020b_Rb_S132_L004	Chinchilla lanigera	Eukaryota
-CMS001_005_Ra_S3	Thamnophis sirtalis	Eukaryota
-CMS001_011_Ra_S4	Thamnophis sirtalis	Eukaryota
-CMS002_007a_Rb_S118_L004	Thamnophis sirtalis	Eukaryota
+CMS001_036_Ra_S20	Oikopleura dioica	Chordata
+CMS002_020b_Rb_S132_L004	Chinchilla lanigera	Chordata
+CMS001_005_Ra_S3	Thamnophis sirtalis	Chordata
+CMS001_011_Ra_S4	Thamnophis sirtalis	Chordata
+CMS002_007a_Rb_S118_L004	Thamnophis sirtalis	Chordata
 CMS001_050_Ra_S23	unclassified Rhabdoviridae	Viruses
 CMS002_028c_Rb_S156_L004	unclassified Rhabdoviridae	Viruses
 CMS002_028e_Rb_S158_L004	unclassified Rhabdoviridae	Viruses
@@ -2965,15 +2965,15 @@ CMS002_044d_Rb_S181_L004	unclassified Rhabdoviridae	Viruses
 CMS002_044e_Rb_S182_L004	unclassified Rhabdoviridae	Viruses
 CMS002_047c_Rb_S195_L004	unclassified Rhabdoviridae	Viruses
 CMS001_060_Ra_S12	Streptophyta	Eukaryota
-CMS001_001_Ra_S1	Pecora	Eukaryota
-CMS001_003_Ra_S2	Pecora	Eukaryota
-CMS001_012_Ra_S4	Pecora	Eukaryota
-CMS001_016_Ra_S6	Pecora	Eukaryota
-CMS001_036_Ra_S20	Pecora	Eukaryota
-CMS001_052_Ra_S7	Pecora	Eukaryota
-CMS001_057_Ra_S11	Pecora	Eukaryota
-CMS001_016_Ra_S6	Equus	Eukaryota
-CMS001_060_Ra_S12	Equus	Eukaryota
+CMS001_001_Ra_S1	Pecora	Chordata
+CMS001_003_Ra_S2	Pecora	Chordata
+CMS001_012_Ra_S4	Pecora	Chordata
+CMS001_016_Ra_S6	Pecora	Chordata
+CMS001_036_Ra_S20	Pecora	Chordata
+CMS001_052_Ra_S7	Pecora	Chordata
+CMS001_057_Ra_S11	Pecora	Chordata
+CMS001_016_Ra_S6	Equus	Chordata
+CMS001_060_Ra_S12	Equus	Chordata
 CMS001_021_Ra_S16	Daphnia magna	Eukaryota
 CMS002_020e_Rb_S135_L004	Daphnia magna	Eukaryota
 CMS002_042a_Rb_S177_L004	Acholeplasma oculi	Bacteria
@@ -3038,16 +3038,16 @@ CMS002_020a_Rb_S131_L004	Chelonus inanitus bracovirus	Viruses
 CMS002_021a_Rb_S136_L004	Chelonus inanitus bracovirus	Viruses
 CMS002_026e_Rb_S150_L004	Mycobacteroides abscessus	Bacteria
 CMS002_044e_Rb_S182_L004	Diaporthe	Eukaryota
-CMS001_026_Ra_S18	Kryptolebias marmoratus	Eukaryota
-CMS001_036_Ra_S20	Kryptolebias marmoratus	Eukaryota
-CMS001_060_Ra_S12	Kryptolebias marmoratus	Eukaryota
-CMS002_007a_Rb_S118_L004	Kryptolebias marmoratus	Eukaryota
-CMS002_029a_Rb_S159_L004	Kryptolebias marmoratus	Eukaryota
-CMS002_041a_Rb_S176_L004	Kryptolebias marmoratus	Eukaryota
-CMS002_033a_Rb_S167_L004	Aotus nancymaae	Eukaryota
+CMS001_026_Ra_S18	Kryptolebias marmoratus	Chordata
+CMS001_036_Ra_S20	Kryptolebias marmoratus	Chordata
+CMS001_060_Ra_S12	Kryptolebias marmoratus	Chordata
+CMS002_007a_Rb_S118_L004	Kryptolebias marmoratus	Chordata
+CMS002_029a_Rb_S159_L004	Kryptolebias marmoratus	Chordata
+CMS002_041a_Rb_S176_L004	Kryptolebias marmoratus	Chordata
+CMS002_033a_Rb_S167_L004	Aotus nancymaae	Chordata
 CMS002_053a_Rb_S7_L004	Nocardia brasiliensis	Bacteria
-CMS002_007a_Rb_S118_L004	Tupaia belangeri	Eukaryota
-CMS001_059_Ra_S10	Fringilla coelebs	Eukaryota
+CMS002_007a_Rb_S118_L004	Tupaia belangeri	Chordata
+CMS001_059_Ra_S10	Fringilla coelebs	Chordata
 CMS001_035_Ra_S20	Viannia	Eukaryota
 CMS001_017_Ra_S6	Priapulus caudatus	Eukaryota
 CMS002_020a_Rb_S131_L004	Priapulus caudatus	Eukaryota
@@ -3066,24 +3066,24 @@ CMS002_018b_Rb_S129_L004	Cypripedium	Eukaryota
 CMS001_035_Ra_S20	Leishmania	Eukaryota
 CMS001_035_Ra_S20	Leishmania donovani species complex	Eukaryota
 CMS001_036_Ra_S20	Syntrichia ruralis	Eukaryota
-CMS001_006_Ra_S5	Alligator sinensis	Eukaryota
+CMS001_006_Ra_S5	Alligator sinensis	Chordata
 CMS001_water3_Qiagen_S26	Avena strigosa	Eukaryota
 CMS002_028c_Rb_S156_L004	Poales	Eukaryota
 CMS002_039a_Rb_S173_L004	Quercus robur	Eukaryota
-CMS001_058_Ra_S9	Arvicolinae	Eukaryota
-CMS001_011_Ra_S4	Murinae	Eukaryota
-CMS001_014_Ra_S5	Murinae	Eukaryota
-CMS001_048_Ra_S5	Murinae	Eukaryota
-CMS001_049_Ra_S6	Murinae	Eukaryota
-CMS002_021a_Rb_S136_L004	Murinae	Eukaryota
-CMS002_029d_Rb_S162_L004	Murinae	Eukaryota
-CMS002_0Water4_Rb_S163_L004	Murinae	Eukaryota
+CMS001_058_Ra_S9	Arvicolinae	Chordata
+CMS001_011_Ra_S4	Murinae	Chordata
+CMS001_014_Ra_S5	Murinae	Chordata
+CMS001_048_Ra_S5	Murinae	Chordata
+CMS001_049_Ra_S6	Murinae	Chordata
+CMS002_021a_Rb_S136_L004	Murinae	Chordata
+CMS002_029d_Rb_S162_L004	Murinae	Chordata
+CMS002_0Water4_Rb_S163_L004	Murinae	Chordata
 CMS002_049a_Rb_S4_L004	[Eubacterium] rectale	Bacteria
-CMS001_027_Ra_S16	Aphelocoma	Eukaryota
-CMS001_029_Ra_S18	Aphelocoma	Eukaryota
-CMS001_032_Ra_S7	Aphelocoma	Eukaryota
-CMS001_043_Ra_S24	Aphelocoma	Eukaryota
-CMS001_water3_Qiagen_S26	Aphelocoma	Eukaryota
+CMS001_027_Ra_S16	Aphelocoma	Chordata
+CMS001_029_Ra_S18	Aphelocoma	Chordata
+CMS001_032_Ra_S7	Aphelocoma	Chordata
+CMS001_043_Ra_S24	Aphelocoma	Chordata
+CMS001_water3_Qiagen_S26	Aphelocoma	Chordata
 CMS001_060_Ra_S12	unclassified Flavivirus	Viruses
 CMS002_017a_Rb_S122_L004	unclassified Flavivirus	Viruses
 CMS002_017c_Rb_S124_L004	unclassified Flavivirus	Viruses
@@ -3111,8 +3111,8 @@ CMS001_001_Ra_S1	Xenorhabdus bovienii	Bacteria
 CMS001_005_Ra_S3	Aspergillus candidus	Eukaryota
 CMS001_water3_Qiagen_S26	Bradyrhizobiaceae	Bacteria
 CMS001_water4_Zymo_S27	Sphingomonadaceae	Bacteria
-CMS001_016_Ra_S6	Seriola dumerili	Eukaryota
-CMS002_039a_Rb_S173_L004	Seriola dumerili	Eukaryota
+CMS001_016_Ra_S6	Seriola dumerili	Chordata
+CMS002_039a_Rb_S173_L004	Seriola dumerili	Chordata
 CMS001_014_Ra_S5	Bathycoccus prasinos	Eukaryota
 CMS001_033_Ra_S8	Bathycoccus prasinos	Eukaryota
 CMS002_053a_Rb_S7_L004	Bathycoccus prasinos	Eukaryota
@@ -3149,29 +3149,29 @@ CMS001_027_Ra_S16	Haliotis discus hannai	Eukaryota
 CMS001_042_Ra_S23	Haliotis discus hannai	Eukaryota
 CMS001_026_Ra_S18	Phoenix dactylifera	Eukaryota
 CMS002_029d_Rb_S162_L004	Phoenix dactylifera	Eukaryota
-CMS001_036_Ra_S20	Pygocentrus nattereri	Eukaryota
-CMS002_020e_Rb_S135_L004	Pygocentrus nattereri	Eukaryota
+CMS001_036_Ra_S20	Pygocentrus nattereri	Chordata
+CMS002_020e_Rb_S135_L004	Pygocentrus nattereri	Chordata
 CMS002_044d_Rb_S181_L004	Udeniomyces	Eukaryota
-CMS001_051_Ra_S8	Cathartes aura	Eukaryota
-CMS001_013_Ra_S5	Monopterus albus	Eukaryota
-CMS002_020a_Rb_S131_L004	Monopterus albus	Eukaryota
+CMS001_051_Ra_S8	Cathartes aura	Chordata
+CMS001_013_Ra_S5	Monopterus albus	Chordata
+CMS002_020a_Rb_S131_L004	Monopterus albus	Chordata
 CMS001_water3_Qiagen_S26	Corynebacterium segmentosum	Bacteria
 CMS002_019a_Rb_S130_L004	Enterococcus cecorum	Bacteria
 CMS001_060_Ra_S12	Saccharomycopsis malanga	Eukaryota
 CMS002_021a_Rb_S136_L004	Saccharomycopsis malanga	Eukaryota
 CMS001_water4_Zymo_S27	Paenibacillus	Bacteria
-CMS001_054_Ra_S11	Zonotrichia	Eukaryota
-CMS001_054_Ra_S11	Zonotrichia leucophrys	Eukaryota
-CMS001_059_Ra_S10	Zonotrichia leucophrys	Eukaryota
-CMS001_027_Ra_S16	Zonotrichia albicollis	Eukaryota
-CMS001_029_Ra_S18	Zonotrichia albicollis	Eukaryota
-CMS001_032_Ra_S7	Zonotrichia albicollis	Eukaryota
-CMS001_048_Ra_S5	Zonotrichia albicollis	Eukaryota
-CMS001_059_Ra_S10	Zonotrichia albicollis	Eukaryota
-CMS002_020d_Rb_S134_L004	Zonotrichia albicollis	Eukaryota
-CMS002_021a_Rb_S136_L004	Zonotrichia albicollis	Eukaryota
-CMS001_029_Ra_S18	Melospiza melodia	Eukaryota
-CMS001_032_Ra_S7	Melospiza melodia	Eukaryota
+CMS001_054_Ra_S11	Zonotrichia	Chordata
+CMS001_054_Ra_S11	Zonotrichia leucophrys	Chordata
+CMS001_059_Ra_S10	Zonotrichia leucophrys	Chordata
+CMS001_027_Ra_S16	Zonotrichia albicollis	Chordata
+CMS001_029_Ra_S18	Zonotrichia albicollis	Chordata
+CMS001_032_Ra_S7	Zonotrichia albicollis	Chordata
+CMS001_048_Ra_S5	Zonotrichia albicollis	Chordata
+CMS001_059_Ra_S10	Zonotrichia albicollis	Chordata
+CMS002_020d_Rb_S134_L004	Zonotrichia albicollis	Chordata
+CMS002_021a_Rb_S136_L004	Zonotrichia albicollis	Chordata
+CMS001_029_Ra_S18	Melospiza melodia	Chordata
+CMS001_032_Ra_S7	Melospiza melodia	Chordata
 CMS001_002_Ra_S1	Eimeria mitis	Eukaryota
 CMS001_005_Ra_S3	Eimeria mitis	Eukaryota
 CMS001_016_Ra_S6	Eimeria mitis	Eukaryota
@@ -3190,34 +3190,34 @@ CMS002_053a_Rb_S7_L004	Nematostella vectensis	Eukaryota
 CMS001_water3_Qiagen_S26	Staphylococcus pasteuri	Bacteria
 CMS002_0Water2_Rb_S139_L004	Weissella	Bacteria
 CMS002_027b_Rb_S153_L004	Spirochaeta africana	Bacteria
-CMS001_009_Ra_S13	Cervus elaphus hippelaphus	Eukaryota
+CMS001_009_Ra_S13	Cervus elaphus hippelaphus	Chordata
 CMS002_028b_Rb_S155_L004	Pocillopora damicornis	Eukaryota
 CMS002_056a_Rb_S9_L004	Vuilleminia	Eukaryota
 CMS001_057_Ra_S11	Borrelia miyamotoi	Bacteria
 CMS002_020b_Rb_S132_L004	Bacteroides caccae	Bacteria
-CMS001_020_Ra_S15	Lepus californicus	Eukaryota
+CMS001_020_Ra_S15	Lepus californicus	Chordata
 CMS001_042_Ra_S23	Dryas	Eukaryota
 CMS001_025_Ra_S7	Schistosoma margrebowiei	Eukaryota
 CMS002_029d_Rb_S162_L004	Orbicella faveolata	Eukaryota
-CMS002_053a_Rb_S7_L004	Poecilia formosa	Eukaryota
-CMS002_039a_Rb_S173_L004	Poecilia latipinna	Eukaryota
-CMS002_053a_Rb_S7_L004	Poecilia latipinna	Eukaryota
-CMS001_009_Ra_S13	Poecilia mexicana	Eukaryota
-CMS001_033_Ra_S8	Poecilia mexicana	Eukaryota
-CMS001_043_Ra_S24	Poecilia mexicana	Eukaryota
-CMS002_007a_Rb_S118_L004	Poecilia mexicana	Eukaryota
-CMS002_021a_Rb_S136_L004	Poecilia mexicana	Eukaryota
-CMS002_033a_Rb_S167_L004	Poecilia mexicana	Eukaryota
-CMS002_034a_Rb_S168_L004	Poecilia mexicana	Eukaryota
-CMS002_039a_Rb_S173_L004	Poecilia mexicana	Eukaryota
-CMS002_040a_Rb_S174_L004	Poecilia mexicana	Eukaryota
-CMS002_041a_Rb_S176_L004	Poecilia mexicana	Eukaryota
-CMS002_056a_Rb_S9_L004	Poecilia mexicana	Eukaryota
+CMS002_053a_Rb_S7_L004	Poecilia formosa	Chordata
+CMS002_039a_Rb_S173_L004	Poecilia latipinna	Chordata
+CMS002_053a_Rb_S7_L004	Poecilia latipinna	Chordata
+CMS001_009_Ra_S13	Poecilia mexicana	Chordata
+CMS001_033_Ra_S8	Poecilia mexicana	Chordata
+CMS001_043_Ra_S24	Poecilia mexicana	Chordata
+CMS002_007a_Rb_S118_L004	Poecilia mexicana	Chordata
+CMS002_021a_Rb_S136_L004	Poecilia mexicana	Chordata
+CMS002_033a_Rb_S167_L004	Poecilia mexicana	Chordata
+CMS002_034a_Rb_S168_L004	Poecilia mexicana	Chordata
+CMS002_039a_Rb_S173_L004	Poecilia mexicana	Chordata
+CMS002_040a_Rb_S174_L004	Poecilia mexicana	Chordata
+CMS002_041a_Rb_S176_L004	Poecilia mexicana	Chordata
+CMS002_056a_Rb_S9_L004	Poecilia mexicana	Chordata
 CMS001_019_Ra_S14	Podospora comata	Eukaryota
 CMS001_water2_S24	Ralstonia	Bacteria
 CMS001_water3_Qiagen_S26	Ralstonia	Bacteria
 CMS001_water4_Zymo_S27	Ralstonia	Bacteria
-CMS001_027_Ra_S16	Geospiza fortis	Eukaryota
+CMS001_027_Ra_S16	Geospiza fortis	Chordata
 CMS001_021_Ra_S16	Lycopersicon	Eukaryota
 CMS001_025_Ra_S7	Lycopersicon	Eukaryota
 CMS001_036_Ra_S20	Lycopersicon	Eukaryota
@@ -3232,7 +3232,7 @@ CMS002_007a_Rb_S118_L004	Nicotiana attenuata	Eukaryota
 CMS001_006_Ra_S5	Flavobacteriaceae	Bacteria
 CMS001_009_Ra_S13	Flavobacteriaceae	Bacteria
 CMS002_038a_Rb_S172_L004	Flavobacteriaceae	Bacteria
-CMS002_007a_Rb_S118_L004	Anabantoidei	Eukaryota
+CMS002_007a_Rb_S118_L004	Anabantoidei	Chordata
 CMS001_011_Ra_S4	Stylophora pistillata	Eukaryota
 CMS001_050_Ra_S23	Stylophora pistillata	Eukaryota
 CMS002_053a_Rb_S7_L004	Stylophora pistillata	Eukaryota
@@ -3265,75 +3265,75 @@ CMS002_020a_Rb_S131_L004	Eimeria necatrix	Eukaryota
 CMS002_021a_Rb_S136_L004	Eimeria necatrix	Eukaryota
 CMS002_053a_Rb_S7_L004	Eimeria necatrix	Eukaryota
 CMS002_057a_Rb_S10_L004	Eimeria necatrix	Eukaryota
-CMS001_008_Ra_S3	Jaculus jaculus	Eukaryota
-CMS001_031_Ra_S19	Jaculus jaculus	Eukaryota
-CMS002_020e_Rb_S135_L004	Jaculus jaculus	Eukaryota
-CMS001_003_Ra_S2	Castor canadensis	Eukaryota
-CMS001_012_Ra_S4	Castor canadensis	Eukaryota
-CMS001_026_Ra_S18	Castor canadensis	Eukaryota
+CMS001_008_Ra_S3	Jaculus jaculus	Chordata
+CMS001_031_Ra_S19	Jaculus jaculus	Chordata
+CMS002_020e_Rb_S135_L004	Jaculus jaculus	Chordata
+CMS001_003_Ra_S2	Castor canadensis	Chordata
+CMS001_012_Ra_S4	Castor canadensis	Chordata
+CMS001_026_Ra_S18	Castor canadensis	Chordata
 CMS001_060_Ra_S12	Brassica rapa subsp. pekinensis	Eukaryota
 CMS001_043_Ra_S24	Amblyospora californica	Eukaryota
 CMS001_water3_Qiagen_S26	Amblyospora californica	Eukaryota
 CMS002_053a_Rb_S7_L004	Elaeis guineensis	Eukaryota
-CMS001_036_Ra_S20	Austrofundulus limnaeus	Eukaryota
-CMS001_060_Ra_S12	Austrofundulus limnaeus	Eukaryota
-CMS002_007a_Rb_S118_L004	Austrofundulus limnaeus	Eukaryota
-CMS002_020a_Rb_S131_L004	Austrofundulus limnaeus	Eukaryota
-CMS002_020c_Rb_S133_L004	Austrofundulus limnaeus	Eukaryota
-CMS002_020e_Rb_S135_L004	Austrofundulus limnaeus	Eukaryota
-CMS001_001_Ra_S1	Scophthalmus maximus	Eukaryota
-CMS001_002_Ra_S1	Scophthalmus maximus	Eukaryota
-CMS001_010_Ra_S1	Scophthalmus maximus	Eukaryota
-CMS001_014_Ra_S5	Scophthalmus maximus	Eukaryota
-CMS001_016_Ra_S6	Scophthalmus maximus	Eukaryota
-CMS001_017_Ra_S6	Scophthalmus maximus	Eukaryota
-CMS001_021_Ra_S16	Scophthalmus maximus	Eukaryota
-CMS001_024_Ra_S15	Scophthalmus maximus	Eukaryota
-CMS001_025_Ra_S7	Scophthalmus maximus	Eukaryota
-CMS001_026_Ra_S18	Scophthalmus maximus	Eukaryota
-CMS001_029_Ra_S18	Scophthalmus maximus	Eukaryota
-CMS001_031_Ra_S19	Scophthalmus maximus	Eukaryota
-CMS001_032_Ra_S7	Scophthalmus maximus	Eukaryota
-CMS001_034_Ra_S19	Scophthalmus maximus	Eukaryota
-CMS001_036_Ra_S20	Scophthalmus maximus	Eukaryota
-CMS001_046_Ra_S3	Scophthalmus maximus	Eukaryota
-CMS001_048_Ra_S5	Scophthalmus maximus	Eukaryota
-CMS001_050_Ra_S23	Scophthalmus maximus	Eukaryota
-CMS001_053_Ra_S8	Scophthalmus maximus	Eukaryota
-CMS001_060_Ra_S12	Scophthalmus maximus	Eukaryota
-CMS002_007a_Rb_S118_L004	Scophthalmus maximus	Eukaryota
-CMS002_020a_Rb_S131_L004	Scophthalmus maximus	Eukaryota
-CMS002_020c_Rb_S133_L004	Scophthalmus maximus	Eukaryota
-CMS002_020d_Rb_S134_L004	Scophthalmus maximus	Eukaryota
-CMS002_021a_Rb_S136_L004	Scophthalmus maximus	Eukaryota
-CMS002_028b_Rb_S155_L004	Scophthalmus maximus	Eukaryota
-CMS002_028e_Rb_S158_L004	Scophthalmus maximus	Eukaryota
-CMS002_029c_Rb_S161_L004	Scophthalmus maximus	Eukaryota
-CMS002_029d_Rb_S162_L004	Scophthalmus maximus	Eukaryota
-CMS002_029e_Rb_S164_L004	Scophthalmus maximus	Eukaryota
-CMS002_032a_Rb_S166_L004	Scophthalmus maximus	Eukaryota
-CMS002_035a_Rb_S169_L004	Scophthalmus maximus	Eukaryota
-CMS002_041a_Rb_S176_L004	Scophthalmus maximus	Eukaryota
-CMS002_047b_Rb_S194_L004	Scophthalmus maximus	Eukaryota
-CMS002_047d_Rb_S196_L004	Scophthalmus maximus	Eukaryota
-CMS002_047i_Rb_S2_L004	Scophthalmus maximus	Eukaryota
-CMS002_047j_Rb_S3_L004	Scophthalmus maximus	Eukaryota
-CMS002_053a_Rb_S7_L004	Scophthalmus maximus	Eukaryota
-CMS002_056a_Rb_S9_L004	Scophthalmus maximus	Eukaryota
+CMS001_036_Ra_S20	Austrofundulus limnaeus	Chordata
+CMS001_060_Ra_S12	Austrofundulus limnaeus	Chordata
+CMS002_007a_Rb_S118_L004	Austrofundulus limnaeus	Chordata
+CMS002_020a_Rb_S131_L004	Austrofundulus limnaeus	Chordata
+CMS002_020c_Rb_S133_L004	Austrofundulus limnaeus	Chordata
+CMS002_020e_Rb_S135_L004	Austrofundulus limnaeus	Chordata
+CMS001_001_Ra_S1	Scophthalmus maximus	Chordata
+CMS001_002_Ra_S1	Scophthalmus maximus	Chordata
+CMS001_010_Ra_S1	Scophthalmus maximus	Chordata
+CMS001_014_Ra_S5	Scophthalmus maximus	Chordata
+CMS001_016_Ra_S6	Scophthalmus maximus	Chordata
+CMS001_017_Ra_S6	Scophthalmus maximus	Chordata
+CMS001_021_Ra_S16	Scophthalmus maximus	Chordata
+CMS001_024_Ra_S15	Scophthalmus maximus	Chordata
+CMS001_025_Ra_S7	Scophthalmus maximus	Chordata
+CMS001_026_Ra_S18	Scophthalmus maximus	Chordata
+CMS001_029_Ra_S18	Scophthalmus maximus	Chordata
+CMS001_031_Ra_S19	Scophthalmus maximus	Chordata
+CMS001_032_Ra_S7	Scophthalmus maximus	Chordata
+CMS001_034_Ra_S19	Scophthalmus maximus	Chordata
+CMS001_036_Ra_S20	Scophthalmus maximus	Chordata
+CMS001_046_Ra_S3	Scophthalmus maximus	Chordata
+CMS001_048_Ra_S5	Scophthalmus maximus	Chordata
+CMS001_050_Ra_S23	Scophthalmus maximus	Chordata
+CMS001_053_Ra_S8	Scophthalmus maximus	Chordata
+CMS001_060_Ra_S12	Scophthalmus maximus	Chordata
+CMS002_007a_Rb_S118_L004	Scophthalmus maximus	Chordata
+CMS002_020a_Rb_S131_L004	Scophthalmus maximus	Chordata
+CMS002_020c_Rb_S133_L004	Scophthalmus maximus	Chordata
+CMS002_020d_Rb_S134_L004	Scophthalmus maximus	Chordata
+CMS002_021a_Rb_S136_L004	Scophthalmus maximus	Chordata
+CMS002_028b_Rb_S155_L004	Scophthalmus maximus	Chordata
+CMS002_028e_Rb_S158_L004	Scophthalmus maximus	Chordata
+CMS002_029c_Rb_S161_L004	Scophthalmus maximus	Chordata
+CMS002_029d_Rb_S162_L004	Scophthalmus maximus	Chordata
+CMS002_029e_Rb_S164_L004	Scophthalmus maximus	Chordata
+CMS002_032a_Rb_S166_L004	Scophthalmus maximus	Chordata
+CMS002_035a_Rb_S169_L004	Scophthalmus maximus	Chordata
+CMS002_041a_Rb_S176_L004	Scophthalmus maximus	Chordata
+CMS002_047b_Rb_S194_L004	Scophthalmus maximus	Chordata
+CMS002_047d_Rb_S196_L004	Scophthalmus maximus	Chordata
+CMS002_047i_Rb_S2_L004	Scophthalmus maximus	Chordata
+CMS002_047j_Rb_S3_L004	Scophthalmus maximus	Chordata
+CMS002_053a_Rb_S7_L004	Scophthalmus maximus	Chordata
+CMS002_056a_Rb_S9_L004	Scophthalmus maximus	Chordata
 CMS001_water3_Qiagen_S26	Pseudoalteromonas	Bacteria
 CMS001_002_Ra_S1	Pantoea	Bacteria
 CMS002_053a_Rb_S7_L004	Pantoea	Bacteria
 CMS001_028_Ra_S17	Hanseniaspora valbyensis	Eukaryota
 CMS002_047a_Rb_S193_L004	Pristionchus pacificus	Eukaryota
-CMS001_044_Ra_S25	Mesitornis unicolor	Eukaryota
-CMS002_046b_Rb_S192_L004	Mesitornis unicolor	Eukaryota
+CMS001_044_Ra_S25	Mesitornis unicolor	Chordata
+CMS002_046b_Rb_S192_L004	Mesitornis unicolor	Chordata
 CMS002_020a_Rb_S131_L004	Plasmodium vinckei vinckei	Eukaryota
 CMS002_020d_Rb_S134_L004	Plasmodium vinckei vinckei	Eukaryota
 CMS002_017b_Rb_S123_L004	Pinus resinosa	Eukaryota
-CMS001_041_Ra_S10	Sciuridae	Eukaryota
+CMS001_041_Ra_S10	Sciuridae	Chordata
 CMS002_0Water1_Rb_S127_L004	Malassezia	Eukaryota
 CMS001_037_Ra_S21	Erwinia persicina	Bacteria
-CMS001_060_Ra_S12	Cuculus canorus	Eukaryota
+CMS001_060_Ra_S12	Cuculus canorus	Chordata
 CMS001_003_Ra_S2	Oedocladium carolinianum	Eukaryota
 CMS001_052_Ra_S7	Oedocladium carolinianum	Eukaryota
 CMS002_020e_Rb_S135_L004	Oedocladium carolinianum	Eukaryota
@@ -3342,38 +3342,38 @@ CMS001_060_Ra_S12	Plagiorchioidea	Eukaryota
 CMS001_028_Ra_S17	Hanseniaspora guilliermondii	Eukaryota
 CMS001_009_Ra_S13	Hanseniaspora osmophila	Eukaryota
 CMS001_009_Ra_S13	Hanseniaspora vineae	Eukaryota
-CMS001_001_Ra_S1	Cottoperca gobio	Eukaryota
-CMS001_003_Ra_S2	Cottoperca gobio	Eukaryota
-CMS001_005_Ra_S3	Cottoperca gobio	Eukaryota
-CMS001_007_Ra_S12	Cottoperca gobio	Eukaryota
-CMS001_008_Ra_S3	Cottoperca gobio	Eukaryota
-CMS001_013_Ra_S5	Cottoperca gobio	Eukaryota
-CMS001_025_Ra_S7	Cottoperca gobio	Eukaryota
-CMS001_036_Ra_S20	Cottoperca gobio	Eukaryota
-CMS001_042_Ra_S23	Cottoperca gobio	Eukaryota
-CMS001_043_Ra_S24	Cottoperca gobio	Eukaryota
-CMS001_056_Ra_S10	Cottoperca gobio	Eukaryota
-CMS001_060_Ra_S12	Cottoperca gobio	Eukaryota
-CMS002_020a_Rb_S131_L004	Cottoperca gobio	Eukaryota
-CMS002_020b_Rb_S132_L004	Cottoperca gobio	Eukaryota
-CMS002_020e_Rb_S135_L004	Cottoperca gobio	Eukaryota
-CMS002_021a_Rb_S136_L004	Cottoperca gobio	Eukaryota
-CMS002_029a_Rb_S159_L004	Cottoperca gobio	Eukaryota
-CMS002_029d_Rb_S162_L004	Cottoperca gobio	Eukaryota
-CMS002_032a_Rb_S166_L004	Cottoperca gobio	Eukaryota
-CMS002_033a_Rb_S167_L004	Cottoperca gobio	Eukaryota
-CMS002_034a_Rb_S168_L004	Cottoperca gobio	Eukaryota
-CMS002_035a_Rb_S169_L004	Cottoperca gobio	Eukaryota
-CMS002_038a_Rb_S172_L004	Cottoperca gobio	Eukaryota
-CMS002_039a_Rb_S173_L004	Cottoperca gobio	Eukaryota
-CMS002_040a_Rb_S174_L004	Cottoperca gobio	Eukaryota
-CMS002_042a_Rb_S177_L004	Cottoperca gobio	Eukaryota
-CMS002_047d_Rb_S196_L004	Cottoperca gobio	Eukaryota
-CMS002_047f_Rb_S198_L004	Cottoperca gobio	Eukaryota
-CMS002_053a_Rb_S7_L004	Cottoperca gobio	Eukaryota
-CMS002_056a_Rb_S9_L004	Cottoperca gobio	Eukaryota
-CMS001_060_Ra_S12	Labrus bergylta	Eukaryota
-CMS002_029b_Rb_S160_L004	Labrus bergylta	Eukaryota
+CMS001_001_Ra_S1	Cottoperca gobio	Chordata
+CMS001_003_Ra_S2	Cottoperca gobio	Chordata
+CMS001_005_Ra_S3	Cottoperca gobio	Chordata
+CMS001_007_Ra_S12	Cottoperca gobio	Chordata
+CMS001_008_Ra_S3	Cottoperca gobio	Chordata
+CMS001_013_Ra_S5	Cottoperca gobio	Chordata
+CMS001_025_Ra_S7	Cottoperca gobio	Chordata
+CMS001_036_Ra_S20	Cottoperca gobio	Chordata
+CMS001_042_Ra_S23	Cottoperca gobio	Chordata
+CMS001_043_Ra_S24	Cottoperca gobio	Chordata
+CMS001_056_Ra_S10	Cottoperca gobio	Chordata
+CMS001_060_Ra_S12	Cottoperca gobio	Chordata
+CMS002_020a_Rb_S131_L004	Cottoperca gobio	Chordata
+CMS002_020b_Rb_S132_L004	Cottoperca gobio	Chordata
+CMS002_020e_Rb_S135_L004	Cottoperca gobio	Chordata
+CMS002_021a_Rb_S136_L004	Cottoperca gobio	Chordata
+CMS002_029a_Rb_S159_L004	Cottoperca gobio	Chordata
+CMS002_029d_Rb_S162_L004	Cottoperca gobio	Chordata
+CMS002_032a_Rb_S166_L004	Cottoperca gobio	Chordata
+CMS002_033a_Rb_S167_L004	Cottoperca gobio	Chordata
+CMS002_034a_Rb_S168_L004	Cottoperca gobio	Chordata
+CMS002_035a_Rb_S169_L004	Cottoperca gobio	Chordata
+CMS002_038a_Rb_S172_L004	Cottoperca gobio	Chordata
+CMS002_039a_Rb_S173_L004	Cottoperca gobio	Chordata
+CMS002_040a_Rb_S174_L004	Cottoperca gobio	Chordata
+CMS002_042a_Rb_S177_L004	Cottoperca gobio	Chordata
+CMS002_047d_Rb_S196_L004	Cottoperca gobio	Chordata
+CMS002_047f_Rb_S198_L004	Cottoperca gobio	Chordata
+CMS002_053a_Rb_S7_L004	Cottoperca gobio	Chordata
+CMS002_056a_Rb_S9_L004	Cottoperca gobio	Chordata
+CMS001_060_Ra_S12	Labrus bergylta	Chordata
+CMS002_029b_Rb_S160_L004	Labrus bergylta	Chordata
 CMS001_002_Ra_S1	Dicrocoelium dendriticum	Eukaryota
 CMS001_016_Ra_S6	Dicrocoelium dendriticum	Eukaryota
 CMS001_026_Ra_S18	Dicrocoelium dendriticum	Eukaryota
@@ -3398,20 +3398,20 @@ CMS002_0Water7_Rb_S199_L004	Quercus suber	Eukaryota
 CMS001_016_Ra_S6	Kitasatospora mediocidica	Bacteria
 CMS002_028e_Rb_S158_L004	Trichoderma citrinoviride	Eukaryota
 CMS002_017e_Rb_S126_L004	Rickettsiella	Bacteria
-CMS001_005_Ra_S3	Myotis lucifugus	Eukaryota
-CMS002_021a_Rb_S136_L004	Myotis lucifugus	Eukaryota
-CMS001_029_Ra_S18	Taeniopygia guttata	Eukaryota
-CMS001_032_Ra_S7	Taeniopygia guttata	Eukaryota
-CMS001_water3_Qiagen_S26	Taeniopygia guttata	Eukaryota
+CMS001_005_Ra_S3	Myotis lucifugus	Chordata
+CMS002_021a_Rb_S136_L004	Myotis lucifugus	Chordata
+CMS001_029_Ra_S18	Taeniopygia guttata	Chordata
+CMS001_032_Ra_S7	Taeniopygia guttata	Chordata
+CMS001_water3_Qiagen_S26	Taeniopygia guttata	Chordata
 CMS001_water2_S24	Chryseobacterium	Bacteria
-CMS001_029_Ra_S18	Ficedula albicollis	Eukaryota
-CMS002_020a_Rb_S131_L004	Ficedula albicollis	Eukaryota
+CMS001_029_Ra_S18	Ficedula albicollis	Chordata
+CMS002_020a_Rb_S131_L004	Ficedula albicollis	Chordata
 CMS001_058_Ra_S9	Cynara cardunculus var. scolymus	Eukaryota
 CMS001_017_Ra_S6	Paraburkholderia graminis	Bacteria
 CMS001_051_Ra_S8	Burkholderia vietnamiensis	Bacteria
-CMS002_035a_Rb_S169_L004	Chlorocebus sabaeus	Eukaryota
-CMS002_032a_Rb_S166_L004	Rhinopithecus bieti	Eukaryota
-CMS002_038a_Rb_S172_L004	Rhinopithecus bieti	Eukaryota
+CMS002_035a_Rb_S169_L004	Chlorocebus sabaeus	Chordata
+CMS002_032a_Rb_S166_L004	Rhinopithecus bieti	Chordata
+CMS002_038a_Rb_S172_L004	Rhinopithecus bieti	Chordata
 CMS002_007a_Rb_S118_L004	Varroa	Eukaryota
 CMS002_033a_Rb_S167_L004	Varroa	Eukaryota
 CMS001_003_Ra_S2	Varroa jacobsoni	Eukaryota
@@ -3431,31 +3431,31 @@ CMS001_025_Ra_S7	Chenopodium quinoa	Eukaryota
 CMS002_020a_Rb_S131_L004	Chenopodium quinoa	Eukaryota
 CMS002_033a_Rb_S167_L004	Chenopodium quinoa	Eukaryota
 CMS002_047c_Rb_S195_L004	Chenopodium quinoa	Eukaryota
-CMS001_003_Ra_S2	Ozotoceros bezoarticus	Eukaryota
+CMS001_003_Ra_S2	Ozotoceros bezoarticus	Chordata
 CMS001_014_Ra_S5	Nevskia ramosa	Bacteria
 CMS002_047j_Rb_S3_L004	Nevskia ramosa	Bacteria
-CMS001_003_Ra_S2	Anabas testudineus	Eukaryota
-CMS001_005_Ra_S3	Anabas testudineus	Eukaryota
-CMS001_009_Ra_S13	Anabas testudineus	Eukaryota
-CMS001_017_Ra_S6	Anabas testudineus	Eukaryota
-CMS001_033_Ra_S8	Anabas testudineus	Eukaryota
-CMS001_036_Ra_S20	Anabas testudineus	Eukaryota
-CMS001_055_Ra_S9	Anabas testudineus	Eukaryota
-CMS001_057_Ra_S11	Anabas testudineus	Eukaryota
-CMS001_058_Ra_S9	Anabas testudineus	Eukaryota
-CMS001_060_Ra_S12	Anabas testudineus	Eukaryota
-CMS002_007a_Rb_S118_L004	Anabas testudineus	Eukaryota
-CMS002_020a_Rb_S131_L004	Anabas testudineus	Eukaryota
-CMS002_020e_Rb_S135_L004	Anabas testudineus	Eukaryota
-CMS002_021a_Rb_S136_L004	Anabas testudineus	Eukaryota
-CMS002_029a_Rb_S159_L004	Anabas testudineus	Eukaryota
-CMS002_029b_Rb_S160_L004	Anabas testudineus	Eukaryota
-CMS002_032a_Rb_S166_L004	Anabas testudineus	Eukaryota
-CMS002_047a_Rb_S193_L004	Anabas testudineus	Eukaryota
-CMS002_047c_Rb_S195_L004	Anabas testudineus	Eukaryota
-CMS002_047e_Rb_S197_L004	Anabas testudineus	Eukaryota
-CMS002_047h_Rb_S1_L004	Anabas testudineus	Eukaryota
-CMS002_053a_Rb_S7_L004	Anabas testudineus	Eukaryota
+CMS001_003_Ra_S2	Anabas testudineus	Chordata
+CMS001_005_Ra_S3	Anabas testudineus	Chordata
+CMS001_009_Ra_S13	Anabas testudineus	Chordata
+CMS001_017_Ra_S6	Anabas testudineus	Chordata
+CMS001_033_Ra_S8	Anabas testudineus	Chordata
+CMS001_036_Ra_S20	Anabas testudineus	Chordata
+CMS001_055_Ra_S9	Anabas testudineus	Chordata
+CMS001_057_Ra_S11	Anabas testudineus	Chordata
+CMS001_058_Ra_S9	Anabas testudineus	Chordata
+CMS001_060_Ra_S12	Anabas testudineus	Chordata
+CMS002_007a_Rb_S118_L004	Anabas testudineus	Chordata
+CMS002_020a_Rb_S131_L004	Anabas testudineus	Chordata
+CMS002_020e_Rb_S135_L004	Anabas testudineus	Chordata
+CMS002_021a_Rb_S136_L004	Anabas testudineus	Chordata
+CMS002_029a_Rb_S159_L004	Anabas testudineus	Chordata
+CMS002_029b_Rb_S160_L004	Anabas testudineus	Chordata
+CMS002_032a_Rb_S166_L004	Anabas testudineus	Chordata
+CMS002_047a_Rb_S193_L004	Anabas testudineus	Chordata
+CMS002_047c_Rb_S195_L004	Anabas testudineus	Chordata
+CMS002_047e_Rb_S197_L004	Anabas testudineus	Chordata
+CMS002_047h_Rb_S1_L004	Anabas testudineus	Chordata
+CMS002_053a_Rb_S7_L004	Anabas testudineus	Chordata
 CMS001_060_Ra_S12	Penaeus setiferus	Eukaryota
 CMS001_022_Ra_S6	Rhizopus oryzae	Eukaryota
 CMS001_049_Ra_S6	Borreliella	Bacteria
@@ -3470,15 +3470,15 @@ CMS002_031a_Rb_S165_L004	Durio zibethinus	Eukaryota
 CMS002_032a_Rb_S166_L004	Durio zibethinus	Eukaryota
 CMS002_040a_Rb_S174_L004	Durio zibethinus	Eukaryota
 CMS002_041a_Rb_S176_L004	Durio zibethinus	Eukaryota
-CMS001_043_Ra_S24	Ameiurus natalis	Eukaryota
+CMS001_043_Ra_S24	Ameiurus natalis	Chordata
 CMS001_035_Ra_S20	Trypanosoma theileri	Eukaryota
-CMS001_008_Ra_S3	Semotilus atromaculatus	Eukaryota
+CMS001_008_Ra_S3	Semotilus atromaculatus	Chordata
 CMS002_047f_Rb_S198_L004	delta/epsilon subdivisions	Bacteria
 CMS001_011_Ra_S4	Trichuris suis	Eukaryota
 CMS002_032a_Rb_S166_L004	Trichuris suis	Eukaryota
-CMS002_021a_Rb_S136_L004	Eudorcas thomsonii	Eukaryota
+CMS002_021a_Rb_S136_L004	Eudorcas thomsonii	Chordata
 CMS001_016_Ra_S6	Chara braunii	Eukaryota
-CMS001_047_Ra_S4	Troglodytinae	Eukaryota
+CMS001_047_Ra_S4	Troglodytinae	Chordata
 CMS001_016_Ra_S6	Candidatus Phytoplasma solani	Bacteria
 CMS001_046_Ra_S3	Ostreococcus tauri	Eukaryota
 CMS002_007a_Rb_S118_L004	Ostreococcus tauri	Eukaryota
@@ -3493,68 +3493,68 @@ CMS002_047a_Rb_S193_L004	rosids	Eukaryota
 CMS002_047c_Rb_S195_L004	rosids	Eukaryota
 CMS002_047i_Rb_S2_L004	rosids	Eukaryota
 CMS002_026d_Rb_S149_L004	Lonsdalea quercina	Bacteria
-CMS001_060_Ra_S12	Elassoma zonatum	Eukaryota
+CMS001_060_Ra_S12	Elassoma zonatum	Chordata
 CMS002_053a_Rb_S7_L004	Psathyrella	Eukaryota
 CMS001_029_Ra_S18	Trypanosoma bennetti	Eukaryota
 CMS001_003_Ra_S2	Trypanosoma grayi	Eukaryota
 CMS001_035_Ra_S20	Trypanosoma grayi	Eukaryota
 CMS002_020e_Rb_S135_L004	Trypanosoma grayi	Eukaryota
-CMS001_001_Ra_S1	Bos mutus	Eukaryota
-CMS001_003_Ra_S2	Bos mutus	Eukaryota
-CMS001_005_Ra_S3	Bos mutus	Eukaryota
-CMS001_006_Ra_S5	Bos mutus	Eukaryota
-CMS001_012_Ra_S4	Bos mutus	Eukaryota
-CMS001_016_Ra_S6	Bos mutus	Eukaryota
-CMS001_020_Ra_S15	Bos mutus	Eukaryota
-CMS001_021_Ra_S16	Bos mutus	Eukaryota
-CMS001_025_Ra_S7	Bos mutus	Eukaryota
-CMS001_026_Ra_S18	Bos mutus	Eukaryota
-CMS001_027_Ra_S16	Bos mutus	Eukaryota
-CMS001_039_Ra_S9	Bos mutus	Eukaryota
-CMS001_043_Ra_S24	Bos mutus	Eukaryota
-CMS001_051_Ra_S8	Bos mutus	Eukaryota
-CMS001_052_Ra_S7	Bos mutus	Eukaryota
-CMS001_055_Ra_S9	Bos mutus	Eukaryota
-CMS001_060_Ra_S12	Bos mutus	Eukaryota
-CMS002_007a_Rb_S118_L004	Bos mutus	Eukaryota
-CMS002_020a_Rb_S131_L004	Bos mutus	Eukaryota
-CMS002_020d_Rb_S134_L004	Bos mutus	Eukaryota
-CMS002_021a_Rb_S136_L004	Bos mutus	Eukaryota
-CMS002_028a_Rb_S154_L004	Bos mutus	Eukaryota
-CMS002_028b_Rb_S155_L004	Bos mutus	Eukaryota
-CMS002_028c_Rb_S156_L004	Bos mutus	Eukaryota
-CMS002_028e_Rb_S158_L004	Bos mutus	Eukaryota
-CMS002_029a_Rb_S159_L004	Bos mutus	Eukaryota
-CMS002_032a_Rb_S166_L004	Bos mutus	Eukaryota
-CMS002_033a_Rb_S167_L004	Bos mutus	Eukaryota
-CMS002_037a_Rb_S171_L004	Bos mutus	Eukaryota
-CMS002_040a_Rb_S174_L004	Bos mutus	Eukaryota
-CMS002_047c_Rb_S195_L004	Bos mutus	Eukaryota
-CMS002_047d_Rb_S196_L004	Bos mutus	Eukaryota
-CMS002_047e_Rb_S197_L004	Bos mutus	Eukaryota
-CMS002_047h_Rb_S1_L004	Bos mutus	Eukaryota
-CMS002_047i_Rb_S2_L004	Bos mutus	Eukaryota
-CMS002_047j_Rb_S3_L004	Bos mutus	Eukaryota
-CMS002_053a_Rb_S7_L004	Bos mutus	Eukaryota
+CMS001_001_Ra_S1	Bos mutus	Chordata
+CMS001_003_Ra_S2	Bos mutus	Chordata
+CMS001_005_Ra_S3	Bos mutus	Chordata
+CMS001_006_Ra_S5	Bos mutus	Chordata
+CMS001_012_Ra_S4	Bos mutus	Chordata
+CMS001_016_Ra_S6	Bos mutus	Chordata
+CMS001_020_Ra_S15	Bos mutus	Chordata
+CMS001_021_Ra_S16	Bos mutus	Chordata
+CMS001_025_Ra_S7	Bos mutus	Chordata
+CMS001_026_Ra_S18	Bos mutus	Chordata
+CMS001_027_Ra_S16	Bos mutus	Chordata
+CMS001_039_Ra_S9	Bos mutus	Chordata
+CMS001_043_Ra_S24	Bos mutus	Chordata
+CMS001_051_Ra_S8	Bos mutus	Chordata
+CMS001_052_Ra_S7	Bos mutus	Chordata
+CMS001_055_Ra_S9	Bos mutus	Chordata
+CMS001_060_Ra_S12	Bos mutus	Chordata
+CMS002_007a_Rb_S118_L004	Bos mutus	Chordata
+CMS002_020a_Rb_S131_L004	Bos mutus	Chordata
+CMS002_020d_Rb_S134_L004	Bos mutus	Chordata
+CMS002_021a_Rb_S136_L004	Bos mutus	Chordata
+CMS002_028a_Rb_S154_L004	Bos mutus	Chordata
+CMS002_028b_Rb_S155_L004	Bos mutus	Chordata
+CMS002_028c_Rb_S156_L004	Bos mutus	Chordata
+CMS002_028e_Rb_S158_L004	Bos mutus	Chordata
+CMS002_029a_Rb_S159_L004	Bos mutus	Chordata
+CMS002_032a_Rb_S166_L004	Bos mutus	Chordata
+CMS002_033a_Rb_S167_L004	Bos mutus	Chordata
+CMS002_037a_Rb_S171_L004	Bos mutus	Chordata
+CMS002_040a_Rb_S174_L004	Bos mutus	Chordata
+CMS002_047c_Rb_S195_L004	Bos mutus	Chordata
+CMS002_047d_Rb_S196_L004	Bos mutus	Chordata
+CMS002_047e_Rb_S197_L004	Bos mutus	Chordata
+CMS002_047h_Rb_S1_L004	Bos mutus	Chordata
+CMS002_047i_Rb_S2_L004	Bos mutus	Chordata
+CMS002_047j_Rb_S3_L004	Bos mutus	Chordata
+CMS002_053a_Rb_S7_L004	Bos mutus	Chordata
 CMS002_029a_Rb_S159_L004	Bacillus vallismortis	Bacteria
 CMS002_007a_Rb_S118_L004	Sporisorium reilianum	Eukaryota
 CMS002_053a_Rb_S7_L004	Eutrema salsugineum	Eukaryota
-CMS001_033_Ra_S8	Ceratotherium simum simum	Eukaryota
+CMS001_033_Ra_S8	Ceratotherium simum simum	Chordata
 CMS002_029c_Rb_S161_L004	Piromyces sp. E2	Eukaryota
 CMS002_029d_Rb_S162_L004	Piromyces sp. E2	Eukaryota
 CMS002_034a_Rb_S168_L004	Piromyces sp. E2	Eukaryota
 CMS001_060_Ra_S12	Thraustotheca clavata	Eukaryota
 CMS001_014_Ra_S5	Rosa chinensis	Eukaryota
 CMS002_020b_Rb_S132_L004	Rosa chinensis	Eukaryota
-CMS001_005_Ra_S3	Oncorhynchus tshawytscha	Eukaryota
-CMS001_060_Ra_S12	Oncorhynchus tshawytscha	Eukaryota
+CMS001_005_Ra_S3	Oncorhynchus tshawytscha	Chordata
+CMS001_060_Ra_S12	Oncorhynchus tshawytscha	Chordata
 CMS001_003_Ra_S2	Entelegynae	Eukaryota
 CMS001_053_Ra_S8	Entelegynae	Eukaryota
 CMS001_003_Ra_S2	Araneoidea	Eukaryota
 CMS002_029e_Rb_S164_L004	Streptomyces autolyticus	Bacteria
-CMS002_033a_Rb_S167_L004	Sinocyclocheilus grahami	Eukaryota
-CMS002_047a_Rb_S193_L004	Sinocyclocheilus grahami	Eukaryota
-CMS002_053a_Rb_S7_L004	Sinocyclocheilus grahami	Eukaryota
+CMS002_033a_Rb_S167_L004	Sinocyclocheilus grahami	Chordata
+CMS002_047a_Rb_S193_L004	Sinocyclocheilus grahami	Chordata
+CMS002_053a_Rb_S7_L004	Sinocyclocheilus grahami	Chordata
 CMS001_water3_Qiagen_S26	Pseudomonas libanensis	Bacteria
 CMS001_009_Ra_S13	Salix interior	Eukaryota
 CMS001_001_Ra_S1	Strongyloides venezuelensis	Eukaryota
@@ -3596,22 +3596,22 @@ CMS001_013_Ra_S5	Euphyllophyta	Eukaryota
 CMS002_053a_Rb_S7_L004	Phalaenopsis equestris	Eukaryota
 CMS002_033a_Rb_S167_L004	Daucus carota subsp. sativus	Eukaryota
 CMS002_039a_Rb_S173_L004	Daucus carota subsp. sativus	Eukaryota
-CMS001_058_Ra_S9	Microtus ochrogaster	Eukaryota
-CMS002_020a_Rb_S131_L004	Lacerta agilis	Eukaryota
+CMS001_058_Ra_S9	Microtus ochrogaster	Chordata
+CMS002_020a_Rb_S131_L004	Lacerta agilis	Chordata
 CMS001_water2_S24	Cystobacterineae	Bacteria
 CMS001_water4_Zymo_S27	Burkholderiales	Bacteria
 CMS002_028a_Rb_S154_L004	Burkholderiales	Bacteria
 CMS001_030_Ra_S7	Comamonadaceae	Bacteria
 CMS001_water4_Zymo_S27	Delftia	Bacteria
-CMS001_026_Ra_S18	Acanthochromis polyacanthus	Eukaryota
-CMS001_036_Ra_S20	Acanthochromis polyacanthus	Eukaryota
-CMS001_039_Ra_S9	Acanthochromis polyacanthus	Eukaryota
-CMS002_020a_Rb_S131_L004	Acanthochromis polyacanthus	Eukaryota
-CMS002_020d_Rb_S134_L004	Acanthochromis polyacanthus	Eukaryota
-CMS002_029b_Rb_S160_L004	Acanthochromis polyacanthus	Eukaryota
-CMS002_029d_Rb_S162_L004	Acanthochromis polyacanthus	Eukaryota
-CMS002_056a_Rb_S9_L004	Acanthochromis polyacanthus	Eukaryota
-CMS001_060_Ra_S12	Amphiprion ocellaris	Eukaryota
+CMS001_026_Ra_S18	Acanthochromis polyacanthus	Chordata
+CMS001_036_Ra_S20	Acanthochromis polyacanthus	Chordata
+CMS001_039_Ra_S9	Acanthochromis polyacanthus	Chordata
+CMS002_020a_Rb_S131_L004	Acanthochromis polyacanthus	Chordata
+CMS002_020d_Rb_S134_L004	Acanthochromis polyacanthus	Chordata
+CMS002_029b_Rb_S160_L004	Acanthochromis polyacanthus	Chordata
+CMS002_029d_Rb_S162_L004	Acanthochromis polyacanthus	Chordata
+CMS002_056a_Rb_S9_L004	Acanthochromis polyacanthus	Chordata
+CMS001_060_Ra_S12	Amphiprion ocellaris	Chordata
 CMS001_water2_S24	artificial sequences	Other
 CMS001_water3_Qiagen_S26	artificial sequences	Other
 CMS001_water4_Zymo_S27	artificial sequences	Other
@@ -3626,8 +3626,8 @@ CMS002_020a_Rb_S131_L004	Pseudoclostridium thermosuccinogenes	Bacteria
 CMS001_060_Ra_S12	Plagiorchis	Eukaryota
 CMS001_006_Ra_S5	Sphingobacteriaceae	Bacteria
 CMS001_006_Ra_S5	Pedobacter	Bacteria
-CMS001_025_Ra_S7	Labeo rohita	Eukaryota
-CMS002_053a_Rb_S7_L004	Labeo rohita	Eukaryota
+CMS001_025_Ra_S7	Labeo rohita	Chordata
+CMS002_053a_Rb_S7_L004	Labeo rohita	Chordata
 CMS001_003_Ra_S2	Moesziomyces antarcticus	Eukaryota
 CMS002_035a_Rb_S169_L004	Moesziomyces antarcticus	Eukaryota
 CMS002_042a_Rb_S177_L004	Moesziomyces antarcticus	Eukaryota
@@ -3635,8 +3635,8 @@ CMS001_water4_Zymo_S27	Micrococcales	Bacteria
 CMS001_water2_S24	Corynebacteriales	Bacteria
 CMS001_013_Ra_S5	Dermabacteraceae	Bacteria
 CMS002_017e_Rb_S126_L004	Geodermatophilaceae	Bacteria
-CMS001_032_Ra_S7	Corvus brachyrhynchos	Eukaryota
-CMS001_059_Ra_S10	Corvus brachyrhynchos	Eukaryota
+CMS001_032_Ra_S7	Corvus brachyrhynchos	Chordata
+CMS001_059_Ra_S10	Corvus brachyrhynchos	Chordata
 CMS001_003_Ra_S2	Hymenolepis microstoma	Eukaryota
 CMS001_036_Ra_S20	Hymenolepis microstoma	Eukaryota
 CMS002_035a_Rb_S169_L004	Hymenolepis microstoma	Eukaryota
@@ -3688,12 +3688,12 @@ CMS002_047c_Rb_S195_L004	Selaginella moellendorffii	Eukaryota
 CMS002_017b_Rb_S123_L004	Pinus massoniana	Eukaryota
 CMS001_060_Ra_S12	Panarthropoda	Eukaryota
 CMS002_040a_Rb_S174_L004	Panarthropoda	Eukaryota
-CMS001_008_Ra_S3	Bubalus bubalis	Eukaryota
-CMS002_039a_Rb_S173_L004	Bubalus bubalis	Eukaryota
-CMS002_041a_Rb_S176_L004	Bubalus bubalis	Eukaryota
+CMS001_008_Ra_S3	Bubalus bubalis	Chordata
+CMS002_039a_Rb_S173_L004	Bubalus bubalis	Chordata
+CMS002_041a_Rb_S176_L004	Bubalus bubalis	Chordata
 CMS002_0Water4_Rb_S163_L004	Hymenobacter	Bacteria
-CMS001_009_Ra_S13	Lagenorhynchus obliquidens	Eukaryota
-CMS002_021a_Rb_S136_L004	Lagenorhynchus obliquidens	Eukaryota
+CMS001_009_Ra_S13	Lagenorhynchus obliquidens	Chordata
+CMS002_021a_Rb_S136_L004	Lagenorhynchus obliquidens	Chordata
 CMS001_002_Ra_S1	Camelina sativa	Eukaryota
 CMS001_057_Ra_S11	Bacilli	Bacteria
 CMS002_031a_Rb_S165_L004	Bacilli	Bacteria
@@ -3717,9 +3717,9 @@ CMS002_028e_Rb_S158_L004	Enterobacterales	Bacteria
 CMS002_035a_Rb_S169_L004	Enterobacterales	Bacteria
 CMS002_041a_Rb_S176_L004	Enterobacterales	Bacteria
 CMS002_053a_Rb_S7_L004	Enterobacterales	Bacteria
-CMS001_035_Ra_S20	Cetartiodactyla	Eukaryota
-CMS001_036_Ra_S20	Cetartiodactyla	Eukaryota
-CMS001_038_Ra_S22	Cetartiodactyla	Eukaryota
+CMS001_035_Ra_S20	Cetartiodactyla	Chordata
+CMS001_036_Ra_S20	Cetartiodactyla	Chordata
+CMS001_038_Ra_S22	Cetartiodactyla	Chordata
 CMS001_026_Ra_S18	fabids	Eukaryota
 CMS002_020a_Rb_S131_L004	fabids	Eukaryota
 CMS002_046a_Rb_S191_L004	fabids	Eukaryota
@@ -3728,15 +3728,15 @@ CMS001_036_Ra_S20	Pleosporales	Eukaryota
 CMS002_020c_Rb_S133_L004	Pleosporales	Eukaryota
 CMS002_029c_Rb_S161_L004	Pleosporales	Eukaryota
 CMS001_water2_S24	Mycosphaerellaceae	Eukaryota
-CMS001_012_Ra_S4	Marmota flaviventris	Eukaryota
-CMS002_007a_Rb_S118_L004	Marmota flaviventris	Eukaryota
-CMS002_020e_Rb_S135_L004	Marmota flaviventris	Eukaryota
-CMS002_053a_Rb_S7_L004	Marmota flaviventris	Eukaryota
-CMS002_047d_Rb_S196_L004	Misgurnus mizolepis	Eukaryota
+CMS001_012_Ra_S4	Marmota flaviventris	Chordata
+CMS002_007a_Rb_S118_L004	Marmota flaviventris	Chordata
+CMS002_020e_Rb_S135_L004	Marmota flaviventris	Chordata
+CMS002_053a_Rb_S7_L004	Marmota flaviventris	Chordata
+CMS002_047d_Rb_S196_L004	Misgurnus mizolepis	Chordata
 CMS002_025e_Rb_S144_L004	Gymnopus	Eukaryota
-CMS001_025_Ra_S7	Coturnix japonica	Eukaryota
-CMS002_033a_Rb_S167_L004	Coturnix japonica	Eukaryota
-CMS002_038a_Rb_S172_L004	Coturnix japonica	Eukaryota
+CMS001_025_Ra_S7	Coturnix japonica	Chordata
+CMS002_033a_Rb_S167_L004	Coturnix japonica	Chordata
+CMS002_038a_Rb_S172_L004	Coturnix japonica	Chordata
 CMS001_042_Ra_S23	Osmanthus fragrans	Eukaryota
 CMS002_029b_Rb_S160_L004	unclassified Cytophagaceae	Bacteria
 CMS002_029c_Rb_S161_L004	unclassified Cytophagaceae	Bacteria
@@ -3745,7 +3745,7 @@ CMS002_047a_Rb_S193_L004	Sterkiella histriomuscorum	Eukaryota
 CMS002_047b_Rb_S194_L004	Sterkiella histriomuscorum	Eukaryota
 CMS002_047c_Rb_S195_L004	Sterkiella histriomuscorum	Eukaryota
 CMS002_047j_Rb_S3_L004	Sterkiella histriomuscorum	Eukaryota
-CMS001_060_Ra_S12	Gavialis gangeticus	Eukaryota
+CMS001_060_Ra_S12	Gavialis gangeticus	Chordata
 CMS002_007a_Rb_S118_L004	Flavobacterium psychrophilum	Bacteria
 CMS002_053a_Rb_S7_L004	Carmichaelia australis	Eukaryota
 CMS001_006_Ra_S5	Hammondia hammondi	Eukaryota
@@ -3794,30 +3794,30 @@ CMS002_047h_Rb_S1_L004	Spirometra erinaceieuropaei	Eukaryota
 CMS002_047i_Rb_S2_L004	Spirometra erinaceieuropaei	Eukaryota
 CMS002_047j_Rb_S3_L004	Spirometra erinaceieuropaei	Eukaryota
 CMS002_053a_Rb_S7_L004	Spirometra erinaceieuropaei	Eukaryota
-CMS002_053a_Rb_S7_L004	Tetraodon nigroviridis	Eukaryota
+CMS002_053a_Rb_S7_L004	Tetraodon nigroviridis	Chordata
 CMS002_020a_Rb_S131_L004	uncultured eukaryote	Eukaryota
 CMS002_020d_Rb_S134_L004	uncultured eukaryote	Eukaryota
 CMS002_021a_Rb_S136_L004	uncultured eukaryote	Eukaryota
 CMS002_053a_Rb_S7_L004	uncultured eukaryote	Eukaryota
-CMS001_027_Ra_S16	Pogona vitticeps	Eukaryota
-CMS001_037_Ra_S21	Pogona vitticeps	Eukaryota
-CMS001_058_Ra_S9	Pogona vitticeps	Eukaryota
-CMS002_028b_Rb_S155_L004	Pogona vitticeps	Eukaryota
+CMS001_027_Ra_S16	Pogona vitticeps	Chordata
+CMS001_037_Ra_S21	Pogona vitticeps	Chordata
+CMS001_058_Ra_S9	Pogona vitticeps	Chordata
+CMS002_028b_Rb_S155_L004	Pogona vitticeps	Chordata
 CMS001_005_Ra_S3	Cryptococcus amylolentus	Eukaryota
 CMS002_007a_Rb_S118_L004	Adineta vaga	Eukaryota
-CMS001_060_Ra_S12	Nothobranchius furzeri	Eukaryota
+CMS001_060_Ra_S12	Nothobranchius furzeri	Chordata
 CMS002_047h_Rb_S1_L004	Azumapecten farreri	Eukaryota
 CMS002_053a_Rb_S7_L004	Malus mandshurica	Eukaryota
-CMS001_005_Ra_S3	Maylandia zebra	Eukaryota
-CMS002_007a_Rb_S118_L004	Maylandia zebra	Eukaryota
-CMS002_013a_Rb_S120_L004	Maylandia zebra	Eukaryota
+CMS001_005_Ra_S3	Maylandia zebra	Chordata
+CMS002_007a_Rb_S118_L004	Maylandia zebra	Chordata
+CMS002_013a_Rb_S120_L004	Maylandia zebra	Chordata
 CMS001_039_Ra_S9	Acinetobacter nosocomialis	Bacteria
 CMS002_021a_Rb_S136_L004	Acinetobacter nosocomialis	Bacteria
 CMS002_047i_Rb_S2_L004	Acinetobacter schindleri	Bacteria
 CMS002_035a_Rb_S169_L004	Phytophthora boehmeriae	Eukaryota
-CMS001_042_Ra_S23	Hippocampus comes	Eukaryota
-CMS002_020a_Rb_S131_L004	Hippocampus comes	Eukaryota
-CMS002_042a_Rb_S177_L004	Hippocampus comes	Eukaryota
+CMS001_042_Ra_S23	Hippocampus comes	Chordata
+CMS002_020a_Rb_S131_L004	Hippocampus comes	Chordata
+CMS002_042a_Rb_S177_L004	Hippocampus comes	Chordata
 CMS001_014_Ra_S5	Brassica oleracea var. oleracea	Eukaryota
 CMS001_057_Ra_S11	Spironema	Bacteria
 CMS002_038a_Rb_S172_L004	Spironema	Bacteria
@@ -3849,48 +3849,48 @@ CMS001_water4_Zymo_S27	eukaryotic synthetic construct	Other
 CMS002_020e_Rb_S135_L004	eukaryotic synthetic construct	Other
 CMS001_026_Ra_S18	Aphanomyces astaci	Eukaryota
 CMS002_047e_Rb_S197_L004	Fungi incertae sedis	Eukaryota
-CMS001_001_Ra_S1	Ovis canadensis canadensis	Eukaryota
-CMS001_002_Ra_S1	Ovis canadensis canadensis	Eukaryota
-CMS001_003_Ra_S2	Ovis canadensis canadensis	Eukaryota
-CMS001_008_Ra_S3	Ovis canadensis canadensis	Eukaryota
-CMS001_010_Ra_S1	Ovis canadensis canadensis	Eukaryota
-CMS001_011_Ra_S4	Ovis canadensis canadensis	Eukaryota
-CMS001_013_Ra_S5	Ovis canadensis canadensis	Eukaryota
-CMS001_014_Ra_S5	Ovis canadensis canadensis	Eukaryota
-CMS001_017_Ra_S6	Ovis canadensis canadensis	Eukaryota
-CMS001_021_Ra_S16	Ovis canadensis canadensis	Eukaryota
-CMS001_025_Ra_S7	Ovis canadensis canadensis	Eukaryota
-CMS001_028_Ra_S17	Ovis canadensis canadensis	Eukaryota
-CMS001_031_Ra_S19	Ovis canadensis canadensis	Eukaryota
-CMS001_033_Ra_S8	Ovis canadensis canadensis	Eukaryota
-CMS001_036_Ra_S20	Ovis canadensis canadensis	Eukaryota
-CMS001_043_Ra_S24	Ovis canadensis canadensis	Eukaryota
-CMS001_050_Ra_S23	Ovis canadensis canadensis	Eukaryota
-CMS001_051_Ra_S8	Ovis canadensis canadensis	Eukaryota
-CMS002_007a_Rb_S118_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_020a_Rb_S131_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_020d_Rb_S134_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_020e_Rb_S135_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_021a_Rb_S136_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_028b_Rb_S155_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_028c_Rb_S156_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_029a_Rb_S159_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_029b_Rb_S160_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_029e_Rb_S164_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_031a_Rb_S165_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_032a_Rb_S166_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_033a_Rb_S167_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_039a_Rb_S173_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_041a_Rb_S176_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_042a_Rb_S177_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_047a_Rb_S193_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_047b_Rb_S194_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_047d_Rb_S196_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_053a_Rb_S7_L004	Ovis canadensis canadensis	Eukaryota
-CMS002_056a_Rb_S9_L004	Ovis canadensis canadensis	Eukaryota
-CMS001_043_Ra_S24	Pipridae	Eukaryota
-CMS001_047_Ra_S4	Pipridae	Eukaryota
-CMS001_026_Ra_S18	Neopelma chrysocephalum	Eukaryota
+CMS001_001_Ra_S1	Ovis canadensis canadensis	Chordata
+CMS001_002_Ra_S1	Ovis canadensis canadensis	Chordata
+CMS001_003_Ra_S2	Ovis canadensis canadensis	Chordata
+CMS001_008_Ra_S3	Ovis canadensis canadensis	Chordata
+CMS001_010_Ra_S1	Ovis canadensis canadensis	Chordata
+CMS001_011_Ra_S4	Ovis canadensis canadensis	Chordata
+CMS001_013_Ra_S5	Ovis canadensis canadensis	Chordata
+CMS001_014_Ra_S5	Ovis canadensis canadensis	Chordata
+CMS001_017_Ra_S6	Ovis canadensis canadensis	Chordata
+CMS001_021_Ra_S16	Ovis canadensis canadensis	Chordata
+CMS001_025_Ra_S7	Ovis canadensis canadensis	Chordata
+CMS001_028_Ra_S17	Ovis canadensis canadensis	Chordata
+CMS001_031_Ra_S19	Ovis canadensis canadensis	Chordata
+CMS001_033_Ra_S8	Ovis canadensis canadensis	Chordata
+CMS001_036_Ra_S20	Ovis canadensis canadensis	Chordata
+CMS001_043_Ra_S24	Ovis canadensis canadensis	Chordata
+CMS001_050_Ra_S23	Ovis canadensis canadensis	Chordata
+CMS001_051_Ra_S8	Ovis canadensis canadensis	Chordata
+CMS002_007a_Rb_S118_L004	Ovis canadensis canadensis	Chordata
+CMS002_020a_Rb_S131_L004	Ovis canadensis canadensis	Chordata
+CMS002_020d_Rb_S134_L004	Ovis canadensis canadensis	Chordata
+CMS002_020e_Rb_S135_L004	Ovis canadensis canadensis	Chordata
+CMS002_021a_Rb_S136_L004	Ovis canadensis canadensis	Chordata
+CMS002_028b_Rb_S155_L004	Ovis canadensis canadensis	Chordata
+CMS002_028c_Rb_S156_L004	Ovis canadensis canadensis	Chordata
+CMS002_029a_Rb_S159_L004	Ovis canadensis canadensis	Chordata
+CMS002_029b_Rb_S160_L004	Ovis canadensis canadensis	Chordata
+CMS002_029e_Rb_S164_L004	Ovis canadensis canadensis	Chordata
+CMS002_031a_Rb_S165_L004	Ovis canadensis canadensis	Chordata
+CMS002_032a_Rb_S166_L004	Ovis canadensis canadensis	Chordata
+CMS002_033a_Rb_S167_L004	Ovis canadensis canadensis	Chordata
+CMS002_039a_Rb_S173_L004	Ovis canadensis canadensis	Chordata
+CMS002_041a_Rb_S176_L004	Ovis canadensis canadensis	Chordata
+CMS002_042a_Rb_S177_L004	Ovis canadensis canadensis	Chordata
+CMS002_047a_Rb_S193_L004	Ovis canadensis canadensis	Chordata
+CMS002_047b_Rb_S194_L004	Ovis canadensis canadensis	Chordata
+CMS002_047d_Rb_S196_L004	Ovis canadensis canadensis	Chordata
+CMS002_053a_Rb_S7_L004	Ovis canadensis canadensis	Chordata
+CMS002_056a_Rb_S9_L004	Ovis canadensis canadensis	Chordata
+CMS001_043_Ra_S24	Pipridae	Chordata
+CMS001_047_Ra_S4	Pipridae	Chordata
+CMS001_026_Ra_S18	Neopelma chrysocephalum	Chordata
 CMS001_060_Ra_S12	Parasteatoda tepidariorum	Eukaryota
 CMS001_water3_Qiagen_S26	Parasteatoda tepidariorum	Eukaryota
 CMS002_020a_Rb_S131_L004	Parasteatoda tepidariorum	Eukaryota
@@ -3908,75 +3908,75 @@ CMS002_026c_Rb_S148_L004	Rhabditophanes sp. KR3021	Eukaryota
 CMS002_047h_Rb_S1_L004	Rhabditophanes sp. KR3021	Eukaryota
 CMS001_055_Ra_S9	uncultured archaeon	Other
 CMS001_water4_Zymo_S27	uncultured archaeon	Other
-CMS001_004_Ra_S2	Ursus arctos horribilis	Eukaryota
-CMS001_028_Ra_S17	Ursus arctos horribilis	Eukaryota
-CMS002_040a_Rb_S174_L004	Ursus arctos horribilis	Eukaryota
-CMS001_001_Ra_S1	Euteleostomi	Eukaryota
-CMS001_002_Ra_S1	Euteleostomi	Eukaryota
-CMS001_003_Ra_S2	Euteleostomi	Eukaryota
-CMS001_005_Ra_S3	Euteleostomi	Eukaryota
-CMS001_007_Ra_S12	Euteleostomi	Eukaryota
-CMS001_008_Ra_S3	Euteleostomi	Eukaryota
-CMS001_009_Ra_S13	Euteleostomi	Eukaryota
-CMS001_012_Ra_S4	Euteleostomi	Eukaryota
-CMS001_013_Ra_S5	Euteleostomi	Eukaryota
-CMS001_014_Ra_S5	Euteleostomi	Eukaryota
-CMS001_016_Ra_S6	Euteleostomi	Eukaryota
-CMS001_017_Ra_S6	Euteleostomi	Eukaryota
-CMS001_018_Ra_S14	Euteleostomi	Eukaryota
-CMS001_020_Ra_S15	Euteleostomi	Eukaryota
-CMS001_021_Ra_S16	Euteleostomi	Eukaryota
-CMS001_024_Ra_S15	Euteleostomi	Eukaryota
-CMS001_025_Ra_S7	Euteleostomi	Eukaryota
-CMS001_026_Ra_S18	Euteleostomi	Eukaryota
-CMS001_033_Ra_S8	Euteleostomi	Eukaryota
-CMS001_034_Ra_S19	Euteleostomi	Eukaryota
-CMS001_035_Ra_S20	Euteleostomi	Eukaryota
-CMS001_036_Ra_S20	Euteleostomi	Eukaryota
-CMS001_037_Ra_S21	Euteleostomi	Eukaryota
-CMS001_038_Ra_S22	Euteleostomi	Eukaryota
-CMS001_039_Ra_S9	Euteleostomi	Eukaryota
-CMS001_041_Ra_S10	Euteleostomi	Eukaryota
-CMS001_042_Ra_S23	Euteleostomi	Eukaryota
-CMS001_045_Ra_S2	Euteleostomi	Eukaryota
-CMS001_047_Ra_S4	Euteleostomi	Eukaryota
-CMS001_050_Ra_S23	Euteleostomi	Eukaryota
-CMS001_051_Ra_S8	Euteleostomi	Eukaryota
-CMS001_057_Ra_S11	Euteleostomi	Eukaryota
-CMS001_058_Ra_S9	Euteleostomi	Eukaryota
-CMS001_060_Ra_S12	Euteleostomi	Eukaryota
-CMS002_007a_Rb_S118_L004	Euteleostomi	Eukaryota
-CMS002_020a_Rb_S131_L004	Euteleostomi	Eukaryota
-CMS002_020b_Rb_S132_L004	Euteleostomi	Eukaryota
-CMS002_020c_Rb_S133_L004	Euteleostomi	Eukaryota
-CMS002_020d_Rb_S134_L004	Euteleostomi	Eukaryota
-CMS002_020e_Rb_S135_L004	Euteleostomi	Eukaryota
-CMS002_021a_Rb_S136_L004	Euteleostomi	Eukaryota
-CMS002_027a_Rb_S152_L004	Euteleostomi	Eukaryota
-CMS002_028a_Rb_S154_L004	Euteleostomi	Eukaryota
-CMS002_028b_Rb_S155_L004	Euteleostomi	Eukaryota
-CMS002_028c_Rb_S156_L004	Euteleostomi	Eukaryota
-CMS002_028d_Rb_S157_L004	Euteleostomi	Eukaryota
-CMS002_029c_Rb_S161_L004	Euteleostomi	Eukaryota
-CMS002_029d_Rb_S162_L004	Euteleostomi	Eukaryota
-CMS002_029e_Rb_S164_L004	Euteleostomi	Eukaryota
-CMS002_031a_Rb_S165_L004	Euteleostomi	Eukaryota
-CMS002_032a_Rb_S166_L004	Euteleostomi	Eukaryota
-CMS002_033a_Rb_S167_L004	Euteleostomi	Eukaryota
-CMS002_035a_Rb_S169_L004	Euteleostomi	Eukaryota
-CMS002_038a_Rb_S172_L004	Euteleostomi	Eukaryota
-CMS002_039a_Rb_S173_L004	Euteleostomi	Eukaryota
-CMS002_040a_Rb_S174_L004	Euteleostomi	Eukaryota
-CMS002_046b_Rb_S192_L004	Euteleostomi	Eukaryota
-CMS002_047a_Rb_S193_L004	Euteleostomi	Eukaryota
-CMS002_047b_Rb_S194_L004	Euteleostomi	Eukaryota
-CMS002_047d_Rb_S196_L004	Euteleostomi	Eukaryota
-CMS002_047e_Rb_S197_L004	Euteleostomi	Eukaryota
-CMS002_047f_Rb_S198_L004	Euteleostomi	Eukaryota
-CMS002_047i_Rb_S2_L004	Euteleostomi	Eukaryota
-CMS002_047j_Rb_S3_L004	Euteleostomi	Eukaryota
-CMS002_053a_Rb_S7_L004	Euteleostomi	Eukaryota
-CMS002_056a_Rb_S9_L004	Euteleostomi	Eukaryota
+CMS001_004_Ra_S2	Ursus arctos horribilis	Chordata
+CMS001_028_Ra_S17	Ursus arctos horribilis	Chordata
+CMS002_040a_Rb_S174_L004	Ursus arctos horribilis	Chordata
+CMS001_001_Ra_S1	Euteleostomi	Chordata
+CMS001_002_Ra_S1	Euteleostomi	Chordata
+CMS001_003_Ra_S2	Euteleostomi	Chordata
+CMS001_005_Ra_S3	Euteleostomi	Chordata
+CMS001_007_Ra_S12	Euteleostomi	Chordata
+CMS001_008_Ra_S3	Euteleostomi	Chordata
+CMS001_009_Ra_S13	Euteleostomi	Chordata
+CMS001_012_Ra_S4	Euteleostomi	Chordata
+CMS001_013_Ra_S5	Euteleostomi	Chordata
+CMS001_014_Ra_S5	Euteleostomi	Chordata
+CMS001_016_Ra_S6	Euteleostomi	Chordata
+CMS001_017_Ra_S6	Euteleostomi	Chordata
+CMS001_018_Ra_S14	Euteleostomi	Chordata
+CMS001_020_Ra_S15	Euteleostomi	Chordata
+CMS001_021_Ra_S16	Euteleostomi	Chordata
+CMS001_024_Ra_S15	Euteleostomi	Chordata
+CMS001_025_Ra_S7	Euteleostomi	Chordata
+CMS001_026_Ra_S18	Euteleostomi	Chordata
+CMS001_033_Ra_S8	Euteleostomi	Chordata
+CMS001_034_Ra_S19	Euteleostomi	Chordata
+CMS001_035_Ra_S20	Euteleostomi	Chordata
+CMS001_036_Ra_S20	Euteleostomi	Chordata
+CMS001_037_Ra_S21	Euteleostomi	Chordata
+CMS001_038_Ra_S22	Euteleostomi	Chordata
+CMS001_039_Ra_S9	Euteleostomi	Chordata
+CMS001_041_Ra_S10	Euteleostomi	Chordata
+CMS001_042_Ra_S23	Euteleostomi	Chordata
+CMS001_045_Ra_S2	Euteleostomi	Chordata
+CMS001_047_Ra_S4	Euteleostomi	Chordata
+CMS001_050_Ra_S23	Euteleostomi	Chordata
+CMS001_051_Ra_S8	Euteleostomi	Chordata
+CMS001_057_Ra_S11	Euteleostomi	Chordata
+CMS001_058_Ra_S9	Euteleostomi	Chordata
+CMS001_060_Ra_S12	Euteleostomi	Chordata
+CMS002_007a_Rb_S118_L004	Euteleostomi	Chordata
+CMS002_020a_Rb_S131_L004	Euteleostomi	Chordata
+CMS002_020b_Rb_S132_L004	Euteleostomi	Chordata
+CMS002_020c_Rb_S133_L004	Euteleostomi	Chordata
+CMS002_020d_Rb_S134_L004	Euteleostomi	Chordata
+CMS002_020e_Rb_S135_L004	Euteleostomi	Chordata
+CMS002_021a_Rb_S136_L004	Euteleostomi	Chordata
+CMS002_027a_Rb_S152_L004	Euteleostomi	Chordata
+CMS002_028a_Rb_S154_L004	Euteleostomi	Chordata
+CMS002_028b_Rb_S155_L004	Euteleostomi	Chordata
+CMS002_028c_Rb_S156_L004	Euteleostomi	Chordata
+CMS002_028d_Rb_S157_L004	Euteleostomi	Chordata
+CMS002_029c_Rb_S161_L004	Euteleostomi	Chordata
+CMS002_029d_Rb_S162_L004	Euteleostomi	Chordata
+CMS002_029e_Rb_S164_L004	Euteleostomi	Chordata
+CMS002_031a_Rb_S165_L004	Euteleostomi	Chordata
+CMS002_032a_Rb_S166_L004	Euteleostomi	Chordata
+CMS002_033a_Rb_S167_L004	Euteleostomi	Chordata
+CMS002_035a_Rb_S169_L004	Euteleostomi	Chordata
+CMS002_038a_Rb_S172_L004	Euteleostomi	Chordata
+CMS002_039a_Rb_S173_L004	Euteleostomi	Chordata
+CMS002_040a_Rb_S174_L004	Euteleostomi	Chordata
+CMS002_046b_Rb_S192_L004	Euteleostomi	Chordata
+CMS002_047a_Rb_S193_L004	Euteleostomi	Chordata
+CMS002_047b_Rb_S194_L004	Euteleostomi	Chordata
+CMS002_047d_Rb_S196_L004	Euteleostomi	Chordata
+CMS002_047e_Rb_S197_L004	Euteleostomi	Chordata
+CMS002_047f_Rb_S198_L004	Euteleostomi	Chordata
+CMS002_047i_Rb_S2_L004	Euteleostomi	Chordata
+CMS002_047j_Rb_S3_L004	Euteleostomi	Chordata
+CMS002_053a_Rb_S7_L004	Euteleostomi	Chordata
+CMS002_056a_Rb_S9_L004	Euteleostomi	Chordata
 CMS001_039_Ra_S9	Protopolystoma xenopodis	Eukaryota
 CMS002_035a_Rb_S169_L004	Buchnera aphidicola (Acyrthosiphon pisum)	Bacteria
 CMS001_water4_Zymo_S27	Methylobacteriaceae	Bacteria
@@ -3985,7 +3985,7 @@ CMS001_052_Ra_S7	Plasmodium vinckei brucechwatti	Eukaryota
 CMS002_029d_Rb_S162_L004	Plasmodium vinckei brucechwatti	Eukaryota
 CMS001_058_Ra_S9	Theileria youngi	Eukaryota
 CMS001_038_Ra_S22	Propionibacterium australiense	Bacteria
-CMS002_021a_Rb_S136_L004	Tauraco erythrolophus	Eukaryota
+CMS002_021a_Rb_S136_L004	Tauraco erythrolophus	Chordata
 CMS001_009_Ra_S13	Pectobacterium	Bacteria
 CMS002_047b_Rb_S194_L004	Pectobacterium	Bacteria
 CMS002_053a_Rb_S7_L004	Pectobacterium	Bacteria
@@ -3993,8 +3993,8 @@ CMS002_007a_Rb_S118_L004	Astrocoeniina	Eukaryota
 CMS001_051_Ra_S8	Nocardiopsis halotolerans	Bacteria
 CMS002_047j_Rb_S3_L004	Forsythia suspensa	Eukaryota
 CMS002_053a_Rb_S7_L004	Forsythia suspensa	Eukaryota
-CMS002_007a_Rb_S118_L004	Trichechus manatus latirostris	Eukaryota
-CMS002_029a_Rb_S159_L004	Nipponia nippon	Eukaryota
+CMS002_007a_Rb_S118_L004	Trichechus manatus latirostris	Chordata
+CMS002_029a_Rb_S159_L004	Nipponia nippon	Chordata
 CMS001_001_Ra_S1	Erysipelotrichaceae	Bacteria
 CMS001_008_Ra_S3	Erysipelotrichaceae	Bacteria
 CMS002_021a_Rb_S136_L004	Erysipelotrichaceae	Bacteria
@@ -4089,7 +4089,7 @@ CMS002_0Water2_Rb_S139_L004	cellular organisms	Other
 CMS002_0Water4_Rb_S163_L004	cellular organisms	Other
 CMS002_0Water5_Rb_S175_L004	cellular organisms	Other
 CMS002_0Water7_Rb_S199_L004	cellular organisms	Other
-CMS001_027_Ra_S16	Pteropus vampyrus	Eukaryota
+CMS001_027_Ra_S16	Pteropus vampyrus	Chordata
 CMS001_026_Ra_S18	Acanthaster planci	Eukaryota
 CMS002_021a_Rb_S136_L004	Acanthaster planci	Eukaryota
 CMS002_053a_Rb_S7_L004	Acanthaster planci	Eukaryota
@@ -4141,8 +4141,8 @@ CMS002_020a_Rb_S131_L004	Streptococcus urinalis	Bacteria
 CMS002_021a_Rb_S136_L004	Phialocephala scopiformis	Eukaryota
 CMS001_005_Ra_S3	Lasthenia californica	Eukaryota
 CMS001_014_Ra_S5	Lasthenia californica	Eukaryota
-CMS001_057_Ra_S11	Boleophthalmus pectinirostris	Eukaryota
-CMS002_029a_Rb_S159_L004	Boleophthalmus pectinirostris	Eukaryota
+CMS001_057_Ra_S11	Boleophthalmus pectinirostris	Chordata
+CMS002_029a_Rb_S159_L004	Boleophthalmus pectinirostris	Chordata
 CMS001_009_Ra_S13	Trametes pubescens	Eukaryota
 CMS001_012_Ra_S4	Tremellomycetes	Eukaryota
 CMS002_025e_Rb_S144_L004	Agaricomycetes	Eukaryota
@@ -4203,28 +4203,28 @@ CMS002_017c_Rb_S124_L004	Ascogregarina taiwanensis	Eukaryota
 CMS001_016_Ra_S6	Olea europaea var. sylvestris	Eukaryota
 CMS001_060_Ra_S12	Olea europaea var. sylvestris	Eukaryota
 CMS002_021a_Rb_S136_L004	Olea europaea var. sylvestris	Eukaryota
-CMS001_002_Ra_S1	Betta splendens	Eukaryota
-CMS001_005_Ra_S3	Betta splendens	Eukaryota
-CMS001_008_Ra_S3	Betta splendens	Eukaryota
-CMS001_009_Ra_S13	Betta splendens	Eukaryota
-CMS001_015_Ra_S13	Betta splendens	Eukaryota
-CMS001_021_Ra_S16	Betta splendens	Eukaryota
-CMS001_026_Ra_S18	Betta splendens	Eukaryota
-CMS001_028_Ra_S17	Betta splendens	Eukaryota
-CMS001_031_Ra_S19	Betta splendens	Eukaryota
-CMS001_033_Ra_S8	Betta splendens	Eukaryota
-CMS001_042_Ra_S23	Betta splendens	Eukaryota
-CMS001_046_Ra_S3	Betta splendens	Eukaryota
-CMS002_007a_Rb_S118_L004	Betta splendens	Eukaryota
-CMS002_020a_Rb_S131_L004	Betta splendens	Eukaryota
-CMS002_021a_Rb_S136_L004	Betta splendens	Eukaryota
-CMS002_029b_Rb_S160_L004	Betta splendens	Eukaryota
-CMS002_029c_Rb_S161_L004	Betta splendens	Eukaryota
-CMS002_029d_Rb_S162_L004	Betta splendens	Eukaryota
-CMS002_032a_Rb_S166_L004	Betta splendens	Eukaryota
-CMS002_038a_Rb_S172_L004	Betta splendens	Eukaryota
-CMS002_042a_Rb_S177_L004	Betta splendens	Eukaryota
-CMS002_053a_Rb_S7_L004	Betta splendens	Eukaryota
+CMS001_002_Ra_S1	Betta splendens	Chordata
+CMS001_005_Ra_S3	Betta splendens	Chordata
+CMS001_008_Ra_S3	Betta splendens	Chordata
+CMS001_009_Ra_S13	Betta splendens	Chordata
+CMS001_015_Ra_S13	Betta splendens	Chordata
+CMS001_021_Ra_S16	Betta splendens	Chordata
+CMS001_026_Ra_S18	Betta splendens	Chordata
+CMS001_028_Ra_S17	Betta splendens	Chordata
+CMS001_031_Ra_S19	Betta splendens	Chordata
+CMS001_033_Ra_S8	Betta splendens	Chordata
+CMS001_042_Ra_S23	Betta splendens	Chordata
+CMS001_046_Ra_S3	Betta splendens	Chordata
+CMS002_007a_Rb_S118_L004	Betta splendens	Chordata
+CMS002_020a_Rb_S131_L004	Betta splendens	Chordata
+CMS002_021a_Rb_S136_L004	Betta splendens	Chordata
+CMS002_029b_Rb_S160_L004	Betta splendens	Chordata
+CMS002_029c_Rb_S161_L004	Betta splendens	Chordata
+CMS002_029d_Rb_S162_L004	Betta splendens	Chordata
+CMS002_032a_Rb_S166_L004	Betta splendens	Chordata
+CMS002_038a_Rb_S172_L004	Betta splendens	Chordata
+CMS002_042a_Rb_S177_L004	Betta splendens	Chordata
+CMS002_053a_Rb_S7_L004	Betta splendens	Chordata
 CMS001_008_Ra_S3	Megamonas hypermegale	Bacteria
 CMS002_020c_Rb_S133_L004	Megamonas hypermegale	Bacteria
 CMS002_047d_Rb_S196_L004	Megamonas hypermegale	Bacteria
@@ -4255,7 +4255,7 @@ CMS002_028e_Rb_S158_L004	Phaseoleae	Eukaryota
 CMS002_047b_Rb_S194_L004	Trifolieae	Eukaryota
 CMS002_047h_Rb_S1_L004	Phytophthora ramorum	Eukaryota
 CMS002_020a_Rb_S131_L004	Blattabacterium punctulatus	Bacteria
-CMS001_060_Ra_S12	Empidonax traillii	Eukaryota
+CMS001_060_Ra_S12	Empidonax traillii	Chordata
 CMS001_008_Ra_S3	uncultured Eubacterium sp.	Bacteria
 CMS002_020d_Rb_S134_L004	uncultured Eubacterium sp.	Bacteria
 CMS001_004_Ra_S2	Sphingobium	Bacteria
@@ -4285,57 +4285,57 @@ CMS002_033a_Rb_S167_L004	Strongyloides papillosus	Eukaryota
 CMS002_035a_Rb_S169_L004	Strongyloides papillosus	Eukaryota
 CMS002_053a_Rb_S7_L004	Strongyloides papillosus	Eukaryota
 CMS002_056a_Rb_S9_L004	Strongyloides papillosus	Eukaryota
-CMS001_027_Ra_S16	Passeroidea	Eukaryota
-CMS001_029_Ra_S18	Passeroidea	Eukaryota
-CMS001_032_Ra_S7	Passeroidea	Eukaryota
+CMS001_027_Ra_S16	Passeroidea	Chordata
+CMS001_029_Ra_S18	Passeroidea	Chordata
+CMS001_032_Ra_S7	Passeroidea	Chordata
 CMS002_053a_Rb_S7_L004	uncultured Basidiomycota	Eukaryota
 CMS002_053a_Rb_S7_L004	uncultured fungus	Eukaryota
-CMS001_005_Ra_S3	Nestor notabilis	Eukaryota
-CMS001_002_Ra_S1	Python bivittatus	Eukaryota
-CMS002_020c_Rb_S133_L004	Python bivittatus	Eukaryota
-CMS002_053a_Rb_S7_L004	Python bivittatus	Eukaryota
+CMS001_005_Ra_S3	Nestor notabilis	Chordata
+CMS001_002_Ra_S1	Python bivittatus	Chordata
+CMS002_020c_Rb_S133_L004	Python bivittatus	Chordata
+CMS002_053a_Rb_S7_L004	Python bivittatus	Chordata
 CMS001_006_Ra_S5	Marinomonas primoryensis	Bacteria
 CMS002_056a_Rb_S9_L004	Oscillatoria nigro-viridis PCC 7112	Bacteria
 CMS001_050_Ra_S23	Jatropha curcas	Eukaryota
 CMS002_021a_Rb_S136_L004	Jatropha curcas	Eukaryota
-CMS001_017_Ra_S6	Pseudopodoces humilis	Eukaryota
-CMS001_027_Ra_S16	Pseudopodoces humilis	Eukaryota
-CMS001_029_Ra_S18	Pseudopodoces humilis	Eukaryota
-CMS001_032_Ra_S7	Pseudopodoces humilis	Eukaryota
-CMS002_047j_Rb_S3_L004	Pseudopodoces humilis	Eukaryota
+CMS001_017_Ra_S6	Pseudopodoces humilis	Chordata
+CMS001_027_Ra_S16	Pseudopodoces humilis	Chordata
+CMS001_029_Ra_S18	Pseudopodoces humilis	Chordata
+CMS001_032_Ra_S7	Pseudopodoces humilis	Chordata
+CMS002_047j_Rb_S3_L004	Pseudopodoces humilis	Chordata
 CMS002_047a_Rb_S193_L004	Swaminathania salitolerans	Bacteria
 CMS002_026e_Rb_S150_L004	Lepiota lilacea	Eukaryota
 CMS002_047c_Rb_S195_L004	Stemphylium lycopersici	Eukaryota
 CMS001_006_Ra_S5	Prototheca moriformis	Eukaryota
-CMS001_001_Ra_S1	Clupeocephala	Eukaryota
-CMS001_002_Ra_S1	Clupeocephala	Eukaryota
-CMS001_005_Ra_S3	Clupeocephala	Eukaryota
-CMS001_008_Ra_S3	Clupeocephala	Eukaryota
-CMS001_016_Ra_S6	Clupeocephala	Eukaryota
-CMS001_024_Ra_S15	Clupeocephala	Eukaryota
-CMS001_036_Ra_S20	Clupeocephala	Eukaryota
-CMS001_058_Ra_S9	Clupeocephala	Eukaryota
-CMS001_060_Ra_S12	Clupeocephala	Eukaryota
-CMS002_007a_Rb_S118_L004	Clupeocephala	Eukaryota
-CMS002_013a_Rb_S120_L004	Clupeocephala	Eukaryota
-CMS002_020d_Rb_S134_L004	Clupeocephala	Eukaryota
-CMS002_020e_Rb_S135_L004	Clupeocephala	Eukaryota
-CMS002_021a_Rb_S136_L004	Clupeocephala	Eukaryota
-CMS002_027b_Rb_S153_L004	Clupeocephala	Eukaryota
-CMS002_028b_Rb_S155_L004	Clupeocephala	Eukaryota
-CMS002_029b_Rb_S160_L004	Clupeocephala	Eukaryota
-CMS002_029d_Rb_S162_L004	Clupeocephala	Eukaryota
-CMS002_032a_Rb_S166_L004	Clupeocephala	Eukaryota
-CMS002_038a_Rb_S172_L004	Clupeocephala	Eukaryota
-CMS002_047a_Rb_S193_L004	Clupeocephala	Eukaryota
-CMS002_047c_Rb_S195_L004	Clupeocephala	Eukaryota
-CMS002_047f_Rb_S198_L004	Clupeocephala	Eukaryota
-CMS002_053a_Rb_S7_L004	Clupeocephala	Eukaryota
-CMS002_056a_Rb_S9_L004	Clupeocephala	Eukaryota
-CMS001_059_Ra_S10	Otophysi	Eukaryota
-CMS002_054a_Rb_S8_L004	Otophysi	Eukaryota
-CMS001_016_Ra_S6	Otomorpha	Eukaryota
-CMS002_021a_Rb_S136_L004	Otomorpha	Eukaryota
+CMS001_001_Ra_S1	Clupeocephala	Chordata
+CMS001_002_Ra_S1	Clupeocephala	Chordata
+CMS001_005_Ra_S3	Clupeocephala	Chordata
+CMS001_008_Ra_S3	Clupeocephala	Chordata
+CMS001_016_Ra_S6	Clupeocephala	Chordata
+CMS001_024_Ra_S15	Clupeocephala	Chordata
+CMS001_036_Ra_S20	Clupeocephala	Chordata
+CMS001_058_Ra_S9	Clupeocephala	Chordata
+CMS001_060_Ra_S12	Clupeocephala	Chordata
+CMS002_007a_Rb_S118_L004	Clupeocephala	Chordata
+CMS002_013a_Rb_S120_L004	Clupeocephala	Chordata
+CMS002_020d_Rb_S134_L004	Clupeocephala	Chordata
+CMS002_020e_Rb_S135_L004	Clupeocephala	Chordata
+CMS002_021a_Rb_S136_L004	Clupeocephala	Chordata
+CMS002_027b_Rb_S153_L004	Clupeocephala	Chordata
+CMS002_028b_Rb_S155_L004	Clupeocephala	Chordata
+CMS002_029b_Rb_S160_L004	Clupeocephala	Chordata
+CMS002_029d_Rb_S162_L004	Clupeocephala	Chordata
+CMS002_032a_Rb_S166_L004	Clupeocephala	Chordata
+CMS002_038a_Rb_S172_L004	Clupeocephala	Chordata
+CMS002_047a_Rb_S193_L004	Clupeocephala	Chordata
+CMS002_047c_Rb_S195_L004	Clupeocephala	Chordata
+CMS002_047f_Rb_S198_L004	Clupeocephala	Chordata
+CMS002_053a_Rb_S7_L004	Clupeocephala	Chordata
+CMS002_056a_Rb_S9_L004	Clupeocephala	Chordata
+CMS001_059_Ra_S10	Otophysi	Chordata
+CMS002_054a_Rb_S8_L004	Otophysi	Chordata
+CMS001_016_Ra_S6	Otomorpha	Chordata
+CMS002_021a_Rb_S136_L004	Otomorpha	Chordata
 CMS002_028a_Rb_S154_L004	Narnaviridae	Viruses
 CMS002_025b_Rb_S141_L004	Clostridiales	Bacteria
 CMS002_033a_Rb_S167_L004	Clostridiales	Bacteria
@@ -4344,8 +4344,8 @@ CMS001_water4_Zymo_S27	Lactobacillales	Bacteria
 CMS002_0Water1_Rb_S127_L004	Lactobacillales	Bacteria
 CMS002_0Water2_Rb_S139_L004	Lactobacillales	Bacteria
 CMS002_0Water3_Rb_S151_L004	Lactobacillales	Bacteria
-CMS002_056a_Rb_S9_L004	Hipposideros armiger	Eukaryota
-CMS001_050_Ra_S23	Egretta garzetta	Eukaryota
+CMS002_056a_Rb_S9_L004	Hipposideros armiger	Chordata
+CMS001_050_Ra_S23	Egretta garzetta	Chordata
 CMS001_038_Ra_S22	Paenibacillus odorifer	Bacteria
 CMS001_water2_S24	Ralstonia insidiosa	Bacteria
 CMS001_water4_Zymo_S27	Ralstonia insidiosa	Bacteria
@@ -4357,9 +4357,9 @@ CMS002_032a_Rb_S166_L004	Mentzelia torreyi	Eukaryota
 CMS002_035a_Rb_S169_L004	Mentzelia torreyi	Eukaryota
 CMS002_039a_Rb_S173_L004	Mentzelia torreyi	Eukaryota
 CMS002_047c_Rb_S195_L004	Stichotrichia	Eukaryota
-CMS001_051_Ra_S8	Athene cunicularia	Eukaryota
-CMS002_029a_Rb_S159_L004	Athene cunicularia	Eukaryota
-CMS002_007a_Rb_S118_L004	Chanodichthys dabryi	Eukaryota
+CMS001_051_Ra_S8	Athene cunicularia	Chordata
+CMS002_029a_Rb_S159_L004	Athene cunicularia	Chordata
+CMS002_007a_Rb_S118_L004	Chanodichthys dabryi	Chordata
 CMS001_014_Ra_S5	Clostridium perfringens str. 13	Bacteria
 CMS002_020a_Rb_S131_L004	unclassified Devosia	Bacteria
 CMS001_004_Ra_S2	unclassified Myoviridae	Viruses
@@ -4380,53 +4380,53 @@ CMS002_039a_Rb_S173_L004	Pancrustacea	Eukaryota
 CMS002_047c_Rb_S195_L004	Pancrustacea	Eukaryota
 CMS002_050a_Rb_S5_L004	Pancrustacea	Eukaryota
 CMS002_053a_Rb_S7_L004	Pancrustacea	Eukaryota
-CMS001_041_Ra_S10	Calidris pugnax	Eukaryota
-CMS001_057_Ra_S11	Calidris pugnax	Eukaryota
-CMS002_034a_Rb_S168_L004	Calidris pugnax	Eukaryota
+CMS001_041_Ra_S10	Calidris pugnax	Chordata
+CMS001_057_Ra_S11	Calidris pugnax	Chordata
+CMS002_034a_Rb_S168_L004	Calidris pugnax	Chordata
 CMS001_016_Ra_S6	Indigofera tinctoria	Eukaryota
 CMS001_060_Ra_S12	Indigofera tinctoria	Eukaryota
 CMS001_060_Ra_S12	Lentzea flaviverrucosa	Bacteria
 CMS002_038a_Rb_S172_L004	Flavobacteriales	Bacteria
-CMS001_001_Ra_S1	Apteryx australis mantelli	Eukaryota
-CMS001_005_Ra_S3	Apteryx australis mantelli	Eukaryota
-CMS001_006_Ra_S5	Apteryx australis mantelli	Eukaryota
-CMS001_008_Ra_S3	Apteryx australis mantelli	Eukaryota
-CMS001_010_Ra_S1	Apteryx australis mantelli	Eukaryota
-CMS001_011_Ra_S4	Apteryx australis mantelli	Eukaryota
-CMS001_012_Ra_S4	Apteryx australis mantelli	Eukaryota
-CMS001_013_Ra_S5	Apteryx australis mantelli	Eukaryota
-CMS001_016_Ra_S6	Apteryx australis mantelli	Eukaryota
-CMS001_018_Ra_S14	Apteryx australis mantelli	Eukaryota
-CMS001_022_Ra_S6	Apteryx australis mantelli	Eukaryota
-CMS001_025_Ra_S7	Apteryx australis mantelli	Eukaryota
-CMS001_026_Ra_S18	Apteryx australis mantelli	Eukaryota
-CMS001_029_Ra_S18	Apteryx australis mantelli	Eukaryota
-CMS001_031_Ra_S19	Apteryx australis mantelli	Eukaryota
-CMS001_032_Ra_S7	Apteryx australis mantelli	Eukaryota
-CMS001_033_Ra_S8	Apteryx australis mantelli	Eukaryota
-CMS001_036_Ra_S20	Apteryx australis mantelli	Eukaryota
-CMS001_043_Ra_S24	Apteryx australis mantelli	Eukaryota
-CMS001_045_Ra_S2	Apteryx australis mantelli	Eukaryota
-CMS001_050_Ra_S23	Apteryx australis mantelli	Eukaryota
-CMS001_058_Ra_S9	Apteryx australis mantelli	Eukaryota
-CMS001_060_Ra_S12	Apteryx australis mantelli	Eukaryota
-CMS002_020a_Rb_S131_L004	Apteryx australis mantelli	Eukaryota
-CMS002_020c_Rb_S133_L004	Apteryx australis mantelli	Eukaryota
-CMS002_020d_Rb_S134_L004	Apteryx australis mantelli	Eukaryota
-CMS002_021a_Rb_S136_L004	Apteryx australis mantelli	Eukaryota
-CMS002_028c_Rb_S156_L004	Apteryx australis mantelli	Eukaryota
-CMS002_028d_Rb_S157_L004	Apteryx australis mantelli	Eukaryota
-CMS002_028e_Rb_S158_L004	Apteryx australis mantelli	Eukaryota
-CMS002_029a_Rb_S159_L004	Apteryx australis mantelli	Eukaryota
-CMS002_032a_Rb_S166_L004	Apteryx australis mantelli	Eukaryota
-CMS002_038a_Rb_S172_L004	Apteryx australis mantelli	Eukaryota
-CMS002_039a_Rb_S173_L004	Apteryx australis mantelli	Eukaryota
-CMS002_047d_Rb_S196_L004	Apteryx australis mantelli	Eukaryota
-CMS002_047e_Rb_S197_L004	Apteryx australis mantelli	Eukaryota
-CMS002_047g_Rb_S200_L004	Apteryx australis mantelli	Eukaryota
-CMS002_047i_Rb_S2_L004	Apteryx australis mantelli	Eukaryota
-CMS002_047j_Rb_S3_L004	Apteryx australis mantelli	Eukaryota
-CMS002_053a_Rb_S7_L004	Apteryx australis mantelli	Eukaryota
+CMS001_001_Ra_S1	Apteryx australis mantelli	Chordata
+CMS001_005_Ra_S3	Apteryx australis mantelli	Chordata
+CMS001_006_Ra_S5	Apteryx australis mantelli	Chordata
+CMS001_008_Ra_S3	Apteryx australis mantelli	Chordata
+CMS001_010_Ra_S1	Apteryx australis mantelli	Chordata
+CMS001_011_Ra_S4	Apteryx australis mantelli	Chordata
+CMS001_012_Ra_S4	Apteryx australis mantelli	Chordata
+CMS001_013_Ra_S5	Apteryx australis mantelli	Chordata
+CMS001_016_Ra_S6	Apteryx australis mantelli	Chordata
+CMS001_018_Ra_S14	Apteryx australis mantelli	Chordata
+CMS001_022_Ra_S6	Apteryx australis mantelli	Chordata
+CMS001_025_Ra_S7	Apteryx australis mantelli	Chordata
+CMS001_026_Ra_S18	Apteryx australis mantelli	Chordata
+CMS001_029_Ra_S18	Apteryx australis mantelli	Chordata
+CMS001_031_Ra_S19	Apteryx australis mantelli	Chordata
+CMS001_032_Ra_S7	Apteryx australis mantelli	Chordata
+CMS001_033_Ra_S8	Apteryx australis mantelli	Chordata
+CMS001_036_Ra_S20	Apteryx australis mantelli	Chordata
+CMS001_043_Ra_S24	Apteryx australis mantelli	Chordata
+CMS001_045_Ra_S2	Apteryx australis mantelli	Chordata
+CMS001_050_Ra_S23	Apteryx australis mantelli	Chordata
+CMS001_058_Ra_S9	Apteryx australis mantelli	Chordata
+CMS001_060_Ra_S12	Apteryx australis mantelli	Chordata
+CMS002_020a_Rb_S131_L004	Apteryx australis mantelli	Chordata
+CMS002_020c_Rb_S133_L004	Apteryx australis mantelli	Chordata
+CMS002_020d_Rb_S134_L004	Apteryx australis mantelli	Chordata
+CMS002_021a_Rb_S136_L004	Apteryx australis mantelli	Chordata
+CMS002_028c_Rb_S156_L004	Apteryx australis mantelli	Chordata
+CMS002_028d_Rb_S157_L004	Apteryx australis mantelli	Chordata
+CMS002_028e_Rb_S158_L004	Apteryx australis mantelli	Chordata
+CMS002_029a_Rb_S159_L004	Apteryx australis mantelli	Chordata
+CMS002_032a_Rb_S166_L004	Apteryx australis mantelli	Chordata
+CMS002_038a_Rb_S172_L004	Apteryx australis mantelli	Chordata
+CMS002_039a_Rb_S173_L004	Apteryx australis mantelli	Chordata
+CMS002_047d_Rb_S196_L004	Apteryx australis mantelli	Chordata
+CMS002_047e_Rb_S197_L004	Apteryx australis mantelli	Chordata
+CMS002_047g_Rb_S200_L004	Apteryx australis mantelli	Chordata
+CMS002_047i_Rb_S2_L004	Apteryx australis mantelli	Chordata
+CMS002_047j_Rb_S3_L004	Apteryx australis mantelli	Chordata
+CMS002_053a_Rb_S7_L004	Apteryx australis mantelli	Chordata
 CMS002_021a_Rb_S136_L004	Trichodesmium erythraeum IMS101	Bacteria
 CMS002_0Water2_Rb_S139_L004	uncultured marine eukaryote	Eukaryota
 CMS002_026a_Rb_S146_L004	Fusobacteriales	Bacteria
@@ -4448,53 +4448,53 @@ CMS001_057_Ra_S11	Spirochaetia	Bacteria
 CMS001_060_Ra_S12	Hemileia vastatrix	Eukaryota
 CMS001_026_Ra_S18	Dickeya dianthicola	Bacteria
 CMS001_water3_Qiagen_S26	Sphingomonadales	Bacteria
-CMS001_011_Ra_S4	Mastacembelus armatus	Eukaryota
-CMS001_012_Ra_S4	Mastacembelus armatus	Eukaryota
-CMS001_020_Ra_S15	Mastacembelus armatus	Eukaryota
-CMS001_021_Ra_S16	Mastacembelus armatus	Eukaryota
-CMS001_026_Ra_S18	Mastacembelus armatus	Eukaryota
-CMS001_034_Ra_S19	Mastacembelus armatus	Eukaryota
-CMS001_038_Ra_S22	Mastacembelus armatus	Eukaryota
-CMS001_046_Ra_S3	Mastacembelus armatus	Eukaryota
-CMS001_047_Ra_S4	Mastacembelus armatus	Eukaryota
-CMS001_058_Ra_S9	Mastacembelus armatus	Eukaryota
-CMS001_060_Ra_S12	Mastacembelus armatus	Eukaryota
-CMS002_020a_Rb_S131_L004	Mastacembelus armatus	Eukaryota
-CMS002_020d_Rb_S134_L004	Mastacembelus armatus	Eukaryota
-CMS002_020e_Rb_S135_L004	Mastacembelus armatus	Eukaryota
-CMS002_021a_Rb_S136_L004	Mastacembelus armatus	Eukaryota
-CMS002_028b_Rb_S155_L004	Mastacembelus armatus	Eukaryota
-CMS002_031a_Rb_S165_L004	Mastacembelus armatus	Eukaryota
-CMS002_033a_Rb_S167_L004	Mastacembelus armatus	Eukaryota
-CMS002_034a_Rb_S168_L004	Mastacembelus armatus	Eukaryota
-CMS002_039a_Rb_S173_L004	Mastacembelus armatus	Eukaryota
-CMS002_041a_Rb_S176_L004	Mastacembelus armatus	Eukaryota
+CMS001_011_Ra_S4	Mastacembelus armatus	Chordata
+CMS001_012_Ra_S4	Mastacembelus armatus	Chordata
+CMS001_020_Ra_S15	Mastacembelus armatus	Chordata
+CMS001_021_Ra_S16	Mastacembelus armatus	Chordata
+CMS001_026_Ra_S18	Mastacembelus armatus	Chordata
+CMS001_034_Ra_S19	Mastacembelus armatus	Chordata
+CMS001_038_Ra_S22	Mastacembelus armatus	Chordata
+CMS001_046_Ra_S3	Mastacembelus armatus	Chordata
+CMS001_047_Ra_S4	Mastacembelus armatus	Chordata
+CMS001_058_Ra_S9	Mastacembelus armatus	Chordata
+CMS001_060_Ra_S12	Mastacembelus armatus	Chordata
+CMS002_020a_Rb_S131_L004	Mastacembelus armatus	Chordata
+CMS002_020d_Rb_S134_L004	Mastacembelus armatus	Chordata
+CMS002_020e_Rb_S135_L004	Mastacembelus armatus	Chordata
+CMS002_021a_Rb_S136_L004	Mastacembelus armatus	Chordata
+CMS002_028b_Rb_S155_L004	Mastacembelus armatus	Chordata
+CMS002_031a_Rb_S165_L004	Mastacembelus armatus	Chordata
+CMS002_033a_Rb_S167_L004	Mastacembelus armatus	Chordata
+CMS002_034a_Rb_S168_L004	Mastacembelus armatus	Chordata
+CMS002_039a_Rb_S173_L004	Mastacembelus armatus	Chordata
+CMS002_041a_Rb_S176_L004	Mastacembelus armatus	Chordata
 CMS002_021a_Rb_S136_L004	Panicum hallii	Eukaryota
-CMS001_011_Ra_S4	Homininae	Eukaryota
-CMS001_025_Ra_S7	Homininae	Eukaryota
-CMS001_060_Ra_S12	Homininae	Eukaryota
-CMS001_water3_Qiagen_S26	Homininae	Eukaryota
-CMS002_029a_Rb_S159_L004	Homininae	Eukaryota
+CMS001_011_Ra_S4	Homininae	Chordata
+CMS001_025_Ra_S7	Homininae	Chordata
+CMS001_060_Ra_S12	Homininae	Chordata
+CMS001_water3_Qiagen_S26	Homininae	Chordata
+CMS002_029a_Rb_S159_L004	Homininae	Chordata
 CMS001_039_Ra_S9	Agrotis ipsilon multiple nucleopolyhedrovirus	Viruses
 CMS001_025_Ra_S7	Plasmodium coatneyi	Eukaryota
 CMS001_003_Ra_S2	Choristoneura fumiferana multiple nucleopolyhedrovirus	Viruses
-CMS001_008_Ra_S3	Parambassis ranga	Eukaryota
-CMS001_009_Ra_S13	Parambassis ranga	Eukaryota
-CMS001_013_Ra_S5	Parambassis ranga	Eukaryota
-CMS001_016_Ra_S6	Parambassis ranga	Eukaryota
-CMS001_017_Ra_S6	Parambassis ranga	Eukaryota
-CMS001_021_Ra_S16	Parambassis ranga	Eukaryota
-CMS001_036_Ra_S20	Parambassis ranga	Eukaryota
-CMS001_042_Ra_S23	Parambassis ranga	Eukaryota
-CMS001_060_Ra_S12	Parambassis ranga	Eukaryota
-CMS002_020a_Rb_S131_L004	Parambassis ranga	Eukaryota
-CMS002_020d_Rb_S134_L004	Parambassis ranga	Eukaryota
-CMS002_021a_Rb_S136_L004	Parambassis ranga	Eukaryota
-CMS002_029a_Rb_S159_L004	Parambassis ranga	Eukaryota
-CMS002_042a_Rb_S177_L004	Parambassis ranga	Eukaryota
-CMS002_047a_Rb_S193_L004	Parambassis ranga	Eukaryota
-CMS002_049a_Rb_S4_L004	Parambassis ranga	Eukaryota
-CMS002_056a_Rb_S9_L004	Parambassis ranga	Eukaryota
+CMS001_008_Ra_S3	Parambassis ranga	Chordata
+CMS001_009_Ra_S13	Parambassis ranga	Chordata
+CMS001_013_Ra_S5	Parambassis ranga	Chordata
+CMS001_016_Ra_S6	Parambassis ranga	Chordata
+CMS001_017_Ra_S6	Parambassis ranga	Chordata
+CMS001_021_Ra_S16	Parambassis ranga	Chordata
+CMS001_036_Ra_S20	Parambassis ranga	Chordata
+CMS001_042_Ra_S23	Parambassis ranga	Chordata
+CMS001_060_Ra_S12	Parambassis ranga	Chordata
+CMS002_020a_Rb_S131_L004	Parambassis ranga	Chordata
+CMS002_020d_Rb_S134_L004	Parambassis ranga	Chordata
+CMS002_021a_Rb_S136_L004	Parambassis ranga	Chordata
+CMS002_029a_Rb_S159_L004	Parambassis ranga	Chordata
+CMS002_042a_Rb_S177_L004	Parambassis ranga	Chordata
+CMS002_047a_Rb_S193_L004	Parambassis ranga	Chordata
+CMS002_049a_Rb_S4_L004	Parambassis ranga	Chordata
+CMS002_056a_Rb_S9_L004	Parambassis ranga	Chordata
 CMS001_028_Ra_S17	Campylobacterales	Bacteria
 CMS001_026_Ra_S18	Musa acuminata subsp. malaccensis	Eukaryota
 CMS001_031_Ra_S19	Musa acuminata subsp. malaccensis	Eukaryota
@@ -4505,35 +4505,35 @@ CMS002_010a_Rb_S119_L004	Wolbachia endosymbiont of Bemisia tabaci	Bacteria
 CMS002_013a_Rb_S120_L004	Wolbachia endosymbiont of Bemisia tabaci	Bacteria
 CMS002_027b_Rb_S153_L004	Wolbachia endosymbiont of Bemisia tabaci	Bacteria
 CMS002_045a_Rb_S183_L004	Wolbachia endosymbiont of Bemisia tabaci	Bacteria
-CMS001_001_Ra_S1	Larimichthys crocea	Eukaryota
-CMS001_005_Ra_S3	Larimichthys crocea	Eukaryota
-CMS001_006_Ra_S5	Larimichthys crocea	Eukaryota
-CMS001_008_Ra_S3	Larimichthys crocea	Eukaryota
-CMS001_012_Ra_S4	Larimichthys crocea	Eukaryota
-CMS001_013_Ra_S5	Larimichthys crocea	Eukaryota
-CMS001_025_Ra_S7	Larimichthys crocea	Eukaryota
-CMS001_028_Ra_S17	Larimichthys crocea	Eukaryota
-CMS001_039_Ra_S9	Larimichthys crocea	Eukaryota
-CMS001_043_Ra_S24	Larimichthys crocea	Eukaryota
-CMS001_051_Ra_S8	Larimichthys crocea	Eukaryota
-CMS001_052_Ra_S7	Larimichthys crocea	Eukaryota
-CMS001_060_Ra_S12	Larimichthys crocea	Eukaryota
-CMS002_007a_Rb_S118_L004	Larimichthys crocea	Eukaryota
-CMS002_020a_Rb_S131_L004	Larimichthys crocea	Eukaryota
-CMS002_020d_Rb_S134_L004	Larimichthys crocea	Eukaryota
-CMS002_020e_Rb_S135_L004	Larimichthys crocea	Eukaryota
-CMS002_021a_Rb_S136_L004	Larimichthys crocea	Eukaryota
-CMS002_028e_Rb_S158_L004	Larimichthys crocea	Eukaryota
-CMS002_031a_Rb_S165_L004	Larimichthys crocea	Eukaryota
-CMS002_032a_Rb_S166_L004	Larimichthys crocea	Eukaryota
-CMS002_033a_Rb_S167_L004	Larimichthys crocea	Eukaryota
-CMS002_039a_Rb_S173_L004	Larimichthys crocea	Eukaryota
-CMS002_047b_Rb_S194_L004	Larimichthys crocea	Eukaryota
-CMS002_047d_Rb_S196_L004	Larimichthys crocea	Eukaryota
-CMS002_053a_Rb_S7_L004	Larimichthys crocea	Eukaryota
-CMS001_042_Ra_S23	Aquila chrysaetos canadensis	Eukaryota
-CMS001_050_Ra_S23	Aquila chrysaetos canadensis	Eukaryota
-CMS002_028c_Rb_S156_L004	Aquila chrysaetos canadensis	Eukaryota
+CMS001_001_Ra_S1	Larimichthys crocea	Chordata
+CMS001_005_Ra_S3	Larimichthys crocea	Chordata
+CMS001_006_Ra_S5	Larimichthys crocea	Chordata
+CMS001_008_Ra_S3	Larimichthys crocea	Chordata
+CMS001_012_Ra_S4	Larimichthys crocea	Chordata
+CMS001_013_Ra_S5	Larimichthys crocea	Chordata
+CMS001_025_Ra_S7	Larimichthys crocea	Chordata
+CMS001_028_Ra_S17	Larimichthys crocea	Chordata
+CMS001_039_Ra_S9	Larimichthys crocea	Chordata
+CMS001_043_Ra_S24	Larimichthys crocea	Chordata
+CMS001_051_Ra_S8	Larimichthys crocea	Chordata
+CMS001_052_Ra_S7	Larimichthys crocea	Chordata
+CMS001_060_Ra_S12	Larimichthys crocea	Chordata
+CMS002_007a_Rb_S118_L004	Larimichthys crocea	Chordata
+CMS002_020a_Rb_S131_L004	Larimichthys crocea	Chordata
+CMS002_020d_Rb_S134_L004	Larimichthys crocea	Chordata
+CMS002_020e_Rb_S135_L004	Larimichthys crocea	Chordata
+CMS002_021a_Rb_S136_L004	Larimichthys crocea	Chordata
+CMS002_028e_Rb_S158_L004	Larimichthys crocea	Chordata
+CMS002_031a_Rb_S165_L004	Larimichthys crocea	Chordata
+CMS002_032a_Rb_S166_L004	Larimichthys crocea	Chordata
+CMS002_033a_Rb_S167_L004	Larimichthys crocea	Chordata
+CMS002_039a_Rb_S173_L004	Larimichthys crocea	Chordata
+CMS002_047b_Rb_S194_L004	Larimichthys crocea	Chordata
+CMS002_047d_Rb_S196_L004	Larimichthys crocea	Chordata
+CMS002_053a_Rb_S7_L004	Larimichthys crocea	Chordata
+CMS001_042_Ra_S23	Aquila chrysaetos canadensis	Chordata
+CMS001_050_Ra_S23	Aquila chrysaetos canadensis	Chordata
+CMS002_028c_Rb_S156_L004	Aquila chrysaetos canadensis	Chordata
 CMS001_016_Ra_S6	Centruroides sculpturatus	Eukaryota
 CMS001_021_Ra_S16	Centruroides sculpturatus	Eukaryota
 CMS001_036_Ra_S20	Centruroides sculpturatus	Eukaryota
@@ -4582,9 +4582,9 @@ CMS002_053a_Rb_S7_L004	Bacteroides thetaiotaomicron VPI-5482	Bacteria
 CMS001_006_Ra_S5	Rhizobium/Agrobacterium group	Bacteria
 CMS001_060_Ra_S12	Aspergillus nidulans FGSC A4	Eukaryota
 CMS002_034a_Rb_S168_L004	Bacillus asahii	Bacteria
-CMS001_011_Ra_S4	Peromyscus maniculatus bairdii	Eukaryota
-CMS001_036_Ra_S20	Peromyscus maniculatus bairdii	Eukaryota
-CMS002_041a_Rb_S176_L004	Peromyscus maniculatus bairdii	Eukaryota
+CMS001_011_Ra_S4	Peromyscus maniculatus bairdii	Chordata
+CMS001_036_Ra_S20	Peromyscus maniculatus bairdii	Chordata
+CMS002_041a_Rb_S176_L004	Peromyscus maniculatus bairdii	Chordata
 CMS002_044d_Rb_S181_L004	Catenulostroma elginense	Eukaryota
 CMS001_045_Ra_S2	Nocardiopsis valliformis	Bacteria
 CMS001_051_Ra_S8	Coprinopsis cinerea okayama7#130	Eukaryota
@@ -4592,21 +4592,21 @@ CMS002_029d_Rb_S162_L004	Coprinopsis cinerea okayama7#130	Eukaryota
 CMS002_033a_Rb_S167_L004	Coprinopsis cinerea okayama7#130	Eukaryota
 CMS002_056a_Rb_S9_L004	Coprinopsis cinerea okayama7#130	Eukaryota
 CMS001_011_Ra_S4	Soboliphyme baturini	Eukaryota
-CMS001_060_Ra_S12	Cynoglossus semilaevis	Eukaryota
-CMS002_053a_Rb_S7_L004	Cynoglossus semilaevis	Eukaryota
+CMS001_060_Ra_S12	Cynoglossus semilaevis	Chordata
+CMS002_053a_Rb_S7_L004	Cynoglossus semilaevis	Chordata
 CMS001_059_Ra_S10	Wolbachia endosymbiont of Cimex lectularius	Bacteria
-CMS001_005_Ra_S3	Tupaia chinensis	Eukaryota
-CMS001_026_Ra_S18	Tupaia chinensis	Eukaryota
+CMS001_005_Ra_S3	Tupaia chinensis	Chordata
+CMS001_026_Ra_S18	Tupaia chinensis	Chordata
 CMS002_017a_Rb_S122_L004	Ascogregarina culicis	Eukaryota
 CMS002_017b_Rb_S123_L004	Ascogregarina culicis	Eukaryota
 CMS002_017c_Rb_S124_L004	Ascogregarina culicis	Eukaryota
 CMS001_027_Ra_S16	Verruconis gallopava	Eukaryota
 CMS002_039a_Rb_S173_L004	Lactobacillus johnsonii NCC 533	Bacteria
 CMS002_020c_Rb_S133_L004	Agarophyton vermiculophyllum	Eukaryota
-CMS002_023a_Rb_S138_L004	Rhincodon typus	Eukaryota
-CMS002_039a_Rb_S173_L004	Rhincodon typus	Eukaryota
+CMS002_023a_Rb_S138_L004	Rhincodon typus	Chordata
+CMS002_039a_Rb_S173_L004	Rhincodon typus	Chordata
 CMS002_0Water5_Rb_S175_L004	uncultured Chroococcidiopsis sp.	Bacteria
-CMS001_037_Ra_S21	Porzana carolina	Eukaryota
+CMS001_037_Ra_S21	Porzana carolina	Chordata
 CMS002_028b_Rb_S155_L004	Cavenderia fasciculata	Eukaryota
 CMS002_028e_Rb_S158_L004	Cavenderia fasciculata	Eukaryota
 CMS002_053a_Rb_S7_L004	Cavenderia fasciculata	Eukaryota
@@ -4649,16 +4649,16 @@ CMS002_020e_Rb_S135_L004	Debaryomyces hansenii CBS767	Eukaryota
 CMS002_021a_Rb_S136_L004	Debaryomyces hansenii CBS767	Eukaryota
 CMS001_017_Ra_S6	Tinospora cordifolia	Eukaryota
 CMS001_050_Ra_S23	Tinospora cordifolia	Eukaryota
-CMS001_030_Ra_S7	Canis lupus dingo	Eukaryota
-CMS002_032a_Rb_S166_L004	Canis lupus dingo	Eukaryota
+CMS001_030_Ra_S7	Canis lupus dingo	Chordata
+CMS002_032a_Rb_S166_L004	Canis lupus dingo	Chordata
 CMS002_031a_Rb_S165_L004	Bacillus cereus E33L	Bacteria
 CMS002_038a_Rb_S172_L004	Bacillus cereus E33L	Bacteria
 CMS001_048_Ra_S5	Gluconobacter oxydans 621H	Bacteria
 CMS001_001_Ra_S1	Photorhabdus asymbiotica	Bacteria
 CMS001_047_Ra_S4	Photorhabdus asymbiotica	Bacteria
 CMS002_028e_Rb_S158_L004	Photorhabdus asymbiotica	Bacteria
-CMS001_042_Ra_S23	Miniopterus natalensis	Eukaryota
-CMS002_035a_Rb_S169_L004	Miniopterus natalensis	Eukaryota
+CMS001_042_Ra_S23	Miniopterus natalensis	Chordata
+CMS002_035a_Rb_S169_L004	Miniopterus natalensis	Chordata
 CMS001_020_Ra_S15	Hyalella azteca	Eukaryota
 CMS002_032a_Rb_S166_L004	Hyalella azteca	Eukaryota
 CMS001_001_Ra_S1	Entamoeba histolytica HM-1:IMSS	Eukaryota
@@ -4670,40 +4670,40 @@ CMS002_047f_Rb_S198_L004	Thalassiosira pseudonana CCMP1335	Eukaryota
 CMS001_039_Ra_S9	Micromonas commoda	Eukaryota
 CMS002_047b_Rb_S194_L004	Monomorphina	Eukaryota
 CMS002_047b_Rb_S194_L004	Monomorphina pseudonordstedti	Eukaryota
-CMS001_029_Ra_S18	Lonchura striata domestica	Eukaryota
-CMS002_020e_Rb_S135_L004	Lonchura striata domestica	Eukaryota
+CMS001_029_Ra_S18	Lonchura striata domestica	Chordata
+CMS002_020e_Rb_S135_L004	Lonchura striata domestica	Chordata
 CMS002_028a_Rb_S154_L004	Micromonospora siamensis	Bacteria
-CMS001_003_Ra_S2	Denticeps clupeoides	Eukaryota
-CMS001_006_Ra_S5	Denticeps clupeoides	Eukaryota
-CMS001_008_Ra_S3	Denticeps clupeoides	Eukaryota
-CMS001_011_Ra_S4	Denticeps clupeoides	Eukaryota
-CMS001_015_Ra_S13	Denticeps clupeoides	Eukaryota
-CMS001_016_Ra_S6	Denticeps clupeoides	Eukaryota
-CMS001_031_Ra_S19	Denticeps clupeoides	Eukaryota
-CMS001_036_Ra_S20	Denticeps clupeoides	Eukaryota
-CMS001_050_Ra_S23	Denticeps clupeoides	Eukaryota
-CMS001_051_Ra_S8	Denticeps clupeoides	Eukaryota
-CMS002_007a_Rb_S118_L004	Denticeps clupeoides	Eukaryota
-CMS002_029a_Rb_S159_L004	Denticeps clupeoides	Eukaryota
-CMS002_029c_Rb_S161_L004	Denticeps clupeoides	Eukaryota
-CMS002_029d_Rb_S162_L004	Denticeps clupeoides	Eukaryota
-CMS002_032a_Rb_S166_L004	Denticeps clupeoides	Eukaryota
-CMS002_041a_Rb_S176_L004	Denticeps clupeoides	Eukaryota
-CMS002_047c_Rb_S195_L004	Denticeps clupeoides	Eukaryota
-CMS002_047d_Rb_S196_L004	Denticeps clupeoides	Eukaryota
-CMS002_047i_Rb_S2_L004	Denticeps clupeoides	Eukaryota
-CMS002_053a_Rb_S7_L004	Denticeps clupeoides	Eukaryota
+CMS001_003_Ra_S2	Denticeps clupeoides	Chordata
+CMS001_006_Ra_S5	Denticeps clupeoides	Chordata
+CMS001_008_Ra_S3	Denticeps clupeoides	Chordata
+CMS001_011_Ra_S4	Denticeps clupeoides	Chordata
+CMS001_015_Ra_S13	Denticeps clupeoides	Chordata
+CMS001_016_Ra_S6	Denticeps clupeoides	Chordata
+CMS001_031_Ra_S19	Denticeps clupeoides	Chordata
+CMS001_036_Ra_S20	Denticeps clupeoides	Chordata
+CMS001_050_Ra_S23	Denticeps clupeoides	Chordata
+CMS001_051_Ra_S8	Denticeps clupeoides	Chordata
+CMS002_007a_Rb_S118_L004	Denticeps clupeoides	Chordata
+CMS002_029a_Rb_S159_L004	Denticeps clupeoides	Chordata
+CMS002_029c_Rb_S161_L004	Denticeps clupeoides	Chordata
+CMS002_029d_Rb_S162_L004	Denticeps clupeoides	Chordata
+CMS002_032a_Rb_S166_L004	Denticeps clupeoides	Chordata
+CMS002_041a_Rb_S176_L004	Denticeps clupeoides	Chordata
+CMS002_047c_Rb_S195_L004	Denticeps clupeoides	Chordata
+CMS002_047d_Rb_S196_L004	Denticeps clupeoides	Chordata
+CMS002_047i_Rb_S2_L004	Denticeps clupeoides	Chordata
+CMS002_053a_Rb_S7_L004	Denticeps clupeoides	Chordata
 CMS002_026c_Rb_S148_L004	Enterobacter ludwigii	Bacteria
 CMS002_026d_Rb_S149_L004	Enterobacter ludwigii	Bacteria
 CMS001_009_Ra_S13	Lachancea	Eukaryota
-CMS001_016_Ra_S6	Pundamilia nyererei	Eukaryota
+CMS001_016_Ra_S6	Pundamilia nyererei	Chordata
 CMS001_026_Ra_S18	Campylobacter lari RM2100	Bacteria
 CMS001_036_Ra_S20	Wolbachia endosymbiont of Drosophila ananassae	Bacteria
-CMS001_051_Ra_S8	Sinocyclocheilus rhinocerous	Eukaryota
-CMS002_031a_Rb_S165_L004	Sinocyclocheilus rhinocerous	Eukaryota
-CMS001_060_Ra_S12	Balaenoptera acutorostrata scammoni	Eukaryota
-CMS001_031_Ra_S19	Pangasianodon hypophthalmus	Eukaryota
-CMS002_033a_Rb_S167_L004	Pangasianodon hypophthalmus	Eukaryota
+CMS001_051_Ra_S8	Sinocyclocheilus rhinocerous	Chordata
+CMS002_031a_Rb_S165_L004	Sinocyclocheilus rhinocerous	Chordata
+CMS001_060_Ra_S12	Balaenoptera acutorostrata scammoni	Chordata
+CMS001_031_Ra_S19	Pangasianodon hypophthalmus	Chordata
+CMS002_033a_Rb_S167_L004	Pangasianodon hypophthalmus	Chordata
 CMS001_020_Ra_S15	Tetrahymena thermophila SB210	Eukaryota
 CMS001_036_Ra_S20	Tetrahymena thermophila SB210	Eukaryota
 CMS001_059_Ra_S10	Tetrahymena thermophila SB210	Eukaryota
@@ -4717,97 +4717,97 @@ CMS002_020a_Rb_S131_L004	Candida hispaniensis	Eukaryota
 CMS001_012_Ra_S4	Lobosphaera incisa	Eukaryota
 CMS001_001_Ra_S1	Psychroflexus torquis ATCC 700755	Bacteria
 CMS001_057_Ra_S11	Psychroflexus torquis ATCC 700755	Bacteria
-CMS001_001_Ra_S1	Laurasiatheria	Eukaryota
-CMS001_003_Ra_S2	Laurasiatheria	Eukaryota
-CMS001_008_Ra_S3	Laurasiatheria	Eukaryota
-CMS001_009_Ra_S13	Laurasiatheria	Eukaryota
-CMS001_010_Ra_S1	Laurasiatheria	Eukaryota
-CMS001_012_Ra_S4	Laurasiatheria	Eukaryota
-CMS001_015_Ra_S13	Laurasiatheria	Eukaryota
-CMS001_016_Ra_S6	Laurasiatheria	Eukaryota
-CMS001_018_Ra_S14	Laurasiatheria	Eukaryota
-CMS001_022_Ra_S6	Laurasiatheria	Eukaryota
-CMS001_031_Ra_S19	Laurasiatheria	Eukaryota
-CMS001_032_Ra_S7	Laurasiatheria	Eukaryota
-CMS001_035_Ra_S20	Laurasiatheria	Eukaryota
-CMS001_036_Ra_S20	Laurasiatheria	Eukaryota
-CMS001_038_Ra_S22	Laurasiatheria	Eukaryota
-CMS001_045_Ra_S2	Laurasiatheria	Eukaryota
-CMS001_046_Ra_S3	Laurasiatheria	Eukaryota
-CMS001_052_Ra_S7	Laurasiatheria	Eukaryota
-CMS001_053_Ra_S8	Laurasiatheria	Eukaryota
-CMS001_057_Ra_S11	Laurasiatheria	Eukaryota
-CMS001_060_Ra_S12	Laurasiatheria	Eukaryota
-CMS002_007a_Rb_S118_L004	Laurasiatheria	Eukaryota
-CMS002_045c_Rb_S185_L004	Laurasiatheria	Eukaryota
-CMS001_001_Ra_S1	Euarchontoglires	Eukaryota
-CMS001_011_Ra_S4	Euarchontoglires	Eukaryota
-CMS001_012_Ra_S4	Euarchontoglires	Eukaryota
-CMS001_013_Ra_S5	Euarchontoglires	Eukaryota
-CMS001_022_Ra_S6	Euarchontoglires	Eukaryota
-CMS001_048_Ra_S5	Euarchontoglires	Eukaryota
-CMS002_020e_Rb_S135_L004	Euarchontoglires	Eukaryota
-CMS002_040a_Rb_S174_L004	Euarchontoglires	Eukaryota
-CMS002_041a_Rb_S176_L004	Euarchontoglires	Eukaryota
-CMS002_047i_Rb_S2_L004	Euarchontoglires	Eukaryota
-CMS001_060_Ra_S12	Simiiformes	Eukaryota
-CMS001_005_Ra_S3	Hominoidea	Eukaryota
-CMS001_003_Ra_S2	Lateolabrax maculatus	Eukaryota
-CMS001_005_Ra_S3	Lateolabrax maculatus	Eukaryota
-CMS001_006_Ra_S5	Lateolabrax maculatus	Eukaryota
-CMS001_008_Ra_S3	Lateolabrax maculatus	Eukaryota
-CMS001_011_Ra_S4	Lateolabrax maculatus	Eukaryota
-CMS001_012_Ra_S4	Lateolabrax maculatus	Eukaryota
-CMS001_013_Ra_S5	Lateolabrax maculatus	Eukaryota
-CMS001_016_Ra_S6	Lateolabrax maculatus	Eukaryota
-CMS001_017_Ra_S6	Lateolabrax maculatus	Eukaryota
-CMS001_021_Ra_S16	Lateolabrax maculatus	Eukaryota
-CMS001_022_Ra_S6	Lateolabrax maculatus	Eukaryota
-CMS001_023_Ra_S17	Lateolabrax maculatus	Eukaryota
-CMS001_025_Ra_S7	Lateolabrax maculatus	Eukaryota
-CMS001_026_Ra_S18	Lateolabrax maculatus	Eukaryota
-CMS001_036_Ra_S20	Lateolabrax maculatus	Eukaryota
-CMS001_037_Ra_S21	Lateolabrax maculatus	Eukaryota
-CMS001_042_Ra_S23	Lateolabrax maculatus	Eukaryota
-CMS001_047_Ra_S4	Lateolabrax maculatus	Eukaryota
-CMS001_050_Ra_S23	Lateolabrax maculatus	Eukaryota
-CMS001_052_Ra_S7	Lateolabrax maculatus	Eukaryota
-CMS001_060_Ra_S12	Lateolabrax maculatus	Eukaryota
-CMS001_water3_Qiagen_S26	Lateolabrax maculatus	Eukaryota
-CMS002_007a_Rb_S118_L004	Lateolabrax maculatus	Eukaryota
-CMS002_020a_Rb_S131_L004	Lateolabrax maculatus	Eukaryota
-CMS002_020e_Rb_S135_L004	Lateolabrax maculatus	Eukaryota
-CMS002_021a_Rb_S136_L004	Lateolabrax maculatus	Eukaryota
-CMS002_028a_Rb_S154_L004	Lateolabrax maculatus	Eukaryota
-CMS002_028b_Rb_S155_L004	Lateolabrax maculatus	Eukaryota
-CMS002_028c_Rb_S156_L004	Lateolabrax maculatus	Eukaryota
-CMS002_028e_Rb_S158_L004	Lateolabrax maculatus	Eukaryota
-CMS002_029a_Rb_S159_L004	Lateolabrax maculatus	Eukaryota
-CMS002_032a_Rb_S166_L004	Lateolabrax maculatus	Eukaryota
-CMS002_039a_Rb_S173_L004	Lateolabrax maculatus	Eukaryota
-CMS002_047a_Rb_S193_L004	Lateolabrax maculatus	Eukaryota
-CMS002_047d_Rb_S196_L004	Lateolabrax maculatus	Eukaryota
-CMS002_047e_Rb_S197_L004	Lateolabrax maculatus	Eukaryota
-CMS002_047f_Rb_S198_L004	Lateolabrax maculatus	Eukaryota
-CMS002_047g_Rb_S200_L004	Lateolabrax maculatus	Eukaryota
-CMS002_047h_Rb_S1_L004	Lateolabrax maculatus	Eukaryota
-CMS002_047i_Rb_S2_L004	Lateolabrax maculatus	Eukaryota
-CMS002_047j_Rb_S3_L004	Lateolabrax maculatus	Eukaryota
-CMS002_053a_Rb_S7_L004	Lateolabrax maculatus	Eukaryota
+CMS001_001_Ra_S1	Laurasiatheria	Chordata
+CMS001_003_Ra_S2	Laurasiatheria	Chordata
+CMS001_008_Ra_S3	Laurasiatheria	Chordata
+CMS001_009_Ra_S13	Laurasiatheria	Chordata
+CMS001_010_Ra_S1	Laurasiatheria	Chordata
+CMS001_012_Ra_S4	Laurasiatheria	Chordata
+CMS001_015_Ra_S13	Laurasiatheria	Chordata
+CMS001_016_Ra_S6	Laurasiatheria	Chordata
+CMS001_018_Ra_S14	Laurasiatheria	Chordata
+CMS001_022_Ra_S6	Laurasiatheria	Chordata
+CMS001_031_Ra_S19	Laurasiatheria	Chordata
+CMS001_032_Ra_S7	Laurasiatheria	Chordata
+CMS001_035_Ra_S20	Laurasiatheria	Chordata
+CMS001_036_Ra_S20	Laurasiatheria	Chordata
+CMS001_038_Ra_S22	Laurasiatheria	Chordata
+CMS001_045_Ra_S2	Laurasiatheria	Chordata
+CMS001_046_Ra_S3	Laurasiatheria	Chordata
+CMS001_052_Ra_S7	Laurasiatheria	Chordata
+CMS001_053_Ra_S8	Laurasiatheria	Chordata
+CMS001_057_Ra_S11	Laurasiatheria	Chordata
+CMS001_060_Ra_S12	Laurasiatheria	Chordata
+CMS002_007a_Rb_S118_L004	Laurasiatheria	Chordata
+CMS002_045c_Rb_S185_L004	Laurasiatheria	Chordata
+CMS001_001_Ra_S1	Euarchontoglires	Chordata
+CMS001_011_Ra_S4	Euarchontoglires	Chordata
+CMS001_012_Ra_S4	Euarchontoglires	Chordata
+CMS001_013_Ra_S5	Euarchontoglires	Chordata
+CMS001_022_Ra_S6	Euarchontoglires	Chordata
+CMS001_048_Ra_S5	Euarchontoglires	Chordata
+CMS002_020e_Rb_S135_L004	Euarchontoglires	Chordata
+CMS002_040a_Rb_S174_L004	Euarchontoglires	Chordata
+CMS002_041a_Rb_S176_L004	Euarchontoglires	Chordata
+CMS002_047i_Rb_S2_L004	Euarchontoglires	Chordata
+CMS001_060_Ra_S12	Simiiformes	Chordata
+CMS001_005_Ra_S3	Hominoidea	Chordata
+CMS001_003_Ra_S2	Lateolabrax maculatus	Chordata
+CMS001_005_Ra_S3	Lateolabrax maculatus	Chordata
+CMS001_006_Ra_S5	Lateolabrax maculatus	Chordata
+CMS001_008_Ra_S3	Lateolabrax maculatus	Chordata
+CMS001_011_Ra_S4	Lateolabrax maculatus	Chordata
+CMS001_012_Ra_S4	Lateolabrax maculatus	Chordata
+CMS001_013_Ra_S5	Lateolabrax maculatus	Chordata
+CMS001_016_Ra_S6	Lateolabrax maculatus	Chordata
+CMS001_017_Ra_S6	Lateolabrax maculatus	Chordata
+CMS001_021_Ra_S16	Lateolabrax maculatus	Chordata
+CMS001_022_Ra_S6	Lateolabrax maculatus	Chordata
+CMS001_023_Ra_S17	Lateolabrax maculatus	Chordata
+CMS001_025_Ra_S7	Lateolabrax maculatus	Chordata
+CMS001_026_Ra_S18	Lateolabrax maculatus	Chordata
+CMS001_036_Ra_S20	Lateolabrax maculatus	Chordata
+CMS001_037_Ra_S21	Lateolabrax maculatus	Chordata
+CMS001_042_Ra_S23	Lateolabrax maculatus	Chordata
+CMS001_047_Ra_S4	Lateolabrax maculatus	Chordata
+CMS001_050_Ra_S23	Lateolabrax maculatus	Chordata
+CMS001_052_Ra_S7	Lateolabrax maculatus	Chordata
+CMS001_060_Ra_S12	Lateolabrax maculatus	Chordata
+CMS001_water3_Qiagen_S26	Lateolabrax maculatus	Chordata
+CMS002_007a_Rb_S118_L004	Lateolabrax maculatus	Chordata
+CMS002_020a_Rb_S131_L004	Lateolabrax maculatus	Chordata
+CMS002_020e_Rb_S135_L004	Lateolabrax maculatus	Chordata
+CMS002_021a_Rb_S136_L004	Lateolabrax maculatus	Chordata
+CMS002_028a_Rb_S154_L004	Lateolabrax maculatus	Chordata
+CMS002_028b_Rb_S155_L004	Lateolabrax maculatus	Chordata
+CMS002_028c_Rb_S156_L004	Lateolabrax maculatus	Chordata
+CMS002_028e_Rb_S158_L004	Lateolabrax maculatus	Chordata
+CMS002_029a_Rb_S159_L004	Lateolabrax maculatus	Chordata
+CMS002_032a_Rb_S166_L004	Lateolabrax maculatus	Chordata
+CMS002_039a_Rb_S173_L004	Lateolabrax maculatus	Chordata
+CMS002_047a_Rb_S193_L004	Lateolabrax maculatus	Chordata
+CMS002_047d_Rb_S196_L004	Lateolabrax maculatus	Chordata
+CMS002_047e_Rb_S197_L004	Lateolabrax maculatus	Chordata
+CMS002_047f_Rb_S198_L004	Lateolabrax maculatus	Chordata
+CMS002_047g_Rb_S200_L004	Lateolabrax maculatus	Chordata
+CMS002_047h_Rb_S1_L004	Lateolabrax maculatus	Chordata
+CMS002_047i_Rb_S2_L004	Lateolabrax maculatus	Chordata
+CMS002_047j_Rb_S3_L004	Lateolabrax maculatus	Chordata
+CMS002_053a_Rb_S7_L004	Lateolabrax maculatus	Chordata
 CMS002_029b_Rb_S160_L004	Geobacter daltonii FRC-32	Bacteria
 CMS001_019_Ra_S14	Streptomyces noursei ATCC 11455	Bacteria
 CMS002_028c_Rb_S156_L004	Parhyale hawaiensis	Eukaryota
-CMS001_003_Ra_S2	Pseudocrenilabrinae	Eukaryota
-CMS002_007a_Rb_S118_L004	Pseudocrenilabrinae	Eukaryota
-CMS002_021a_Rb_S136_L004	Pseudocrenilabrinae	Eukaryota
-CMS002_032a_Rb_S166_L004	Pseudocrenilabrinae	Eukaryota
+CMS001_003_Ra_S2	Pseudocrenilabrinae	Chordata
+CMS002_007a_Rb_S118_L004	Pseudocrenilabrinae	Chordata
+CMS002_021a_Rb_S136_L004	Pseudocrenilabrinae	Chordata
+CMS002_032a_Rb_S166_L004	Pseudocrenilabrinae	Chordata
 CMS001_011_Ra_S4	Pyricularia oryzae	Eukaryota
 CMS002_053a_Rb_S7_L004	Pyricularia oryzae	Eukaryota
-CMS001_057_Ra_S11	Haplochromini	Eukaryota
-CMS002_047i_Rb_S2_L004	Haplochromini	Eukaryota
-CMS001_003_Ra_S2	Hisonotus leucofrenatus	Eukaryota
+CMS001_057_Ra_S11	Haplochromini	Chordata
+CMS002_047i_Rb_S2_L004	Haplochromini	Chordata
+CMS001_003_Ra_S2	Hisonotus leucofrenatus	Chordata
 CMS001_045_Ra_S2	Synechococcus sp. JA-3-3Ab	Bacteria
-CMS002_020a_Rb_S131_L004	Lepidothrix coronata	Eukaryota
+CMS002_020a_Rb_S131_L004	Lepidothrix coronata	Chordata
 CMS002_047i_Rb_S2_L004	Aster yellows witches'-broom phytoplasma AYWB	Bacteria
 CMS002_053a_Rb_S7_L004	Aster yellows witches'-broom phytoplasma AYWB	Bacteria
 CMS002_032a_Rb_S166_L004	Babesia duncani	Eukaryota
@@ -4829,12 +4829,12 @@ CMS002_007a_Rb_S118_L004	Pirata montanus	Eukaryota
 CMS001_053_Ra_S8	Mimetidae	Eukaryota
 CMS001_057_Ra_S11	Candidatus Sulcia muelleri	Bacteria
 CMS002_020e_Rb_S135_L004	Candidatus Sulcia muelleri	Bacteria
-CMS001_011_Ra_S4	Cricetidae	Eukaryota
-CMS001_011_Ra_S4	Muroidea	Eukaryota
-CMS001_058_Ra_S9	Muroidea	Eukaryota
-CMS002_028c_Rb_S156_L004	Marmotini	Eukaryota
-CMS001_041_Ra_S10	Sciurini	Eukaryota
-CMS001_011_Ra_S4	Neotominae	Eukaryota
+CMS001_011_Ra_S4	Cricetidae	Chordata
+CMS001_011_Ra_S4	Muroidea	Chordata
+CMS001_058_Ra_S9	Muroidea	Chordata
+CMS002_028c_Rb_S156_L004	Marmotini	Chordata
+CMS001_041_Ra_S10	Sciurini	Chordata
+CMS001_011_Ra_S4	Neotominae	Chordata
 CMS002_028b_Rb_S155_L004	Nitrosopumilaceae	Other
 CMS002_029b_Rb_S160_L004	Pelobacter carbinolicus DSM 2380	Bacteria
 CMS002_021a_Rb_S136_L004	Aspergillus terreus NIH2624	Eukaryota
@@ -4872,12 +4872,12 @@ CMS001_042_Ra_S23	uncultured Prochlorococcus marinus clone HF10-110B11	Bacteria
 CMS001_008_Ra_S3	Lodderomyces elongisporus NRRL YB-4239	Eukaryota
 CMS002_020e_Rb_S135_L004	Lodderomyces elongisporus NRRL YB-4239	Eukaryota
 CMS002_033a_Rb_S167_L004	Lodderomyces elongisporus NRRL YB-4239	Eukaryota
-CMS001_004_Ra_S2	Caniformia	Eukaryota
-CMS001_019_Ra_S14	Caniformia	Eukaryota
-CMS001_028_Ra_S17	Caniformia	Eukaryota
-CMS001_030_Ra_S7	Caniformia	Eukaryota
-CMS001_031_Ra_S19	Caniformia	Eukaryota
-CMS001_water3_Qiagen_S26	Caniformia	Eukaryota
+CMS001_004_Ra_S2	Caniformia	Chordata
+CMS001_019_Ra_S14	Caniformia	Chordata
+CMS001_028_Ra_S17	Caniformia	Chordata
+CMS001_030_Ra_S7	Caniformia	Chordata
+CMS001_031_Ra_S19	Caniformia	Chordata
+CMS001_water3_Qiagen_S26	Caniformia	Chordata
 CMS001_008_Ra_S3	Lachancea thermotolerans	Eukaryota
 CMS001_009_Ra_S13	Lachancea thermotolerans	Eukaryota
 CMS002_026a_Rb_S146_L004	Lachancea thermotolerans	Eukaryota
@@ -4885,9 +4885,9 @@ CMS002_026b_Rb_S147_L004	Lachancea thermotolerans	Eukaryota
 CMS002_026c_Rb_S148_L004	Lachancea thermotolerans	Eukaryota
 CMS002_026d_Rb_S149_L004	Lachancea thermotolerans	Eukaryota
 CMS002_026e_Rb_S150_L004	Lachancea thermotolerans	Eukaryota
-CMS001_049_Ra_S6	Anser cygnoides domesticus	Eukaryota
-CMS001_050_Ra_S23	Anser cygnoides domesticus	Eukaryota
-CMS002_047c_Rb_S195_L004	Macrorhamphosodes uradoi	Eukaryota
+CMS001_049_Ra_S6	Anser cygnoides domesticus	Chordata
+CMS001_050_Ra_S23	Anser cygnoides domesticus	Chordata
+CMS002_047c_Rb_S195_L004	Macrorhamphosodes uradoi	Chordata
 CMS001_036_Ra_S20	Clostridium novyi NT	Bacteria
 CMS001_034_Ra_S19	Clostridium taeniosporum	Bacteria
 CMS002_038a_Rb_S172_L004	Clostridium taeniosporum	Bacteria
@@ -4919,7 +4919,7 @@ CMS002_028b_Rb_S155_L004	Trichomonas vaginalis G3	Eukaryota
 CMS002_047h_Rb_S1_L004	Trichomonas vaginalis G3	Eukaryota
 CMS002_038a_Rb_S172_L004	Borrelia recurrentis A1	Bacteria
 CMS001_012_Ra_S4	Trichoderma virens Gv29-8	Eukaryota
-CMS002_029a_Rb_S159_L004	Corapipo altera	Eukaryota
+CMS002_029a_Rb_S159_L004	Corapipo altera	Chordata
 CMS001_060_Ra_S12	Halorubrum lacusprofundi ATCC 49239	Other
 CMS001_016_Ra_S6	Plasmodium (Vinckeia)	Eukaryota
 CMS001_025_Ra_S7	Plasmodium (Vinckeia)	Eukaryota
@@ -4958,7 +4958,7 @@ CMS001_003_Ra_S2	Puccinia graminis f. sp. tritici CRL 75-36-700-3	Eukaryota
 CMS001_025_Ra_S7	Puccinia graminis f. sp. tritici CRL 75-36-700-3	Eukaryota
 CMS002_021a_Rb_S136_L004	Puccinia graminis f. sp. tritici CRL 75-36-700-3	Eukaryota
 CMS002_047c_Rb_S195_L004	Puccinia graminis f. sp. tritici CRL 75-36-700-3	Eukaryota
-CMS001_060_Ra_S12	Camelus ferus	Eukaryota
+CMS001_060_Ra_S12	Camelus ferus	Chordata
 CMS001_035_Ra_S20	Leishmania braziliensis MHOM/BR/75/M2904	Eukaryota
 CMS001_035_Ra_S20	Eimeriorina	Eukaryota
 CMS002_032a_Rb_S166_L004	Mucilaginibacter	Bacteria
@@ -4971,20 +4971,20 @@ CMS001_011_Ra_S4	Toxoplasma gondii VEG	Eukaryota
 CMS001_049_Ra_S6	Toxoplasma gondii VEG	Eukaryota
 CMS002_028a_Rb_S154_L004	Toxoplasma gondii VEG	Eukaryota
 CMS002_047j_Rb_S3_L004	Toxoplasma gondii VEG	Eukaryota
-CMS001_005_Ra_S3	Takifugu bimaculatus	Eukaryota
-CMS001_011_Ra_S4	Takifugu bimaculatus	Eukaryota
-CMS001_014_Ra_S5	Takifugu bimaculatus	Eukaryota
-CMS001_025_Ra_S7	Takifugu bimaculatus	Eukaryota
-CMS001_033_Ra_S8	Takifugu bimaculatus	Eukaryota
-CMS001_036_Ra_S20	Takifugu bimaculatus	Eukaryota
-CMS001_051_Ra_S8	Takifugu bimaculatus	Eukaryota
-CMS001_060_Ra_S12	Takifugu bimaculatus	Eukaryota
-CMS002_007a_Rb_S118_L004	Takifugu bimaculatus	Eukaryota
-CMS002_020a_Rb_S131_L004	Takifugu bimaculatus	Eukaryota
-CMS002_021a_Rb_S136_L004	Takifugu bimaculatus	Eukaryota
-CMS002_031a_Rb_S165_L004	Takifugu bimaculatus	Eukaryota
-CMS002_053a_Rb_S7_L004	Takifugu bimaculatus	Eukaryota
-CMS002_056a_Rb_S9_L004	Takifugu bimaculatus	Eukaryota
+CMS001_005_Ra_S3	Takifugu bimaculatus	Chordata
+CMS001_011_Ra_S4	Takifugu bimaculatus	Chordata
+CMS001_014_Ra_S5	Takifugu bimaculatus	Chordata
+CMS001_025_Ra_S7	Takifugu bimaculatus	Chordata
+CMS001_033_Ra_S8	Takifugu bimaculatus	Chordata
+CMS001_036_Ra_S20	Takifugu bimaculatus	Chordata
+CMS001_051_Ra_S8	Takifugu bimaculatus	Chordata
+CMS001_060_Ra_S12	Takifugu bimaculatus	Chordata
+CMS002_007a_Rb_S118_L004	Takifugu bimaculatus	Chordata
+CMS002_020a_Rb_S131_L004	Takifugu bimaculatus	Chordata
+CMS002_021a_Rb_S136_L004	Takifugu bimaculatus	Chordata
+CMS002_031a_Rb_S165_L004	Takifugu bimaculatus	Chordata
+CMS002_053a_Rb_S7_L004	Takifugu bimaculatus	Chordata
+CMS002_056a_Rb_S9_L004	Takifugu bimaculatus	Chordata
 CMS001_035_Ra_S20	Leishmania infantum JPCM5	Eukaryota
 CMS001_044_Ra_S25	Serratia marcescens WW4	Bacteria
 CMS001_005_Ra_S3	Ostreococcus lucimarinus CCE9901	Eukaryota
@@ -4995,71 +4995,71 @@ CMS001_022_Ra_S6	Melampsora sp. SAL 135	Eukaryota
 CMS002_021a_Rb_S136_L004	Melampsora sp. SAL 135	Eukaryota
 CMS001_060_Ra_S12	[Bacillus] selenitireducens MLS10	Bacteria
 CMS002_013a_Rb_S120_L004	Burkholderia thailandensis MSMB43	Bacteria
-CMS001_001_Ra_S1	Gouania willdenowi	Eukaryota
-CMS001_003_Ra_S2	Gouania willdenowi	Eukaryota
-CMS001_005_Ra_S3	Gouania willdenowi	Eukaryota
-CMS001_006_Ra_S5	Gouania willdenowi	Eukaryota
-CMS001_007_Ra_S12	Gouania willdenowi	Eukaryota
-CMS001_008_Ra_S3	Gouania willdenowi	Eukaryota
-CMS001_009_Ra_S13	Gouania willdenowi	Eukaryota
-CMS001_010_Ra_S1	Gouania willdenowi	Eukaryota
-CMS001_011_Ra_S4	Gouania willdenowi	Eukaryota
-CMS001_013_Ra_S5	Gouania willdenowi	Eukaryota
-CMS001_016_Ra_S6	Gouania willdenowi	Eukaryota
-CMS001_017_Ra_S6	Gouania willdenowi	Eukaryota
-CMS001_019_Ra_S14	Gouania willdenowi	Eukaryota
-CMS001_020_Ra_S15	Gouania willdenowi	Eukaryota
-CMS001_021_Ra_S16	Gouania willdenowi	Eukaryota
-CMS001_025_Ra_S7	Gouania willdenowi	Eukaryota
-CMS001_026_Ra_S18	Gouania willdenowi	Eukaryota
-CMS001_036_Ra_S20	Gouania willdenowi	Eukaryota
-CMS001_037_Ra_S21	Gouania willdenowi	Eukaryota
-CMS001_042_Ra_S23	Gouania willdenowi	Eukaryota
-CMS001_043_Ra_S24	Gouania willdenowi	Eukaryota
-CMS001_045_Ra_S2	Gouania willdenowi	Eukaryota
-CMS001_046_Ra_S3	Gouania willdenowi	Eukaryota
-CMS001_048_Ra_S5	Gouania willdenowi	Eukaryota
-CMS001_050_Ra_S23	Gouania willdenowi	Eukaryota
-CMS001_051_Ra_S8	Gouania willdenowi	Eukaryota
-CMS001_052_Ra_S7	Gouania willdenowi	Eukaryota
-CMS001_053_Ra_S8	Gouania willdenowi	Eukaryota
-CMS001_057_Ra_S11	Gouania willdenowi	Eukaryota
-CMS001_058_Ra_S9	Gouania willdenowi	Eukaryota
-CMS001_060_Ra_S12	Gouania willdenowi	Eukaryota
-CMS002_007a_Rb_S118_L004	Gouania willdenowi	Eukaryota
-CMS002_018b_Rb_S129_L004	Gouania willdenowi	Eukaryota
-CMS002_020a_Rb_S131_L004	Gouania willdenowi	Eukaryota
-CMS002_020b_Rb_S132_L004	Gouania willdenowi	Eukaryota
-CMS002_020d_Rb_S134_L004	Gouania willdenowi	Eukaryota
-CMS002_020e_Rb_S135_L004	Gouania willdenowi	Eukaryota
-CMS002_021a_Rb_S136_L004	Gouania willdenowi	Eukaryota
-CMS002_028a_Rb_S154_L004	Gouania willdenowi	Eukaryota
-CMS002_028b_Rb_S155_L004	Gouania willdenowi	Eukaryota
-CMS002_028c_Rb_S156_L004	Gouania willdenowi	Eukaryota
-CMS002_028d_Rb_S157_L004	Gouania willdenowi	Eukaryota
-CMS002_028e_Rb_S158_L004	Gouania willdenowi	Eukaryota
-CMS002_029a_Rb_S159_L004	Gouania willdenowi	Eukaryota
-CMS002_029c_Rb_S161_L004	Gouania willdenowi	Eukaryota
-CMS002_031a_Rb_S165_L004	Gouania willdenowi	Eukaryota
-CMS002_032a_Rb_S166_L004	Gouania willdenowi	Eukaryota
-CMS002_033a_Rb_S167_L004	Gouania willdenowi	Eukaryota
-CMS002_035a_Rb_S169_L004	Gouania willdenowi	Eukaryota
-CMS002_038a_Rb_S172_L004	Gouania willdenowi	Eukaryota
-CMS002_039a_Rb_S173_L004	Gouania willdenowi	Eukaryota
-CMS002_040a_Rb_S174_L004	Gouania willdenowi	Eukaryota
-CMS002_042a_Rb_S177_L004	Gouania willdenowi	Eukaryota
-CMS002_047a_Rb_S193_L004	Gouania willdenowi	Eukaryota
-CMS002_047b_Rb_S194_L004	Gouania willdenowi	Eukaryota
-CMS002_047c_Rb_S195_L004	Gouania willdenowi	Eukaryota
-CMS002_047d_Rb_S196_L004	Gouania willdenowi	Eukaryota
-CMS002_047e_Rb_S197_L004	Gouania willdenowi	Eukaryota
-CMS002_047f_Rb_S198_L004	Gouania willdenowi	Eukaryota
-CMS002_047g_Rb_S200_L004	Gouania willdenowi	Eukaryota
-CMS002_047h_Rb_S1_L004	Gouania willdenowi	Eukaryota
-CMS002_047i_Rb_S2_L004	Gouania willdenowi	Eukaryota
-CMS002_047j_Rb_S3_L004	Gouania willdenowi	Eukaryota
-CMS002_053a_Rb_S7_L004	Gouania willdenowi	Eukaryota
-CMS002_056a_Rb_S9_L004	Gouania willdenowi	Eukaryota
+CMS001_001_Ra_S1	Gouania willdenowi	Chordata
+CMS001_003_Ra_S2	Gouania willdenowi	Chordata
+CMS001_005_Ra_S3	Gouania willdenowi	Chordata
+CMS001_006_Ra_S5	Gouania willdenowi	Chordata
+CMS001_007_Ra_S12	Gouania willdenowi	Chordata
+CMS001_008_Ra_S3	Gouania willdenowi	Chordata
+CMS001_009_Ra_S13	Gouania willdenowi	Chordata
+CMS001_010_Ra_S1	Gouania willdenowi	Chordata
+CMS001_011_Ra_S4	Gouania willdenowi	Chordata
+CMS001_013_Ra_S5	Gouania willdenowi	Chordata
+CMS001_016_Ra_S6	Gouania willdenowi	Chordata
+CMS001_017_Ra_S6	Gouania willdenowi	Chordata
+CMS001_019_Ra_S14	Gouania willdenowi	Chordata
+CMS001_020_Ra_S15	Gouania willdenowi	Chordata
+CMS001_021_Ra_S16	Gouania willdenowi	Chordata
+CMS001_025_Ra_S7	Gouania willdenowi	Chordata
+CMS001_026_Ra_S18	Gouania willdenowi	Chordata
+CMS001_036_Ra_S20	Gouania willdenowi	Chordata
+CMS001_037_Ra_S21	Gouania willdenowi	Chordata
+CMS001_042_Ra_S23	Gouania willdenowi	Chordata
+CMS001_043_Ra_S24	Gouania willdenowi	Chordata
+CMS001_045_Ra_S2	Gouania willdenowi	Chordata
+CMS001_046_Ra_S3	Gouania willdenowi	Chordata
+CMS001_048_Ra_S5	Gouania willdenowi	Chordata
+CMS001_050_Ra_S23	Gouania willdenowi	Chordata
+CMS001_051_Ra_S8	Gouania willdenowi	Chordata
+CMS001_052_Ra_S7	Gouania willdenowi	Chordata
+CMS001_053_Ra_S8	Gouania willdenowi	Chordata
+CMS001_057_Ra_S11	Gouania willdenowi	Chordata
+CMS001_058_Ra_S9	Gouania willdenowi	Chordata
+CMS001_060_Ra_S12	Gouania willdenowi	Chordata
+CMS002_007a_Rb_S118_L004	Gouania willdenowi	Chordata
+CMS002_018b_Rb_S129_L004	Gouania willdenowi	Chordata
+CMS002_020a_Rb_S131_L004	Gouania willdenowi	Chordata
+CMS002_020b_Rb_S132_L004	Gouania willdenowi	Chordata
+CMS002_020d_Rb_S134_L004	Gouania willdenowi	Chordata
+CMS002_020e_Rb_S135_L004	Gouania willdenowi	Chordata
+CMS002_021a_Rb_S136_L004	Gouania willdenowi	Chordata
+CMS002_028a_Rb_S154_L004	Gouania willdenowi	Chordata
+CMS002_028b_Rb_S155_L004	Gouania willdenowi	Chordata
+CMS002_028c_Rb_S156_L004	Gouania willdenowi	Chordata
+CMS002_028d_Rb_S157_L004	Gouania willdenowi	Chordata
+CMS002_028e_Rb_S158_L004	Gouania willdenowi	Chordata
+CMS002_029a_Rb_S159_L004	Gouania willdenowi	Chordata
+CMS002_029c_Rb_S161_L004	Gouania willdenowi	Chordata
+CMS002_031a_Rb_S165_L004	Gouania willdenowi	Chordata
+CMS002_032a_Rb_S166_L004	Gouania willdenowi	Chordata
+CMS002_033a_Rb_S167_L004	Gouania willdenowi	Chordata
+CMS002_035a_Rb_S169_L004	Gouania willdenowi	Chordata
+CMS002_038a_Rb_S172_L004	Gouania willdenowi	Chordata
+CMS002_039a_Rb_S173_L004	Gouania willdenowi	Chordata
+CMS002_040a_Rb_S174_L004	Gouania willdenowi	Chordata
+CMS002_042a_Rb_S177_L004	Gouania willdenowi	Chordata
+CMS002_047a_Rb_S193_L004	Gouania willdenowi	Chordata
+CMS002_047b_Rb_S194_L004	Gouania willdenowi	Chordata
+CMS002_047c_Rb_S195_L004	Gouania willdenowi	Chordata
+CMS002_047d_Rb_S196_L004	Gouania willdenowi	Chordata
+CMS002_047e_Rb_S197_L004	Gouania willdenowi	Chordata
+CMS002_047f_Rb_S198_L004	Gouania willdenowi	Chordata
+CMS002_047g_Rb_S200_L004	Gouania willdenowi	Chordata
+CMS002_047h_Rb_S1_L004	Gouania willdenowi	Chordata
+CMS002_047i_Rb_S2_L004	Gouania willdenowi	Chordata
+CMS002_047j_Rb_S3_L004	Gouania willdenowi	Chordata
+CMS002_053a_Rb_S7_L004	Gouania willdenowi	Chordata
+CMS002_056a_Rb_S9_L004	Gouania willdenowi	Chordata
 CMS002_053a_Rb_S7_L004	Cryptosporidium muris RN66	Eukaryota
 CMS002_017e_Rb_S126_L004	Rickettsiella melolonthae	Bacteria
 CMS001_050_Ra_S23	Actinosynnema mirum DSM 43827	Bacteria
@@ -5083,7 +5083,7 @@ CMS001_020_Ra_S15	Candidatus Purcelliella pentastirinorum	Bacteria
 CMS002_056a_Rb_S9_L004	Russula abietina	Eukaryota
 CMS001_water4_Zymo_S27	Burkholderia contaminans	Bacteria
 CMS002_029a_Rb_S159_L004	Marinomonas alcarazii	Bacteria
-CMS001_028_Ra_S17	Anabarilius grahami	Eukaryota
+CMS001_028_Ra_S17	Anabarilius grahami	Chordata
 CMS002_047d_Rb_S196_L004	Campylobacter subantarcticus	Bacteria
 CMS001_036_Ra_S20	Gloeothece verrucosa PCC 7822	Bacteria
 CMS001_026_Ra_S18	Clostridium botulinum A3 str. Loch Maree	Bacteria
@@ -5175,10 +5175,10 @@ CMS001_014_Ra_S5	Plasmodium falciparum RAJ116	Eukaryota
 CMS002_038a_Rb_S172_L004	Coraliomargarita akajimensis DSM 45221	Bacteria
 CMS001_060_Ra_S12	Ignisphaera aggregans DSM 17230	Other
 CMS002_041a_Rb_S176_L004	Gallaecimonas pentaromativorans	Bacteria
-CMS002_021a_Rb_S136_L004	Poeciliinae	Eukaryota
+CMS002_021a_Rb_S136_L004	Poeciliinae	Chordata
 CMS001_water3_Qiagen_S26	Brevundimonas naejangsanensis	Bacteria
 CMS002_053a_Rb_S7_L004	uncultured marine dinoflagellate	Eukaryota
-CMS001_001_Ra_S1	Piliocolobus tephrosceles	Eukaryota
+CMS001_001_Ra_S1	Piliocolobus tephrosceles	Chordata
 CMS002_040a_Rb_S174_L004	Nonlabens dokdonensis DSW-6	Bacteria
 CMS002_032a_Rb_S166_L004	Pantoea sp. At-9b	Bacteria
 CMS001_053_Ra_S8	Mimetus sp. TAB-2009	Eukaryota
@@ -5199,7 +5199,7 @@ CMS002_020a_Rb_S131_L004	Plasmodium gaboni	Eukaryota
 CMS002_029d_Rb_S162_L004	Plasmodium gaboni	Eukaryota
 CMS002_032a_Rb_S166_L004	Plasmodium gaboni	Eukaryota
 CMS002_035a_Rb_S169_L004	Plasmodium gaboni	Eukaryota
-CMS001_059_Ra_S10	Pipra filicauda	Eukaryota
+CMS001_059_Ra_S10	Pipra filicauda	Chordata
 CMS001_001_Ra_S1	Thaumarchaeota	Other
 CMS001_021_Ra_S16	Thaumarchaeota	Other
 CMS001_water3_Qiagen_S26	Chryseobacterium arthrosphaerae	Bacteria
@@ -5360,10 +5360,10 @@ CMS002_021a_Rb_S136_L004	Plasmodium sp. gorilla clade G3	Eukaryota
 CMS002_031a_Rb_S165_L004	Plasmodium sp. gorilla clade G3	Eukaryota
 CMS002_032a_Rb_S166_L004	Plasmodium sp. gorilla clade G3	Eukaryota
 CMS002_056a_Rb_S9_L004	Plasmodium sp. gorilla clade G3	Eukaryota
-CMS001_021_Ra_S16	Fukomys damarensis	Eukaryota
-CMS002_047d_Rb_S196_L004	Fukomys damarensis	Eukaryota
-CMS002_047h_Rb_S1_L004	Fukomys damarensis	Eukaryota
-CMS002_053a_Rb_S7_L004	Fukomys damarensis	Eukaryota
+CMS001_021_Ra_S16	Fukomys damarensis	Chordata
+CMS002_047d_Rb_S196_L004	Fukomys damarensis	Chordata
+CMS002_047h_Rb_S1_L004	Fukomys damarensis	Chordata
+CMS002_053a_Rb_S7_L004	Fukomys damarensis	Chordata
 CMS002_041a_Rb_S176_L004	Desulfosporosinus acidiphilus	Bacteria
 CMS002_035a_Rb_S169_L004	South American lineages	Eukaryota
 CMS001_016_Ra_S6	Minicystis rosea	Bacteria
@@ -5395,7 +5395,7 @@ CMS002_047j_Rb_S3_L004	Halioglobus japonicus	Bacteria
 CMS002_053a_Rb_S7_L004	Halioglobus japonicus	Bacteria
 CMS002_053a_Rb_S7_L004	Corynebacterium deserti GIMN1.010	Bacteria
 CMS001_014_Ra_S5	Clostridium saccharoperbutylacetonicum N1-4(HMT)	Bacteria
-CMS001_029_Ra_S18	Corvus cornix cornix	Eukaryota
+CMS001_029_Ra_S18	Corvus cornix cornix	Chordata
 CMS002_032a_Rb_S166_L004	Acidianus hospitalis W1	Other
 CMS002_033a_Rb_S167_L004	Acidianus hospitalis W1	Other
 CMS001_009_Ra_S13	Pantoea phage LIMEzero	Viruses
@@ -5417,7 +5417,7 @@ CMS002_056a_Rb_S9_L004	Salpingoeca rosetta	Eukaryota
 CMS002_047f_Rb_S198_L004	Candidatus Symbiobacter mobilis CR	Bacteria
 CMS002_029d_Rb_S162_L004	Vavraia culicis subsp. floridensis	Eukaryota
 CMS002_020a_Rb_S131_L004	Leuconostoc sp. C2	Bacteria
-CMS001_012_Ra_S4	Lethenteron camtschaticum	Eukaryota
+CMS001_012_Ra_S4	Lethenteron camtschaticum	Chordata
 CMS001_054_Ra_S11	Brassiceae	Eukaryota
 CMS001_001_Ra_S1	Morus notabilis	Eukaryota
 CMS002_039a_Rb_S173_L004	Morus notabilis	Eukaryota
@@ -5620,18 +5620,18 @@ CMS002_025e_Rb_S144_L004	Lophotrochozoa	Eukaryota
 CMS002_047a_Rb_S193_L004	Asaia sp. 107(2012)	Bacteria
 CMS002_053a_Rb_S7_L004	Paenisporosarcina sp. TG20	Bacteria
 CMS001_001_Ra_S1	Photorhabdus temperata subsp. temperata M1021	Bacteria
-CMS001_032_Ra_S7	Poospiza thoracica	Eukaryota
+CMS001_032_Ra_S7	Poospiza thoracica	Chordata
 CMS001_001_Ra_S1	Candidatus Nitrosopumilus sediminis	Other
 CMS001_050_Ra_S23	Candidatus Nitrosopumilus sediminis	Other
 CMS001_058_Ra_S9	Candidatus Nitrosopumilus sediminis	Other
 CMS002_028b_Rb_S155_L004	Candidatus Nitrosopumilus sediminis	Other
 CMS002_028e_Rb_S158_L004	Candidatus Nitrosopumilus sediminis	Other
 CMS002_047e_Rb_S197_L004	Candidatus Nitrosopumilus sediminis	Other
-CMS001_060_Ra_S12	Orycteropus afer afer	Eukaryota
+CMS001_060_Ra_S12	Orycteropus afer afer	Chordata
 CMS002_047a_Rb_S193_L004	Asaia bogorensis NBRC 16594	Bacteria
-CMS001_008_Ra_S3	Tachysurus fulvidraco	Eukaryota
-CMS002_020a_Rb_S131_L004	Tachysurus fulvidraco	Eukaryota
-CMS002_053a_Rb_S7_L004	Tachysurus fulvidraco	Eukaryota
+CMS001_008_Ra_S3	Tachysurus fulvidraco	Chordata
+CMS002_020a_Rb_S131_L004	Tachysurus fulvidraco	Chordata
+CMS002_053a_Rb_S7_L004	Tachysurus fulvidraco	Chordata
 CMS002_031a_Rb_S165_L004	Candidatus Pantoea carbekii	Bacteria
 CMS001_011_Ra_S4	Mesotoga infera	Bacteria
 CMS002_022a_Rb_S137_L004	Culex originated Tymoviridae-like virus	Viruses
@@ -5724,14 +5724,14 @@ CMS001_003_Ra_S2	Xylona heveae TC161	Eukaryota
 CMS001_005_Ra_S3	Xylona heveae TC161	Eukaryota
 CMS001_009_Ra_S13	Xylona heveae TC161	Eukaryota
 CMS002_007a_Rb_S118_L004	Xylona heveae TC161	Eukaryota
-CMS001_037_Ra_S21	Archelosauria	Eukaryota
-CMS001_058_Ra_S9	Archelosauria	Eukaryota
+CMS001_037_Ra_S21	Archelosauria	Chordata
+CMS001_058_Ra_S9	Archelosauria	Chordata
 CMS002_020a_Rb_S131_L004	Spiroplasma floricola 23-6	Bacteria
 CMS002_020d_Rb_S134_L004	Spiroplasma floricola 23-6	Bacteria
 CMS001_008_Ra_S3	Polaribacter sp. Hel1_33_78	Bacteria
 CMS002_021a_Rb_S136_L004	Polaribacter sp. Hel1_33_78	Bacteria
 CMS002_032a_Rb_S166_L004	Polaribacter sp. Hel1_33_78	Bacteria
-CMS002_053a_Rb_S7_L004	Cryptobatrachus sp. TNHC-GDC 451	Eukaryota
+CMS002_053a_Rb_S7_L004	Cryptobatrachus sp. TNHC-GDC 451	Chordata
 CMS002_020a_Rb_S131_L004	Aspergillus welwitschiae	Eukaryota
 CMS002_049a_Rb_S4_L004	Aspergillus welwitschiae	Eukaryota
 CMS002_054a_Rb_S8_L004	Aspergillus welwitschiae	Eukaryota
@@ -5760,42 +5760,42 @@ CMS001_012_Ra_S4	Acytostelium subglobosum LB1	Eukaryota
 CMS001_047_Ra_S4	Candidatus Walczuchella monophlebidarum	Bacteria
 CMS001_014_Ra_S5	Methanosarcina lacustris Z-7289	Other
 CMS001_008_Ra_S3	Methanosarcina mazei WWM610	Other
-CMS001_001_Ra_S1	Boreoeutheria	Eukaryota
-CMS001_003_Ra_S2	Boreoeutheria	Eukaryota
-CMS001_004_Ra_S2	Boreoeutheria	Eukaryota
-CMS001_005_Ra_S3	Boreoeutheria	Eukaryota
-CMS001_008_Ra_S3	Boreoeutheria	Eukaryota
-CMS001_009_Ra_S13	Boreoeutheria	Eukaryota
-CMS001_011_Ra_S4	Boreoeutheria	Eukaryota
-CMS001_012_Ra_S4	Boreoeutheria	Eukaryota
-CMS001_013_Ra_S5	Boreoeutheria	Eukaryota
-CMS001_015_Ra_S13	Boreoeutheria	Eukaryota
-CMS001_016_Ra_S6	Boreoeutheria	Eukaryota
-CMS001_017_Ra_S6	Boreoeutheria	Eukaryota
-CMS001_019_Ra_S14	Boreoeutheria	Eukaryota
-CMS001_020_Ra_S15	Boreoeutheria	Eukaryota
-CMS001_022_Ra_S6	Boreoeutheria	Eukaryota
-CMS001_023_Ra_S17	Boreoeutheria	Eukaryota
-CMS001_025_Ra_S7	Boreoeutheria	Eukaryota
-CMS001_028_Ra_S17	Boreoeutheria	Eukaryota
-CMS001_031_Ra_S19	Boreoeutheria	Eukaryota
-CMS001_032_Ra_S7	Boreoeutheria	Eukaryota
-CMS001_036_Ra_S20	Boreoeutheria	Eukaryota
-CMS001_038_Ra_S22	Boreoeutheria	Eukaryota
-CMS001_041_Ra_S10	Boreoeutheria	Eukaryota
-CMS001_046_Ra_S3	Boreoeutheria	Eukaryota
-CMS001_048_Ra_S5	Boreoeutheria	Eukaryota
-CMS001_052_Ra_S7	Boreoeutheria	Eukaryota
-CMS001_053_Ra_S8	Boreoeutheria	Eukaryota
-CMS001_056_Ra_S10	Boreoeutheria	Eukaryota
-CMS001_057_Ra_S11	Boreoeutheria	Eukaryota
-CMS001_058_Ra_S9	Boreoeutheria	Eukaryota
-CMS001_060_Ra_S12	Boreoeutheria	Eukaryota
-CMS001_water2_S24	Boreoeutheria	Eukaryota
-CMS001_water3_Qiagen_S26	Boreoeutheria	Eukaryota
-CMS001_water4_Zymo_S27	Boreoeutheria	Eukaryota
-CMS002_020a_Rb_S131_L004	Boreoeutheria	Eukaryota
-CMS002_020d_Rb_S134_L004	Boreoeutheria	Eukaryota
+CMS001_001_Ra_S1	Boreoeutheria	Chordata
+CMS001_003_Ra_S2	Boreoeutheria	Chordata
+CMS001_004_Ra_S2	Boreoeutheria	Chordata
+CMS001_005_Ra_S3	Boreoeutheria	Chordata
+CMS001_008_Ra_S3	Boreoeutheria	Chordata
+CMS001_009_Ra_S13	Boreoeutheria	Chordata
+CMS001_011_Ra_S4	Boreoeutheria	Chordata
+CMS001_012_Ra_S4	Boreoeutheria	Chordata
+CMS001_013_Ra_S5	Boreoeutheria	Chordata
+CMS001_015_Ra_S13	Boreoeutheria	Chordata
+CMS001_016_Ra_S6	Boreoeutheria	Chordata
+CMS001_017_Ra_S6	Boreoeutheria	Chordata
+CMS001_019_Ra_S14	Boreoeutheria	Chordata
+CMS001_020_Ra_S15	Boreoeutheria	Chordata
+CMS001_022_Ra_S6	Boreoeutheria	Chordata
+CMS001_023_Ra_S17	Boreoeutheria	Chordata
+CMS001_025_Ra_S7	Boreoeutheria	Chordata
+CMS001_028_Ra_S17	Boreoeutheria	Chordata
+CMS001_031_Ra_S19	Boreoeutheria	Chordata
+CMS001_032_Ra_S7	Boreoeutheria	Chordata
+CMS001_036_Ra_S20	Boreoeutheria	Chordata
+CMS001_038_Ra_S22	Boreoeutheria	Chordata
+CMS001_041_Ra_S10	Boreoeutheria	Chordata
+CMS001_046_Ra_S3	Boreoeutheria	Chordata
+CMS001_048_Ra_S5	Boreoeutheria	Chordata
+CMS001_052_Ra_S7	Boreoeutheria	Chordata
+CMS001_053_Ra_S8	Boreoeutheria	Chordata
+CMS001_056_Ra_S10	Boreoeutheria	Chordata
+CMS001_057_Ra_S11	Boreoeutheria	Chordata
+CMS001_058_Ra_S9	Boreoeutheria	Chordata
+CMS001_060_Ra_S12	Boreoeutheria	Chordata
+CMS001_water2_S24	Boreoeutheria	Chordata
+CMS001_water3_Qiagen_S26	Boreoeutheria	Chordata
+CMS001_water4_Zymo_S27	Boreoeutheria	Chordata
+CMS002_020a_Rb_S131_L004	Boreoeutheria	Chordata
+CMS002_020d_Rb_S134_L004	Boreoeutheria	Chordata
 CMS002_004a_Rb_S117_L004	Acrogymnospermae	Eukaryota
 CMS001_water4_Zymo_S27	Mesangiospermae	Eukaryota
 CMS002_0Water6_Rb_S187_L004	Mesangiospermae	Eukaryota
@@ -5853,67 +5853,67 @@ CMS002_053a_Rb_S7_L004	Lentibacillus amyloliquefaciens	Bacteria
 CMS002_026d_Rb_S149_L004	Trachelas tranquillus	Eukaryota
 CMS001_water4_Zymo_S27	Pantoea sp. PSNIH1	Bacteria
 CMS002_021a_Rb_S136_L004	Lacinutrix venerupis	Bacteria
-CMS002_021a_Rb_S136_L004	Osteoglossocephalai	Eukaryota
-CMS002_028d_Rb_S157_L004	Euteleosteomorpha	Eukaryota
-CMS002_029d_Rb_S162_L004	Euteleosteomorpha	Eukaryota
-CMS001_003_Ra_S2	Percomorphaceae	Eukaryota
-CMS001_007_Ra_S12	Percomorphaceae	Eukaryota
-CMS001_009_Ra_S13	Percomorphaceae	Eukaryota
-CMS001_012_Ra_S4	Percomorphaceae	Eukaryota
-CMS001_013_Ra_S5	Percomorphaceae	Eukaryota
-CMS001_014_Ra_S5	Percomorphaceae	Eukaryota
-CMS001_016_Ra_S6	Percomorphaceae	Eukaryota
-CMS001_020_Ra_S15	Percomorphaceae	Eukaryota
-CMS001_021_Ra_S16	Percomorphaceae	Eukaryota
-CMS001_025_Ra_S7	Percomorphaceae	Eukaryota
-CMS001_026_Ra_S18	Percomorphaceae	Eukaryota
-CMS001_033_Ra_S8	Percomorphaceae	Eukaryota
-CMS001_042_Ra_S23	Percomorphaceae	Eukaryota
-CMS001_045_Ra_S2	Percomorphaceae	Eukaryota
-CMS001_050_Ra_S23	Percomorphaceae	Eukaryota
-CMS001_051_Ra_S8	Percomorphaceae	Eukaryota
-CMS001_056_Ra_S10	Percomorphaceae	Eukaryota
-CMS001_058_Ra_S9	Percomorphaceae	Eukaryota
-CMS001_060_Ra_S12	Percomorphaceae	Eukaryota
-CMS002_007a_Rb_S118_L004	Percomorphaceae	Eukaryota
-CMS002_020a_Rb_S131_L004	Percomorphaceae	Eukaryota
-CMS002_020c_Rb_S133_L004	Percomorphaceae	Eukaryota
-CMS002_021a_Rb_S136_L004	Percomorphaceae	Eukaryota
-CMS002_028a_Rb_S154_L004	Percomorphaceae	Eukaryota
-CMS002_028c_Rb_S156_L004	Percomorphaceae	Eukaryota
-CMS002_029c_Rb_S161_L004	Percomorphaceae	Eukaryota
-CMS002_029d_Rb_S162_L004	Percomorphaceae	Eukaryota
-CMS002_031a_Rb_S165_L004	Percomorphaceae	Eukaryota
-CMS002_033a_Rb_S167_L004	Percomorphaceae	Eukaryota
-CMS002_034a_Rb_S168_L004	Percomorphaceae	Eukaryota
-CMS002_035a_Rb_S169_L004	Percomorphaceae	Eukaryota
-CMS002_039a_Rb_S173_L004	Percomorphaceae	Eukaryota
-CMS002_047a_Rb_S193_L004	Percomorphaceae	Eukaryota
-CMS002_047c_Rb_S195_L004	Percomorphaceae	Eukaryota
-CMS002_047d_Rb_S196_L004	Percomorphaceae	Eukaryota
-CMS002_047e_Rb_S197_L004	Percomorphaceae	Eukaryota
-CMS002_047f_Rb_S198_L004	Percomorphaceae	Eukaryota
-CMS002_047i_Rb_S2_L004	Percomorphaceae	Eukaryota
-CMS002_053a_Rb_S7_L004	Percomorphaceae	Eukaryota
-CMS001_002_Ra_S1	Anabantaria	Eukaryota
-CMS002_020a_Rb_S131_L004	Anabantaria	Eukaryota
-CMS002_047d_Rb_S196_L004	Anabantaria	Eukaryota
-CMS002_047f_Rb_S198_L004	Anabantaria	Eukaryota
-CMS002_053a_Rb_S7_L004	Anabantaria	Eukaryota
-CMS001_058_Ra_S9	Ovalentaria	Eukaryota
-CMS002_007a_Rb_S118_L004	Ovalentaria	Eukaryota
-CMS002_047f_Rb_S198_L004	Ovalentaria	Eukaryota
-CMS002_021a_Rb_S136_L004	Atherinomorphae	Eukaryota
-CMS001_003_Ra_S2	Eupercaria	Eukaryota
-CMS001_025_Ra_S7	Eupercaria	Eukaryota
-CMS001_026_Ra_S18	Eupercaria	Eukaryota
-CMS001_water3_Qiagen_S26	Eupercaria	Eukaryota
-CMS002_007a_Rb_S118_L004	Eupercaria	Eukaryota
-CMS002_020a_Rb_S131_L004	Eupercaria	Eukaryota
-CMS002_020b_Rb_S132_L004	Eupercaria	Eukaryota
-CMS002_020c_Rb_S133_L004	Eupercaria	Eukaryota
-CMS002_020d_Rb_S134_L004	Eupercaria	Eukaryota
-CMS002_021a_Rb_S136_L004	Eupercaria	Eukaryota
+CMS002_021a_Rb_S136_L004	Osteoglossocephalai	Chordata
+CMS002_028d_Rb_S157_L004	Euteleosteomorpha	Chordata
+CMS002_029d_Rb_S162_L004	Euteleosteomorpha	Chordata
+CMS001_003_Ra_S2	Percomorphaceae	Chordata
+CMS001_007_Ra_S12	Percomorphaceae	Chordata
+CMS001_009_Ra_S13	Percomorphaceae	Chordata
+CMS001_012_Ra_S4	Percomorphaceae	Chordata
+CMS001_013_Ra_S5	Percomorphaceae	Chordata
+CMS001_014_Ra_S5	Percomorphaceae	Chordata
+CMS001_016_Ra_S6	Percomorphaceae	Chordata
+CMS001_020_Ra_S15	Percomorphaceae	Chordata
+CMS001_021_Ra_S16	Percomorphaceae	Chordata
+CMS001_025_Ra_S7	Percomorphaceae	Chordata
+CMS001_026_Ra_S18	Percomorphaceae	Chordata
+CMS001_033_Ra_S8	Percomorphaceae	Chordata
+CMS001_042_Ra_S23	Percomorphaceae	Chordata
+CMS001_045_Ra_S2	Percomorphaceae	Chordata
+CMS001_050_Ra_S23	Percomorphaceae	Chordata
+CMS001_051_Ra_S8	Percomorphaceae	Chordata
+CMS001_056_Ra_S10	Percomorphaceae	Chordata
+CMS001_058_Ra_S9	Percomorphaceae	Chordata
+CMS001_060_Ra_S12	Percomorphaceae	Chordata
+CMS002_007a_Rb_S118_L004	Percomorphaceae	Chordata
+CMS002_020a_Rb_S131_L004	Percomorphaceae	Chordata
+CMS002_020c_Rb_S133_L004	Percomorphaceae	Chordata
+CMS002_021a_Rb_S136_L004	Percomorphaceae	Chordata
+CMS002_028a_Rb_S154_L004	Percomorphaceae	Chordata
+CMS002_028c_Rb_S156_L004	Percomorphaceae	Chordata
+CMS002_029c_Rb_S161_L004	Percomorphaceae	Chordata
+CMS002_029d_Rb_S162_L004	Percomorphaceae	Chordata
+CMS002_031a_Rb_S165_L004	Percomorphaceae	Chordata
+CMS002_033a_Rb_S167_L004	Percomorphaceae	Chordata
+CMS002_034a_Rb_S168_L004	Percomorphaceae	Chordata
+CMS002_035a_Rb_S169_L004	Percomorphaceae	Chordata
+CMS002_039a_Rb_S173_L004	Percomorphaceae	Chordata
+CMS002_047a_Rb_S193_L004	Percomorphaceae	Chordata
+CMS002_047c_Rb_S195_L004	Percomorphaceae	Chordata
+CMS002_047d_Rb_S196_L004	Percomorphaceae	Chordata
+CMS002_047e_Rb_S197_L004	Percomorphaceae	Chordata
+CMS002_047f_Rb_S198_L004	Percomorphaceae	Chordata
+CMS002_047i_Rb_S2_L004	Percomorphaceae	Chordata
+CMS002_053a_Rb_S7_L004	Percomorphaceae	Chordata
+CMS001_002_Ra_S1	Anabantaria	Chordata
+CMS002_020a_Rb_S131_L004	Anabantaria	Chordata
+CMS002_047d_Rb_S196_L004	Anabantaria	Chordata
+CMS002_047f_Rb_S198_L004	Anabantaria	Chordata
+CMS002_053a_Rb_S7_L004	Anabantaria	Chordata
+CMS001_058_Ra_S9	Ovalentaria	Chordata
+CMS002_007a_Rb_S118_L004	Ovalentaria	Chordata
+CMS002_047f_Rb_S198_L004	Ovalentaria	Chordata
+CMS002_021a_Rb_S136_L004	Atherinomorphae	Chordata
+CMS001_003_Ra_S2	Eupercaria	Chordata
+CMS001_025_Ra_S7	Eupercaria	Chordata
+CMS001_026_Ra_S18	Eupercaria	Chordata
+CMS001_water3_Qiagen_S26	Eupercaria	Chordata
+CMS002_007a_Rb_S118_L004	Eupercaria	Chordata
+CMS002_020a_Rb_S131_L004	Eupercaria	Chordata
+CMS002_020b_Rb_S132_L004	Eupercaria	Chordata
+CMS002_020c_Rb_S133_L004	Eupercaria	Chordata
+CMS002_020d_Rb_S134_L004	Eupercaria	Chordata
+CMS002_021a_Rb_S136_L004	Eupercaria	Chordata
 CMS002_020c_Rb_S133_L004	Chryseobacterium shandongense	Bacteria
 CMS002_021a_Rb_S136_L004	Melampsora sp. Mel P	Eukaryota
 CMS002_034a_Rb_S168_L004	uncultured Filobasidiella	Eukaryota
@@ -5987,7 +5987,7 @@ CMS002_047g_Rb_S200_L004	Wuhan Mosquito Virus 9	Viruses
 CMS002_047h_Rb_S1_L004	Wuhan Mosquito Virus 9	Viruses
 CMS002_047i_Rb_S2_L004	Wuhan Mosquito Virus 9	Viruses
 CMS002_053a_Rb_S7_L004	Wuhan Mosquito Virus 9	Viruses
-CMS001_009_Ra_S13	Sinocyclocheilus anshuiensis	Eukaryota
+CMS001_009_Ra_S13	Sinocyclocheilus anshuiensis	Chordata
 CMS001_036_Ra_S20	Paenibacillus bovis	Bacteria
 CMS002_040a_Rb_S174_L004	Candidatus Kuenenbacteria bacterium GW2011_GWA2_42_15	Bacteria
 CMS001_046_Ra_S3	Bunyaviridae environmental sample	Viruses
@@ -6009,10 +6009,10 @@ CMS002_007a_Rb_S118_L004	Galbut virus	Viruses
 CMS001_045_Ra_S2	Kallithea virus	Viruses
 CMS001_058_Ra_S9	Buchnera aphidicola (Cinara cuneomaculata)	Bacteria
 CMS002_047b_Rb_S194_L004	Monomorphina parapyrum	Eukaryota
-CMS001_005_Ra_S3	Paramormyrops kingsleyae	Eukaryota
-CMS001_026_Ra_S18	Paramormyrops kingsleyae	Eukaryota
-CMS002_020a_Rb_S131_L004	Paramormyrops kingsleyae	Eukaryota
-CMS002_021a_Rb_S136_L004	Paramormyrops kingsleyae	Eukaryota
+CMS001_005_Ra_S3	Paramormyrops kingsleyae	Chordata
+CMS001_026_Ra_S18	Paramormyrops kingsleyae	Chordata
+CMS002_020a_Rb_S131_L004	Paramormyrops kingsleyae	Chordata
+CMS002_021a_Rb_S136_L004	Paramormyrops kingsleyae	Chordata
 CMS001_016_Ra_S6	Pseudomicrostroma glucosiphilum	Eukaryota
 CMS001_026_Ra_S18	Pseudomicrostroma glucosiphilum	Eukaryota
 CMS001_020_Ra_S15	Chryseobacterium glaciei	Bacteria
@@ -6032,7 +6032,7 @@ CMS002_031a_Rb_S165_L004	Saccharomycopsis fibuligera x Saccharomycopsis cf. fibu
 CMS001_water3_Qiagen_S26	Cutibacterium acnes subsp. acnes	Bacteria
 CMS002_053a_Rb_S7_L004	Streptomyces sp. Root63	Bacteria
 CMS002_053a_Rb_S7_L004	Gordonia sp. 1D	Bacteria
-CMS002_038a_Rb_S172_L004	Cebus capucinus imitator	Eukaryota
+CMS002_038a_Rb_S172_L004	Cebus capucinus imitator	Chordata
 CMS001_025_Ra_S7	Wuhan aphid virus 1	Viruses
 CMS001_037_Ra_S21	Mycoplasma sp. (ex Biomphalaria glabrata)	Bacteria
 CMS001_036_Ra_S20	Neocallimastix californiae	Eukaryota
@@ -6079,10 +6079,10 @@ CMS001_057_Ra_S11	Candidatus Glassbacteria bacterium RBG_16_58_8	Bacteria
 CMS001_017_Ra_S6	Lacunisphaera limnophila	Bacteria
 CMS001_027_Ra_S16	Streptomyces sp. IgraMP-1	Bacteria
 CMS001_051_Ra_S8	Dehalogenimonas formicexedens	Bacteria
-CMS001_005_Ra_S3	Seriola lalandi dorsalis	Eukaryota
-CMS001_025_Ra_S7	Seriola lalandi dorsalis	Eukaryota
-CMS002_020a_Rb_S131_L004	Seriola lalandi dorsalis	Eukaryota
-CMS002_021a_Rb_S136_L004	Seriola lalandi dorsalis	Eukaryota
+CMS001_005_Ra_S3	Seriola lalandi dorsalis	Chordata
+CMS001_025_Ra_S7	Seriola lalandi dorsalis	Chordata
+CMS002_020a_Rb_S131_L004	Seriola lalandi dorsalis	Chordata
+CMS002_021a_Rb_S136_L004	Seriola lalandi dorsalis	Chordata
 CMS002_020a_Rb_S131_L004	Lactobacillus allii	Bacteria
 CMS002_020a_Rb_S131_L004	Coeloseira compressa	Eukaryota
 CMS002_053a_Rb_S7_L004	Cellulomonas sp. KH9	Bacteria

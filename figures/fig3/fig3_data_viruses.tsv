@@ -1,366 +1,366 @@
 sample	mosquito_species	collected_by	sci_name	taxid	family	baltimore_group	genome_description	read_prop	nonhost_reads
-CMS002_044b	Aedes aegypti	Placer	Wuhan insect virus 33	336635	Dicistroviridae	IV	single stranded RNA positive sense	0.14348925410872312	1582
-CMS002_044d	Aedes aegypti	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.054027179317202516	6034
-CMS002_044d	Aedes aegypti	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.03563142194232682	6034
-CMS002_044e	Aedes aegypti	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.02602934216753431	4226
-CMS002_044e	Aedes aegypti	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.02129673450070989	4226
-CMS002_018a	Aedes aegypti	West Valley	Aedes anphevirus	2230910	Xinmoviridae	V	single stranded RNA negative sense	0.09665190756353491	32974
-CMS002_018a	Aedes aegypti	West Valley	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.25007581731060835	32974
-CMS002_017c	Aedes aegypti	West Valley	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.043067602749022174	162094
-CMS002_017c	Aedes aegypti	West Valley	Aedes anphevirus	2230910	Xinmoviridae	V	single stranded RNA negative sense	0.0441287154367219	162094
-CMS002_017c	Aedes aegypti	West Valley	Guadeloupe mosquito quaranja-like virus 1	2607737	Orthomyxoviridae	V	single stranded RNA negative sense	0.0023566572482633533	162094
-CMS002_017c	Aedes aegypti	West Valley	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.2178550717484916	162094
-CMS002_019a	Aedes aegypti	West Valley	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.2881384105394136	210562
-CMS002_018b	Aedes aegypti	West Valley	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.2874858561156331	219176
-CMS002_017b	Aedes aegypti	West Valley	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.07097888720130781	172502
-CMS002_017b	Aedes aegypti	West Valley	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.20941786182189193	172502
-CMS002_017a	Aedes aegypti	West Valley	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.041807098846700724	151912
-CMS002_017a	Aedes aegypti	West Valley	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.22219442835325715	151912
-CMS002_017d	Aedes aegypti	West Valley	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.05150499389508649	263722
-CMS002_017d	Aedes aegypti	West Valley	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.1389303888185286	263722
-CMS002_017e	Aedes aegypti	West Valley	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.015167764669833002	13054
-CMS002_017e	Aedes aegypti	West Valley	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.09499004136663092	13054
-CMS002_045d	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.005899721264336157	181534
-CMS002_045d	Aedes albopictus	Placer	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.25304901561140064	181534
-CMS002_045d	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.005877686824506704	181534
-CMS002_045g	Aedes albopictus	Placer	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.0020332642023504536	98364
-CMS002_045g	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.009749501850270424	98364
-CMS002_045g	Aedes albopictus	Placer	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.24234476027815055	98364
-CMS002_045g	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.00591679882883982	98364
-CMS002_045c	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0061070735512347325	105124
-CMS002_045c	Aedes albopictus	Placer	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.22161447433507098	105124
-CMS002_045c	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.009341349263726647	105124
-CMS002_045f	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.021338950453338217	21838
-CMS002_045f	Aedes albopictus	Placer	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.17799249015477608	21838
-CMS002_045f	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.01923253045150655	21838
-CMS002_045a	Aedes albopictus	Placer	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.016668531155610247	35756
-CMS002_045a	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.018682179214677255	35756
-CMS002_045a	Aedes albopictus	Placer	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.13192191520304283	35756
-CMS002_045a	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.025058731401722788	35756
-CMS002_045b	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.03010654091345734	45804
-CMS002_045b	Aedes albopictus	Placer	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.01951794603091433	45804
-CMS002_045b	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.07062701947428172	45804
-CMS002_026d	Aedes albopictus	Placer	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.014617759215543853	44056
-CMS002_026d	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.059991828581804976	44056
-CMS002_026d	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.023152351552569457	44056
-CMS002_026a	Aedes albopictus	Placer	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.012919233401779603	11688
-CMS002_026a	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.04483230663928816	11688
-CMS002_026a	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.025838466803559206	11688
-CMS002_026b	Aedes albopictus	Placer	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.005978910751168605	18398
-CMS002_026b	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.024785302750298947	18398
-CMS002_026b	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.038645504946189804	18398
-CMS002_026e	Aedes albopictus	Placer	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.01160443995963673	19820
-CMS002_026e	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0322401614530777	19820
-CMS002_026e	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.018163471241170535	19820
-CMS002_026c	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.03999683819460912	25302
-CMS002_026c	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.02126314125365584	25302
-CMS002_045e	Aedes albopictus	Placer	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.016965895339935297	242958
-CMS002_045e	Aedes albopictus	Placer	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.003457387696638925	242958
-CMS001_012	Aedes dorsalis	Coachella Valley	1715|Toti-like	39756	Totiviridae	III	double stranded RNA	4.894070561621786e-4	183896
-CMS001_012	Aedes dorsalis	Coachella Valley	246|Reo-like	40068	Reoviridae	III	double stranded RNA	0.005345412624526907	183896
-CMS001_012	Aedes dorsalis	Coachella Valley	Lobuck virus	40068	Reoviridae	III	double stranded RNA	0.005595554008787576	183896
-CMS002_053a	Culex erythrothorax	Alameda	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0010650922107229008	1233696
-CMS002_053a	Culex erythrothorax	Alameda	4|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.004895857650507094	1233696
-CMS002_053a	Culex erythrothorax	Alameda	55|Toti-like	39756	Totiviridae	III	double stranded RNA	0.003278765595414105	1233696
-CMS002_053a	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	7.05198039063108e-4	1233696
-CMS002_053a	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.0074694252068580914	1233696
-CMS002_053a	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.018143853915389203	1233696
-CMS001_045	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.009743514150943397	135680
-CMS001_045	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.5757370283018868	135680
-CMS001_045	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.01605247641509434	135680
-CMS001_019	Culex erythrothorax	Coachella Valley	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.07085730502309022	77522
-CMS001_019	Culex erythrothorax	Coachella Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.057351461520600604	77522
-CMS001_019	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.14533938752870154	77522
-CMS001_019	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.044503495781842574	77522
-CMS001_019	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.033654962462268775	77522
-CMS001_020	Culex erythrothorax	Coachella Valley	296|Reo-like	1567403	Reoviridae	III	double stranded RNA	0.056955856433668496	396026
-CMS001_020	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.004923919136622343	396026
-CMS001_020	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.25632912990561224	396026
-CMS001_020	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.019953235393635773	396026
-CMS001_001	Culex erythrothorax	Coachella Valley	296|Reo-like	1567403	Reoviridae	III	double stranded RNA	0.012004990446610074	687714
-CMS001_001	Culex erythrothorax	Coachella Valley	6823|Peribunya-like	39718	Peribunyaviridae	V	single stranded RNA negative sense	4.653097072329486e-5	687714
-CMS001_001	Culex erythrothorax	Coachella Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0033749494702739803	687714
-CMS001_001	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.2714762241280532	687714
-CMS001_001	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.010280436344177957	687714
-CMS001_047	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.03577332666948599	104044
-CMS001_047	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.19824305101687748	104044
-CMS001_023	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.14645736479726945	67972
-CMS001_023	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.051624198199258516	67972
-CMS001_024	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.024068921983494262	85546
-CMS001_024	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.12414373553409862	85546
-CMS001_024	Culex erythrothorax	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.033479063895448066	85546
-CMS001_052	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.08087608658598944	46936
-CMS001_052	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.0879282427134822	46936
-CMS001_049	Culex erythrothorax	Coachella Valley	296|Reo-like	1567403	Reoviridae	III	double stranded RNA	0.01466275659824047	67518
-CMS001_049	Culex erythrothorax	Coachella Valley	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.018706122811694658	67518
-CMS001_049	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.004176664000710922	67518
-CMS001_049	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.07417281317574573	67518
-CMS001_049	Culex erythrothorax	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.045113895553778253	67518
-CMS001_056	Culex erythrothorax	Coachella Valley	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.08266646907725746	40488
-CMS001_056	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.007113218731475993	40488
-CMS001_056	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.06152440229203715	40488
-CMS001_015	Culex erythrothorax	Coachella Valley	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.009497662684573718	53908
-CMS001_015	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.03478147955776508	53908
-CMS001_015	Culex erythrothorax	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.08629516954811901	53908
-CMS001_053	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.03460605553696888	47824
-CMS001_053	Culex erythrothorax	Coachella Valley	Keturi virus	2587491	Chrysoviridae	III	double stranded RNA	0.02463198394111743	47824
-CMS001_053	Culex erythrothorax	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.0661383405821345	47824
-CMS001_021	Culex erythrothorax	Coachella Valley	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.03814304219096965	259392
-CMS001_021	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.00885532321736985	259392
-CMS001_021	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.029067974339995067	259392
-CMS001_021	Culex erythrothorax	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.045849525043177894	259392
-CMS001_037	Culex erythrothorax	Coachella Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.006827273535425371	112490
-CMS001_037	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.03048270957418437	112490
-CMS001_037	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.07897590896968619	112490
-CMS001_048	Culex erythrothorax	Coachella Valley	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.025446062124681385	46294
-CMS001_048	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.00991489177863222	46294
-CMS001_048	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.039270747829092324	46294
-CMS001_048	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.020693826413790126	46294
-CMS001_050	Culex erythrothorax	Coachella Valley	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.013331913156166232	112662
-CMS001_050	Culex erythrothorax	Coachella Valley	55|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0067458415437325805	112662
-CMS001_050	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.07096447781860787	112662
-CMS001_011	Culex erythrothorax	Coachella Valley	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.00841965095862646	169722
-CMS001_011	Culex erythrothorax	Coachella Valley	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.015631444361956612	169722
-CMS001_011	Culex erythrothorax	Coachella Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0031227536795465525	169722
-CMS001_011	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.06210155430645408	169722
-CMS001_057	Culex erythrothorax	Coachella Valley	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.011758949775705867	181904
-CMS001_057	Culex erythrothorax	Coachella Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0039636291670331605	181904
-CMS001_057	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.0034413756706834376	181904
-CMS001_057	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.036590729175829007	181904
-CMS001_057	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.01637127275925763	181904
-CMS001_058	Culex erythrothorax	Coachella Valley	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.009646440351841671	116416
-CMS001_058	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.007507559098405717	116416
-CMS001_058	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.015186915887850467	116416
-CMS001_058	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.0376065145684442	116416
-CMS001_017	Culex erythrothorax	Coachella Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0016793211255024564	111950
-CMS001_017	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.011755247878517195	111950
-CMS001_017	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.056239392585975885	111950
-CMS001_006	Culex erythrothorax	Coachella Valley	312|Tombus-like	137555	Tombusviridae	IV	single stranded RNA positive sense	8.835467842396249e-4	114312
-CMS001_006	Culex erythrothorax	Coachella Valley	55|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0024931765693890404	114312
-CMS001_006	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.013804325005248792	114312
-CMS001_006	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.04935614808594024	114312
-CMS001_018	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.003172434729811779	65880
-CMS001_018	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.01615057680631451	65880
-CMS001_018	Culex erythrothorax	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.005221615057680632	65880
-CMS001_018	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.024453551912568306	65880
-CMS001_010	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.043828826002384386	31874
-CMS001_035	Culex erythrothorax	Coachella Valley	296|Reo-like	1567403	Reoviridae	III	double stranded RNA	7.33071140005886e-4	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	6.394306659175429e-4	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.004660620167482677	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.015381116729539556	373770
-CMS001_035	Culex erythrothorax	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.020702571099874254	373770
-CMS001_013	Culex erythrothorax	Coachella Valley	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.03280650465923625	109460
-CMS001_022	Culex erythrothorax	Coachella Valley	88|Tombus-like	137555	Tombusviridae	IV	single stranded RNA positive sense	0.0015516776108662408	177872
-CMS001_022	Culex erythrothorax	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.022544301520194297	177872
-CMS002_028e	Culex erythrothorax	Placer	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.002915107113925697	676476
-CMS002_028e	Culex erythrothorax	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.048090397885512566	676476
-CMS002_028e	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.009280447495550471	676476
-CMS002_028e	Culex erythrothorax	Placer	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.6052424624081268	676476
-CMS002_047g	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.08456816729337277	134566
-CMS002_047g	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.5052762213337693	134566
-CMS002_047b	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.3147904388667843	66854
-CMS002_047b	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.056197086187812245	66854
-CMS002_028a	Culex erythrothorax	Placer	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.18241939688885025	115070
-CMS002_028a	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.09188320152950379	115070
-CMS002_047f	Culex erythrothorax	Placer	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.03987287332526643	137186
-CMS002_047f	Culex erythrothorax	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.04838686163311125	137186
-CMS002_047f	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.09341332205910224	137186
-CMS002_047f	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.07473794702083303	137186
-CMS002_028c	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.12049594415847265	125498
-CMS002_028c	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.11535642002262984	125498
-CMS002_047j	Culex erythrothorax	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.16666666666666666	149082
-CMS002_047j	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.038052883647925306	149082
-CMS002_047a	Culex erythrothorax	Placer	4|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.03943545611015491	145250
-CMS002_047a	Culex erythrothorax	Placer	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.04117039586919105	145250
-CMS002_047a	Culex erythrothorax	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.034664371772805506	145250
-CMS002_047a	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.08169363166953528	145250
-CMS002_047c	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.15698917590809483	150590
-CMS002_028b	Culex erythrothorax	Placer	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.005680659539138288	137308
-CMS002_028b	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.14608762781483964	137308
-CMS002_047h	Culex erythrothorax	Placer	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.05773060340660828	103446
-CMS002_047h	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.08719525162886917	103446
-CMS002_047i	Culex erythrothorax	Placer	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0035767372723894465	107640
-CMS002_047i	Culex erythrothorax	Placer	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.030379041248606464	107640
-CMS002_047i	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.08101077666295058	107640
-CMS002_028d	Culex erythrothorax	Placer	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0057308979995472475	167862
-CMS002_028d	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.06266456970606808	167862
-CMS002_047d	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.05373930886168355	202738
-CMS002_047d	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.008153380224723535	202738
-CMS002_047e	Culex erythrothorax	Placer	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.046049445167956435	185822
-CMS002_047e	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.006086469847488457	185822
-CMS002_049a	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.21470347549821892	83096
-CMS002_049a	Culex pipiens	Alameda	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.2131630884759796	83096
-CMS002_057a	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.22993214934559342	53942
-CMS002_057a	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.07847317489155019	53942
-CMS002_051a	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.12121038946195388	139988
-CMS002_051a	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.09291510700917222	139988
-CMS002_051a	Culex pipiens	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.027766665714204074	139988
-CMS002_054a	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.2271060979908354	85110
-CMS001_029	Culex pipiens	Coachella Valley	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.16558738807136636	89566
-CMS001_029	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2324207846727553	89566
-CMS001_044	Culex pipiens	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.06296830856160177	65128
-CMS001_044	Culex pipiens	Coachella Valley	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.10525426851738116	65128
-CMS001_044	Culex pipiens	Coachella Valley	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.0663923350939688	65128
-CMS001_044	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.012406338287679647	65128
-CMS001_044	Culex pipiens	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.07769315808868689	65128
-CMS001_030	Culex pipiens	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.14717926689576175	69840
-CMS001_030	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.11307273768613975	69840
-CMS001_059	Culex pipiens	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.07680599226933167	99862
-CMS001_059	Culex pipiens	Coachella Valley	Culex mosquito virus 4	2600344	Chuviridae	V	Virus	0.05994272095491779	99862
-CMS001_059	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.036900923274118286	99862
-CMS001_004	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.16654522074582084	46660
-CMS001_040	Culex pipiens	Coachella Valley	61|Peribunya-like	348018	Peribunyaviridae	V	single stranded RNA negative sense	0.049388669824969506	70502
-CMS001_040	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.07850841110890472	70502
-CMS001_040	Culex pipiens	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.03432526736830161	70502
-CMS001_041	Culex pipiens	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.05757918111340527	102676
-CMS001_041	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.033201527133896916	102676
-CMS001_054	Culex pipiens	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.024682270965209283	40758
-CMS002_027b	Culex pipiens	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2142188503445048	183742
-CMS002_046b	Culex quinquefasciatus	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2263681094487559	99992
-CMS002_046a	Culex quinquefasciatus	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2143912099715801	89374
-CMS002_027a	Culex quinquefasciatus	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.19250829777145567	33744
-CMS002_023a	Culex quinquefasciatus	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.20558297048863086	103350
-CMS002_023a	Culex quinquefasciatus	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.19144654088050314	103350
-CMS002_023a	Culex quinquefasciatus	West Valley	Hubei chryso-like virus 1	2587491	Chrysoviridae	III	double stranded RNA	0.011427189163038219	103350
-CMS002_001a	Culex quinquefasciatus	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.31260723520456246	82762
-CMS002_022a	Culex quinquefasciatus	West Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	5.023259877257736e-4	91574
-CMS002_022a	Culex quinquefasciatus	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.10732303929062835	91574
-CMS002_022a	Culex quinquefasciatus	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.047633607792604886	91574
-CMS002_022a	Culex quinquefasciatus	West Valley	Hubei chryso-like virus 1	2587491	Chrysoviridae	III	double stranded RNA	0.04812501365016271	91574
-CMS002_013a	Culex quinquefasciatus	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.19755413342684316	68442
-CMS002_010a	Culex quinquefasciatus	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.16491882924517123	33756
-CMS002_056a	Culex tarsalis	Alameda	1|Flavi-like	38144	Flaviviridae	IV	single stranded RNA positive sense	0.03744875698223575	417130
-CMS002_056a	Culex tarsalis	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.019744444178073983	417130
-CMS002_056a	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.01255483901901086	417130
-CMS001_046	Culex tarsalis	Coachella Valley	Astopletus virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	3.123113119157176e-4	384232
-CMS001_046	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	4.8408253346936226e-4	384232
-CMS001_046	Culex tarsalis	Coachella Valley	Culex iflavi-like virus 4	2304480	Iflaviridae	IV	single stranded RNA positive sense	0.8851110787232713	384232
-CMS001_046	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.005717899602323596	384232
-CMS001_002	Culex tarsalis	Coachella Valley	1|Flavi-like	38144	Flaviviridae	IV	single stranded RNA positive sense	0.005056435118551625	369628
-CMS001_002	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.009753049011438527	369628
-CMS001_002	Culex tarsalis	Coachella Valley	Culex iflavi-like virus 4	2304480	Iflaviridae	IV	single stranded RNA positive sense	0.7017027930784464	369628
-CMS001_002	Culex tarsalis	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.010962372980401917	369628
-CMS001_002	Culex tarsalis	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.02229809430021535	369628
-CMS001_002	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.009961366563139156	369628
-CMS001_002	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.003084181934269049	369628
-CMS001_039	Culex tarsalis	Coachella Valley	1|Flavi-like	38144	Flaviviridae	IV	single stranded RNA positive sense	0.11297786004128996	112376
-CMS001_039	Culex tarsalis	Coachella Valley	2|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.03900298996226952	112376
-CMS001_039	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.039839467501957715	112376
-CMS001_039	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.050313234142521535	112376
-CMS001_039	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.016782942977148146	112376
-CMS001_034	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.0412402693956092	114330
-CMS001_034	Culex tarsalis	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.08453599230298259	114330
-CMS001_034	Culex tarsalis	Coachella Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.05448263797778361	114330
-CMS001_034	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.051185165748272546	114330
-CMS001_034	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.01111694218490335	114330
-CMS001_032	Culex tarsalis	Coachella Valley	Calbertado virus	537023	Flaviviridae	IV	single stranded RNA positive sense	0.05801642640201908	93508
-CMS001_032	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.06537408563973136	93508
-CMS001_032	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.064475766779313	93508
-CMS001_032	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.013891859520041065	93508
-CMS001_033	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.08162452503202333	185802
-CMS001_033	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.09376110052636678	185802
-CMS001_051	Culex tarsalis	Coachella Valley	39|Toti-like	39756	Totiviridae	III	double stranded RNA	0.021659589628046257	207714
-CMS001_051	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.04368025265509306	207714
-CMS001_051	Culex tarsalis	Coachella Valley	Culex iflavi-like virus 3	2304479	Iflaviridae	IV	single stranded RNA positive sense	0.00910867827878718	207714
-CMS001_051	Culex tarsalis	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.030619024235246543	207714
-CMS001_051	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.06964383719922586	207714
-CMS001_038	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.039135893983631605	132206
-CMS001_038	Culex tarsalis	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.0044929882153608765	132206
-CMS001_038	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.05940728862532714	132206
-CMS001_038	Culex tarsalis	Coachella Valley	Totivirus-like Culex mosquito virus 1	2304495	Totiviridae	III	double stranded RNA	0.013191534423551124	132206
-CMS001_038	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.021912772491414913	132206
-CMS001_042	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.041642638832823944	138728
-CMS001_042	Culex tarsalis	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.02734127212963497	138728
-CMS001_042	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.03898275762643446	138728
-CMS001_042	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.018626376794879187	138728
-CMS001_028	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.0420781451266638	97818
-CMS001_028	Culex tarsalis	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.015109693512441473	97818
-CMS001_028	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.0399313009875483	97818
-CMS001_028	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.02838945797297021	97818
-CMS001_031	Culex tarsalis	Coachella Valley	30|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.04918989928477595	109616
-CMS001_031	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.05149795650270034	109616
-CMS001_043	Culex tarsalis	Coachella Valley	39|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0073020388809862495	84360
-CMS001_043	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.037363679468942625	84360
-CMS001_043	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.032088667614983406	84360
-CMS001_043	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.015623518255097203	84360
-CMS001_036	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.012803753249960057	275388
-CMS001_036	Culex tarsalis	Coachella Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.008569727075980072	275388
-CMS001_036	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.031994858163754414	275388
-CMS001_036	Culex tarsalis	Coachella Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.005969759030894592	275388
-CMS001_027	Culex tarsalis	Coachella Valley	Astopletus virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.007527122524136558	80376
-CMS001_027	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.020317010052752067	80376
-CMS002_029e	Culex tarsalis	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.05048210930563872	193732
-CMS002_029e	Culex tarsalis	Placer	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	0.0115055850349968	193732
-CMS002_029e	Culex tarsalis	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.09967377614436437	193732
-CMS002_029e	Culex tarsalis	Placer	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.12286044638985816	193732
-CMS002_029e	Culex tarsalis	Placer	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.012697953874424463	193732
-CMS002_029d	Culex tarsalis	Placer	49|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0013476819869823902	300516
-CMS002_029d	Culex tarsalis	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.03816435730543465	300516
-CMS002_029d	Culex tarsalis	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.09543585033741964	300516
-CMS002_029d	Culex tarsalis	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.06708128685327902	300516
-CMS002_029d	Culex tarsalis	Placer	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.02224507180982044	300516
-CMS002_029d	Culex tarsalis	Placer	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.012175724420663126	300516
-CMS002_029c	Culex tarsalis	Placer	56|Toti-like	39756	Totiviridae	III	double stranded RNA	0.002813286102982699	194790
-CMS002_029c	Culex tarsalis	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.04464294881667437	194790
-CMS002_029c	Culex tarsalis	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.029416294470968735	194790
-CMS002_029c	Culex tarsalis	Placer	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.01199240207402844	194790
-CMS002_029c	Culex tarsalis	Placer	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.05501822475486421	194790
-CMS002_029c	Culex tarsalis	Placer	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.010000513373376457	194790
-CMS002_029b	Culex tarsalis	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.0711746497052164	182846
-CMS002_029b	Culex tarsalis	Placer	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.07038710171401069	182846
-CMS002_029a	Culex tarsalis	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.04432343340981805	309430
-CMS002_029a	Culex tarsalis	Placer	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.04832433829945383	309430
-CMS002_032a	Culex tarsalis	San Diego	2|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.17959515575123386	495598
-CMS002_032a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.10830955734284642	495598
-CMS002_035a	Culex tarsalis	San Diego	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.04194053757402491	626816
-CMS002_035a	Culex tarsalis	San Diego	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	2.712119665101082e-4	626816
-CMS002_035a	Culex tarsalis	San Diego	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.23062589340412498	626816
-CMS002_031a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.14062380071869657	286630
-CMS002_031a	Culex tarsalis	San Diego	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.11290862784774797	286630
-CMS002_038a	Culex tarsalis	San Diego	Culex iflavi-like virus 3	2304479	Iflaviridae	IV	single stranded RNA positive sense	0.008686814611581863	478196
-CMS002_038a	Culex tarsalis	San Diego	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	0.014098821403775857	478196
-CMS002_038a	Culex tarsalis	San Diego	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.07513864607817715	478196
-CMS002_038a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.07710018486143758	478196
-CMS002_038a	Culex tarsalis	San Diego	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.07378355318739596	478196
-CMS002_041a	Culex tarsalis	San Diego	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	0.008780346416399309	200106
-CMS002_041a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.09640390592985718	200106
-CMS002_041a	Culex tarsalis	San Diego	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.11875206140745405	200106
-CMS002_040a	Culex tarsalis	San Diego	57|Toti-like	39756	Totiviridae	III	double stranded RNA	9.409712659506105e-4	348576
-CMS002_040a	Culex tarsalis	San Diego	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	0.0163006058936932	348576
-CMS002_040a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.13953054714036536	348576
-CMS002_040a	Culex tarsalis	San Diego	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.04868952538327366	348576
-CMS002_034a	Culex tarsalis	San Diego	Culex iflavi-like virus 4	2304480	Iflaviridae	IV	single stranded RNA positive sense	0.012907837768576092	148282
-CMS002_034a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.18308358398187238	148282
-CMS002_037a	Culex tarsalis	San Diego	30|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.053383547754177585	303764
-CMS002_037a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.1344168499229665	303764
-CMS002_036a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.16617512965179232	280752
-CMS002_033a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.13984397572955792	422242
-CMS002_039a	Culex tarsalis	San Diego	Culex iflavi-like virus 4	2304480	Iflaviridae	IV	single stranded RNA positive sense	0.003521503141442094	336788
-CMS002_039a	Culex tarsalis	San Diego	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.1149387745406606	336788
-CMS001_060	Culiseta 	Coachella Valley	24|Ifla-like	1111709	Iflaviridae	IV	single stranded RNA positive sense	0.08018935192520996	504880
-CMS001_060	Culiseta 	Coachella Valley	98|Luteo-like	328429	Luteoviridae	IV	single stranded RNA positive sense	0.0018222151798447156	504880
-CMS001_025	Culiseta 	Coachella Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.012314240634058636	272530
-CMS001_025	Culiseta 	Coachella Valley	312|Tombus-like	137555	Tombusviridae	IV	single stranded RNA positive sense	9.320074854144497e-4	272530
-CMS001_025	Culiseta 	Coachella Valley	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.00998789124133123	272530
-CMS001_008	Culiseta 	Coachella Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.011533125216788068	242172
-CMS001_008	Culiseta 	Coachella Valley	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.008659134829790397	242172
-CMS001_003	Culiseta 	Coachella Valley	3256|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.0020102915460252844	279064
-CMS001_003	Culiseta 	Coachella Valley	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.013140354900667946	279064
-CMS002_020c	Culiseta 	West Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.1421597798192435	322644
-CMS002_020c	Culiseta 	West Valley	25|Ifla-like	1111709	Iflaviridae	IV	single stranded RNA positive sense	0.12321630031861742	322644
-CMS002_020c	Culiseta 	West Valley	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.09388056185765116	322644
-CMS002_020b	Culiseta 	West Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.17964096749811034	264600
-CMS002_020b	Culiseta 	West Valley	Kellev virus	502177	Solemoviridae	IV	single stranded RNA positive sense	0.08448223733938019	264600
-CMS002_020e	Culiseta 	West Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.12128564155953751	436078
-CMS002_020e	Culiseta 	West Valley	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.046672842931769085	436078
-CMS002_020a	Culiseta 	West Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.04015240406947864	744862
-CMS002_020a	Culiseta 	West Valley	25|Ifla-like	1111709	Iflaviridae	IV	single stranded RNA positive sense	0.015667331666805395	744862
-CMS002_020a	Culiseta 	West Valley	3256|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.006245452177718826	744862
-CMS002_020a	Culiseta 	West Valley	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.022765290751843966	744862
-CMS002_020a	Culiseta 	West Valley	Kellev virus	502177	Solemoviridae	IV	single stranded RNA positive sense	0.0012055924453120176	744862
-CMS002_020d	Culiseta 	West Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.04811718127427046	158114
-CMS002_020d	Culiseta 	West Valley	22872|Toti-like	39756	Totiviridae	III	double stranded RNA	7.589460768812375e-5	158114
-CMS002_020d	Culiseta 	West Valley	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.030142808353466485	158114
-CMS002_021a	Culiseta 	West Valley	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.027041743936584123	1100040
-CMS002_021a	Culiseta 	West Valley	6512|Toti-like	39756	Totiviridae	III	double stranded RNA	5.636158685138722e-5	1100040
-CMS002_021a	Culiseta 	West Valley	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.019263844951092686	1100040
+CMS002_044b	Aedes aegypti	West Valley	Wuhan insect virus 33	336635	Dicistroviridae	IV	single stranded RNA positive sense	0.14348925410872312	1582
+CMS002_044d	Aedes aegypti	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.054027179317202516	6034
+CMS002_044d	Aedes aegypti	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.03563142194232682	6034
+CMS002_044e	Aedes aegypti	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.02602934216753431	4226
+CMS002_044e	Aedes aegypti	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.02129673450070989	4226
+CMS002_018a	Aedes aegypti	San Diego	Aedes anphevirus	2230910	Xinmoviridae	V	single stranded RNA negative sense	0.09665190756353491	32974
+CMS002_018a	Aedes aegypti	San Diego	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.25007581731060835	32974
+CMS002_017c	Aedes aegypti	San Diego	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.043067602749022174	162094
+CMS002_017c	Aedes aegypti	San Diego	Aedes anphevirus	2230910	Xinmoviridae	V	single stranded RNA negative sense	0.0441287154367219	162094
+CMS002_017c	Aedes aegypti	San Diego	Guadeloupe mosquito quaranja-like virus 1	2607737	Orthomyxoviridae	V	single stranded RNA negative sense	0.0023566572482633533	162094
+CMS002_017c	Aedes aegypti	San Diego	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.2178550717484916	162094
+CMS002_019a	Aedes aegypti	San Diego	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.2881384105394136	210562
+CMS002_018b	Aedes aegypti	San Diego	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.2874858561156331	219176
+CMS002_017b	Aedes aegypti	San Diego	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.07097888720130781	172502
+CMS002_017b	Aedes aegypti	San Diego	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.20941786182189193	172502
+CMS002_017a	Aedes aegypti	San Diego	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.041807098846700724	151912
+CMS002_017a	Aedes aegypti	San Diego	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.22219442835325715	151912
+CMS002_017d	Aedes aegypti	San Diego	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.05150499389508649	263722
+CMS002_017d	Aedes aegypti	San Diego	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.1389303888185286	263722
+CMS002_017e	Aedes aegypti	San Diego	Aedes aegypti totivirus	2603435	Totiviridae	III	double stranded RNA	0.015167764669833002	13054
+CMS002_017e	Aedes aegypti	San Diego	Guadeloupe mosquito virus	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.09499004136663092	13054
+CMS002_045d	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.005899721264336157	181534
+CMS002_045d	Aedes albopictus	West Valley	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.25304901561140064	181534
+CMS002_045d	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.005877686824506704	181534
+CMS002_045g	Aedes albopictus	West Valley	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.0020332642023504536	98364
+CMS002_045g	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.009749501850270424	98364
+CMS002_045g	Aedes albopictus	West Valley	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.24234476027815055	98364
+CMS002_045g	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.00591679882883982	98364
+CMS002_045c	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0061070735512347325	105124
+CMS002_045c	Aedes albopictus	West Valley	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.22161447433507098	105124
+CMS002_045c	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.009341349263726647	105124
+CMS002_045f	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.021338950453338217	21838
+CMS002_045f	Aedes albopictus	West Valley	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.17799249015477608	21838
+CMS002_045f	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.01923253045150655	21838
+CMS002_045a	Aedes albopictus	West Valley	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.016668531155610247	35756
+CMS002_045a	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.018682179214677255	35756
+CMS002_045a	Aedes albopictus	West Valley	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.13192191520304283	35756
+CMS002_045a	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.025058731401722788	35756
+CMS002_045b	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.03010654091345734	45804
+CMS002_045b	Aedes albopictus	West Valley	Wenzhou sobemo-like virus 4	502177	Solemoviridae	IV	single stranded RNA positive sense	0.01951794603091433	45804
+CMS002_045b	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.07062701947428172	45804
+CMS002_026d	Aedes albopictus	West Valley	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.014617759215543853	44056
+CMS002_026d	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.059991828581804976	44056
+CMS002_026d	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.023152351552569457	44056
+CMS002_026a	Aedes albopictus	West Valley	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.012919233401779603	11688
+CMS002_026a	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.04483230663928816	11688
+CMS002_026a	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.025838466803559206	11688
+CMS002_026b	Aedes albopictus	West Valley	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.005978910751168605	18398
+CMS002_026b	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.024785302750298947	18398
+CMS002_026b	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.038645504946189804	18398
+CMS002_026e	Aedes albopictus	West Valley	3110|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.01160443995963673	19820
+CMS002_026e	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0322401614530777	19820
+CMS002_026e	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.018163471241170535	19820
+CMS002_026c	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.03999683819460912	25302
+CMS002_026c	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.02126314125365584	25302
+CMS002_045e	Aedes albopictus	West Valley	Barstukas virus	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.016965895339935297	242958
+CMS002_045e	Aedes albopictus	West Valley	Ūsinis virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.003457387696638925	242958
+CMS001_012	Aedes dorsalis	Alameda	1715|Toti-like	39756	Totiviridae	III	double stranded RNA	4.894070561621786e-4	183896
+CMS001_012	Aedes dorsalis	Alameda	246|Reo-like	40068	Reoviridae	III	double stranded RNA	0.005345412624526907	183896
+CMS001_012	Aedes dorsalis	Alameda	Lobuck virus	40068	Reoviridae	III	double stranded RNA	0.005595554008787576	183896
+CMS002_053a	Culex erythrothorax	Placer	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0010650922107229008	1233696
+CMS002_053a	Culex erythrothorax	Placer	4|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.004895857650507094	1233696
+CMS002_053a	Culex erythrothorax	Placer	55|Toti-like	39756	Totiviridae	III	double stranded RNA	0.003278765595414105	1233696
+CMS002_053a	Culex erythrothorax	Placer	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	7.05198039063108e-4	1233696
+CMS002_053a	Culex erythrothorax	Placer	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.0074694252068580914	1233696
+CMS002_053a	Culex erythrothorax	Placer	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.018143853915389203	1233696
+CMS001_045	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.009743514150943397	135680
+CMS001_045	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.5757370283018868	135680
+CMS001_045	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.01605247641509434	135680
+CMS001_019	Culex erythrothorax	Alameda	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.07085730502309022	77522
+CMS001_019	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.057351461520600604	77522
+CMS001_019	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.14533938752870154	77522
+CMS001_019	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.044503495781842574	77522
+CMS001_019	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.033654962462268775	77522
+CMS001_020	Culex erythrothorax	Alameda	296|Reo-like	1567403	Reoviridae	III	double stranded RNA	0.056955856433668496	396026
+CMS001_020	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.004923919136622343	396026
+CMS001_020	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.25632912990561224	396026
+CMS001_020	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.019953235393635773	396026
+CMS001_001	Culex erythrothorax	Alameda	296|Reo-like	1567403	Reoviridae	III	double stranded RNA	0.012004990446610074	687714
+CMS001_001	Culex erythrothorax	Alameda	6823|Peribunya-like	39718	Peribunyaviridae	V	single stranded RNA negative sense	4.653097072329486e-5	687714
+CMS001_001	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0033749494702739803	687714
+CMS001_001	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.2714762241280532	687714
+CMS001_001	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.010280436344177957	687714
+CMS001_047	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.03577332666948599	104044
+CMS001_047	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.19824305101687748	104044
+CMS001_023	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.14645736479726945	67972
+CMS001_023	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.051624198199258516	67972
+CMS001_024	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.024068921983494262	85546
+CMS001_024	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.12414373553409862	85546
+CMS001_024	Culex erythrothorax	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.033479063895448066	85546
+CMS001_052	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.08087608658598944	46936
+CMS001_052	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.0879282427134822	46936
+CMS001_049	Culex erythrothorax	Alameda	296|Reo-like	1567403	Reoviridae	III	double stranded RNA	0.01466275659824047	67518
+CMS001_049	Culex erythrothorax	Alameda	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.018706122811694658	67518
+CMS001_049	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.004176664000710922	67518
+CMS001_049	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.07417281317574573	67518
+CMS001_049	Culex erythrothorax	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.045113895553778253	67518
+CMS001_056	Culex erythrothorax	Alameda	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.08266646907725746	40488
+CMS001_056	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.007113218731475993	40488
+CMS001_056	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.06152440229203715	40488
+CMS001_015	Culex erythrothorax	Alameda	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.009497662684573718	53908
+CMS001_015	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.03478147955776508	53908
+CMS001_015	Culex erythrothorax	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.08629516954811901	53908
+CMS001_053	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.03460605553696888	47824
+CMS001_053	Culex erythrothorax	Alameda	Keturi virus	2587491	Chrysoviridae	III	double stranded RNA	0.02463198394111743	47824
+CMS001_053	Culex erythrothorax	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.0661383405821345	47824
+CMS001_021	Culex erythrothorax	Alameda	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.03814304219096965	259392
+CMS001_021	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.00885532321736985	259392
+CMS001_021	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.029067974339995067	259392
+CMS001_021	Culex erythrothorax	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.045849525043177894	259392
+CMS001_037	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.006827273535425371	112490
+CMS001_037	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.03048270957418437	112490
+CMS001_037	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.07897590896968619	112490
+CMS001_048	Culex erythrothorax	Alameda	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.025446062124681385	46294
+CMS001_048	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.00991489177863222	46294
+CMS001_048	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.039270747829092324	46294
+CMS001_048	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.020693826413790126	46294
+CMS001_050	Culex erythrothorax	Alameda	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.013331913156166232	112662
+CMS001_050	Culex erythrothorax	Alameda	55|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0067458415437325805	112662
+CMS001_050	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.07096447781860787	112662
+CMS001_011	Culex erythrothorax	Alameda	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.00841965095862646	169722
+CMS001_011	Culex erythrothorax	Alameda	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.015631444361956612	169722
+CMS001_011	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0031227536795465525	169722
+CMS001_011	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.06210155430645408	169722
+CMS001_057	Culex erythrothorax	Alameda	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.011758949775705867	181904
+CMS001_057	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0039636291670331605	181904
+CMS001_057	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.0034413756706834376	181904
+CMS001_057	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.036590729175829007	181904
+CMS001_057	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.01637127275925763	181904
+CMS001_058	Culex erythrothorax	Alameda	42|Toti-like	39756	Totiviridae	III	double stranded RNA	0.009646440351841671	116416
+CMS001_058	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.007507559098405717	116416
+CMS001_058	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.015186915887850467	116416
+CMS001_058	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.0376065145684442	116416
+CMS001_017	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0016793211255024564	111950
+CMS001_017	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.011755247878517195	111950
+CMS001_017	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.056239392585975885	111950
+CMS001_006	Culex erythrothorax	Alameda	312|Tombus-like	137555	Tombusviridae	IV	single stranded RNA positive sense	8.835467842396249e-4	114312
+CMS001_006	Culex erythrothorax	Alameda	55|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0024931765693890404	114312
+CMS001_006	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.013804325005248792	114312
+CMS001_006	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.04935614808594024	114312
+CMS001_018	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.003172434729811779	65880
+CMS001_018	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.01615057680631451	65880
+CMS001_018	Culex erythrothorax	Alameda	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.005221615057680632	65880
+CMS001_018	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.024453551912568306	65880
+CMS001_010	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.043828826002384386	31874
+CMS001_035	Culex erythrothorax	Alameda	296|Reo-like	1567403	Reoviridae	III	double stranded RNA	7.33071140005886e-4	373770
+CMS001_035	Culex erythrothorax	Alameda	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	6.394306659175429e-4	373770
+CMS001_035	Culex erythrothorax	Alameda	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.004660620167482677	373770
+CMS001_035	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.015381116729539556	373770
+CMS001_035	Culex erythrothorax	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.020702571099874254	373770
+CMS001_013	Culex erythrothorax	Alameda	63|Phenui-like	2024603	Phenuiviridae	V	single stranded RNA negative sense	0.03280650465923625	109460
+CMS001_022	Culex erythrothorax	Alameda	88|Tombus-like	137555	Tombusviridae	IV	single stranded RNA positive sense	0.0015516776108662408	177872
+CMS001_022	Culex erythrothorax	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.022544301520194297	177872
+CMS002_028e	Culex erythrothorax	West Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.002915107113925697	676476
+CMS002_028e	Culex erythrothorax	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.048090397885512566	676476
+CMS002_028e	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.009280447495550471	676476
+CMS002_028e	Culex erythrothorax	West Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.6052424624081268	676476
+CMS002_047g	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.08456816729337277	134566
+CMS002_047g	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.5052762213337693	134566
+CMS002_047b	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.3147904388667843	66854
+CMS002_047b	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.056197086187812245	66854
+CMS002_028a	Culex erythrothorax	West Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.18241939688885025	115070
+CMS002_028a	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.09188320152950379	115070
+CMS002_047f	Culex erythrothorax	West Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.03987287332526643	137186
+CMS002_047f	Culex erythrothorax	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.04838686163311125	137186
+CMS002_047f	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.09341332205910224	137186
+CMS002_047f	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.07473794702083303	137186
+CMS002_028c	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.12049594415847265	125498
+CMS002_028c	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.11535642002262984	125498
+CMS002_047j	Culex erythrothorax	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.16666666666666666	149082
+CMS002_047j	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.038052883647925306	149082
+CMS002_047a	Culex erythrothorax	West Valley	4|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.03943545611015491	145250
+CMS002_047a	Culex erythrothorax	West Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.04117039586919105	145250
+CMS002_047a	Culex erythrothorax	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.034664371772805506	145250
+CMS002_047a	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.08169363166953528	145250
+CMS002_047c	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.15698917590809483	150590
+CMS002_028b	Culex erythrothorax	West Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.005680659539138288	137308
+CMS002_028b	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.14608762781483964	137308
+CMS002_047h	Culex erythrothorax	West Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.05773060340660828	103446
+CMS002_047h	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.08719525162886917	103446
+CMS002_047i	Culex erythrothorax	West Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0035767372723894465	107640
+CMS002_047i	Culex erythrothorax	West Valley	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.030379041248606464	107640
+CMS002_047i	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.08101077666295058	107640
+CMS002_028d	Culex erythrothorax	West Valley	76|Phasma-like	2546221	Phasmaviridae	V	single stranded RNA negative sense	0.0057308979995472475	167862
+CMS002_028d	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.06266456970606808	167862
+CMS002_047d	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.05373930886168355	202738
+CMS002_047d	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.008153380224723535	202738
+CMS002_047e	Culex erythrothorax	West Valley	Culex pipiens-associated Tunisia virus	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.046049445167956435	185822
+CMS002_047e	Culex erythrothorax	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.006086469847488457	185822
+CMS002_049a	Culex pipiens	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.21470347549821892	83096
+CMS002_049a	Culex pipiens	Placer	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.2131630884759796	83096
+CMS002_057a	Culex pipiens	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.22993214934559342	53942
+CMS002_057a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.07847317489155019	53942
+CMS002_051a	Culex pipiens	Placer	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.12121038946195388	139988
+CMS002_051a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.09291510700917222	139988
+CMS002_051a	Culex pipiens	Placer	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.027766665714204074	139988
+CMS002_054a	Culex pipiens	Placer	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.2271060979908354	85110
+CMS001_029	Culex pipiens	Alameda	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.16558738807136636	89566
+CMS001_029	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2324207846727553	89566
+CMS001_044	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.06296830856160177	65128
+CMS001_044	Culex pipiens	Alameda	Culex flavivirus	390844	Flaviviridae	IV	single stranded RNA positive sense	0.10525426851738116	65128
+CMS001_044	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.0663923350939688	65128
+CMS001_044	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.012406338287679647	65128
+CMS001_044	Culex pipiens	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.07769315808868689	65128
+CMS001_030	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.14717926689576175	69840
+CMS001_030	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.11307273768613975	69840
+CMS001_059	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.07680599226933167	99862
+CMS001_059	Culex pipiens	Alameda	Culex mosquito virus 4	2600344	Chuviridae	Virus	Virus	0.05994272095491779	99862
+CMS001_059	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.036900923274118286	99862
+CMS001_004	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.16654522074582084	46660
+CMS001_040	Culex pipiens	Alameda	61|Peribunya-like	348018	Peribunyaviridae	V	single stranded RNA negative sense	0.049388669824969506	70502
+CMS001_040	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.07850841110890472	70502
+CMS001_040	Culex pipiens	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.03432526736830161	70502
+CMS001_041	Culex pipiens	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.05757918111340527	102676
+CMS001_041	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.033201527133896916	102676
+CMS001_054	Culex pipiens	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.024682270965209283	40758
+CMS002_027b	Culex pipiens	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2142188503445048	183742
+CMS002_046b	Culex quinquefasciatus	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2263681094487559	99992
+CMS002_046a	Culex quinquefasciatus	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.2143912099715801	89374
+CMS002_027a	Culex quinquefasciatus	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.19250829777145567	33744
+CMS002_023a	Culex quinquefasciatus	San Diego	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.20558297048863086	103350
+CMS002_023a	Culex quinquefasciatus	San Diego	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.19144654088050314	103350
+CMS002_023a	Culex quinquefasciatus	San Diego	Hubei chryso-like virus 1	2587491	Chrysoviridae	III	double stranded RNA	0.011427189163038219	103350
+CMS002_001a	Culex quinquefasciatus	San Diego	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.31260723520456246	82762
+CMS002_022a	Culex quinquefasciatus	San Diego	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	5.023259877257736e-4	91574
+CMS002_022a	Culex quinquefasciatus	San Diego	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.10732303929062835	91574
+CMS002_022a	Culex quinquefasciatus	San Diego	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.047633607792604886	91574
+CMS002_022a	Culex quinquefasciatus	San Diego	Hubei chryso-like virus 1	2587491	Chrysoviridae	III	double stranded RNA	0.04812501365016271	91574
+CMS002_013a	Culex quinquefasciatus	San Diego	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.19755413342684316	68442
+CMS002_010a	Culex quinquefasciatus	San Diego	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.16491882924517123	33756
+CMS002_056a	Culex tarsalis	Placer	1|Flavi-like	38144	Flaviviridae	IV	single stranded RNA positive sense	0.03744875698223575	417130
+CMS002_056a	Culex tarsalis	Placer	Culex mosquito virus 6	2600328	Solemoviridae	IV	single stranded RNA positive sense	0.019744444178073983	417130
+CMS002_056a	Culex tarsalis	Placer	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.01255483901901086	417130
+CMS001_046	Culex tarsalis	Alameda	Astopletus virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	3.123113119157176e-4	384232
+CMS001_046	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	4.8408253346936226e-4	384232
+CMS001_046	Culex tarsalis	Alameda	Culex iflavi-like virus 4	2304480	Iflaviridae	IV	single stranded RNA positive sense	0.8851110787232713	384232
+CMS001_046	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.005717899602323596	384232
+CMS001_002	Culex tarsalis	Alameda	1|Flavi-like	38144	Flaviviridae	IV	single stranded RNA positive sense	0.005056435118551625	369628
+CMS001_002	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.009753049011438527	369628
+CMS001_002	Culex tarsalis	Alameda	Culex iflavi-like virus 4	2304480	Iflaviridae	IV	single stranded RNA positive sense	0.7017027930784464	369628
+CMS001_002	Culex tarsalis	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.010962372980401917	369628
+CMS001_002	Culex tarsalis	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.02229809430021535	369628
+CMS001_002	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.009961366563139156	369628
+CMS001_002	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.003084181934269049	369628
+CMS001_039	Culex tarsalis	Alameda	1|Flavi-like	38144	Flaviviridae	IV	single stranded RNA positive sense	0.11297786004128996	112376
+CMS001_039	Culex tarsalis	Alameda	2|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.03900298996226952	112376
+CMS001_039	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.039839467501957715	112376
+CMS001_039	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.050313234142521535	112376
+CMS001_039	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.016782942977148146	112376
+CMS001_034	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.0412402693956092	114330
+CMS001_034	Culex tarsalis	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.08453599230298259	114330
+CMS001_034	Culex tarsalis	Alameda	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.05448263797778361	114330
+CMS001_034	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.051185165748272546	114330
+CMS001_034	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.01111694218490335	114330
+CMS001_032	Culex tarsalis	Alameda	Calbertado virus	537023	Flaviviridae	IV	single stranded RNA positive sense	0.05801642640201908	93508
+CMS001_032	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.06537408563973136	93508
+CMS001_032	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.064475766779313	93508
+CMS001_032	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.013891859520041065	93508
+CMS001_033	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.08162452503202333	185802
+CMS001_033	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.09376110052636678	185802
+CMS001_051	Culex tarsalis	Alameda	39|Toti-like	39756	Totiviridae	III	double stranded RNA	0.021659589628046257	207714
+CMS001_051	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.04368025265509306	207714
+CMS001_051	Culex tarsalis	Alameda	Culex iflavi-like virus 3	2304479	Iflaviridae	IV	single stranded RNA positive sense	0.00910867827878718	207714
+CMS001_051	Culex tarsalis	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.030619024235246543	207714
+CMS001_051	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.06964383719922586	207714
+CMS001_038	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.039135893983631605	132206
+CMS001_038	Culex tarsalis	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.0044929882153608765	132206
+CMS001_038	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.05940728862532714	132206
+CMS001_038	Culex tarsalis	Alameda	Totivirus-like Culex mosquito virus 1	2304495	Totiviridae	III	double stranded RNA	0.013191534423551124	132206
+CMS001_038	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.021912772491414913	132206
+CMS001_042	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.041642638832823944	138728
+CMS001_042	Culex tarsalis	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.02734127212963497	138728
+CMS001_042	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.03898275762643446	138728
+CMS001_042	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.018626376794879187	138728
+CMS001_028	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.0420781451266638	97818
+CMS001_028	Culex tarsalis	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.015109693512441473	97818
+CMS001_028	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.0399313009875483	97818
+CMS001_028	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.02838945797297021	97818
+CMS001_031	Culex tarsalis	Alameda	30|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.04918989928477595	109616
+CMS001_031	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.05149795650270034	109616
+CMS001_043	Culex tarsalis	Alameda	39|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0073020388809862495	84360
+CMS001_043	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.037363679468942625	84360
+CMS001_043	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.032088667614983406	84360
+CMS001_043	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.015623518255097203	84360
+CMS001_036	Culex tarsalis	Alameda	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.012803753249960057	275388
+CMS001_036	Culex tarsalis	Alameda	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.008569727075980072	275388
+CMS001_036	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.031994858163754414	275388
+CMS001_036	Culex tarsalis	Alameda	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.005969759030894592	275388
+CMS001_027	Culex tarsalis	Alameda	Astopletus virus	1566308	Orthomyxoviridae	V	single stranded RNA negative sense	0.007527122524136558	80376
+CMS001_027	Culex tarsalis	Alameda	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.020317010052752067	80376
+CMS002_029e	Culex tarsalis	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.05048210930563872	193732
+CMS002_029e	Culex tarsalis	West Valley	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	0.0115055850349968	193732
+CMS002_029e	Culex tarsalis	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.09967377614436437	193732
+CMS002_029e	Culex tarsalis	West Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.12286044638985816	193732
+CMS002_029e	Culex tarsalis	West Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.012697953874424463	193732
+CMS002_029d	Culex tarsalis	West Valley	49|Toti-like	39756	Totiviridae	III	double stranded RNA	0.0013476819869823902	300516
+CMS002_029d	Culex tarsalis	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.03816435730543465	300516
+CMS002_029d	Culex tarsalis	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.09543585033741964	300516
+CMS002_029d	Culex tarsalis	West Valley	Hubei virga-like virus 2	1527522	Virgaviridae	IV	single stranded RNA positive sense	0.06708128685327902	300516
+CMS002_029d	Culex tarsalis	West Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.02224507180982044	300516
+CMS002_029d	Culex tarsalis	West Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.012175724420663126	300516
+CMS002_029c	Culex tarsalis	West Valley	56|Toti-like	39756	Totiviridae	III	double stranded RNA	0.002813286102982699	194790
+CMS002_029c	Culex tarsalis	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.04464294881667437	194790
+CMS002_029c	Culex tarsalis	West Valley	Culex narnavirus 1	2562539	Narnaviridae	IV	single stranded RNA positive sense	0.029416294470968735	194790
+CMS002_029c	Culex tarsalis	West Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.01199240207402844	194790
+CMS002_029c	Culex tarsalis	West Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.05501822475486421	194790
+CMS002_029c	Culex tarsalis	West Valley	Wuhan mosquito virus 6	1608131	Orthomyxoviridae	V	single stranded RNA negative sense	0.010000513373376457	194790
+CMS002_029b	Culex tarsalis	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.0711746497052164	182846
+CMS002_029b	Culex tarsalis	West Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.07038710171401069	182846
+CMS002_029a	Culex tarsalis	West Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.04432343340981805	309430
+CMS002_029a	Culex tarsalis	West Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.04832433829945383	309430
+CMS002_032a	Culex tarsalis	Coachella Valley	2|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.17959515575123386	495598
+CMS002_032a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.10830955734284642	495598
+CMS002_035a	Culex tarsalis	Coachella Valley	Culex bunyavirus 2	39718	Peribunyaviridae	V	single stranded RNA negative sense	0.04194053757402491	626816
+CMS002_035a	Culex tarsalis	Coachella Valley	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	2.712119665101082e-4	626816
+CMS002_035a	Culex tarsalis	Coachella Valley	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.23062589340412498	626816
+CMS002_031a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.14062380071869657	286630
+CMS002_031a	Culex tarsalis	Coachella Valley	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.11290862784774797	286630
+CMS002_038a	Culex tarsalis	Coachella Valley	Culex iflavi-like virus 3	2304479	Iflaviridae	IV	single stranded RNA positive sense	0.008686814611581863	478196
+CMS002_038a	Culex tarsalis	Coachella Valley	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	0.014098821403775857	478196
+CMS002_038a	Culex tarsalis	Coachella Valley	Hubei mosquito virus 4	137555	Tombusviridae	IV	single stranded RNA positive sense	0.07513864607817715	478196
+CMS002_038a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.07710018486143758	478196
+CMS002_038a	Culex tarsalis	Coachella Valley	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.07378355318739596	478196
+CMS002_041a	Culex tarsalis	Coachella Valley	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	0.008780346416399309	200106
+CMS002_041a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.09640390592985718	200106
+CMS002_041a	Culex tarsalis	Coachella Valley	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.11875206140745405	200106
+CMS002_040a	Culex tarsalis	Coachella Valley	57|Toti-like	39756	Totiviridae	III	double stranded RNA	9.409712659506105e-4	348576
+CMS002_040a	Culex tarsalis	Coachella Valley	Culex-associated Luteo-like virus	2304522	Luteoviridae	IV	single stranded RNA positive sense	0.0163006058936932	348576
+CMS002_040a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.13953054714036536	348576
+CMS002_040a	Culex tarsalis	Coachella Valley	Merida virus	1803034	Rhabdoviridae	V	single stranded RNA negative sense	0.04868952538327366	348576
+CMS002_034a	Culex tarsalis	Coachella Valley	Culex iflavi-like virus 4	2304480	Iflaviridae	IV	single stranded RNA positive sense	0.012907837768576092	148282
+CMS002_034a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.18308358398187238	148282
+CMS002_037a	Culex tarsalis	Coachella Valley	30|Rhabdo-like	35303	Rhabdoviridae	V	single stranded RNA negative sense	0.053383547754177585	303764
+CMS002_037a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.1344168499229665	303764
+CMS002_036a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.16617512965179232	280752
+CMS002_033a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.13984397572955792	422242
+CMS002_039a	Culex tarsalis	Coachella Valley	Culex iflavi-like virus 4	2304480	Iflaviridae	IV	single stranded RNA positive sense	0.003521503141442094	336788
+CMS002_039a	Culex tarsalis	Coachella Valley	Marma virus	2651926	Solemoviridae	IV	single stranded RNA positive sense	0.1149387745406606	336788
+CMS001_060	Culiseta 	Alameda	24|Ifla-like	1111709	Iflaviridae	IV	single stranded RNA positive sense	0.08018935192520996	504880
+CMS001_060	Culiseta 	Alameda	98|Luteo-like	328429	Luteoviridae	IV	single stranded RNA positive sense	0.0018222151798447156	504880
+CMS001_025	Culiseta 	Alameda	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.012314240634058636	272530
+CMS001_025	Culiseta 	Alameda	312|Tombus-like	137555	Tombusviridae	IV	single stranded RNA positive sense	9.320074854144497e-4	272530
+CMS001_025	Culiseta 	Alameda	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.00998789124133123	272530
+CMS001_008	Culiseta 	Alameda	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.011533125216788068	242172
+CMS001_008	Culiseta 	Alameda	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.008659134829790397	242172
+CMS001_003	Culiseta 	Alameda	3256|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.0020102915460252844	279064
+CMS001_003	Culiseta 	Alameda	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.013140354900667946	279064
+CMS002_020c	Culiseta 	San Diego	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.1421597798192435	322644
+CMS002_020c	Culiseta 	San Diego	25|Ifla-like	1111709	Iflaviridae	IV	single stranded RNA positive sense	0.12321630031861742	322644
+CMS002_020c	Culiseta 	San Diego	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.09388056185765116	322644
+CMS002_020b	Culiseta 	San Diego	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.17964096749811034	264600
+CMS002_020b	Culiseta 	San Diego	Kellev virus	502177	Solemoviridae	IV	single stranded RNA positive sense	0.08448223733938019	264600
+CMS002_020e	Culiseta 	San Diego	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.12128564155953751	436078
+CMS002_020e	Culiseta 	San Diego	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.046672842931769085	436078
+CMS002_020a	Culiseta 	San Diego	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.04015240406947864	744862
+CMS002_020a	Culiseta 	San Diego	25|Ifla-like	1111709	Iflaviridae	IV	single stranded RNA positive sense	0.015667331666805395	744862
+CMS002_020a	Culiseta 	San Diego	3256|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.006245452177718826	744862
+CMS002_020a	Culiseta 	San Diego	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.022765290751843966	744862
+CMS002_020a	Culiseta 	San Diego	Kellev virus	502177	Solemoviridae	IV	single stranded RNA positive sense	0.0012055924453120176	744862
+CMS002_020d	Culiseta 	San Diego	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.04811718127427046	158114
+CMS002_020d	Culiseta 	San Diego	22872|Toti-like	39756	Totiviridae	III	double stranded RNA	7.589460768812375e-5	158114
+CMS002_020d	Culiseta 	San Diego	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.030142808353466485	158114
+CMS002_021a	Culiseta 	San Diego	1636|Partiti-like	37960	Partitiviridae	III	double stranded RNA	0.027041743936584123	1100040
+CMS002_021a	Culiseta 	San Diego	6512|Toti-like	39756	Totiviridae	III	double stranded RNA	5.636158685138722e-5	1100040
+CMS002_021a	Culiseta 	San Diego	Gordis virus	2059674	Xinmoviridae	V	single stranded RNA negative sense	0.019263844951092686	1100040

@@ -1,0 +1,88 @@
+---
+title: "Association Testing"
+output: html_notebook
+---
+
+# Association Testing
+
+We seek to find associations between taxa, a permutation test for species A being enriched in samples containg species B. In particular, we want to find microbiota associated with bloodmeals.
+
+The correct test is hypergeometric. If there are m white balls (ungulates) and n black balls (non-ungulates) and we draw k samples (anaplasma) what are the chances we draw at least q white balls (ungulates with anaplasma)?
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+data_dir <- "../data"
+```
+
+```{r}
+sample_taxa = read_tsv(file.path('../figures/fig4/sample_taxa.tsv'))
+bloodmeals = read_csv(file.path('../figures/fig4/bloodmeal_calls.csv'))
+
+colnames(bloodmeals) <- c('sample', 'category', 'call', 'habitat', 'lat', 'long', 'genus', 'species')
+```
+
+```{r}
+cms001_samples = unique(sample_taxa %>% filter(str_detect(sample, 'CMS001')) %>% filter(!str_detect(tolower(sample), 'water')) %>% pull(sample))
+
+all_samples = unique(sample_taxa %>% filter(!str_detect(tolower(sample), 'water')) %>% pull(sample))
+
+bloodmeals = bloodmeals %>% filter(sample %in% cms001_samples)
+
+microbiota = sample_taxa %>% filter(group != 'Chordata')
+
+microbiota %>% filter(sci_name == 'Aves')
+```
+
+```{r}
+association_with <- function(df, has_query, sample_subset = all_samples, p_filter=0.05){
+  n_query = length(has_query)
+  n_samples = length(sample_subset)
+
+  p_values = df %>% filter(sample %in% sample_subset) %>% mutate(query = sample %in% has_query) %>% 
+    group_by(sci_name) %>% summarize(n_taxon = n(), n_intersect = sum(query)) %>%
+    mutate(p = phyper(n_intersect - 1, n_query, n_samples - n_query, n_taxon, lower.tail=FALSE)) %>%  arrange(p)
+  p_values %>% mutate(p_adj = p*nrow(p_values)) %>% filter(p_adj < p_filter)
+}
+```
+
+## Bloodmeal
+
+```{r}
+samples_by_bloodmeal = bloodmeals %>% group_by(category) %>% summarize(samples = list(sample))
+samples_by_bloodmeal
+```
+
+The only bloodmeal category with a significant association is Pecora, with Anaplasma.
+
+```{r}
+for (i in 1:5){
+  assoc = association_with(microbiota, samples_by_bloodmeal[[i,2]], cms001_samples)
+  if (nrow(assoc) > 0){
+    print(samples_by_bloodmeal[[i,1]])
+    print(assoc)
+  }
+}
+```
+
+## Narnavirus
+
+```{r}
+has_narna = sample_taxa %>% filter(sci_name == 'Culex narnavirus 1') %>% pull(sample)
+
+other_eukaryota = sample_taxa %>% filter(group == 'Eukaryota')
+```
+
+There are 43 Narnavirus samples.
+
+```{r}
+length(has_narna)
+```
+
+There is no significant association with Narnavirus, after multiple hypothesis correction.
+
+```{r}
+association_with(other_eukaryota, has_narna, p_filter=10)
+```

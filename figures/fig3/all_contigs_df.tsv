@@ -450,278 +450,278 @@ IV	PLCR	Solemoviridae	single stranded RNA positive sense	Virus	1	484.0	0.0197444
 V	PLCR	Orthomyxoviridae	single stranded RNA negative sense	Virus	8	1170.0	0.01255483901901086	19681.0	CMS002_056a_Rb_S9_L004	Wuhan mosquito virus 6	Culex	tarsalis	1608131.0
 V	PLCR	Peribunyaviridae	single stranded RNA negative sense	Virus	3	44.0	0.22993214934559342	19202.0	CMS002_057a_Rb_S10_L004	Culex bunyavirus 2	Culex	pipiens	39718.0
 V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L004	Culex mosquito virus 4	Culex	pipiens	2600344.0
-	ALCO			Metazoa			0.0247353134076642	264.0	CMS001_003_Ra_S2	Boreoeutheria	Culiseta	particeps	1437010.0
-	ALCO			Metazoa			0.0033273124821751117	140.0	CMS001_009_Ra_S13	Boreoeutheria	Culiseta	particeps	1437010.0
-	ALCO			Metazoa			0.0033251160924152954	58.0	CMS001_025_Ra_S7	Boreoeutheria	Culiseta	particeps	1437010.0
-	ALCO			Metazoa			0.00068661669622933	12.0	CMS001_008_Ra_S3	Boreoeutheria	Culiseta	particeps	1437010.0
-	ALCO			Metazoa			0.00093694368968425	10.0	CMS001_003_Ra_S2	Larinioides cornutus	Culiseta	particeps	336591.0
-	ALCO			Metazoa			0.09978450295137262	1065.0	CMS001_003_Ra_S2	Laurasiatheria	Culiseta	particeps	314145.0
-	ALCO			Metazoa			0.015677747897236367	274.0	CMS001_008_Ra_S3	Laurasiatheria	Culiseta	particeps	314145.0
-	ALCO			Metazoa			0.0007842950850841335	33.0	CMS001_009_Ra_S13	Laurasiatheria	Culiseta	particeps	314145.0
-	ALCO			Metazoa			0.012587972764204383	220.0	CMS001_008_Ra_S3	Bubalus bubalis	Culiseta	particeps	89462.0
-	ALCO			Metazoa			0.00168649864143165	18.0	CMS001_003_Ra_S2	Entelegynae	Culiseta	particeps	74971.0
-	ALCO			Metazoa			0.0003747774758737	4.0	CMS001_003_Ra_S2	Bos mutus	Culiseta	particeps	72004.0
-	ALCO			Metazoa			0.000281083106905275	3.0	CMS001_003_Ra_S2	Pecora	Culiseta	particeps	35500.0
-	ALCO			Metazoa			0.0014876695084968816	26.0	CMS001_008_Ra_S3	Bovinae	Culiseta	particeps	27592.0
-	ALCO			Metazoa			0.000281083106905275	3.0	CMS001_003_Ra_S2	Ovis aries musimon	Culiseta	particeps	9938.0
-	ALCO			Metazoa			0.0003747774758737	4.0	CMS001_003_Ra_S2	Bos taurus	Culiseta	particeps	9913.0
-	ALCO			Metazoa			0.013274589460433714	232.0	CMS001_008_Ra_S3	Bovidae	Culiseta	particeps	9895.0
-	ALCO			Metazoa			0.019207345638527124	205.0	CMS001_003_Ra_S2	Bovidae	Culiseta	particeps	9895.0
-	ALCO			Metazoa			0.0011883258864911113	50.0	CMS001_009_Ra_S13	Bovidae	Culiseta	particeps	9895.0
-	ALCO			Metazoa			0.0640869483744027	684.0	CMS001_003_Ra_S2	Odocoileinae	Culiseta	particeps	9881.0
-	ALCO			Metazoa			0.007781655890599073	136.0	CMS001_008_Ra_S3	Odocoileinae	Culiseta	particeps	9881.0
-	ALCO			Metazoa			0.0013759101072063293	24.0	CMS001_025_Ra_S7	Odocoileinae	Culiseta	particeps	9881.0
-	ALCO			Metazoa			0.000655860582778975	7.0	CMS001_003_Ra_S2	Odocoileus virginianus texanus	Culiseta	particeps	9880.0
-	ALCO			Metazoa			0.0005159662902023735	9.0	CMS001_025_Ra_S7	Odocoileus hemionus hemionus	Culiseta	particeps	9877.0
-	ALCO			Metazoa			0.002904525438021175	31.0	CMS001_003_Ra_S2	Odocoileus	Culiseta	particeps	9871.0
-	ALCO			Metazoa			0.0001901321418385778	8.0	CMS001_009_Ra_S13	Cervidae	Culiseta	particeps	9850.0
-	ALCO			Metazoa			0.000401307114601846	7.0	CMS001_025_Ra_S7	Cervidae	Culiseta	particeps	9850.0
-	ALCO			Metazoa			0.003747774758737	40.0	CMS001_003_Ra_S2	Araneidae	Culiseta	particeps	6913.0
-	ALCO			Metazoa			0.003982930298719772	28.0	CMS001_016_Ra_S6	Boreoeutheria	Culiseta	inornata	1437010.0
-	ALCO			Metazoa			0.00020463288859785546	10.0	CMS001_060_Ra_S12	Boreoeutheria	Culiseta	inornata	1437010.0
-	ALCO			Metazoa			0.010395350740771057	508.0	CMS001_060_Ra_S12	Simiiformes	Culiseta	inornata	314293.0
-	ALCO			Metazoa			0.07652916073968706	538.0	CMS001_016_Ra_S6	Laurasiatheria	Culiseta	inornata	314145.0
-	ALCO			Metazoa			0.007837439633297864	383.0	CMS001_060_Ra_S12	Laurasiatheria	Culiseta	inornata	314145.0
-	ALCO			Metazoa			8.185315543914218e-05	4.0	CMS001_060_Ra_S12	Plagiorchis	Culiseta	inornata	84104.0
-	ALCO			Metazoa			8.185315543914218e-05	4.0	CMS001_060_Ra_S12	Plagiorchioidea	Culiseta	inornata	56251.0
-	ALCO			Metazoa			0.000450192354915282	22.0	CMS001_060_Ra_S12	Bilateria	Culiseta	inornata	33213.0
-	ALCO			Metazoa			0.000995732574679943	7.0	CMS001_016_Ra_S6	Bilateria	Culiseta	inornata	33213.0
-	ALCO			Metazoa			0.0004267425320056899	3.0	CMS001_016_Ra_S6	Bos taurus	Culiseta	inornata	9913.0
-	ALCO			Metazoa			0.000491118932634853	24.0	CMS001_060_Ra_S12	Bos	Culiseta	inornata	9903.0
-	ALCO			Metazoa			0.008737824343128428	427.0	CMS001_060_Ra_S12	Bovidae	Culiseta	inornata	9895.0
-	ALCO			Metazoa			0.05248933143669986	369.0	CMS001_016_Ra_S6	Bovidae	Culiseta	inornata	9895.0
-	ALCO			Metazoa			0.005443234836702955	266.0	CMS001_060_Ra_S12	Odocoileinae	Culiseta	inornata	9881.0
-	ALCO			Metazoa			0.0011379800853485065	8.0	CMS001_016_Ra_S6	Odocoileus virginianus texanus	Culiseta	inornata	9880.0
-	ALCO			Metazoa			6.138986657935663e-05	3.0	CMS001_060_Ra_S12	Odocoileus virginianus texanus	Culiseta	inornata	9880.0
-	ALCO			Metazoa			0.0005689900426742532	4.0	CMS001_016_Ra_S6	Odocoileus hemionus	Culiseta	inornata	9872.0
-	ALCO			Metazoa			0.032290184921763866	227.0	CMS001_016_Ra_S6	Odocoileus	Culiseta	inornata	9871.0
-	ALCO			Metazoa			0.001513002364066194	16.0	CMS001_005_Ra_S3	Boreoeutheria	Culiseta	incidens	1437010.0
-	ALCO			Metazoa			0.05002364066193854	529.0	CMS001_005_Ra_S3	Homo sapiens	Culiseta	incidens	9606.0
-	ALCO			Metazoa			0.005295508274231678	56.0	CMS001_005_Ra_S3	Pan	Culiseta	incidens	9596.0
-	PLCR			Metazoa			8.044686484576938e-05	23.0	CMS002_056a_Rb_S9_L004	Acarus	Culex	tarsalis	66545.0
-	COAV			Metazoa			0.0013224597751818382	6.0	CMS002_042a_Rb_S177_L004	Spiruromorpha	Culex	tarsalis	2072716.0
-	COAV			Metazoa			2.2094808824666645e-05	4.0	CMS002_031a_Rb_S165_L004	Sus scrofa	Culex	tarsalis	9823.0
-	COAV			Metazoa			0.001102049812651532	5.0	CMS002_042a_Rb_S177_L004	Loa loa	Culex	tarsalis	7209.0
-	COAV			Metazoa			0.125192858717214	568.0	CMS002_042a_Rb_S177_L004	Onchocercidae	Culex	tarsalis	6296.0
-	COAV			Metazoa			0.19969142605245757	906.0	CMS002_042a_Rb_S177_L004	Filarioidea	Culex	tarsalis	6295.0
-	COAV			Metazoa			0.0026449195503636764	12.0	CMS002_042a_Rb_S177_L004	Onchocerca volvulus	Culex	tarsalis	6282.0
-	ALCO			Metazoa			0.002193606724827944	131.0	CMS001_036_Ra_S20	Boreoeutheria	Culex	tarsalis	1437010.0
-	ALCO			Metazoa			0.00041369653767820775	13.0	CMS001_031_Ra_S19	Boreoeutheria	Culex	tarsalis	1437010.0
-	ALCO			Metazoa			0.00026531063453460096	12.0	CMS001_028_Ra_S17	Boreoeutheria	Culex	tarsalis	1437010.0
-	ALCO			Metazoa			3.33207454961459e-05	12.0	CMS001_046_Ra_S3	Boreoeutheria	Culex	tarsalis	1437010.0
-	ALCO			Metazoa			7.29438939882074e-05	6.0	CMS001_038_Ra_S22	Boreoeutheria	Culex	tarsalis	1437010.0
-	ALCO			Metazoa			0.00029347566903281425	16.0	CMS001_032_Ra_S7	Onchocercidae sp. MI1 GLH-2012	Culex	tarsalis	1237907.0
-	ALCO			Metazoa			0.018966395112016293	596.0	CMS001_031_Ra_S19	Caniformia	Culex	tarsalis	379584.0
-	ALCO			Metazoa			0.0076276807428697765	345.0	CMS001_028_Ra_S17	Caniformia	Culex	tarsalis	379584.0
-	ALCO			Metazoa			0.01164670840678378	958.0	CMS001_038_Ra_S22	Laurasiatheria	Culex	tarsalis	314145.0
-	ALCO			Metazoa			0.0032820375424906646	196.0	CMS001_036_Ra_S20	Laurasiatheria	Culex	tarsalis	314145.0
-	ALCO			Metazoa			0.0004720438945287336	170.0	CMS001_046_Ra_S3	Laurasiatheria	Culex	tarsalis	314145.0
-	ALCO			Metazoa			9.546843177189409e-05	3.0	CMS001_031_Ra_S19	Laurasiatheria	Culex	tarsalis	314145.0
-	ALCO			Metazoa			0.0005875440658049355	13.0	CMS001_027_Ra_S16	Passeroidea	Culex	tarsalis	175121.0
-	ALCO			Metazoa			7.336891725820356e-05	4.0	CMS001_032_Ra_S7	Passeroidea	Culex	tarsalis	175121.0
-	ALCO			Metazoa			0.009816493477780235	444.0	CMS001_028_Ra_S17	Ursus arctos horribilis	Culex	tarsalis	116960.0
-	ALCO			Metazoa			0.0022708840227088404	56.0	CMS001_043_Ra_S24	Pipridae	Culex	tarsalis	114313.0
-	ALCO			Metazoa			6.698035801001356e-05	4.0	CMS001_036_Ra_S20	Ovis canadensis canadensis	Culex	tarsalis	112262.0
-	ALCO			Metazoa			8.372544751251695e-05	5.0	CMS001_036_Ra_S20	Cetartiodactyla	Culex	tarsalis	91561.0
-	ALCO			Metazoa			4.8629262658804935e-05	4.0	CMS001_038_Ra_S22	Cetartiodactyla	Culex	tarsalis	91561.0
-	ALCO			Metazoa			9.171114657275445e-05	5.0	CMS001_032_Ra_S7	Corvus brachyrhynchos	Culex	tarsalis	85066.0
-	ALCO			Metazoa			0.00018078278947844165	4.0	CMS001_027_Ra_S16	Geospiza fortis	Culex	tarsalis	48883.0
-	ALCO			Metazoa			0.0032282323593609582	176.0	CMS001_032_Ra_S7	Zonotrichia albicollis	Culex	tarsalis	44394.0
-	ALCO			Metazoa			0.000843742548469341	46.0	CMS001_032_Ra_S7	Aphelocoma	Culex	tarsalis	39616.0
-	ALCO			Metazoa			0.0012654795263490916	28.0	CMS001_027_Ra_S16	Aphelocoma	Culex	tarsalis	39616.0
-	ALCO			Metazoa			0.0011354420113544202	28.0	CMS001_043_Ra_S24	Aphelocoma	Culex	tarsalis	39616.0
-	ALCO			Metazoa			0.0002511763425375509	15.0	CMS001_036_Ra_S20	Pecora	Culex	tarsalis	35500.0
-	ALCO			Metazoa			0.0005085120495246518	23.0	CMS001_028_Ra_S17	Carnivora	Culex	tarsalis	33554.0
-	ALCO			Metazoa			0.010033199435059337	547.0	CMS001_032_Ra_S7	Sauria	Culex	tarsalis	32561.0
-	ALCO			Metazoa			0.014639091646390916	361.0	CMS001_043_Ra_S24	Sauria	Culex	tarsalis	32561.0
-	ALCO			Metazoa			0.07330742113350809	1622.0	CMS001_027_Ra_S16	Haemorhous mexicanus	Culex	tarsalis	30427.0
-	ALCO			Metazoa			1.1106915165381966e-05	4.0	CMS001_046_Ra_S3	Bos taurus	Culex	tarsalis	9913.0
-	ALCO			Metazoa			5.0235268507510174e-05	3.0	CMS001_036_Ra_S20	Bos	Culex	tarsalis	9903.0
-	ALCO			Metazoa			0.0018132039007486061	653.0	CMS001_046_Ra_S3	Bovidae	Culex	tarsalis	9895.0
-	ALCO			Metazoa			0.00561667983709197	462.0	CMS001_038_Ra_S22	Bovidae	Culex	tarsalis	9895.0
-	ALCO			Metazoa			0.001758234397762856	105.0	CMS001_036_Ra_S20	Bovidae	Culex	tarsalis	9895.0
-	ALCO			Metazoa			6.698035801001356e-05	4.0	CMS001_036_Ra_S20	Muntiacus	Culex	tarsalis	9885.0
-	ALCO			Metazoa			0.026691672666990404	1594.0	CMS001_036_Ra_S20	Odocoileinae	Culex	tarsalis	9881.0
-	ALCO			Metazoa			0.00620023098899763	510.0	CMS001_038_Ra_S22	Odocoileinae	Culex	tarsalis	9881.0
-	ALCO			Metazoa			0.0004276162338672057	154.0	CMS001_046_Ra_S3	Odocoileinae	Culex	tarsalis	9881.0
-	ALCO			Metazoa			5.0235268507510174e-05	3.0	CMS001_036_Ra_S20	Odocoileus hemionus	Culex	tarsalis	9872.0
-	ALCO			Metazoa			5.0235268507510174e-05	3.0	CMS001_036_Ra_S20	Cervidae	Culex	tarsalis	9850.0
-	ALCO			Metazoa			0.0004908515427971767	29.0	CMS001_042_Ra_S23	Felis catus	Culex	tarsalis	9685.0
-	ALCO			Metazoa			0.002471183629254752	146.0	CMS001_042_Ra_S23	Felis	Culex	tarsalis	9682.0
-	ALCO			Metazoa			0.007987525458248473	251.0	CMS001_031_Ra_S19	Procyon lotor	Culex	tarsalis	9654.0
-	ALCO			Metazoa			0.0013044439531284546	59.0	CMS001_028_Ra_S17	Procyon lotor	Culex	tarsalis	9654.0
-	ALCO			Metazoa			0.010787932790224032	339.0	CMS001_031_Ra_S19	Macaca mulatta	Culex	tarsalis	9544.0
-	ALCO			Metazoa			0.00022109219544550078	10.0	CMS001_028_Ra_S17	Eutheria	Culex	tarsalis	9347.0
-	ALCO			Metazoa			0.00012729124236252545	4.0	CMS001_031_Ra_S19	Eutheria	Culex	tarsalis	9347.0
-	ALCO			Metazoa			0.01370640713706407	338.0	CMS001_043_Ra_S24	Sturnus vulgaris	Culex	tarsalis	9172.0
-	ALCO			Metazoa			0.00018078278947844165	4.0	CMS001_027_Ra_S16	Parus major	Culex	tarsalis	9157.0
-	ALCO			Metazoa			0.02711741842176624	600.0	CMS001_027_Ra_S16	Serinus canaria	Culex	tarsalis	9135.0
-	ALCO			Metazoa			0.029952860470661626	1633.0	CMS001_032_Ra_S7	Passeriformes	Culex	tarsalis	9126.0
-	ALCO			Metazoa			0.008406399710747536	186.0	CMS001_027_Ra_S16	Passeriformes	Culex	tarsalis	9126.0
-	ALCO			Metazoa			4.658909582212283e-05	4.0	CMS001_033_Ra_S8	Gallus gallus	Culex	tarsalis	9031.0
-	ALCO			Metazoa			0.053504282910544945	2917.0	CMS001_032_Ra_S7	Columbidae	Culex	tarsalis	8930.0
-	ALCO			Metazoa			0.33589442285094456	7432.0	CMS001_027_Ra_S16	Neognathae	Culex	tarsalis	8825.0
-	ALCO			Metazoa			0.055320163612685484	3016.0	CMS001_032_Ra_S7	Neognathae	Culex	tarsalis	8825.0
-	ALCO			Metazoa			0.09586374695863746	2364.0	CMS001_043_Ra_S24	Neognathae	Culex	tarsalis	8825.0
-	ALCO			Metazoa			0.00012165450121654502	3.0	CMS001_043_Ra_S24	Aves	Culex	tarsalis	8782.0
-	ALCO			Metazoa			5.502668794365267e-05	3.0	CMS001_032_Ra_S7	Aves	Culex	tarsalis	8782.0
-	ALCO			Metazoa			0.00014673783451640712	8.0	CMS001_032_Ra_S7	Loa loa	Culex	tarsalis	7209.0
-	ALCO			Metazoa			7.336891725820356e-05	4.0	CMS001_032_Ra_S7	Nematoda	Culex	tarsalis	6231.0
-	ALCO			Metazoa			0.03934614219568134	3637.0	CMS001_041_Ra_S10	Boreoeutheria	Culex	pipiens	1437010.0
-	ALCO			Metazoa			0.00010380173867912288	4.0	CMS001_004_Ra_S2	Boreoeutheria	Culex	pipiens	1437010.0
-	ALCO			Metazoa			0.0002504522053708084	18.0	CMS001_029_Ra_S18	Onchocercidae sp. MI1 GLH-2012	Culex	pipiens	1237907.0
-	ALCO			Metazoa			0.0030116002379535992	243.0	CMS001_059_Ra_S10	Pipra filicauda	Culex	pipiens	649802.0
-	ALCO			Metazoa			0.010665628649279876	411.0	CMS001_004_Ra_S2	Caniformia	Culex	pipiens	379584.0
-	ALCO			Metazoa			0.0014071766006633832	84.0	CMS001_030_Ra_S7	Caniformia	Culex	pipiens	379584.0
-	ALCO			Metazoa			8.654636721623609e-05	8.0	CMS001_041_Ra_S10	Sciurini	Culex	pipiens	337752.0
-	ALCO			Metazoa			5.565604563795742e-05	4.0	CMS001_029_Ra_S18	Lonchura striata domestica	Culex	pipiens	299123.0
-	ALCO			Metazoa			0.0003685462525546956	22.0	CMS001_030_Ra_S7	Canis lupus dingo	Culex	pipiens	286419.0
-	ALCO			Metazoa			0.00013914011409489355	10.0	CMS001_029_Ra_S18	Passeroidea	Culex	pipiens	175121.0
-	ALCO			Metazoa			0.008900999091734786	343.0	CMS001_004_Ra_S2	Ursus arctos horribilis	Culex	pipiens	116960.0
-	ALCO			Metazoa			4.9573666468372e-05	4.0	CMS001_059_Ra_S10	Corvus brachyrhynchos	Culex	pipiens	85066.0
-	ALCO			Metazoa			5.565604563795742e-05	4.0	CMS001_029_Ra_S18	Taeniopygia guttata	Culex	pipiens	59729.0
-	ALCO			Metazoa			0.0003894586524730624	36.0	CMS001_041_Ra_S10	Sciuridae	Culex	pipiens	55153.0
-	ALCO			Metazoa			0.015987199109503268	1149.0	CMS001_029_Ra_S18	Zonotrichia albicollis	Culex	pipiens	44394.0
-	ALCO			Metazoa			0.000694031330557208	56.0	CMS001_059_Ra_S10	Zonotrichia albicollis	Culex	pipiens	44394.0
-	ALCO			Metazoa			0.007906999801705334	638.0	CMS001_059_Ra_S10	Zonotrichia leucophrys	Culex	pipiens	44393.0
-	ALCO			Metazoa			0.0011892963330029733	42.0	CMS001_054_Ra_S11	Zonotrichia leucophrys	Culex	pipiens	44393.0
-	ALCO			Metazoa			0.00033979895228656383	12.0	CMS001_054_Ra_S11	Zonotrichia	Culex	pipiens	44387.0
-	ALCO			Metazoa			0.010016867782535356	386.0	CMS001_004_Ra_S2	Carnivora	Culex	pipiens	33554.0
-	ALCO			Metazoa			0.004020504573323952	240.0	CMS001_030_Ra_S7	Carnivora	Culex	pipiens	33554.0
-	ALCO			Metazoa			0.001061969015492254	34.0	CMS001_040_Ra_S21	Haemorhous mexicanus	Culex	pipiens	30427.0
-	ALCO			Metazoa			0.010198520825223824	393.0	CMS001_004_Ra_S2	Procyon lotor	Culex	pipiens	9654.0
-	ALCO			Metazoa			0.0035681978088250074	213.0	CMS001_030_Ra_S7	Procyon lotor	Culex	pipiens	9654.0
-	ALCO			Metazoa			0.00020760347735824576	8.0	CMS001_004_Ra_S2	Eutheria	Culex	pipiens	9347.0
-	ALCO			Metazoa			6.70084095553992e-05	4.0	CMS001_030_Ra_S7	Eutheria	Culex	pipiens	9347.0
-	ALCO			Metazoa			0.01031028245443162	741.0	CMS001_029_Ra_S18	Passeriformes	Culex	pipiens	9126.0
-	ALCO			Metazoa			9.9147332936744e-05	8.0	CMS001_059_Ra_S10	Passeriformes	Culex	pipiens	9126.0
-	ALCO			Metazoa			0.04942256852650619	3552.0	CMS001_029_Ra_S18	Neognathae	Culex	pipiens	8825.0
-	ALCO			Metazoa			0.01820592901050962	1469.0	CMS001_059_Ra_S10	Neognathae	Culex	pipiens	8825.0
-	ALCO			Metazoa			0.025532210936412968	1835.0	CMS001_029_Ra_S18	Aves	Culex	pipiens	8782.0
-	ALCO			Metazoa			8.348406845693614e-05	6.0	CMS001_029_Ra_S18	Archosauria	Culex	pipiens	8492.0
-	ALCO			Metazoa			0.010321579858003698	173.0	CMS001_053_Ra_S8	unclassified Mimetus	Culex	erythrothorax	2637918.0
-	ALCO			Metazoa			0.06732857966887987	5486.0	CMS001_011_Ra_S4	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.011550516255222307	3431.0	CMS001_020_Ra_S15	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.12345287210409395	2334.0	CMS001_058_Ra_S9	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.06298233801211996	1216.0	CMS001_013_Ra_S5	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.018734712030242382	337.0	CMS001_048_Ra_S5	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.0018668073535976625	92.0	CMS001_019_Ra_S14	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.0006285855938805865	71.0	CMS001_057_Ra_S11	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.004562555030817258	57.0	CMS001_052_Ra_S7	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.0003761755485893417	42.0	CMS001_022_Ra_S6	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.0008728809666008178	19.0	CMS001_017_Ra_S6	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.001174704692292632	18.0	CMS001_056_Ra_S10	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			3.182458289906038e-05	16.0	CMS001_001_Ra_S1	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.00023864924527176182	4.0	CMS001_053_Ra_S8	Boreoeutheria	Culex	erythrothorax	1437010.0
-	ALCO			Metazoa			0.00031735956839098697	6.0	CMS001_058_Ra_S9	Mecaphesa asperata	Culex	erythrothorax	637355.0
-	ALCO			Metazoa			0.003818387924348189	64.0	CMS001_053_Ra_S8	Mimetus sp. TAB-2009	Culex	erythrothorax	593455.0
-	ALCO			Metazoa			0.0005884501440688284	29.0	CMS001_019_Ra_S14	Caniformia	Culex	erythrothorax	379584.0
-	ALCO			Metazoa			0.002258195162062321	184.0	CMS001_011_Ra_S4	Neotominae	Culex	erythrothorax	337963.0
-	ALCO			Metazoa			0.003681839938145088	300.0	CMS001_011_Ra_S4	Muroidea	Culex	erythrothorax	337687.0
-	ALCO			Metazoa			0.0004231460911879826	8.0	CMS001_058_Ra_S9	Muroidea	Culex	erythrothorax	337687.0
-	ALCO			Metazoa			8.590959855671874e-05	7.0	CMS001_011_Ra_S4	Cricetidae	Culex	erythrothorax	337677.0
-	ALCO			Metazoa			0.0029234532545790825	49.0	CMS001_053_Ra_S8	Mimetidae	Culex	erythrothorax	336669.0
-	ALCO			Metazoa			0.006493506493506494	725.0	CMS001_022_Ra_S6	Euarchontoglires	Culex	erythrothorax	314146.0
-	ALCO			Metazoa			0.00622637313764732	112.0	CMS001_048_Ra_S5	Euarchontoglires	Culex	erythrothorax	314146.0
-	ALCO			Metazoa			0.0011912777749002953	23.0	CMS001_013_Ra_S5	Euarchontoglires	Culex	erythrothorax	314146.0
-	ALCO			Metazoa			0.007415003549735742	658.0	CMS001_045_Ra_S2	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.005185848634124496	579.0	CMS001_022_Ra_S6	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.017088574006262274	322.0	CMS001_015_Ra_S13	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.02217241655326983	277.0	CMS001_052_Ra_S7	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.0022841561017069197	258.0	CMS001_057_Ra_S11	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.09382479655337482	196.0	CMS001_010_Ra_S1	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.007756100471332259	130.0	CMS001_053_Ra_S8	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.0003633654911793027	100.0	CMS001_035_Ra_S20	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.00017105713308244953	86.0	CMS001_001_Ra_S1	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.002224998048247326	57.0	CMS001_018_Ra_S14	Laurasiatheria	Culex	erythrothorax	314145.0
-	ALCO			Metazoa			0.03241991509069857	1092.0	CMS001_037_Ra_S21	Porzana carolina	Culex	erythrothorax	261200.0
-	ALCO			Metazoa			0.008517323056908973	694.0	CMS001_011_Ra_S4	Peromyscus maniculatus bairdii	Culex	erythrothorax	230844.0
-	ALCO			Metazoa			0.0030547576710892267	67.0	CMS001_050_Ra_S23	Egretta garzetta	Culex	erythrothorax	188379.0
-	ALCO			Metazoa			8.423535357789664e-05	6.0	CMS001_047_Ra_S4	Pipridae	Culex	erythrothorax	114313.0
-	ALCO			Metazoa			0.00011264330226558383	31.0	CMS001_035_Ra_S20	Cetartiodactyla	Culex	erythrothorax	91561.0
-	ALCO			Metazoa			0.011636517507669523	220.0	CMS001_058_Ra_S9	Microtus ochrogaster	Culex	erythrothorax	79684.0
-	ALCO			Metazoa			0.000775610047133226	13.0	CMS001_053_Ra_S8	Entelegynae	Culex	erythrothorax	74971.0
-	ALCO			Metazoa			0.00025270606073368994	18.0	CMS001_047_Ra_S4	Troglodytinae	Culex	erythrothorax	69501.0
-	ALCO			Metazoa			0.0018212851338021768	541.0	CMS001_020_Ra_S15	Lepus californicus	Culex	erythrothorax	48087.0
-	ALCO			Metazoa			0.006357310293197187	518.0	CMS001_011_Ra_S4	Murinae	Culex	erythrothorax	39107.0
-	ALCO			Metazoa			0.0037715363296094173	132.0	CMS001_049_Ra_S6	Murinae	Culex	erythrothorax	39107.0
-	ALCO			Metazoa			0.004225038914832111	76.0	CMS001_048_Ra_S5	Murinae	Culex	erythrothorax	39107.0
-	ALCO			Metazoa			0.008674494869353644	164.0	CMS001_058_Ra_S9	Arvicolinae	Culex	erythrothorax	39087.0
-	ALCO			Metazoa			0.0007304898340164766	36.0	CMS001_019_Ra_S14	Carnivora	Culex	erythrothorax	33554.0
-	ALCO			Metazoa			0.010569129828103197	356.0	CMS001_037_Ra_S21	Sauria	Culex	erythrothorax	32561.0
-	ALCO			Metazoa			0.052343491120629346	4265.0	CMS001_011_Ra_S4	Amniota	Culex	erythrothorax	32524.0
-	ALCO			Metazoa			0.069590000890657	2344.0	CMS001_037_Ra_S21	Amniota	Culex	erythrothorax	32524.0
-	ALCO			Metazoa			0.01999274874397887	386.0	CMS001_013_Ra_S5	Amniota	Culex	erythrothorax	32524.0
-	ALCO			Metazoa			0.002185962994769303	56.0	CMS001_018_Ra_S14	Bos indicus x Bos taurus	Culex	erythrothorax	30522.0
-	ALCO			Metazoa			0.11913497887480541	2143.0	CMS001_048_Ra_S5	Rattus norvegicus	Culex	erythrothorax	10116.0
-	ALCO			Metazoa			0.04325837881082317	1514.0	CMS001_049_Ra_S6	Rattus norvegicus	Culex	erythrothorax	10116.0
-	ALCO			Metazoa			4.909119917526785e-05	4.0	CMS001_011_Ra_S4	Mus musculus	Culex	erythrothorax	10090.0
-	ALCO			Metazoa			0.0008449955057011946	251.0	CMS001_020_Ra_S15	Oryctolagus cuniculus	Culex	erythrothorax	9986.0
-	ALCO			Metazoa			0.0013466618324959859	26.0	CMS001_013_Ra_S5	Oryctolagus cuniculus	Culex	erythrothorax	9986.0
-	ALCO			Metazoa			0.0028487077225876622	55.0	CMS001_013_Ra_S5	Leporidae	Culex	erythrothorax	9979.0
-	ALCO			Metazoa			0.007994749716604022	134.0	CMS001_053_Ra_S8	Ovis aries	Culex	erythrothorax	9940.0
-	ALCO			Metazoa			0.00016121809225257502	18.0	CMS001_022_Ra_S6	Bos taurus	Culex	erythrothorax	9913.0
-	ALCO			Metazoa			7.082654578936186e-05	8.0	CMS001_057_Ra_S11	Bos taurus	Culex	erythrothorax	9913.0
-	ALCO			Metazoa			0.000318420633657061	6.0	CMS001_015_Ra_S13	Bos taurus	Culex	erythrothorax	9913.0
-	ALCO			Metazoa			7.956145724765095e-06	4.0	CMS001_001_Ra_S1	Bos taurus	Culex	erythrothorax	9913.0
-	ALCO			Metazoa			0.0005911330049261083	66.0	CMS001_022_Ra_S6	Bos	Culex	erythrothorax	9903.0
-	ALCO			Metazoa			0.00916318436149869	1035.0	CMS001_057_Ra_S11	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.006412897447380206	716.0	CMS001_022_Ra_S6	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.0014122158661458043	710.0	CMS001_001_Ra_S1	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.004124454862011066	366.0	CMS001_045_Ra_S2	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.02481389578163772	310.0	CMS001_052_Ra_S7	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.009871039643368891	186.0	CMS001_015_Ra_S13	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.07467687888942078	156.0	CMS001_010_Ra_S1	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.005386837379967211	138.0	CMS001_018_Ra_S14	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.006085555754429927	102.0	CMS001_053_Ra_S8	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.00011264330226558383	31.0	CMS001_035_Ra_S20	Bovidae	Culex	erythrothorax	9895.0
-	ALCO			Metazoa			0.0012093341501642945	608.0	CMS001_001_Ra_S1	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			0.00445141065830721	497.0	CMS001_022_Ra_S6	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			0.002903888377363836	328.0	CMS001_057_Ra_S11	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			0.01664932362122789	208.0	CMS001_052_Ra_S7	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			0.0017354263627041098	154.0	CMS001_045_Ra_S2	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			0.008949346697691068	150.0	CMS001_053_Ra_S8	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			0.00658069309557926	124.0	CMS001_015_Ra_S13	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			0.003669295026934187	94.0	CMS001_018_Ra_S14	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			0.03446625179511728	72.0	CMS001_010_Ra_S1	Odocoileinae	Culex	erythrothorax	9881.0
-	ALCO			Metazoa			4.478280340349306e-05	5.0	CMS001_022_Ra_S6	Odocoileus virginianus texanus	Culex	erythrothorax	9880.0
-	ALCO			Metazoa			7.956145724765095e-06	4.0	CMS001_001_Ra_S1	Odocoileus virginianus texanus	Culex	erythrothorax	9880.0
-	ALCO			Metazoa			0.0028721876495931067	6.0	CMS001_010_Ra_S1	Odocoileus hemionus hemionus	Culex	erythrothorax	9877.0
-	ALCO			Metazoa			0.00011138604014671132	56.0	CMS001_001_Ra_S1	Odocoileus hemionus	Culex	erythrothorax	9872.0
-	ALCO			Metazoa			3.5826242722794445e-05	4.0	CMS001_022_Ra_S6	Odocoileus hemionus	Culex	erythrothorax	9872.0
-	ALCO			Metazoa			8.720771788303265e-05	24.0	CMS001_035_Ra_S20	Odocoileus	Culex	erythrothorax	9871.0
-	ALCO			Metazoa			5.967109293573821e-06	3.0	CMS001_001_Ra_S1	Cervidae	Culex	erythrothorax	9850.0
-	ALCO			Metazoa			0.0012580658252505986	62.0	CMS001_019_Ra_S14	Felis catus	Culex	erythrothorax	9685.0
-	ALCO			Metazoa			0.003611866401525912	178.0	CMS001_019_Ra_S14	Felis	Culex	erythrothorax	9682.0
-	ALCO			Metazoa			0.007940501466599576	647.0	CMS001_011_Ra_S4	Eutheria	Culex	erythrothorax	9347.0
-	ALCO			Metazoa			0.005670446964643095	102.0	CMS001_048_Ra_S5	Eutheria	Culex	erythrothorax	9347.0
-	ALCO			Metazoa			0.000926588889356863	66.0	CMS001_047_Ra_S4	Passeriformes	Culex	erythrothorax	9126.0
-	ALCO			Metazoa			0.10185565130169151	2234.0	CMS001_050_Ra_S23	Columbidae	Culex	erythrothorax	8930.0
-	ALCO			Metazoa			0.020015501755345826	439.0	CMS001_050_Ra_S23	Nycticorax nycticorax	Culex	erythrothorax	8901.0
-	ALCO			Metazoa			0.02902587703362803	719.0	CMS001_023_Ra_S17	Anas platyrhynchos	Culex	erythrothorax	8839.0
-	ALCO			Metazoa			0.002220338298817165	55.0	CMS001_023_Ra_S17	Anatidae	Culex	erythrothorax	8830.0
-	ALCO			Metazoa			0.07885283377371374	2656.0	CMS001_037_Ra_S21	Neognathae	Culex	erythrothorax	8825.0
-	ALCO			Metazoa			0.08275201750786483	1815.0	CMS001_050_Ra_S23	Neognathae	Culex	erythrothorax	8825.0
-	ALCO			Metazoa			0.005798200171278552	413.0	CMS001_047_Ra_S4	Neognathae	Culex	erythrothorax	8825.0
-	ALCO			Metazoa			0.026854511466739613	589.0	CMS001_050_Ra_S23	Aves	Culex	erythrothorax	8782.0
-	ALCO			Metazoa			0.0004750170709259864	16.0	CMS001_037_Ra_S21	Aves	Culex	erythrothorax	8782.0
-	ALCO			Metazoa			0.00016147914900488476	4.0	CMS001_023_Ra_S17	Aves	Culex	erythrothorax	8782.0
-	ALCO			Metazoa			0.004410135906249264	1310.0	CMS001_020_Ra_S15	Gnathostomata	Culex	erythrothorax	7776.0
-	ALCO			Metazoa			0.015181112909527264	272.0	CMS001_012_Ra_S4	Boreoeutheria	Aedes	dorsalis	1437010.0
-	ALCO			Metazoa			0.05637104425964168	1010.0	CMS001_012_Ra_S4	Laurasiatheria	Aedes	dorsalis	314145.0
-	ALCO			Metazoa			0.0003906904057598928	7.0	CMS001_012_Ra_S4	Pecora	Aedes	dorsalis	35500.0
-	ALCO			Metazoa			0.0008371937266283418	15.0	CMS001_012_Ra_S4	Bilateria	Aedes	dorsalis	33213.0
-	ALCO			Metazoa			0.00016743874532566835	3.0	CMS001_012_Ra_S4	Amniota	Aedes	dorsalis	32524.0
-	ALCO			Metazoa			0.0005581291510855613	10.0	CMS001_012_Ra_S4	Bos taurus	Aedes	dorsalis	9913.0
-	ALCO			Metazoa			0.053859463079756656	965.0	CMS001_012_Ra_S4	Bovidae	Aedes	dorsalis	9895.0
-	ALCO			Metazoa			0.0597756320812636	1071.0	CMS001_012_Ra_S4	Odocoileinae	Aedes	dorsalis	9881.0
-	ALCO			Metazoa			0.000948819556845454	17.0	CMS001_012_Ra_S4	Odocoileus virginianus texanus	Aedes	dorsalis	9880.0
-	ALCO			Metazoa			0.0006139420661941173	11.0	CMS001_012_Ra_S4	Odocoileus hemionus	Aedes	dorsalis	9872.0
-	ALCO			Metazoa			0.00016743874532566835	3.0	CMS001_012_Ra_S4	Odocoileus	Aedes	dorsalis	9871.0
-	WVAL 			Metazoa			0.0003633343714315374	14.0	CMS002_026d_Rb_S149_L004	Trachelas tranquillus	Aedes	albopictus	1479691.0
-	WVAL 			Metazoa			3.97444432300309e-05	4.0	CMS002_045c_Rb_S185_L004	Laurasiatheria	Aedes	albopictus	314145.0
-	WVAL 			Metazoa			0.0001816671857157687	7.0	CMS002_026d_Rb_S149_L004	Araneomorphae	Aedes	albopictus	6905.0
-	WVAL 			Metazoa			0.027586206896551724	4.0	CMS002_025c_Rb_S142_L004	Mus musculus	Aedes	aegypti	10090.0
+	ALCO	Other metazoa		Metazoa			0.0247353134076642	264.0	CMS001_003_Ra_S2	Boreoeutheria	Culiseta	particeps	1437010.0
+	ALCO	Other metazoa		Metazoa			0.0033273124821751117	140.0	CMS001_009_Ra_S13	Boreoeutheria	Culiseta	particeps	1437010.0
+	ALCO	Other metazoa		Metazoa			0.0033251160924152954	58.0	CMS001_025_Ra_S7	Boreoeutheria	Culiseta	particeps	1437010.0
+	ALCO	Other metazoa		Metazoa			0.00068661669622933	12.0	CMS001_008_Ra_S3	Boreoeutheria	Culiseta	particeps	1437010.0
+	ALCO	Other metazoa		Metazoa			0.00093694368968425	10.0	CMS001_003_Ra_S2	Larinioides cornutus	Culiseta	particeps	336591.0
+	ALCO	Other metazoa		Metazoa			0.09978450295137262	1065.0	CMS001_003_Ra_S2	Laurasiatheria	Culiseta	particeps	314145.0
+	ALCO	Other metazoa		Metazoa			0.015677747897236367	274.0	CMS001_008_Ra_S3	Laurasiatheria	Culiseta	particeps	314145.0
+	ALCO	Other metazoa		Metazoa			0.0007842950850841335	33.0	CMS001_009_Ra_S13	Laurasiatheria	Culiseta	particeps	314145.0
+	ALCO	Other metazoa		Metazoa			0.012587972764204383	220.0	CMS001_008_Ra_S3	Bubalus bubalis	Culiseta	particeps	89462.0
+	ALCO	Other metazoa		Metazoa			0.00168649864143165	18.0	CMS001_003_Ra_S2	Entelegynae	Culiseta	particeps	74971.0
+	ALCO	Other metazoa		Metazoa			0.0003747774758737	4.0	CMS001_003_Ra_S2	Bos mutus	Culiseta	particeps	72004.0
+	ALCO	Other metazoa		Metazoa			0.000281083106905275	3.0	CMS001_003_Ra_S2	Pecora	Culiseta	particeps	35500.0
+	ALCO	Other metazoa		Metazoa			0.0014876695084968816	26.0	CMS001_008_Ra_S3	Bovinae	Culiseta	particeps	27592.0
+	ALCO	Other metazoa		Metazoa			0.000281083106905275	3.0	CMS001_003_Ra_S2	Ovis aries musimon	Culiseta	particeps	9938.0
+	ALCO	Other metazoa		Metazoa			0.0003747774758737	4.0	CMS001_003_Ra_S2	Bos taurus	Culiseta	particeps	9913.0
+	ALCO	Other metazoa		Metazoa			0.013274589460433714	232.0	CMS001_008_Ra_S3	Bovidae	Culiseta	particeps	9895.0
+	ALCO	Other metazoa		Metazoa			0.019207345638527124	205.0	CMS001_003_Ra_S2	Bovidae	Culiseta	particeps	9895.0
+	ALCO	Other metazoa		Metazoa			0.0011883258864911113	50.0	CMS001_009_Ra_S13	Bovidae	Culiseta	particeps	9895.0
+	ALCO	Other metazoa		Metazoa			0.0640869483744027	684.0	CMS001_003_Ra_S2	Odocoileinae	Culiseta	particeps	9881.0
+	ALCO	Other metazoa		Metazoa			0.007781655890599073	136.0	CMS001_008_Ra_S3	Odocoileinae	Culiseta	particeps	9881.0
+	ALCO	Other metazoa		Metazoa			0.0013759101072063293	24.0	CMS001_025_Ra_S7	Odocoileinae	Culiseta	particeps	9881.0
+	ALCO	Other metazoa		Metazoa			0.000655860582778975	7.0	CMS001_003_Ra_S2	Odocoileus virginianus texanus	Culiseta	particeps	9880.0
+	ALCO	Other metazoa		Metazoa			0.0005159662902023735	9.0	CMS001_025_Ra_S7	Odocoileus hemionus hemionus	Culiseta	particeps	9877.0
+	ALCO	Other metazoa		Metazoa			0.002904525438021175	31.0	CMS001_003_Ra_S2	Odocoileus	Culiseta	particeps	9871.0
+	ALCO	Other metazoa		Metazoa			0.0001901321418385778	8.0	CMS001_009_Ra_S13	Cervidae	Culiseta	particeps	9850.0
+	ALCO	Other metazoa		Metazoa			0.000401307114601846	7.0	CMS001_025_Ra_S7	Cervidae	Culiseta	particeps	9850.0
+	ALCO	Other metazoa		Metazoa			0.003747774758737	40.0	CMS001_003_Ra_S2	Araneidae	Culiseta	particeps	6913.0
+	ALCO	Other metazoa		Metazoa			0.003982930298719772	28.0	CMS001_016_Ra_S6	Boreoeutheria	Culiseta	inornata	1437010.0
+	ALCO	Other metazoa		Metazoa			0.00020463288859785546	10.0	CMS001_060_Ra_S12	Boreoeutheria	Culiseta	inornata	1437010.0
+	ALCO	Other metazoa		Metazoa			0.010395350740771057	508.0	CMS001_060_Ra_S12	Simiiformes	Culiseta	inornata	314293.0
+	ALCO	Other metazoa		Metazoa			0.07652916073968706	538.0	CMS001_016_Ra_S6	Laurasiatheria	Culiseta	inornata	314145.0
+	ALCO	Other metazoa		Metazoa			0.007837439633297864	383.0	CMS001_060_Ra_S12	Laurasiatheria	Culiseta	inornata	314145.0
+	ALCO	Other metazoa		Metazoa			8.185315543914218e-05	4.0	CMS001_060_Ra_S12	Plagiorchis	Culiseta	inornata	84104.0
+	ALCO	Other metazoa		Metazoa			8.185315543914218e-05	4.0	CMS001_060_Ra_S12	Plagiorchioidea	Culiseta	inornata	56251.0
+	ALCO	Other metazoa		Metazoa			0.000450192354915282	22.0	CMS001_060_Ra_S12	Bilateria	Culiseta	inornata	33213.0
+	ALCO	Other metazoa		Metazoa			0.000995732574679943	7.0	CMS001_016_Ra_S6	Bilateria	Culiseta	inornata	33213.0
+	ALCO	Other metazoa		Metazoa			0.0004267425320056899	3.0	CMS001_016_Ra_S6	Bos taurus	Culiseta	inornata	9913.0
+	ALCO	Other metazoa		Metazoa			0.000491118932634853	24.0	CMS001_060_Ra_S12	Bos	Culiseta	inornata	9903.0
+	ALCO	Other metazoa		Metazoa			0.008737824343128428	427.0	CMS001_060_Ra_S12	Bovidae	Culiseta	inornata	9895.0
+	ALCO	Other metazoa		Metazoa			0.05248933143669986	369.0	CMS001_016_Ra_S6	Bovidae	Culiseta	inornata	9895.0
+	ALCO	Other metazoa		Metazoa			0.005443234836702955	266.0	CMS001_060_Ra_S12	Odocoileinae	Culiseta	inornata	9881.0
+	ALCO	Other metazoa		Metazoa			0.0011379800853485065	8.0	CMS001_016_Ra_S6	Odocoileus virginianus texanus	Culiseta	inornata	9880.0
+	ALCO	Other metazoa		Metazoa			6.138986657935663e-05	3.0	CMS001_060_Ra_S12	Odocoileus virginianus texanus	Culiseta	inornata	9880.0
+	ALCO	Other metazoa		Metazoa			0.0005689900426742532	4.0	CMS001_016_Ra_S6	Odocoileus hemionus	Culiseta	inornata	9872.0
+	ALCO	Other metazoa		Metazoa			0.032290184921763866	227.0	CMS001_016_Ra_S6	Odocoileus	Culiseta	inornata	9871.0
+	ALCO	Other metazoa		Metazoa			0.001513002364066194	16.0	CMS001_005_Ra_S3	Boreoeutheria	Culiseta	incidens	1437010.0
+	ALCO	Other metazoa		Metazoa			0.05002364066193854	529.0	CMS001_005_Ra_S3	Homo sapiens	Culiseta	incidens	9606.0
+	ALCO	Other metazoa		Metazoa			0.005295508274231678	56.0	CMS001_005_Ra_S3	Pan	Culiseta	incidens	9596.0
+	PLCR	Other metazoa		Metazoa			8.044686484576938e-05	23.0	CMS002_056a_Rb_S9_L004	Acarus	Culex	tarsalis	66545.0
+	COAV	Other metazoa		Metazoa			0.0013224597751818382	6.0	CMS002_042a_Rb_S177_L004	Spiruromorpha	Culex	tarsalis	2072716.0
+	COAV	Other metazoa		Metazoa			2.2094808824666645e-05	4.0	CMS002_031a_Rb_S165_L004	Sus scrofa	Culex	tarsalis	9823.0
+	COAV	Onchocercidae		Metazoa			0.001102049812651532	5.0	CMS002_042a_Rb_S177_L004	Loa loa	Culex	tarsalis	7209.0
+	COAV	Onchocercidae		Metazoa			0.125192858717214	568.0	CMS002_042a_Rb_S177_L004	Onchocercidae	Culex	tarsalis	6296.0
+	COAV	Other metazoa		Metazoa			0.19969142605245757	906.0	CMS002_042a_Rb_S177_L004	Filarioidea	Culex	tarsalis	6295.0
+	COAV	Onchocercidae		Metazoa			0.0026449195503636764	12.0	CMS002_042a_Rb_S177_L004	Onchocerca volvulus	Culex	tarsalis	6282.0
+	ALCO	Other metazoa		Metazoa			0.002193606724827944	131.0	CMS001_036_Ra_S20	Boreoeutheria	Culex	tarsalis	1437010.0
+	ALCO	Other metazoa		Metazoa			0.00041369653767820775	13.0	CMS001_031_Ra_S19	Boreoeutheria	Culex	tarsalis	1437010.0
+	ALCO	Other metazoa		Metazoa			0.00026531063453460096	12.0	CMS001_028_Ra_S17	Boreoeutheria	Culex	tarsalis	1437010.0
+	ALCO	Other metazoa		Metazoa			3.33207454961459e-05	12.0	CMS001_046_Ra_S3	Boreoeutheria	Culex	tarsalis	1437010.0
+	ALCO	Other metazoa		Metazoa			7.29438939882074e-05	6.0	CMS001_038_Ra_S22	Boreoeutheria	Culex	tarsalis	1437010.0
+	ALCO	Onchocercidae		Metazoa			0.00029347566903281425	16.0	CMS001_032_Ra_S7	Onchocercidae sp. MI1 GLH-2012	Culex	tarsalis	1237907.0
+	ALCO	Other metazoa		Metazoa			0.018966395112016293	596.0	CMS001_031_Ra_S19	Caniformia	Culex	tarsalis	379584.0
+	ALCO	Other metazoa		Metazoa			0.0076276807428697765	345.0	CMS001_028_Ra_S17	Caniformia	Culex	tarsalis	379584.0
+	ALCO	Other metazoa		Metazoa			0.01164670840678378	958.0	CMS001_038_Ra_S22	Laurasiatheria	Culex	tarsalis	314145.0
+	ALCO	Other metazoa		Metazoa			0.0032820375424906646	196.0	CMS001_036_Ra_S20	Laurasiatheria	Culex	tarsalis	314145.0
+	ALCO	Other metazoa		Metazoa			0.0004720438945287336	170.0	CMS001_046_Ra_S3	Laurasiatheria	Culex	tarsalis	314145.0
+	ALCO	Other metazoa		Metazoa			9.546843177189409e-05	3.0	CMS001_031_Ra_S19	Laurasiatheria	Culex	tarsalis	314145.0
+	ALCO	Other metazoa		Metazoa			0.0005875440658049355	13.0	CMS001_027_Ra_S16	Passeroidea	Culex	tarsalis	175121.0
+	ALCO	Other metazoa		Metazoa			7.336891725820356e-05	4.0	CMS001_032_Ra_S7	Passeroidea	Culex	tarsalis	175121.0
+	ALCO	Other metazoa		Metazoa			0.009816493477780235	444.0	CMS001_028_Ra_S17	Ursus arctos horribilis	Culex	tarsalis	116960.0
+	ALCO	Other metazoa		Metazoa			0.0022708840227088404	56.0	CMS001_043_Ra_S24	Pipridae	Culex	tarsalis	114313.0
+	ALCO	Other metazoa		Metazoa			6.698035801001356e-05	4.0	CMS001_036_Ra_S20	Ovis canadensis canadensis	Culex	tarsalis	112262.0
+	ALCO	Other metazoa		Metazoa			8.372544751251695e-05	5.0	CMS001_036_Ra_S20	Cetartiodactyla	Culex	tarsalis	91561.0
+	ALCO	Other metazoa		Metazoa			4.8629262658804935e-05	4.0	CMS001_038_Ra_S22	Cetartiodactyla	Culex	tarsalis	91561.0
+	ALCO	Other metazoa		Metazoa			9.171114657275445e-05	5.0	CMS001_032_Ra_S7	Corvus brachyrhynchos	Culex	tarsalis	85066.0
+	ALCO	Other metazoa		Metazoa			0.00018078278947844165	4.0	CMS001_027_Ra_S16	Geospiza fortis	Culex	tarsalis	48883.0
+	ALCO	Other metazoa		Metazoa			0.0032282323593609582	176.0	CMS001_032_Ra_S7	Zonotrichia albicollis	Culex	tarsalis	44394.0
+	ALCO	Other metazoa		Metazoa			0.000843742548469341	46.0	CMS001_032_Ra_S7	Aphelocoma	Culex	tarsalis	39616.0
+	ALCO	Other metazoa		Metazoa			0.0012654795263490916	28.0	CMS001_027_Ra_S16	Aphelocoma	Culex	tarsalis	39616.0
+	ALCO	Other metazoa		Metazoa			0.0011354420113544202	28.0	CMS001_043_Ra_S24	Aphelocoma	Culex	tarsalis	39616.0
+	ALCO	Other metazoa		Metazoa			0.0002511763425375509	15.0	CMS001_036_Ra_S20	Pecora	Culex	tarsalis	35500.0
+	ALCO	Other metazoa		Metazoa			0.0005085120495246518	23.0	CMS001_028_Ra_S17	Carnivora	Culex	tarsalis	33554.0
+	ALCO	Other metazoa		Metazoa			0.010033199435059337	547.0	CMS001_032_Ra_S7	Sauria	Culex	tarsalis	32561.0
+	ALCO	Other metazoa		Metazoa			0.014639091646390916	361.0	CMS001_043_Ra_S24	Sauria	Culex	tarsalis	32561.0
+	ALCO	Other metazoa		Metazoa			0.07330742113350809	1622.0	CMS001_027_Ra_S16	Haemorhous mexicanus	Culex	tarsalis	30427.0
+	ALCO	Other metazoa		Metazoa			1.1106915165381966e-05	4.0	CMS001_046_Ra_S3	Bos taurus	Culex	tarsalis	9913.0
+	ALCO	Other metazoa		Metazoa			5.0235268507510174e-05	3.0	CMS001_036_Ra_S20	Bos	Culex	tarsalis	9903.0
+	ALCO	Other metazoa		Metazoa			0.0018132039007486061	653.0	CMS001_046_Ra_S3	Bovidae	Culex	tarsalis	9895.0
+	ALCO	Other metazoa		Metazoa			0.00561667983709197	462.0	CMS001_038_Ra_S22	Bovidae	Culex	tarsalis	9895.0
+	ALCO	Other metazoa		Metazoa			0.001758234397762856	105.0	CMS001_036_Ra_S20	Bovidae	Culex	tarsalis	9895.0
+	ALCO	Other metazoa		Metazoa			6.698035801001356e-05	4.0	CMS001_036_Ra_S20	Muntiacus	Culex	tarsalis	9885.0
+	ALCO	Other metazoa		Metazoa			0.026691672666990404	1594.0	CMS001_036_Ra_S20	Odocoileinae	Culex	tarsalis	9881.0
+	ALCO	Other metazoa		Metazoa			0.00620023098899763	510.0	CMS001_038_Ra_S22	Odocoileinae	Culex	tarsalis	9881.0
+	ALCO	Other metazoa		Metazoa			0.0004276162338672057	154.0	CMS001_046_Ra_S3	Odocoileinae	Culex	tarsalis	9881.0
+	ALCO	Other metazoa		Metazoa			5.0235268507510174e-05	3.0	CMS001_036_Ra_S20	Odocoileus hemionus	Culex	tarsalis	9872.0
+	ALCO	Other metazoa		Metazoa			5.0235268507510174e-05	3.0	CMS001_036_Ra_S20	Cervidae	Culex	tarsalis	9850.0
+	ALCO	Other metazoa		Metazoa			0.0004908515427971767	29.0	CMS001_042_Ra_S23	Felis catus	Culex	tarsalis	9685.0
+	ALCO	Other metazoa		Metazoa			0.002471183629254752	146.0	CMS001_042_Ra_S23	Felis	Culex	tarsalis	9682.0
+	ALCO	Other metazoa		Metazoa			0.007987525458248473	251.0	CMS001_031_Ra_S19	Procyon lotor	Culex	tarsalis	9654.0
+	ALCO	Other metazoa		Metazoa			0.0013044439531284546	59.0	CMS001_028_Ra_S17	Procyon lotor	Culex	tarsalis	9654.0
+	ALCO	Other metazoa		Metazoa			0.010787932790224032	339.0	CMS001_031_Ra_S19	Macaca mulatta	Culex	tarsalis	9544.0
+	ALCO	Other metazoa		Metazoa			0.00022109219544550078	10.0	CMS001_028_Ra_S17	Eutheria	Culex	tarsalis	9347.0
+	ALCO	Other metazoa		Metazoa			0.00012729124236252545	4.0	CMS001_031_Ra_S19	Eutheria	Culex	tarsalis	9347.0
+	ALCO	Other metazoa		Metazoa			0.01370640713706407	338.0	CMS001_043_Ra_S24	Sturnus vulgaris	Culex	tarsalis	9172.0
+	ALCO	Other metazoa		Metazoa			0.00018078278947844165	4.0	CMS001_027_Ra_S16	Parus major	Culex	tarsalis	9157.0
+	ALCO	Other metazoa		Metazoa			0.02711741842176624	600.0	CMS001_027_Ra_S16	Serinus canaria	Culex	tarsalis	9135.0
+	ALCO	Other metazoa		Metazoa			0.029952860470661626	1633.0	CMS001_032_Ra_S7	Passeriformes	Culex	tarsalis	9126.0
+	ALCO	Other metazoa		Metazoa			0.008406399710747536	186.0	CMS001_027_Ra_S16	Passeriformes	Culex	tarsalis	9126.0
+	ALCO	Other metazoa		Metazoa			4.658909582212283e-05	4.0	CMS001_033_Ra_S8	Gallus gallus	Culex	tarsalis	9031.0
+	ALCO	Other metazoa		Metazoa			0.053504282910544945	2917.0	CMS001_032_Ra_S7	Columbidae	Culex	tarsalis	8930.0
+	ALCO	Other metazoa		Metazoa			0.33589442285094456	7432.0	CMS001_027_Ra_S16	Neognathae	Culex	tarsalis	8825.0
+	ALCO	Other metazoa		Metazoa			0.055320163612685484	3016.0	CMS001_032_Ra_S7	Neognathae	Culex	tarsalis	8825.0
+	ALCO	Other metazoa		Metazoa			0.09586374695863746	2364.0	CMS001_043_Ra_S24	Neognathae	Culex	tarsalis	8825.0
+	ALCO	Other metazoa		Metazoa			0.00012165450121654502	3.0	CMS001_043_Ra_S24	Aves	Culex	tarsalis	8782.0
+	ALCO	Other metazoa		Metazoa			5.502668794365267e-05	3.0	CMS001_032_Ra_S7	Aves	Culex	tarsalis	8782.0
+	ALCO	Onchocercidae		Metazoa			0.00014673783451640712	8.0	CMS001_032_Ra_S7	Loa loa	Culex	tarsalis	7209.0
+	ALCO	Other metazoa		Metazoa			7.336891725820356e-05	4.0	CMS001_032_Ra_S7	Nematoda	Culex	tarsalis	6231.0
+	ALCO	Other metazoa		Metazoa			0.03934614219568134	3637.0	CMS001_041_Ra_S10	Boreoeutheria	Culex	pipiens	1437010.0
+	ALCO	Other metazoa		Metazoa			0.00010380173867912288	4.0	CMS001_004_Ra_S2	Boreoeutheria	Culex	pipiens	1437010.0
+	ALCO	Onchocercidae		Metazoa			0.0002504522053708084	18.0	CMS001_029_Ra_S18	Onchocercidae sp. MI1 GLH-2012	Culex	pipiens	1237907.0
+	ALCO	Other metazoa		Metazoa			0.0030116002379535992	243.0	CMS001_059_Ra_S10	Pipra filicauda	Culex	pipiens	649802.0
+	ALCO	Other metazoa		Metazoa			0.010665628649279876	411.0	CMS001_004_Ra_S2	Caniformia	Culex	pipiens	379584.0
+	ALCO	Other metazoa		Metazoa			0.0014071766006633832	84.0	CMS001_030_Ra_S7	Caniformia	Culex	pipiens	379584.0
+	ALCO	Other metazoa		Metazoa			8.654636721623609e-05	8.0	CMS001_041_Ra_S10	Sciurini	Culex	pipiens	337752.0
+	ALCO	Other metazoa		Metazoa			5.565604563795742e-05	4.0	CMS001_029_Ra_S18	Lonchura striata domestica	Culex	pipiens	299123.0
+	ALCO	Other metazoa		Metazoa			0.0003685462525546956	22.0	CMS001_030_Ra_S7	Canis lupus dingo	Culex	pipiens	286419.0
+	ALCO	Other metazoa		Metazoa			0.00013914011409489355	10.0	CMS001_029_Ra_S18	Passeroidea	Culex	pipiens	175121.0
+	ALCO	Other metazoa		Metazoa			0.008900999091734786	343.0	CMS001_004_Ra_S2	Ursus arctos horribilis	Culex	pipiens	116960.0
+	ALCO	Other metazoa		Metazoa			4.9573666468372e-05	4.0	CMS001_059_Ra_S10	Corvus brachyrhynchos	Culex	pipiens	85066.0
+	ALCO	Other metazoa		Metazoa			5.565604563795742e-05	4.0	CMS001_029_Ra_S18	Taeniopygia guttata	Culex	pipiens	59729.0
+	ALCO	Other metazoa		Metazoa			0.0003894586524730624	36.0	CMS001_041_Ra_S10	Sciuridae	Culex	pipiens	55153.0
+	ALCO	Other metazoa		Metazoa			0.015987199109503268	1149.0	CMS001_029_Ra_S18	Zonotrichia albicollis	Culex	pipiens	44394.0
+	ALCO	Other metazoa		Metazoa			0.000694031330557208	56.0	CMS001_059_Ra_S10	Zonotrichia albicollis	Culex	pipiens	44394.0
+	ALCO	Other metazoa		Metazoa			0.007906999801705334	638.0	CMS001_059_Ra_S10	Zonotrichia leucophrys	Culex	pipiens	44393.0
+	ALCO	Other metazoa		Metazoa			0.0011892963330029733	42.0	CMS001_054_Ra_S11	Zonotrichia leucophrys	Culex	pipiens	44393.0
+	ALCO	Other metazoa		Metazoa			0.00033979895228656383	12.0	CMS001_054_Ra_S11	Zonotrichia	Culex	pipiens	44387.0
+	ALCO	Other metazoa		Metazoa			0.010016867782535356	386.0	CMS001_004_Ra_S2	Carnivora	Culex	pipiens	33554.0
+	ALCO	Other metazoa		Metazoa			0.004020504573323952	240.0	CMS001_030_Ra_S7	Carnivora	Culex	pipiens	33554.0
+	ALCO	Other metazoa		Metazoa			0.001061969015492254	34.0	CMS001_040_Ra_S21	Haemorhous mexicanus	Culex	pipiens	30427.0
+	ALCO	Other metazoa		Metazoa			0.010198520825223824	393.0	CMS001_004_Ra_S2	Procyon lotor	Culex	pipiens	9654.0
+	ALCO	Other metazoa		Metazoa			0.0035681978088250074	213.0	CMS001_030_Ra_S7	Procyon lotor	Culex	pipiens	9654.0
+	ALCO	Other metazoa		Metazoa			0.00020760347735824576	8.0	CMS001_004_Ra_S2	Eutheria	Culex	pipiens	9347.0
+	ALCO	Other metazoa		Metazoa			6.70084095553992e-05	4.0	CMS001_030_Ra_S7	Eutheria	Culex	pipiens	9347.0
+	ALCO	Other metazoa		Metazoa			0.01031028245443162	741.0	CMS001_029_Ra_S18	Passeriformes	Culex	pipiens	9126.0
+	ALCO	Other metazoa		Metazoa			9.9147332936744e-05	8.0	CMS001_059_Ra_S10	Passeriformes	Culex	pipiens	9126.0
+	ALCO	Other metazoa		Metazoa			0.04942256852650619	3552.0	CMS001_029_Ra_S18	Neognathae	Culex	pipiens	8825.0
+	ALCO	Other metazoa		Metazoa			0.01820592901050962	1469.0	CMS001_059_Ra_S10	Neognathae	Culex	pipiens	8825.0
+	ALCO	Other metazoa		Metazoa			0.025532210936412968	1835.0	CMS001_029_Ra_S18	Aves	Culex	pipiens	8782.0
+	ALCO	Other metazoa		Metazoa			8.348406845693614e-05	6.0	CMS001_029_Ra_S18	Archosauria	Culex	pipiens	8492.0
+	ALCO	Other metazoa		Metazoa			0.010321579858003698	173.0	CMS001_053_Ra_S8	unclassified Mimetus	Culex	erythrothorax	2637918.0
+	ALCO	Other metazoa		Metazoa			0.06732857966887987	5486.0	CMS001_011_Ra_S4	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.011550516255222307	3431.0	CMS001_020_Ra_S15	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.12345287210409395	2334.0	CMS001_058_Ra_S9	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.06298233801211996	1216.0	CMS001_013_Ra_S5	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.018734712030242382	337.0	CMS001_048_Ra_S5	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.0018668073535976625	92.0	CMS001_019_Ra_S14	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.0006285855938805865	71.0	CMS001_057_Ra_S11	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.004562555030817258	57.0	CMS001_052_Ra_S7	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.0003761755485893417	42.0	CMS001_022_Ra_S6	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.0008728809666008178	19.0	CMS001_017_Ra_S6	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.001174704692292632	18.0	CMS001_056_Ra_S10	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			3.182458289906038e-05	16.0	CMS001_001_Ra_S1	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.00023864924527176182	4.0	CMS001_053_Ra_S8	Boreoeutheria	Culex	erythrothorax	1437010.0
+	ALCO	Other metazoa		Metazoa			0.00031735956839098697	6.0	CMS001_058_Ra_S9	Mecaphesa asperata	Culex	erythrothorax	637355.0
+	ALCO	Other metazoa		Metazoa			0.003818387924348189	64.0	CMS001_053_Ra_S8	Mimetus sp. TAB-2009	Culex	erythrothorax	593455.0
+	ALCO	Other metazoa		Metazoa			0.0005884501440688284	29.0	CMS001_019_Ra_S14	Caniformia	Culex	erythrothorax	379584.0
+	ALCO	Other metazoa		Metazoa			0.002258195162062321	184.0	CMS001_011_Ra_S4	Neotominae	Culex	erythrothorax	337963.0
+	ALCO	Other metazoa		Metazoa			0.003681839938145088	300.0	CMS001_011_Ra_S4	Muroidea	Culex	erythrothorax	337687.0
+	ALCO	Other metazoa		Metazoa			0.0004231460911879826	8.0	CMS001_058_Ra_S9	Muroidea	Culex	erythrothorax	337687.0
+	ALCO	Other metazoa		Metazoa			8.590959855671874e-05	7.0	CMS001_011_Ra_S4	Cricetidae	Culex	erythrothorax	337677.0
+	ALCO	Other metazoa		Metazoa			0.0029234532545790825	49.0	CMS001_053_Ra_S8	Mimetidae	Culex	erythrothorax	336669.0
+	ALCO	Other metazoa		Metazoa			0.006493506493506494	725.0	CMS001_022_Ra_S6	Euarchontoglires	Culex	erythrothorax	314146.0
+	ALCO	Other metazoa		Metazoa			0.00622637313764732	112.0	CMS001_048_Ra_S5	Euarchontoglires	Culex	erythrothorax	314146.0
+	ALCO	Other metazoa		Metazoa			0.0011912777749002953	23.0	CMS001_013_Ra_S5	Euarchontoglires	Culex	erythrothorax	314146.0
+	ALCO	Other metazoa		Metazoa			0.007415003549735742	658.0	CMS001_045_Ra_S2	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.005185848634124496	579.0	CMS001_022_Ra_S6	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.017088574006262274	322.0	CMS001_015_Ra_S13	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.02217241655326983	277.0	CMS001_052_Ra_S7	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.0022841561017069197	258.0	CMS001_057_Ra_S11	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.09382479655337482	196.0	CMS001_010_Ra_S1	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.007756100471332259	130.0	CMS001_053_Ra_S8	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.0003633654911793027	100.0	CMS001_035_Ra_S20	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.00017105713308244953	86.0	CMS001_001_Ra_S1	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.002224998048247326	57.0	CMS001_018_Ra_S14	Laurasiatheria	Culex	erythrothorax	314145.0
+	ALCO	Other metazoa		Metazoa			0.03241991509069857	1092.0	CMS001_037_Ra_S21	Porzana carolina	Culex	erythrothorax	261200.0
+	ALCO	Other metazoa		Metazoa			0.008517323056908973	694.0	CMS001_011_Ra_S4	Peromyscus maniculatus bairdii	Culex	erythrothorax	230844.0
+	ALCO	Other metazoa		Metazoa			0.0030547576710892267	67.0	CMS001_050_Ra_S23	Egretta garzetta	Culex	erythrothorax	188379.0
+	ALCO	Other metazoa		Metazoa			8.423535357789664e-05	6.0	CMS001_047_Ra_S4	Pipridae	Culex	erythrothorax	114313.0
+	ALCO	Other metazoa		Metazoa			0.00011264330226558383	31.0	CMS001_035_Ra_S20	Cetartiodactyla	Culex	erythrothorax	91561.0
+	ALCO	Other metazoa		Metazoa			0.011636517507669523	220.0	CMS001_058_Ra_S9	Microtus ochrogaster	Culex	erythrothorax	79684.0
+	ALCO	Other metazoa		Metazoa			0.000775610047133226	13.0	CMS001_053_Ra_S8	Entelegynae	Culex	erythrothorax	74971.0
+	ALCO	Other metazoa		Metazoa			0.00025270606073368994	18.0	CMS001_047_Ra_S4	Troglodytinae	Culex	erythrothorax	69501.0
+	ALCO	Other metazoa		Metazoa			0.0018212851338021768	541.0	CMS001_020_Ra_S15	Lepus californicus	Culex	erythrothorax	48087.0
+	ALCO	Other metazoa		Metazoa			0.006357310293197187	518.0	CMS001_011_Ra_S4	Murinae	Culex	erythrothorax	39107.0
+	ALCO	Other metazoa		Metazoa			0.0037715363296094173	132.0	CMS001_049_Ra_S6	Murinae	Culex	erythrothorax	39107.0
+	ALCO	Other metazoa		Metazoa			0.004225038914832111	76.0	CMS001_048_Ra_S5	Murinae	Culex	erythrothorax	39107.0
+	ALCO	Other metazoa		Metazoa			0.008674494869353644	164.0	CMS001_058_Ra_S9	Arvicolinae	Culex	erythrothorax	39087.0
+	ALCO	Other metazoa		Metazoa			0.0007304898340164766	36.0	CMS001_019_Ra_S14	Carnivora	Culex	erythrothorax	33554.0
+	ALCO	Other metazoa		Metazoa			0.010569129828103197	356.0	CMS001_037_Ra_S21	Sauria	Culex	erythrothorax	32561.0
+	ALCO	Other metazoa		Metazoa			0.052343491120629346	4265.0	CMS001_011_Ra_S4	Amniota	Culex	erythrothorax	32524.0
+	ALCO	Other metazoa		Metazoa			0.069590000890657	2344.0	CMS001_037_Ra_S21	Amniota	Culex	erythrothorax	32524.0
+	ALCO	Other metazoa		Metazoa			0.01999274874397887	386.0	CMS001_013_Ra_S5	Amniota	Culex	erythrothorax	32524.0
+	ALCO	Other metazoa		Metazoa			0.002185962994769303	56.0	CMS001_018_Ra_S14	Bos indicus x Bos taurus	Culex	erythrothorax	30522.0
+	ALCO	Other metazoa		Metazoa			0.11913497887480541	2143.0	CMS001_048_Ra_S5	Rattus norvegicus	Culex	erythrothorax	10116.0
+	ALCO	Other metazoa		Metazoa			0.04325837881082317	1514.0	CMS001_049_Ra_S6	Rattus norvegicus	Culex	erythrothorax	10116.0
+	ALCO	Other metazoa		Metazoa			4.909119917526785e-05	4.0	CMS001_011_Ra_S4	Mus musculus	Culex	erythrothorax	10090.0
+	ALCO	Other metazoa		Metazoa			0.0008449955057011946	251.0	CMS001_020_Ra_S15	Oryctolagus cuniculus	Culex	erythrothorax	9986.0
+	ALCO	Other metazoa		Metazoa			0.0013466618324959859	26.0	CMS001_013_Ra_S5	Oryctolagus cuniculus	Culex	erythrothorax	9986.0
+	ALCO	Other metazoa		Metazoa			0.0028487077225876622	55.0	CMS001_013_Ra_S5	Leporidae	Culex	erythrothorax	9979.0
+	ALCO	Other metazoa		Metazoa			0.007994749716604022	134.0	CMS001_053_Ra_S8	Ovis aries	Culex	erythrothorax	9940.0
+	ALCO	Other metazoa		Metazoa			0.00016121809225257502	18.0	CMS001_022_Ra_S6	Bos taurus	Culex	erythrothorax	9913.0
+	ALCO	Other metazoa		Metazoa			7.082654578936186e-05	8.0	CMS001_057_Ra_S11	Bos taurus	Culex	erythrothorax	9913.0
+	ALCO	Other metazoa		Metazoa			0.000318420633657061	6.0	CMS001_015_Ra_S13	Bos taurus	Culex	erythrothorax	9913.0
+	ALCO	Other metazoa		Metazoa			7.956145724765095e-06	4.0	CMS001_001_Ra_S1	Bos taurus	Culex	erythrothorax	9913.0
+	ALCO	Other metazoa		Metazoa			0.0005911330049261083	66.0	CMS001_022_Ra_S6	Bos	Culex	erythrothorax	9903.0
+	ALCO	Other metazoa		Metazoa			0.00916318436149869	1035.0	CMS001_057_Ra_S11	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.006412897447380206	716.0	CMS001_022_Ra_S6	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.0014122158661458043	710.0	CMS001_001_Ra_S1	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.004124454862011066	366.0	CMS001_045_Ra_S2	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.02481389578163772	310.0	CMS001_052_Ra_S7	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.009871039643368891	186.0	CMS001_015_Ra_S13	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.07467687888942078	156.0	CMS001_010_Ra_S1	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.005386837379967211	138.0	CMS001_018_Ra_S14	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.006085555754429927	102.0	CMS001_053_Ra_S8	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.00011264330226558383	31.0	CMS001_035_Ra_S20	Bovidae	Culex	erythrothorax	9895.0
+	ALCO	Other metazoa		Metazoa			0.0012093341501642945	608.0	CMS001_001_Ra_S1	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			0.00445141065830721	497.0	CMS001_022_Ra_S6	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			0.002903888377363836	328.0	CMS001_057_Ra_S11	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			0.01664932362122789	208.0	CMS001_052_Ra_S7	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			0.0017354263627041098	154.0	CMS001_045_Ra_S2	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			0.008949346697691068	150.0	CMS001_053_Ra_S8	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			0.00658069309557926	124.0	CMS001_015_Ra_S13	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			0.003669295026934187	94.0	CMS001_018_Ra_S14	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			0.03446625179511728	72.0	CMS001_010_Ra_S1	Odocoileinae	Culex	erythrothorax	9881.0
+	ALCO	Other metazoa		Metazoa			4.478280340349306e-05	5.0	CMS001_022_Ra_S6	Odocoileus virginianus texanus	Culex	erythrothorax	9880.0
+	ALCO	Other metazoa		Metazoa			7.956145724765095e-06	4.0	CMS001_001_Ra_S1	Odocoileus virginianus texanus	Culex	erythrothorax	9880.0
+	ALCO	Other metazoa		Metazoa			0.0028721876495931067	6.0	CMS001_010_Ra_S1	Odocoileus hemionus hemionus	Culex	erythrothorax	9877.0
+	ALCO	Other metazoa		Metazoa			0.00011138604014671132	56.0	CMS001_001_Ra_S1	Odocoileus hemionus	Culex	erythrothorax	9872.0
+	ALCO	Other metazoa		Metazoa			3.5826242722794445e-05	4.0	CMS001_022_Ra_S6	Odocoileus hemionus	Culex	erythrothorax	9872.0
+	ALCO	Other metazoa		Metazoa			8.720771788303265e-05	24.0	CMS001_035_Ra_S20	Odocoileus	Culex	erythrothorax	9871.0
+	ALCO	Other metazoa		Metazoa			5.967109293573821e-06	3.0	CMS001_001_Ra_S1	Cervidae	Culex	erythrothorax	9850.0
+	ALCO	Other metazoa		Metazoa			0.0012580658252505986	62.0	CMS001_019_Ra_S14	Felis catus	Culex	erythrothorax	9685.0
+	ALCO	Other metazoa		Metazoa			0.003611866401525912	178.0	CMS001_019_Ra_S14	Felis	Culex	erythrothorax	9682.0
+	ALCO	Other metazoa		Metazoa			0.007940501466599576	647.0	CMS001_011_Ra_S4	Eutheria	Culex	erythrothorax	9347.0
+	ALCO	Other metazoa		Metazoa			0.005670446964643095	102.0	CMS001_048_Ra_S5	Eutheria	Culex	erythrothorax	9347.0
+	ALCO	Other metazoa		Metazoa			0.000926588889356863	66.0	CMS001_047_Ra_S4	Passeriformes	Culex	erythrothorax	9126.0
+	ALCO	Other metazoa		Metazoa			0.10185565130169151	2234.0	CMS001_050_Ra_S23	Columbidae	Culex	erythrothorax	8930.0
+	ALCO	Other metazoa		Metazoa			0.020015501755345826	439.0	CMS001_050_Ra_S23	Nycticorax nycticorax	Culex	erythrothorax	8901.0
+	ALCO	Other metazoa		Metazoa			0.02902587703362803	719.0	CMS001_023_Ra_S17	Anas platyrhynchos	Culex	erythrothorax	8839.0
+	ALCO	Other metazoa		Metazoa			0.002220338298817165	55.0	CMS001_023_Ra_S17	Anatidae	Culex	erythrothorax	8830.0
+	ALCO	Other metazoa		Metazoa			0.07885283377371374	2656.0	CMS001_037_Ra_S21	Neognathae	Culex	erythrothorax	8825.0
+	ALCO	Other metazoa		Metazoa			0.08275201750786483	1815.0	CMS001_050_Ra_S23	Neognathae	Culex	erythrothorax	8825.0
+	ALCO	Other metazoa		Metazoa			0.005798200171278552	413.0	CMS001_047_Ra_S4	Neognathae	Culex	erythrothorax	8825.0
+	ALCO	Other metazoa		Metazoa			0.026854511466739613	589.0	CMS001_050_Ra_S23	Aves	Culex	erythrothorax	8782.0
+	ALCO	Other metazoa		Metazoa			0.0004750170709259864	16.0	CMS001_037_Ra_S21	Aves	Culex	erythrothorax	8782.0
+	ALCO	Other metazoa		Metazoa			0.00016147914900488476	4.0	CMS001_023_Ra_S17	Aves	Culex	erythrothorax	8782.0
+	ALCO	Other metazoa		Metazoa			0.004410135906249264	1310.0	CMS001_020_Ra_S15	Gnathostomata	Culex	erythrothorax	7776.0
+	ALCO	Other metazoa		Metazoa			0.015181112909527264	272.0	CMS001_012_Ra_S4	Boreoeutheria	Aedes	dorsalis	1437010.0
+	ALCO	Other metazoa		Metazoa			0.05637104425964168	1010.0	CMS001_012_Ra_S4	Laurasiatheria	Aedes	dorsalis	314145.0
+	ALCO	Other metazoa		Metazoa			0.0003906904057598928	7.0	CMS001_012_Ra_S4	Pecora	Aedes	dorsalis	35500.0
+	ALCO	Other metazoa		Metazoa			0.0008371937266283418	15.0	CMS001_012_Ra_S4	Bilateria	Aedes	dorsalis	33213.0
+	ALCO	Other metazoa		Metazoa			0.00016743874532566835	3.0	CMS001_012_Ra_S4	Amniota	Aedes	dorsalis	32524.0
+	ALCO	Other metazoa		Metazoa			0.0005581291510855613	10.0	CMS001_012_Ra_S4	Bos taurus	Aedes	dorsalis	9913.0
+	ALCO	Other metazoa		Metazoa			0.053859463079756656	965.0	CMS001_012_Ra_S4	Bovidae	Aedes	dorsalis	9895.0
+	ALCO	Other metazoa		Metazoa			0.0597756320812636	1071.0	CMS001_012_Ra_S4	Odocoileinae	Aedes	dorsalis	9881.0
+	ALCO	Other metazoa		Metazoa			0.000948819556845454	17.0	CMS001_012_Ra_S4	Odocoileus virginianus texanus	Aedes	dorsalis	9880.0
+	ALCO	Other metazoa		Metazoa			0.0006139420661941173	11.0	CMS001_012_Ra_S4	Odocoileus hemionus	Aedes	dorsalis	9872.0
+	ALCO	Other metazoa		Metazoa			0.00016743874532566835	3.0	CMS001_012_Ra_S4	Odocoileus	Aedes	dorsalis	9871.0
+	WVAL 	Other metazoa		Metazoa			0.0003633343714315374	14.0	CMS002_026d_Rb_S149_L004	Trachelas tranquillus	Aedes	albopictus	1479691.0
+	WVAL 	Other metazoa		Metazoa			3.97444432300309e-05	4.0	CMS002_045c_Rb_S185_L004	Laurasiatheria	Aedes	albopictus	314145.0
+	WVAL 	Other metazoa		Metazoa			0.0001816671857157687	7.0	CMS002_026d_Rb_S149_L004	Araneomorphae	Aedes	albopictus	6905.0
+	WVAL 	Other metazoa		Metazoa			0.027586206896551724	4.0	CMS002_025c_Rb_S142_L004	Mus musculus	Aedes	aegypti	10090.0
 	ALCO	Other chordates		Chordates			0.0247353134076642	264.0	CMS001_003_Ra_S2	Boreoeutheria	Culiseta	particeps	1437010.0
 	ALCO	Other chordates		Chordates			0.0033273124821751117	140.0	CMS001_009_Ra_S13	Boreoeutheria	Culiseta	particeps	1437010.0
 	ALCO	Other chordates		Chordates			0.0033251160924152954	58.0	CMS001_025_Ra_S7	Boreoeutheria	Culiseta	particeps	1437010.0
@@ -1004,7 +1004,7 @@ V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L0
 	WVAL 	Other eukaryotes		Other Eukaryotes			3.102763528048982e-05	3.0	CMS002_029b_Rb_S160_L004	Wickerhamiella sp.	Culex	tarsalis	1869267.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			6.103474233166279e-05	9.0	CMS002_029e_Rb_S164_L004	Cenchrinae	Culex	tarsalis	1293361.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			6.205527056097964e-05	6.0	CMS002_029b_Rb_S160_L004	Sordariomycetidae	Culex	tarsalis	222544.0
-	WVAL 	Amblyosporidae		Other Eukaryotes			0.028594256147140035	5261.0	CMS002_029d_Rb_S162_L004	Amblyospora	Culex	tarsalis	33687.0
+	WVAL 	Microsporidia		Other Eukaryotes			0.028594256147140035	5261.0	CMS002_029d_Rb_S162_L004	Amblyospora	Culex	tarsalis	33687.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			7.239781565447626e-05	7.0	CMS002_029b_Rb_S160_L004	Melampsora	Culex	tarsalis	5260.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			3.932146873550021e-05	5.0	CMS002_029a_Rb_S159_L004	Melampsora	Culex	tarsalis	5260.0
 	PLCR	Other eukaryotes		Other Eukaryotes			1.3990759103612065e-05	4.0	CMS002_056a_Rb_S9_L004	Albugo laibachii Nc14	Culex	tarsalis	890382.0
@@ -1031,12 +1031,12 @@ V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L0
 	ALCO	Other eukaryotes		Other Eukaryotes			7.336891725820356e-05	4.0	CMS001_032_Ra_S7	Selaginella moellendorffii	Culex	tarsalis	88036.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.001724519124474906	78.0	CMS001_028_Ra_S17	Hanseniaspora guilliermondii	Culex	tarsalis	56406.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.00035374751271280126	16.0	CMS001_028_Ra_S17	Hanseniaspora valbyensis	Culex	tarsalis	53685.0
-	ALCO	Amblyosporidae		Other Eukaryotes			0.00048661800486618007	12.0	CMS001_043_Ra_S24	Amblyospora californica	Culex	tarsalis	51588.0
+	ALCO	Microsporidia		Other Eukaryotes			0.00048661800486618007	12.0	CMS001_043_Ra_S24	Amblyospora californica	Culex	tarsalis	51588.0
 	ALCO	Other eukaryotes		Other Eukaryotes			3.4941821866592126e-05	3.0	CMS001_033_Ra_S8	Peniophora nuda	Culex	tarsalis	40464.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.0001841959845275373	11.0	CMS001_036_Ra_S20	Xylariaceae	Culex	tarsalis	37990.0
-	ALCO	Amblyosporidae		Other Eukaryotes			0.009434076955808158	776.0	CMS001_038_Ra_S22	Amblyospora	Culex	tarsalis	33687.0
-	ALCO	Amblyosporidae		Other Eukaryotes			0.005525879535826119	330.0	CMS001_036_Ra_S20	Amblyospora	Culex	tarsalis	33687.0
-	ALCO	Amblyosporidae		Other Eukaryotes			0.00024330900243309004	6.0	CMS001_043_Ra_S24	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Microsporidia		Other Eukaryotes			0.009434076955808158	776.0	CMS001_038_Ra_S22	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Microsporidia		Other Eukaryotes			0.005525879535826119	330.0	CMS001_036_Ra_S20	Amblyospora	Culex	tarsalis	33687.0
+	ALCO	Microsporidia		Other Eukaryotes			0.00024330900243309004	6.0	CMS001_043_Ra_S24	Amblyospora	Culex	tarsalis	33687.0
 	ALCO	Other eukaryotes		Other Eukaryotes			0.00013265531726730045	6.0	CMS001_028_Ra_S17	Hanseniaspora uvarum	Culex	tarsalis	29833.0
 	ALCO	Apicomplexa		Other Eukaryotes			0.00018078278947844165	4.0	CMS001_027_Ra_S16	Plasmodium	Culex	tarsalis	5820.0
 	ALCO	Trypanosomatidae		Other Eukaryotes			0.0007153469432674847	39.0	CMS001_032_Ra_S7	Trypanosoma	Culex	tarsalis	5690.0
@@ -1114,7 +1114,7 @@ V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L0
 	WVAL 	Other eukaryotes		Other Eukaryotes			0.0003962393285544469	11.0	CMS002_047c_Rb_S195_L004	Albugo candida	Culex	erythrothorax	65357.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			0.002665610028457188	74.0	CMS002_047c_Rb_S195_L004	Albugo	Culex	erythrothorax	65356.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			1.6733352173848373e-05	9.0	CMS002_028e_Rb_S158_L004	Tamarix pentandra	Culex	erythrothorax	63103.0
-	WVAL 	Amblyosporidae		Other Eukaryotes			0.003923049144808116	239.0	CMS002_047j_Rb_S3_L004	Amblyospora	Culex	erythrothorax	33687.0
+	WVAL 	Microsporidia		Other Eukaryotes			0.003923049144808116	239.0	CMS002_047j_Rb_S3_L004	Amblyospora	Culex	erythrothorax	33687.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			5.752581470935082e-05	4.0	CMS002_047d_Rb_S196_L004	Opisthokonta	Culex	erythrothorax	33154.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			9.311564963684897e-05	3.0	CMS002_028a_Rb_S154_L004	Cladosporium cladosporioides	Culex	erythrothorax	29917.0
 	WVAL 	Other eukaryotes		Other Eukaryotes			7.437045410599277e-06	4.0	CMS002_028e_Rb_S158_L004	Juglans nigra	Culex	erythrothorax	16719.0
@@ -1136,7 +1136,7 @@ V	PLCR	Chuviridae		Virus		45.0	0.07847317489155019	22436.0	CMS002_057a_Rb_S10_L0
 	PLCR	Other eukaryotes		Other Eukaryotes			1.9736673304767787e-05	10.0	CMS002_053a_Rb_S7_L004	uncultured fungus	Culex	erythrothorax	175245.0
 	PLCR	Other eukaryotes		Other Eukaryotes			7.894669321907116e-06	4.0	CMS002_053a_Rb_S7_L004	uncultured Basidiomycota	Culex	erythrothorax	175244.0
 	PLCR	Other eukaryotes		Other Eukaryotes			9.868336652383894e-06	5.0	CMS002_053a_Rb_S7_L004	Psathyrella	Culex	erythrothorax	71729.0
-	PLCR	Amblyosporidae		Other Eukaryotes			0.00012631470915051385	64.0	CMS002_053a_Rb_S7_L004	Amblyospora	Culex	erythrothorax	33687.0
+	PLCR	Microsporidia		Other Eukaryotes			0.00012631470915051385	64.0	CMS002_053a_Rb_S7_L004	Amblyospora	Culex	erythrothorax	33687.0
 	PLCR	Other eukaryotes		Other Eukaryotes			0.002194718071490178	1112.0	CMS002_053a_Rb_S7_L004	Epichloe	Culex	erythrothorax	5112.0
 	PLCR	Other eukaryotes		Other Eukaryotes			0.0012651207588356154	641.0	CMS002_053a_Rb_S7_L004	Claviceps purpurea	Culex	erythrothorax	5111.0
 	PLCR	Other eukaryotes		Other Eukaryotes			0.00014210404779432809	72.0	CMS002_053a_Rb_S7_L004	Claviceps	Culex	erythrothorax	5110.0

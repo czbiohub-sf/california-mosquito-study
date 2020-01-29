@@ -5,11 +5,9 @@ output: html_notebook
 
 ```{r}
 knitr::opts_chunk$set(root.dir='~/src/skeeters')
-library(taxizedb)
 library(tidyverse)
 library(purrr)
 library(ggplot2)
-library(decontam)
 library(forcats)
 ```
 
@@ -68,13 +66,34 @@ Reassign taxids for curated viral contigs.
 contig_reads = contig_reads %>% full_join(cluster_contig %>% select(key, submission_taxid, sample, read_count)) %>% mutate(taxid = ifelse(is.na(submission_taxid), taxid, submission_taxid))
 ```
 
+## Assessment of taxon reassignment
+
 Contigs whose LCAs were in the following taxon_groups were reassigned:
 
 ```{r}
-contig_reads %>% filter(!is.na(submission_taxid)) %>% group_by(taxon_group) %>% count()
+contig_reads %>% filter(!is.na(submission_taxid)) %>% group_by(taxon_group) %>% summarize(contigs = n(), reads = sum(read_count))
 ```
 
-## Markov correction for background
+Total classified contigs.
+
+```{r}
+contig_reads %>% summarize(contigs = n(), reads = sum(read_count))
+```
+
+
+Total curated viral contigs.
+```{r}
+contig_reads %>% filter(!is.na(submission_taxid)) %>% summarize(contigs = n(), reads = sum(read_count))
+```
+
+Total curated viral reads, dark and LCA, before decontamination.
+
+```{r}
+contig_reads %>% filter(!is.na(submission_taxid)) %>% 
+  mutate(dark = is.na(taxon_group)) %>% group_by(dark) %>% summarize(reads = sum(read_count))
+```
+
+# Markov correction for background
 
 We compute the average concentration of each taxon in the water. Markov's inequality says that for any nonnegative random variable X, the probability that X is greater k is less than EX/k. Thus for any false-discovery rate r, the probability that X > EX/r is less than EX/(EX/r) = r. If we treat concentrations of contaminating taxa in each well as a random variable, we can estimate the mean from the water, and use that estimate to bound (using Markov's inequality), the amount of that taxon contained in another sample can be explained by contamination.
 
@@ -108,15 +127,21 @@ category = quo(poly_group)
 
 viral_df = decontam(sum_over(cluster_contig, category), category, 0.01)
 
-viral_contamination = viral_df %>% filter(!is_contam) %>% select(sample, poly_group, reads)
-viral_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_decontam.tsv'))
+viral_decontamination = viral_df %>% filter(!is_contam) %>% select(sample, poly_group, reads)
+viral_decontamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_decontam.tsv'))
 
-viral_decontamination = viral_df %>% filter(is_contam) %>% select(sample, poly_group, reads)
-viral_decontamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_contamination.tsv'))
+viral_contamination = viral_df %>% filter(is_contam) %>% select(sample, poly_group, reads)
+viral_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/viral_contamination.tsv'))
 
 ```
 
-Estimate contaminant taxa for all taxa.
+Viral contamination: 2757 reads.
+
+```{r}
+viral_df %>% group_by(is_contam) %>% summarize(reads = sum(reads))
+```
+
+Estimate contaminants which are not curated viruses.
 
 ```{r}
 category = quo(taxid)
@@ -125,50 +150,35 @@ sample_taxid_reads = sum_over(contig_reads, category) %>% mutate(sample_taxid = 
 
 bad_pairs = decontam(sample_taxid_reads, category, 0.01) %>% filter(is_contam) %>% pull(sample_taxid)
 
-contig_reads_no_polygroup = sum_over(contig_reads %>% filter(is.na(submission_taxid)), category) %>% mutate(sample_taxid = str_c(sample, "|", taxid))
+contig_reads_no_polygroup = sum_over(contig_reads %>% filter(is.na(submission_taxid)), category) %>% 
+  mutate(sample_taxid = str_c(sample, "|", taxid), is_contam=sample_taxid %in% bad_pairs)
 
-lca_contamination = contig_reads_no_polygroup %>% filter(sample_taxid %in% bad_pairs) %>% select(sample, taxid, reads)
-lca_decontamination = contig_reads_no_polygroup %>% filter(!(sample_taxid %in% bad_pairs)) %>% select(sample, taxid, reads)
+lca_contamination = contig_reads_no_polygroup %>% filter(is_contam) %>% select(sample, taxid, reads)
+lca_decontamination = contig_reads_no_polygroup %>% filter(!is_contam) %>% select(sample, taxid, reads)
 
 lca_decontamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/lca_decontam.tsv'))
 lca_contamination %>% write_tsv(file.path(data_dir, 's3/contig_quality_concat/lca_contamination.tsv'))
 ```
 
+## Assessment of contamination
 
-# Exploratory Analysis
-
-Hubei MV 2: 1922926
-Wuhan 6: 1608131
-Wuhan 9: 1608134
-narna: 1628188
-culex iflavi-like virus 4: 2304480
-mouse: 10090
-
-Plot relationship of relative abundance (RPM) to input RNA concentration. For contaminants, this should be approx linear.
+LCA contamination assessment: 43846 reads removed.
 
 ```{r}
-# contig_reads %>% filter(taxid == '1248439')
+contig_reads_no_polygroup %>% group_by(is_contam) %>% summarize(reads = sum(reads))
 ```
 
+Decomposition of contamination by taxon.
+
 ```{r}
-# contig_reads %>% filter((taxid == '10090') & (sample == 'CMS001_002_Ra_S1'))
-# read_counts %>% filter((taxid == '10090'))
-# read_counts %>% left_join(sample_table, by='sample') %>% mutate(rpm = reads/total_reads*1e6) %>%
-#   select(sample, taxid, input_conc, rpm, water, total_ercc_reads, reads) %>%
-#     filter((taxid == '10090'))
+contig_reads_no_polygroup %>% filter(is_contam) %>% group_by(taxid) %>% summarize(reads = sum(reads)) %>% arrange(desc(reads))
+```
+
+Decomposition of contamination by sample.
+
+```{r}
+contig_reads_no_polygroup %>% filter(is_contam) %>% group_by(sample) %>% summarize(reads = sum(reads)) %>% arrange(desc(reads))
 ```
 
 
-```{r}
-# read_counts %>% left_join(sample_table, by='sample') %>% mutate(rpm = reads/total_reads*1e6) %>%
-#   select(sample, taxid, input_conc, rpm, water, total_ercc_reads, reads) %>%
-#     filter((taxid == '10090')) %>%
-# ggplot(aes(x = log10(input_conc), y=log10(rpm), color=water)) + geom_point()
-```
 
-
-What was removed as contamination?
-
-```{r}
-# contamination %>% group_by(taxid) %>% summarize(n_samples = n(), n_reads = sum(reads)) %>% arrange(desc(n_samples))
-```

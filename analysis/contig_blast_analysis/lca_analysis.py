@@ -100,9 +100,15 @@ if len(blast_results)==0:
 # exclude contigs with hits to mosquito
 all_hits_queries = list(blast_results["query"].unique())
 print_to_stdout("remove contigs if they are likely hexapoda ", start_time, verbose)
-blast_results = blast_results.groupby(["query"], as_index=False).apply(filter_by_taxid, db=db, taxid=ncbi_older_db(["Hexapoda"], "get_name_translator")["Hexapoda"][0])
-hexa_contigs = [x for x in all_hits_queries if x not in blast_results["query"].tolist()]
+subset_blast_hits = blast_results[~blast_results["taxid"].duplicated()]
+hexapoda_hits = ncbi.get_descendant_taxa(ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
+hexapoda_queries = subset_blast_hits[subset_blast_hits["taxid"].isin(hexapoda_hits)]["query"].unique().tolist()
+before = blast_results[blast_results["query"].isin(hexapoda_queries)]
+after = before.groupby(["query"], as_index=False).apply(filter_by_taxid, db=db, taxid=ncbi_older_db(["Hexapoda"], "get_name_translator")["Hexapoda"][0])
+hexa_contigs = before[~before["query"].isin(after["query"])]["query"].unique()
+blast_results = blast_results[~blast_results["query"].isin(hexa_contigs)]
 excluded_contigs = excluded_contigs.assign(hexapoda=excluded_contigs["query"].isin(hexa_contigs))
+print_to_stdout(str(len(hexa_contigs))+" contigs were likely hexapoda.", start_time, verbose)
 
 if (len(blast_results)==0):
     if (args.excluded_contigs_path.startswith("s3://")):

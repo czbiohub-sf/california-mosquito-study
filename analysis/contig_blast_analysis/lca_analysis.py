@@ -100,9 +100,8 @@ if len(blast_results)==0:
 # exclude contigs with hits to mosquito
 all_hits_queries = list(blast_results["query"].unique())
 print_to_stdout("remove contigs if they are likely hexapoda ", start_time, verbose)
-subset_blast_hits = blast_results[~blast_results["taxid"].duplicated()]
 hexapoda_hits = ncbi.get_descendant_taxa(ncbi.get_name_translator(["Hexapoda"])["Hexapoda"][0])
-hexapoda_queries = subset_blast_hits[subset_blast_hits["taxid"].isin(hexapoda_hits)]["query"].unique().tolist()
+hexapoda_queries = blast_results[blast_results["taxid"].isin(hexapoda_hits)]["query"].unique().tolist()
 before = blast_results[blast_results["query"].isin(hexapoda_queries)]
 after = before.groupby(["query"], as_index=False).apply(filter_by_taxid, db=db, taxid=ncbi_older_db(["Hexapoda"], "get_name_translator")["Hexapoda"][0])
 if (len(after)==0):

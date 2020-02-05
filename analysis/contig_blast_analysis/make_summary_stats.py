@@ -1,4 +1,4 @@
-# call this from the commandline in the skeeters/analysis directory:
+# call this from the commandline in the skeeters/analysis/contig_blast_analysis directory:
 # aws s3 ls s3://czbiohub-mosquito/contigs/ | grep 'PRE' | awk 'NF>1{print $NF}' | parallel python make_summary_stats.py {}
 
 

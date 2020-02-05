@@ -128,6 +128,11 @@ blast_results = blast_results[~blast_results["query"].isin(excluded_contigs["que
 
 print_to_stdout (str(len(blast_results["query"].unique())) + " out of " + str(len(excluded_contigs["query"])) + " contigs passed the filters and will be processed for LCA analysis.", start_time, verbose)
 
+# fill in qcov information if any is missing
+if (blast_results["qcov"].isnull().any()):
+    missing_qcov = blast_results.loc[blast_results["qcov"].isnull(), :]
+    blast_results.loc[blast_results["qcov"].isnull(), "qcov"] = missing_qcov["align_length"]/missing_qcov["qlen"]
+
 # lca analysis
 filtered_blast_results = blast_results.groupby(["query"], as_index=False).apply(
     select_taxids_for_lca, db=db,

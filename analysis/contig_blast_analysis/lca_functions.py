@@ -86,8 +86,14 @@ def get_lca (taxids, tax_col="taxid", query_col="query"):
         if (len(set(taxids)) <= 1):
             lca = taxids[0]
         else:
-            tree = ncbi_older_db(taxids, "get_topology")
-            lca = tree.get_tree_root().taxid
+            # if there are hits to synthetic constructs, return 1
+            other_seq_taxid = ncbi_older_db(["other sequences"], "get_name_translator")["other sequences"][0]
+            other_seq_descendants = ncbi_older_db(other_seq_taxid, "get_descendant_taxa")
+            if any([i in other_seq_descendants for i in taxids]):
+                lca = ncbi_older_db(["root"], "get_name_translator")["root"][0]
+            else:
+                tree = ncbi_older_db(taxids, "get_topology")
+                lca = tree.get_tree_root().taxid
     return (lca)
 
 ##

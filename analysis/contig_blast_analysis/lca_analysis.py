@@ -105,7 +105,10 @@ hexapoda_hits = ncbi.get_descendant_taxa(ncbi.get_name_translator(["Hexapoda"])[
 hexapoda_queries = subset_blast_hits[subset_blast_hits["taxid"].isin(hexapoda_hits)]["query"].unique().tolist()
 before = blast_results[blast_results["query"].isin(hexapoda_queries)]
 after = before.groupby(["query"], as_index=False).apply(filter_by_taxid, db=db, taxid=ncbi_older_db(["Hexapoda"], "get_name_translator")["Hexapoda"][0])
-hexa_contigs = before[~before["query"].isin(after["query"])]["query"].unique()
+if (len(after)==0):
+    hexa_contigs = before["query"].unique()
+else:
+    hexa_contigs = before[~before["query"].isin(after["query"])]["query"].unique()
 blast_results = blast_results[~blast_results["query"].isin(hexa_contigs)]
 excluded_contigs = excluded_contigs.assign(hexapoda=excluded_contigs["query"].isin(hexa_contigs))
 print_to_stdout(str(len(hexa_contigs))+" contigs were likely hexapoda.", start_time, verbose)

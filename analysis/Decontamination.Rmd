@@ -74,12 +74,17 @@ Contigs whose LCAs were in the following taxon_groups were reassigned:
 contig_reads %>% filter(!is.na(submission_taxid)) %>% group_by(taxon_group) %>% summarize(contigs = n(), reads = sum(read_count))
 ```
 
+Contigs identified by BLAST alone, not modified by viral analysis.
+
+```{r}
+contig_reads %>% filter(is.na(submission_taxid)) %>% group_by(taxon_group) %>% summarize(contigs = n(), reads = sum(read_count))
+```
+
 Total classified contigs.
 
 ```{r}
 contig_reads %>% summarize(contigs = n(), reads = sum(read_count))
 ```
-
 
 Total curated viral contigs.
 ```{r}

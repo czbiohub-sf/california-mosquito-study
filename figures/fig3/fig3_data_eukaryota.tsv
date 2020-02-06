@@ -1,54 +1,60 @@
 sample	mosquito_species	collected_by	sci_name	taxid	taxonomic_group	read_prop	nonhost_reads
-CMS002_017c	Aedes aegypti	San Diego	Ascogregarina culicis	247478	Apicomplexa	8.89659927492716e-5	162094
-CMS002_017c	Aedes aegypti	San Diego	Ascogregarina taiwanensis	158379	Apicomplexa	2.0758731641496705e-4	162094
-CMS002_017b	Aedes aegypti	San Diego	Ascogregarina culicis	247478	Apicomplexa	1.320159530856992e-4	172502
-CMS002_017b	Aedes aegypti	San Diego	Ascogregarina taiwanensis	158379	Apicomplexa	0.0014591236919998334	172502
-CMS002_017a	Aedes aegypti	San Diego	Ascogregarina culicis	247478	Apicomplexa	7.16851587826267e-5	151912
-CMS002_017a	Aedes aegypti	San Diego	Ascogregarina taiwanensis	158379	Apicomplexa	9.159770288891191e-4	151912
-CMS002_017a	Aedes aegypti	San Diego	Ascogregarina	158378	Apicomplexa	5.5755123497598545e-5	151912
-CMS002_053a	Culex erythrothorax	Placer	Amblyospora	33687	Microsporidia	1.2631470915051385e-4	1233696
-CMS001_001	Culex erythrothorax	Alameda	Paratrypanosoma confusum	1470209	Trypanosomatidae	6.563820222931204e-5	687714
-CMS001_047	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	9.827457917421274e-5	104044
-CMS001_047	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	9.827457917421274e-5	104044
-CMS001_049	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	0.04937283922397783	67518
-CMS001_049	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	0.04528700820023429	67518
-CMS001_037	Culex erythrothorax	Alameda	Eimeria	5800	Apicomplexa	1.4844283466437075e-4	112490
-CMS001_011	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	3.681839938145089e-5	169722
-CMS001_011	Culex erythrothorax	Alameda	Leptomonas pyrrhocoris	157538	Trypanosomatidae	3.681839938145089e-5	169722
-CMS001_058	Culex erythrothorax	Alameda	Theileria youngi	119759	Apicomplexa	2.115730455939913e-4	116416
-CMS001_018	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	0.03419470684674838	65880
-CMS001_018	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	0.28499492544304783	65880
-CMS001_035	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	0.1272178921167857	373770
-CMS001_035	Culex erythrothorax	Alameda	Trypanosoma culicavium	1052859	Trypanosomatidae	0.005948293090605185	373770
-CMS001_035	Culex erythrothorax	Alameda	Trypanosoma with unspecified subgenus	669453	Trypanosomatidae	0.002841518141022147	373770
-CMS001_035	Culex erythrothorax	Alameda	Eimeriorina	423054	Apicomplexa	1.4534619647172108e-5	373770
-CMS001_035	Culex erythrothorax	Alameda	Leptomonas pyrrhocoris	157538	Trypanosomatidae	1.8168274558965135e-5	373770
-CMS001_035	Culex erythrothorax	Alameda	Trypanosoma	5690	Trypanosomatidae	0.029425337475699934	373770
-CMS001_035	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	0.10253084064606384	373770
-CMS001_022	Culex erythrothorax	Alameda	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.029305866547245856	177872
-CMS001_022	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	1.1643528884908196e-4	177872
-CMS001_022	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	0.5137483206448724	177872
-CMS001_007	Culex erythrothorax	Alameda	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.4617085427135678	55328
-CMS002_047j	Culex erythrothorax	West Valley	Amblyospora	33687	Microsporidia	0.003923049144808116	149082
-CMS001_029	Culex pipiens	Alameda	Onchocercidae sp. MI1 GLH-2012	1237907	Onchocercidae	2.504522053708084e-4	89566
-CMS001_029	Culex pipiens	Alameda	Trypanosoma	5690	Trypanosomatidae	6.817865590649784e-4	89566
-CMS001_029	Culex pipiens	Alameda	Trypanosomatidae	5654	Trypanosomatidae	4.4524836510365936e-4	89566
-CMS001_059	Culex pipiens	Alameda	Trypanosoma	5690	Trypanosomatidae	0.01860251834225659	99862
-CMS001_040	Culex pipiens	Alameda	Plasmodium	5820	Apicomplexa	0.003217141429285357	70502
-CMS002_004a	Culex quinquefasciatus	San Diego	Plasmodium sp. type B	1350013	Apicomplexa	0.001007725898555593	13812
-CMS002_004a	Culex quinquefasciatus	San Diego	Plasmodium relictum	85471	Apicomplexa	0.013100436681222707	13812
-CMS002_004a	Culex quinquefasciatus	San Diego	Plasmodium	5820	Apicomplexa	0.05021834061135372	13812
-CMS001_046	Culex tarsalis	Alameda	Paratrypanosoma confusum	1470209	Trypanosomatidae	1.1106915165381966e-5	384232
-CMS001_032	Culex tarsalis	Alameda	Onchocercidae sp. MI1 GLH-2012	1237907	Onchocercidae	2.9347566903281425e-4	93508
-CMS001_032	Culex tarsalis	Alameda	Loa loa	7209	Onchocercidae	1.4673783451640712e-4	93508
-CMS001_032	Culex tarsalis	Alameda	Trypanosoma	5690	Trypanosomatidae	7.153469432674847e-4	93508
-CMS001_032	Culex tarsalis	Alameda	Trypanosomatidae	5654	Trypanosomatidae	1.834222931455089e-4	93508
-CMS001_038	Culex tarsalis	Alameda	Amblyospora	33687	Microsporidia	0.009434076955808158	132206
-CMS001_043	Culex tarsalis	Alameda	Amblyospora californica	51588	Microsporidia	4.8661800486618007e-4	84360
-CMS001_043	Culex tarsalis	Alameda	Amblyospora	33687	Microsporidia	2.4330900243309004e-4	84360
-CMS001_036	Culex tarsalis	Alameda	Amblyospora	33687	Microsporidia	0.005525879535826119	275388
-CMS001_027	Culex tarsalis	Alameda	Plasmodium	5820	Apicomplexa	1.8078278947844165e-4	80376
-CMS002_029d	Culex tarsalis	West Valley	Amblyospora	33687	Microsporidia	0.028594256147140035	300516
-CMS002_042a	Culex tarsalis	Coachella Valley	Loa loa	7209	Onchocercidae	0.003085739475424289	72474
-CMS002_042a	Culex tarsalis	Coachella Valley	Onchocercidae	6296	Onchocercidae	0.12607449856733524	72474
-CMS002_042a	Culex tarsalis	Coachella Valley	Onchocerca volvulus	6282	Onchocercidae	0.0026449195503636764	72474
+CMS002_017c	Aedes aegypti	San Diego	Ascogregarina culicis	247478	Apicomplexa	7.730663677476712e-5	162094
+CMS002_017c	Aedes aegypti	San Diego	Ascogregarina taiwanensis	158379	Apicomplexa	1.803821524744566e-4	162094
+CMS002_017b	Aedes aegypti	San Diego	Ascogregarina culicis	247478	Apicomplexa	1.1310264362547548e-4	172502
+CMS002_017b	Aedes aegypti	San Diego	Ascogregarina taiwanensis	158379	Apicomplexa	0.0012500818505973605	172502
+CMS002_017b	Aedes aegypti	San Diego	Ascogregarina	158378	Apicomplexa	1.1310264362547548e-4	172502
+CMS002_017a	Aedes aegypti	San Diego	Ascogregarina culicis	247478	Apicomplexa	7.168173310501374e-5	151912
+CMS002_017a	Aedes aegypti	San Diego	Ascogregarina taiwanensis	158379	Apicomplexa	9.159332563418422e-4	151912
+CMS002_017a	Aedes aegypti	San Diego	Ascogregarina	158378	Apicomplexa	5.5752459081677354e-5	151912
+CMS002_045g	Aedes albopictus	West Valley	Amblyospora	33687	Microsporidia	3.1040797955446105e-5	98364
+CMS002_053a	Culex erythrothorax	Placer	Amblyospora	33687	Microsporidia	1.2201701756091795e-4	1233696
+CMS001_001	Culex erythrothorax	Alameda	Paratrypanosoma confusum	1470209	Trypanosomatidae	6.564185802262855e-5	687714
+CMS001_047	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	9.815469179426777e-5	104044
+CMS001_047	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	9.815469179426777e-5	104044
+CMS001_049	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	0.049218149192514736	67518
+CMS001_049	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	0.04514511948503233	67518
+CMS001_037	Culex erythrothorax	Alameda	Eimeria	5800	Apicomplexa	1.4605789735050974e-4	112490
+CMS001_011	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	3.659384491528525e-5	169722
+CMS001_011	Culex erythrothorax	Alameda	Leptomonas pyrrhocoris	157538	Trypanosomatidae	3.659384491528525e-5	169722
+CMS001_058	Culex erythrothorax	Alameda	Theileria youngi	119759	Apicomplexa	2.0352091177368474e-4	116416
+CMS001_058	Culex erythrothorax	Alameda	Theileria	5873	Apicomplexa	3.052813676605271e-4	116416
+CMS001_018	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	0.03382500579195305	65880
+CMS001_018	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	0.28191366128658585	65880
+CMS001_035	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	0.12708213096962243	373770
+CMS001_035	Culex erythrothorax	Alameda	Trypanosoma culicavium	1052859	Trypanosomatidae	0.005941945342814311	373770
+CMS001_035	Culex erythrothorax	Alameda	Trypanosoma with unspecified subgenus	669453	Trypanosomatidae	0.0028384858021263237	373770
+CMS001_035	Culex erythrothorax	Alameda	Eimeriorina	423054	Apicomplexa	1.4519108962282984e-5	373770
+CMS001_035	Culex erythrothorax	Alameda	Leptomonas pyrrhocoris	157538	Trypanosomatidae	1.8148886202853732e-5	373770
+CMS001_035	Culex erythrothorax	Alameda	Trypanosoma cruzi	5693	Trypanosomatidae	1.0889331721712238e-5	373770
+CMS001_035	Culex erythrothorax	Alameda	Trypanosoma	5690	Trypanosomatidae	0.0293939360941419	373770
+CMS001_035	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	0.10242142439718474	373770
+CMS001_022	Culex erythrothorax	Alameda	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.02924405198148115	177872
+CMS001_022	Culex erythrothorax	Alameda	Leishmaniinae	1286322	Trypanosomatidae	1.1618969308045689e-4	177872
+CMS001_022	Culex erythrothorax	Alameda	Trypanosomatidae	5654	Trypanosomatidae	0.5126646765457699	177872
+CMS001_007	Culex erythrothorax	Alameda	Paratrypanosoma confusum	1470209	Trypanosomatidae	0.41139070475508194	55328
+CMS002_047j	Culex erythrothorax	West Valley	Amblyospora	33687	Microsporidia	0.003936035309036413	149082
+CMS001_029	Culex pipiens	Alameda	Onchocercidae sp. MI1 GLH-2012	1237907	Onchocercidae	2.5090604962364093e-4	89566
+CMS001_029	Culex pipiens	Alameda	Trypanosoma	5690	Trypanosomatidae	6.830220239754669e-4	89566
+CMS001_029	Culex pipiens	Alameda	Trypanosomatidae	5654	Trypanosomatidae	4.460551993309172e-4	89566
+CMS001_059	Culex pipiens	Alameda	Trypanosoma	5690	Trypanosomatidae	0.01859376161335877	99862
+CMS001_040	Culex pipiens	Alameda	Plasmodium relictum	85471	Apicomplexa	9.679333062728323e-4	70502
+CMS001_040	Culex pipiens	Alameda	Plasmodium	5820	Apicomplexa	0.003216036469229088	70502
+CMS002_004a	Culex quinquefasciatus	San Diego	Plasmodium sp. type B	1350013	Apicomplexa	9.770395701025891e-4	13812
+CMS002_004a	Culex quinquefasciatus	San Diego	Plasmodium relictum	85471	Apicomplexa	0.012701514411333659	13812
+CMS002_004a	Culex quinquefasciatus	San Diego	Plasmodium	5820	Apicomplexa	0.04868913857677903	13812
+CMS001_046	Culex tarsalis	Alameda	Paratrypanosoma confusum	1470209	Trypanosomatidae	1.1100812024399585e-5	384232
+CMS001_032	Culex tarsalis	Alameda	Onchocercidae sp. MI1 GLH-2012	1237907	Onchocercidae	2.9335729084541904e-4	93508
+CMS001_032	Culex tarsalis	Alameda	Loa loa	7209	Onchocercidae	1.4667864542270952e-4	93508
+CMS001_032	Culex tarsalis	Alameda	Onchocercidae	6296	Onchocercidae	5.5004492033516074e-5	93508
+CMS001_032	Culex tarsalis	Alameda	Trypanosoma	5690	Trypanosomatidae	7.150583964357089e-4	93508
+CMS001_032	Culex tarsalis	Alameda	Trypanosomatidae	5654	Trypanosomatidae	1.833483067783869e-4	93508
+CMS001_038	Culex tarsalis	Alameda	Amblyospora	33687	Microsporidia	0.009416332969299843	132206
+CMS001_043	Culex tarsalis	Alameda	Amblyospora californica	51588	Microsporidia	4.830917874396135e-4	84360
+CMS001_043	Culex tarsalis	Alameda	Amblyospora	33687	Microsporidia	2.4154589371980676e-4	84360
+CMS001_036	Culex tarsalis	Alameda	Amblyospora	33687	Microsporidia	0.005528101181003434	275388
+CMS001_027	Culex tarsalis	Alameda	Plasmodium	5820	Apicomplexa	1.6648630650129028e-4	80376
+CMS002_029d	Culex tarsalis	West Valley	Amblyospora	33687	Microsporidia	0.026323294689809415	300516
+CMS002_042a	Culex tarsalis	Coachella Valley	Loa loa	7209	Onchocercidae	0.003183265120509323	72474
+CMS002_042a	Culex tarsalis	Coachella Valley	Onchocercidae	6296	Onchocercidae	0.13005911778080945	72474
+CMS002_042a	Culex tarsalis	Coachella Valley	Onchocerca volvulus	6282	Onchocercidae	0.002728512960436562	72474

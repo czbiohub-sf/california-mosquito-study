@@ -86,8 +86,14 @@ def get_lca (taxids, tax_col="taxid", query_col="query"):
         if (len(set(taxids)) <= 1):
             lca = taxids[0]
         else:
-            tree = ncbi_older_db(taxids, "get_topology")
-            lca = tree.get_tree_root().taxid
+            # if there are hits to synthetic constructs, return 1
+            other_seq_taxid = ncbi_older_db(["other sequences"], "get_name_translator")["other sequences"][0]
+            other_seq_descendants = ncbi_older_db(other_seq_taxid, "get_descendant_taxa")
+            if any([i in other_seq_descendants for i in taxids]):
+                lca = ncbi_older_db(["root"], "get_name_translator")["root"][0]
+            else:
+                tree = ncbi_older_db(taxids, "get_topology")
+                lca = tree.get_tree_root().taxid
     return (lca)
 
 ##
@@ -197,7 +203,7 @@ def get_single_hsp (df_file, blast_type, col_names):
 ##
 ## Select taxonomic IDs to perfrom LCA analysis on based on BLAST results
 ##
-def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True):
+def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True, digits=4):
     # df should be a pandas dataframe
     # remove blast hits where identity < ident_cutoff*max(identity) AND
     # align_length < align_len_cutoff*max(align_length) AND
@@ -212,7 +218,7 @@ def select_taxids_for_lca (df, db="nucleotide", return_taxid_only=True):
         threshold = best_qcov*(best_ident-(1-best_ident))
         if (df["blast_type"].iloc[0]=="nr"):
             threshold = threshold * 3
-        df = df[m >= threshold]
+        df = df[m.round(digits) >= threshold.round(digits)]
     df["taxid"] = df["taxid"].astype('int64')
     if (return_taxid_only):
         return (list(set(df["taxid"])))

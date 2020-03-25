@@ -2,7 +2,7 @@
   "1": {
     "family": "Flaviviridae",
     "name": "TBD",
-    "provisional_name": "1|Flavi-like",
+    "provisional_name": "Placeda virus",
     "samples": [
       "CMS001_002_Ra_S1",
       "CMS001_039_Ra_S9",
@@ -111,7 +111,7 @@
   "1168": {
     "family": "Orthomyxoviridae",
     "name": "TBD",
-    "provisional_name": "\u016asinis virus",
+    "provisional_name": "Usinis virus",
     "samples": [
       "CMS002_026a_Rb_S146_L004",
       "CMS002_026b_Rb_S147_L004",
@@ -807,7 +807,7 @@
   "1636": {
     "family": "Partitiviridae",
     "name": "TBD",
-    "provisional_name": "1636|Partiti-like",
+    "provisional_name": "Nefer virus",
     "samples": [
       "CMS001_008_Ra_S3",
       "CMS001_025_Ra_S7",
@@ -875,6 +875,7 @@
   "1715": {
     "family": "Totiviridae",
     "name": "TBD",
+    "partial": true,
     "provisional_name": "1715|Toti-like",
     "samples": [
       "CMS001_012_Ra_S4"
@@ -941,6 +942,7 @@
     "family": "Leviviridae",
     "name": "TBD",
     "provisional_name": "Chimba virus",
+    "genetic_code": 11,
     "samples": [
       "CMS001_047_Ra_S4"
     ],
@@ -1034,7 +1036,7 @@
       "CMS001_012_Ra_S4"
     ],
     "segments": {
-      "RdRP_VP1": {
+      "RdRp_VP1": {
         "clusters": [
           246
         ],
@@ -1109,7 +1111,7 @@
           "CMS001_012_Ra_S4|NODE_50_length_1597_cov_57.715132"
         ]
       },
-      "RdRp_VP1": {
+      "RdRp_RNA1": {
         "clusters": [
           253
         ],
@@ -1176,7 +1178,7 @@
       "CMS002_047g_Rb_S200_L004"
     ],
     "segments": {
-      "RdRp_VP2": {
+      "RdRp_RNA2": {
         "clusters": [
           296
         ],
@@ -1187,7 +1189,7 @@
           "CMS001_049_Ra_S6|NODE_5_length_3696_cov_18.070738"
         ]
       },
-      "VP1": {
+      "RNA1": {
         "clusters": [
           313
         ],
@@ -1198,7 +1200,7 @@
           "CMS001_049_Ra_S6|NODE_7_length_3610_cov_18.624115"
         ]
       },
-      "VP3": {
+      "RNA3": {
         "clusters": [
           282
         ],
@@ -1210,7 +1212,7 @@
           "CMS001_001_Ra_S1|NODE_7_length_3782_cov_120.096086"
         ]
       },
-      "VP4": {
+      "RNA4": {
         "clusters": [
           283
         ],
@@ -1221,7 +1223,7 @@
           "CMS001_020_Ra_S15|NODE_7_length_3782_cov_335.125236"
         ]
       },
-      "VP5": {
+      "RNA5": {
         "clusters": [
           469
         ],
@@ -1231,7 +1233,7 @@
           "CMS001_020_Ra_S15|NODE_17_length_3226_cov_621.998412"
         ]
       },
-      "VP6": {
+      "RNA6": {
         "clusters": [
           3105
         ],
@@ -1241,7 +1243,7 @@
           "CMS001_049_Ra_S6|NODE_14_length_1778_cov_11.385068"
         ]
       },
-      "VP7": {
+      "RNA7": {
         "clusters": [
           5504
         ],
@@ -1249,7 +1251,7 @@
           "CMS001_020_Ra_S15|NODE_78_length_1486_cov_370.973031"
         ]
       },
-      "VP8": {
+      "RNA8": {
         "clusters": [
           11832
         ],
@@ -1266,6 +1268,7 @@
     "family": "Rhabdoviridae",
     "name": "TBD",
     "provisional_name": "30|Rhabdo-like",
+    "partial": true,
     "samples": [
       "CMS001_031_Ra_S19",
       "CMS002_037a_Rb_S171_L004"
@@ -1309,7 +1312,7 @@
   "3110": {
     "family": "Partitiviridae",
     "name": "TBD",
-    "provisional_name": "3110|Partiti-like",
+    "provisional_name": "Netjeret virus",
     "samples": [
       "CMS002_026a_Rb_S146_L004",
       "CMS002_026b_Rb_S147_L004",
@@ -1362,7 +1365,7 @@
   "312": {
     "family": "Tombusviridae",
     "name": "TBD",
-    "provisional_name": "312|Tombus-like",
+    "provisional_name": "Erebo virus",
     "samples": [
       "CMS001_006_Ra_S5",
       "CMS001_025_Ra_S7",
@@ -1395,7 +1398,7 @@
   "3256": {
     "family": "Partitiviridae",
     "name": "TBD",
-    "provisional_name": "3256|Partiti-like",
+    "provisional_name": "Nebet virus",
     "samples": [
       "CMS001_003_Ra_S2",
       "CMS002_020a_Rb_S131_L004"
@@ -1568,6 +1571,7 @@
     "name": "TBD",
     "partial": true,
     "provisional_name": "416|Levi-like",
+    "genetic_code": 11,
     "samples": [
       "CMS001_026_Ra_S18"
     ],
@@ -1799,7 +1803,7 @@
           "CMS001_059_Ra_S10|NODE_3_length_5312_cov_65.660554"
         ]
       },
-      "RdRp_RNA1": {
+      "RdRp_L": {
         "clusters": [
           45
         ],

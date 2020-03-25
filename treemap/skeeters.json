@@ -3760,64 +3760,64 @@
             {
              "attrs": {
               "CMS001_001_Ra_S1": {
-               "read_count": 171
+               "read_count": 186
               },
               "CMS001_002_Ra_S1": {
                "read_count": 57
               },
               "CMS001_003_Ra_S2": {
-               "read_count": 976
+               "read_count": 1063
               },
               "CMS001_005_Ra_S3": {
-               "read_count": 502
+               "read_count": 649
               },
               "CMS001_006_Ra_S5": {
                "read_count": 379
               },
               "CMS001_007_Ra_S12": {
-               "read_count": 231
+               "read_count": 235
               },
               "CMS001_008_Ra_S3": {
                "read_count": 401
               },
               "CMS001_009_Ra_S13": {
-               "read_count": 440
+               "read_count": 606
               },
               "CMS001_010_Ra_S1": {
-               "read_count": 17
+               "read_count": 34
               },
               "CMS001_011_Ra_S4": {
-               "read_count": 207
+               "read_count": 231
               },
               "CMS001_012_Ra_S4": {
-               "read_count": 141
+               "read_count": 147
               },
               "CMS001_013_Ra_S5": {
                "read_count": 322
               },
               "CMS001_014_Ra_S5": {
-               "read_count": 305
+               "read_count": 365
               },
               "CMS001_015_Ra_S13": {
                "read_count": 356
               },
               "CMS001_016_Ra_S6": {
-               "read_count": 321
+               "read_count": 743
               },
               "CMS001_017_Ra_S6": {
                "read_count": 267
               },
               "CMS001_018_Ra_S14": {
-               "read_count": 314
+               "read_count": 329
               },
               "CMS001_019_Ra_S14": {
                "read_count": 97
               },
               "CMS001_020_Ra_S15": {
-               "read_count": 315
+               "read_count": 321
               },
               "CMS001_021_Ra_S16": {
-               "read_count": 994
+               "read_count": 1001
               },
               "CMS001_022_Ra_S6": {
                "read_count": 77
@@ -3829,40 +3829,46 @@
                "read_count": 232
               },
               "CMS001_025_Ra_S7": {
-               "read_count": 495
+               "read_count": 499
               },
               "CMS001_026_Ra_S18": {
-               "read_count": 585
+               "read_count": 605
               },
               "CMS001_027_Ra_S16": {
                "read_count": 65
               },
               "CMS001_028_Ra_S17": {
-               "read_count": 92
+               "read_count": 104
+              },
+              "CMS001_029_Ra_S18": {
+               "read_count": 18
               },
               "CMS001_030_Ra_S7": {
                "read_count": 66
               },
               "CMS001_031_Ra_S19": {
-               "read_count": 59
+               "read_count": 67
+              },
+              "CMS001_032_Ra_S7": {
+               "read_count": 57
               },
               "CMS001_033_Ra_S8": {
                "read_count": 88
               },
               "CMS001_034_Ra_S19": {
-               "read_count": 56
+               "read_count": 60
               },
               "CMS001_035_Ra_S20": {
-               "read_count": 208
+               "read_count": 220
               },
               "CMS001_036_Ra_S20": {
-               "read_count": 265
+               "read_count": 292
               },
               "CMS001_037_Ra_S21": {
-               "read_count": 475
+               "read_count": 483
               },
               "CMS001_038_Ra_S22": {
-               "read_count": 61
+               "read_count": 65
               },
               "CMS001_039_Ra_S9": {
                "read_count": 73
@@ -3874,7 +3880,7 @@
                "read_count": 4
               },
               "CMS001_042_Ra_S23": {
-               "read_count": 112
+               "read_count": 119
               },
               "CMS001_043_Ra_S24": {
                "read_count": 30
@@ -3895,7 +3901,7 @@
                "read_count": 191
               },
               "CMS001_050_Ra_S23": {
-               "read_count": 375
+               "read_count": 408
               },
               "CMS001_051_Ra_S8": {
                "read_count": 171
@@ -3910,25 +3916,25 @@
                "read_count": 47
               },
               "CMS001_056_Ra_S10": {
-               "read_count": 33
+               "read_count": 39
               },
               "CMS001_057_Ra_S11": {
-               "read_count": 47
+               "read_count": 59
               },
               "CMS001_058_Ra_S9": {
-               "read_count": 443
+               "read_count": 462
               },
               "CMS001_059_Ra_S10": {
                "read_count": 15
               },
               "CMS001_060_Ra_S12": {
-               "read_count": 1574
+               "read_count": 1610
               },
               "CMS002_001a_Rb_S116_L004": {
                "read_count": 16
               },
               "CMS002_007a_Rb_S118_L004": {
-               "read_count": 1206
+               "read_count": 1336
               },
               "CMS002_010a_Rb_S119_L004": {
                "read_count": 4
@@ -3937,22 +3943,22 @@
                "read_count": 42
               },
               "CMS002_020a_Rb_S131_L004": {
-               "read_count": 757
+               "read_count": 951
               },
               "CMS002_020b_Rb_S132_L004": {
-               "read_count": 29
+               "read_count": 75
               },
               "CMS002_020c_Rb_S133_L004": {
-               "read_count": 48
+               "read_count": 62
               },
               "CMS002_020d_Rb_S134_L004": {
                "read_count": 28
               },
               "CMS002_020e_Rb_S135_L004": {
-               "read_count": 99
+               "read_count": 165
               },
               "CMS002_021a_Rb_S136_L004": {
-               "read_count": 2681
+               "read_count": 2799
               },
               "CMS002_022a_Rb_S137_L004": {
                "read_count": 14
@@ -3967,34 +3973,34 @@
                "read_count": 17
               },
               "CMS002_027b_Rb_S153_L004": {
-               "read_count": 3
+               "read_count": 6
               },
               "CMS002_028a_Rb_S154_L004": {
-               "read_count": 121
+               "read_count": 184
               },
               "CMS002_028b_Rb_S155_L004": {
-               "read_count": 186
+               "read_count": 199
               },
               "CMS002_028c_Rb_S156_L004": {
-               "read_count": 399
+               "read_count": 424
               },
               "CMS002_028d_Rb_S157_L004": {
                "read_count": 207
               },
               "CMS002_028e_Rb_S158_L004": {
-               "read_count": 435
+               "read_count": 449
               },
               "CMS002_029a_Rb_S159_L004": {
-               "read_count": 504
+               "read_count": 532
               },
               "CMS002_029b_Rb_S160_L004": {
                "read_count": 98
               },
               "CMS002_029c_Rb_S161_L004": {
-               "read_count": 64
+               "read_count": 67
               },
               "CMS002_029d_Rb_S162_L004": {
-               "read_count": 200
+               "read_count": 204
               },
               "CMS002_029e_Rb_S164_L004": {
                "read_count": 40
@@ -4003,37 +4009,37 @@
                "read_count": 135
               },
               "CMS002_032a_Rb_S166_L004": {
-               "read_count": 1393
+               "read_count": 1453
               },
               "CMS002_033a_Rb_S167_L004": {
-               "read_count": 450
+               "read_count": 486
               },
               "CMS002_034a_Rb_S168_L004": {
                "read_count": 101
               },
               "CMS002_035a_Rb_S169_L004": {
-               "read_count": 634
+               "read_count": 736
               },
               "CMS002_036a_Rb_S170_L004": {
                "read_count": 199
               },
               "CMS002_037a_Rb_S171_L004": {
-               "read_count": 386
+               "read_count": 392
               },
               "CMS002_038a_Rb_S172_L004": {
-               "read_count": 399
+               "read_count": 402
               },
               "CMS002_039a_Rb_S173_L004": {
-               "read_count": 351
+               "read_count": 412
               },
               "CMS002_040a_Rb_S174_L004": {
-               "read_count": 205
+               "read_count": 241
               },
               "CMS002_041a_Rb_S176_L004": {
-               "read_count": 122
+               "read_count": 127
               },
               "CMS002_042a_Rb_S177_L004": {
-               "read_count": 71
+               "read_count": 2581
               },
               "CMS002_046a_Rb_S191_L004": {
                "read_count": 10
@@ -4042,7 +4048,7 @@
                "read_count": 30
               },
               "CMS002_047a_Rb_S193_L004": {
-               "read_count": 271
+               "read_count": 275
               },
               "CMS002_047b_Rb_S194_L004": {
                "read_count": 185
@@ -4051,7 +4057,7 @@
                "read_count": 547
               },
               "CMS002_047d_Rb_S196_L004": {
-               "read_count": 166
+               "read_count": 176
               },
               "CMS002_047e_Rb_S197_L004": {
                "read_count": 23
@@ -4060,16 +4066,16 @@
                "read_count": 257
               },
               "CMS002_047g_Rb_S200_L004": {
-               "read_count": 11
+               "read_count": 15
               },
               "CMS002_047h_Rb_S1_L004": {
                "read_count": 161
               },
               "CMS002_047i_Rb_S2_L004": {
-               "read_count": 189
+               "read_count": 204
               },
               "CMS002_047j_Rb_S3_L004": {
-               "read_count": 161
+               "read_count": 181
               },
               "CMS002_049a_Rb_S4_L004": {
                "read_count": 18
@@ -4081,206 +4087,15 @@
                "read_count": 4
               },
               "CMS002_053a_Rb_S7_L004": {
-               "read_count": 3289
+               "read_count": 3545
               },
               "CMS002_056a_Rb_S9_L004": {
-               "read_count": 222
+               "read_count": 265
               },
               "colour": "#E5E4E2",
-              "read_count": 30871,
-              "sample_count": 109
+              "read_count": 36026,
+              "sample_count": 111
              },
-             "children": [
-              {
-               "attrs": {
-                "CMS001_001_Ra_S1": {
-                 "read_count": 15
-                },
-                "CMS001_003_Ra_S2": {
-                 "read_count": 87
-                },
-                "CMS001_005_Ra_S3": {
-                 "read_count": 147
-                },
-                "CMS001_007_Ra_S12": {
-                 "read_count": 4
-                },
-                "CMS001_009_Ra_S13": {
-                 "read_count": 166
-                },
-                "CMS001_010_Ra_S1": {
-                 "read_count": 17
-                },
-                "CMS001_011_Ra_S4": {
-                 "read_count": 24
-                },
-                "CMS001_012_Ra_S4": {
-                 "read_count": 6
-                },
-                "CMS001_014_Ra_S5": {
-                 "read_count": 60
-                },
-                "CMS001_016_Ra_S6": {
-                 "read_count": 422
-                },
-                "CMS001_018_Ra_S14": {
-                 "read_count": 15
-                },
-                "CMS001_020_Ra_S15": {
-                 "read_count": 6
-                },
-                "CMS001_021_Ra_S16": {
-                 "read_count": 7
-                },
-                "CMS001_025_Ra_S7": {
-                 "read_count": 4
-                },
-                "CMS001_026_Ra_S18": {
-                 "read_count": 20
-                },
-                "CMS001_028_Ra_S17": {
-                 "read_count": 12
-                },
-                "CMS001_029_Ra_S18": {
-                 "read_count": 18
-                },
-                "CMS001_031_Ra_S19": {
-                 "read_count": 8
-                },
-                "CMS001_032_Ra_S7": {
-                 "read_count": 57
-                },
-                "CMS001_034_Ra_S19": {
-                 "read_count": 4
-                },
-                "CMS001_035_Ra_S20": {
-                 "read_count": 12
-                },
-                "CMS001_036_Ra_S20": {
-                 "read_count": 27
-                },
-                "CMS001_037_Ra_S21": {
-                 "read_count": 8
-                },
-                "CMS001_038_Ra_S22": {
-                 "read_count": 4
-                },
-                "CMS001_042_Ra_S23": {
-                 "read_count": 7
-                },
-                "CMS001_050_Ra_S23": {
-                 "read_count": 33
-                },
-                "CMS001_056_Ra_S10": {
-                 "read_count": 6
-                },
-                "CMS001_057_Ra_S11": {
-                 "read_count": 12
-                },
-                "CMS001_058_Ra_S9": {
-                 "read_count": 19
-                },
-                "CMS001_060_Ra_S12": {
-                 "read_count": 36
-                },
-                "CMS002_007a_Rb_S118_L004": {
-                 "read_count": 130
-                },
-                "CMS002_020a_Rb_S131_L004": {
-                 "read_count": 194
-                },
-                "CMS002_020b_Rb_S132_L004": {
-                 "read_count": 46
-                },
-                "CMS002_020c_Rb_S133_L004": {
-                 "read_count": 14
-                },
-                "CMS002_020e_Rb_S135_L004": {
-                 "read_count": 66
-                },
-                "CMS002_021a_Rb_S136_L004": {
-                 "read_count": 118
-                },
-                "CMS002_027b_Rb_S153_L004": {
-                 "read_count": 3
-                },
-                "CMS002_028a_Rb_S154_L004": {
-                 "read_count": 63
-                },
-                "CMS002_028b_Rb_S155_L004": {
-                 "read_count": 13
-                },
-                "CMS002_028c_Rb_S156_L004": {
-                 "read_count": 25
-                },
-                "CMS002_028e_Rb_S158_L004": {
-                 "read_count": 14
-                },
-                "CMS002_029a_Rb_S159_L004": {
-                 "read_count": 28
-                },
-                "CMS002_029c_Rb_S161_L004": {
-                 "read_count": 3
-                },
-                "CMS002_029d_Rb_S162_L004": {
-                 "read_count": 4
-                },
-                "CMS002_032a_Rb_S166_L004": {
-                 "read_count": 60
-                },
-                "CMS002_033a_Rb_S167_L004": {
-                 "read_count": 36
-                },
-                "CMS002_035a_Rb_S169_L004": {
-                 "read_count": 102
-                },
-                "CMS002_037a_Rb_S171_L004": {
-                 "read_count": 6
-                },
-                "CMS002_038a_Rb_S172_L004": {
-                 "read_count": 3
-                },
-                "CMS002_039a_Rb_S173_L004": {
-                 "read_count": 61
-                },
-                "CMS002_040a_Rb_S174_L004": {
-                 "read_count": 36
-                },
-                "CMS002_041a_Rb_S176_L004": {
-                 "read_count": 5
-                },
-                "CMS002_042a_Rb_S177_L004": {
-                 "read_count": 2510
-                },
-                "CMS002_047a_Rb_S193_L004": {
-                 "read_count": 4
-                },
-                "CMS002_047d_Rb_S196_L004": {
-                 "read_count": 10
-                },
-                "CMS002_047g_Rb_S200_L004": {
-                 "read_count": 4
-                },
-                "CMS002_047i_Rb_S2_L004": {
-                 "read_count": 15
-                },
-                "CMS002_047j_Rb_S3_L004": {
-                 "read_count": 20
-                },
-                "CMS002_053a_Rb_S7_L004": {
-                 "read_count": 256
-                },
-                "CMS002_056a_Rb_S9_L004": {
-                 "read_count": 43
-                },
-                "colour": "#E5E4E2",
-                "read_count": 5155,
-                "sample_count": 60
-               },
-               "taxid": 6231,
-               "taxonomy": "Nematoda"
-              }
-             ],
              "taxid": 1206794,
              "taxonomy": "Ecdysozoa"
             },

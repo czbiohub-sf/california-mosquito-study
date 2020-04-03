@@ -83,7 +83,7 @@ all_curated_contigs[is.na(all_curated_contigs$ska_species), paste0("ska_", c("ge
 ```
 
 ```{r get_subset_data_for_figures}
-curated_contigs <- filter(all_curated_contigs, group %in% c("Virus", "Wolbachia", "Other Eukaryotes") | family=="Onchocercidae") %>%
+curated_contigs_raw <- filter(all_curated_contigs, group %in% c("Virus", "Wolbachia", "Other Eukaryotes") | family=="Onchocercidae") %>%
   mutate(group=factor(gsub("Metazoa", "Other Eukaryotes", group))) %>%
   mutate(group=factor(droplevels(group), c("Virus", "Wolbachia", "Other Eukaryotes"))) %>%
   mutate(sample=factor(sample), sample_short=factor(sample_short)) %>%
@@ -93,7 +93,7 @@ curated_contigs <- filter(all_curated_contigs, group %in% c("Virus", "Wolbachia"
   filter(family!="Other eukaryotes")
 
 
-subset_contigs <- curated_contigs %>%
+subset_contigs <- curated_contigs_raw %>%
   group_by(sample, family) %>%
   summarize(read_prop=sum(read_prop)) %>%
   group_by(family) %>%
@@ -101,7 +101,7 @@ subset_contigs <- curated_contigs %>%
   filter(read_prop>=0.01) %>%
   `[[`("family")
 
-curated_contigs %<>%
+curated_contigs <- curated_contigs_raw %>%
   filter(., family %in% subset_contigs)
 
 curated_contigs %<>%
@@ -115,7 +115,7 @@ curated_contigs %<>%
   mutate(ska_species=apply(., 1, function (x) ifelse(x["ska_genus"]=="Culiseta", "", x["ska_species"]))) %>%
   arrange(ska_genus, ska_species, collected_by, desc(read_prop_virus)) %>%
   mutate(sample=factor(sample, levels=as.character(sample) %>% unique())) %>%
-  mutate(sample_id=as.numeric(sample))
+  mutate(sample_id=as.numeric(sample))  
 
 
 ```
@@ -224,20 +224,21 @@ location_label_grob <- ggplot(location_label_df) +
 
 
 ```{r presence_absence_grob}
-curated_contigs_low_abundance <- curated_contigs %>%
+curated_contigs_low_abundance <- curated_contigs_raw %>%
   group_by(sample, group) %>% 
   summarize(sum=sum(read_prop)) %>% 
   filter(sum<0.01)
 
 low_abundance_df <- 
-  filter(curated_contigs, sample %in% curated_contigs_low_abundance$sample, group!="Virus") %>% 
+  filter(curated_contigs_raw, sample %in% curated_contigs_low_abundance$sample, group!="Virus") %>% 
   select(sample, family) %>% 
   distinct() %>%
   mutate(present=TRUE) %>%
   rename(low_abundance_family=family) %>%
-  left_join(curated_contigs, ., by="sample") %>%
+  left_join(curated_contigs_raw, ., by="sample") %>%
   filter(!is.na(present), group!="Virus") %>%
-  mutate(ypos=as.numeric(as.factor(low_abundance_family))/(length(unique(low_abundance_family))+1))
+  mutate(ypos=as.numeric(as.factor(low_abundance_family))/(length(unique(low_abundance_family))+1)) %>%
+  mutate(sample=factor(sample, levels=levels(curated_contigs$sample)))
 
 low_abundance_plot_ylab <- filter(low_abundance_df, !duplicated(ypos)) %>% 
   arrange(low_abundance_family) %>% 

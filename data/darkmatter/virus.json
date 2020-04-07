@@ -574,7 +574,6 @@
             "CMS001_036_Ra_S20|NODE_22_length_2238_cov_30.958815": [2213,60],
             "CMS002_029d_Rb_S162_L004|NODE_15_length_2234_cov_54.436254": [26,2179],
             "CMS001_042_Ra_S23|NODE_12_length_2238_cov_65.551134": [26,2179],
-            "CMS002_056a_Rb_S9_L004|NODE_12_length_2235_cov_92.557924": [25,2177],
             "CMS002_029e_Rb_S164_L004|NODE_13_length_2239_cov_35.559667": [24,2177],
             "CMS001_028_Ra_S17|NODE_12_length_2228_cov_45.921897": [21,2174],
             "CMS001_043_Ra_S24|NODE_9_length_2228_cov_26.785681": [2208,55],
@@ -3128,7 +3127,6 @@
             "CMS001_049_Ra_S6|NODE_17_length_1662_cov_129.401893": [1601,939],
             "CMS002_042a_Rb_S177_L004|NODE_18_length_1641_cov_15.686701": [60,722],
             "CMS002_045g_Rb_S190_L004|NODE_11_length_1589_cov_1.796958": [1537,875],
-            "CMS002_044e_Rb_S182_L004|NODE_7_length_1596_cov_1.707044": [58,710],
             "CMS002_032a_Rb_S166_L004|NODE_90_length_1612_cov_2471.139414": [18,680]
           },
           "hypothetical": {
@@ -3576,7 +3574,7 @@
           "CMS002_053a_Rb_S7_L004|NODE_1433_length_860_cov_793.026820"
         ],
         "genes": {
-          "putative primary Robin": {
+          "putative Robin": {
             "CMS001_002_Ra_S1|NODE_113_length_849_cov_354.167098": [828,22],
             "CMS001_004_Ra_S2|NODE_17_length_847_cov_664.774026": [19,825],
             "CMS001_011_Ra_S4|NODE_110_length_856_cov_927.621309": [22,834],
@@ -3621,7 +3619,7 @@
             "CMS002_047j_Rb_S3_L004|NODE_187_length_899_cov_2069.181265": [51,866],
             "CMS002_053a_Rb_S7_L004|NODE_1433_length_860_cov_793.026820": [834,22]
           },
-          "putative secondary ORF": {
+          "ORF2": {
             "CMS001_002_Ra_S1|NODE_113_length_849_cov_354.167098": [7,813],
             "CMS001_004_Ra_S2|NODE_17_length_847_cov_664.774026": [840,34],
             "CMS001_011_Ra_S4|NODE_110_length_856_cov_927.621309": [849,37],
@@ -3765,7 +3763,7 @@
             "CMS002_051a_Rb_S6_L004|NODE_5_length_3137_cov_140.784641": [54,"+3137"],
             "CMS002_053a_Rb_S7_L004|NODE_52_length_3158_cov_354.941577": [3101,12]
           },
-          "putative hypothetical": {
+          "ORF1": {
             "CMS001_002_Ra_S1|NODE_7_length_3150_cov_193.138301": [3068,42],
             "CMS001_004_Ra_S2|NODE_1_length_3148_cov_123.031911": [3068,42],
             "CMS001_011_Ra_S4|NODE_6_length_3151_cov_188.837671": [264,3110],
@@ -4196,21 +4194,23 @@
           "CMS002_045f_Rb_S189_L004|NODE_2_length_2972_cov_226.122280",
           "CMS002_045b_Rb_S184_L004|NODE_2_length_2973_cov_50.519337"
         ],
-        "putative serine protease": {
-          "CMS002_045c_Rb_S185_L004|NODE_9_length_1610_cov_1056.497717": [68,1837],
-          "CMS002_045b_Rb_S184_L004|NODE_9_length_1652_cov_38.812063": [2911,1142],
-          "CMS002_045f_Rb_S189_L004|NODE_9_length_1655_cov_169.538657": [65,1834],
-          "CMS002_045a_Rb_S183_L004|NODE_11_length_1656_cov_209.046865": [2908,1139],
-          "CMS002_045g_Rb_S190_L004|NODE_10_length_1667_cov_1032.354088": [68,1837],
-          "CMS002_045d_Rb_S186_L004|NODE_9_length_1679_cov_2003.770911": [77,1846]
-        },
-        "RNA-dependent RNA polymerase": {
-          "CMS002_045c_Rb_S185_L004|NODE_9_length_1610_cov_1056.497717": [1579,2904],
-          "CMS002_045b_Rb_S184_L004|NODE_9_length_1652_cov_38.812063": [1400,75],
-          "CMS002_045f_Rb_S189_L004|NODE_9_length_1655_cov_169.538657": [1576,2901],
-          "CMS002_045a_Rb_S183_L004|NODE_11_length_1656_cov_209.046865": [1397,72],
-          "CMS002_045g_Rb_S190_L004|NODE_10_length_1667_cov_1032.354088": [1579,2904],
-          "CMS002_045d_Rb_S186_L004|NODE_9_length_1679_cov_2003.770911": [1588,2913]
+        "genes": {
+          "putative serine protease": {
+            "CMS002_045c_Rb_S185_L004|NODE_2_length_3051_cov_1390.640215": [68,1837],
+            "CMS002_045b_Rb_S184_L004|NODE_2_length_2973_cov_50.519337": [2911,1142],
+            "CMS002_045f_Rb_S189_L004|NODE_2_length_2972_cov_226.122280": [65,1834],
+            "CMS002_045a_Rb_S183_L004|NODE_2_length_2975_cov_254.553485": [2908,1139],
+            "CMS002_045g_Rb_S190_L004|NODE_2_length_2977_cov_1448.610000": [68,1837],
+            "CMS002_045d_Rb_S186_L004|NODE_2_length_3060_cov_2583.644653": [77,1846]
+          },
+          "RNA-dependent RNA polymerase": {
+            "CMS002_045c_Rb_S185_L004|NODE_2_length_3051_cov_1390.640215": [1579,2904],
+            "CMS002_045b_Rb_S184_L004|NODE_2_length_2973_cov_50.519337": [1400,75],
+            "CMS002_045f_Rb_S189_L004|NODE_2_length_2972_cov_226.122280": [1576,2901],
+            "CMS002_045a_Rb_S183_L004|NODE_2_length_2975_cov_254.553485": [1397,72],
+            "CMS002_045g_Rb_S190_L004|NODE_2_length_2977_cov_1448.610000": [1579,2904],
+            "CMS002_045d_Rb_S186_L004|NODE_2_length_3060_cov_2583.644653": [1588,2913]
+          }
         }
       }
     },
@@ -4668,19 +4668,10 @@
         "genes": {
           "NP": {
             "CMS002_026a_Rb_S146_L004|NODE_6_length_2045_cov_93.704268": [1716,148],
-            "CMS002_026b_Rb_S147_L004|NODE_6_length_2041_cov_160.900713": [1713,146],
-            "CMS002_026c_Rb_S148_L004|NODE_6_length_2095_cov_132.746283": [339,1905],
             "CMS002_026d_Rb_S149_L004|NODE_6_length_2041_cov_343.414460": [329,1897],
-            "CMS002_026e_Rb_S150_L004|NODE_6_length_2066_cov_149.367521": [1715,148],
             "CMS002_044a_Rb_S178_L004|NODE_6_length_1441_cov_3.457478": [306,"+1441"],
-            "CMS002_044d_Rb_S181_L004|NODE_6_length_2030_cov_21.054275": [329,1896],
-            "CMS002_044e_Rb_S182_L004|NODE_5_length_2026_cov_5.090303": [1698,131],
-            "CMS002_045a_Rb_S183_L004|NODE_7_length_2035_cov_97.297242": [1707,141],
-            "CMS002_045b_Rb_S184_L004|NODE_6_length_2140_cov_299.507029": [360,1927],
             "CMS002_045c_Rb_S185_L004|NODE_7_length_2049_cov_186.914807": [1720,152],
             "CMS002_045d_Rb_S186_L004|NODE_7_length_2044_cov_240.945094": [1716,148],
-            "CMS002_045e_Rb_S188_L004|NODE_6_length_2037_cov_66.502041": [1708,142],
-            "CMS002_045f_Rb_S189_L004|NODE_7_length_2042_cov_62.754198": [1714,147],
             "CMS002_045g_Rb_S190_L004|NODE_5_length_2301_cov_72.350270": [1711,143]
           }
         }

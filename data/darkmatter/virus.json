@@ -1519,7 +1519,7 @@
   "2": {
     "family": "Rhabdoviridae",
     "name": "TBD",
-    "provisional_name": "2|Rhabdo-like",
+    "provisional_name": "Elisy virus",
     "samples": [
       "CMS001_039_Ra_S9",
       "CMS002_032a_Rb_S166_L004",
@@ -4051,7 +4051,7 @@
   "55": {
     "family": "Totiviridae",
     "name": "TBD",
-    "provisional_name": "55|Toti-like",
+    "provisional_name": "Lotchka virus",
     "samples": [
       "CMS001_006_Ra_S5",
       "CMS001_007_Ra_S12",
@@ -4103,7 +4103,7 @@
   "56": {
     "family": "Totiviridae",
     "name": "TBD",
-    "provisional_name": "56|Toti-like",
+    "provisional_name": "Mika virus",
     "samples": [
       "CMS001_027_Ra_S16",
       "CMS001_028_Ra_S17",
@@ -4220,7 +4220,7 @@
   "57": {
     "family": "Totiviridae",
     "name": "TBD",
-    "provisional_name": "57|Toti-like",
+    "provisional_name": "Gouley virus",
     "samples": [
       "CMS001_031_Ra_S19",
       "CMS002_029d_Rb_S162_L004",
@@ -4517,7 +4517,7 @@
     "family": "Totiviridae",
     "name": "TBD",
     "partial": true,
-    "provisional_name": "6512|Toti-like",
+    "provisional_name": "Hagerguy virus",
     "samples": [
       "CMS002_020b_Rb_S132_L004",
       "CMS002_021a_Rb_S136_L004"

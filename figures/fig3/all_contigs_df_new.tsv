@@ -817,7 +817,7 @@ Culex	erythrothorax	ALCO	CMS001_035_Ra_S20	5654.0	Other Eukaryotes	Trypanosomati
 Culex	erythrothorax	ALCO	CMS001_018_Ra_S14	5654.0	Other Eukaryotes	Trypanosomatidae	Trypanosomatidae	7301	0.12000131490277938				
 Culex	erythrothorax	ALCO	CMS001_049_Ra_S6	5654.0	Other Eukaryotes	Trypanosomatidae	Trypanosomatidae	1585	0.025064836485546207				
 Culex	erythrothorax	ALCO	CMS001_047_Ra_S4	5654.0	Other Eukaryotes	Trypanosomatidae	Trypanosomatidae	7	6.993496048674732e-05				
-Culex	erythrothorax	ALCO	CMS001_022_Ra_S6	5653.0	Other Eukaryotes	Other eukaryotes	Kinetoplastea	4	2.5196374241746612e-05				
+Culex	erythrothorax	ALCO	CMS001_022_Ra_S6	5653.0	Other Eukaryotes	Other eukaryotes	Kinetoplastida	4	2.5196374241746612e-05				
 Culex	erythrothorax	ALCO	CMS001_052_Ra_S7	5498.0	Other Eukaryotes	Other eukaryotes	Cladosporium	8	0.00018510805682817345				
 Culex	erythrothorax	ALCO	CMS001_023_Ra_S17	5498.0	Other Eukaryotes	Other eukaryotes	Cladosporium	6	0.00010228609420549276				
 Culex	erythrothorax	ALCO	CMS001_007_Ra_S12	5498.0	Other Eukaryotes	Other eukaryotes	Cladosporium	4	9.844699859713026e-05				
@@ -989,8 +989,8 @@ Culiseta	particeps	SAND	CMS002_020a_Rb_S131_L004	1111709.0	Virus	Iflaviridae	25|
 Culiseta	particeps	SAND	CMS002_020b_Rb_S132_L004	1111709.0	Virus	Iflaviridae	25|Ifla-like	250	0.0010012174804562347	25.0	IV	single stranded RNA positive sense	1
 Culiseta	particeps	SAND	CMS002_020b_Rb_S132_L004	502177.0	Virus	Solemoviridae	Kellev virus	67939	0.27208685761886453	531.0	IV	single stranded RNA positive sense	1
 Culiseta	particeps	SAND	CMS002_020a_Rb_S131_L004	502177.0	Virus	Solemoviridae	Kellev virus	2704	0.003994994437443026	531.0	IV	single stranded RNA positive sense	1
-Culiseta	particeps	SAND	CMS002_021a_Rb_S136_L004	39756.0	Virus	Totiviridae	6512|Toti-like	113	0.0001581700425939327	6512.0	III	double stranded RNA	1
-Culiseta	particeps	SAND	CMS002_020b_Rb_S132_L004	39756.0	Virus	Totiviridae	6512|Toti-like	60	0.00024029219530949635	6512.0	III	double stranded RNA	1
+Culiseta	particeps	SAND	CMS002_021a_Rb_S136_L004	39756.0	Virus	Totiviridae	Hagerguy virus	113	0.0001581700425939327	6512.0	III	double stranded RNA	1
+Culiseta	particeps	SAND	CMS002_020b_Rb_S132_L004	39756.0	Virus	Totiviridae	Hagerguy virus	60	0.00024029219530949635	6512.0	III	double stranded RNA	1
 Culiseta	particeps	SAND	CMS002_020d_Rb_S134_L004	39756.0	Virus	Totiviridae	22872|Toti-like	12	8.551881413911061e-05	22872.0	III	double stranded RNA	1
 Culiseta	particeps	SAND	CMS002_020e_Rb_S135_L004	37960.0	Virus	Partitiviridae	Nefer virus	173725	0.42462780141913314	1636.0	III	double stranded RNA	2
 Culiseta	particeps	SAND	CMS002_020c_Rb_S133_L004	37960.0	Virus	Partitiviridae	Nefer virus	123552	0.4055246297657809	1636.0	III	double stranded RNA	2
@@ -1032,11 +1032,11 @@ Culex	tarsalis	WVAL 	CMS002_029c_Rb_S161_L004	1922928.0	Virus	Tombusviridae	Hube
 Culex	tarsalis	WVAL 	CMS002_029d_Rb_S162_L004	1608131.0	Virus	Orthomyxoviridae	Wuhan mosquito virus 6	11519	0.04130998447154851	1170.0	V	single stranded RNA negative sense	8
 Culex	tarsalis	WVAL 	CMS002_029c_Rb_S161_L004	1608131.0	Virus	Orthomyxoviridae	Wuhan mosquito virus 6	8043	0.04810147779126721	1170.0	V	single stranded RNA negative sense	8
 Culex	tarsalis	WVAL 	CMS002_029e_Rb_S164_L004	1608131.0	Virus	Orthomyxoviridae	Wuhan mosquito virus 6	6462	0.03563511233166794	1170.0	V	single stranded RNA negative sense	8
-Culex	tarsalis	WVAL 	CMS002_029d_Rb_S162_L004	39756.0	Virus	Totiviridae	57|Toti-like	9	3.2276227124224024e-05	57.0	III	double stranded RNA	1
-Culex	tarsalis	WVAL 	CMS002_029c_Rb_S161_L004	39756.0	Virus	Totiviridae	56|Toti-like	548	0.00327733555011991	56.0	III	double stranded RNA	1
-Culex	tarsalis	WVAL 	CMS002_029a_Rb_S159_L004	39756.0	Virus	Totiviridae	56|Toti-like	152	0.0005644849817285125	56.0	III	double stranded RNA	1
-Culex	tarsalis	WVAL 	CMS002_029b_Rb_S160_L004	39756.0	Virus	Totiviridae	56|Toti-like	80	0.0005164855739123137	56.0	III	double stranded RNA	1
-Culex	tarsalis	WVAL 	CMS002_029e_Rb_S164_L004	39756.0	Virus	Totiviridae	56|Toti-like	17	9.3747587378266e-05	56.0	III	double stranded RNA	1
+Culex	tarsalis	WVAL 	CMS002_029c_Rb_S161_L004	39756.0	Virus	Totiviridae	Mika virus	548	0.00327733555011991	56.0	III	double stranded RNA	1
+Culex	tarsalis	WVAL 	CMS002_029a_Rb_S159_L004	39756.0	Virus	Totiviridae	Mika virus	152	0.0005644849817285125	56.0	III	double stranded RNA	1
+Culex	tarsalis	WVAL 	CMS002_029b_Rb_S160_L004	39756.0	Virus	Totiviridae	Mika virus	80	0.0005164855739123137	56.0	III	double stranded RNA	1
+Culex	tarsalis	WVAL 	CMS002_029e_Rb_S164_L004	39756.0	Virus	Totiviridae	Mika virus	17	9.3747587378266e-05	56.0	III	double stranded RNA	1
+Culex	tarsalis	WVAL 	CMS002_029d_Rb_S162_L004	39756.0	Virus	Totiviridae	Gouley virus	9	3.2276227124224024e-05	57.0	III	double stranded RNA	1
 Culex	tarsalis	WVAL 	CMS002_029d_Rb_S162_L004	39756.0	Virus	Totiviridae	49|Toti-like	405	0.0014524302205900811	49.0	III	double stranded RNA	1
 Culex	tarsalis	WVAL 	CMS002_029a_Rb_S159_L004	37960.0	Virus	Partitiviridae	Nefer virus	12	4.4564603820672033e-05	1636.0	III	double stranded RNA	2
 Culex	tarsalis	PLCR	CMS002_056a_Rb_S9_L004	2651926.0	Virus	Solemoviridae	Marma virus	218878	0.5334168429466871	458.0	IV	single stranded RNA positive sense	1
@@ -1072,12 +1072,12 @@ Culex	tarsalis	COAV	CMS002_038a_Rb_S172_L004	1803034.0	Virus	Rhabdoviridae	Merid
 Culex	tarsalis	COAV	CMS002_031a_Rb_S165_L004	1803034.0	Virus	Rhabdoviridae	Merida virus	32363	0.12005416032941352	8.0	V	single stranded RNA negative sense	1
 Culex	tarsalis	COAV	CMS002_041a_Rb_S176_L004	1803034.0	Virus	Rhabdoviridae	Merida virus	23763	0.1299803085001641	8.0	V	single stranded RNA negative sense	1
 Culex	tarsalis	COAV	CMS002_040a_Rb_S174_L004	1803034.0	Virus	Rhabdoviridae	Merida virus	16972	0.05225675147253072	8.0	V	single stranded RNA negative sense	1
-Culex	tarsalis	COAV	CMS002_040a_Rb_S174_L004	39756.0	Virus	Totiviridae	57|Toti-like	328	0.0010099112940720055	57.0	III	double stranded RNA	1
-Culex	tarsalis	COAV	CMS002_031a_Rb_S165_L004	39756.0	Virus	Totiviridae	57|Toti-like	58	0.00021515747301257556	57.0	III	double stranded RNA	1
+Culex	tarsalis	COAV	CMS002_040a_Rb_S174_L004	39756.0	Virus	Totiviridae	Gouley virus	328	0.0010099112940720055	57.0	III	double stranded RNA	1
+Culex	tarsalis	COAV	CMS002_031a_Rb_S165_L004	39756.0	Virus	Totiviridae	Gouley virus	58	0.00021515747301257556	57.0	III	double stranded RNA	1
 Culex	tarsalis	COAV	CMS002_031a_Rb_S165_L004	39756.0	Virus	Totiviridae	49|Toti-like	48	0.00017806135697592462	49.0	III	double stranded RNA	1
+Culex	tarsalis	COAV	CMS002_032a_Rb_S166_L004	35303.0	Virus	Rhabdoviridae	Elisy virus	89007	0.19189408279686268	2.0	V	single stranded RNA negative sense	1
+Culex	tarsalis	COAV	CMS002_042a_Rb_S177_L004	35303.0	Virus	Rhabdoviridae	Elisy virus	48	0.0008100992371565517	2.0	V	single stranded RNA negative sense	1
 Culex	tarsalis	COAV	CMS002_037a_Rb_S171_L004	35303.0	Virus	Rhabdoviridae	30|Rhabdo-like	16216	0.05715453859764135	30.0	V	single stranded RNA negative sense	1
-Culex	tarsalis	COAV	CMS002_032a_Rb_S166_L004	35303.0	Virus	Rhabdoviridae	2|Rhabdo-like	89007	0.19189408279686268	2.0	V	single stranded RNA negative sense	1
-Culex	tarsalis	COAV	CMS002_042a_Rb_S177_L004	35303.0	Virus	Rhabdoviridae	2|Rhabdo-like	48	0.0008100992371565517	2.0	V	single stranded RNA negative sense	1
 Culex	tarsalis	ALCO	CMS001_033_Ra_S8	2651926.0	Virus	Solemoviridae	Marma virus	57761	0.3336587451043821	458.0	IV	single stranded RNA positive sense	1
 Culex	tarsalis	ALCO	CMS001_051_Ra_S8	2651926.0	Virus	Solemoviridae	Marma virus	44390	0.23421341437676757	458.0	IV	single stranded RNA positive sense	1
 Culex	tarsalis	ALCO	CMS001_036_Ra_S20	2651926.0	Virus	Solemoviridae	Marma virus	27814	0.10840325981471594	458.0	IV	single stranded RNA positive sense	1
@@ -1129,21 +1129,21 @@ Culex	tarsalis	ALCO	CMS001_002_Ra_S1	1608131.0	Virus	Orthomyxoviridae	Wuhan mosq
 Culex	tarsalis	ALCO	CMS001_027_Ra_S16	1566308.0	Virus	Orthomyxoviridae	Astopletus virus	4064	0.06614152724432004	1160.0	V	single stranded RNA negative sense	8
 Culex	tarsalis	ALCO	CMS001_046_Ra_S3	1566308.0	Virus	Orthomyxoviridae	Astopletus virus	1616	0.004236743789735859	1160.0	V	single stranded RNA negative sense	8
 Culex	tarsalis	ALCO	CMS001_032_Ra_S7	537023.0	Virus	Flaviviridae	Calbertado virus	5425	0.06851218064483539	16.0	IV	single stranded RNA positive sense	1
-Culex	tarsalis	ALCO	CMS001_031_Ra_S19	39756.0	Virus	Totiviridae	57|Toti-like	146	0.0015536873470256467	57.0	III	double stranded RNA	1
-Culex	tarsalis	ALCO	CMS001_032_Ra_S7	39756.0	Virus	Totiviridae	56|Toti-like	153	0.0019322329287852192	56.0	III	double stranded RNA	1
-Culex	tarsalis	ALCO	CMS001_027_Ra_S16	39756.0	Virus	Totiviridae	56|Toti-like	133	0.002164572618970119	56.0	III	double stranded RNA	1
-Culex	tarsalis	ALCO	CMS001_036_Ra_S20	39756.0	Virus	Totiviridae	56|Toti-like	58	0.00022605123568179782	56.0	III	double stranded RNA	1
-Culex	tarsalis	ALCO	CMS001_028_Ra_S17	39756.0	Virus	Totiviridae	56|Toti-like	46	0.0005226322486820578	56.0	III	double stranded RNA	1
-Culex	tarsalis	ALCO	CMS001_038_Ra_S22	39756.0	Virus	Totiviridae	56|Toti-like	22	0.00017202417721617967	56.0	III	double stranded RNA	1
-Culex	tarsalis	ALCO	CMS001_034_Ra_S19	39756.0	Virus	Totiviridae	56|Toti-like	9	8.434468862752449e-05	56.0	III	double stranded RNA	1
+Culex	tarsalis	ALCO	CMS001_032_Ra_S7	39756.0	Virus	Totiviridae	Mika virus	153	0.0019322329287852192	56.0	III	double stranded RNA	1
+Culex	tarsalis	ALCO	CMS001_027_Ra_S16	39756.0	Virus	Totiviridae	Mika virus	133	0.002164572618970119	56.0	III	double stranded RNA	1
+Culex	tarsalis	ALCO	CMS001_036_Ra_S20	39756.0	Virus	Totiviridae	Mika virus	58	0.00022605123568179782	56.0	III	double stranded RNA	1
+Culex	tarsalis	ALCO	CMS001_028_Ra_S17	39756.0	Virus	Totiviridae	Mika virus	46	0.0005226322486820578	56.0	III	double stranded RNA	1
+Culex	tarsalis	ALCO	CMS001_038_Ra_S22	39756.0	Virus	Totiviridae	Mika virus	22	0.00017202417721617967	56.0	III	double stranded RNA	1
+Culex	tarsalis	ALCO	CMS001_034_Ra_S19	39756.0	Virus	Totiviridae	Mika virus	9	8.434468862752449e-05	56.0	III	double stranded RNA	1
+Culex	tarsalis	ALCO	CMS001_031_Ra_S19	39756.0	Virus	Totiviridae	Gouley virus	146	0.0015536873470256467	57.0	III	double stranded RNA	1
 Culex	tarsalis	ALCO	CMS001_051_Ra_S8	39756.0	Virus	Totiviridae	39|Toti-like	4499	0.02373791735258115	39.0	III	double stranded RNA	1
 Culex	tarsalis	ALCO	CMS001_043_Ra_S24	39756.0	Virus	Totiviridae	39|Toti-like	616	0.008431887866841875	39.0	III	double stranded RNA	1
 Culex	tarsalis	ALCO	CMS001_027_Ra_S16	39756.0	Virus	Totiviridae	39|Toti-like	82	0.0013345485319966148	39.0	III	double stranded RNA	1
 Culex	tarsalis	ALCO	CMS001_032_Ra_S7	39756.0	Virus	Totiviridae	39|Toti-like	29	0.0003662402283318389	39.0	III	double stranded RNA	1
 Culex	tarsalis	ALCO	CMS001_039_Ra_S9	38144.0	Virus	Flaviviridae	Placeda virus	12696	0.11801450083658672	1.0	IV	single stranded RNA positive sense	1
 Culex	tarsalis	ALCO	CMS001_002_Ra_S1	38144.0	Virus	Flaviviridae	Placeda virus	1907	0.005298502693706535	1.0	IV	single stranded RNA positive sense	1
+Culex	tarsalis	ALCO	CMS001_039_Ra_S9	35303.0	Virus	Rhabdoviridae	Elisy virus	4383	0.040741773563859454	2.0	V	single stranded RNA negative sense	1
 Culex	tarsalis	ALCO	CMS001_031_Ra_S19	35303.0	Virus	Rhabdoviridae	30|Rhabdo-like	5392	0.05738001489837182	30.0	V	single stranded RNA negative sense	1
-Culex	tarsalis	ALCO	CMS001_039_Ra_S9	35303.0	Virus	Rhabdoviridae	2|Rhabdo-like	4383	0.040741773563859454	2.0	V	single stranded RNA negative sense	1
 Culex	quinquefasciatus	WVAL 	CMS002_046b_Rb_S192_L004	2562539.0	Virus	Narnaviridae	Culex narnavirus 1	56362	0.6260774904469919	493.0	IV	single stranded RNA positive sense	1
 Culex	quinquefasciatus	WVAL 	CMS002_046a_Rb_S191_L004	2562539.0	Virus	Narnaviridae	Culex narnavirus 1	41117	0.4963603220782984	493.0	IV	single stranded RNA positive sense	1
 Culex	quinquefasciatus	WVAL 	CMS002_027a_Rb_S152_L004	2562539.0	Virus	Narnaviridae	Culex narnavirus 1	17886	0.5544155481851152	493.0	IV	single stranded RNA positive sense	1
@@ -1230,23 +1230,23 @@ Culex	erythrothorax	WVAL 	CMS002_047g_Rb_S200_L004	1922928.0	Virus	Tombusviridae
 Culex	erythrothorax	WVAL 	CMS002_047a_Rb_S193_L004	1922928.0	Virus	Tombusviridae	Hubei mosquito virus 4	322	0.0029662383123762147	128.0	IV	single stranded RNA positive sense	1 or 2
 Culex	erythrothorax	WVAL 	CMS002_047c_Rb_S195_L004	1922928.0	Virus	Tombusviridae	Hubei mosquito virus 4	62	0.0005599508688269932	128.0	IV	single stranded RNA positive sense	1 or 2
 Culex	erythrothorax	WVAL 	CMS002_047g_Rb_S200_L004	1567403.0	Virus	Reoviridae	296|Reo-like	1159	0.009314174582509603	296.0	III	double stranded RNA	10-12
-Culex	erythrothorax	WVAL 	CMS002_028b_Rb_S155_L004	39756.0	Virus	Totiviridae	55|Toti-like	160	0.0015882627383634938	55.0	III	double stranded RNA	1
-Culex	erythrothorax	WVAL 	CMS002_047e_Rb_S197_L004	39756.0	Virus	Totiviridae	55|Toti-like	13	9.071560657339241e-05	55.0	III	double stranded RNA	1
+Culex	erythrothorax	WVAL 	CMS002_028b_Rb_S155_L004	39756.0	Virus	Totiviridae	Lotchka virus	160	0.0015882627383634938	55.0	III	double stranded RNA	1
+Culex	erythrothorax	WVAL 	CMS002_047e_Rb_S197_L004	39756.0	Virus	Totiviridae	Lotchka virus	13	9.071560657339241e-05	55.0	III	double stranded RNA	1
 Culex	erythrothorax	WVAL 	CMS002_047d_Rb_S196_L004	39756.0	Virus	Totiviridae	42|Toti-like	338	0.002211144692598553	42.0	III	double stranded RNA	1
 Culex	erythrothorax	WVAL 	CMS002_047g_Rb_S200_L004	39756.0	Virus	Totiviridae	42|Toti-like	292	0.002346625520356173	42.0	III	double stranded RNA	1
 Culex	erythrothorax	WVAL 	CMS002_047j_Rb_S3_L004	39756.0	Virus	Totiviridae	42|Toti-like	34	0.0002659096063755738	42.0	III	double stranded RNA	1
 Culex	erythrothorax	WVAL 	CMS002_047a_Rb_S193_L004	35303.0	Virus	Rhabdoviridae	4|Rhabdo-like	5728	0.052765879047487446	4.0	V	single stranded RNA negative sense	1
-Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2587553.0	Virus	Botourmiaviridae	9191|Botourmia-like	82	7.324920989114453e-05	9191.0	IV	single stranded RNA positive sense	3
-Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2587553.0	Virus	Botourmiaviridae	3061|Botourmia-like	102	9.111487084020417e-05	3061.0	IV	single stranded RNA positive sense	3
-Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2587553.0	Virus	Botourmiaviridae	1438|Botourmia-like	98	8.754173865039224e-05	1438.0	IV	single stranded RNA positive sense	3
-Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2587553.0	Virus	Botourmiaviridae	1399|Botourmia-like	66	5.895668113189682e-05	1399.0	IV	single stranded RNA positive sense	3
+Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2587553.0	Virus	Botourmiaviridae	Pikulas virus	102	9.111487084020417e-05	3061.0	IV	single stranded RNA positive sense	3
+Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2587553.0	Virus	Botourmiaviridae	Picullus virus	98	8.754173865039224e-05	1438.0	IV	single stranded RNA positive sense	3
+Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2587553.0	Virus	Botourmiaviridae	Patulas virus	82	7.324920989114453e-05	9191.0	IV	single stranded RNA positive sense	3
+Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2587553.0	Virus	Botourmiaviridae	Patollo virus	66	5.895668113189682e-05	1399.0	IV	single stranded RNA positive sense	3
 Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2562539.0	Virus	Narnaviridae	Culex narnavirus 1	24921	0.022261506825575768	493.0	IV	single stranded RNA positive sense	1
 Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2546221.0	Virus	Phasmaviridae	76|Phasma-like	49730	0.044422965949836794	76.0	V	single stranded RNA negative sense	3
 Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	2024603.0	Virus	Phenuiviridae	63|Phenui-like	357449	0.31930313202902094	63.0	V	single stranded RNA negative sense	3
 Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	1923335.0	Virus	Virgaviridae	Hubei virga-like virus 2	22384	0.019995247734187552	9.0	IV	single stranded RNA positive sense	1 or more
-Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	1629669.0	Virus	Botourmiaviridae	4269|Botourmia-like	73	6.520966246406768e-05	4269.0	IV	single stranded RNA positive sense	3
-Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	1629669.0	Virus	Botourmiaviridae	1479|Botourmia-like	172	0.00015364468416191292	1479.0	IV	single stranded RNA positive sense	3
-Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	39756.0	Virus	Totiviridae	55|Toti-like	4045	0.0036133299269473125	55.0	III	double stranded RNA	1
+Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	1629669.0	Virus	Botourmiaviridae	Poccolus virus	172	0.00015364468416191292	1479.0	IV	single stranded RNA positive sense	3
+Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	1629669.0	Virus	Botourmiaviridae	Pecols virus	73	6.520966246406768e-05	4269.0	IV	single stranded RNA positive sense	3
+Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	39756.0	Virus	Totiviridae	Lotchka virus	4045	0.0036133299269473125	55.0	III	double stranded RNA	1
 Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	39756.0	Virus	Totiviridae	42|Toti-like	1314	0.0011737739243532185	42.0	III	double stranded RNA	1
 Culex	erythrothorax	PLCR	CMS002_053a_Rb_S7_L004	35303.0	Virus	Rhabdoviridae	4|Rhabdo-like	6040	0.005395429606616012	4.0	V	single stranded RNA negative sense	1
 Culex	erythrothorax	ALCO	CMS001_021_Ra_S16	2651926.0	Virus	Solemoviridae	Marma virus	41158	0.17384803186524012	458.0	IV	single stranded RNA positive sense	1
@@ -1337,22 +1337,22 @@ Culex	erythrothorax	ALCO	CMS001_058_Ra_S9	137555.0	Virus	Tombusviridae	Erebo vir
 Culex	erythrothorax	ALCO	CMS001_052_Ra_S7	137555.0	Virus	Tombusviridae	Erebo virus	12	0.00027766208524226016	312.0	IV	single stranded RNA positive sense	1 or 2
 Culex	erythrothorax	ALCO	CMS001_022_Ra_S6	137555.0	Virus	Tombusviridae	88|Tombus-like	276	0.0017385498226805162	88.0	IV	single stranded RNA positive sense	1 or 2
 Culex	erythrothorax	ALCO	CMS001_001_Ra_S1	137555.0	Virus	Tombusviridae	88|Tombus-like	239	0.00036747182459754917	88.0	IV	single stranded RNA positive sense	1 or 2
-Culex	erythrothorax	ALCO	CMS001_050_Ra_S23	39756.0	Virus	Totiviridae	55|Toti-like	760	0.007919636530365554	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_057_Ra_S11	39756.0	Virus	Totiviridae	55|Toti-like	347	0.001982041674282581	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_021_Ra_S16	39756.0	Virus	Totiviridae	55|Toti-like	288	0.0012164884877105095	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_006_Ra_S5	39756.0	Virus	Totiviridae	55|Toti-like	285	0.002979644324561679	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_058_Ra_S9	39756.0	Virus	Totiviridae	55|Toti-like	280	0.0027488170269580415	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_013_Ra_S5	39756.0	Virus	Totiviridae	55|Toti-like	223	0.002491759316162914	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_020_Ra_S15	39756.0	Virus	Totiviridae	55|Toti-like	210	0.0005521462714351071	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_018_Ra_S14	39756.0	Virus	Totiviridae	55|Toti-like	203	0.003336565802665965	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_019_Ra_S14	39756.0	Virus	Totiviridae	55|Toti-like	165	0.002403741095231852	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_007_Ra_S12	39756.0	Virus	Totiviridae	55|Toti-like	138	0.003396421451600994	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_052_Ra_S7	39756.0	Virus	Totiviridae	55|Toti-like	132	0.003054282937664862	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_049_Ra_S6	39756.0	Virus	Totiviridae	55|Toti-like	101	0.0015971914732114617	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_010_Ra_S1	39756.0	Virus	Totiviridae	55|Toti-like	88	0.003142857142857143	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_037_Ra_S21	39756.0	Virus	Totiviridae	55|Toti-like	84	0.0008108655990269613	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_035_Ra_S20	39756.0	Virus	Totiviridae	55|Toti-like	42	0.00011923552991676225	55.0	III	double stranded RNA	1
-Culex	erythrothorax	ALCO	CMS001_053_Ra_S8	39756.0	Virus	Totiviridae	55|Toti-like	23	0.0005350579258363189	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_050_Ra_S23	39756.0	Virus	Totiviridae	Lotchka virus	760	0.007919636530365554	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_057_Ra_S11	39756.0	Virus	Totiviridae	Lotchka virus	347	0.001982041674282581	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_021_Ra_S16	39756.0	Virus	Totiviridae	Lotchka virus	288	0.0012164884877105095	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_006_Ra_S5	39756.0	Virus	Totiviridae	Lotchka virus	285	0.002979644324561679	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_058_Ra_S9	39756.0	Virus	Totiviridae	Lotchka virus	280	0.0027488170269580415	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_013_Ra_S5	39756.0	Virus	Totiviridae	Lotchka virus	223	0.002491759316162914	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_020_Ra_S15	39756.0	Virus	Totiviridae	Lotchka virus	210	0.0005521462714351071	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_018_Ra_S14	39756.0	Virus	Totiviridae	Lotchka virus	203	0.003336565802665965	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_019_Ra_S14	39756.0	Virus	Totiviridae	Lotchka virus	165	0.002403741095231852	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_007_Ra_S12	39756.0	Virus	Totiviridae	Lotchka virus	138	0.003396421451600994	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_052_Ra_S7	39756.0	Virus	Totiviridae	Lotchka virus	132	0.003054282937664862	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_049_Ra_S6	39756.0	Virus	Totiviridae	Lotchka virus	101	0.0015971914732114617	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_010_Ra_S1	39756.0	Virus	Totiviridae	Lotchka virus	88	0.003142857142857143	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_037_Ra_S21	39756.0	Virus	Totiviridae	Lotchka virus	84	0.0008108655990269613	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_035_Ra_S20	39756.0	Virus	Totiviridae	Lotchka virus	42	0.00011923552991676225	55.0	III	double stranded RNA	1
+Culex	erythrothorax	ALCO	CMS001_053_Ra_S8	39756.0	Virus	Totiviridae	Lotchka virus	23	0.0005350579258363189	55.0	III	double stranded RNA	1
 Culex	erythrothorax	ALCO	CMS001_057_Ra_S11	39756.0	Virus	Totiviridae	42|Toti-like	2139	0.012217830378358618	42.0	III	double stranded RNA	1
 Culex	erythrothorax	ALCO	CMS001_050_Ra_S23	39756.0	Virus	Totiviridae	42|Toti-like	1502	0.015651702721854028	42.0	III	double stranded RNA	1
 Culex	erythrothorax	ALCO	CMS001_011_Ra_S4	39756.0	Virus	Totiviridae	42|Toti-like	1429	0.009855036482255417	42.0	III	double stranded RNA	1

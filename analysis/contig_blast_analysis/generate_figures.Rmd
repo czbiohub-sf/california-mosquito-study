@@ -41,7 +41,7 @@ source("generate_figures_functions.R")
 # Metadata
 
 ```{r load_data, message=FALSE}
-metadata_file_path <- list.files(data_dir, "CMS001_CMS002_Merged", full.names = TRUE)
+metadata_file_path <- list.files(data_dir, "CMS001_CMS002_Merged", full.names = TRUE)[1]
 metadata <- read.csv(metadata_file_path, stringsAsFactors = FALSE) %>%
   mutate(collected_by=gsub(" ", "", collected_by)) %>%
   mutate(collection_date=as.Date(collection_date)) %>%

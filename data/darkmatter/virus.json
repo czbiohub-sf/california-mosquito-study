@@ -1022,7 +1022,7 @@
   "1249": {
     "family": "Narnaviridae",
     "name": "TBD",
-    "provisional_name": "1249|Narna-like",
+    "provisional_name": "Whakaata virus",
     "samples": [
       "CMS001_009_Ra_S13"
     ],
@@ -1468,7 +1468,7 @@
     "family": "Totiviridae",
     "name": "TBD",
     "partial": true,
-    "provisional_name": "1715|Toti-like",
+    "provisional_name": "Nuyav virus",
     "samples": [
       "CMS001_012_Ra_S4"
     ],
@@ -1494,7 +1494,7 @@
     "family": "Totiviridae",
     "name": "TBD",
     "partial": true,
-    "provisional_name": "19890|Toti-like",
+    "provisional_name": "Mughataa virus",
     "samples": [
       "CMS001_016_Ra_S6"
     ],
@@ -1598,7 +1598,7 @@
     "family": "Totiviridae",
     "name": "TBD",
     "partial": true,
-    "provisional_name": "22872|Toti-like",
+    "provisional_name": "Koroku virus",
     "samples": [
       "CMS002_020d_Rb_S134_L004"
     ],
@@ -1659,7 +1659,7 @@
   "24": {
     "family": "Iflaviridae",
     "name": "TBD",
-    "provisional_name": "24|Ifla-like",
+    "provisional_name": "Cafluga virus",
     "samples": [
       "CMS001_060_Ra_S12"
     ],
@@ -1684,7 +1684,7 @@
   "246": {
     "family": "Reoviridae",
     "name": "TBD",
-    "provisional_name": "246|Reo-like",
+    "provisional_name": "Lasigmu virus",
     "samples": [
       "CMS001_012_Ra_S4"
     ],
@@ -1709,7 +1709,7 @@
   "25": {
     "family": "Iflaviridae",
     "name": "TBD",
-    "provisional_name": "25|Ifla-like",
+    "provisional_name": "Calumiyane virus",
     "samples": [
       "CMS002_020a_Rb_S131_L004",
       "CMS002_020b_Rb_S132_L004",
@@ -1908,7 +1908,7 @@
   "2923": {
     "family": "Totiviridae",
     "name": "TBD",
-    "provisional_name": "2923|Toti-like",
+    "provisional_name": "Emileo virus",
     "samples": [
       "CMS001_005_Ra_S3"
     ],
@@ -1933,7 +1933,7 @@
   "296": {
     "family": "Reoviridae",
     "name": "TBD",
-    "provisional_name": "296|Reo-like",
+    "provisional_name": "Elemess virus",
     "samples": [
       "CMS001_001_Ra_S1",
       "CMS001_020_Ra_S15",
@@ -2090,7 +2090,7 @@
   "30": {
     "family": "Rhabdoviridae",
     "name": "TBD",
-    "provisional_name": "30|Rhabdo-like",
+    "provisional_name": "Canya virus",
     "partial": true,
     "samples": [
       "CMS001_031_Ra_S19",
@@ -2460,7 +2460,7 @@
   "39": {
     "family": "Totiviridae",
     "name": "TBD",
-    "provisional_name": "39|Toti-like",
+    "provisional_name": "Snelk virus",
     "samples": [
       "CMS001_027_Ra_S16",
       "CMS001_032_Ra_S7",
@@ -2494,7 +2494,7 @@
   "4": {
     "family": "Rhabdoviridae",
     "name": "TBD",
-    "provisional_name": "4|Rhabdo-like",
+    "provisional_name": "Stang virus",
     "samples": [
       "CMS001_015_Ra_S13",
       "CMS001_048_Ra_S5",
@@ -2541,7 +2541,7 @@
     "family": "Leviviridae",
     "name": "TBD",
     "partial": true,
-    "provisional_name": "416|Levi-like",
+    "provisional_name": "Ulae virus",
     "genetic_code": 11,
     "samples": [
       "CMS001_026_Ra_S18"
@@ -2573,7 +2573,7 @@
   "42": {
     "family": "Totiviridae",
     "name": "TBD",
-    "provisional_name": "42|Toti-like",
+    "provisional_name": "Tzifr virus",
     "samples": [
       "CMS001_001_Ra_S1",
       "CMS001_007_Ra_S12",
@@ -3440,7 +3440,7 @@
   "49": {
     "family": "Totiviridae",
     "name": "TBD",
-    "provisional_name": "49|Toti-like",
+    "provisional_name": "Stinn virus",
     "samples": [
       "CMS002_029d_Rb_S162_L004",
       "CMS002_031a_Rb_S165_L004"
@@ -3982,7 +3982,7 @@
     "family": "Totiviridae",
     "name": "TBD",
     "partial": true,
-    "provisional_name": "5308|Toti-like",
+    "provisional_name": "Gissa virus",
     "samples": [
       "CMS001_009_Ra_S13"
     ],
@@ -4369,7 +4369,7 @@
   "61": {
     "family": "Peribunyaviridae",
     "name": "TBD",
-    "provisional_name": "61|Peribunya-like",
+    "provisional_name": "Udune virus",
     "samples": [
       "CMS001_040_Ra_S21"
     ],
@@ -4420,7 +4420,7 @@
   "63": {
     "family": "Phenuiviridae",
     "name": "TBD",
-    "provisional_name": "63|Phenui-like",
+    "provisional_name": "Niwlog virus",
     "samples": [
       "CMS001_011_Ra_S4",
       "CMS001_013_Ra_S5",
@@ -4557,7 +4557,7 @@
     "family": "Peribunyaviridae",
     "name": "TBD",
     "partial": true,
-    "provisional_name": "6823|Peribunya-like",
+    "provisional_name": "Dumanli virus",
     "samples": [
       "CMS001_001_Ra_S1"
     ],
@@ -4793,7 +4793,7 @@
   "76": {
     "family": "Phasmaviridae",
     "name": "TBD",
-    "provisional_name": "76|Phasma-like",
+    "provisional_name": "Miglotas virus",
     "samples": [
       "CMS001_001_Ra_S1",
       "CMS001_011_Ra_S4",
@@ -5112,7 +5112,7 @@
   "88": {
     "family": "Tombusviridae",
     "name": "TBD",
-    "provisional_name": "88|Tombus-like",
+    "provisional_name": "Vai augu virus",
     "samples": [
       "CMS001_001_Ra_S1",
       "CMS001_022_Ra_S6"
@@ -5333,7 +5333,7 @@
   "98": {
     "family": "Luteoviridae",
     "name": "TBD",
-    "provisional_name": "98|Luteo-like",
+    "provisional_name": "Geolu virus",
     "samples": [
       "CMS001_060_Ra_S12"
     ],

@@ -5762,8 +5762,8 @@
               "read_count": 205279,
               "sample_count": 16
              },
-             "taxid": "76|Phasma-like",
-             "taxonomy": "76|Phasma-like"
+             "taxid": "Miglotas virus",
+             "taxonomy": "Miglotas virus"
             },
             {
              "attrs": {
@@ -5863,8 +5863,8 @@
               "read_count": 437625,
               "sample_count": 8
              },
-             "taxid": "63|Phenui-like",
-             "taxonomy": "63|Phenui-like"
+             "taxid": "Niwlog virus",
+             "taxonomy": "Niwlog virus"
             }
            ],
            "taxid": 1980418,
@@ -5985,8 +5985,8 @@
               "read_count": 75,
               "sample_count": 1
              },
-             "taxid": "6823|Peribunya-like",
-             "taxonomy": "6823|Peribunya-like"
+             "taxid": "Dumanli virus",
+             "taxonomy": "Dumanli virus"
             },
             {
              "attrs": {
@@ -5997,8 +5997,8 @@
               "read_count": 8395,
               "sample_count": 1
              },
-             "taxid": "61|Peribunya-like",
-             "taxonomy": "61|Peribunya-like"
+             "taxid": "Udune virus",
+             "taxonomy": "Udune virus"
             }
            ],
            "taxid": 1980416,
@@ -6160,8 +6160,8 @@
               "read_count": 61694,
               "sample_count": 15
              },
-             "taxid": "\u016asinis virus",
-             "taxonomy": "\u016asinis virus"
+             "taxid": "Usinis virus",
+             "taxonomy": "Usinis virus"
             }
            ],
            "taxid": 1299308,
@@ -6246,8 +6246,8 @@
                 "read_count": 13248,
                 "sample_count": 4
                },
-               "taxid": "4|Rhabdo-like",
-               "taxonomy": "4|Rhabdo-like"
+               "taxid": "Stang virus",
+               "taxonomy": "Stang virus"
               },
               {
                "attrs": {
@@ -6261,8 +6261,8 @@
                 "read_count": 21608,
                 "sample_count": 2
                },
-               "taxid": "30|Rhabdo-like",
-               "taxonomy": "30|Rhabdo-like"
+               "taxid": "Canya virus",
+               "taxonomy": "Canya virus"
               },
               {
                "attrs": {
@@ -6279,8 +6279,8 @@
                 "read_count": 93438,
                 "sample_count": 3
                },
-               "taxid": "2|Rhabdo-like",
-               "taxonomy": "2|Rhabdo-like"
+               "taxid": "Elisy virus",
+               "taxonomy": "Elisy virus"
               }
              ],
              "taxid": 11270,
@@ -6826,8 +6826,8 @@
             "read_count": 30224,
             "sample_count": 3
            },
-           "taxid": "1|Flavi-like",
-           "taxonomy": "1|Flavi-like"
+           "taxid": "Placeda virus",
+           "taxonomy": "Placeda virus"
           }
          ],
          "taxid": 11050,
@@ -6898,8 +6898,8 @@
               "read_count": 40486,
               "sample_count": 1
              },
-             "taxid": "24|Ifla-like",
-             "taxonomy": "24|Ifla-like"
+             "taxid": "Cafluga virus",
+             "taxonomy": "Cafluga virus"
             },
             {
              "attrs": {
@@ -6916,8 +6916,8 @@
               "read_count": 51675,
               "sample_count": 3
              },
-             "taxid": "25|Ifla-like",
-             "taxonomy": "25|Ifla-like"
+             "taxid": "Calumiyane virus",
+             "taxonomy": "Calumiyane virus"
             }
            ],
            "taxid": 699189,
@@ -7281,8 +7281,8 @@
               "read_count": 920,
               "sample_count": 1
              },
-             "taxid": "98|Luteo-like",
-             "taxonomy": "98|Luteo-like"
+             "taxid": "Geolu virus",
+             "taxonomy": "Geolu virus"
             }
            ],
            "taxid": 119163,
@@ -7381,8 +7381,8 @@
               "read_count": 515,
               "sample_count": 2
              },
-             "taxid": "88|Tombus-like",
-             "taxonomy": "88|Tombus-like"
+             "taxid": "Vai augu virus",
+             "taxonomy": "Vai augu virus"
             },
             {
              "attrs": {
@@ -7402,8 +7402,8 @@
               "read_count": 1015,
               "sample_count": 4
              },
-             "taxid": "312|Tombus-like",
-             "taxonomy": "312|Tombus-like"
+             "taxid": "Erebo virus",
+             "taxonomy": "Erebo virus"
             }
            ],
            "taxid": 39738,
@@ -7574,8 +7574,8 @@
               "read_count": 60,
               "sample_count": 1
              },
-             "taxid": "1249|Narna-like",
-             "taxonomy": "1249|Narna-like"
+             "taxid": "Whakaata virus",
+             "taxonomy": "Whakaata virus"
             }
            ],
            "taxid": 186766,
@@ -7597,8 +7597,8 @@
               "read_count": 234,
               "sample_count": 1
              },
-             "taxid": "416|Levi-like",
-             "taxonomy": "416|Levi-like"
+             "taxid": "Ulae virus",
+             "taxonomy": "Ulae virus"
             },
             {
              "attrs": {
@@ -7632,8 +7632,8 @@
               "read_count": 66,
               "sample_count": 1
              },
-             "taxid": "1399|Botourmia-like",
-             "taxonomy": "1399|Botourmia-like"
+             "taxid": "Patollo virus",
+             "taxonomy": "Patollo virus"
             },
             {
              "attrs": {
@@ -7644,8 +7644,8 @@
               "read_count": 82,
               "sample_count": 1
              },
-             "taxid": "9191|Botourmia-like",
-             "taxonomy": "9191|Botourmia-like"
+             "taxid": "Patulas virus",
+             "taxonomy": "Patulas virus"
             },
             {
              "attrs": {
@@ -7656,8 +7656,8 @@
               "read_count": 172,
               "sample_count": 1
              },
-             "taxid": "1479|Botourmia-like",
-             "taxonomy": "1479|Botourmia-like"
+             "taxid": "Poccolus virus",
+             "taxonomy": "Poccolus virus"
             },
             {
              "attrs": {
@@ -7668,8 +7668,8 @@
               "read_count": 98,
               "sample_count": 1
              },
-             "taxid": "1438|Botourmia-like",
-             "taxonomy": "1438|Botourmia-like"
+             "taxid": "Picullus virus",
+             "taxonomy": "Picullus virus"
             },
             {
              "attrs": {
@@ -7680,8 +7680,8 @@
               "read_count": 73,
               "sample_count": 1
              },
-             "taxid": "4269|Botourmia-like",
-             "taxonomy": "4269|Botourmia-like"
+             "taxid": "Pecols virus",
+             "taxonomy": "Pecols virus"
             },
             {
              "attrs": {
@@ -7692,8 +7692,8 @@
               "read_count": 102,
               "sample_count": 1
              },
-             "taxid": "3061|Botourmia-like",
-             "taxonomy": "3061|Botourmia-like"
+             "taxid": "Pikulas virus",
+             "taxonomy": "Pikulas virus"
             }
            ],
            "taxid": 2560063,
@@ -7943,8 +7943,8 @@
             "read_count": 10793,
             "sample_count": 2
            },
-           "taxid": "3256|Partiti-like",
-           "taxonomy": "3256|Partiti-like"
+           "taxid": "Nebet virus",
+           "taxonomy": "Nebet virus"
           },
           {
            "attrs": {
@@ -7982,8 +7982,8 @@
             "read_count": 614765,
             "sample_count": 10
            },
-           "taxid": "1636|Partiti-like",
-           "taxonomy": "1636|Partiti-like"
+           "taxid": "Nefer virus",
+           "taxonomy": "Nefer virus"
           },
           {
            "attrs": {
@@ -8024,8 +8024,8 @@
             "read_count": 5118,
             "sample_count": 11
            },
-           "taxid": "3110|Partiti-like",
-           "taxonomy": "3110|Partiti-like"
+           "taxid": "Netjeret virus",
+           "taxonomy": "Netjeret virus"
           }
          ],
          "taxid": 11012,
@@ -8062,8 +8062,8 @@
             "read_count": 197759,
             "sample_count": 6
            },
-           "taxid": "296|Reo-like",
-           "taxonomy": "296|Reo-like"
+           "taxid": "Elemess virus",
+           "taxonomy": "Elemess virus"
           },
           {
            "attrs": {
@@ -8086,8 +8086,8 @@
             "read_count": 983,
             "sample_count": 1
            },
-           "taxid": "246|Reo-like",
-           "taxonomy": "246|Reo-like"
+           "taxid": "Lasigmu virus",
+           "taxonomy": "Lasigmu virus"
           }
          ],
          "taxid": 10880,
@@ -8230,8 +8230,8 @@
               "read_count": 12059,
               "sample_count": 27
              },
-             "taxid": "42|Toti-like",
-             "taxonomy": "42|Toti-like"
+             "taxid": "Tzifr virus",
+             "taxonomy": "Tzifr virus"
             },
             {
              "attrs": {
@@ -8242,8 +8242,8 @@
               "read_count": 74,
               "sample_count": 1
              },
-             "taxid": "2923|Toti-like",
-             "taxonomy": "2923|Toti-like"
+             "taxid": "Emileo virus",
+             "taxonomy": "Emileo virus"
             },
             {
              "attrs": {
@@ -8308,8 +8308,8 @@
               "read_count": 7587,
               "sample_count": 19
              },
-             "taxid": "55|Toti-like",
-             "taxonomy": "55|Toti-like"
+             "taxid": "Lotchka virus",
+             "taxonomy": "Lotchka virus"
             },
             {
              "attrs": {
@@ -8320,8 +8320,8 @@
               "read_count": 86,
               "sample_count": 1
              },
-             "taxid": "5308|Toti-like",
-             "taxonomy": "5308|Toti-like"
+             "taxid": "Gissa virus",
+             "taxonomy": "Gissa virus"
             },
             {
              "attrs": {
@@ -8332,8 +8332,8 @@
               "read_count": 90,
               "sample_count": 1
              },
-             "taxid": "1715|Toti-like",
-             "taxonomy": "1715|Toti-like"
+             "taxid": "Nuyav virus",
+             "taxonomy": "Nuyav virus"
             },
             {
              "attrs": {
@@ -8344,8 +8344,8 @@
               "read_count": 29,
               "sample_count": 1
              },
-             "taxid": "19890|Toti-like",
-             "taxonomy": "19890|Toti-like"
+             "taxid": "Mughataa virus",
+             "taxonomy": "Mughataa virus"
             },
             {
              "attrs": {
@@ -8365,8 +8365,8 @@
               "read_count": 5226,
               "sample_count": 4
              },
-             "taxid": "39|Toti-like",
-             "taxonomy": "39|Toti-like"
+             "taxid": "Snelk virus",
+             "taxonomy": "Snelk virus"
             },
             {
              "attrs": {
@@ -8404,8 +8404,8 @@
               "read_count": 1218,
               "sample_count": 10
              },
-             "taxid": "56|Toti-like",
-             "taxonomy": "56|Toti-like"
+             "taxid": "Mika virus",
+             "taxonomy": "Mika virus"
             },
             {
              "attrs": {
@@ -8425,8 +8425,8 @@
               "read_count": 541,
               "sample_count": 4
              },
-             "taxid": "57|Toti-like",
-             "taxonomy": "57|Toti-like"
+             "taxid": "Gouley virus",
+             "taxonomy": "Gouley virus"
             },
             {
              "attrs": {
@@ -8440,8 +8440,8 @@
               "read_count": 173,
               "sample_count": 2
              },
-             "taxid": "6512|Toti-like",
-             "taxonomy": "6512|Toti-like"
+             "taxid": "Hagerguy virus",
+             "taxonomy": "Hagerguy virus"
             },
             {
              "attrs": {
@@ -8452,8 +8452,8 @@
               "read_count": 12,
               "sample_count": 1
              },
-             "taxid": "22872|Toti-like",
-             "taxonomy": "22872|Toti-like"
+             "taxid": "Koroku virus",
+             "taxonomy": "Koroku virus"
             },
             {
              "attrs": {
@@ -8467,8 +8467,8 @@
               "read_count": 453,
               "sample_count": 2
              },
-             "taxid": "49|Toti-like",
-             "taxonomy": "49|Toti-like"
+             "taxid": "Stinn virus",
+             "taxonomy": "Stinn virus"
             }
            ],
            "taxid": 11006,

@@ -1,0 +1,126 @@
+README.txt
+
+The file mosquito_genomes_20181207.fa.gz contains all mosquito sequences to be used for host subtraction
+All records downloaded and compiled on 12/7/2018 by Hanna Retallack
+
+
+Includes:
+
+1) All genome assemblies under taxid 7157 (Culicidae = mosquitoes) = 41 records, including multiple strains of 28 unique species (25 Anopheles, 1 Culex, 2 Aedes). Downloaded from NCBI Assemblies as GenBank Genomic FASTA latest, with standard RepeatMasker output (lower case); no other de-duplication performed. Within each record, contigs were concatenated (header lines removed) to improve speed of mapping for the purpose of host subtraction.
+
+GenBank assembly accession numbers / assembly file name:
+ 
+GCA_000004015.3_AaegL3_genomic.fna.gz
+GCA_000005575.1_AgamP3_genomic.fna.gz
+GCA_000150765.1_m5_genomic.fna.gz
+GCA_000150785.1_g4_genomic.fna.gz
+GCA_000209185.1_CulPip1.0_genomic.fna.gz
+GCA_000211455.3_A_darlingi_v1_genomic.fna.gz
+GCA_000300775.2_ASM30077v2_genomic.fna.gz
+GCA_000349025.1_Anop_mini_MINIMUS1_V1_genomic.fna.gz
+GCA_000349045.1_Anop_step_SDA-500_V1_genomic.fna.gz
+GCA_000349065.1_Anop_quad_QUAD4_A_V1_genomic.fna.gz
+GCA_000349085.1_Anop_fune_FUMOZ_V1_genomic.fna.gz
+GCA_000349105.1_Anop_epir_epiroticus2_V1_genomic.fna.gz
+GCA_000349125.2_Anop_albi_ALBI9_A_V2_genomic.fna.gz
+GCA_000349145.1_Anop_diru_WRAIR2_V1_genomic.fna.gz
+GCA_000349165.1_Anop_chri_ACHKN1017_V1_genomic.fna.gz
+GCA_000349185.1_Anop_arab_DONG5_A_V1_genomic.fna.gz
+GCA_000439205.1_Anili1_genomic.fna.gz
+GCA_000441895.2_AS2_genomic.fna.gz
+GCA_000472065.2_Anop_sine_SINENSIS_V1_genomic.fna.gz
+GCA_000473185.1_Anop_macu_maculatus3_V1_genomic.fna.gz
+GCA_000473375.1_Anop_culi_species_A-37_1_V1_genomic.fna.gz
+GCA_000473445.2_Anop_fara_FAR1_V2_genomic.fna.gz
+GCA_000473505.1_Anop_atro_EBRO_V1_genomic.fna.gz
+GCA_000473525.2_Anop_mela_CM1001059_A_V2_genomic.fna.gz
+GCA_000473845.2_Anop_meru_MAF_V1_genomic.fna.gz
+GCA_000956215.1_ASM95621v1_genomic.fna.gz
+GCA_000956255.1_ASM95625v1_genomic.fna.gz
+GCA_000956265.1_ASM95626v1_genomic.fna.gz
+GCA_000956275.1_ASM95627v1_genomic.fna.gz
+GCA_001014525.1_ASM101452v1_genomic.fna.gz
+GCA_001014885.1_ASM101488v1_genomic.fna.gz
+GCA_001444175.2_A.albopictus_v1.1_genomic.fna.gz
+GCA_001542645.1_ASM154264v1_genomic.fna.gz
+GCA_001574995.1_ASM157499v1_genomic.fna.gz
+GCA_001876365.2_canu_80X_arrow2.2_genomic.fna.gz
+GCA_002091835.1_ASM209183v1_genomic.fna.gz
+GCA_002091845.1_ASM209184v1_genomic.fna.gz
+GCA_002204515.1_AaegL5.0_genomic.fna.gz
+GCA_002846955.1_A_aquasalis_v1.0_genomic.fna.gz
+GCA_003448955.1_ASM344895v1_genomic.fna.gz
+GCA_003448975.1_ASM344897v1_genomic.fna.gz
+
+
+2) All mitochondrial genomes under taxid 7157 (Culicidae = mosquitoes) = 65 records. Downloaded from NCBI Genomes.
+
+NCBI Reference Sequence accession numbers and fasta header descriptions:
+
+>NC_037500.1 Sabethes glaucodaemon mitochondrion, complete genome
+>NC_037829.1 Anopheles pseudotibiamaculatus clone VP11 mitochondrion, complete genome
+>NC_037828.1 Culex brami clone VP09_116 mitochondrion, complete genome
+>NC_037827.1 Anopheles kompi clone SP69_22_5 mitochondrion, complete genome
+>NC_037826.1 Culex chidesteri clone SP67_5 mitochondrion, complete genome
+>NC_037825.1 Culex lygrus clone SP56_26 mitochondrion, complete genome
+>NC_037824.1 Anopheles pristinus clone SP53_100 mitochondrion, complete genome
+>NC_037822.1 Culex declarator clone SP36_100 mitochondrion, complete genome
+>NC_037821.1 Anopheles nr. costai SP02_17_3 clone SP02_17_3 mitochondrion, complete genome
+>NC_037820.1 Anopheles lutzii clone SP02_10_5 mitochondrion, complete genome
+>NC_037819.1 Culex bilineatus clone RS16_12 mitochondrion, complete genome
+>NC_037818.1 Anopheles fluminensis clone RJ04_1 mitochondrion, complete genome
+>NC_037817.1 Anopheles antunesi clone RJ03_11 mitochondrion, complete genome
+>NC_037816.1 Anopheles guarani clone PR29_08_8 mitochondrion, complete genome
+>NC_037814.1 Anopheles galvaoi clone PR19_2_101 mitochondrion, complete genome
+>NC_037813.1 Anopheles forattinii clone PNJ2 mitochondrion, complete genome
+>NC_037812.1 Culex mollis clone PA11_101 mitochondrion, complete genome
+>NC_037811.1 Anopheles nimbus clone PA10_109 mitochondrion, complete genome
+>NC_037810.1 Anopheles goeldii clone PA3_6_4 mitochondrion, complete genome
+>NC_037809.1 Culex bidens clone MS07_101 mitochondrion, complete genome
+>NC_037808.1 Anopheles strodei clone MG27_108 mitochondrion, complete genome
+>NC_037807.1 Anopheles argyritarsis clone MG25_4 mitochondrion, complete genome
+>NC_037804.1 Anopheles albertoi clone MG7_3_4 mitochondrion, complete genome
+>NC_037803.1 Anopheles gilesi clone GO54_101 mitochondrion, complete genome
+>NC_037802.1 Anopheles minor clone ES26_101 mitochondrion, complete genome
+>NC_037801.1 Anopheles striatus clone ES20_4_1 mitochondrion, complete genome
+>NC_037800.1 Anopheles triannulatus clone ES03_03_01 mitochondrion, complete genome
+>NC_037799.1 Anopheles lanei clone CJ02_5 mitochondrion, complete genome
+>NC_037798.1 Anopheles sawyeri clone CE17_14_100 mitochondrion, complete genome
+>NC_037797.1 Culex surinamensis clone CDC3_1 mitochondrion, complete genome
+>NC_037795.1 Anopheles evansae clone BA77_109 mitochondrion, complete genome
+>NC_037794.1 Anopheles costai clone BA21_1_2 mitochondrion, complete genome
+>NC_037793.1 Anopheles oswaldoi clone BA12_3_3 mitochondrion, complete genome
+>NC_037792.1 Anopheles atacamensis clone atacamensis mitochondrion, complete genome
+>NC_037791.1 Anopheles braziliensis clone AP21_39_4 mitochondrion, complete genome
+>NC_037790.1 Anopheles peryassui clone AP21_28_2 mitochondrion, complete genome
+>NC_037789.1 Anopheles intermedius clone AP17 mitochondrion, complete genome
+>NC_037788.1 Anopheles marajoara clone AP05 mitochondrion, complete genome
+>NC_037787.1 Anopheles benarrochi clone AC15_109 mitochondrion, complete genome
+>NC_037786.1 Anopheles rangeli clone AC01_10 mitochondrion, complete genome
+>NC_037499.1 Sabethes chloropterus mitochondrion, complete genome
+>NC_037498.1 Sabethes belisarioi mitochondrion, complete genome
+>NC_036008.1 Culex camposi isolate MS04_38 mitochondrion, complete genome
+>NC_036007.1 Culex usquatissimus isolate RO25_19 mitochondrion, complete genome
+>NC_036006.1 Culex coronator isolate RS10_109 mitochondrion, complete genome
+>NC_036005.1 Culex usquatus isolate SP29_156 mitochondrion, complete genome
+>NC_030718.1 Anopheles albitarsis F mitochondrion, complete genome
+>NC_030717.1 Anopheles janconnae mitochondrion, complete genome
+>NC_030716.1 Anopheles albitarsis G mitochondrion, complete genome
+>NC_030715.1 Anopheles oryzalimnetes mitochondrion, complete genome
+>NC_030250.1 Anopheles laneanus isolate SP52_103, LabID 11_162 mitochondrion, complete genome
+>NC_030249.1 Anopheles bellator isolate SP24_3_1, LabID 2-140 mitochondrion, complete genome
+>NC_030248.1 Anopheles homunculus isolate BA22_32, LabID 5_86 mitochondrion, complete genome
+>NC_000875.1 Anopheles quadrimaculatus A mitochondrion, complete genome
+>NC_028616.1 Culex tritaeniorhynchus mitochondrion, complete genome
+>NC_028025.1 Haemagogus janthinomys mitochondrion, complete genome
+>NC_027502.1 Anopheles culicifacies B mitochondrion, complete genome
+>NC_027494.1 Ochlerotatus vigilax isolate Mi140 mitochondrion, complete genome
+>NC_025473.1 Aedes notoscriptus isolate MC04 mitochondrion, complete genome
+>NC_024740.1 Anopheles cruzii mitochondrion, complete genome
+>NC_020769.1 Anopheles hinesorum isolate ESP039 mitochondrion, complete genome
+>NC_020663.1 Anopheles deaneorum mitochondrion, complete genome
+>NC_020662.1 Anopheles albitarsis mitochondrion, complete genome
+>NC_015079.1 Culex pipiens pipiens mitochondrion, complete genome
+
+
+3) Drosophila melanogaster genome: GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna.gz

@@ -5,6 +5,7 @@ Mosquitoes are a disease vector with a complex ecology involving interactions be
 # Citation 
 Joshua Batson, Gytis Dudas, Eric Haas-Stapleton, Amy L Kistler, Lucy M Li, Phoenix Logan, Kalani Ratnasiri, and Hanna Retallack. Single mosquito metatranscriptomics identifies vectors, emerging pathogens and reservoirs in one assay. eLife 2021;10:e68353 DOI: 10.7554/eLife.68353
 
+https://elifesciences.org/articles/68353
 
 ## Code
 
